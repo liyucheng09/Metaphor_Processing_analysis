@@ -1,0 +1,77 @@
+####################
+#
+# Example Job for HTCondor
+#
+####################
+
+#---------------------------------------------
+# Name your batch so it's easy to distinguish in the q.
+JobBatchName = "RUN GLUE"
+
+# --------------------------------------------
+
+model_name = roberta-base
+save_folder = /vol/research/nlg/mpa/glue
+vua_validation = /vol/research/nlg/mpa/glue_val/$(task_name)
+
+# Executable and its arguments
+executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
+arguments     = $ENV(HOME)/mpa/run_glue.py \
+  --model_name_or_path $(model_name) \
+  --task_name $(task_name) \
+  --do_train \
+  --do_eval \
+  --max_seq_length 128 \
+  --per_device_train_batch_size 32 \
+  --learning_rate 2e-5 \
+  --num_train_epochs 3 \
+  --output_dir $(save_folder)
+
+# ---------------------------------------------------
+# Universe (vanilla, docker)
+universe         = docker
+docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
+
+# -------------------------------------------------
+# Event, out and error logs
+log    = c$(cluster).p$(process).$(task_name).$(model_name).log
+output = c$(cluster).p$(process).$(task_name).$(model_name).out
+error  = c$(cluster).p$(process).$(task_name).$(model_name).error
+
+# -----------------------------------
+# File Transfer, Input, Output
+should_transfer_files = YES
+
+# Make certain project spaces available in container
+# environment = "mount=$ENV(HOME)"
+# environment = "mount=$ENV(HOME),/vol/research/nlg,/vol/research/lyc_d"
+environment = "mount=/vol/research/nlg,/vol/research/lyc_d"
+# environment = "mount='/vol/research/nlg'"
+# environment = "mount='/vol/research/lyc_d'"
+
+# -------------------------------------
+# Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
+# NOTE: HasStornext is not valid on orca.
+requirements = (CUDAGlobalMemoryMb > 8000) && (CUDAGlobalMemoryMb <  25000) && \
+#              (HasStornext) && \
+			   (CUDACapability > 2.0) && (CUDACapability < 8.0)
+
+# --------------------------------------
+# Resources
+request_GPUs     = 1
+# this needs to be specified for the AI@Surrey cluster if requesting a GPU
++GPUMem          = 10000
+request_CPUs     = 1
+request_memory   = 8G
+
+#This job will complete in less than 1 hour
++JobRunTime = 5
+
+#This job can checkpoint
++CanCheckpoint = true
+
+# -----------------------------------
+# Queue commands
+# queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
+queue 1 task_name in cola
+
