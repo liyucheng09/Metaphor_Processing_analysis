@@ -23,9 +23,9 @@ def data_preprocess(examples, col):
     return result
 
 if __name__ == '__main__':
-    model_name, task_name = sys.argv[1:]
-    # save_folder = '/vol/research/nlg/cmpa/'
-    save_folder = './'
+    model_name, task_name, save_folder = sys.argv[1:]
+    # save_folder = '/vol/research/nlg/mpa/'
+    # save_folder = './'
 
     output_dir = os.path.join(save_folder, f'glue/{task_name}')
     logging_dir = os.path.join(save_folder, 'logs/')

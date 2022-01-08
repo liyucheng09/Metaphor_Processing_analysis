@@ -1,2 +1,6 @@
 .vscode
 glue/
+lyc/
+*.error
+*.log
+*.out
