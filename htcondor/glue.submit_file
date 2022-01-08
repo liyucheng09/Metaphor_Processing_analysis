@@ -11,7 +11,7 @@ JobBatchName = "RUN GLUE"
 # --------------------------------------------
 
 model_name = roberta-base
-save_folder = /vol/research/nlg/mpa/glue
+save_folder = /vol/research/nlg/mpa/glue/$(task_name)
 vua_validation = /vol/research/nlg/mpa/glue_val/$(task_name)
 
 # Executable and its arguments
@@ -26,6 +26,7 @@ arguments     = $ENV(HOME)/mpa/run_glue.py \
   --learning_rate 2e-5 \
   --num_train_epochs 3 \
   --output_dir $(save_folder)
+  --save_strategy no
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
