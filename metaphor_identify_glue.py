@@ -37,7 +37,7 @@ if __name__ == '__main__':
     col1, col2 = task_to_keys[task_name]
     ds1 = ds.map(data_preprocess, fn_kwargs={'col':col1}, remove_columns=ds.column_names)
     if col2 is not None:
-        ds2 = ds.map(data_preprocess, fn_kwargs={'col':col2})
+        ds2 = ds.map(data_preprocess, fn_kwargs={'col':col2}, remove_columns=ds.column_names)
     
     data_collator = DataCollatorForTokenClassification(tokenizer, max_length=128)
     model = get_model(RobertaForTokenClassification, model_name, num_labels=2)

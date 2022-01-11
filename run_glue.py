@@ -22,6 +22,8 @@ import random
 import sys
 from dataclasses import dataclass, field
 from typing import Optional
+import pandas as pd
+from sklearn.metrics import accuracy_score
 
 import numpy as np
 from datasets import load_dataset, load_metric, load_from_disk
@@ -176,6 +178,13 @@ class ModelArguments:
         },
     )
 
+def get_vua_label(x, vua_cols):
+    num_metaphor = 0
+    all = 0
+    for col in vua_cols:
+        all += len(x[col])-2
+        num_metaphor += sum(x[col][1:-1])
+    return num_metaphor / all
 
 def main():
     # See all possible arguments in src/transformers/training_args.py
@@ -494,11 +503,32 @@ def main():
             # trainer.save_metrics("eval", metrics)
             predictions = trainer.predict(eval_dataset)
             pred = predictions.predictions
-            labels = predictions.label_ids
-            
             pred = np.squeeze(pred) if is_regression else np.argmax(pred, axis=1)
-            print('Pred: ', pred.shape)
-            print('Label: ', labels.shape)
+            labels = predictions.label_ids
+
+            df = vua_validation.to_pandas()
+            vua_cols = [i for i in df.columns if 'vua' in i]
+            vua_labels = df[vua_cols].apply(get_vua_label, axis=1, args=(vua_cols,))
+            
+            output_eval_label_and_vua_label = os.path.join(training_args.output_dir, f"vua_and_result_{task}.tsv")
+            if trainer.is_world_process_zero():
+                with open(output_eval_label_and_vua_label, "w") as writer:
+                    logger.info(f"***** Eval results {task} *****")
+                    writer.write("index\tprediction\tvua_label\n")
+                    for index, (p, l, v) in enumerate(zip(pred, labels, vua_labels)):
+                        if is_regression:
+                            writer.write(f"{index}\t{p:3.3f}\t{l:3.3f}\t{v:3.3f}\n")
+                        else:
+                            p_item = label_list[p]
+                            l_item = label_list[l]
+                            writer.write(f"{index}\t{p_item}\t{l_item}\t{v:3.3f}\n")
+
+            print(f'Successfully saved at {output_eval_label_and_vua_label}')
+            if not is_regression:
+                results = {'pred': pred, 'labels':labels, 'vua':vua_labels}
+                results = pd.DataFrame(results)
+                print('ACC for non metaphor: ', accuracy_score(results[results['vua']==0]['labels'], results[results['vua']==0]['pred']))
+                print('ACC for metaphor: ', accuracy_score(results[results['vua']>0]['labels'], results[results['vua']>0]['pred']))
 
             
     if training_args.do_predict:
