@@ -1,8 +1,8 @@
 .vscode
-glue/
 lyc/
 *.error
 *.log
 *.out
 glue_val.zip
 glue_val/
+.DS_Store

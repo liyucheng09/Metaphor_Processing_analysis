@@ -514,7 +514,7 @@ def main():
             if trainer.is_world_process_zero():
                 with open(output_eval_label_and_vua_label, "w") as writer:
                     logger.info(f"***** Eval results {task} *****")
-                    writer.write("index\tprediction\tvua_label\n")
+                    writer.write("index\tprediction\tlabel\tvua_label\n")
                     for index, (p, l, v) in enumerate(zip(pred, labels, vua_labels)):
                         if is_regression:
                             writer.write(f"{index}\t{p:3.3f}\t{l:3.3f}\t{v:3.3f}\n")
