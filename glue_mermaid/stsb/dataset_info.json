@@ -1,0 +1,100 @@
+{
+  "builder_name": "glue",
+  "citation": "@article{cer2017semeval,\n  title={Semeval-2017 task 1: Semantic textual similarity-multilingual and cross-lingual focused evaluation},\n  author={Cer, Daniel and Diab, Mona and Agirre, Eneko and Lopez-Gazpio, Inigo and Specia, Lucia},\n  journal={arXiv preprint arXiv:1708.00055},\n  year={2017}\n}\n@inproceedings{wang2019glue,\n  title={{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.},\n  note={In the Proceedings of ICLR.},\n  year={2019}\n}\n",
+  "config_name": "stsb",
+  "dataset_size": 1140853,
+  "description": "GLUE, the General Language Understanding Evaluation benchmark\n(https://gluebenchmark.com/) is a collection of resources for training,\nevaluating, and analyzing natural language understanding systems.\n\n",
+  "download_checksums": {
+    "https://dl.fbaipublicfiles.com/glue/data/STS-B.zip": {
+      "num_bytes": 802872,
+      "checksum": "e60a6393de5a8b5b9bac5020a1554b54e3691f9d600b775bd131e613ac179c85"
+    }
+  },
+  "download_size": 802872,
+  "features": {
+    "sentence1": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence2": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "float32",
+      "id": null,
+      "_type": "Value"
+    },
+    "idx": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence1_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "sentence2_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "sentence1_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence2_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 1943725,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 754799,
+      "num_examples": 5749,
+      "dataset_name": "glue"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 216072,
+      "num_examples": 1500,
+      "dataset_name": "glue"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 169982,
+      "num_examples": 1379,
+      "dataset_name": "glue"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "1.0.0",
+    "description": "",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

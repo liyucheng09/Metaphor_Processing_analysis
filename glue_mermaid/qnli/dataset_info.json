@@ -1,0 +1,105 @@
+{
+  "builder_name": "glue",
+  "citation": "@article{rajpurkar2016squad,\n  title={Squad: 100,000+ questions for machine comprehension of text},\n  author={Rajpurkar, Pranav and Zhang, Jian and Lopyrev, Konstantin and Liang, Percy},\n  journal={arXiv preprint arXiv:1606.05250},\n  year={2016}\n}\n@inproceedings{wang2019glue,\n  title={{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.},\n  note={In the Proceedings of ICLR.},\n  year={2019}\n}\n",
+  "config_name": "qnli",
+  "dataset_size": 28353944,
+  "description": "GLUE, the General Language Understanding Evaluation benchmark\n(https://gluebenchmark.com/) is a collection of resources for training,\nevaluating, and analyzing natural language understanding systems.\n\n",
+  "download_checksums": {
+    "https://dl.fbaipublicfiles.com/glue/data/QNLIv2.zip": {
+      "num_bytes": 10627589,
+      "checksum": "e634e78627a29adaecd4f955359b22bf5e70f2cbd93b493f2d624138a0c0e5f5"
+    }
+  },
+  "download_size": 10627589,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 2,
+      "names": [
+        "entailment",
+        "not_entailment"
+      ],
+      "names_file": null,
+      "id": null,
+      "_type": "ClassLabel"
+    },
+    "idx": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    },
+    "question_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "sentence_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "question_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://rajpurkar.github.io/SQuAD-explorer/",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 38981533,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 25612531,
+      "num_examples": 104743,
+      "dataset_name": "glue"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1368312,
+      "num_examples": 5463,
+      "dataset_name": "glue"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1373101,
+      "num_examples": 5463,
+      "dataset_name": "glue"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "1.0.0",
+    "description": "",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

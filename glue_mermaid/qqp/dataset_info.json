@@ -1,0 +1,105 @@
+{
+  "builder_name": "glue",
+  "citation": "@online{WinNT,\n  author = {Iyer, Shankar and Dandekar, Nikhil and Csernai, Kornel},\n  title = {First Quora Dataset Release: Question Pairs},\n  year = {2017},\n  url = {https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs},\n  urldate = {2019-04-03}\n}\n@inproceedings{wang2019glue,\n  title={{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.},\n  note={In the Proceedings of ICLR.},\n  year={2019}\n}\n",
+  "config_name": "qqp",
+  "dataset_size": 111726341,
+  "description": "GLUE, the General Language Understanding Evaluation benchmark\n(https://gluebenchmark.com/) is a collection of resources for training,\nevaluating, and analyzing natural language understanding systems.\n\n",
+  "download_checksums": {
+    "https://dl.fbaipublicfiles.com/glue/data/QQP-clean.zip": {
+      "num_bytes": 41696084,
+      "checksum": "40e7c862c04eb26ee04b67fd900e76c45c6ba8e6d8fab4f8f1f8072a1a3fbae0"
+    }
+  },
+  "download_size": 41696084,
+  "features": {
+    "question1": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "question2": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 2,
+      "names": [
+        "not_duplicate",
+        "duplicate"
+      ],
+      "names_file": null,
+      "id": null,
+      "_type": "ClassLabel"
+    },
+    "idx": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    },
+    "question1_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "question2_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "question1_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "question2_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 153422425,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 50901116,
+      "num_examples": 363846,
+      "dataset_name": "glue"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 5653794,
+      "num_examples": 40430,
+      "dataset_name": "glue"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 55171431,
+      "num_examples": 390965,
+      "dataset_name": "glue"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "1.0.0",
+    "description": "",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "builder_name": "glue",
+  "citation": "@inproceedings{levesque2012winograd,\n  title={The winograd schema challenge},\n  author={Levesque, Hector and Davis, Ernest and Morgenstern, Leora},\n  booktitle={Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning},\n  year={2012}\n}\n@inproceedings{wang2019glue,\n  title={{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.},\n  note={In the Proceedings of ICLR.},\n  year={2019}\n}\n",
+  "config_name": "wnli",
+  "dataset_size": 157184,
+  "description": "GLUE, the General Language Understanding Evaluation benchmark\n(https://gluebenchmark.com/) is a collection of resources for training,\nevaluating, and analyzing natural language understanding systems.\n\n",
+  "download_checksums": {
+    "https://dl.fbaipublicfiles.com/glue/data/WNLI.zip": {
+      "num_bytes": 28999,
+      "checksum": "ae0e8e4d16f4d46d4a0a566ec7ecceccfd3fbfaa4a7a4b4e02848c0f2561ac46"
+    }
+  },
+  "download_size": 28999,
+  "features": {
+    "sentence1": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence2": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 2,
+      "names": [
+        "not_entailment",
+        "entailment"
+      ],
+      "names_file": null,
+      "id": null,
+      "_type": "ClassLabel"
+    },
+    "idx": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence1_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "sentence2_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "sentence1_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "sentence2_mermaid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 186183,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 107117,
+      "num_examples": 635,
+      "dataset_name": "glue"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 12170,
+      "num_examples": 71,
+      "dataset_name": "glue"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 37897,
+      "num_examples": 146,
+      "dataset_name": "glue"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "1.0.0",
+    "description": "",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
