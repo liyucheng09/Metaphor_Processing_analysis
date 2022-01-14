@@ -1,0 +1,37 @@
+Unable to find image 'nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04' locally
+10.2-cudnn7-runtime-ubuntu16.04: Pulling from nvidia/cuda
+58690f9b18fc: Already exists
+b51569e7c507: Already exists
+da8ef40b9eca: Already exists
+fb15d46c38dc: Already exists
+55384029ade9: Pulling fs layer
+8b5a77227df9: Pulling fs layer
+143b24164564: Pulling fs layer
+7eeff7b3e27b: Pulling fs layer
+ed45d15a50c0: Pulling fs layer
+b00cae08130f: Pulling fs layer
+9f6b5d416eb7: Pulling fs layer
+7eeff7b3e27b: Waiting
+9f6b5d416eb7: Waiting
+ed45d15a50c0: Waiting
+b00cae08130f: Waiting
+143b24164564: Download complete
+55384029ade9: Verifying Checksum
+55384029ade9: Download complete
+8b5a77227df9: Verifying Checksum
+8b5a77227df9: Download complete
+7eeff7b3e27b: Download complete
+b00cae08130f: Download complete
+55384029ade9: Pull complete
+8b5a77227df9: Pull complete
+143b24164564: Pull complete
+7eeff7b3e27b: Pull complete
+9f6b5d416eb7: Verifying Checksum
+9f6b5d416eb7: Download complete
+ed45d15a50c0: Verifying Checksum
+ed45d15a50c0: Download complete
+ed45d15a50c0: Pull complete
+b00cae08130f: Pull complete
+9f6b5d416eb7: Pull complete
+Digest: sha256:2007a07970e6dcba0301cd4eca7397816778808e5297afca2398ff1767ac037a
+Status: Downloaded newer image for nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04

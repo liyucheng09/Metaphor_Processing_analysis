@@ -13,9 +13,10 @@ if sys.version_info < (3, 6):
     sys.exit('Sorry, Python >= 3.6 is required for fairseq.')
 
 
-with open('README.md') as f:
-    readme = f.read()
+# with open('README.md') as f:
+#     readme = f.read()
 
+readme=''
 
 if sys.platform == 'darwin':
     extra_compile_args = ['-stdlib=libc++', '-O3']

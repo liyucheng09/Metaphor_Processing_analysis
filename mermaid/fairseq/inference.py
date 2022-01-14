@@ -8,9 +8,7 @@ import torch
 from fairseq.models.bart import BARTModel
 from fairseq.models.roberta import RobertaModel
 import numpy as np
-os.environ['CUDA_VISIBLE_DEVICES']="3"
-
-
+os.environ['CUDA_VISIBLE_DEVICES']="0"
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--infile', type=str, default='./metatest.source', help='input file')
@@ -21,6 +19,8 @@ parser.add_argument('--batch_size', type=int, default=1)
 parser.add_argument('--dedup', action='store_false')
 parser.add_argument('--banned_tok', nargs='+', default=["[", " [", "UN", " UN"], help="tokens to prevent generating")
 parser.add_argument('--max_len', type=int, default=250, help="max length of generation in BPE tok") 
+parser.add_argument('--bart', type=str, help='bart model path')
+parser.add_argument('--bart_data_path', type=str, help='bart data path')
 
 
 def load_scorers(filepath):
@@ -40,9 +40,9 @@ args = parser.parse_args()
 use_cuda = torch.cuda.is_available()
 
 bart = BARTModel.from_pretrained(
-    '/lfs1/tuhin/fairseq/checkpoint-metaphor/',
+    args.bart,
     checkpoint_file='checkpoint_best.pt',
-    data_name_or_path='/lfs1/tuhin/fairseq/metaphor'
+    data_name_or_path=args.bart_data_path
 )
 
 bart.cuda()
@@ -53,8 +53,6 @@ torch.manual_seed(4)
 #if use_cuda:
 #    bart.cuda() # remove this line if not running with cuda
     #bart.half() # doesn't work with CPU
-
-
 
 
 ### load discriminators
@@ -89,7 +87,7 @@ banned_verbs, banned_ids = [], []
 print(coefs)
 
 val = 5
-with open(args.infile, 'r') as fin, open(args.outfile, 'w') as fout:
+with open(args.infile, 'r', encoding='utf-8') as fin, open(args.outfile, 'w', encoding='utf-8') as fout:
     sline = fin.readline().strip()
     slines = [sline]
     print("Example Data: {}".format(sline.strip()))

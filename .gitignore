@@ -6,3 +6,6 @@ lyc/
 glue_val.zip
 glue_val/
 .DS_Store
+*.so
+*.out
+__pycache__/
