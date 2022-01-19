@@ -13,8 +13,8 @@ JobBatchName = "MERMAID"
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
 arguments     = $ENV(HOME)/mpa/mermaid/fairseq/inference.py \
-  --infile $ENV(HOME)/mpa/mermaid/data/val.source \
-  --outfile $ENV(HOME)/mpa/mermaid/metaphor_generated.val \
+  --infile $ENV(HOME)/mpa/glue_mermaid/mermaid_input/$(input_file) \
+  --outfile $ENV(HOME)/mpa/glue_mermaid/mermaid_output/$SUBSTR(input_file, 0, -5).output \
   --apply_disc \
   --scorers $ENV(HOME)/mpa/mermaid/fairseq/WP_scorers.tsv \
   --bart /vol/research/nlg/mermaid/checkpoint-metaphor \
@@ -65,5 +65,5 @@ request_memory   = 8G
 
 # -----------------------------------
 # Queue commands
-queue 1 
+queue 1 input_file in cola_sentence.input, mrpc_sentence1.input, mrpc_sentence2.input, qnli_question.input, qnli_sentence.input, qqp_question1.input, qqp_question2.input, rte_sentence1.input, rte_sentence2.input, sst2_sentence.input, stsb_sentence1.input, stsb_sentence2.input, wnli_sentence1.input, wnli_sentence2.input
 
