@@ -1,0 +1,172 @@
+metaphor	metaphor_symbol	literal	literal_symbol	bleu_score
+Her husband often abuses alcohol.	['infidelity', 'violence', 'abuse', 'divorce', 'alcoholic lifestyle']	Her husband often drinks alcohol.	['infidelity', 'marriage', 'drunkenness', 'love', 'divorce']	0.3333333333333333
+Inheritance may not ascend linearly.	['wealth', 'poverty', 'selfishness', 'fortune', 'sin']	Inheritance may not pass on linearly.	['wealth', 'longevity', 'fortune', 'poverty', 'family history']	0.49123845184678916
+He blazed away at the men.	['masculinity', 'passion', 'war', 'love', 'man']	He shot away at the men.	['war', 'violence', 'danger', 'stupidity', 'hatred']	0.2
+The spaceship blazed out into space.	['destruction', 'hope', 'space', 'danger', 'freedom']	The spaceship departed out into space.	['space', 'freedom', 'danger', 'hope', 'departure']	0.8
+The Senator blistered the administration in his speech on Friday.	0	The Senator criticized the administration in his speech on Friday.	0	
+The tax cut will boost the economy.	['wealth', 'prosperity', 'economic growth', 'economy', 'good economy']	The tax cut will improve the economy.	['wealth', 'prosperity', 'good life', 'economic growth', 'economy']	0.8571428571428571
+She circulates among royalty.	['royalty', 'wealth', 'power', 'status', 'monarchy']	She appears among royalty.	['wealth', 'royalty', 'wealth and power', 'status', 'wealth and status']	0.35946317129377736
+Their faces were clouded with sadness.	['loss', 'sorrow', 'sadness', 'despair', 'grief']	Their faces were marked with sadness.	['loss', 'sorrow', 'sadness', 'life', 'despair']	0.8
+The stroke clouded memories of her youth.	['youth', 'childhood', 'love', 'innocence', 'life']	The stroke impaired memories of her youth.	['youth', 'childhood', 'life', 'good life', 'past']	0.49123845184678916
+She designed to go far in the world of business.	0	She intended to go far in the world of business.	0	
+Life in the camp drained him.	['life', 'despair', 'death', 'loneliness', 'rest']	Life in the camp weakened him.	['despair', 'defeat', 'strength', 'death', 'pain']	0.4
+The exercise class drains me of energy.	['tiredness', 'fatigue', 'laziness', 'stress', 'health']	The exercise class depletes me of energy.	['fatigue', 'tiredness', 'laziness', 'loss', 'health']	0.8
+One should not exhaust one's savings.	['wealth', 'success', 'good fortune', 'debt', 'poverty']	One should not use up one's savings.	['poverty', 'debt', 'wealth', 'selfishness', 'life']	0.5
+We have exhausted the food supplies.	['hunger', 'starvation', 'defeat', 'we d', 'conserve energy']	We have used up the food supplies.	['we d', 'conserve resource', 'rationing', 'hunger', 'conserve']	0.5714285714285714
+Many of the laboratory animals express the trait.	['animal', 'animal life', 'intelligence', 'knowledge', 'evolution']	Many of the laboratory animals have the trait.	['animal', 'similarity', 'evolution', 'intelligence', 'dna']	0.5
+They fastened various nicknames to each other.	['individuality', 'good luck', 'geek', 'individualism', 'friendship']	They gave various nicknames to each other.	['individuality', 'good luck', 'love', 'friendship', 'person']	0.6666666666666666
+These events could fracture the balance of power.	['power', 'world economy', 'nation', 'country', 'world']	These events could destroy the balance of power.	['power', 'world economy', 'democracy', 'peace', 'world']	0.6666666666666666
+This writer really fractures the language.	['language', 'knowledge', 'idea', 'human language', 'life']	This writer really misuses the language.	['language', 'knowledge', 'genius', 'creativity', 'person']	0.3333333333333333
+I gather you have not done your homework.	['laziness', 'your ignorance', 'class', 'fail', 'failure']	I infer you have not done your homework.	['fail', 'knowledge', 'math', 'failure', 'class']	0.5
+This vaccine will guard you against infection.	['disease', 'malignant tumor', 'infection', 'illness', 'hiv']	This vaccine will protect you against infection.	['disease', 'infection', 'illness', 'virus', 'hiv']	0.6666666666666666
+Tears guttered down her face.	['sadness', 'sorrow', 'pain', 'heartache', 'loss']	Tears ran down her face.	['loss', 'sadness', 'pain', 'sorrow', 'heartache']	1.0
+The fate of Bosnia lies in the hands of the West.	0	The fate of Bosnia is in the hands of the West.	0	
+He locked his hands around her neck.	['love', 'passion', 'fear', 'life', 'power']	He encircled his hands around her neck.	['love', 'love and commitment', 'love and acceptance', 'passion', 'life']	0.269597378470333
+They were locked in embrace.	['love', 'passion', 'love and passion', 'love and commitment', 'love and desire']	They were together in embrace.	['love', 'togetherness', 'love and commitment', 'love and passion', 'passion']	0.7272727272727273
+He was locked in a laughing fit.	['laughter', 'pain', 'happiness', 'stupidity', 'humor']	He was overwhelmed in a laughing fit.	['happiness', 'joy', 'laughter', 'love', 'good']	0.4
+The new moon peeped through the tree tops.	['new year', 'celebration', 'spring', 'life', 'hope']	The new moon appeared through the tree tops.	['new year', 'celebration', 'spring', 'zodiac', 'hope']	0.8333333333333334
+The hikers did not manage to penetrate the dense forest.	0	The hikers did not manage to advance into the dense forest.	0	
+The cold pierced her bones.	['pain', 'death', 'fear', 'loneliness', 'life']	The cold affected her bones.	['winter', 'cold', 'death', 'life', 'pain']	0.6
+The scream pierced the night.	['terror', 'pain', 'death', 'nightmare', 'fear']	The scream sounded in the night.	['terror', 'nightmare', 'pain', 'death', 'fear']	1.0
+We poured money into the education of our children.	['our youth', 'good life', 'education', 'freedom', 'we']	We invested money into the education of our children.	['our love for our child', 'our love', 'our love for them', 'our youth', 'our generation']	0.09111615923542012
+People were pouring out of the theater.	['revolution', 'theater', 'freedom', 'tragedy', 'fame']	People were crowding out of the theater.	['tragedy', 'theater', 'violence', 'fear', 'hate']	0.4
+She could not recapture that feeling of happiness.	['love', 'happiness', 'joy', 'life', 'freedom']	She could not recall that feeling of happiness.	['love', 'happiness', 'joy', 'happy', 'contentment']	0.6
+She had to recast her image to please the electorate in her home state.	0	She had to change her image to please the electorate in her home state.	0	
+The tornado ripped along the coast.	['destruction', 'tornado', 'violence', 'danger', 'terror']	The tornado moved along the coast.	['tornado', 'destruction', 'danger', 'storm', 'violence']	0.8
+The candidate ripped into his opponent mercilessly.	['violence', 'victory', 'hatred', 'defeat', 'pain']	The candidate criticized into his opponent mercilessly.	['anger', 'power', 'hatred', 'violence', 'defeat']	0.6
+She wanted to ruffle his composure.	['anger', 'irritation', 'sweetness', 'good mood', 'good']	She wanted to disturb his composure.	['passion', 'his pain', 'stress', 'emotion', 'her presence']	0.0
+This play is going to ruffle some people.	['good luck', 'anger', 'anarchy', 'popularity', 'excitement']	This play is going to distrurb some people.	0	
+The French try to sell us their image as great lovers.	0	The French try to convince us of their image as great lovers.	0	
+I couldn't shake the car that was following me.	0	I couldn't escape the car that was following me.	0	
+The bad news shook her hopes.	['hope', 'despair', 'doom', 'good news', 'optimism']	The bad news weakened her hopes.	['hope', 'victory', 'defeat', 'despair', 'optimism']	0.5
+He shed his image as a pushy boss.	['power', 'boss', 'control', 'failure', 'unhappiness']	He dispelled his image as a pushy boss.	['power', 'boss', 'control', 'authority', 'unhappiness']	0.8
+You have shipwrecked my career.	['success', 'failure', 'your success', 'my failure', 'life']	You have ruined my career.	['success', 'failure', 'my success', 'my failure', 'career']	0.7142857142857143
+He signed his disapproval with a dismissive hand gesture.	['ignorance', 'unworthiness', 'bad taste', 'insensitivity', 'laziness']	He communicated his disapproval with a dismissive hand gesture.	['disrespect', 'ignorance', 'impatience', 'politics', 'equality']	0.16666666666666669
+The mountain was splashed with snow.	['winter', 'snow', 'spring', 'life', 'cold']	The mountain was spotted with snow.	['snow', 'winter', 'spring', 'beauty', 'cold']	0.8
+She was staggered with bills after she tried to rebuild her house following the earthquake.	0	She was overwhelmed with bills after she tried to rebuild her house following the earthquake.	0	
+I won't stoop to reading other people's mail.	0	I won't condescend to reading other people's mail.	0	
+Actions talk louder than words.	['language', 'communication', 'anger', 'speech', 'think']	Actions communicate louder than words.	['communication', 'emotion', 'love', 'language', 'think']	0.6
+You are taxing my patience.	['patience', 'impatience', 'your impatience', 'frustration', 'tiredness']	You are straining my patience.	['patience', 'impatience', 'patience be patience', 'your impatience', 'frustration']	0.5971094254781577
+The war uprooted many people.	['peace', 'freedom', 'change', 'war', 'good']	The war displaced many people.	['peace', 'freedom', 'war', 'poverty', 'violence']	0.6
+The vestiges of political democracy were soon uprooted.	['political ideology', 'ideology', 'conservative ideology', 'ideology and ideology', 'democracy']	The vestiges of political democracy were soon destroyed.	['political ideology', 'ideology', 'ideology and ideology', 'political ideology and ideology', 'anarchy']	0.6227957578241842
+The principal visited his rage on the students.	['anger', 'violence', 'teacher', 'hatred', 'bully']	The principal inflicted his rage on the students.	['anger', 'violence', 'hatred', 'injustice', 'pain']	0.6
+He was visited with a terrible illness that killed him quickly.	0	He was afflicted with a terrible illness that killed him quickly.	0	
+He wasted his inheritance on his insincere friends.	['selfishness', 'poverty', 'self - esteem', 'poor taste', 'stupidity']	He squandered his inheritance on his insincere friends.	0	
+He wrestled all his life with his feeling of inferiority.	0	He dealt all his life with his feeling of inferiority.	0	
+I wrestled with this decision for years.	['freedom', 'my decision', 'decision', 'selfishness', 'choice']	I pondered this decision for years.	['wisdom', 'simplicity', 'knowledge', 'freedom', 'my life']	0.3333333333333333
+This idea will never amount to anything.	['fortune', 'knowledge', 'mathematics', 'genius', 'idea']	This idea will never result in anything.	['fortune', 'knowledge', 'genius', 'infinity', 'luck']	0.6
+The steering of my new car answers to the slightest touch.	0	The steering of my new car reacts to the slightest touch.	0	
+I attacked the problem as soon as I got out of bed.	0	I started on the problem as soon as I got out of bed.	0	
+She tended to blast when speaking into a microphone.	['anger', 'irritation', 'temper', 'frustration', 'bad habit']	She tended to shout when speaking into a microphone.	['anger', 'loud noise', 'temper', 'frustration', 'violence']	0.5
+The distinction between the two theories blurred.	['logic and logic', 'logic', 'abstract thought', 'abstract thought and logic', 'mathematics']	The distinction between the two theories decreased.	['logic and logic', 'logic', 'logic and reason', 'mathematics', 'fact']	0.6363636363636364
+Our new synthetic fabric breathes and is perfect for summer wear.	0	Our new synthetic fabric passes air and is perfect for summer wear.	0	
+He breathed new life into the old house.	['life', 'peace', 'love', 'hope', 'vitality']	He instilled new life into the old house.	['love', 'peace', 'new life', 'life', 'good']	0.49123845184678916
+He buzzed the servant.	['wealth', 'power', 'royalty', 'money', 'servant']	He summoned the servant.	['power', 'wealth', 'royalty', 'order', 'good']	0.6
+This office is buzzing with activity.	['activity', 'work', 'business', 'trouble', 'power']	This office is bustling with activity.	['activity', 'work', 'business activity', 'business', 'life']	0.49123845184678916
+The judge clapped him in jail.	['justice', 'justice system', 'crime', 'punishment', 'injustice']	The judge put him in jail.	['punishment', 'jail', 'justice', 'bad luck', 'crime']	0.5
+This young man knows how to climb the social ladder.	0	This young man knows how to progress on the social ladder.	0	
+Sales were climbing after prices were lowered.	['low interest rate', 'profit', 'increase', 'loss', 'low value']	Sales were increasing after prices were lowered.	['increase', 'low productivity', 'increase in value', 'loss', 'profit']	0.625
+My personal feelings color my judgment in this case.	['fairness', 'honesty', 'ignorance', 'stupidity', 'innocence']	My personal feelings affect my judgment in this case.	['fairness', 'wisdom', 'honesty', 'innocence', 'good']	0.6
+The rooms communicated.	['togetherness', 'space', 'home', 'knowledge', 'peace']	The rooms were connected.	['space', 'home', 'house', 'room', 'wealth']	0.4
+The comedian convulsed the crowd.	['laughter', 'comedy', 'humor', 'joke', 'hysteria']	The comedian amused the crowd.	['comedy', 'humor', 'joke', 'laughter', 'comedian']	0.8
+The speech crowned the meeting.	['power', 'democracy', 'victory', 'monarchy', 'nation']	The speech culminated the meeting.	['political ideology', 'power', 'democracy', 'unite state', 'government']	0.26812801841425576
+A weather vane crowns the building.	['weather', 'power', 'good luck', 'rain', 'storm']	A weather vane tops the building.	['weather', 'rain', 'good weather', 'wind', 'storm']	0.6666666666666666
+She was crushed by his refusal of her invitation.	['rejection', 'love', 'marriage', 'infidelity', 'loneliness']	She was saddened by his refusal of her invitation.	['rejection', 'love', 'marriage', 'loneliness', 'her loss']	0.6549846024623855
+It dawned on him that she had betrayed him.	['betrayal', 'deceit', 'infidelity', 'love', 'deception']	It occurred to him that she had betrayed him.	['betrayal', 'deceit', 'infidelity', 'deception', 'love']	1.0
+The age of computers had dawned.	['knowledge', 'technology', 'internet', 'intelligence', 'computer']	The age of computers had begun.	['knowledge', 'technology', 'time', 'internet', 'computer']	0.8
+The new measures deflated the economy.	['economy deteriorate', 'economy decline', 'economy', 'poverty', 'economy collapse']	The new measures reduced the economy.	['economy', 'economy improve', 'economy increase', 'change', 'wealth']	0.375
+Fire had devoured our home.	['destruction', 'fire', 'violence', 'our destruction', 'death']	Fire had destroyed our home.	['destruction', 'violence', 'evil', 'fire', 'war']	0.5
+She devoured his novels.	['love', 'passion', 'romance', 'love and passion', 'life']	She enjoyed his novels.	['love', 'passion', 'romance', 'beauty', 'life']	0.5714285714285714
+The government digested the entire law into a code.	['government', 'freedom', 'liberty', 'power', 'justice']	The government systematized the entire law into a code.	0	
+Stock prices are drifting higher.	['economy', 'wealth', 'debt', 'poverty', 'increase']	Stock prices are becoming higher.	['wealth', 'debt', 'economy', 'increase', 'profit']	0.8
+The mother drinks in every word of her son on the stage.	0	The mother listens carefully to every word of her son on the stage.	0	
+I was drowned in work.	['despair', 'life', 'death', 'my life', 'suicide']	I was overwhelmed by work.	['life', 'work', 'my life', 'despair', 'loneliness']	0.6666666666666666
+She drowned her trouble in alcohol.	['alcohol', 'suicide', 'stupidity', 'drown', 'alcoholic']	She forgot her trouble in alcohol.	['stupidity', 'alcohol', 'bad luck', 'drunkenness', 'trouble']	0.3274923012311928
+Middle age dulled her appetite for travel.	['poverty', 'hunger', 'life', 'age', 'youth']	Middle age decreased her appetite for travel.	['hunger', 'poverty', 'starvation', 'lack of food', 'life']	0.40219202762138356
+The company dumped him after many years of service.	['failure', 'bad luck', 'bad service', 'poverty', 'success']	The company dismissed him after many years of service.	['service', 'good service', 'success', 'failure', 'loyalty']	0.42857142857142855
+Some nice results emerged from the study.	['knowledge', 'genius', 'creativity', 'intelligence', 'good']	Some nice results appeared from the study.	['knowledge', 'science', 'genius', 'mathematics', 'good']	0.6
+The event engraved itself into her memory.	['memory', 'remembrance', 'time', 'remember', 'love']	The event stayed in her memory.	['memory', 'love', 'life', 'joy', 'good']	0.4
+The boss exploded when he heard of the resignation of the secretary.	0	The boss raged when he heard of the resignation of the secretary.	0	
+The Middle East is fermenting.	['islam', 'iran', 'christianity', 'war', 'islam islam']	The Middle East is discontented.	['islam', 'iran', 'war', 'anarchy', 'freedom']	0.5
+The latest intelligence is flashed to all command posts.	['intelligence', 'war', 'terrorist attack', 'victory', 'military']	The latest intelligence is conveyed to all command posts.	['intelligence', 'war', 'victory', 'army', 'military']	0.6666666666666666
+The government floated the ruble for a few months.	0	The government allowed fluctuation in the ruble for a few months.	0	
+The dancer floated across the stage.	['beauty', 'dance', 'sexuality', 'love', 'dancer']	The dancer moved across the stage.	['dance', 'beauty', 'sexuality', 'dancer', 'sex']	0.8
+The Republicans are floating the idea of a tax reform.	0	The Republicans are discussing the idea of a tax reform.	0	
+The crowd flowed out of the stadium.	['victory', 'win', 'freedom', 'football', 'baseball']	The crowd moved out of the stadium.	['victory', 'defeat', 'anarchy', 'win', 'baseball']	0.6
+The press was gagged.	['terror', 'violence', 'crime', 'fear', 'scandal']	The press was silenced.	['scandal', 'violence', 'fear', 'crime', 'terror']	1.0
+The sun glared down on us.	['heat', 'darkness', 'summer', 'life', 'weather']	The sun shone down on us.	['beauty', 'life', 'freedom', 'hope', 'warmth']	0.2
+The moon glared back at itself from the lake's surface.	0	The moon reflected back at itself from the lake's surface.	0	
+This story will grab you.	['life', 'hope', 'knowledge', 'future', 'dream']	This story will intrigue you.	['mystery', 'knowledge', 'life', 'adventure', 'danger']	0.4
+The conversation gravitated towards politics.	['political ideology', 'politics', 'government', 'democracy', 'religion']	The conversation tended towards politics.	['politics', 'political ideology', 'war', 'government', 'power']	0.6666666666666666
+His mind groped to make the connection.	['abstract thought', 'universe', 'dream', 'knowledge', 'space']	His mind tried to make the connection.	['universe', 'abstract thought', 'knowledge', 'idea', 'space']	0.8333333333333334
+The oscillator hunts about the correct frequency.	['oscillate', 'oscillator', 'oscillate energy', 'oscillate number', 'air pressure']	The oscillator vibrates about the correct frequency.	['oscillate', 'oscillator', 'oscillator change', 'oscillate number', 'sound']	0.5
+The ostentatious way of living of the rich ignites the hatred of the poor.	0	The ostentatious way of living of the rich arouses the hatred of the poor.	0	
+Their language inclines us to believe them.	['belief', 'religion', 'faith', 'knowledge', 'god']	Their language persuades us to believe them.	['belief', 'faith', 'belief in god', 'religion', 'belief system']	0.43904930887522114
+He injected new life into the performance.	['life', 'hope', 'love', 'joy', 'creativity']	He added new life into the performance.	['life', 'love', 'hope', 'new life', 'joy']	0.6549846024623855
+She had to juggle her job and her children.	['life', 'work', 'dependability', 'dependence', 'stress']	She had to manage her job and her children.	['dependability', 'dependence', 'poverty', 'life', 'work']	0.8
+This may land you in jail.	['jail', 'bad luck', 'prison', 'trouble', 'punishment']	This may bring you in jail.	['jail', 'jail time', 'punishment', 'prison', 'trouble']	0.6666666666666666
+The news leaked out despite his secrecy.	['scandal', 'secret government', 'betrayal', 'deception', 'abortion']	The news was disclosed despite his secrecy.	['scandal', 'secret government', 'secret government agency', 'deception', 'abortion']	0.5971094254781577
+I have to level with you.	['honesty', 'truth', 'knowledge', 'everything', 'my life']	I have to be honest with you.	['honesty', 'truth', 'evil', 'stupidity', 'honesty be']	0.3333333333333333
+Sorrow had lined his face.	['loss', 'pain', 'sorrow', 'grief', 'sadness']	Sorrow had wrinkled his face.	['loss', 'sorrow', 'pain', 'sadness', 'unhappiness']	0.8
+The house looks north.	['winter', 'nature', 'freedom', 'spring', 'snow']	The house is oriented north.	['nature', 'winter', 'country', 'freedom', 'north']	0.6
+Sorrow was mapped on the mother's face.	['loss', 'sorrow', 'sadness', 'pain', 'grief']	Sorrow was visible on the mother's face.	['loss', 'sorrow', 'sadness', 'grief', 'pain']	1.0
+Her resistance melted under his charm.	['good feel', 'good will', 'charm', 'power', 'sweetness']	Her resistance weakened under his charm.	['power', 'good will', 'charm', 'good luck', 'masculinity']	0.7142857142857143
+Hundreds of actors were melting into the scene.	['hollywood', 'fame', 'love', 'life', 'theater']	Hundreds of actors were merging into the scene.	['hollywood', 'fame', 'theater', 'talent', 'movie']	0.6
+The dress molds her beautiful figure.	['sexuality', 'beauty', 'hourglass figure', 'woman beauty', 'sex']	The dress clings to her beautiful figure.	['beauty', 'sexuality', 'hourglass figure', 'woman beauty', 'sex']	1.0
+The flowers were nodding in the breeze.	['love', 'good weather', 'romance', 'peace', 'happiness']	The flowers were swaying in the breeze.	['love', 'romance', 'passion', 'spring', 'beauty']	0.3333333333333333
+He pasted his opponent.	['victory', 'win', 'defeat', 'skill', 'opponent']	He defeated his opponent.	['victory', 'defeat', 'honor', 'pride', 'win']	0.6
+The professor plunged his students into the study of the Italian text.	0	The professor engaged his students in the study of the Italian text.	0	
+The critics puffed up this Broadway production.	['success', 'talent', 'broadway production', 'wealth', 'fame']	The critics overpraised this Broadway production.	['talent', 'success', 'genius', 'fame', 'money']	0.5
+The sudden fame puffed her ego.	['fame', 'celebrity status', 'wealth', 'success', 'status']	The sudden fame increased her ego.	['celebrity status', 'fame', 'popularity', 'wealth', 'celebrity']	0.6666666666666666
+The salesman is aggressively pushing the new computer model.	['success', 'wealth', 'efficiency', 'money', 'consumer wealth']	The salesman is aggressively promoting the new computer model.	['success', 'wealth', 'efficiency', 'consumer wealth', 'new business']	0.7054014374088451
+She is pushing fifty.	['age', 'her age', 'old age', 'life', 'old']	She is approaching fifty.	['age', 'life', 'her age', 'longevity', 'time']	0.5714285714285714
+The guy hanging around the school is pushing drugs.	['bad luck', 'drug', 'addiction', 'trouble', 'stupidity']	The guy hanging around the school is selling drugs.	['bad luck', 'trouble', 'addiction', 'crime', 'drug']	0.8333333333333334
+The liberal party pushed for reforms.	['equality for everyone', 'conservative', 'equality', 'freedom', 'change']	The liberal party campaigned for reforms.	['liberalism', 'liberal party', 'conservative', 'freedom', 'equality']	0.42857142857142855
+He pushed her to finish her doctorate.	['genius', 'knowledge', 'her success', 'phd', 'intelligence']	He urged her to finish her doctorate.	['knowledge', 'genius', 'research', 'education', 'intelligence']	0.5
+The mess in his dorm room reflects on the student.	0	The mess in his dorm room characterizes the student.	0	
+His lack of interest in the project reflects badly on him.	0	His lack of interest in the project discredits him.	0	
+The rules relaxed after the new director arrived.	['productivity', 'productivity increase', 'success', 'promotion', 'new director']	The rules moderated after the new director arrived.	['modernity', 'moderation', 'equality for everyone', 'rule', 'equality']	0.0
+She salts her lectures with jokes.	['wisdom', 'ignorance', 'stupidity', 'stress', 'knowledge']	She complements her lectures with jokes.	['erudition', 'wisdom', 'knowledge', 'intelligence', 'genius']	0.4
+The rebels had salted the fields with mines and traps.	0	The rebels had scattered the fields with mines and traps.	0	
+A terrible stench saluted our nostrils.	['death', 'rotten meat', 'decay', 'rotten food', 'rot']	A terrible stench filled our nostrils.	['death', 'rotten meat', 'rotten food', 'decay', 'sickness']	0.8571428571428571
+He was showered with praise.	['praise', 'love', 'good deed', 'good', 'god']	He was lavished with praise.	['love', 'good feel', 'beauty', 'masculinity', 'praise']	0.5
+He showered her with presents.	['love', 'his love', 'love and happiness', 'happiness', 'joy']	He provided her with presents.	['love', 'his love', 'happiness', 'love and companionship', 'christmas']	0.75
+The kettle was singing.	['peace', 'life', 'cleanliness', 'relaxation', 'good']	The kettle was sounding.	['steam', 'danger', 'life', 'heat', 'time']	0.2
+The police smashed the drug ring after they were tipped off.	0	The police arrested the drug ring after they were tipped off.	0	
+He squared his shoulders.	['strength', 'pride', 'power', 'courage', 'masculinity']	He posed his shoulders.	['masculinity', 'wealth', 'peace', 'pride', 'freedom']	0.4
+The new teacher tends to steamroller.	['class', 'teacher', 'student', 'knowledge', 'competence']	The new teacher tends to rush.	['class', 'teacher', 'student', 'time', 'late']	0.6
+I stumbled across a long-lost cousin last night in a restaurant.	0	I came across a long-lost cousin last night in a restaurant.	0	
+Mud was sucking at her feet.	['mud', 'wet foot', 'life', 'rain', 'water']	Mud was pulling at her feet.	['mud', 'wet earth', 'rain', 'weather', 'life']	0.6666666666666666
+The current boom in the economy sucked many workers in from abroad.	0	The current boom in the economy attracted many workers in from abroad.	0	
+The mother was swelling with importance when she spoke of her son.	0	The mother felt importance when she spoke of her son.	0	
+The meat was swimming in a fatty gravy.	['good health', 'fat', 'cow', 'thanksgiving', 'food']	The meat was covered in a fatty gravy.	['fat', 'food', 'cow', 'thanksgiving', 'dinner']	0.6666666666666666
+My brain is swimming after the bottle of champagne.	['alcohol', 'drunkenness', 'intoxication', 'hangover', 'good']	My brain is confused after the bottle of champagne.	['drunkenness', 'alcohol', 'intoxication', 'hangover', 'sleep']	0.8
+The ex-slave tasted freedom shortly before she died.	0	The ex-slave experienced freedom shortly before she died.	0	
+Braque translated collage into oil.	['oil', 'beauty', 'life', 'power', 'element']	Braque transformed collage into oil.	['beauty', 'oil', 'passion', 'revolution', 'violence']	0.4
+She tugged for years to make a decent living.	['good life', 'success', 'wealth', 'money', 'good luck']	She labored for years to make a decent living.	['success', 'her success', 'good life', 'wealth', 'poverty']	0.5714285714285714
+This piano wants the attention of a competent tuner.	0	This piano requires the attention of a competent tuner.	0	
+He always wears a smile.	['happiness', 'love', 'joy', 'good luck', 'happy']	He always has a smile.	['happiness', 'love', 'joy', 'good', 'life']	0.6666666666666666
+Her optimism whistled away these worries.	['pessimism', 'optimism', 'despair', 'hope', 'hopelessness']	Her optimism removed these worries.	['pessimism', 'despair', 'pessimism and pessimism', 'doom', 'hopelessness']	0.40219202762138356
+Which horse are you backing.	['danger', 'luck', 'fear', 'your fear', 'freedom']	Which horse are you betting on.	['luck', 'luck and luck', 'win', 'fortune', 'horse']	0.141080287481769
+The ex-boxers job is to bounce people who want to enter this private club.	0	The ex-boxers job is to eject people who want to enter this private club.	0	
+I cant buy this story.	['evil', 'death', 'violence', 'tragedy', 'despair']	I cant believe this story.	['god', 'mystery', 'religion', 'christianity', 'evil']	0.2
+The painting seems to capture the essence of Spring.	['spring', 'beauty', 'life', 'nature', 'love']	The painting seems to represent the essence of Spring.	['life', 'beauty', 'spring', 'nature', 'love']	1.0
+My skin crawled -- I was terrified.	['terror', 'fear', 'danger', 'death', 'nightmare']	My skin prickled -- I was terrified.	['danger', 'fear', 'terror', 'nightmare', 'death']	1.0
+This event could deflate the currency.	['economy', 'economy economy', 'wealth', 'prosperity', 'debt']	This event could reduce the currency.	['debt', 'wealth', 'economy', 'poverty', 'loss']	0.5
+Islam is fermenting Africa.	['islam', 'christianity', 'islam islam', 'islam christianity', 'religion']	Islam is provoking Africa.	['islam', 'christianity', 'terrorism', 'freedom', 'violence']	0.2857142857142857
+The company planned to flood the market with tennis shoes.	0	The company planned to oversupply the market with tennis shoes.	0	
+This could fuel the debate on creationism.	['ideology', 'ignorance', 'religion', 'christianity', 'belief']	This could stimulate the debate on creationism.	0	
+Make the peoples hearts glow.	['love', 'togetherness', 'happiness', 'love and happiness', 'joy']	Make the peoples hearts rejoiced.	['love', 'happiness', 'hope', 'joy', 'good']	0.42857142857142855
+I cant hack it anymore.	['despair', 'depression', 'failure', 'poverty', 'life']	I cant cope with it anymore.	['despair', 'death', 'loneliness', 'depression', 'pain']	0.4
+The colors dont harmonize.	['color', 'colour', 'religion', 'life', 'nature']	The colors dont match.	['color', 'colour', 'nature', 'religion', 'creativity']	0.8
+The society was infected by racism.	['prejudice', 'discrimination', 'violence', 'hatred', 'hate']	The society was corrupted by racism.	['ideology', 'oppression', 'selfishness', 'evil', 'freedom']	0.0
+They tried to juggle an account so as to hide a deficit.	0	They tried to falsify an account so as to hide a deficit.	0	
+They wanted to level criticism or charges at somebody.	['injustice', 'ignorance', 'fairness', 'stupidity', 'anger']	They wanted to address criticism or charges at somebody.	['injustice', 'ignorance', 'anger', 'criticism', 'disagreement']	0.6
+After a glass of wine he lightened up a bit.	0	After a glass of wine he cheered up a bit.	0	
+They wanted to mount a theater production.	['theater', 'fame', 'movie', 'hollywood', 'theatre']	They wanted to organize a theater production.	['theater', 'theatre', 'movie', 'creativity', 'talent']	0.6
+You should never poison someone's mind.	['evil', 'good deed', 'hate', 'violence', 'good']	You should never corrupt someone's mind.	['good', 'good deed', 'evil', 'love', 'purity']	0.6666666666666666
+You should not sow suspicion or beliefs.	['ignorance', 'distrust', 'superstition', 'belief', 'evil']	You should not instill suspicion or beliefs.	['ignorance', 'evil', 'belief', 'superstition', 'danger']	0.8
+Im afraid this spells trouble!	['doom', 'danger', 'trouble', 'death', 'disaster']	Im afraid this means trouble!	['trouble', 'danger', 'bad luck', 'doom', 'disaster']	0.6549846024623855
+This idea squares with the other one.	['religion', 'faith', 'infinity', 'knowledge', 'justice']	This idea matches up with the other one.	['mathematics', 'logic', 'religion', 'math', 'simplicity']	0.2
+Dont twist my words.	['pain', 'truth', 'ignorance', 'stupidity', 'violence']	Dont misinterpret my words.	['love', 'fear', 'danger', 'violence', 'truth']	0.4
+You should wallow in your success!	['success', 'failure', 'your success', 'wealth', 'happiness']	You should delight in your success!	['success', 'accomplishment', 'achievement', 'success be your success', 'knowledge']	0.35826565528689464
