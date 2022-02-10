@@ -1,1640 +1,1640 @@
-sense	class	confidence
-absorb%2:31:00::	metaphorical	0.9
-absorb%2:40:00::	metaphorical	0.9
-absorb%2:30:00::	metaphorical	0.8
-absorb%2:35:10::	metaphorical	0.8
-absorb%2:31:03::	metaphorical	0.7
-abuse%2:41:00::	literal	0.52
-abuse%2:30:00::	metaphorical	0.5
-abuse%2:32:00::	metaphorical	0.5
-abuse%2:30:02::	metaphorical	0.7
-accommodate%2:34:00::	literal	0.7
-accommodate%2:42:03::	literal	0.9
-accommodate%2:30:01::	literal	0.8
-acknowledge%2:32:04::	literal	0.9
-acknowledge%2:32:07::	literal	0.9
-acknowledge%2:32:01::	literal	0.9
-acknowledge%2:31:02::	literal	0.9
-acknowledge%2:31:09::	literal	0.9
-acquaint%2:32:00::	literal	0.913
-acquaint%2:32:01::	literal	0.6
-acquaint%2:32:02::	literal	0.8
-act%2:41:00::	literal	0.8
-act%2:36:03::	literal	0.9
-act%2:29:00::	literal	0.7
-act%2:33:00::	metaphorical	0.5
-act%2:42:00::	metaphorical	0.5
-address%2:32:00::	literal	0.6
-address%2:41:08::	literal	0.7
-adhere%2:42:00::	metaphorical	0.6
-adhere%2:30:00::	literal	0.8
-adhere%2:42:02::	metaphorical	0.6
-adhere%2:35:00::	literal	0.9167
-administer%2:41:00::	literal	0.7
-administer%2:40:01::	literal	0.9
-administer%2:40:00::	literal	0.6
-admit%2:32:00::	literal	0.8
-admit%2:41:01::	literal	0.8
-admit%2:41:00::	literal	0.7
-admit%2:42:06::	metaphorical	0.6
-admit%2:42:00::	literal	0.8
-admit%2:42:03::	literal	0.9
-affect%2:30:00::	literal	0.8
-affect%2:29:00::	literal	0.9
-affect%2:42:00::	literal	0.8
-age%2:30:01::	literal	0.7
-age%2:30:00::	literal	0.9
-age%2:30:02::	literal	0.6
-agree%2:32:00::	literal	0.9
-agree%2:32:01::	literal	0.9
-agree%2:42:00::	literal	0.7
-agree%2:42:03::	literal	0.7
-agree%2:40:02::	metaphorical	0.5
-agree%2:32:04::	literal	0.8
-aim%2:33:00::	literal	0.9
-aim%2:31:01::	metaphorical	0.5
-aim%2:33:10::	literal	1.0
-aim%2:32:00::	metaphorical	0.5
-air%2:32:02::	metaphorical	0.5
-air%2:32:01::	literal	0.6
-air%2:32:00::	metaphorical	0.7
-air%2:30:00::	literal	0.6
-allow%2:32:06::	literal	0.9
-allow%2:40:00::	literal	0.9
-allow%2:31:00::	literal	0.8
-allow%2:40:01::	literal	0.8
-amount%2:42:03::	literal	0.7
-amount%2:42:01::	literal	0.9
-amount%2:42:00::	metaphorical	0.7
-analyze%2:31:03::	literal	0.8
-answer%2:32:00::	literal	0.9
-answer%2:31:05::	metaphorical	0.7
-answer%2:31:02::	literal	0.9
-answer%2:31:03::	literal	0.8
-answer%2:32:06::	literal	0.9
-answer%2:42:01::	literal	0.8
-answer%2:42:02::	literal	0.8
-answer%2:42:00::	literal	0.6
-answer%2:34:00::	literal	0.7
-appeal%2:41:00::	literal	0.8
-appeal%2:32:00::	metaphorical	0.5
-appeal%2:41:04::	literal	0.72
-appear%2:30:00::	literal	0.9
-appear%2:30:01::	literal	0.6
-appear%2:36:00::	literal	0.8
-appear%2:41:03::	literal	0.9
-appreciate%2:31:00::	literal	0.7
-appreciate%2:30:00::	literal	0.9
-appreciate%2:30:01::	literal	0.7
-approach%2:38:00::	literal	0.9
-approach%2:38:01::	literal	0.6
-approach%2:32:00::	literal	0.9
-ascend%2:38:02::	literal	0.7
-ascend%2:42:02::	metaphorical	0.7
-ascend%2:41:00::	literal	0.5238
-ascend%2:38:04::	literal	0.8
-ascend%2:38:01::	literal	0.9
-ask%2:32:00::	literal	0.9
-ask%2:32:01::	literal	0.9
-ask%2:32:09::	literal	0.9
-assign%2:40:01::	literal	0.9444
-assign%2:31:00::	literal	0.8235
-assign%2:31:03::	literal	0.8571
-assimilate%2:30:00::	literal	0.8
-assimilate%2:30:01::	literal	0.8
-assimilate%2:30:02::	literal	0.7
-assume%2:31:00::	literal	0.8
-assume%2:41:00::	literal	0.7
-assume%2:38:00::	literal	0.8
-assume%2:40:00::	literal	0.8
-assume%2:36:00::	literal	0.9
-assume%2:35:00::	literal	0.6
-attack%2:33:00::	literal	0.9
-attack%2:32:00::	metaphorical	0.5
-attack%2:33:01::	literal	0.9
-attack%2:30:00::	metaphorical	0.7
-attack%2:29:00::	literal	0.6
-attend%2:42:00::	literal	1.0
-attend%2:42:01::	literal	0.7
-attend%2:41:00::	literal	0.6
-attend%2:39:00::	literal	0.9
-attest%2:32:01::	metaphorical	0.5
-attest%2:32:00::	literal	0.8
-attest%2:32:04::	literal	0.8
-avoid%2:41:01::	literal	0.9
-avoid%2:34:00::	literal	1.0
-back%2:38:00::	literal	0.9
-back%2:38:01::	literal	1.0
-back%2:40:00::	literal	0.6
-back%2:42:00::	literal	0.6
-back%2:33:00::	metaphorical	0.8
-back%2:30:00::	literal	0.7
-begin%2:42:00::	literal	0.6
-begin%2:42:02::	literal	0.9
-begin%2:42:03::	literal	0.9
-begin%2:41:00::	literal	0.8
-believe%2:31:00::	literal	0.9
-believe%2:31:03::	literal	1.0
-believe%2:31:01::	literal	0.8
-believe%2:31:02::	literal	0.8
-belong%2:40:00::	literal	0.9
-belong%2:42:02::	literal	0.8
-belong%2:42:03::	literal	0.7
-belong%2:42:01::	literal	0.9
-belong%2:42:07::	literal	0.8
-belong%2:42:06::	literal	0.8
-besiege%2:33:00::	literal	0.9
-besiege%2:37:00::	metaphorical	0.6
-besiege%2:32:00::	literal	0.7
-bind%2:35:00::	literal	0.8
-bind%2:35:02::	literal	0.9
-bind%2:30:09::	literal	0.6
-blast%2:39:00::	metaphorical	0.7
-blast%2:38:02::	literal	0.6
-blast%2:36:00::	literal	0.9
-blast%2:36:02::	literal	0.8
-blast%2:33:01::	literal	0.8
-blaze%2:43:01::	metaphorical	0.6
-blaze%2:33:00::	metaphorical	0.9
-blaze%2:43:00::	literal	0.7
-blaze%2:38:00::	metaphorical	0.7
-blend%2:35:00::	literal	0.9
-blend%2:42:00::	literal	0.7
-blend%2:30:00::	literal	0.8
-blister%2:30:00::	literal	1.0
-blister%2:32:00::	metaphorical	1.0
-blister%2:30:01::	literal	0.8
-blur%2:39:00::	literal	0.7
-blur%2:30:01::	literal	0.8
-blur%2:30:00::	metaphorical	0.9
-bob%2:38:00::	literal	0.9
-bob%2:38:01::	literal	0.7
-bob%2:29:00::	literal	0.6
-bolt%2:38:00::	literal	0.7
-bolt%2:38:01::	literal	0.7
-bolt%2:34:00::	metaphorical	0.8
-boost%2:30:02::	metaphorical	0.7
-boost%2:30:00::	literal	0.6
-boost%2:35:00::	literal	0.85
-bother%2:37:00::	literal	0.8
-bother%2:38:00::	literal	0.9
-bother%2:37:03::	literal	0.9
-bounce%2:38:00::	literal	1.0
-bounce%2:38:01::	literal	0.8
-bounce%2:35:00::	metaphorical	0.8
-bow%2:32:00::	literal	1.0
-bow%2:32:01::	metaphorical	0.6
-bow%2:38:00::	literal	1.0
-bow%2:38:01::	literal	1.0
-breathe%2:29:00::	literal	1.0
-breathe%2:42:00::	literal	1.0
-breathe%2:40:00::	metaphorical	0.7
-breathe%2:42:01::	metaphorical	0.8
-breathe%2:32:03::	metaphorical	0.5
-breathe%2:30:03::	metaphorical	0.6
-brush%2:35:01::	literal	1.0
-brush%2:35:00::	literal	0.9
-brush%2:35:02::	literal	1.0
-brush%2:38:00::	literal	0.7
-brush%2:30:00::	literal	1.0
-brush%2:35:10::	literal	0.9
-build%2:30:10::	literal	0.6
-build%2:41:00::	literal	0.8
-build%2:36:04::	literal	0.7
-build%2:36:10::	literal	0.8
-build%2:31:03::	literal	0.8
-buy%2:42:00::	literal	0.9
-buy%2:40:03::	literal	0.6
-buy%2:31:09::	metaphorical	0.7
-buzz%2:39:00::	literal	0.9
-buzz%2:38:00::	literal	0.7
-buzz%2:42:00::	metaphorical	0.7
-buzz%2:32:00::	metaphorical	0.7
-capture%2:36:00::	metaphorical	0.7
-capture%2:37:00::	metaphorical	0.6
-capture%2:40:01::	literal	0.8
-challenge%2:32:01::	literal	0.9
-challenge%2:32:00::	literal	0.9
-challenge%2:32:03::	literal	0.9
-change%2:30:06::	literal	0.7
-change%2:30:00::	literal	0.8
-change%2:30:02::	literal	0.8
-change%2:40:00::	literal	1.0
-change%2:38:00::	literal	0.8
-change%2:30:08::	literal	0.9
-cheer%2:32:02::	literal	0.9
-cheer%2:32:03::	literal	0.8
-cheer%2:32:01::	literal	0.9
-circulate%2:38:03::	literal	0.7
-circulate%2:38:01::	literal	1.0
-circulate%2:38:04::	literal	0.9
-circulate%2:38:00::	metaphorical	0.8
-claim%2:32:00::	literal	1.0
-claim%2:40:00::	literal	0.9
-claim%2:32:02::	literal	0.9
-claim%2:32:01::	literal	0.6
-clamor%2:32:03::	literal	0.7
-clamor%2:32:00::	metaphorical	0.5
-clamor%2:41:00::	literal	0.8
-clap%2:35:03::	metaphorical	0.7
-clap%2:38:04::	literal	0.9
-clap%2:29:00::	literal	1.0
-clap%2:38:03::	literal	0.7
-clap%2:35:00::	literal	0.8
-claw%2:38:00::	metaphorical	0.8
-claw%2:35:01::	metaphorical	0.6
-claw%2:32:00::	metaphorical	0.9
-clean%2:35:00::	literal	1.0
-clean%2:30:02::	literal	0.9
-clean%2:29:00::	literal	0.8
-clean%2:42:00::	literal	0.8
-clean%2:35:12::	literal	0.6
-clean%2:35:04::	literal	0.7
-climb%2:38:00::	literal	1.0
-climb%2:30:00::	metaphorical	0.8
-climb%2:38:06::	metaphorical	0.6
-climb%2:30:03::	metaphorical	0.8
-climb%2:30:01::	metaphorical	0.6
-clog%2:35:00::	literal	0.9
-clog%2:35:01::	metaphorical	0.5
-clog%2:30:00::	metaphorical	0.6
-clog%2:30:02::	metaphorical	0.6
-cloud%2:39:00::	literal	0.96
-cloud%2:38:00::	literal	0.6
-cloud%2:37:00::	metaphorical	1.0
-cloud%2:30:04::	metaphorical	0.7222
-cloud%2:30:03::	metaphorical	0.5
-co-opt%2:41:02::	literal	0.6
-co-opt%2:41:03::	literal	0.8
-co-opt%2:41:01::	literal	0.9
-co-opt%2:40:00::	literal	0.8
-color%2:30:00::	literal	1.0
-color%2:32:00::	metaphorical	0.8
-color%2:41:00::	metaphorical	0.6
-color%2:36:01::	literal	0.8
-commit%2:32:01::	literal	0.8
-commit%2:40:02::	literal	0.8
-commit%2:41:01::	literal	0.9
-communicate%2:32:01::	literal	0.9
-communicate%2:32:00::	literal	0.9
-communicate%2:40:10::	literal	0.6
-communicate%2:35:00::	metaphorical	0.8
-communicate%2:32:02::	literal	0.8
-compare%2:31:00::	literal	0.9
-compare%2:42:00::	literal	0.9
-compare%2:31:01::	literal	0.9
-compose%2:42:00::	metaphorical	0.5
-compose%2:36:03::	literal	0.9
-compose%2:37:00::	literal	0.6
-computerize%2:40:01::	literal	0.8
-computerize%2:40:00::	literal	0.8
-computerize%2:36:00::	literal	0.9167
-condemn%2:32:00::	literal	0.9
-condemn%2:32:02::	literal	0.8
-condemn%2:41:00::	metaphorical	0.6
-condemn%2:39:00::	literal	0.6
-condemn%2:32:01::	literal	0.8
-condemn%2:40:00::	literal	0.8
-condense%2:30:00::	literal	0.7
-condense%2:30:03::	literal	0.8
-condense%2:30:06::	metaphorical	0.6
-condense%2:30:07::	literal	0.7
-condense%2:30:04::	literal	0.8
-conduct%2:41:00::	literal	0.7
-conduct%2:36:00::	literal	0.9
-conduct%2:36:04::	literal	0.9
-confirm%2:31:00::	literal	0.8
-confirm%2:32:00::	literal	0.9
-confirm%2:41:01::	literal	0.9
-confirm%2:41:00::	literal	0.7
-confront%2:33:00::	literal	0.9
-confront%2:32:00::	literal	0.7
-confront%2:32:03::	literal	0.8
-confront%2:42:00::	literal	0.8
-confuse%2:31:03::	literal	0.9
-confuse%2:37:00::	literal	1.0
-confuse%2:31:01::	literal	0.7
-consider%2:39:00::	literal	0.9
-consider%2:32:00::	literal	0.8
-consider%2:32:02::	literal	0.9
-consider%2:31:05::	literal	0.9
-consolidate%2:30:00::	literal	0.8
-consolidate%2:30:02::	literal	0.7
-consolidate%2:30:01::	literal	0.9
-consolidate%2:30:04::	literal	0.9
-consolidate%2:30:03::	literal	0.9
-constitutionalize%2:40:00::	literal	0.9
-constitutionalize%2:38:00::	literal	0.7
-constitutionalize%2:30:00::	literal	0.7
-construct%2:35:00::	literal	0.9
-construct%2:36:03::	literal	0.8
-construct%2:36:02::	literal	0.6
-consume%2:35:00::	metaphorical	0.6
-consume%2:34:01::	literal	0.6
-consume%2:31:00::	literal	0.6
-continue%2:42:01::	literal	0.9
-continue%2:30:10::	literal	0.9
-continue%2:41:00::	literal	0.7
-continue%2:42:12::	literal	0.9
-continue%2:42:11::	literal	0.9
-converge%2:38:00::	literal	0.7273
-converge%2:30:00::	metaphorical	0.5
-convulse%2:32:00::	metaphorical	0.7
-convulse%2:38:01::	literal	0.6
-convulse%2:35:01::	literal	0.9
-convulse%2:35:00::	literal	0.9
-cook%2:36:01::	literal	1.0
-cook%2:30:00::	literal	1.0
-cook%2:30:03::	literal	0.9
-correct%2:42:03::	literal	0.8
-correct%2:38:03::	metaphorical	0.5
-correct%2:29:04::	literal	0.7
-count%2:32:00::	literal	1.0
-count%2:32:01::	literal	1.0
-count%2:42:01::	literal	0.7
-count%2:31:00::	literal	0.7
-count%2:42:04::	literal	0.7
-count%2:31:02::	metaphorical	0.6
-crawl%2:38:00::	literal	1.0
-crawl%2:42:01::	metaphorical	0.8
-crawl%2:42:00::	metaphorical	0.6
-crawl%2:38:01::	literal	1.0
-credit%2:31:01::	literal	0.6
-credit%2:31:12::	literal	0.8
-credit%2:40:00::	literal	0.9
-crown%2:41:00::	literal	0.9
-crown%2:30:01::	metaphorical	0.7
-crown%2:42:00::	metaphorical	0.7
-crush%2:35:00::	literal	1.0
-crush%2:30:00::	literal	0.9
-crush%2:37:00::	metaphorical	0.8
-crush%2:30:08::	literal	0.9
-culminate%2:30:00::	metaphorical	0.5
-culminate%2:30:03::	metaphorical	0.6
-culminate%2:30:02::	literal	0.6
-curl%2:30:00::	metaphorical	0.5
-curl%2:38:00::	metaphorical	0.5
-curl%2:35:00::	literal	1.0
-dance%2:38:01::	literal	0.9
-dance%2:36:00::	literal	0.9583
-dance%2:38:02::	literal	0.8
-dash%2:38:00::	literal	0.8
-dash%2:35:02::	literal	0.7
-dash%2:41:00::	metaphorical	0.5
-dash%2:37:00::	metaphorical	0.6
-dash%2:30:01::	literal	0.6
-date%2:31:02::	literal	1.0
-date%2:31:00::	literal	0.7
-date%2:31:01::	literal	0.9
-dawn%2:31:13::	metaphorical	0.7
-dawn%2:42:01::	metaphorical	0.7
-dawn%2:30:00::	literal	0.8
-debut%2:36:02::	literal	0.8
-debut%2:36:00::	literal	0.8
-debut%2:36:01::	literal	0.9
-decide%2:31:00::	literal	0.9
-decide%2:31:01::	literal	0.9
-decide%2:31:02::	literal	0.8
-decide%2:31:06::	literal	0.8
-declare%2:32:00::	literal	0.9
-declare%2:32:05::	literal	0.9
-declare%2:32:01::	literal	0.9
-declare%2:32:04::	literal	0.9
-declare%2:32:03::	literal	0.9
-declare%2:32:06::	literal	0.8
-decline%2:32:00::	literal	0.7
-decline%2:38:00::	literal	0.9
-decline%2:32:01::	literal	0.8
-deflate%2:35:00::	literal	1.0
-deflate%2:32:00::	metaphorical	0.6
-deflate%2:30:11::	metaphorical	1.0
-deflate%2:30:10::	metaphorical	0.7
-deflate%2:30:00::	literal	1.0
-deform%2:35:00::	literal	0.9
-deform%2:30:00::	literal	0.9
-deform%2:30:01::	literal	0.9
-dehydrate%2:30:02::	literal	1.0
-dehydrate%2:30:01::	literal	0.92
-dehydrate%2:30:00::	literal	1.0
-demand%2:32:00::	literal	0.8
-demand%2:32:02::	literal	1.0
-demand%2:32:06::	literal	0.9
-denote%2:32:01::	literal	0.7
-denote%2:32:00::	literal	0.6
-denote%2:32:02::	literal	0.7
-depress%2:37:00::	literal	0.6
-depress%2:38:00::	metaphorical	0.6
-depress%2:35:12::	metaphorical	0.6
-depress%2:30:00::	literal	0.6
-desert%2:31:00::	literal	0.8
-desert%2:41:00::	literal	1.0
-desert%2:38:02::	literal	0.7
-design%2:31:00::	literal	0.7
-design%2:36:01::	literal	1.0
-design%2:36:00::	literal	0.6
-design%2:36:07::	literal	0.8947
-design%2:36:09::	metaphorical	0.6
-design%2:31:06::	literal	0.5417
-devour%2:35:00::	metaphorical	0.7
-devour%2:37:00::	metaphorical	1.0
-devour%2:34:00::	literal	0.9
-digest%2:34:00::	literal	1.0
-digest%2:31:00::	metaphorical	0.6
-digest%2:30:02::	literal	0.9
-digest%2:30:01::	metaphorical	0.8
-discolor%2:30:01::	literal	0.9
-discolor%2:30:02::	literal	1.0
-discolor%2:30:00::	literal	1.0
-dismiss%2:32:00::	literal	0.8
-dismiss%2:32:02::	literal	0.9
-dismiss%2:32:01::	literal	1.0
-distil%2:30:04::	literal	0.7
-distil%2:30:02::	literal	0.9
-distil%2:29:00::	literal	0.9
-distill%2:30:02::	literal	0.8
-distill%2:30:04::	literal	0.9
-distill%2:29:00::	literal	0.9
-divide%2:41:00::	literal	1.0
-divide%2:31:00::	literal	0.8
-divide%2:42:00::	literal	0.7
-double%2:30:00::	literal	0.9
-double%2:38:00::	literal	0.6
-double%2:35:01::	literal	0.7
-down%2:34:00::	metaphorical	0.7
-down%2:34:01::	metaphorical	0.7
-down%2:35:00::	metaphorical	0.5
-downsize%2:41:00::	metaphorical	0.5
-downsize%2:30:01::	metaphorical	0.5
-downsize%2:30:00::	literal	0.7
-drain%2:38:00::	literal	0.9
-drain%2:34:00::	metaphorical	0.8
-drain%2:30:01::	literal	0.9
-drain%2:30:04::	metaphorical	0.9091
-drift%2:30:00::	literal	1.0
-drift%2:42:03::	metaphorical	1.0
-drift%2:42:00::	metaphorical	0.6
-drift%2:38:05::	metaphorical	0.5
-drift%2:38:06::	literal	0.9
-drift%2:35:03::	literal	0.7
-drift%2:30:10::	metaphorical	0.6
-drink%2:34:00::	literal	0.9
-drink%2:34:01::	literal	1.0
-drink%2:31:00::	metaphorical	0.7
-drink%2:34:02::	literal	1.0
-drown%2:35:00::	metaphorical	0.7
-drown%2:30:02::	metaphorical	0.7
-drown%2:30:00::	literal	1.0
-drown%2:30:01::	literal	1.0
-dull%2:35:01::	literal	0.8
-dull%2:30:00::	literal	0.9
-dull%2:35:02::	literal	0.8
-dull%2:30:01::	metaphorical	0.8
-dump%2:40:00::	literal	0.9
-dump%2:40:02::	metaphorical	0.7
-dump%2:38:00::	literal	0.9
-ease%2:38:00::	literal	0.7
-ease%2:29:00::	literal	0.9
-ease%2:37:00::	literal	0.6
-eat%2:34:00::	literal	1.0
-eat%2:34:01::	literal	1.0
-eat%2:34:02::	literal	1.0
-emerge%2:30:00::	literal	0.8
-emerge%2:30:01::	metaphorical	0.7
-emerge%2:38:00::	literal	0.7
-end%2:30:01::	literal	0.96
-end%2:42:01::	literal	0.6957
-end%2:36:13::	literal	0.8
-engrave%2:35:00::	literal	1.0
-engrave%2:37:00::	metaphorical	0.8
-engrave%2:35:01::	literal	1.0
-erase%2:30:00::	metaphorical	0.6
-erase%2:35:00::	literal	1.0
-erase%2:32:00::	literal	0.9
-erupt%2:30:02::	metaphorical	0.5
-erupt%2:30:04::	metaphorical	0.5
-erupt%2:30:00::	literal	1.0
-erupt%2:30:06::	metaphorical	0.5
-escape%2:38:00::	literal	0.9
-escape%2:41:00::	metaphorical	0.5
-escape%2:30:04::	literal	0.7
-excavate%2:39:00::	literal	0.9
-excavate%2:35:02::	literal	1.0
-excavate%2:35:01::	literal	0.9
-exclude%2:31:01::	literal	0.9
-exclude%2:42:00::	literal	0.9
-exclude%2:35:00::	literal	0.9
-excuse%2:32:00::	literal	0.8
-excuse%2:32:04::	literal	0.9
-excuse%2:32:03::	literal	0.8
-excuse%2:32:02::	literal	0.8
-execute%2:41:00::	literal	0.9
-execute%2:41:01::	literal	0.9
-execute%2:36:00::	literal	0.6
-execute%2:41:03::	literal	0.6
-execute%2:32:00::	literal	0.6
-exhaust%2:29:00::	literal	0.7
-exhaust%2:40:00::	metaphorical	0.8
-exhaust%2:30:00::	metaphorical	0.7
-expect%2:31:00::	literal	0.8
-expect%2:31:01::	literal	0.8
-expect%2:31:05::	literal	0.9
-expect%2:29:02::	literal	0.6
-explode%2:30:01::	literal	0.9
-explode%2:30:00::	literal	0.9
-explode%2:31:00::	metaphorical	0.8
-explode%2:35:00::	literal	1.0
-exploit%2:34:00::	literal	0.8
-exploit%2:34:01::	literal	0.7
-exploit%2:41:00::	literal	0.9
-express%2:32:03::	literal	0.6667
-express%2:39:09::	metaphorical	0.7
-express%2:35:11::	literal	0.6
-express%2:32:09::	literal	0.7
-face%2:42:02::	literal	0.7
-face%2:38:00::	metaphorical	0.5
-face%2:35:00::	metaphorical	0.5
-face%2:35:01::	metaphorical	0.5
-factor%2:31:00::	literal	0.7
-factor%2:40:00::	literal	0.8
-factor%2:31:01::	literal	0.7
-fasten%2:35:01::	literal	0.9
-fasten%2:35:00::	literal	0.8
-fasten%2:35:03::	metaphorical	0.6
-fear%2:37:03::	literal	0.8
-fear%2:37:00::	literal	0.7
-fear%2:37:02::	literal	0.6
-fear%2:37:13::	literal	0.6
-ferment%2:37:01::	metaphorical	0.7
-ferment%2:37:00::	metaphorical	0.6
-ferment%2:30:01::	literal	1.0
-fill%2:30:01::	metaphorical	0.6
-fill%2:30:00::	literal	0.9
-fill%2:42:00::	literal	0.9
-fill%2:34:01::	literal	0.6
-finish%2:30:02::	literal	0.7
-finish%2:35:00::	literal	0.9
-finish%2:30:03::	literal	0.6
-fire%2:41:00::	literal	0.7
-fire%2:38:02::	literal	0.6
-fire%2:40:00::	literal	0.8
-fit%2:42:02::	literal	0.9
-fit%2:30:01::	literal	0.9
-fit%2:30:02::	literal	0.9
-fit%2:42:03::	literal	0.8
-flap%2:38:00::	literal	0.8
-flap%2:38:03::	literal	0.9
-flap%2:38:02::	literal	1.0
-flare%2:43:00::	metaphorical	0.6
-flare%2:30:00::	literal	0.6
-flare%2:43:01::	metaphorical	0.8
-flash%2:39:00::	literal	1.0
-flash%2:30:03::	literal	0.7
-flash%2:32:00::	metaphorical	0.7
-flash%2:39:02::	metaphorical	0.5
-flash%2:30:04::	literal	0.9
-flick%2:39:00::	literal	0.6
-flick%2:35:03::	literal	0.8
-flick%2:35:01::	metaphorical	0.6
-float%2:38:02::	literal	0.9
-float%2:41:03::	metaphorical	0.7
-float%2:38:04::	metaphorical	0.7
-float%2:31:00::	metaphorical	0.7
-flood%2:30:00::	literal	1.0
-flood%2:40:00::	metaphorical	0.7
-flood%2:30:01::	literal	0.9
-flow%2:38:01::	metaphorical	0.7
-flow%2:38:00::	literal	1.0
-flow%2:38:02::	metaphorical	0.5
-flow%2:42:00::	metaphorical	0.5
-flush%2:30:00::	literal	0.6
-flush%2:39:00::	metaphorical	0.7
-flush%2:30:01::	metaphorical	0.5
-form%2:41:00::	literal	0.8
-form%2:42:00::	metaphorical	0.5
-form%2:30:01::	metaphorical	0.6
-form%2:30:05::	literal	0.7
-fracture%2:30:01::	metaphorical	0.7368
-fracture%2:36:00::	metaphorical	0.9
-fracture%2:30:10::	literal	0.96
-fracture%2:29:02::	literal	1.0
-fuel%2:40:00::	literal	1.0
-fuel%2:40:03::	literal	0.9
-fuel%2:37:00::	metaphorical	0.7
-gag%2:39:00::	metaphorical	0.7
-gag%2:35:07::	literal	1.0
-gag%2:32:00::	literal	0.9
-gag%2:29:00::	literal	1.0
-gain%2:33:00::	literal	0.7
-gain%2:30:00::	literal	0.7
-gain%2:30:01::	literal	0.7
-gain%2:29:00::	literal	0.9
-gallop%2:38:00::	literal	0.7
-gallop%2:38:01::	literal	0.9
-gallop%2:38:03::	literal	0.9
-gather%2:32:00::	metaphorical	0.9
-gather%2:35:05::	literal	0.7
-gather%2:35:04::	literal	0.9
-glare%2:29:00::	literal	0.8
-glare%2:43:01::	metaphorical	0.7
-glare%2:39:01::	metaphorical	0.7
-glow%2:39:00::	literal	1.0
-glow%2:39:01::	metaphorical	0.6
-glow%2:43:00::	literal	0.9
-glow%2:37:01::	metaphorical	0.9
-govern%2:41:01::	literal	0.6
-govern%2:41:00::	literal	0.9
-govern%2:42:00::	metaphorical	0.5
-grab%2:38:02::	literal	1.0
-grab%2:35:05::	literal	1.0
-grab%2:31:00::	metaphorical	0.8
-gravitate%2:42:01::	metaphorical	0.7
-gravitate%2:42:00::	literal	0.6
-gravitate%2:38:00::	literal	0.7
-grind%2:30:00::	literal	1.0
-grind%2:36:05::	literal	0.9
-grind%2:36:04::	literal	1.0
-grope%2:35:01::	literal	1.0
-grope%2:41:00::	metaphorical	0.8
-grope%2:35:02::	literal	0.9
-grow%2:30:14::	literal	1.0
-grow%2:30:02::	literal	1.0
-grow%2:30:01::	literal	1.0
-guard%2:41:00::	literal	1.0
-guard%2:33:00::	literal	0.7
-guard%2:41:01::	metaphorical	0.8
-gutter%2:43:00::	metaphorical	0.5
-gutter%2:38:00::	metaphorical	0.7
-gutter%2:35:00::	metaphorical	0.6
-gutter%2:34:00::	literal	0.8
-hack%2:41:00::	metaphorical	0.7
-hack%2:35:01::	literal	0.9
-hack%2:30:01::	literal	0.7
-hack%2:29:00::	literal	0.6
-hail%2:32:02::	literal	0.6
-hail%2:42:00::	literal	0.6
-hail%2:43:00::	literal	1.0
-harmonize%2:42:00::	metaphorical	0.7
-harmonize%2:30:03::	literal	0.7
-harmonize%2:30:02::	metaphorical	0.6
-head%2:38:00::	literal	0.7
-head%2:41:00::	literal	0.7
-head%2:38:02::	metaphorical	0.5
-head%2:42:01::	metaphorical	0.5
-head%2:42:05::	metaphorical	0.6
-head%2:42:00::	literal	0.6
-head%2:42:04::	metaphorical	0.6
-heap%2:40:00::	metaphorical	0.6
-heap%2:35:00::	literal	1.0
-heap%2:30:00::	literal	0.8
-help%2:41:00::	literal	0.9
-help%2:29:00::	literal	0.9
-help%2:42:00::	literal	0.8
-help%2:42:08::	literal	0.8
-help%2:34:00::	literal	0.9
-help%2:41:12::	literal	0.8
-help%2:34:04::	literal	0.8
-help%2:30:13::	metaphorical	0.5
-hunt%2:33:00::	literal	1.0
-hunt%2:38:00::	literal	1.0
-hunt%2:38:03::	literal	0.6
-hunt%2:38:05::	metaphorical	0.7
-hunt%2:35:03::	metaphorical	0.5
-hunt%2:33:02::	literal	0.8
-hurt%2:29:01::	literal	0.9
-hurt%2:30:04::	literal	0.7
-hurt%2:37:00::	metaphorical	0.5
-hurt%2:39:01::	literal	0.9
-ignite%2:43:00::	literal	0.9
-ignite%2:43:01::	literal	0.9
-ignite%2:37:00::	metaphorical	0.7
-immigrate%2:30:01::	literal	0.7
-immigrate%2:30:02::	literal	0.9
-immigrate%2:30:00::	literal	0.9
-impress%2:37:01::	literal	0.8
-impress%2:37:00::	literal	0.9
-impress%2:35:00::	literal	0.6
-incline%2:39:00::	literal	0.6
-incline%2:38:01::	literal	0.9
-incline%2:37:00::	metaphorical	0.5
-incline%2:31:03::	metaphorical	0.9
-include%2:42:00::	literal	0.9
-include%2:31:00::	literal	0.8
-include%2:30:00::	literal	0.9
-indicate%2:32:01::	literal	0.8
-indicate%2:32:00::	literal	0.8
-indicate%2:32:04::	literal	0.8
-induct%2:41:00::	literal	0.9
-induct%2:41:03::	literal	1.0
-induct%2:32:00::	literal	0.68
-infect%2:29:01::	literal	0.8
-infect%2:41:02::	metaphorical	0.7
-infect%2:31:01::	metaphorical	0.6
-inflate%2:30:01::	metaphorical	0.7
-inflate%2:30:11::	metaphorical	0.5
-inflate%2:30:10::	metaphorical	0.6
-inform%2:32:00::	literal	0.9
-inform%2:30:00::	literal	0.7
-inform%2:32:10::	literal	0.8
-inherit%2:40:00::	literal	0.9
-inherit%2:40:02::	literal	0.7
-inherit%2:40:01::	literal	0.9
-inject%2:29:00::	literal	1.0
-inject%2:30:00::	metaphorical	0.8
-inject%2:35:00::	literal	1.0
-interrupt%2:32:00::	literal	0.9
-interrupt%2:30:03::	literal	0.9
-interrupt%2:30:04::	literal	0.9
-interrupt%2:30:00::	metaphorical	0.5
-intervene%2:41:00::	literal	1.0
-intervene%2:42:00::	metaphorical	0.5
-intervene%2:30:00::	metaphorical	0.5
-introduce%2:36:00::	literal	0.9
-introduce%2:36:01::	literal	0.8
-introduce%2:31:00::	literal	0.7
-invade%2:33:00::	literal	0.9
-invade%2:38:00::	literal	0.7
-invade%2:35:00::	literal	0.6
-invite%2:41:00::	literal	0.9
-invite%2:41:01::	literal	0.9
-invite%2:35:00::	literal	0.8
-invite%2:32:01::	literal	0.8
-involve%2:42:04::	literal	0.7
-involve%2:42:00::	literal	0.9
-involve%2:42:02::	literal	0.8
-involve%2:31:00::	literal	0.6
-involve%2:30:00::	literal	0.6
-jam%2:38:01::	literal	0.7
-jam%2:35:01::	literal	0.7
-jam%2:35:00::	metaphorical	0.5
-join%2:41:00::	literal	0.8
-join%2:35:01::	literal	0.9
-join%2:41:01::	literal	0.9
-join%2:35:00::	literal	0.6
-juggle%2:41:01::	metaphorical	0.8
-juggle%2:41:00::	metaphorical	0.9
-juggle%2:35:03::	literal	1.0
-key%2:40:00::	metaphorical	0.5
-key%2:35:00::	literal	0.8
-key%2:30:00::	metaphorical	0.5
-kick%2:35:00::	literal	0.9
-kick%2:35:08::	metaphorical	0.6
-kick%2:33:05::	literal	0.7
-kite%2:40:01::	metaphorical	0.5
-kite%2:40:00::	metaphorical	0.6
-kite%2:38:01::	literal	0.8
-land%2:38:00::	literal	0.9
-land%2:38:01::	literal	1.0
-land%2:30:00::	metaphorical	0.8
-land%2:38:03::	literal	0.9
-land%2:40:00::	literal	0.9
-land%2:38:02::	literal	0.9
-land%2:38:06::	literal	1.0
-lay%2:35:00::	literal	0.9
-lay%2:36:00::	metaphorical	0.6
-lay%2:35:02::	literal	0.8
-lay%2:40:00::	metaphorical	0.6
-leak%2:32:00::	metaphorical	0.6
-leak%2:32:01::	metaphorical	0.7
-leak%2:30:04::	literal	1.0
-leak%2:30:00::	literal	1.0
-lean%2:38:00::	literal	1.0
-lean%2:35:00::	literal	1.0
-lean%2:31:10::	metaphorical	0.6
-lend%2:40:01::	literal	0.6
-lend%2:40:00::	literal	0.9
-lend%2:42:00::	metaphorical	0.6
-level%2:33:02::	metaphorical	0.7
-level%2:36:00::	literal	0.9
-level%2:32:01::	metaphorical	0.7
-level%2:30:00::	literal	1.0
-lie%2:32:00::	literal	0.9
-lie%2:42:02::	metaphorical	0.7
-lie%2:38:00::	literal	1.0
-lighten%2:37:01::	metaphorical	0.5
-lighten%2:35:00::	literal	0.8
-lighten%2:32:00::	metaphorical	0.7
-lighten%2:30:02::	literal	0.7
-like%2:37:05::	literal	0.9
-like%2:31:00::	literal	0.8
-like%2:37:06::	literal	0.9
-line%2:42:00::	literal	0.6
-line%2:35:02::	metaphorical	0.8
-line%2:30:01::	literal	0.8
-live%2:42:08::	literal	0.9
-live%2:42:06::	literal	0.8
-live%2:42:07::	literal	0.7
-load%2:35:01::	literal	1.0
-load%2:35:02::	literal	1.0
-load%2:35:10::	literal	1.0
-locate%2:40:00::	literal	0.9545
-locate%2:42:00::	literal	0.9
-locate%2:40:01::	literal	0.9524
-lock%2:35:00::	literal	0.9
-lock%2:30:00::	literal	0.52
-lock%2:35:04::	metaphorical	0.8
-lock%2:35:03::	metaphorical	0.7
-lock%2:37:00::	metaphorical	1.0
-lock%2:35:02::	literal	0.7
-look%2:39:00::	literal	0.9
-look%2:29:00::	literal	0.8
-look%2:39:02::	literal	1.0
-look%2:42:00::	metaphorical	0.8
-look%2:32:00::	literal	0.6
-look%2:42:02::	literal	0.7
-loop%2:38:01::	metaphorical	0.5
-loop%2:38:00::	metaphorical	0.6
-loop%2:35:01::	literal	0.7
-map%2:36:00::	literal	0.8
-map%2:31:01::	literal	0.7
-map%2:36:01::	metaphorical	0.7
-march%2:38:04::	literal	0.9
-march%2:38:00::	literal	0.6
-march%2:38:10::	literal	0.7
-match%2:40:00::	literal	0.9
-match%2:41:00::	literal	0.8
-match%2:33:00::	literal	0.6
-match%2:30:00::	literal	0.9545
-mean%2:32:01::	literal	0.6
-mean%2:42:00::	literal	0.8
-mean%2:31:05::	literal	0.6
-mellow%2:30:01::	literal	0.6
-mellow%2:30:03::	literal	0.6
-mellow%2:30:00::	metaphorical	0.5
-melt%2:30:01::	literal	1.0
-melt%2:30:00::	literal	0.9
-melt%2:30:02::	metaphorical	0.7
-melt%2:30:10::	metaphorical	0.7
-miss%2:39:00::	literal	0.8
-miss%2:37:00::	literal	0.6
-miss%2:42:01::	literal	0.9
-miss%2:31:00::	literal	0.7
-miss%2:38:00::	literal	0.9
-miss%2:35:00::	literal	0.8
-miss%2:42:02::	literal	0.9
-miss%2:32:00::	literal	0.9
-moderate%2:32:00::	literal	0.8
-moderate%2:41:00::	literal	0.9
-moderate%2:32:06::	literal	0.8
-mold%2:30:00::	literal	0.7
-mold%2:36:01::	literal	0.7
-mold%2:35:00::	metaphorical	0.7
-mount%2:35:00::	literal	0.9
-mount%2:30:01::	literal	0.9
-mount%2:36:00::	metaphorical	0.5
-mount%2:36:01::	metaphorical	0.7
-nag%2:32:00::	literal	0.8
-nag%2:37:00::	metaphorical	0.5
-nag%2:31:00::	literal	0.7
-name%2:32:03::	literal	1.0
-name%2:32:02::	literal	0.9
-name%2:41:01::	literal	0.6
-name%2:32:07::	literal	1.0
-name%2:32:04::	literal	1.0
-negociate%2:40:02::	literal	0.7
-negociate%2:38:00::	metaphorical	0.5
-negociate%2:32:01::	literal	1.0
-neutralize%2:41:00::	metaphorical	0.5
-neutralize%2:30:01::	metaphorical	0.6
-neutralize%2:30:00::	literal	0.7
-nod%2:32:01::	literal	0.9
-nod%2:32:00::	literal	1.0
-nod%2:29:03::	literal	0.6
-nod%2:38:00::	metaphorical	0.8
-nod%2:29:02::	literal	1.0
-note%2:39:00::	literal	0.6
-note%2:39:02::	literal	0.6
-note%2:32:01::	literal	0.7
-offset%2:42:01::	literal	0.9
-offset%2:42:00::	literal	0.7
-offset%2:36:00::	literal	0.6
-oppose%2:32:01::	literal	0.9
-oppose%2:33:01::	literal	0.9
-oppose%2:32:00::	literal	0.9
-ordain%2:41:01::	literal	1.0
-ordain%2:41:00::	literal	1.0
-ordain%2:41:02::	literal	0.9565
-orient%2:39:00::	literal	0.8
-orient%2:32:01::	literal	0.8
-orient%2:30:00::	literal	0.6
-paint%2:36:01::	literal	1.0
-paint%2:35:00::	literal	1.0
-paint%2:36:00::	literal	0.8
-palpitate%2:38:02::	metaphorical	0.5
-palpitate%2:38:01::	literal	1.0
-palpitate%2:38:00::	literal	0.9
-paste%2:35:01::	literal	1.0
-paste%2:35:00::	metaphorical	0.7
-paste%2:35:02::	literal	0.8
-peep%2:39:00::	literal	0.8
-peep%2:39:01::	metaphorical	0.6
-peep%2:30:00::	metaphorical	0.9
-penetrate%2:35:00::	literal	1.0
-penetrate%2:38:06::	literal	0.619
-perturb%2:37:00::	literal	0.9
-perturb%2:38:01::	metaphorical	0.5
-perturb%2:38:00::	metaphorical	0.5
-perturb%2:30:00::	metaphorical	0.6
-piece%2:35:00::	literal	0.9
-piece%2:34:00::	metaphorical	0.5
-piece%2:30:00::	literal	0.9
-pierce%2:37:00::	metaphorical	0.9
-pierce%2:39:00::	metaphorical	1.0
-pierce%2:35:00::	literal	1.0
-pin%2:35:03::	literal	0.8
-pin%2:35:01::	literal	1.0
-pin%2:35:02::	literal	1.0
-ping%2:35:00::	literal	0.8
-ping%2:39:01::	literal	0.8
-ping%2:39:00::	literal	0.9
-ping%2:32:01::	metaphorical	0.5
-ping%2:32:00::	literal	0.6
-plaster%2:35:11::	literal	0.7
-plaster%2:35:10::	literal	0.8
-plaster%2:35:02::	literal	0.8
-plead%2:32:00::	literal	0.8
-plead%2:32:02::	literal	0.7
-plead%2:32:01::	literal	0.9
-please%2:37:00::	literal	0.7
-please%2:37:01::	literal	0.6
-please%2:37:03::	literal	0.7
-pledge%2:32:00::	literal	0.8
-pledge%2:40:04::	literal	0.9
-pledge%2:32:01::	literal	0.6
-plunge%2:38:01::	literal	0.6
-plunge%2:38:05::	literal	0.6
-plunge%2:31:01::	metaphorical	0.7
-plunge%2:38:00::	literal	0.9
-poison%2:41:00::	metaphorical	0.8
-poison%2:35:00::	literal	1.0
-poison%2:30:00::	literal	1.0
-poison%2:35:01::	literal	1.0
-poison%2:29:00::	literal	1.0
-port%2:38:06::	literal	0.8
-port%2:38:05::	literal	1.0
-port%2:38:03::	literal	1.0
-port%2:35:07::	literal	1.0
-port%2:34:00::	metaphorical	0.5
-portray%2:32:00::	literal	0.7
-portray%2:36:00::	literal	0.8
-portray%2:36:02::	literal	0.8
-pose%2:42:00::	metaphorical	0.6
-pose%2:39:00::	literal	0.9
-pose%2:32:13::	literal	0.8
-pound%2:35:00::	literal	0.9
-pound%2:35:06::	metaphorical	0.5
-pound%2:35:05::	metaphorical	0.6
-pound%2:35:04::	literal	0.6
-pound%2:30:03::	literal	1.0
-pour%2:38:03::	literal	0.9
-pour%2:38:00::	metaphorical	0.7391
-pour%2:38:02::	literal	1.0
-pour%2:40:00::	metaphorical	1.0
-pour%2:43:00::	metaphorical	0.5
-precede%2:42:00::	literal	0.7
-precede%2:42:01::	literal	0.9
-precede%2:41:00::	literal	0.8
-precede%2:32:03::	literal	0.6
-precipitate%2:36:00::	metaphorical	0.6
-precipitate%2:38:01::	metaphorical	0.5
-precipitate%2:35:00::	metaphorical	0.5
-predicate%2:32:02::	literal	0.8
-predicate%2:32:00::	literal	0.8
-predicate%2:32:01::	literal	0.8
-preserve%2:42:00::	metaphorical	0.5
-preserve%2:40:00::	literal	0.8
-preserve%2:42:07::	literal	0.8
-prick%2:35:00::	literal	1.0
-prick%2:39:00::	literal	1.0
-prick%2:38:00::	literal	0.7
-prick%2:37:00::	metaphorical	0.7
-process%2:31:00::	literal	0.9
-process%2:41:00::	metaphorical	0.5
-process%2:38:00::	literal	0.8
-process%2:35:00::	literal	0.7
-produce%2:36:02::	literal	0.9
-produce%2:36:00::	literal	0.8
-produce%2:36:03::	literal	0.9
-produce%2:39:01::	literal	0.7
-produce%2:36:05::	literal	0.8
-profess%2:32:00::	literal	0.8
-profess%2:32:03::	literal	0.8
-profess%2:32:10::	literal	0.8
-profess%2:32:01::	literal	0.7
-profess%2:32:04::	literal	0.9
-propagate%2:40:00::	literal	0.8
-propagate%2:38:01::	literal	0.6
-propagate%2:35:00::	literal	0.6
-propagate%2:35:01::	literal	0.7
-provide%2:40:00::	literal	1.0
-provide%2:34:00::	literal	0.9
-provide%2:32:00::	literal	0.8
-provide%2:40:08::	literal	0.9
-provide%2:30:05::	literal	0.8
-puff%2:37:00::	metaphorical	0.7
-puff%2:32:01::	metaphorical	0.8
-puff%2:32:00::	metaphorical	0.6
-puff%2:30:00::	literal	0.9
-puff%2:29:01::	literal	0.7
-pump%2:33:00::	metaphorical	0.65
-pump%2:38:03::	literal	0.6
-pump%2:32:00::	metaphorical	0.9167
-push%2:38:00::	literal	1.0
-push%2:35:06::	literal	0.9
-push%2:32:01::	metaphorical	0.7
-push%2:32:00::	metaphorical	0.7
-push%2:38:02::	literal	1.0
-push%2:38:01::	metaphorical	0.7
-push%2:41:10::	metaphorical	0.7
-push%2:40:00::	metaphorical	0.7
-push%2:38:08::	literal	0.8
-put%2:35:05::	literal	0.7
-put%2:32:00::	literal	0.7
-put%2:34:00::	metaphorical	0.5
-put%2:31:13::	literal	0.7
-put%2:39:13::	literal	0.7
-put%2:36:13::	literal	0.8
-put%2:31:00::	literal	0.8
-quote%2:32:00::	literal	0.9
-quote%2:32:13::	literal	0.9
-quote%2:32:02::	literal	0.9
-radiate%2:43:00::	literal	0.9
-radiate%2:30:00::	metaphorical	0.5
-radiate%2:42:00::	literal	0.7
-radiate%2:30:02::	literal	0.7
-raid%2:41:00::	literal	0.9
-raid%2:38:00::	literal	0.9
-raid%2:40:02::	literal	0.7
-raid%2:35:02::	metaphorical	0.6
-rail%2:42:00::	metaphorical	0.5
-rail%2:38:01::	literal	0.8
-rail%2:38:04::	literal	0.8
-rail%2:38:00::	literal	0.8
-rail%2:35:03::	literal	0.8
-rail%2:33:00::	metaphorical	0.7
-ramp%2:40:00::	metaphorical	0.5
-ramp%2:39:00::	literal	0.6
-ramp%2:38:02::	literal	0.7
-range%2:42:01::	literal	0.7
-rationalize%2:32:00::	metaphorical	0.5
-rationalize%2:40:00::	literal	0.8
-rationalize%2:31:00::	literal	0.7
-rationalize%2:30:01::	literal	0.7
-reach%2:35:00::	metaphorical	0.6
-reach%2:32:00::	literal	0.6
-reach%2:42:00::	literal	0.7
-recall%2:32:02::	literal	0.8
-recall%2:31:06::	literal	0.7
-recall%2:41:00::	literal	0.8
-recall%2:40:00::	literal	0.9
-recapture%2:37:00::	metaphorical	0.7
-recapture%2:36:00::	literal	0.5556
-recapture%2:40:00::	literal	0.9
-recapture%2:35:00::	literal	1.0
-recast%2:36:00::	literal	0.7
-recast%2:36:01::	literal	0.7
-recast%2:36:02::	literal	0.52
-recruit%2:41:01::	literal	1.0
-recruit%2:40:00::	literal	0.8696
-recruit%2:33:00::	literal	0.9091
-redouble%2:30:00::	literal	0.8
-redouble%2:30:02::	literal	0.8
-redouble%2:30:01::	literal	0.6
-redound%2:39:00::	metaphorical	0.8
-redound%2:30:00::	metaphorical	0.8
-redound%2:30:01::	metaphorical	0.5
-reenact%2:36:01::	literal	0.9
-reenact%2:41:00::	literal	0.7
-reenact%2:36:00::	literal	0.9
-refer%2:42:00::	literal	0.8
-refer%2:31:00::	literal	0.8
-refer%2:38:00::	literal	0.9
-refer%2:32:04::	literal	0.7
-refine%2:30:01::	literal	0.7
-refine%2:30:06::	literal	0.7
-refine%2:30:03::	literal	0.7
-refine%2:30:05::	literal	0.8
-reflect%2:39:01::	metaphorical	0.5
-reflect%2:39:00::	literal	0.6
-reflect%2:43:00::	literal	0.7
-reflect%2:39:02::	literal	1.0
-reflect%2:32:01::	metaphorical	0.8
-reflect%2:32:00::	metaphorical	0.9
-reform%2:30:00::	literal	0.8
-reform%2:30:04::	metaphorical	0.5
-reform%2:30:08::	literal	0.6
-reform%2:30:03::	literal	0.9
-register%2:31:00::	literal	0.6
-register%2:41:01::	literal	0.9
-register%2:39:00::	literal	0.9
-register%2:39:01::	literal	0.7
-register%2:32:05::	literal	0.9
-rejuvenate%2:30:03::	literal	0.7
-rejuvenate%2:30:00::	literal	0.8
-rejuvenate%2:29:00::	literal	0.6
-relate%2:32:00::	metaphorical	0.6
-relate%2:42:01::	literal	0.7
-relate%2:41:00::	literal	0.7
-relax%2:29:00::	literal	0.9
-relax%2:30:01::	literal	0.7
-relax%2:29:01::	literal	0.9
-relax%2:41:02::	literal	0.9
-relax%2:41:01::	metaphorical	0.6
-relax%2:41:00::	metaphorical	0.8
-remember%2:31:00::	literal	0.9
-remember%2:31:02::	literal	0.9
-remember%2:40:00::	literal	0.9
-remember%2:32:07::	literal	0.9
-remember%2:31:08::	literal	0.9
-remember%2:31:09::	literal	0.9
-remit%2:32:00::	literal	0.9
-remit%2:32:04::	literal	0.7
-remit%2:30:02::	literal	0.8
-repair%2:30:00::	literal	1.0
-repair%2:40:00::	literal	0.7
-repair%2:38:00::	metaphorical	0.5
-replace%2:30:00::	literal	0.9
-replace%2:41:00::	literal	0.9
-replace%2:35:00::	literal	1.0
-replace%2:40:00::	literal	1.0
-report%2:32:04::	literal	0.9
-report%2:32:03::	literal	0.8
-report%2:32:01::	literal	0.9
-report%2:32:13::	literal	0.8
-report%2:32:02::	literal	0.9
-repose%2:34:00::	literal	0.7
-repose%2:35:00::	literal	0.7
-repose%2:35:03::	literal	0.6
-reseat%2:40:01::	literal	0.9
-reseat%2:40:00::	literal	0.6
-reseat%2:35:00::	literal	0.8
-restore%2:41:01::	literal	0.8
-restore%2:30:00::	literal	0.6
-restore%2:41:00::	literal	0.9
-retain%2:42:00::	literal	0.9
-retain%2:40:00::	literal	0.9
-retain%2:31:00::	literal	0.9
-retrofit%2:40:00::	literal	0.9
-retrofit%2:35:00::	literal	0.9
-retrofit%2:30:00::	literal	0.8
-review%2:31:00::	literal	0.9
-review%2:32:00::	literal	0.9
-review%2:31:04::	literal	0.8
-review%2:31:01::	literal	0.8
-revive%2:29:01::	literal	0.8
-revive%2:29:00::	metaphorical	0.6
-revive%2:30:00::	metaphorical	0.5
-revive%2:30:01::	literal	0.6
-right%2:41:00::	literal	0.8
-right%2:38:03::	literal	0.9
-right%2:38:00::	literal	0.6
-rip%2:35:00::	literal	0.9583
-rip%2:38:00::	metaphorical	0.8
-rip%2:32:00::	metaphorical	1.0
-root%2:30:00::	literal	0.9
-root%2:42:00::	metaphorical	0.6
-root%2:35:00::	literal	0.9
-rotate%2:41:00::	literal	0.6
-rotate%2:33:00::	metaphorical	0.6
-rotate%2:30:04::	literal	0.8
-rubricate%2:41:03::	literal	0.8
-rubricate%2:36:01::	literal	0.9
-rubricate%2:36:00::	literal	0.8
-ruffle%2:37:00::	metaphorical	0.7
-ruffle%2:37:01::	metaphorical	1.0
-ruffle%2:35:01::	literal	0.8
-ruffle%2:35:02::	literal	0.6
-ruffle%2:35:00::	literal	0.8
-ruin%2:35:00::	literal	0.8
-ruin%2:41:00::	literal	0.7
-ruin%2:35:01::	literal	0.8
-sail%2:38:03::	literal	1.0
-sail%2:38:00::	literal	1.0
-sail%2:38:02::	literal	0.9
-salt%2:35:00::	metaphorical	0.7
-salt%2:30:01::	metaphorical	1.0
-salt%2:30:00::	literal	1.0
-salute%2:32:00::	literal	1.0
-salute%2:32:03::	metaphorical	0.5
-salute%2:39:00::	metaphorical	0.9
-salute%2:32:01::	literal	1.0
-scale%2:42:00::	literal	0.8
-scale%2:40:00::	literal	0.8
-scale%2:38:01::	literal	0.8
-scale%2:30:01::	literal	0.8
-scan%2:39:01::	literal	1.0
-scan%2:39:00::	literal	0.8
-scan%2:35:00::	metaphorical	0.5
-scorch%2:30:03::	metaphorical	0.5
-scorch%2:30:05::	literal	1.0
-scorch%2:30:04::	metaphorical	0.6
-score%2:33:00::	literal	0.8
-score%2:35:00::	literal	0.6
-score%2:33:01::	literal	1.0
-score%2:31:05::	literal	0.9
-scrape%2:35:00::	literal	1.0
-scrape%2:36:00::	literal	0.8
-scrape%2:35:03::	metaphorical	0.6
-screen%2:41:01::	metaphorical	0.6
-screen%2:31:00::	literal	0.6
-screen%2:41:00::	literal	0.7
-seat%2:35:00::	literal	0.9
-seat%2:42:00::	literal	1.0
-seat%2:35:01::	literal	0.6
-seat%2:35:02::	literal	1.0
-seem%2:39:00::	literal	0.9
-seem%2:39:01::	literal	0.7
-seem%2:42:00::	literal	0.9
-seem%2:39:02::	literal	0.8
-segregate%2:41:00::	literal	0.9
-segregate%2:35:02::	literal	0.8
-segregate%2:30:00::	literal	0.7
-seize%2:35:00::	literal	0.8
-seize%2:35:01::	literal	0.9
-seize%2:40:01::	literal	0.9
-seize%2:40:02::	literal	0.8
-seize%2:31:04::	metaphorical	0.6
-sell%2:42:00::	literal	0.9
-sell%2:32:00::	metaphorical	0.75
-sell%2:40:01::	literal	1.0
-sense%2:39:02::	literal	0.7
-sense%2:31:03::	literal	0.7
-sense%2:31:02::	literal	0.6
-sensitize%2:30:00::	literal	0.7
-sensitize%2:39:00::	metaphorical	0.6
-sensitize%2:30:02::	literal	0.8
-sensitize%2:30:01::	literal	0.7
-sequester%2:40:01::	literal	0.6
-sequester%2:30:06::	literal	0.7
-sequester%2:30:00::	literal	0.7
-sequester%2:30:01::	literal	0.7
-shake%2:30:00::	metaphorical	0.875
-shake%2:38:04::	metaphorical	1.0
-shake%2:30:01::	literal	1.0
-sharpen%2:30:01::	metaphorical	0.8
-sharpen%2:30:00::	metaphorical	0.8
-sharpen%2:30:05::	metaphorical	0.7
-shed%2:35:01::	metaphorical	0.7
-shed%2:35:02::	literal	0.625
-shed%2:29:00::	literal	0.9
-shipwreck%2:41:00::	metaphorical	0.9
-shipwreck%2:39:00::	literal	0.8889
-shipwreck%2:35:00::	literal	0.9
-shorten%2:30:01::	literal	0.8
-shorten%2:30:02::	literal	0.7
-shorten%2:30:09::	literal	1.0
-shorten%2:30:00::	literal	0.8
-shower%2:40:00::	metaphorical	0.8
-shower%2:35:00::	literal	0.7
-shower%2:29:00::	literal	1.0
-shower%2:43:00::	literal	0.7
-shower%2:34:12::	metaphorical	0.7
-sift%2:38:00::	metaphorical	0.7
-sift%2:35:02::	metaphorical	0.7
-sift%2:31:00::	metaphorical	0.8
-sign%2:32:02::	literal	0.9
-sign%2:32:00::	literal	0.7
-sign%2:41:01::	metaphorical	0.5
-sign%2:32:01::	metaphorical	0.7
-sign%2:35:02::	literal	0.6667
-sign%2:32:04::	literal	0.8
-sing%2:36:00::	literal	1.0
-sing%2:32:08::	literal	0.8
-sing%2:32:00::	metaphorical	0.8
-sit%2:38:01::	metaphorical	0.7
-sit%2:42:05::	metaphorical	0.6
-sit%2:41:05::	metaphorical	0.6
-smash%2:35:00::	metaphorical	0.6
-smash%2:38:02::	literal	0.8
-smash%2:35:05::	literal	0.9
-smash%2:33:00::	metaphorical	0.7
-smother%2:35:02::	literal	0.6
-smother%2:35:00::	literal	1.0
-smother%2:42:00::	metaphorical	0.5
-snort%2:32:00::	metaphorical	0.5
-snort%2:29:00::	literal	0.9
-snort%2:34:02::	literal	0.8
-socialize%2:41:01::	literal	0.8
-socialize%2:41:00::	literal	0.9
-socialize%2:30:01::	literal	0.8
-socialize%2:30:00::	literal	0.6
-solicit%2:32:00::	literal	0.8261
-solicit%2:32:01::	literal	0.8571
-solicit%2:32:04::	literal	0.8571
-solicit%2:32:05::	literal	0.9167
-sound%2:39:06::	literal	0.8
-sound%2:39:03::	literal	0.9
-sound%2:39:01::	literal	0.8
-sow%2:35:00::	literal	1.0
-sow%2:32:00::	metaphorical	0.8
-sow%2:35:02::	literal	0.8
-spat%2:43:00::	literal	0.6
-spat%2:35:01::	literal	0.7
-spat%2:35:00::	literal	0.6
-specialize%2:30:00::	literal	0.8
-specialize%2:30:01::	literal	0.9
-specialize%2:41:00::	literal	0.9
-spell%2:32:00::	literal	1.0
-spell%2:32:01::	metaphorical	0.8
-spell%2:36:00::	literal	1.0
-spell%2:41:00::	metaphorical	0.6
-spell%2:30:00::	metaphorical	0.5
-splash%2:35:01::	literal	1.0
-splash%2:35:00::	literal	0.9
-splash%2:35:06::	metaphorical	0.7
-splash%2:39:00::	literal	1.0
-spot%2:35:00::	literal	0.8
-spot%2:30:01::	literal	0.6
-spot%2:30:00::	literal	0.8
-spray%2:35:01::	literal	1.0
-spray%2:35:00::	literal	1.0
-spray%2:35:03::	literal	1.0
-spread%2:35:00::	literal	0.6
-spread%2:35:13::	literal	1.0
-spread%2:35:07::	literal	0.6
-spread%2:42:00::	literal	0.9
-spread%2:38:00::	literal	1.0
-spread%2:35:12::	literal	1.0
-square%2:30:00::	literal	0.8
-square%2:38:00::	metaphorical	0.7
-square%2:42:00::	metaphorical	0.7
-stagger%2:38:00::	literal	0.9
-stagger%2:38:01::	literal	0.9048
-stagger%2:35:00::	literal	0.7222
-stagger%2:37:00::	metaphorical	0.7895
-stagnate%2:42:01::	literal	0.7
-stagnate%2:42:02::	literal	0.9
-stagnate%2:42:00::	literal	0.9
-stagnate%2:41:00::	literal	0.7
-stall%2:38:00::	literal	0.9
-stall%2:30:00::	literal	0.8
-stall%2:38:01::	literal	0.9
-stamp%2:35:01::	metaphorical	0.5
-stamp%2:39:00::	metaphorical	0.6
-stamp%2:35:02::	literal	1.0
-stamp%2:35:04::	metaphorical	0.5
-stampede%2:38:01::	literal	0.8
-stampede%2:41:01::	metaphorical	0.5
-stampede%2:41:00::	metaphorical	0.6
-steam%2:38:02::	literal	0.7
-steam%2:43:00::	literal	0.7
-steam%2:37:00::	metaphorical	0.6
-steam%2:35:00::	literal	0.9
-steam%2:30:00::	literal	1.0
-steamroll%2:41:01::	metaphorical	0.6
-steamroll%2:41:00::	metaphorical	0.7
-steamroll%2:33:00::	metaphorical	0.7
-steamroller%2:41:01::	metaphorical	0.5
-steamroller%2:41:00::	metaphorical	0.7
-steamroller%2:35:00::	literal	0.9
-steamroller%2:33:00::	metaphorical	0.6
-step%2:30:01::	metaphorical	0.5
-step%2:40:00::	literal	0.7
-step%2:38:03::	literal	1.0
-stimulate%2:30:00::	literal	0.7
-stimulate%2:29:00::	literal	0.8
-stimulate%2:39:00::	literal	0.6
-stoop%2:41:12::	metaphorical	0.8
-stoop%2:38:04::	literal	0.8
-stoop%2:38:05::	metaphorical	0.5
-stoop%2:35:02::	literal	0.8
-stream%2:38:01::	metaphorical	0.6
-stream%2:29:00::	metaphorical	0.5
-stream%2:38:00::	literal	0.6
-stuff%2:35:00::	literal	0.8
-stuff%2:35:01::	literal	0.7
-stuff%2:34:00::	metaphorical	0.6
-stuff%2:30:02::	literal	0.9
-stuff%2:30:00::	literal	0.9
-stumble%2:38:01::	literal	0.9
-stumble%2:38:00::	literal	1.0
-stumble%2:40:10::	metaphorical	0.7
-suck%2:34:04::	literal	1.0
-suck%2:38:00::	metaphorical	0.7
-suck%2:43:00::	metaphorical	0.8
-suck%2:34:02::	literal	0.9
-supplicate%2:32:00::	literal	0.7
-supplicate%2:32:02::	literal	0.7
-supplicate%2:32:01::	literal	0.8
-suspend%2:35:00::	literal	0.875
-suspend%2:30:01::	metaphorical	0.6
-suspend%2:30:02::	literal	0.6
-suspend%2:42:00::	literal	0.6
-sustain%2:42:01::	literal	0.7
-sustain%2:34:01::	literal	0.8
-sustain%2:34:00::	literal	0.6
-sustain%2:32:00::	literal	0.6
-swallow%2:33:00::	metaphorical	0.8
-swallow%2:35:00::	metaphorical	0.8
-swallow%2:32:01::	metaphorical	0.7
-swallow%2:32:00::	metaphorical	0.8
-swallow%2:31:01::	metaphorical	0.8
-swallow%2:31:00::	metaphorical	0.8
-swell%2:30:02::	metaphorical	0.6
-swell%2:41:00::	metaphorical	0.8
-swell%2:30:00::	literal	0.9
-swell%2:30:01::	literal	0.9
-swim%2:38:00::	literal	1.0
-swim%2:42:02::	metaphorical	1.0
-swim%2:42:00::	metaphorical	0.9
-swim%2:38:02::	literal	0.9
-synchronize%2:30:00::	literal	0.9
-synchronize%2:32:00::	literal	0.8
-synchronize%2:31:00::	literal	0.7
-synchronize%2:30:01::	literal	0.7
-synchronize%2:30:03::	literal	0.9
-tack%2:35:00::	literal	0.9
-tack%2:38:00::	literal	0.7
-tack%2:36:05::	metaphorical	0.5
-talk%2:32:01::	metaphorical	0.9
-talk%2:32:00::	literal	0.8
-talk%2:32:03::	literal	0.9
-talk%2:32:02::	literal	0.9
-talk%2:32:06::	literal	0.7
-talk%2:32:05::	literal	0.8
-taste%2:39:00::	literal	1.0
-taste%2:39:12::	literal	1.0
-taste%2:39:01::	literal	1.0
-taste%2:31:05::	metaphorical	0.7
-tax%2:40:00::	literal	0.7
-tax%2:34:00::	metaphorical	0.9
-tax%2:32:00::	metaphorical	0.6
-tease%2:37:00::	literal	0.9
-tease%2:32:00::	literal	0.9
-tease%2:37:01::	literal	0.7
-tease%2:35:03::	literal	0.6
-tease%2:32:09::	literal	0.9
-tell%2:31:00::	literal	0.6
-tell%2:32:08::	literal	0.8
-tell%2:32:03::	literal	0.9
-tempt%2:32:01::	literal	0.8
-tempt%2:32:04::	literal	0.7
-tempt%2:37:00::	literal	0.8
-tempt%2:32:03::	literal	0.9
-tense%2:35:00::	literal	0.9
-tense%2:30:00::	literal	0.8
-tense%2:29:01::	literal	0.9
-tense%2:29:00::	literal	0.8
-test%2:32:00::	literal	1.0
-test%2:42:00::	literal	0.8
-test%2:33:00::	literal	1.0
-test%2:31:06::	literal	0.7
-thrill%2:39:00::	literal	0.8
-thrill%2:37:02::	literal	0.9
-thrill%2:37:01::	literal	0.7
-thunder%2:38:00::	metaphorical	0.7368
-thunder%2:32:01::	metaphorical	0.7
-tie%2:35:00::	literal	1.0
-tie%2:33:00::	literal	0.6
-tie%2:30:01::	metaphorical	0.6
-tie%2:36:00::	literal	1.0
-time%2:31:00::	literal	0.7727
-time%2:31:01::	literal	0.8889
-time%2:30:06::	literal	0.7
-tip%2:38:02::	literal	0.9
-tip%2:30:00::	literal	0.8
-tip%2:40:00::	literal	0.7
-tip%2:32:04::	literal	0.6
-tithe%2:40:01::	literal	0.9
-tithe%2:40:03::	literal	0.9
-tithe%2:40:02::	literal	0.8
-top%2:30:03::	metaphorical	0.8
-top%2:42:02::	literal	0.92
-top%2:40:00::	literal	0.6
-top%2:38:04::	metaphorical	0.8
-top%2:35:00::	metaphorical	0.7
-trace%2:35:00::	literal	1.0
-trace%2:38:00::	literal	0.6
-trace%2:39:00::	metaphorical	0.6
-trace%2:38:03::	metaphorical	0.5
-trail%2:38:01::	metaphorical	0.7
-trail%2:35:03::	metaphorical	0.7
-transfer%2:40:01::	literal	0.8
-transfer%2:38:00::	literal	1.0
-transfer%2:40:00::	literal	0.9
-transform%2:30:00::	metaphorical	0.7
-transform%2:30:03::	metaphorical	0.7
-transform%2:30:06::	literal	0.6
-translate%2:32:00::	literal	0.9
-translate%2:30:01::	metaphorical	0.7
-translate%2:42:03::	literal	0.8
-translate%2:42:00::	literal	0.6
-translate%2:32:06::	literal	0.9
-tread%2:38:01::	literal	0.6
-tread%2:35:00::	literal	0.8
-tread%2:35:02::	literal	0.7
-treat%2:30:01::	literal	0.8
-treat%2:29:00::	literal	0.8
-treat%2:40:00::	literal	0.8
-treat%2:34:00::	literal	0.6
-treat%2:32:03::	metaphorical	0.5
-treat%2:31:00::	literal	0.7
-trench%2:35:05::	literal	0.8
-trench%2:35:00::	metaphorical	0.5
-trench%2:35:06::	literal	0.7
-trench%2:35:01::	literal	0.8
-tug%2:35:00::	literal	1.0
-tug%2:41:00::	metaphorical	0.8
-tug%2:35:04::	literal	0.7
-tug%2:35:02::	literal	1.0
-tug%2:35:01::	literal	0.9
-tug%2:33:00::	metaphorical	0.6
-twist%2:29:00::	literal	0.9
-twist%2:35:02::	literal	1.0
-twist%2:35:01::	literal	1.0
-twist%2:32:00::	metaphorical	0.8
-understand%2:31:00::	literal	0.9
-understand%2:31:03::	literal	0.9
-understand%2:31:02::	literal	0.8
-understand%2:31:04::	literal	0.9
-upgrade%2:30:00::	literal	0.9
-upgrade%2:30:05::	literal	0.9
-upgrade%2:30:04::	literal	0.8
-uproot%2:41:00::	metaphorical	0.7
-uproot%2:36:00::	metaphorical	0.8
-uproot%2:35:00::	literal	1.0
-use%2:34:01::	literal	0.8
-use%2:34:02::	literal	0.9
-use%2:41:14::	literal	0.9
-use%2:41:04::	literal	0.6
-use%2:41:03::	literal	0.9
-vanish%2:39:00::	literal	0.8
-vanish%2:30:02::	literal	0.7
-vanish%2:30:01::	literal	0.6
-vegetate%2:30:02::	literal	0.6
-vegetate%2:30:01::	literal	0.7
-vegetate%2:30:00::	literal	0.7
-vegetate%2:30:04::	literal	0.6
-vegetate%2:29:01::	literal	0.6
-vegetate%2:29:00::	metaphorical	0.6
-vest%2:41:00::	metaphorical	0.6
-vest%2:40:02::	literal	0.6
-vest%2:40:03::	literal	0.6
-visit%2:38:00::	literal	0.9
-visit%2:32:01::	metaphorical	0.8
-visit%2:42:04::	literal	1.0
-visit%2:30:00::	metaphorical	0.7
-visualize%2:39:00::	literal	0.7
-visualize%2:36:02::	metaphorical	0.5
-visualize%2:30:00::	literal	0.8696
-volley%2:38:01::	metaphorical	0.5
-volley%2:35:01::	literal	0.6
-volley%2:35:00::	metaphorical	0.7
-volley%2:32:00::	metaphorical	0.6842
-vote%2:41:13::	literal	0.9
-vote%2:41:10::	literal	1.0
-vote%2:41:11::	literal	0.8
-vote%2:41:09::	literal	0.7
-vote%2:41:12::	literal	0.9
-vouch%2:32:01::	literal	0.7
-vouch%2:32:12::	literal	0.7
-vouch%2:30:00::	metaphorical	0.5
-walk%2:38:00::	literal	1.0
-walk%2:38:04::	literal	0.9
-walk%2:38:01::	literal	0.8
-walk%2:38:03::	literal	1.0
-walk%2:41:01::	literal	0.6
-walk%2:38:02::	literal	1.0
-walk%2:38:05::	literal	0.7917
-wallow%2:34:01::	metaphorical	0.5
-wallow%2:38:00::	literal	0.9
-wallow%2:34:00::	metaphorical	0.7
-want%2:37:00::	literal	0.9
-want%2:34:00::	metaphorical	0.8
-want%2:35:00::	literal	0.7
-want%2:31:01::	literal	0.9
-want%2:42:01::	literal	0.9
-warn%2:32:00::	literal	1.0
-warn%2:32:01::	literal	0.88
-warn%2:32:03::	literal	1.0
-warn%2:32:02::	literal	0.875
-waste%2:40:00::	metaphorical	0.7
-waste%2:34:05::	metaphorical	0.5
-waste%2:40:01::	literal	0.7619
-waste%2:38:00::	metaphorical	0.6
-water%2:40:00::	literal	0.8
-water%2:29:00::	literal	0.7
-water%2:30:04::	literal	0.9
-wear%2:29:00::	literal	1.0
-wear%2:42:01::	metaphorical	1.0
-wear%2:29:02::	literal	0.8
-wear%2:29:01::	literal	1.0
-wharf%2:35:02::	metaphorical	0.5
-wharf%2:35:03::	literal	0.8
-wharf%2:35:00::	literal	0.9
-whistle%2:38:00::	metaphorical	0.6
-whistle%2:32:00::	literal	1.0
-whistle%2:38:01::	metaphorical	0.7
-whistle%2:32:02::	literal	1.0
-wish%2:37:00::	literal	1.0
-wish%2:32:02::	literal	0.6667
-wish%2:32:00::	literal	0.7222
-worry%2:37:00::	literal	0.9
-worry%2:37:12::	literal	0.9
-worry%2:37:01::	literal	0.7
-worry%2:42:00::	literal	0.9
-wrestle%2:33:01::	metaphorical	0.8
-wrestle%2:32:00::	metaphorical	0.9
-wrestle%2:35:00::	literal	1.0
-write%2:36:10::	literal	0.9
-write%2:32:00::	literal	1.0
-write%2:36:02::	literal	1.0
+sense	class	confidence	sentence
+absorb%2:31:00::	metaphorical	0.9	He <b>absorbed</b> the knowledge or beliefs of his tribe.
+absorb%2:40:00::	metaphorical	0.9	He <b>absorbed</b> the costs for the accident.
+absorb%2:30:00::	metaphorical	0.8	The sales tax is <b>absorbed</b> into the state income tax.
+absorb%2:35:10::	metaphorical	0.8	The immigrants were quickly <b>absorbed</b> into society.
+absorb%2:31:03::	metaphorical	0.7	Her interest in butterflies <b>absorbs</b> her completely.
+abuse%2:41:00::	literal	0.52	This boss <b>abuses</b> his workers.
+abuse%2:30:00::	metaphorical	0.5	Don't <b>abuse</b> the system.
+abuse%2:32:00::	metaphorical	0.5	The actress <b>abused</b> the policeman who gave her a parking ticket.
+abuse%2:30:02::	metaphorical	0.7	Her husband often <b>abuses</b> alcohol.
+accommodate%2:34:00::	literal	0.7	Can you <b>accommodate</b> me with a rental car?
+accommodate%2:42:03::	literal	0.9	This hotel can <b>accommodate</b> 250 guests
+accommodate%2:30:01::	literal	0.8	The scientists had to <b>accommodate</b> the new results with the existing theories
+acknowledge%2:32:04::	literal	0.9	The program committee <b>acknowledged</b> the submission of the authors of the paper
+acknowledge%2:32:07::	literal	0.9	He never <b>acknowledges</b> his colleagues when they run into him in the hallway
+acknowledge%2:32:01::	literal	0.9	We must <b>acknowledge</b> the kindness she showed towards us
+acknowledge%2:31:02::	literal	0.9	<b>acknowledge</b> the deed
+acknowledge%2:31:09::	literal	0.9	The Crown Prince was <b>acknowledged</b> as the true heir to the throne
+acquaint%2:32:00::	literal	0.913	Permit me to <b>acquaint</b> you with my son.
+acquaint%2:32:01::	literal	0.6	You should <b>acquaint</b> yourself with your new computer.
+acquaint%2:32:02::	literal	0.8	Please <b>acquaint</b> your colleagues of your plans to move.
+act%2:41:00::	literal	0.8	think before you <b>act</b>
+act%2:36:03::	literal	0.9	She <b>acts</b> in this play
+act%2:29:00::	literal	0.7	You should <b>act</b> like an adult
+act%2:33:00::	metaphorical	0.5	She <b>acts</b> as the chair
+act%2:42:00::	metaphorical	0.5	This scene <b>acts</b> well
+address%2:32:00::	literal	0.6	He <b>addressed</b> the crowd outside the window.
+address%2:41:08::	literal	0.7	He always <b>addresses</b> me with `Sir'.
+adhere%2:42:00::	metaphorical	0.6	You must <b>adhere</b> to the rules.
+adhere%2:30:00::	literal	0.8	They <b>adhered</b> to their plan.
+adhere%2:42:02::	metaphorical	0.6	The residents of this village <b>adhered</b> to Catholicism.
+adhere%2:35:00::	literal	0.9167	Will this wallpaper <b>adhere</b> to the wall?
+administer%2:41:00::	literal	0.7	<b>administer</b> a program
+administer%2:40:01::	literal	0.9	<b>administer</b> the last unction
+administer%2:40:00::	literal	0.6	<b>administer</b> critical remarks to everyone present
+admit%2:32:00::	literal	0.8	He <b>admitted</b> his errors
+admit%2:41:01::	literal	0.8	We cannot <b>admit</b> non-members into our club building
+admit%2:41:00::	literal	0.7	<b>admit</b> someone to the profession
+admit%2:42:06::	metaphorical	0.6	This problem <b>admits</b> of no solution
+admit%2:42:00::	literal	0.8	The French doors <b>admit</b> onto the yard
+admit%2:42:03::	literal	0.9	This ticket will <b>admit</b> one adult to the show
+affect%2:30:00::	literal	0.8	Will the new rules <b>affect</b> me?
+affect%2:29:00::	literal	0.9	the medicine <b>affects</b> my heart rate
+affect%2:42:00::	literal	0.8	This new ruling <b>affects</b> your business
+age%2:30:01::	literal	0.7	The death of his wife caused him to <b>age</b> fast
+age%2:30:00::	literal	0.9	we <b>age</b> every day--what a depressing thought!
+age%2:30:02::	literal	0.6	The death of his child <b>aged</b> him tremendously
+agree%2:32:00::	literal	0.9	We <b>agreed</b> on the terms of the settlement
+agree%2:32:01::	literal	0.9	She <b>agreed</b> to all my conditions
+agree%2:42:00::	literal	0.7	The two stories don't <b>agree</b> in many details
+agree%2:42:03::	literal	0.7	Subjects and verbs must always <b>agree</b> in English
+agree%2:40:02::	metaphorical	0.5	White wine doesn't <b>agree</b> with me
+agree%2:32:04::	literal	0.8	No two of my colleagues would <b>agree</b> on whom to elect chairman
+aim%2:33:00::	literal	0.9	Please don't <b>aim</b> at your little brother!
+aim%2:31:01::	metaphorical	0.5	I <b>aim</b> to arrive at noon
+aim%2:33:10::	literal	1.0	He <b>aimed</b> his fists towards his opponent's face
+aim%2:32:00::	metaphorical	0.5	She wanted to <b>aim</b> a pun
+air%2:32:02::	metaphorical	0.5	This show will <b>air</b> Saturdays at 2 P.M.
+air%2:32:01::	literal	0.6	We cannot <b>air</b> this X-rated song
+air%2:32:00::	metaphorical	0.7	She <b>aired</b> her opinions on welfare
+air%2:30:00::	literal	0.6	<b>air</b> the old winter clothes
+allow%2:32:06::	literal	0.9	We don't <b>allow</b> dogs here
+allow%2:40:00::	literal	0.9	Mandela was <b>allowed</b> few visitors in prison
+allow%2:31:00::	literal	0.8	I <b>allow</b> for this possibility
+allow%2:40:01::	literal	0.8	The camera store owner <b>allowed</b> me $50 on my old camera
+amount%2:42:03::	literal	0.7	Her action <b>amounted</b> to a rebellion
+amount%2:42:01::	literal	0.9	The bills <b>amounted</b> to $2,000
+amount%2:42:00::	metaphorical	0.7	This idea will never <b>amount</b> to anything
+analyze%2:31:03::	literal	0.8	I was <b>analyzed</b> in Vienna by a famous psychiatrist.
+answer%2:32:00::	literal	0.9	She didn't want to <b>answer</b>
+answer%2:31:05::	metaphorical	0.7	The steering of my new car <b>answers</b> to the slightest touch
+answer%2:31:02::	literal	0.9	<b>answer</b> the telephone
+answer%2:31:03::	literal	0.8	The question concerning the meaning of life cannot be <b>answered</b>
+answer%2:32:06::	literal	0.9	The defendant <b>answered</b> to all the charges of the prosecution
+answer%2:42:01::	literal	0.8	She must <b>answer</b> for her actions
+answer%2:42:02::	literal	0.8	A few words would <b>answer</b>
+answer%2:42:00::	literal	0.6	The drawing of the suspect <b>answers</b> to the description the victim gave
+answer%2:34:00::	literal	0.7	This may <b>answer</b> her needs
+appeal%2:41:00::	literal	0.8	He was found guilty but <b>appealed</b> immediately.
+appeal%2:32:00::	metaphorical	0.5	<b>Appeal</b> to somebody for help!
+appeal%2:41:04::	literal	0.72	She <b>appealed</b> the verdict.
+appear%2:30:00::	literal	0.9	He suddenly <b>appeared</b> at the wedding
+appear%2:30:01::	literal	0.6	Did your latest book <b>appear</b> yet?
+appear%2:36:00::	literal	0.8	Gielgud <b>appears</b> briefly in this movie
+appear%2:41:03::	literal	0.9	He had to <b>appear</b> in court last month
+appreciate%2:31:00::	literal	0.7	Do you <b>appreciate</b> the full meaning of this letter?
+appreciate%2:30:00::	literal	0.9	The yen <b>appreciated</b> again!
+appreciate%2:30:01::	literal	0.7	The Germans want to <b>appreciate</b> the Deutsche Mark
+approach%2:38:00::	literal	0.9	We were <b>approaching</b> our destination
+approach%2:38:01::	literal	0.6	Winter is <b>approaching</b>
+approach%2:32:00::	literal	0.9	I was <b>approached</b> by the President to serve as his adviser in foreign matters
+ascend%2:38:02::	literal	0.7	We <b>ascended</b> the mountain.
+ascend%2:42:02::	metaphorical	0.7	Inheritance may not <b>ascend</b> linearly.
+ascend%2:41:00::	literal	0.5238	She <b>ascended</b> to the throne after the King's death.
+ascend%2:38:04::	literal	0.8	The boat <b>ascended</b> the Delaware.
+ascend%2:38:01::	literal	0.9	The path <b>ascended</b> to the top of the hill.
+ask%2:32:00::	literal	0.9	I <b>asked</b> about their special today
+ask%2:32:01::	literal	0.9	She <b>asked</b> him for a loan
+ask%2:32:09::	literal	0.9	He is <b>asking</b> $200 for the table
+assign%2:40:01::	literal	0.9444	We were <b>assigned</b> new uniforms.
+assign%2:31:00::	literal	0.8235	The teacher <b>assigned</b> him to lead his classmates in the exercise.
+assign%2:31:03::	literal	0.8571	The biologist <b>assigned</b> the mushroom to the proper class.
+assimilate%2:30:00::	literal	0.8	Immigrants often want to <b>assimilate</b> quickly
+assimilate%2:30:01::	literal	0.8	This country <b>assimilates</b> immigrants very quickly
+assimilate%2:30:02::	literal	0.7	The nasal <b>assimilates</b> to the following consonant
+assume%2:31:00::	literal	0.8	I <b>assume</b> his train was late
+assume%2:41:00::	literal	0.7	When will the new President <b>assume</b> office?
+assume%2:38:00::	literal	0.8	He <b>assumes</b> the lotus position
+assume%2:40:00::	literal	0.8	He <b>assumed</b> to himself the right to fill all positions in the town
+assume%2:36:00::	literal	0.9	She <b>assumed</b> indifference, even though she was seething with anger
+assume%2:35:00::	literal	0.6	This is the day when May was <b>assumed</b> into heaven
+attack%2:33:00::	literal	0.9	Hitler <b>attacked</b> Poland on September 1, 1939 and started World War II
+attack%2:32:00::	metaphorical	0.5	The editors of the left-leaning paper <b>attacked</b> the new House Speaker
+attack%2:33:01::	literal	0.9	The Serbs <b>attacked</b> the village at night
+attack%2:30:00::	metaphorical	0.7	I <b>attacked</b> the problem as soon as I got out of bed
+attack%2:29:00::	literal	0.6	The cancer cells are <b>attacking</b> his liver
+attend%2:42:00::	literal	1.0	She <b>attends</b> class regularly
+attend%2:42:01::	literal	0.7	Menuhin's playing was <b>attended</b> by a 15-minute standing ovation
+attend%2:41:00::	literal	0.6	She <b>attends</b> the old lady in the wheelchair
+attend%2:39:00::	literal	0.9	The children in the audience <b>attended</b> the recital quietly
+attest%2:32:01::	metaphorical	0.5	His high fever <b>attested</b> to his illness
+attest%2:32:00::	literal	0.8	I <b>attest</b> this signature
+attest%2:32:04::	literal	0.8	This word is not <b>attested</b> until 1993
+avoid%2:41:01::	literal	0.9	Let's <b>avoid</b> a confrontation.
+avoid%2:34:00::	literal	1.0	Muslims <b>avoid</b> tobacco during the day.
+back%2:38:00::	literal	0.9	<b>back</b> into the driveway
+back%2:38:01::	literal	1.0	<b>back</b> the car into the parking spot
+back%2:40:00::	literal	0.6	<b>back</b> this enterprise
+back%2:42:00::	literal	0.6	My garage <b>backs</b> their yard
+back%2:33:00::	metaphorical	0.8	Which horse are you <b>backing?</b>
+back%2:30:00::	literal	0.7	Can you <b>back</b> up your claims?
+begin%2:42:00::	literal	0.6	The DMZ <b>begins</b> right over the hill
+begin%2:42:02::	literal	0.9	The number `one' <b>begins</b> the sequence
+begin%2:42:03::	literal	0.9	The novel <b>begins</b> with a murder
+begin%2:41:00::	literal	0.8	This economic measure doesn't even <b>begin</b> to deal with the problem of inflation
+believe%2:31:00::	literal	0.9	I <b>believed</b> his report
+believe%2:31:03::	literal	1.0	I <b>believe</b> that he will come back from the war
+believe%2:31:01::	literal	0.8	When you hear his sermons, you will be able to <b>believe,</b> too
+believe%2:31:02::	literal	0.8	You cannot <b>believe</b> this man
+belong%2:40:00::	literal	0.9	This book <b>belongs</b> to me
+belong%2:42:02::	literal	0.8	This student somehow doesn't <b>belong</b>
+belong%2:42:03::	literal	0.7	Where do these books <b>belong?</b>
+belong%2:42:01::	literal	0.9	The whales <b>belong</b> among the mammals
+belong%2:42:07::	literal	0.8	They <b>belong</b> to the same political party
+belong%2:42:06::	literal	0.8	the uniform looks like it <b>belonged</b> to a museum collection
+besiege%2:33:00::	literal	0.9	The Turks <b>besieged</b> Vienna
+besiege%2:37:00::	metaphorical	0.6	She was <b>besieged</b> by so many problems that she got discouraged
+besiege%2:32:00::	literal	0.7	The press photographers <b>besieged</b> the movie star
+bind%2:35:00::	literal	0.8	The Chinese would <b>bind</b> the feet of their women.
+bind%2:35:02::	literal	0.9	They <b>bind</b> their books in leather.
+bind%2:30:09::	literal	0.6	The hydrogen <b>binds</b> the oxygen.
+blast%2:39:00::	metaphorical	0.7	She tended to <b>blast</b> when speaking into a microphone
+blast%2:38:02::	literal	0.6	the air conditioning was <b>blasting</b> cold air at us
+blast%2:36:00::	literal	0.9	<b>blast</b> a passage through the mountain
+blast%2:36:02::	literal	0.8	<b>blast</b> a tunnel through the Alps
+blast%2:33:01::	literal	0.8	the gunman <b>blasted</b> away
+blaze%2:43:01::	metaphorical	0.6	Meteors <b>blazed</b> across the atmosphere.
+blaze%2:33:00::	metaphorical	0.9	He <b>blazed</b> away at the men.
+blaze%2:43:00::	literal	0.7	The summer sun alone can cause a pine to <b>blaze</b>.
+blaze%2:38:00::	metaphorical	0.7	The spaceship <b>blazed</b> out into space.
+blend%2:35:00::	literal	0.9	She <b>blended</b> the nuts and raisins together.
+blend%2:42:00::	literal	0.7	This flavor will <b>blend</b> with those in your dish.
+blend%2:30:00::	literal	0.8	The colors <b>blend</b> well.
+blister%2:30:00::	literal	1.0	Her feet <b>blistered</b> during the long hike.
+blister%2:32:00::	metaphorical	1.0	The Senator <b>blistered</b> the administration in his speech on Friday.
+blister%2:30:01::	literal	0.8	The tight shoes and perspiration <b>blistered</b> her feet.
+blur%2:39:00::	literal	0.7	The haze <b>blurs</b> the hills
+blur%2:30:01::	literal	0.8	The fog <b>blurs</b> my vision
+blur%2:30:00::	metaphorical	0.9	The distinction between the two theories <b>blurred</b>
+bob%2:38:00::	literal	0.9	her rucksack <b>bobbed</b> gently on her back
+bob%2:38:01::	literal	0.7	The boys <b>bobbed</b> down the hill screaming with pleasure
+bob%2:29:00::	literal	0.6	Bernice <b>bobs</b> her hair these days!
+bolt%2:38:00::	literal	0.7	She <b>bolted</b> from her seat
+bolt%2:38:01::	literal	0.7	The listeners <b>bolted</b> when he discussed his strange ideas
+bolt%2:34:00::	metaphorical	0.8	Don't <b>bolt</b> your food!
+boost%2:30:02::	metaphorical	0.7	The tax cut will <b>boost</b> the economy.
+boost%2:30:00::	literal	0.6	<b>Boost</b> the voltage in an electrical circuit.
+boost%2:35:00::	literal	0.85	The singer had to be <b>boosted</b> onto the stage by a special contraption.
+bother%2:37:00::	literal	0.8	Mosquitoes buzzing in my ear really <b>bothers</b> me
+bother%2:38:00::	literal	0.9	Don't <b>bother</b> the professor while she is grading term papers
+bother%2:37:03::	literal	0.9	The mere thought of her <b>bothered</b> him and made his heart beat faster
+bounce%2:38:00::	literal	1.0	The rubber ball <b>bounced</b>
+bounce%2:38:01::	literal	0.8	He <b>bounced</b> to his feet
+bounce%2:35:00::	metaphorical	0.8	The ex-boxer's job is to <b>bounce</b> people who want to enter this private club
+bow%2:32:00::	literal	1.0	He <b>bowed</b> before the King
+bow%2:32:01::	metaphorical	0.6	The government <b>bowed</b> to the military pressure
+bow%2:38:00::	literal	1.0	He <b>bowed</b> before the King
+bow%2:38:01::	literal	1.0	She <b>bowed</b> before the Queen
+breathe%2:29:00::	literal	1.0	I can <b>breathe</b> better when the air is clean
+breathe%2:42:00::	literal	1.0	Every creature that <b>breathes</b>
+breathe%2:40:00::	metaphorical	0.7	He <b>breathed</b> new life into the old house
+breathe%2:42:01::	metaphorical	0.8	Our new synthetic fabric <b>breathes</b> and is perfect for summer wear
+breathe%2:32:03::	metaphorical	0.5	She <b>breathes</b> the Christian spirit
+breathe%2:30:03::	metaphorical	0.6	This rare Bordeaux must be allowed to <b>breathe</b> for at least 2 hours
+brush%2:35:01::	literal	1.0	Johnson <b>brushed</b> the hairs from his jacket
+brush%2:35:00::	literal	0.9	He <b>brushed</b> the wall lightly
+brush%2:35:02::	literal	1.0	She <b>brushed</b> the suit before hanging it back into the closet
+brush%2:38:00::	literal	0.7	Her long skirt <b>brushed</b> the floor
+brush%2:30:00::	literal	1.0	<b>brush</b> away the crumbs
+brush%2:35:10::	literal	0.9	<b>brush</b> the bread with melted butter
+build%2:30:10::	literal	0.6	Suspense was <b>building</b> right from the beginning of the opera
+build%2:41:00::	literal	0.8	The government is <b>building</b> new schools in this state
+build%2:36:04::	literal	0.7	<b>build</b> a modern nation
+build%2:36:10::	literal	0.8	These architects <b>build</b> in interesting and new styles
+build%2:31:03::	literal	0.8	<b>build</b> a defense on nothing but the accused person's reputation
+buy%2:42:00::	literal	0.9	This sum will <b>buy</b> you a ride on the train
+buy%2:40:03::	literal	0.6	She wanted to <b>buy</b> his love with her dedication to him and his work
+buy%2:31:09::	metaphorical	0.7	I can't <b>buy</b> this story
+buzz%2:39:00::	literal	0.9	bees were <b>buzzing</b> around the hive
+buzz%2:38:00::	literal	0.7	Planes <b>buzzed</b> the crowds in the square
+buzz%2:42:00::	metaphorical	0.7	This office is <b>buzzing</b> with activity
+buzz%2:32:00::	metaphorical	0.7	he <b>buzzed</b> the servant
+capture%2:36:00::	metaphorical	0.7	<b>capture</b> the essence of Spring
+capture%2:37:00::	metaphorical	0.6	She <b>captured</b> all the men's hearts
+capture%2:40:01::	literal	0.8	This nucleus has <b>captured</b> the slow-moving neutrons
+challenge%2:32:01::	literal	0.9	She <b>challenged</b> his claims
+challenge%2:32:00::	literal	0.9	Fischer <b>challenged</b> Spassky to a match
+challenge%2:32:03::	literal	0.9	The illegal immigrant was <b>challenged</b> by the border guard
+change%2:30:06::	literal	0.7	Father had to learn how to <b>change</b> the baby
+change%2:30:00::	literal	0.8	She <b>changed</b> completely as she grew older
+change%2:30:02::	literal	0.8	her mood <b>changes</b> in accordance with the weather
+change%2:40:00::	literal	1.0	Would you <b>change</b> places with me?
+change%2:38:00::	literal	0.8	She <b>changed</b> in Chicago on her way to the East coast
+change%2:30:08::	literal	0.9	His voice began to <b>change</b> when he was 12 years old
+cheer%2:32:02::	literal	0.9	everybody <b>cheered</b> the birthday boy
+cheer%2:32:03::	literal	0.8	She tried to <b>cheer</b> up the disappointed child when he failed to win the spelling bee
+cheer%2:32:01::	literal	0.9	The crowd <b>cheered</b> the demonstrating strikers
+circulate%2:38:03::	literal	0.7	This letter is being <b>circulated</b> among the faculty.
+circulate%2:38:01::	literal	1.0	Blood <b>circulates</b> in my veins.
+circulate%2:38:04::	literal	0.9	The fan <b>circulates</b> the air in the room.
+circulate%2:38:00::	metaphorical	0.8	She <b>circulates</b> among royalty.
+claim%2:32:00::	literal	1.0	He <b>claimed</b> that he killed the burglar
+claim%2:40:00::	literal	0.9	He <b>claimed</b> his suitcases at the airline counter
+claim%2:32:02::	literal	0.9	They <b>claimed</b> on the maximum allowable amount
+claim%2:32:01::	literal	0.6	the accident <b>claimed</b> three lives
+clamor%2:32:03::	literal	0.7	he <b>clamored</b> for justice and tolerance
+clamor%2:32:00::	metaphorical	0.5	The delegates <b>clamored</b> their disappointment
+clamor%2:41:00::	literal	0.8	They <b>clamored</b> the mayor into building a new park
+clap%2:35:03::	metaphorical	0.7	The judge <b>clapped</b> him in jail
+clap%2:38:04::	literal	0.9	The big bird <b>clapped</b> its wings
+clap%2:29:00::	literal	1.0	The children were <b>clapping</b> to the music
+clap%2:38:03::	literal	0.7	the wings of the birds <b>clapped</b> loudly
+clap%2:35:00::	literal	0.8	<b>clap</b> two boards together
+claw%2:38:00::	metaphorical	0.8	They <b>clawed</b> their way to the top of the mountain.
+claw%2:35:01::	metaphorical	0.6	She <b>clawed</b> the doorknob.
+claw%2:32:00::	metaphorical	0.9	The politician <b>clawed</b> his rival.
+clean%2:35:00::	literal	1.0	The dentist <b>cleaned</b> my teeth
+clean%2:30:02::	literal	0.9	<b>clean</b> grain before milling it
+clean%2:29:00::	literal	0.8	<b>clean</b> up before you see your grandparents
+clean%2:42:00::	literal	0.8	This stove <b>cleans</b> easily
+clean%2:35:12::	literal	0.6	The other players <b>cleaned</b> him completely
+clean%2:35:04::	literal	0.7	The boys <b>cleaned</b> the sandwich platters
+climb%2:38:00::	literal	1.0	Did you ever <b>climb</b> up the hill behind your house?
+climb%2:30:00::	metaphorical	0.8	Sales were <b>climbing</b> after prices were lowered
+climb%2:38:06::	metaphorical	0.6	The path <b>climbed</b> all the way to the top of the hill
+climb%2:30:03::	metaphorical	0.8	This young man knows how to <b>climb</b> the social ladder
+climb%2:30:01::	metaphorical	0.6	prices <b>climbed</b> steeply
+clog%2:35:00::	literal	0.9	The leaves <b>clog</b> our drains in the Fall
+clog%2:35:01::	metaphorical	0.5	horses were <b>clogged</b> until they were tamed
+clog%2:30:00::	metaphorical	0.6	The market is being <b>clogged</b> by these operations
+clog%2:30:02::	metaphorical	0.6	Fear <b>clogged</b> her mind
+cloud%2:39:00::	literal	0.96	The stars are obscured by the <b>clouds</b>.
+cloud%2:38:00::	literal	0.6	The smoke <b>clouded</b> above the houses.
+cloud%2:37:00::	metaphorical	1.0	Their faces were <b>clouded</b> with sadness.
+cloud%2:30:04::	metaphorical	0.7222	The stroke <b>clouded</b> memories of her youth.
+cloud%2:30:03::	metaphorical	0.5	The chemical <b>clouded</b> the liquid to which it was added.
+co-opt%2:41:02::	literal	0.6	The church members <b>co-opted</b> individuals from similar backgrounds to replenish the congregation
+co-opt%2:41:03::	literal	0.8	We <b>co-opted</b> the independent minority tribes by pulling them into the Northern Alliance
+co-opt%2:41:01::	literal	0.9	The army tried to <b>co-opt</b> peasants into civil defence groups
+co-opt%2:40:00::	literal	0.8	He <b>co-opted</b> the criticism and embraced it
+color%2:30:00::	literal	1.0	The child <b>colored</b> the drawings
+color%2:32:00::	metaphorical	0.8	My personal feelings <b>color</b> my judgment in this case
+color%2:41:00::	metaphorical	0.6	His political ideas <b>color</b> his lectures
+color%2:36:01::	literal	0.8	<b>color</b> the walls with paint in warm tones
+commit%2:32:01::	literal	0.8	She <b>committed</b> herself to the work of God
+commit%2:40:02::	literal	0.8	After the second episode, she had to be <b>committed</b>
+commit%2:41:01::	literal	0.9	<b>commit</b> a random act of kindness
+communicate%2:32:01::	literal	0.9	Please <b>communicate</b> this message to all employees
+communicate%2:32:00::	literal	0.9	He <b>communicated</b> his anxieties to the psychiatrist
+communicate%2:40:10::	literal	0.6	<b>communicate</b> a disease
+communicate%2:35:00::	metaphorical	0.8	The rooms <b>communicated</b>
+communicate%2:32:02::	literal	0.8	He and his sons haven't <b>communicated</b> for years
+compare%2:31:00::	literal	0.9	John <b>compared</b> his haircut to his friend's
+compare%2:42:00::	literal	0.9	This car does not <b>compare</b> with our line of Mercedes
+compare%2:31:01::	literal	0.9	We can <b>compare</b> the Han dynasty to the Romans
+compose%2:42:00::	metaphorical	0.5	Greed and ambition <b>composed</b> his personality
+compose%2:36:03::	literal	0.9	Beethoven <b>composed</b> nine symphonies
+compose%2:37:00::	literal	0.6	She had to <b>compose</b> herself before she could reply to this terrible insult
+computerize%2:40:01::	literal	0.8	Our office is fully <b>computerized</b> now.
+computerize%2:40:00::	literal	0.8	Please use a <b>computerized</b> disctionary.
+computerize%2:36:00::	literal	0.9167	They <b>computerized</b> the car industry
+condemn%2:32:00::	literal	0.9	We <b>condemn</b> the racism in South Africa
+condemn%2:32:02::	literal	0.8	The building was <b>condemned</b> by the inspector
+condemn%2:41:00::	metaphorical	0.6	His devotion to his sick wife <b>condemned</b> him to a lonely existence
+condemn%2:39:00::	literal	0.6	Her strange behavior <b>condemned</b> her
+condemn%2:32:01::	literal	0.8	He was <b>condemned</b> to ten years in prison
+condemn%2:40:00::	literal	0.8	the county <b>condemned</b> the land to build a highway
+condense%2:30:00::	literal	0.7	<b>condense</b> the contents of a book into a summary
+condense%2:30:03::	literal	0.8	The cold air <b>condensed</b> the steam
+condense%2:30:06::	metaphorical	0.6	Her feelings <b>condensed</b>
+condense%2:30:07::	literal	0.7	All our planets <b>condensed</b> out of the same material
+condense%2:30:04::	literal	0.8	Congress <b>condensed</b> the three-year plan into a six-month plan
+conduct%2:41:00::	literal	0.7	You cannot <b>conduct</b> business like this
+conduct%2:36:00::	literal	0.9	<b>conduct</b> an orchestra; Barenboim conducted the Chicago symphony for years
+conduct%2:36:04::	literal	0.9	Bernstein <b>conducted</b> Mahler like no other conductor
+confirm%2:31:00::	literal	0.8	his story <b>confirmed</b> my doubts
+confirm%2:32:00::	literal	0.9	The witnesses <b>confirmed</b> the victim's account
+confirm%2:41:01::	literal	0.9	The Senate <b>confirmed</b> the President's candidate for Secretary of Defense
+confirm%2:41:00::	literal	0.7	the children were <b>confirmed</b> in their mother's faith
+confront%2:33:00::	literal	0.9	You must <b>confront</b> your opponent
+confront%2:32:00::	literal	0.7	You must <b>confront</b> your problems
+confront%2:32:03::	literal	0.8	We <b>confronted</b> him with the evidence
+confront%2:42:00::	literal	0.8	The child screamed when he <b>confronted</b> the man in the Halloween costume
+confuse%2:31:03::	literal	0.9	These questions <b>confuse</b> even the experts.
+confuse%2:37:00::	literal	1.0	The constant attention of the young man <b>confused</b> her.
+confuse%2:31:01::	literal	0.7	Her remarks <b>confused</b> the debate.
+consider%2:39:00::	literal	0.9	<b>consider</b> the possibility of moving
+consider%2:32:00::	literal	0.8	You must <b>consider</b> her age
+consider%2:32:02::	literal	0.9	They <b>considered</b> the possibility of a strike
+consider%2:31:05::	literal	0.9	Please <b>consider</b> your family
+consolidate%2:30:00::	literal	0.8	The companies <b>consolidated</b>
+consolidate%2:30:02::	literal	0.7	<b>consolidate</b> one's gains
+consolidate%2:30:01::	literal	0.9	The town and county schools are being <b>consolidated</b>
+consolidate%2:30:04::	literal	0.9	The mud had <b>consolidated</b> overnight
+consolidate%2:30:03::	literal	0.9	<b>consolidate</b> fibers into boards
+constitutionalize%2:40:00::	literal	0.9	The United States were <b>constitutionalized</b> in the late 18th century
+constitutionalize%2:38:00::	literal	0.7	A good way of exercising is to <b>constitutionalize</b>
+constitutionalize%2:30:00::	literal	0.7	A woman's right to an abortion was <b>constitutionalized</b> in the 1970's
+construct%2:35:00::	literal	0.9	<b>construct</b> an equilateral triangle
+construct%2:36:03::	literal	0.8	<b>construct</b> a sentence
+construct%2:36:02::	literal	0.6	<b>construct</b> an argument
+consume%2:35:00::	metaphorical	0.6	The fire <b>consumed</b> the building
+consume%2:34:01::	literal	0.6	this car <b>consumes</b> a lot of gas
+consume%2:31:00::	literal	0.6	The effort to pass the exam <b>consumed</b> all his energy
+continue%2:42:01::	literal	0.9	We <b>continued</b> to work into the night
+continue%2:30:10::	literal	0.9	The bad weather <b>continued</b> for two more weeks
+continue%2:41:00::	literal	0.7	We cannot <b>continue</b> several servants any longer
+continue%2:42:12::	literal	0.9	We <b>continued</b> our research into the cause of the illness
+continue%2:42:11::	literal	0.9	The demonstration <b>continued</b> after a break for lunch
+converge%2:38:00::	literal	0.7273	The crowd <b>converged</b> on the movie star.
+converge%2:30:00::	metaphorical	0.5	Social forces <b>converged</b> to bring the Fascists back to power.
+convulse%2:32:00::	metaphorical	0.7	The comedian <b>convulsed</b> the crowd
+convulse%2:38:01::	literal	0.6	earthquakes <b>convulsed</b> the countryside
+convulse%2:35:01::	literal	0.9	The spasm <b>convulses</b> her facial muscles
+convulse%2:35:00::	literal	0.9	The muscles in her face <b>convulsed</b>
+cook%2:36:01::	literal	1.0	My husband doesn't <b>cook</b>
+cook%2:30:00::	literal	1.0	These potatoes have to <b>cook</b> for 20 minutes
+cook%2:30:03::	literal	0.9	The apothecary <b>cooked</b> the medicinal mixture in a big iron kettle
+correct%2:42:03::	literal	0.8	engineers will work to <b>correct</b> the effects or air resistance
+correct%2:38:03::	metaphorical	0.5	the stock market <b>corrected</b>
+correct%2:29:04::	literal	0.7	The new contact lenses will <b>correct</b> for his myopia
+count%2:32:00::	literal	1.0	Can you <b>count</b> the books on your shelf?
+count%2:32:01::	literal	1.0	The toddler could <b>count</b> to 100
+count%2:42:01::	literal	0.7	The academy <b>counts</b> several Nobel Prize winners among its members
+count%2:31:00::	literal	0.7	I can <b>count</b> my colleagues in the opposition
+count%2:42:04::	literal	0.7	each answer <b>counts</b> as three points
+count%2:31:02::	metaphorical	0.6	you can <b>count</b> on me to help you any time
+crawl%2:38:00::	literal	1.0	The crocodile was <b>crawling</b> along the riverbed
+crawl%2:42:01::	metaphorical	0.8	My skin <b>crawled--I</b> was terrified
+crawl%2:42:00::	metaphorical	0.6	The old cheese was <b>crawling</b> with maggots
+crawl%2:38:01::	literal	1.0	European children learn the breast stroke; they often don't know how to <b>crawl</b>
+credit%2:31:01::	literal	0.6	We <b>credited</b> her for saving our jobs
+credit%2:31:12::	literal	0.8	She was not properly <b>credited</b> in the program
+credit%2:40:00::	literal	0.9	We <b>credit</b> your account with $100
+crown%2:41:00::	literal	0.9	The prince was <b>crowned</b> in Westminster Abbey
+crown%2:30:01::	metaphorical	0.7	The speech <b>crowned</b> the meeting
+crown%2:42:00::	metaphorical	0.7	A weather vane <b>crowns</b> the building
+crush%2:35:00::	literal	1.0	<b>crush</b> an aluminum can
+crush%2:30:00::	literal	0.9	The car <b>crushed</b> the toy
+crush%2:37:00::	metaphorical	0.8	She was <b>crushed</b> by his refusal of her invitation
+crush%2:30:08::	literal	0.9	The plastic bottle <b>crushed</b> against the wall
+culminate%2:30:00::	metaphorical	0.5	The meeting <b>culminated</b> in a tearful embrace.
+culminate%2:30:03::	metaphorical	0.6	Seurat <b>culminated</b> pointillism.
+culminate%2:30:02::	literal	0.6	The helmet <b>culminated</b> in a crest.
+curl%2:30:00::	metaphorical	0.5	The cigar smoke <b>curled</b> up at the ceiling.
+curl%2:38:00::	metaphorical	0.5	She <b>curled</b> farther down under the covers.
+curl%2:35:00::	literal	1.0	<b>Curl</b> my hair, please.
+dance%2:38:01::	literal	0.9	The young girl <b>danced</b> into the room.
+dance%2:36:00::	literal	0.9583	My husband and I like to <b>dance</b> at home to the radio.
+dance%2:38:02::	literal	0.8	The children <b>danced</b> with joy.
+dash%2:38:00::	literal	0.8	She <b>dashed</b> into the yard
+dash%2:35:02::	literal	0.7	He <b>dashed</b> the plate against the wall
+dash%2:41:00::	metaphorical	0.5	<b>dashed</b> ambitions and hopes
+dash%2:37:00::	metaphorical	0.6	<b>dashed</b> by the refusal
+dash%2:30:01::	literal	0.6	blue paint <b>dashed</b> with white
+date%2:31:02::	literal	1.0	The package is <b>dated</b> November 24
+date%2:31:00::	literal	0.7	Scientists often cannot <b>date</b> precisely archeological or prehistorical findings
+date%2:31:01::	literal	0.9	She wrote the letter on Monday but she <b>dated</b> it Saturday so as not to reveal that she procrastinated
+dawn%2:31:13::	metaphorical	0.7	It <b>dawned</b> on him that she had betrayed him
+dawn%2:42:01::	metaphorical	0.7	The age of computers had <b>dawned</b>
+dawn%2:30:00::	literal	0.8	It started to <b>dawn,</b> and we had to get up
+debut%2:36:02::	literal	0.8	The band <b>debuts</b> a new song or two each month
+debut%2:36:00::	literal	0.8	The new ballet that <b>debuts</b> next months at Covent Garden, is already sold out
+debut%2:36:01::	literal	0.9	This young soprano <b>debuts</b> next month at the Metropolitan Opera
+decide%2:31:00::	literal	0.9	We finally <b>decided</b> after lengthy deliberations
+decide%2:31:01::	literal	0.9	The case was <b>decided</b>
+decide%2:31:02::	literal	0.8	This new development finally <b>decided</b> me!
+decide%2:31:06::	literal	0.8	The vote in New Hampshire often <b>decides</b> the outcome of the Presidential election
+declare%2:32:00::	literal	0.9	He <b>declared</b> that he needed more money to carry out the task he was charged with
+declare%2:32:05::	literal	0.9	The President <b>declared</b> war
+declare%2:32:01::	literal	0.9	He <b>declared</b> that he was innocent
+declare%2:32:04::	literal	0.9	She was <b>declared</b> incompetent
+declare%2:32:03::	literal	0.9	Do you have anything to <b>declare?</b>
+declare%2:32:06::	literal	0.8	His wife <b>declared</b> at once for moving to the West Coast
+decline%2:32:00::	literal	0.7	he <b>declined</b> to join the group on a hike
+decline%2:38:00::	literal	0.9	The roof <b>declines</b> here
+decline%2:32:01::	literal	0.8	in many languages, speakers <b>decline</b> nouns, pronouns, and adjectives
+deflate%2:35:00::	literal	1.0	<b>deflate</b> the air mattress
+deflate%2:32:00::	metaphorical	0.6	The bad review of his work <b>deflated</b> his self-confidence
+deflate%2:30:11::	metaphorical	1.0	The new measures <b>deflated</b> the economy
+deflate%2:30:10::	metaphorical	0.7	<b>deflate</b> the currency
+deflate%2:30:00::	literal	1.0	The balloons <b>deflated</b>
+deform%2:35:00::	literal	0.9	the heat <b>deformed</b> the plastic sculpture
+deform%2:30:00::	literal	0.9	The sidewalk <b>deformed</b> during the earthquake
+deform%2:30:01::	literal	0.9	His body was <b>deformed</b> by leprosy
+dehydrate%2:30:02::	literal	1.0	You should carry <b>dehydrated</b> food on your camping trip.
+dehydrate%2:30:01::	literal	0.92	All this exercise and sweating has <b>dehydrated</b> me.
+dehydrate%2:30:00::	literal	1.0	In the desert, you get <b>dehydrated</b> very quickly.
+demand%2:32:00::	literal	0.8	The victim's family is <b>demanding</b> compensation
+demand%2:32:02::	literal	1.0	The bank <b>demanded</b> payment of the loan
+demand%2:32:06::	literal	0.9	I <b>demand</b> an explanation
+denote%2:32:01::	literal	0.7	Her smile <b>denoted</b> that she agreed
+denote%2:32:00::	literal	0.6	`multi-' <b>denotes</b> `many' 
+denote%2:32:02::	literal	0.7	She <b>denoted</b> her feelings clearly
+depress%2:37:00::	literal	0.6	These news <b>depressed</b> her
+depress%2:38:00::	metaphorical	0.6	The glut of oil <b>depressed</b> gas prices
+depress%2:35:12::	metaphorical	0.6	The lack of rain had <b>depressed</b> the water level in the reservoir
+depress%2:30:00::	literal	0.6	The rising inflation <b>depressed</b> the economy
+desert%2:31:00::	literal	0.8	The mother <b>deserted</b> her children
+desert%2:41:00::	literal	1.0	If soldiers <b>deserted</b> Hitler's army, they were shot
+desert%2:38:02::	literal	0.7	the students <b>deserted</b> the campus after the end of exam period
+design%2:31:00::	literal	0.7	This room is not <b>designed</b> for work.
+design%2:36:01::	literal	1.0	Chanel <b>designed</b> the famous suit.
+design%2:36:00::	literal	0.6	It is difficult to <b>design</b> a better mousetrap.
+design%2:36:07::	literal	0.8947	Dupont <b>designs</b> for the house of Chanel.
+design%2:36:09::	metaphorical	0.6	She <b>designed</b> a good excuse for not attending classes that day.
+design%2:31:06::	literal	0.5417	She <b>designed</b> to go far in the world of business.
+devour%2:35:00::	metaphorical	0.7	Fire had <b>devoured</b> our home
+devour%2:37:00::	metaphorical	1.0	She <b>devoured</b> his novels
+devour%2:34:00::	literal	0.9	he <b>devoured</b> three sandwiches
+digest%2:34:00::	literal	1.0	I cannot <b>digest</b> milk products
+digest%2:31:00::	metaphorical	0.6	I cannot <b>digest</b> all this information
+digest%2:30:02::	literal	0.9	Protein <b>digests</b> in a few hours
+digest%2:30:01::	metaphorical	0.8	the government <b>digested</b> the entire law into a code
+discolor%2:30:01::	literal	0.9	The painting <b>discolored</b>.
+discolor%2:30:02::	literal	1.0	The detergent <b>discolored</b> my shirts.
+discolor%2:30:00::	literal	1.0	The shirts <b>discolored</b>.
+dismiss%2:32:00::	literal	0.8	She <b>dismissed</b> his advances
+dismiss%2:32:02::	literal	0.9	This case is <b>dismissed!</b>
+dismiss%2:32:01::	literal	1.0	I was <b>dismissed</b> after I gave my report
+distil%2:30:04::	literal	0.7	The acid <b>distills</b> at a specific temperature
+distil%2:30:02::	literal	0.9	<b>distill</b> the essence of this compound
+distil%2:29:00::	literal	0.9	The doctor <b>distilled</b> a few drops of disinfectant onto the wound
+distill%2:30:02::	literal	0.8	<b>distill</b> the essence of this compound
+distill%2:30:04::	literal	0.9	The acid <b>distills</b> at a specific temperature
+distill%2:29:00::	literal	0.9	The doctor <b>distilled</b> a few drops of disinfectant onto the wound
+divide%2:41:00::	literal	1.0	<b>divide</b> the cake into three equal parts
+divide%2:31:00::	literal	0.8	Can you <b>divide</b> 49 by seven?
+divide%2:42:00::	literal	0.7	The mountain range <b>divides</b> the two countries
+double%2:30:00::	literal	0.9	The population <b>doubled</b> within 50 years
+double%2:38:00::	literal	0.6	He <b>doubled</b> and vomited violently
+double%2:35:01::	literal	0.7	She <b>doubles</b> as his wife and secretary
+down%2:34:00::	metaphorical	0.7	He <b>downed</b> three martinis before dinner.
+down%2:34:01::	metaphorical	0.7	Some people can <b>down</b> a pound of meat in the course of one meal.
+down%2:35:00::	metaphorical	0.5	The policeman <b>downed</b> the heavily armed suspect.
+downsize%2:41:00::	metaphorical	0.5	Three secretaries were <b>downsized</b> during the financial crisis.
+downsize%2:30:01::	metaphorical	0.5	The car makers <b>downsized</b> the SUVs when fuel became very expensive.
+downsize%2:30:00::	literal	0.7	The company <b>downsized</b> its research staff.
+drain%2:38:00::	literal	0.9	The rain water <b>drains</b> into this big vat.
+drain%2:34:00::	metaphorical	0.8	The exercise class <b>drains</b> me of energy.
+drain%2:30:01::	literal	0.9	We <b>drained</b> the oil tank.
+drain%2:30:04::	metaphorical	0.9091	Life in the camp <b>drained</b> him.
+drift%2:30:00::	literal	1.0	snow <b>drifting</b> several feet high
+drift%2:42:03::	metaphorical	1.0	stock prices are <b>drifting</b> higher
+drift%2:42:00::	metaphorical	0.6	My son <b>drifted</b> around for years in California before going to law school
+drift%2:38:05::	metaphorical	0.5	The unknown young man <b>drifted</b> among the invited guests
+drift%2:38:06::	literal	0.9	<b>drift</b> the boats downstream
+drift%2:35:03::	literal	0.7	<b>drift</b> the cattle herds westwards
+drift%2:30:10::	metaphorical	0.6	The stock market <b>drifted</b> upward
+drink%2:34:00::	literal	0.9	The patient must <b>drink</b> several liters each day
+drink%2:34:01::	literal	1.0	We were up <b>drinking</b> all night
+drink%2:31:00::	metaphorical	0.7	The mother <b>drinks</b> in every word of her son on the stage
+drink%2:34:02::	literal	1.0	The husband <b>drinks</b> and beats his wife
+drown%2:35:00::	metaphorical	0.7	I was <b>drowned</b> in work
+drown%2:30:02::	metaphorical	0.7	She <b>drowned</b> her trouble in alcohol
+drown%2:30:00::	literal	1.0	The child <b>drowned</b> in the lake
+drown%2:30:01::	literal	1.0	He <b>drowned</b> the kittens
+dull%2:35:01::	literal	0.8	Age had <b>dulled</b> the surface
+dull%2:30:00::	literal	0.9	the varnished table top <b>dulled</b> with time
+dull%2:35:02::	literal	0.8	Too much cutting <b>dulls</b> the knife's edge
+dull%2:30:01::	metaphorical	0.8	Middle age <b>dulled</b> her appetite for travel
+dump%2:40:00::	literal	0.9	No <b>dumping</b> in these woods!
+dump%2:40:02::	metaphorical	0.7	The company <b>dumped</b> him after many years of service
+dump%2:38:00::	literal	0.9	The truck <b>dumped</b> the garbage in the street
+ease%2:38:00::	literal	0.7	He <b>eased</b> himself into the chair
+ease%2:29:00::	literal	0.9	<b>ease</b> the pain in your legs
+ease%2:37:00::	literal	0.6	The news <b>eased</b> my conscience
+eat%2:34:00::	literal	1.0	She was <b>eating</b> a banana
+eat%2:34:01::	literal	1.0	We did not <b>eat</b> until 10 P.M. because there were so many phone calls
+eat%2:34:02::	literal	1.0	This dog doesn't <b>eat</b> certain kinds of meat
+emerge%2:30:00::	literal	0.8	Suddenly, the proprietor <b>emerged</b> from his office
+emerge%2:30:01::	metaphorical	0.7	Some nice results <b>emerged</b> from the study
+emerge%2:38:00::	literal	0.7	He felt new emotions <b>emerge</b>
+end%2:30:01::	literal	0.96	She <b>ended</b> their friendship when she found out that he had once been convicted of a crime.
+end%2:42:01::	literal	0.6957	This sad scene <b>ended</b> the movie.
+end%2:36:13::	literal	0.8	The terrible news <b>ended</b> our hopes that he had survived.
+engrave%2:35:00::	literal	1.0	<b>engraved</b> the trophy cupt with the winner's
+engrave%2:37:00::	metaphorical	0.8	The event <b>engraved</b> itself into her memory
+engrave%2:35:01::	literal	1.0	<b>engrave</b> the pen with the owner's name
+erase%2:30:00::	metaphorical	0.6	The Turks <b>erased</b> the Armenians in 1915
+erase%2:35:00::	literal	1.0	Please <b>erase</b> the formula on the blackboard--it is wrong!
+erase%2:32:00::	literal	0.9	Who <b>erased</b> the files form my hard disk?
+erupt%2:30:02::	metaphorical	0.5	Unrest <b>erupted</b> in the country
+erupt%2:30:04::	metaphorical	0.5	The tooth <b>erupted</b> and had to be extracted
+erupt%2:30:00::	literal	1.0	Vesuvius <b>erupts</b> once in a while
+erupt%2:30:06::	metaphorical	0.5	A rash <b>erupted</b> on her arms after she had touched the exotic plant
+escape%2:38:00::	literal	0.9	The convicted murderer <b>escaped</b> from a high security prison
+escape%2:41:00::	metaphorical	0.5	We <b>escaped</b> to our summer house for a few days
+escape%2:30:04::	literal	0.7	Gas <b>escaped</b> into the bedroom
+excavate%2:39:00::	literal	0.9	Schliemann <b>excavated</b> Troy.
+excavate%2:35:02::	literal	1.0	Carnegie had a lake <b>excavated</b> for Princeton University's rowing team.
+excavate%2:35:01::	literal	0.9	The mining company wants to <b>excavate</b> the hillside.
+exclude%2:31:01::	literal	0.9	The bad results were <b>excluded</b> from the report
+exclude%2:42:00::	literal	0.9	The cost for the trip <b>excludes</b> food and beverages
+exclude%2:35:00::	literal	0.9	The unruly student was <b>excluded</b> from the game
+excuse%2:32:00::	literal	0.8	Please <b>excuse</b> my dirty hands
+excuse%2:32:04::	literal	0.9	Please <b>excuse</b> me from this class
+excuse%2:32:03::	literal	0.8	Your need to sleep late does not <b>excuse</b> your late arrival at work
+excuse%2:32:02::	literal	0.8	<b>excuse</b> someone's behavior
+execute%2:41:00::	literal	0.9	In some states, criminals are <b>executed</b>
+execute%2:41:01::	literal	0.9	The Mafioso who collaborated with the police was <b>executed</b>
+execute%2:36:00::	literal	0.6	<b>execute</b> the decision of the people
+execute%2:41:03::	literal	0.6	<b>execute</b> a will or a deed
+execute%2:32:00::	literal	0.6	The President <b>executed</b> the treaty
+exhaust%2:29:00::	literal	0.7	This kind of work <b>exhausts</b> me.
+exhaust%2:40:00::	metaphorical	0.8	One should not <b>exhaust</b> one's savings.
+exhaust%2:30:00::	metaphorical	0.7	We have <b>exhausted</b> the food supplies.
+expect%2:31:00::	literal	0.8	The meteorologists are <b>expecting</b> rain for tomorrow
+expect%2:31:01::	literal	0.8	We were <b>expecting</b> a visit from our relatives
+expect%2:31:05::	literal	0.9	I'm <b>expecting</b> a full explanation as to why these files were destroyed
+expect%2:29:02::	literal	0.6	She is <b>expecting</b> in March
+explode%2:30:01::	literal	0.9	We <b>exploded</b> the nuclear bomb
+explode%2:30:00::	literal	0.9	The champagne bottle <b>exploded</b>
+explode%2:31:00::	metaphorical	0.8	The boss <b>exploded</b> when he heard of the resignation of the secretary
+explode%2:35:00::	literal	1.0	The enemy <b>exploded</b> the bridge
+exploit%2:34:00::	literal	0.8	He <b>exploit</b> the new taxation system
+exploit%2:34:01::	literal	0.7	we must <b>exploit</b> the resources we are given wisely
+exploit%2:41:00::	literal	0.9	he is <b>exploiting</b> the students
+express%2:32:03::	literal	0.6667	Can you <b>express</b> this distance in kilometers?
+express%2:39:09::	metaphorical	0.7	Many of the laboratory animals <b>express</b> the trait.
+express%2:35:11::	literal	0.6	Italians <b>express</b> coffee rather than filter it.
+express%2:32:09::	literal	0.7	She <b>expressed</b> the letter to Florida.
+face%2:42:02::	literal	0.7	The two sofas <b>face</b> each other.
+face%2:38:00::	metaphorical	0.5	Turn and <b>face</b> your partner now.
+face%2:35:00::	metaphorical	0.5	A glossy material <b>faced</b> the lapels of the jacket.
+face%2:35:01::	metaphorical	0.5	The building was <b>faced</b> with beautiful stones.
+factor%2:31:00::	literal	0.7	a quantum computer can <b>factor</b> the number 15
+factor%2:40:00::	literal	0.8	make things <b>factor</b> into a company's profitability
+factor%2:31:01::	literal	0.7	You must <b>factor</b> in the recent developments
+fasten%2:35:01::	literal	0.9	He <b>fastened</b> the lock onto the door.
+fasten%2:35:00::	literal	0.8	This dress <b>fastens</b> in the back.
+fasten%2:35:03::	metaphorical	0.6	They <b>fastened</b> various nicknames to each other.
+fear%2:37:03::	literal	0.8	I <b>fear</b> she might get aggressive
+fear%2:37:00::	literal	0.7	I <b>fear</b> the winters in Moscow
+fear%2:37:02::	literal	0.6	I <b>fear</b> I won't make it to your wedding party
+fear%2:37:13::	literal	0.6	I <b>fear</b> the results of the final exams
+ferment%2:37:01::	metaphorical	0.7	The Middle East is <b>fermenting</b>
+ferment%2:37:00::	metaphorical	0.6	Islam is <b>fermenting</b> Africa
+ferment%2:30:01::	literal	1.0	We <b>ferment</b> the grapes for a very long time to achieve high alcohol content
+fill%2:30:01::	metaphorical	0.6	<b>fill</b> the child with pride
+fill%2:30:00::	literal	0.9	The pool slowly <b>filled</b> with water
+fill%2:42:00::	literal	0.9	The liquid <b>fills</b> the container
+fill%2:34:01::	literal	0.6	He <b>filled</b> up on turkey
+finish%2:30:02::	literal	0.7	He <b>finished</b> the dishes
+finish%2:35:00::	literal	0.9	The carpenter <b>finished</b> the table beautifully
+finish%2:30:03::	literal	0.6	That <b>finished</b> me with Mary
+fire%2:41:00::	literal	0.7	The boss <b>fired</b> his secretary today
+fire%2:38:02::	literal	0.6	The soldiers were <b>fired</b>
+fire%2:40:00::	literal	0.8	Oil <b>fires</b> the furnace
+fit%2:42:02::	literal	0.9	This piece won't <b>fit</b> into the puzzle
+fit%2:30:01::	literal	0.9	He <b>fitted</b> other pieces of paper to his cut-out
+fit%2:30:02::	literal	0.9	Can you <b>fit</b> the toy into the box?
+fit%2:42:03::	literal	0.8	How does this shirt <b>fit?</b>
+flap%2:38:00::	literal	0.8	flags <b>flapped</b> in the strong wind
+flap%2:38:03::	literal	0.9	The bird <b>flapped</b> its wings
+flap%2:38:02::	literal	1.0	The bird's wings were <b>flapping</b>
+flare%2:43:00::	metaphorical	0.6	Every star seemed to <b>flare</b> with new intensity.
+flare%2:30:00::	literal	0.6	The bellbottom pants <b>flare</b> out.
+flare%2:43:01::	metaphorical	0.8	The night sky <b>flared</b> with the massive bombardment.
+flash%2:39:00::	literal	1.0	The lights were <b>flashing</b>
+flash%2:30:03::	literal	0.7	The headlines <b>flashed</b> on the screen
+flash%2:32:00::	metaphorical	0.7	The latest intelligence is <b>flashed</b> to all command posts
+flash%2:39:02::	metaphorical	0.5	he <b>flashed</b> a $100 bill
+flash%2:30:04::	literal	0.9	A shooting star <b>flashed</b> and was gone
+flick%2:39:00::	literal	0.6	The lights <b>flicked</b> on and off.
+flick%2:35:03::	literal	0.8	He <b>flicked</b> a piece of paper across the table.
+flick%2:35:01::	metaphorical	0.6	The father <b>flicked</b> him with his hand.
+float%2:38:02::	literal	0.9	He <b>floated</b> the logs down the river
+float%2:41:03::	metaphorical	0.7	The Republicans are <b>floating</b> the idea of a tax reform
+float%2:38:04::	metaphorical	0.7	The dancer <b>floated</b> across the stage
+float%2:31:00::	metaphorical	0.7	The government <b>floated</b> the ruble for a few months
+flood%2:30:00::	literal	1.0	The swollen river <b>flooded</b> the village
+flood%2:40:00::	metaphorical	0.7	<b>flood</b> the market with tennis shoes
+flood%2:30:01::	literal	0.9	Our basement <b>flooded</b> during the heavy rains
+flow%2:38:01::	metaphorical	0.7	The crowd <b>flowed</b> out of the stadium
+flow%2:38:00::	literal	1.0	Water <b>flowed</b> into the cave
+flow%2:38:02::	metaphorical	0.5	The artist <b>flowed</b> the washes on the paper
+flow%2:42:00::	metaphorical	0.5	The champagne <b>flowed</b> at the wedding
+flush%2:30:00::	literal	0.6	The garbage <b>flushed</b> down the river
+flush%2:39:00::	metaphorical	0.7	the sky <b>flushed</b> with rosy splendor
+flush%2:30:01::	metaphorical	0.5	<b>flush</b> the wound with antibiotics
+form%2:41:00::	literal	0.8	social groups <b>form</b> everywhere
+form%2:42:00::	metaphorical	0.5	This wall <b>forms</b> the background of the stage setting
+form%2:30:01::	metaphorical	0.6	<b>form</b> the young child's character
+form%2:30:05::	literal	0.7	the water <b>formed</b> little beads
+fracture%2:30:01::	metaphorical	0.7368	This writer really <b>fractures</b> the language.
+fracture%2:36:00::	metaphorical	0.9	These events could <b>fracture</b> the balance of power.
+fracture%2:30:10::	literal	0.96	The pothole <b>fractured</b> a bolt on the axle.
+fracture%2:29:02::	literal	1.0	The tibia <b>fractured</b> from the blow of the iron pipe.
+fuel%2:40:00::	literal	1.0	<b>fuel</b> aircraft, ships, and cars
+fuel%2:40:03::	literal	0.9	The tanker <b>fueled</b> in Bahrain
+fuel%2:37:00::	metaphorical	0.7	<b>fuel</b> the debate on creationism
+gag%2:39:00::	metaphorical	0.7	The press was <b>gagged</b>
+gag%2:35:07::	literal	1.0	The burglars <b>gagged</b> the home owner and tied him to a chair
+gag%2:32:00::	literal	0.9	The students were <b>gagging</b> during dinner
+gag%2:29:00::	literal	1.0	he swallowed a fishbone and <b>gagged</b>
+gain%2:33:00::	literal	0.7	The home team was <b>gaining</b> ground
+gain%2:30:00::	literal	0.7	The stock market <b>gained</b> 24 points today
+gain%2:30:01::	literal	0.7	the peace movement <b>gained</b> momentum
+gain%2:29:00::	literal	0.9	She <b>gained</b> 20 pounds when she stopped exercising
+gallop%2:38:00::	literal	0.7	He was <b>galloping</b> down the road
+gallop%2:38:01::	literal	0.9	The horse was <b>galloping</b> along
+gallop%2:38:03::	literal	0.9	Did you <b>gallop</b> the horse just now?
+gather%2:32:00::	metaphorical	0.9	I <b>gather</b> you have not done your homework.
+gather%2:35:05::	literal	0.7	She <b>gathered</b> her shawl around her shoulders.
+gather%2:35:04::	literal	0.9	Our ancestors <b>gathered</b> nuts in the Fall.
+glare%2:29:00::	literal	0.8	The girl <b>glared</b> at the man who tried to make a pass at her
+glare%2:43:01::	metaphorical	0.7	The moon <b>glared</b> back at itself from the lake's surface
+glare%2:39:01::	metaphorical	0.7	The sun <b>glared</b> down on us
+glow%2:39:00::	literal	1.0	The fireflies were <b>glowing</b> and flying about in the garden
+glow%2:39:01::	metaphorical	0.6	Her face <b>glowed</b> when she came out of the sauna
+glow%2:43:00::	literal	0.9	The coals were <b>glowing</b> in the dark
+glow%2:37:01::	metaphorical	0.9	Make the people's hearts <b>glow</b>
+govern%2:41:01::	literal	0.6	His belief in God <b>governs</b> his conduct
+govern%2:41:00::	literal	0.9	Who is <b>governing</b> the country now?
+govern%2:42:00::	metaphorical	0.5	most transitive verbs <b>govern</b> the accusative case in German
+grab%2:38:02::	literal	1.0	The passenger <b>grabbed</b> for the oxygen mask
+grab%2:35:05::	literal	1.0	She <b>grabbed</b> the child's hand and ran out of the room
+grab%2:31:00::	metaphorical	0.8	This story will <b>grab</b> you
+gravitate%2:42:01::	metaphorical	0.7	The conversation <b>gravitated</b> towards politics
+gravitate%2:42:00::	literal	0.6	Boys <b>gravitate</b> towards girls at that age
+gravitate%2:38:00::	literal	0.7	The stars <b>gravitate</b> towards each other
+grind%2:30:00::	literal	1.0	<b>grind</b> the spices in a mortar
+grind%2:36:05::	literal	0.9	<b>grind</b> designs into the glass bowl
+grind%2:36:04::	literal	1.0	<b>grind</b> lenses for glasses and cameras
+grope%2:35:01::	literal	1.0	She <b>groped</b> for her glasses in the darkness of the bedroom
+grope%2:41:00::	metaphorical	0.8	His mind <b>groped</b> to make the connection
+grope%2:35:02::	literal	0.9	He made some sexual advances at the woman in his office and <b>groped</b> her repeatedly
+grow%2:30:14::	literal	1.0	The tree trunks had <b>grown</b> together
+grow%2:30:02::	literal	1.0	Corn doesn't <b>grow</b> here
+grow%2:30:01::	literal	1.0	He <b>grows</b> vegetables in his backyard
+guard%2:41:00::	literal	1.0	There will be men <b>guarding</b> the horses.
+guard%2:33:00::	literal	0.7	Please <b>guard</b> my possessions while I'm away.
+guard%2:41:01::	metaphorical	0.8	This vaccine will <b>guard</b> you against infection.
+gutter%2:43:00::	metaphorical	0.5	The cooling lava continued to <b>gutter</b> toward lower ground.
+gutter%2:38:00::	metaphorical	0.7	Tears <b>guttered</b> down her face.
+gutter%2:35:00::	metaphorical	0.6	The heavy rain <b>guttered</b> the soil.
+gutter%2:34:00::	literal	0.8	The roofer began to <b>gutter</b> the buildings.
+hack%2:41:00::	metaphorical	0.7	I can't <b>hack</b> it anymore
+hack%2:35:01::	literal	0.9	he <b>hacked</b> his way through the forest
+hack%2:30:01::	literal	0.7	I'm not very good at <b>hacking</b> but I'll give it my best
+hack%2:29:00::	literal	0.6	The patient with emphysema is <b>hacking</b> all day
+hail%2:32:02::	literal	0.6	The critics <b>hailed</b> the young pianist as a new Rubinstein
+hail%2:42:00::	literal	0.6	She <b>hails</b> from Kalamazoo
+hail%2:43:00::	literal	1.0	It <b>hailed</b> for an hour
+harmonize%2:42:00::	metaphorical	0.7	The colors don't <b>harmonize</b>
+harmonize%2:30:03::	literal	0.7	<b>harmonize</b> the different interests
+harmonize%2:30:02::	metaphorical	0.6	<b>harmonize</b> one's goals with one's abilities
+head%2:38:00::	literal	0.7	where is she <b>heading</b>
+head%2:41:00::	literal	0.7	Who is <b>heading</b> this project?
+head%2:38:02::	metaphorical	0.5	The procession was <b>headed</b> by John
+head%2:42:01::	metaphorical	0.5	This student <b>heads</b> the class
+head%2:42:05::	metaphorical	0.6	These rivers <b>head</b> from a mountain range in the Himalayas
+head%2:42:00::	literal	0.6	The list was <b>headed</b> by the name of the president
+head%2:42:04::	metaphorical	0.6	The wheat <b>headed</b> early this year
+heap%2:40:00::	metaphorical	0.6	He <b>heaped</b> him with work
+heap%2:35:00::	literal	1.0	<b>heap</b> firewood around the fireplace
+heap%2:30:00::	literal	0.8	<b>heap</b> the platter with potatoes
+help%2:41:00::	literal	0.9	Everyone <b>helped</b> out during the earthquake
+help%2:29:00::	literal	0.9	These pills will <b>help</b> the patient
+help%2:42:00::	literal	0.8	This will <b>help</b> to prevent accidents
+help%2:42:08::	literal	0.8	I can't <b>help</b> myself--I have to smoke
+help%2:34:00::	literal	0.9	I served him three times, and after that he <b>helped</b> himself
+help%2:41:12::	literal	0.8	This money will <b>help</b> the development of literacy in developing countries
+help%2:34:04::	literal	0.8	She <b>helped</b> herself to some of the office supplies
+help%2:30:13::	metaphorical	0.5	New slipcovers will <b>help</b> the old living room furniture
+hunt%2:33:00::	literal	1.0	Goering often <b>hunted</b> wild boars in Poland
+hunt%2:38:00::	literal	1.0	The <b>hunters</b> traced the deer into the woods
+hunt%2:38:03::	literal	0.6	They <b>hunted</b> the unwanted immigrants out of the neighborhood
+hunt%2:38:05::	metaphorical	0.7	The oscillator <b>hunts</b> about the correct frequency
+hunt%2:35:03::	metaphorical	0.5	She <b>hunted</b> for her reading glasses but was unable to locate them
+hunt%2:33:02::	literal	0.8	The King used to <b>hunt</b> these forests
+hurt%2:29:01::	literal	0.9	This exercise will <b>hurt</b> your back
+hurt%2:30:04::	literal	0.7	Our business was <b>hurt</b> by the new competition
+hurt%2:37:00::	metaphorical	0.5	She <b>hurt</b> me when she did not include me among her guests
+hurt%2:39:01::	literal	0.9	Were you <b>hurting</b> after the accident?
+ignite%2:43:00::	literal	0.9	Great heat can <b>ignite</b> almost any dry matter
+ignite%2:43:01::	literal	0.9	Marsh gases <b>ignited</b> suddenly
+ignite%2:37:00::	metaphorical	0.7	The ostentatious way of living of the rich <b>ignites</b> the hatred of the poor
+immigrate%2:30:01::	literal	0.7	only few plants can <b>immigrate</b> to the island
+immigrate%2:30:02::	literal	0.9	Britain <b>immigrated</b> many colonists to America
+immigrate%2:30:00::	literal	0.9	Many people <b>immigrated</b> at the beginning of the 20th century
+impress%2:37:01::	literal	0.8	This child <b>impressed</b> me as unusually mature
+impress%2:37:00::	literal	0.9	The young chess player <b>impressed</b> her audience
+impress%2:35:00::	literal	0.6	To make a batik, you <b>impress</b> a design with wax
+incline%2:39:00::	literal	0.6	He <b>inclined</b> his ear to the wise old man
+incline%2:38:01::	literal	0.9	She <b>inclined</b> her head to the student
+incline%2:37:00::	metaphorical	0.5	She <b>inclines</b> to the view that people should be allowed to expres their religious beliefs
+incline%2:31:03::	metaphorical	0.9	Their language <b>inclines</b> us to believe them
+include%2:42:00::	literal	0.9	The list <b>includes</b> the names of many famous writers
+include%2:31:00::	literal	0.8	I <b>include</b> you in the list of culprits
+include%2:30:00::	literal	0.9	We must <b>include</b> this chemical element in the group
+indicate%2:32:01::	literal	0.8	These symptoms <b>indicate</b> a serious illness
+indicate%2:32:00::	literal	0.8	<b>indicated</b> his wishes in a letter
+indicate%2:32:04::	literal	0.8	Tetracycline is <b>indicated</b> in such cases
+induct%2:41:00::	literal	0.9	There was a ceremony to <b>induct</b> the president of the Academy.
+induct%2:41:03::	literal	1.0	We were <b>inducted</b> into the honor society.
+induct%2:32:00::	literal	0.68	The young geisha was <b>inducted</b> into the ways of her profession.
+infect%2:29:01::	literal	0.8	Your children have <b>infected</b> you with this head cold
+infect%2:41:02::	metaphorical	0.7	society was <b>infected</b> by racism
+infect%2:31:01::	metaphorical	0.6	His laughter <b>infects</b> everyone who is in the same room
+inflate%2:30:01::	metaphorical	0.7	The charges were <b>inflated</b>
+inflate%2:30:11::	metaphorical	0.5	The war <b>inflated</b> the economy
+inflate%2:30:10::	metaphorical	0.6	<b>inflate</b> the currency
+inform%2:32:00::	literal	0.9	I <b>informed</b> him of his rights
+inform%2:30:00::	literal	0.7	The principles that <b>inform</b> modern teaching
+inform%2:32:10::	literal	0.8	She had <b>informed</b> on her own parents for years
+inherit%2:40:00::	literal	0.9	I <b>inherited</b> a castle from my French grandparents
+inherit%2:40:02::	literal	0.7	The new chairman <b>inherited</b> many problems from the previous chair
+inherit%2:40:01::	literal	0.9	I <b>inherited</b> my good eyesight from my mother
+inject%2:29:00::	literal	1.0	We <b>injected</b> the glucose into the patient's vein
+inject%2:30:00::	metaphorical	0.8	He <b>injected</b> new life into the performance
+inject%2:35:00::	literal	1.0	<b>inject</b> hydrogen into the balloon
+interrupt%2:32:00::	literal	0.9	We <b>interrupt</b> the program for the following messages
+interrupt%2:30:03::	literal	0.9	Don't <b>interrupt</b> me when I'm reading
+interrupt%2:30:04::	literal	0.9	Please don't <b>interrupt</b> me while I'm on the phone
+interrupt%2:30:00::	metaphorical	0.5	She <b>interrupted</b> her pregnancy
+intervene%2:41:00::	literal	1.0	Why did the U.S. not <b>intervene</b> earlier in WW II?
+intervene%2:42:00::	metaphorical	0.5	This interludes <b>intervenes</b> between the two movements
+intervene%2:30:00::	metaphorical	0.5	The war <b>intervened</b> between the birth of her two children.
+introduce%2:36:00::	literal	0.9	A new word processor was <b>introduced</b>
+introduce%2:36:01::	literal	0.8	<b>introduce</b> exotic fruits
+introduce%2:31:00::	literal	0.7	<b>introduce</b> legislation
+invade%2:33:00::	literal	0.9	Hitler <b>invaded</b> Poland on September 1, 1939
+invade%2:38:00::	literal	0.7	This new colleague <b>invades</b> my territory
+invade%2:35:00::	literal	0.6	The cancer had <b>invaded</b> her lungs
+invite%2:41:00::	literal	0.9	Can I <b>invite</b> you for dinner on Sunday night?
+invite%2:41:01::	literal	0.9	I <b>invited</b> them to a restaurant
+invite%2:35:00::	literal	0.8	We <b>invited</b> the neighbors in for a cup of coffee
+invite%2:32:01::	literal	0.8	The organizers <b>invite</b> submissions of papers for the conference
+involve%2:42:04::	literal	0.7	Don't <b>involve</b> me in your family affairs!
+involve%2:42:00::	literal	0.9	This decision <b>involves</b> many changes
+involve%2:42:02::	literal	0.8	Dinner at Joe's always <b>involves</b> at least six courses
+involve%2:31:00::	literal	0.6	His story completely <b>involved</b> me during the entire afternoon
+involve%2:30:00::	literal	0.6	The situation was rather <b>involved</b>
+jam%2:38:01::	literal	0.7	The driver <b>jammed</b> the brake pedal to the floor
+jam%2:35:01::	literal	0.7	the mechanism <b>jammed</b>
+jam%2:35:00::	metaphorical	0.5	the theater was <b>jampacked</b>
+join%2:41:00::	literal	0.8	He <b>joined</b> the Communist Party as a young man
+join%2:35:01::	literal	0.9	<b>join</b> these two parts so that they fit together
+join%2:41:01::	literal	0.9	She <b>joined</b> him for a drink
+join%2:35:00::	literal	0.6	The two roads <b>join</b> here
+juggle%2:41:01::	metaphorical	0.8	<b>juggle</b> an account so as to hide a deficit
+juggle%2:41:00::	metaphorical	0.9	She had to <b>juggle</b> her job and her children
+juggle%2:35:03::	literal	1.0	the player <b>juggled</b> the ball
+key%2:40:00::	metaphorical	0.5	We were <b>keyed</b> after the locks were changed in the building
+key%2:35:00::	literal	0.8	His new Mercedes was <b>keyed</b> last night in the parking lot
+key%2:30:00::	metaphorical	0.5	<b>key</b> one's actions to the voters' prevailing attitude
+kick%2:35:00::	literal	0.9	The boy <b>kicked</b> the dog.
+kick%2:35:08::	metaphorical	0.6	The gun <b>kicked</b> back into my shoulder.
+kick%2:33:05::	literal	0.7	He <b>kicked</b> the extra point after touchdown.
+kite%2:40:01::	metaphorical	0.5	He <b>kited</b> many checks
+kite%2:40:00::	metaphorical	0.6	The businessman <b>kited</b> millions of dollars
+kite%2:38:01::	literal	0.8	The pilot <b>kited</b> for a long time over the mountains
+land%2:38:00::	literal	0.9	The bird <b>landed</b> on the highest branch
+land%2:38:01::	literal	1.0	the pilot managed to <b>land</b> the airplane safely
+land%2:30:00::	metaphorical	0.8	this may <b>land</b> you in jail
+land%2:38:03::	literal	0.9	The drug smugglers <b>landed</b> the heroin on the beach of the island
+land%2:40:00::	literal	0.9	He <b>landed</b> several blows on his opponent's head
+land%2:38:02::	literal	0.9	The ship <b>landed</b> in Pearl Harbor
+land%2:38:06::	literal	1.0	the enemy <b>landed</b> several of our aircraft
+lay%2:35:00::	literal	0.9	<b>lay</b> the books on the table
+lay%2:36:00::	metaphorical	0.6	<b>lay</b> the foundation for a new health care plan
+lay%2:35:02::	literal	0.8	This hen doesn't <b>lay</b>
+lay%2:40:00::	metaphorical	0.6	<b>lay</b> a responsibility on someone
+leak%2:32:00::	metaphorical	0.6	The news were <b>leaked</b> to the paper
+leak%2:32:01::	metaphorical	0.7	The news <b>leaked</b> out despite his secrecy
+leak%2:30:04::	literal	1.0	Water <b>leaked</b> out of the can into the backpack
+leak%2:30:00::	literal	1.0	The container <b>leaked</b> gasoline
+lean%2:38:00::	literal	1.0	She <b>leaned</b> over the banister
+lean%2:35:00::	literal	1.0	He <b>leaned</b> his rifle against the wall
+lean%2:31:10::	metaphorical	0.6	We can <b>lean</b> on this man
+lend%2:40:01::	literal	0.6	Her presence <b>lends</b> a certain cachet to the company
+lend%2:40:00::	literal	0.9	I will <b>lend</b> you my car
+lend%2:42:00::	metaphorical	0.6	This story would <b>lend</b> itself well to serialization on television
+level%2:33:02::	metaphorical	0.7	<b>level</b> criticism or charges at somebody
+level%2:36:00::	literal	0.9	The building was <b>levelled</b>
+level%2:32:01::	metaphorical	0.7	I have to <b>level</b> with you
+level%2:30:00::	literal	1.0	The ground <b>levelled</b> off
+lie%2:32:00::	literal	0.9	She <b>lied</b> when she told me she was only 29.
+lie%2:42:02::	metaphorical	0.7	The fate of Bosnia <b>lies</b> in the hands of the West.
+lie%2:38:00::	literal	1.0	<b>Lie</b> down on the bed until you feel better.
+lighten%2:37:01::	metaphorical	0.5	the conversation <b>lightened</b> me up a bit
+lighten%2:35:00::	literal	0.8	she <b>lightened</b> the load on the tired donkey
+lighten%2:32:00::	metaphorical	0.7	after a glass of wine, he <b>lightened</b> up a bit
+lighten%2:30:02::	literal	0.7	The room <b>lightened</b> up
+like%2:37:05::	literal	0.9	She <b>likes</b> to read Russian novels
+like%2:31:00::	literal	0.8	How did you <b>like</b> the President's speech last night?
+like%2:37:06::	literal	0.9	I'd <b>like</b> a beer now!
+line%2:42:00::	literal	0.6	trees <b>line</b> the riverbank
+line%2:35:02::	metaphorical	0.8	sorrow had <b>lined</b> his face
+line%2:30:01::	literal	0.8	<b>lined</b> books are more enduring
+live%2:42:08::	literal	0.9	People <b>lived</b> in Africa millions of years ago
+live%2:42:06::	literal	0.8	we had to <b>live</b> frugally after the war
+live%2:42:07::	literal	0.7	You must accept yourself and others if you really want to <b>live</b>
+load%2:35:01::	literal	1.0	<b>load</b> the truck with hay
+load%2:35:02::	literal	1.0	He <b>loaded</b> his gun carefully
+load%2:35:10::	literal	1.0	<b>load</b> the bags onto the trucks
+locate%2:40:00::	literal	0.9545	Can you <b>locate</b> your cousins in the Midwest?
+locate%2:42:00::	literal	0.9	Our sense of sight enables us to <b>locate</b> objects in space.
+locate%2:40:01::	literal	0.9524	The company <b>located</b> some of their agents in Los Angeles.
+lock%2:35:00::	literal	0.9	<b>Lock</b> the bike to the fence!
+lock%2:30:00::	literal	0.52	The therapist noticed that the patient's knees tended to <b>lock</b> in this exercise.
+lock%2:35:04::	metaphorical	0.8	He <b>locked</b> his hands around her neck.
+lock%2:35:03::	metaphorical	0.7	They were <b>locked</b> in embrace.
+lock%2:37:00::	metaphorical	1.0	He was <b>locked</b> in a laughing fit.
+lock%2:35:02::	literal	0.7	She <b>locked</b> her jewels in the safe.
+look%2:39:00::	literal	0.9	She <b>looked</b> over the expanse of land
+look%2:29:00::	literal	0.8	The child <b>looks</b> unhappy
+look%2:39:02::	literal	1.0	We <b>looked</b> all day and finally found the child in the forest
+look%2:42:00::	metaphorical	0.8	The house <b>looks</b> north
+look%2:32:00::	literal	0.6	She <b>looked</b> her devotion to me
+look%2:42:02::	literal	0.7	You don't <b>look</b> your age!
+loop%2:38:01::	metaphorical	0.5	The bicycle <b>looped</b> around the tree.
+loop%2:38:00::	metaphorical	0.6	The stunt pilot <b>looped</b> his plane.
+loop%2:35:01::	literal	0.7	He <b>looped</b> the watch through his belt.
+map%2:36:00::	literal	0.8	<b>map</b> the surface of Venus
+map%2:31:01::	literal	0.7	We haven't even begun to <b>map</b> the many galaxies that we know exist
+map%2:36:01::	metaphorical	0.7	sorrow was <b>mapped</b> on the mother's face
+march%2:38:04::	literal	0.9	The Japanese <b>marched</b> their prisoners through Manchuria
+march%2:38:00::	literal	0.6	He <b>marched</b> into the classroom and announced the exam
+march%2:38:10::	literal	0.7	They <b>marched</b> the mules into the desert
+match%2:40:00::	literal	0.9	The company <b>matched</b> the employees' contributions.
+match%2:41:00::	literal	0.8	This job doesn't <b>match</b> my dreams.
+match%2:33:00::	literal	0.6	Let them <b>match</b> their best athletes against ours.
+match%2:30:00::	literal	0.9545	The two pieces <b>match</b>.
+mean%2:32:01::	literal	0.6	You never understand what I <b>mean</b>!
+mean%2:42:00::	literal	0.8	The water shortage <b>means</b> that we have to stop taking long showers.
+mean%2:31:05::	literal	0.6	These flowers were <b>meant</b> for you.
+mellow%2:30:01::	literal	0.6	Age and experience <b>mellowed</b> him over the years
+mellow%2:30:03::	literal	0.6	With age, he <b>mellowed</b>
+mellow%2:30:00::	metaphorical	0.5	These apples need to <b>mellow</b> a bit more
+melt%2:30:01::	literal	1.0	The wax <b>melted</b> in the sun
+melt%2:30:00::	literal	0.9	The sun <b>melted</b> the ice
+melt%2:30:02::	metaphorical	0.7	Hundreds of actors were <b>melting</b> into the scene
+melt%2:30:10::	metaphorical	0.7	her resistance <b>melted</b> under his charm
+miss%2:39:00::	literal	0.8	I <b>missed</b> that remark
+miss%2:37:00::	literal	0.6	He <b>misses</b> his mother
+miss%2:42:01::	literal	0.9	I <b>missed</b> the concert
+miss%2:31:00::	literal	0.7	How could I <b>miss</b> that typo?
+miss%2:38:00::	literal	0.9	She <b>missed</b> her train
+miss%2:35:00::	literal	0.8	The arrow <b>missed</b> the target
+miss%2:42:02::	literal	0.9	The child had been <b>missing</b> for a week
+miss%2:32:00::	literal	0.9	Fortunately, I <b>missed</b> the hurricane
+moderate%2:32:00::	literal	0.8	John <b>moderated</b> the discussion
+moderate%2:41:00::	literal	0.9	<b>moderate</b> your alcohol intake
+moderate%2:32:06::	literal	0.8	He <b>moderated</b> his tone when the students burst out in tears
+mold%2:30:00::	literal	0.7	The furniture <b>molded</b> in the old house
+mold%2:36:01::	literal	0.7	She <b>molded</b> the rice balls carefully
+mold%2:35:00::	metaphorical	0.7	The dress <b>molds</b> her beautiful figure
+mount%2:35:00::	literal	0.9	They <b>mounted</b> the aerator on a floating
+mount%2:30:01::	literal	0.9	<b>mount</b> slides for macroscopic analysis
+mount%2:36:00::	metaphorical	0.5	<b>mount</b> a campaign against pornography
+mount%2:36:01::	metaphorical	0.7	<b>mount</b> a theater production
+nag%2:32:00::	literal	0.8	She <b>nags</b> her husband all day long
+nag%2:37:00::	metaphorical	0.5	<b>nagging</b> concerns and doubts
+nag%2:31:00::	literal	0.7	she <b>nagged</b> to take a vacation
+name%2:32:03::	literal	1.0	They <b>named</b> their son David
+name%2:32:02::	literal	0.9	Many senators were <b>named</b> in connection with the scandal
+name%2:41:01::	literal	0.6	She was <b>named</b> Head of the Committee
+name%2:32:07::	literal	1.0	<b>name</b> your accomplices!
+name%2:32:04::	literal	1.0	His <b>name</b> was mentioned in connection with the invention
+negociate%2:40:02::	literal	0.7	<b>negociate</b> securities
+negociate%2:38:00::	metaphorical	0.5	The hiker <b>negociated</b> the high mountain pass
+negociate%2:32:01::	literal	1.0	The parties <b>negociated</b> all night
+neutralize%2:41:00::	metaphorical	0.5	The treaty <b>neutralized</b> the small republic
+neutralize%2:30:01::	metaphorical	0.6	Her optimism <b>neutralizes</b> his gloom
+neutralize%2:30:00::	literal	0.7	She <b>neutralized</b> the solution
+nod%2:32:01::	literal	0.9	He <b>nodded</b> his approval
+nod%2:32:00::	literal	1.0	The teacher <b>nodded</b> when the student gave the right answer
+nod%2:29:03::	literal	0.6	The old man was <b>nodding</b> in his chair
+nod%2:38:00::	metaphorical	0.8	the flowers were <b>nodding</b> in the breeze
+nod%2:29:02::	literal	1.0	The old man sat <b>nodding</b> by the fireplace
+note%2:39:00::	literal	0.6	She <b>noted</b> that someone was following her
+note%2:39:02::	literal	0.6	Take <b>note</b> of this chemical reaction
+note%2:32:01::	literal	0.7	she <b>noted</b> everything the teacher said that morning
+offset%2:42:01::	literal	0.9	<b>offset</b> deposits and withdrawals
+offset%2:42:00::	literal	0.7	His skills <b>offset</b> his opponent's superior strength
+offset%2:36:00::	literal	0.6	<b>offset</b> the conference proceedings
+oppose%2:32:01::	literal	0.9	We <b>oppose</b> the ban on abortion
+oppose%2:33:01::	literal	0.9	The senator said he would <b>oppose</b> the bill
+oppose%2:32:00::	literal	0.9	The board <b>opposed</b> his motion
+ordain%2:41:01::	literal	1.0	The King <b>ordained</b> the persecution and expulsion of the Jews.
+ordain%2:41:00::	literal	1.0	He was <b>ordained</b> in the Church.
+ordain%2:41:02::	literal	0.9565	The minister was <b>ordained</b> only last month.
+orient%2:39:00::	literal	0.8	We had to <b>orient</b> ourselves in the forest
+orient%2:32:01::	literal	0.8	The dean of students tries to <b>orient</b> the freshmen
+orient%2:30:00::	literal	0.6	a magazine <b>oriented</b> towards young people
+paint%2:36:01::	literal	1.0	he <b>painted</b> all day in the garden
+paint%2:35:00::	literal	1.0	We <b>painted</b> the rooms yellow
+paint%2:36:00::	literal	0.8	He <b>painted</b> his mistress many times
+palpitate%2:38:02::	metaphorical	0.5	Her violent feelings <b>palpitated</b> the young woman's heart
+palpitate%2:38:01::	literal	1.0	His nostrils <b>palpitated</b>
+palpitate%2:38:00::	literal	0.9	His heart <b>palpitated</b>
+paste%2:35:01::	literal	1.0	<b>paste</b> the sign on the wall
+paste%2:35:00::	metaphorical	0.7	He <b>pasted</b> his opponent
+paste%2:35:02::	literal	0.8	<b>paste</b> the wall with burlap
+peep%2:39:00::	literal	0.8	He <b>peeped</b> at the woman through the window.
+peep%2:39:01::	metaphorical	0.6	He <b>peeped</b> his head through the window.
+peep%2:30:00::	metaphorical	0.9	The new moon <b>peeped</b> through the tree tops.
+penetrate%2:35:00::	literal	1.0	The bullet <b>penetrated</b> her chest.
+penetrate%2:38:06::	literal	0.619	The hikers did not manage to <b>penetrate</b> the dense forest.
+perturb%2:37:00::	literal	0.9	She was rather <b>perturbed</b> by the news that her father was seriously ill
+perturb%2:38:01::	metaphorical	0.5	The electrons were <b>perturbed</b> by the passing ion
+perturb%2:38:00::	metaphorical	0.5	The orbits of these stars were <b>perturbed</b> by the passings of a comet
+perturb%2:30:00::	metaphorical	0.6	Fundamental Islamicists threaten to <b>perturb</b> the social order in Algeria and Egypt
+piece%2:35:00::	literal	0.9	<b>piece</b> the broken pieces of thread, slivers, and rovings
+piece%2:34:00::	metaphorical	0.5	He <b>pieced</b> at the sandwich all morning
+piece%2:30:00::	literal	0.9	She <b>pieced</b> the china cup
+pierce%2:37:00::	metaphorical	0.9	The cold <b>pierced</b> her bones.
+pierce%2:39:00::	metaphorical	1.0	The scream <b>pierced</b> the night.
+pierce%2:35:00::	literal	1.0	The needle <b>pierced</b> her flesh.
+pin%2:35:03::	literal	0.8	The child was <b>pinned</b> under the fallen tree
+pin%2:35:01::	literal	1.0	<b>pin</b> the needle to the shirt
+pin%2:35:02::	literal	1.0	<b>pin</b> down the butterfly
+ping%2:35:00::	literal	0.8	The bugs <b>pinged</b> the lamp shade
+ping%2:39:01::	literal	0.8	the car <b>pinged</b> when I put in low-octane gasoline
+ping%2:39:00::	literal	0.9	the bullet <b>pinged</b> when they struck the car
+ping%2:32:01::	metaphorical	0.5	I'll <b>ping</b> my accountant--April 15 is nearing
+ping%2:32:00::	literal	0.6	<b>ping</b> your machine in the office
+plaster%2:35:11::	literal	0.7	The demonstrators <b>plastered</b> the hallways with posters
+plaster%2:35:10::	literal	0.8	She <b>plastered</b> warnings all over the wall
+plaster%2:35:02::	literal	0.8	<b>plaster</b> the broken arm
+plead%2:32:00::	literal	0.8	I <b>pleaded</b> with him to stop.
+plead%2:32:02::	literal	0.7	She was <b>pleading</b> insanity.
+plead%2:32:01::	literal	0.9	She <b>pleaded</b> not guilty.
+please%2:37:00::	literal	0.7	These colors <b>please</b> the senses
+please%2:37:01::	literal	0.6	he could do many things if he <b>pleased</b>
+please%2:37:03::	literal	0.7	The waiters around her aim to <b>please</b>
+pledge%2:32:00::	literal	0.8	I <b>pledge</b> that I will honor my wife
+pledge%2:40:04::	literal	0.9	I <b>pledged</b> $10 a month to my favorite radio station
+pledge%2:32:01::	literal	0.6	I was <b>pledged</b> to silence
+plunge%2:38:01::	literal	0.6	the stock market <b>plunged</b>
+plunge%2:38:05::	literal	0.6	She <b>plunged</b> at it eagerly
+plunge%2:31:01::	metaphorical	0.7	The professor <b>plunged</b> his students into the study of the Italian text
+plunge%2:38:00::	literal	0.9	It <b>plunged</b> to the bottom of the well
+poison%2:41:00::	metaphorical	0.8	<b>poison</b> someone's mind
+poison%2:35:00::	literal	1.0	She <b>poisoned</b> her husband
+poison%2:30:00::	literal	1.0	Her husband <b>poisoned</b> her drink in order to kill her
+poison%2:35:01::	literal	1.0	This mushrooms can <b>poison</b>
+poison%2:29:00::	literal	1.0	She <b>poisoned</b> her husband but he did not die
+port%2:38:06::	literal	0.8	the captain <b>ported</b> the ship at night
+port%2:38:05::	literal	1.0	The ship finally <b>ported</b>
+port%2:38:03::	literal	1.0	The big ship was slowly <b>porting</b>
+port%2:35:07::	literal	1.0	The small canoe could be <b>ported</b> easily
+port%2:34:00::	metaphorical	0.5	We were <b>porting</b> all in the club after dinner
+portray%2:32:00::	literal	0.7	The book <b>portrays</b> the actor as a selfish person
+portray%2:36:00::	literal	0.8	Goya wanted to <b>portray</b> his mistress, the Duchess of Alba
+portray%2:36:02::	literal	0.8	The father is <b>portrayed</b> as a good-looking man in this painting
+pose%2:42:00::	metaphorical	0.6	This <b>poses</b> an interesting question
+pose%2:39:00::	literal	0.9	We don't know the woman who <b>posed</b> for Leonardo so often
+pose%2:32:13::	literal	0.8	She <b>posed</b> as the Czar's daughter
+pound%2:35:00::	literal	0.9	the salesman <b>pounded</b> the door knocker
+pound%2:35:06::	metaphorical	0.5	The locks <b>pound</b> the water of the canal
+pound%2:35:05::	metaphorical	0.6	The prisoners are safely <b>pounded</b>
+pound%2:35:04::	literal	0.6	<b>pound</b> the cows so they don't stray
+pound%2:30:03::	literal	1.0	<b>pound</b> the roots with a heavy flat stone
+pour%2:38:03::	literal	0.9	They <b>poured</b> water over the floor.
+pour%2:38:00::	metaphorical	0.7391	People were <b>pouring</b> out of the theater.
+pour%2:38:02::	literal	1.0	Water <b>poured</b> all over the floor.
+pour%2:40:00::	metaphorical	1.0	We <b>poured</b> money into the education of our children.
+pour%2:43:00::	metaphorical	0.5	Put on your rain coat -- it's <b>pouring</b> outside!
+precede%2:42:00::	literal	0.7	Stone tools <b>precede</b> bronze tools
+precede%2:42:01::	literal	0.9	Most English adjectives <b>precede</b> the noun they modify
+precede%2:41:00::	literal	0.8	Bill <b>preceded</b> John in the long line of Susan's husbands
+precede%2:32:03::	literal	0.6	She always <b>precedes</b> her lectures with a joke
+precipitate%2:36:00::	metaphorical	0.6	The crisis <b>precipitated</b> by Russia's revolution
+precipitate%2:38:01::	metaphorical	0.5	Our economy <b>precipitated</b> into complete ruin
+precipitate%2:35:00::	metaphorical	0.5	The bridge broke and <b>precipitated</b> the train into the river below
+predicate%2:32:02::	literal	0.8	The <b>predicate</b> `dog' is predicated of the subject `Fido' in the sentence `Fido is a dog'
+predicate%2:32:00::	literal	0.8	The speech <b>predicated</b> the fitness of the candidate to be President
+predicate%2:32:01::	literal	0.8	solving the problem is <b>predicated</b> on understanding it well
+preserve%2:42:00::	metaphorical	0.5	<b>preserve</b> the peace in the family
+preserve%2:40:00::	literal	0.8	We <b>preserve</b> these archeological findings
+preserve%2:42:07::	literal	0.8	<b>preserve</b> the forest and the lakes
+prick%2:35:00::	literal	1.0	The nurse <b>pricked</b> my finger to get a small blood sample
+prick%2:39:00::	literal	1.0	The needle <b>pricked</b> his skin
+prick%2:38:00::	literal	0.7	The dog <b>pricked</b> up his ears
+prick%2:37:00::	metaphorical	0.7	The thought of her unhappiness <b>pricked</b> his conscience
+process%2:31:00::	literal	0.9	The results of the elections were still being <b>processed</b> when he gave his acceptance speech
+process%2:41:00::	metaphorical	0.5	He was warned that the district attorney would <b>process</b> him
+process%2:38:00::	literal	0.8	They <b>processed</b> into the dining room
+process%2:35:00::	literal	0.7	He was <b>processed</b> by the sheriff
+produce%2:36:02::	literal	0.9	The tree would not <b>produce</b> fruit
+produce%2:36:00::	literal	0.8	We <b>produce</b> more cars than we can sell
+produce%2:36:03::	literal	0.9	This procedure <b>produces</b> a curious effect
+produce%2:39:01::	literal	0.7	The proud father <b>produced</b> many pictures of his baby
+produce%2:36:05::	literal	0.8	The Bordeaux region <b>produces</b> great red wines
+profess%2:32:00::	literal	0.8	She <b>professes</b> organic chemistry
+profess%2:32:03::	literal	0.8	The terrorists <b>professed</b> allegiance to their country
+profess%2:32:10::	literal	0.8	The teacher <b>professed</b> that he was not generous when it came to giving good grades
+profess%2:32:01::	literal	0.7	she <b>professed</b> herself as a nun
+profess%2:32:04::	literal	0.9	He <b>professed</b> innocence but later admitted his guilt
+propagate%2:40:00::	literal	0.8	The genes <b>propagate</b> these characteristics to the offspring.
+propagate%2:38:01::	literal	0.6	Sound and light <b>propagate</b> in this medium.
+propagate%2:35:00::	literal	0.6	Sound or light can be <b>propagated</b> through air.
+propagate%2:35:01::	literal	0.7	This great civilization was <b>propagated</b> throughout the land.
+provide%2:40:00::	literal	1.0	We <b>provided</b> the room with an electrical heater
+provide%2:34:00::	literal	0.9	The hostess <b>provided</b> lunch for all the guests
+provide%2:32:00::	literal	0.8	The will <b>provides</b> that each child should receive half of the money
+provide%2:40:08::	literal	0.9	He <b>provides</b> for his large family by working three jobs
+provide%2:30:05::	literal	0.8	<b>provide</b> for the proper care of the passengers on the cruise ship
+puff%2:37:00::	metaphorical	0.7	The sudden fame <b>puffed</b> her ego
+puff%2:32:01::	metaphorical	0.8	The critics <b>puffed</b> up this Broadway production
+puff%2:32:00::	metaphorical	0.6	A <b>puffing</b> kind of man
+puff%2:30:00::	literal	0.9	Her faced <b>puffed</b> up from the drugs
+puff%2:29:01::	literal	0.7	he huffed and <b>puffed</b> as he made his way up the mountain
+pump%2:33:00::	metaphorical	0.65	He <b>pumped</b> bullets into the dummy.
+pump%2:38:03::	literal	0.6	The athlete <b>pumps</b> weights in the gym.
+pump%2:32:00::	metaphorical	0.9167	She <b>pumped</b> the witnesses for information.
+push%2:38:00::	literal	1.0	He <b>pushed</b> the table into a corner
+push%2:35:06::	literal	0.9	`Now <b>push</b> hard,' said the doctor to the woman
+push%2:32:01::	metaphorical	0.7	He <b>pushed</b> her to finish her doctorate
+push%2:32:00::	metaphorical	0.7	The salesman is aggressively <b>pushing</b> the new computer model
+push%2:38:02::	literal	1.0	she <b>pushed</b> against the wall with all her strength
+push%2:38:01::	metaphorical	0.7	She is <b>pushing</b> fifty
+push%2:41:10::	metaphorical	0.7	The liberal party <b>pushed</b> for reforms
+push%2:40:00::	metaphorical	0.7	The guy hanging around the school is <b>pushing</b> drugs
+push%2:38:08::	literal	0.8	The crowd <b>pushed</b> forward
+put%2:35:05::	literal	0.7	That song <b>put</b> me in awful good humor
+put%2:32:00::	literal	0.7	I wouldn't <b>put</b> it that way
+put%2:34:00::	metaphorical	0.5	She <b>put</b> too much emphasis on her the last statement
+put%2:31:13::	literal	0.7	We <b>put</b> the time of arrival at 8 P.M.
+put%2:39:13::	literal	0.7	He <b>put</b> her to the torture
+put%2:36:13::	literal	0.8	<b>put</b> these words to music
+put%2:31:00::	literal	0.8	I <b>put</b> these memories with those of bygone times
+quote%2:32:00::	literal	0.9	He <b>quoted</b> the Bible to her.
+quote%2:32:13::	literal	0.9	He <b>quoted</b> prices for cars.
+quote%2:32:02::	literal	0.9	He said he could <b>quote</b> several instances of this behavior.
+radiate%2:43:00::	literal	0.9	The sun <b>radiates</b> heat
+radiate%2:30:00::	metaphorical	0.5	She <b>radiates</b> happiness
+radiate%2:42:00::	literal	0.7	spokes <b>radiate</b> from the hub of the wheel
+radiate%2:30:02::	literal	0.7	Heat <b>radiated</b> from the metal box
+raid%2:41:00::	literal	0.9	The police <b>raided</b> the crack house
+raid%2:38:00::	literal	0.9	The pirates <b>raided</b> the coastal villages regularly
+raid%2:40:02::	literal	0.7	T. Boone Pickens <b>raided</b> many large companies
+raid%2:35:02::	metaphorical	0.6	Our babysitter <b>raided</b> our refrigerator
+rail%2:42:00::	metaphorical	0.5	<b>rail</b> in the old graves
+rail%2:38:01::	literal	0.8	<b>rail</b> off the crowds from the Presidential palace
+rail%2:38:04::	literal	0.8	fresh fruit are <b>railed</b> from Italy to Belgium
+rail%2:38:00::	literal	0.8	They <b>railed</b> from Rome to Venice
+rail%2:35:03::	literal	0.8	hundreds of miles were <b>railed</b> out here
+rail%2:33:00::	metaphorical	0.7	They are <b>railing</b> for fresh fish
+ramp%2:40:00::	metaphorical	0.5	The <b>ramped</b> auditorium
+ramp%2:39:00::	literal	0.6	the lion is <b>rampant</b> in this heraldic depiction
+ramp%2:38:02::	literal	0.7	The roses <b>ramped</b> over the wall
+range%2:42:01::	literal	0.7	Estimates for the losses in the earthquake <b>range</b> as high as $2 billion.
+rationalize%2:32:00::	metaphorical	0.5	<b>rationalize</b> the child's seemingly crazy behavior
+rationalize%2:40:00::	literal	0.8	We <b>rationalized</b> the factory's production and raised profits
+rationalize%2:31:00::	literal	0.7	When one wonders why one is doing certain things, one should <b>rationalize</b>
+rationalize%2:30:01::	literal	0.7	This function can be <b>rationalized</b>
+reach%2:35:00::	metaphorical	0.6	Government <b>reaches</b> out to the people
+reach%2:32:00::	literal	0.6	Our advertisements <b>reach</b> millions
+reach%2:42:00::	literal	0.7	The sunlight <b>reached</b> the wall
+recall%2:32:02::	literal	0.8	The ambassador was <b>recalled</b> to his country
+recall%2:31:06::	literal	0.7	She was <b>recalled</b> by a loud laugh
+recall%2:41:00::	literal	0.8	The company <b>recalled</b> the product when it was found to be faulty
+recall%2:40:00::	literal	0.9	<b>recall</b> the defective auto tires
+recapture%2:37:00::	metaphorical	0.7	She could not <b>recapture</b> that feeling of happiness.
+recapture%2:36:00::	literal	0.5556	The author <b>recaptures</b> an old idea here.
+recapture%2:40:00::	literal	0.9	The military forces managed to <b>recapture</b> the fort.
+recapture%2:35:00::	literal	1.0	They tried to <b>recapture</b> the escaped prisoner.
+recast%2:36:00::	literal	0.7	He was <b>recast</b> as Iago.
+recast%2:36:01::	literal	0.7	The bell cracked and had to be <b>recast</b>.
+recast%2:36:02::	literal	0.52	She had to <b>recast</b> her image to please the electorate in her home state.
+recruit%2:41:01::	literal	1.0	The party <b>recruited</b> many new members.
+recruit%2:40:00::	literal	0.8696	The lab director <b>recruited</b> an able crew of assistants.
+recruit%2:33:00::	literal	0.9091	They <b>recruited</b> new soldiers.
+redouble%2:30:00::	literal	0.8	The enemy <b>redoubled</b> their screaming on the radio
+redouble%2:30:02::	literal	0.8	The noise doubled and <b>redoubled</b>
+redouble%2:30:01::	literal	0.6	The screaming <b>redoubled</b>
+redound%2:39:00::	metaphorical	0.8	Fame <b>redounds</b> to the heroes.
+redound%2:30:00::	metaphorical	0.8	Everything <b>redounded</b> to his glory.
+redound%2:30:01::	metaphorical	0.5	Her efforts will <b>redound</b> to the general good.
+reenact%2:36:01::	literal	0.9	They <b>reenacted</b> the battle of Princeton
+reenact%2:41:00::	literal	0.7	Congress <b>reenacted</b> the law
+reenact%2:36:00::	literal	0.9	She <b>reenacted</b> what had happened earlier that day
+refer%2:42:00::	literal	0.8	There were lots of questions <b>referring</b> to her talk
+refer%2:31:00::	literal	0.8	This plant can be <b>referred</b> to a known species
+refer%2:38:00::	literal	0.9	<b>refer</b> a patient to a specialist
+refer%2:32:04::	literal	0.7	Christians <b>refer</b> to the mother of Jesus as the Virgin Mary
+refine%2:30:01::	literal	0.7	<b>refine</b> one's style of writing
+refine%2:30:06::	literal	0.7	<b>refine</b> a design or pattern
+refine%2:30:03::	literal	0.7	many valuable nutrients are <b>refined</b> out of the foods in our modern diet
+refine%2:30:05::	literal	0.8	<b>refine</b> a method of analysis
+reflect%2:39:01::	metaphorical	0.5	This action <b>reflects</b> his true beliefs
+reflect%2:39:00::	literal	0.6	Sound is <b>reflected</b> well in this auditorium
+reflect%2:43:00::	literal	0.7	Drive carefully--the wet road <b>reflects</b>
+reflect%2:39:02::	literal	1.0	her sunglasses <b>reflected</b> his image
+reflect%2:32:01::	metaphorical	0.8	His lack of interest in the project <b>reflects</b> badly on him
+reflect%2:32:00::	metaphorical	0.9	The mess in his dorm room <b>reflects</b> on the student
+reform%2:30:00::	literal	0.8	<b>reform</b> a political system
+reform%2:30:04::	metaphorical	0.5	The Church <b>reformed</b> me
+reform%2:30:08::	literal	0.6	<b>reform</b> the health system in this country
+reform%2:30:03::	literal	0.9	The lazy student promised to <b>reform</b>
+register%2:31:00::	literal	0.6	Did this event <b>register</b> in your parents' minds?
+register%2:41:01::	literal	0.9	<b>register</b> for an election
+register%2:39:00::	literal	0.9	Did you <b>register</b> any change when I pressed the button?
+register%2:39:01::	literal	0.7	Her surprise did not <b>register</b>
+register%2:32:05::	literal	0.9	I'd like to <b>register</b> this letter
+rejuvenate%2:30:03::	literal	0.7	the land <b>rejuvenated</b>
+rejuvenate%2:30:00::	literal	0.8	The contact with his grandchildren <b>rejuvenated</b> him
+rejuvenate%2:29:00::	literal	0.6	The old man <b>rejuvenated</b> when he became a grandfather
+relate%2:32:00::	metaphorical	0.6	The witness <b>related</b> the events.
+relate%2:42:01::	literal	0.7	How are these two observations <b>related</b>?
+relate%2:41:00::	literal	0.7	She <b>relates</b> well to her peers
+relax%2:29:00::	literal	0.9	He <b>relaxed</b> in the hot tub
+relax%2:30:01::	literal	0.7	<b>relax</b> the tension on the rope
+relax%2:29:01::	literal	0.9	A hot bath always <b>relaxes</b> me
+relax%2:41:02::	literal	0.9	our new colleague <b>relaxed</b> when he saw that we were a friendly group
+relax%2:41:01::	metaphorical	0.6	The government <b>relaxed</b> the curfew after most of the rebels were caught
+relax%2:41:00::	metaphorical	0.8	The rules <b>relaxed</b> after the new director arrived
+remember%2:31:00::	literal	0.9	I can't <b>remember</b> saying any such thing
+remember%2:31:02::	literal	0.9	he <b>remembered</b> how he used to pick flowers
+remember%2:40:00::	literal	0.9	He <b>remembered</b> her in his will
+remember%2:32:07::	literal	0.9	<b>remember</b> me in your prayers
+remember%2:31:08::	literal	0.9	After the shelling, many people lost the ability to <b>remember</b>
+remember%2:31:09::	literal	0.9	We <b>remembered</b> the 50th anniversary of the liberation of Auschwitz
+remit%2:32:00::	literal	0.9	The taxes were <b>remitted</b>
+remit%2:32:04::	literal	0.7	God will <b>remit</b> their sins
+remit%2:30:02::	literal	0.8	The pain finally <b>remitted</b>
+repair%2:30:00::	literal	1.0	She <b>repaired</b> her TV set
+repair%2:40:00::	literal	0.7	One can never fully <b>repair</b> the suffering and losses of the Jews in the Third Reich
+repair%2:38:00::	metaphorical	0.5	He <b>repaired</b> to his cabin in the woods
+replace%2:30:00::	literal	0.9	He <b>replaced</b> the old razor blade
+replace%2:41:00::	literal	0.9	Smith <b>replaced</b> Miller as CEO after Miller left
+replace%2:35:00::	literal	1.0	<b>replace</b> the book on the shelf after you have finished reading it
+replace%2:40:00::	literal	1.0	the con artist <b>replaced</b> the original with a fake Rembrandt
+report%2:32:04::	literal	0.9	Dozens of incidents of wife beatings are <b>reported</b> daily in this city
+report%2:32:03::	literal	0.8	I <b>report</b> to work every day at 9 o'clock
+report%2:32:01::	literal	0.9	One student <b>reported</b> the other to the principal
+report%2:32:13::	literal	0.8	Snow <b>reported</b> on China in the 1950's
+report%2:32:02::	literal	0.9	I <b>reported</b> her to the supervisor
+repose%2:34:00::	literal	0.7	These philosophers <b>reposed</b> the law in the people
+repose%2:35:00::	literal	0.7	Mao <b>reposes</b> in his mausoleum
+repose%2:35:03::	literal	0.6	The nation <b>reposed</b> its confidence in the King
+reseat%2:40:01::	literal	0.9	<b>reseat</b> the old broken chair
+reseat%2:40:00::	literal	0.6	<b>reseat</b> Carnegie Hall
+reseat%2:35:00::	literal	0.8	The usher insisted on <b>reseating</b> us
+restore%2:41:01::	literal	0.8	<b>restore</b> the forest to its original pristine condition
+restore%2:30:00::	literal	0.6	The week at the spa <b>restored</b> me
+restore%2:41:00::	literal	0.9	<b>restore</b> law and order
+retain%2:42:00::	literal	0.9	This soil <b>retains</b> water
+retain%2:40:00::	literal	0.9	The landlord <b>retained</b> the security deposit
+retain%2:31:00::	literal	0.9	I cannot <b>retain</b> so much information
+retrofit%2:40:00::	literal	0.9	They car companies <b>retrofitted</b> all the old models with new carburetors
+retrofit%2:35:00::	literal	0.9	The mansion was <b>retrofitted</b> with modern plumbing
+retrofit%2:30:00::	literal	0.8	The laboratory <b>retrofitted</b> to meet the safety codes
+review%2:31:00::	literal	0.9	let's <b>review</b> your situation
+review%2:32:00::	literal	0.9	She <b>reviews</b> books for the New York Times
+review%2:31:04::	literal	0.8	I <b>reviewed</b> the material before the test
+review%2:31:01::	literal	0.8	she <b>reviewed</b> her achievements with pride
+revive%2:29:01::	literal	0.8	The doctors <b>revived</b> the comatose man
+revive%2:29:00::	metaphorical	0.6	A hot soup will <b>revive</b> me
+revive%2:30:00::	metaphorical	0.5	Interest in ESP <b>revived</b>
+revive%2:30:01::	literal	0.6	He <b>revived</b> this style of opera
+right%2:41:00::	literal	0.8	<b>right</b> a wrongs done to the victims of the Holocaust
+right%2:38:03::	literal	0.9	They <b>righted</b> the sailboat that had capsized
+right%2:38:00::	literal	0.6	The capsized boat <b>righted</b> again
+rip%2:35:00::	literal	0.9583	The curtain <b>ripped</b> from top to bottom.
+rip%2:38:00::	metaphorical	0.8	The tornado <b>ripped</b> along the coast.
+rip%2:32:00::	metaphorical	1.0	The candidate <b>ripped</b> into his opponent mercilessly.
+root%2:30:00::	literal	0.9	this plant <b>roots</b> quickly
+root%2:42:00::	metaphorical	0.6	The problem <b>roots</b> in her depression
+root%2:35:00::	literal	0.9	the pig was <b>rooting</b> for truffles
+rotate%2:41:00::	literal	0.6	We <b>rotate</b> the lead soprano every night
+rotate%2:33:00::	metaphorical	0.6	Interns have to <b>rotate</b> for a few months
+rotate%2:30:04::	literal	0.8	We <b>rotate</b> the crops so as to maximize the use of the soil
+rubricate%2:41:03::	literal	0.8	She was <b>rubricated</b> by the pope
+rubricate%2:36:01::	literal	0.9	the manuscript is not <b>rubricated</b>
+rubricate%2:36:00::	literal	0.8	In this beautiful book, all the place names are <b>rubricated</b>
+ruffle%2:37:00::	metaphorical	0.7	She wanted to <b>ruffle</b> his composure.
+ruffle%2:37:01::	metaphorical	1.0	This play is going to <b>ruffle</b> some people.
+ruffle%2:35:01::	literal	0.8	The bird <b>ruffled</b> its feathers.
+ruffle%2:35:02::	literal	0.6	The wind <b>ruffled</b> the surface of the water.
+ruffle%2:35:00::	literal	0.8	The seamstress <b>ruffled</b> the curtain fabric.
+ruin%2:35:00::	literal	0.8	You have <b>ruined</b> my car by pouring sugar in the tank!
+ruin%2:41:00::	literal	0.7	This behavior will <b>ruin</b> your chances of winning the election
+ruin%2:35:01::	literal	0.8	The country lay <b>ruined</b> after the war
+sail%2:38:03::	literal	1.0	We <b>sailed</b> the Atlantic
+sail%2:38:00::	literal	1.0	I love <b>sailing,</b> especially on the open sea
+sail%2:38:02::	literal	0.9	The QE2 will <b>sail</b> to Southampton tomorrow
+salt%2:35:00::	metaphorical	0.7	the rebels had <b>salted</b> the fields with mines and traps
+salt%2:30:01::	metaphorical	1.0	She <b>salts</b> her lectures with jokes
+salt%2:30:00::	literal	1.0	people used to <b>salt</b> meats on ships
+salute%2:32:00::	literal	1.0	I meet this men every day on my way to work and he <b>salutes</b> me
+salute%2:32:03::	metaphorical	0.5	I <b>salute</b> your courage!
+salute%2:39:00::	metaphorical	0.9	a terrible stench <b>saluted</b> our nostrils
+salute%2:32:01::	literal	1.0	When the officers show up, the soldiers have to <b>salute</b>
+scale%2:42:00::	literal	0.8	This bike <b>scales</b> only 25 pounds
+scale%2:40:00::	literal	0.8	The troops <b>scaled</b> the walls of the fort
+scale%2:38:01::	literal	0.8	We <b>scaled</b> the Mont Blanc
+scale%2:30:01::	literal	0.8	This model must be <b>scaled</b> down
+scan%2:39:01::	literal	1.0	the surgeon <b>scanned</b> the X-ray
+scan%2:39:00::	literal	0.8	She <b>scanned</b> the newspaper headlines while waiting for the taxi
+scan%2:35:00::	metaphorical	0.5	The beams <b>scanned</b> the night sky
+scorch%2:30:03::	metaphorical	0.5	The heat <b>scorched</b> the countryside.
+scorch%2:30:05::	literal	1.0	The wildfire <b>scorched</b> the forest and several homes.
+scorch%2:30:04::	metaphorical	0.6	The exposed tree <b>scorched</b> in the hot sun.
+score%2:33:00::	literal	0.8	The home team <b>scored</b> many times.
+score%2:35:00::	literal	0.6	She <b>scored</b> the clay before firing it.
+score%2:33:01::	literal	1.0	She <b>scored</b> high on the SAT.
+score%2:31:05::	literal	0.9	They <b>scored</b> the SAT essays.
+scrape%2:35:00::	literal	1.0	The cat <b>scraped</b> at the armchair
+scrape%2:36:00::	literal	0.8	They <b>scraped</b> a letter into the stone
+scrape%2:35:03::	metaphorical	0.6	She had <b>scraped</b> together enough money for college
+screen%2:41:01::	metaphorical	0.6	They decided to <b>screen</b> the blood for the HIV virus.
+screen%2:31:00::	literal	0.6	The officer <b>screened</b> the suitcases.
+screen%2:41:00::	literal	0.7	The scientist <b>screened</b> these samples.
+seat%2:35:00::	literal	0.9	The host <b>seated</b> me next to Mrs. Smith
+seat%2:42:00::	literal	1.0	The theater <b>seats</b> 2,000
+seat%2:35:01::	literal	0.6	<b>seat</b> the camera on the tripod
+seat%2:35:02::	literal	1.0	the mother <b>seated</b> the toddler on the high chair
+seem%2:39:00::	literal	0.9	She <b>seems</b> to be sleeping
+seem%2:39:01::	literal	0.7	It <b>seems</b> that he is very gifted
+seem%2:42:00::	literal	0.9	There <b>seems</b> no reason to go ahead with the project now
+seem%2:39:02::	literal	0.8	I <b>seem</b> to be misunderstood by everyone
+segregate%2:41:00::	literal	0.9	This neighborhood is <b>segregated</b>
+segregate%2:35:02::	literal	0.8	Many towns <b>segregated</b> into new counties
+segregate%2:30:00::	literal	0.7	the sun <b>segregates</b> the carbon
+seize%2:35:00::	literal	0.8	The sales clerk quickly <b>seized</b> the money on the counter
+seize%2:35:01::	literal	0.9	The terrorists <b>seized</b> the politicians
+seize%2:40:01::	literal	0.9	the invaders <b>seized</b> the land and property of the inhabitants
+seize%2:40:02::	literal	0.8	The FBI <b>seized</b> the drugs
+seize%2:31:04::	metaphorical	0.6	Fear <b>seized</b> the prisoners
+sell%2:42:00::	literal	0.9	These books <b>sell</b> like hot cakes.
+sell%2:32:00::	metaphorical	0.75	The French try to <b>sell</b> us their image as great lovers.
+sell%2:40:01::	literal	1.0	The brothers <b>sell</b> shoes.
+sense%2:39:02::	literal	0.7	This robot can <b>sense</b> the presence of people in the room
+sense%2:31:03::	literal	0.7	I <b>sense</b> his hostility
+sense%2:31:02::	literal	0.6	I <b>sensed</b> the real meaning of his letter
+sensitize%2:30:00::	literal	0.7	He was not <b>sensitized</b> to her emotional needs
+sensitize%2:39:00::	metaphorical	0.6	She <b>sensitized</b> me with respect to gender differences in this traditional male-dominated society
+sensitize%2:30:02::	literal	0.8	Long-term exposure to this medicine may <b>sensitize</b> you to the allergen
+sensitize%2:30:01::	literal	0.7	<b>sensitize</b> the photographic film
+sequester%2:40:01::	literal	0.6	the estate was <b>sequestered</b>
+sequester%2:30:06::	literal	0.7	The cations were <b>sequestered</b>
+sequester%2:30:00::	literal	0.7	He <b>sequestered</b> himself in his study to write a book
+sequester%2:30:01::	literal	0.7	The dentist <b>sequesters</b> the tooth he is working on
+shake%2:30:00::	metaphorical	0.875	The bad news <b>shook</b> her hopes.
+shake%2:38:04::	metaphorical	1.0	I couldn't <b>shake</b> the car that was following me.
+shake%2:30:01::	literal	1.0	<b>Shake</b> the salt out of the salt shaker.
+sharpen%2:30:01::	metaphorical	0.8	We had to <b>sharpen</b> our arguments
+sharpen%2:30:00::	metaphorical	0.8	The debate <b>sharpened</b>
+sharpen%2:30:05::	metaphorical	0.7	This drug will <b>sharpen</b> your vision
+shed%2:35:01::	metaphorical	0.7	He <b>shed</b> his image as a pushy boss.
+shed%2:35:02::	literal	0.625	She <b>shed</b> a lot of tears when this happened.
+shed%2:29:00::	literal	0.9	Our dog <b>sheds</b> every Spring.
+shipwreck%2:41:00::	metaphorical	0.9	You have <b>shipwrecked</b> my career.
+shipwreck%2:39:00::	literal	0.8889	They were <b>shipwrecked</b> in one of the mysteries at sea.
+shipwreck%2:35:00::	literal	0.9	The vessel was <b>shipwrecked</b>.
+shorten%2:30:01::	literal	0.8	He <b>shortened</b> his trip due to illness
+shorten%2:30:02::	literal	0.7	The manuscript must be <b>shortened</b>
+shorten%2:30:09::	literal	1.0	<b>shorten</b> the rope by a few inches
+shorten%2:30:00::	literal	0.8	In winter, the days <b>shorten</b>
+shower%2:40:00::	metaphorical	0.8	He was <b>showered</b> with praise
+shower%2:35:00::	literal	0.7	The guests <b>showered</b> rice on the couple
+shower%2:29:00::	literal	1.0	You should <b>shower</b> after vigorous exercise
+shower%2:43:00::	literal	0.7	Meteors <b>showered</b> down over half of Australia
+shower%2:34:12::	metaphorical	0.7	He <b>showered</b> her with presents
+sift%2:38:00::	metaphorical	0.7	The soldiers <b>sifted</b> through the woods.
+sift%2:35:02::	metaphorical	0.7	He <b>sifted</b> the information.
+sift%2:31:00::	metaphorical	0.8	They <b>sifted</b> through the job candidates.
+sign%2:32:02::	literal	0.9	She <b>signed</b> the letter and sent it off.
+sign%2:32:00::	literal	0.7	He <b>signed</b> to play the casino on December 18.
+sign%2:41:01::	metaphorical	0.5	They <b>signed</b> two new pitchers for the next season.
+sign%2:32:01::	metaphorical	0.7	He <b>signed</b> his disapproval with a dismissive hand gesture.
+sign%2:35:02::	literal	0.6667	This road has been <b>signed</b>.
+sign%2:32:04::	literal	0.8	I don't know how to <b>sign</b>, so I could not communicate with my deaf cousin.
+sing%2:36:00::	literal	1.0	She was <b>singing</b> while she was cooking
+sing%2:32:08::	literal	0.8	The nightingale was <b>singing</b>
+sing%2:32:00::	metaphorical	0.8	the kettle was <b>singing</b>
+sit%2:38:01::	metaphorical	0.7	When does the court of law <b>sit?</b>
+sit%2:42:05::	metaphorical	0.6	The White House <b>sits</b> on Pennsylvania Avenue
+sit%2:41:05::	metaphorical	0.6	I cannot baby-<b>sit</b> tonight; I have too much homework to do
+smash%2:35:00::	metaphorical	0.6	He <b>smashed</b> a 3-run homer
+smash%2:38:02::	literal	0.8	She <b>smashed</b> her car against the guard rail
+smash%2:35:05::	literal	0.9	The motorcycle <b>smashed</b> into the guard rail
+smash%2:33:00::	metaphorical	0.7	The police <b>smashed</b> the drug ring after they were tipped off
+smother%2:35:02::	literal	0.6	<b>smother</b> the meat in gravy
+smother%2:35:00::	literal	1.0	Othello <b>smothered</b> Desdemona with a pillow
+smother%2:42:00::	metaphorical	0.5	the butter cream <b>smothered</b> the cake
+snort%2:32:00::	metaphorical	0.5	she <b>snorted</b> her disapproval of the proposed bridegroom
+snort%2:29:00::	literal	0.9	The critic <b>snorted</b> contemptuously
+snort%2:34:02::	literal	0.8	The addict was <b>snorting</b> cocaine almost every day
+socialize%2:41:01::	literal	0.8	He never <b>socializes</b> with his colleagues
+socialize%2:41:00::	literal	0.9	The children must be properly <b>socialized</b>
+socialize%2:30:01::	literal	0.8	Children have to be <b>socialized</b> in school
+socialize%2:30:00::	literal	0.6	Health care should be <b>socialized!</b>
+solicit%2:32:00::	literal	0.8261	Henry IV <b>solicited</b> the Pope for a divorce.
+solicit%2:32:01::	literal	0.8571	He was <b>solicited</b> by a prostitute.
+solicit%2:32:04::	literal	0.8571	He was accused of <b>soliciting</b> his colleagues to destroy the documents.
+solicit%2:32:05::	literal	0.9167	She is too shy to <b>solicit</b>.
+sound%2:39:06::	literal	0.8	This <b>sounds</b> interesting
+sound%2:39:03::	literal	0.9	This record <b>sounds</b> scratchy
+sound%2:39:01::	literal	0.8	<b>sound</b> a certain note
+sow%2:35:00::	literal	1.0	She <b>sowed</b> sunflower seeds
+sow%2:32:00::	metaphorical	0.8	<b>sow</b> suspicion or beliefs
+sow%2:35:02::	literal	0.8	<b>sow</b> the ground with sunflower seeds
+spat%2:43:00::	literal	0.6	Bullets were <b>spatting</b> down on us
+spat%2:35:01::	literal	0.7	mollusks or oysters <b>spat</b>
+spat%2:35:00::	literal	0.6	Bullets were <b>spatting</b> the leaves
+specialize%2:30:00::	literal	0.8	She <b>specializes</b> in Near Eastern history
+specialize%2:30:01::	literal	0.9	<b>specialize</b> one's research
+specialize%2:41:00::	literal	0.9	She <b>specializes</b> in honey bees
+spell%2:32:00::	literal	1.0	How do you <b>spell</b> this word?
+spell%2:32:01::	metaphorical	0.8	I'm afraid this <b>spells</b> trouble!
+spell%2:36:00::	literal	1.0	He <b>spelled</b> the word wrong in this letter
+spell%2:41:00::	metaphorical	0.6	She <b>spelled</b> her husband at the wheel
+spell%2:30:00::	metaphorical	0.5	the workers <b>spell</b> every four hours
+splash%2:35:01::	literal	1.0	She <b>splashed</b> the water around her.
+splash%2:35:00::	literal	0.9	The mother <b>splashed</b> the baby's face with water.
+splash%2:35:06::	metaphorical	0.7	The mountain was <b>splashed</b> with snow.
+splash%2:39:00::	literal	1.0	Water was <b>splashing</b> on the floor.
+spot%2:35:00::	literal	0.8	The wine <b>spotted</b> the tablecloth
+spot%2:30:01::	literal	0.6	This dress <b>spots</b> quickly
+spot%2:30:00::	literal	0.8	<b>spot</b> the areas that one should clearly identify
+spray%2:35:01::	literal	1.0	Water <b>sprayed</b> all over the floor
+spray%2:35:00::	literal	1.0	<b>spray</b> water on someone
+spray%2:35:03::	literal	1.0	<b>spray</b> the wall with paint
+spread%2:35:00::	literal	0.6	The invaders <b>spread</b> their language all over the country
+spread%2:35:13::	literal	1.0	<b>spread</b> cheese on a piece of bread
+spread%2:35:07::	literal	0.6	the infection <b>spread</b>
+spread%2:42:00::	literal	0.9	A big oil spot <b>spread</b> across the water
+spread%2:38:00::	literal	1.0	He <b>spread</b> fertilizer over the lawn
+spread%2:35:12::	literal	1.0	<b>spread</b> the bread with cheese
+square%2:30:00::	literal	0.8	<b>square</b> the wood with a file
+square%2:38:00::	metaphorical	0.7	He <b>squared</b> his shoulders
+square%2:42:00::	metaphorical	0.7	one idea <b>squares</b> with the other one
+stagger%2:38:00::	literal	0.9	The drunken man <b>staggered</b> into the room.
+stagger%2:38:01::	literal	0.9048	He <b>staggered</b> along in the heavy snow.
+stagger%2:35:00::	literal	0.7222	The architect decided to <b>stagger</b> the chairs in the lecture hall.
+stagger%2:37:00::	metaphorical	0.7895	She was <b>staggered</b> with bills after she tried to rebuild her house following the earthquake.
+stagnate%2:42:01::	literal	0.7	Industry will <b>stagnate</b> if we do not stimulate our economy
+stagnate%2:42:02::	literal	0.9	There are marshes that <b>stagnate</b> the waters
+stagnate%2:42:00::	literal	0.9	blood <b>stagnates</b> in the capillaries
+stagnate%2:41:00::	literal	0.7	The old man sat and <b>stagnated</b> on his porch
+stall%2:38:00::	literal	0.9	The car <b>stalled</b> in the driveway
+stall%2:30:00::	literal	0.8	she doesn't want to write the report, so she is <b>stalling</b>
+stall%2:38:01::	literal	0.9	The inexperienced driver kept <b>stalling</b> the car
+stamp%2:35:01::	metaphorical	0.5	a man whose name is permanently <b>stamped</b> on our maps
+stamp%2:39:00::	metaphorical	0.6	His playing <b>stamps</b> him as a Romantic
+stamp%2:35:02::	literal	1.0	Are the letters properly <b>stamped?</b>
+stamp%2:35:04::	metaphorical	0.5	<b>stamp</b> fruit extract the juice
+stampede%2:38:01::	literal	0.8	Thunderbolts can <b>stampede</b> animals
+stampede%2:41:01::	metaphorical	0.5	The tavern owners <b>stampeded</b> us into overeating
+stampede%2:41:00::	metaphorical	0.6	Companies will now <b>stampede</b> to release their latest software
+steam%2:38:02::	literal	0.7	The ship <b>steamed</b> off into the Pacific
+steam%2:43:00::	literal	0.7	The rain forest was literally <b>steaming</b>
+steam%2:37:00::	metaphorical	0.6	her indifference to his amorous advances really <b>steamed</b> the young man
+steam%2:35:00::	literal	0.9	<b>steam-clean</b> the upholstered sofa
+steam%2:30:00::	literal	1.0	just <b>steam</b> the vegetables
+steamroll%2:41:01::	metaphorical	0.6	The Senator <b>steamrollered</b> the bill to defeat
+steamroll%2:41:00::	metaphorical	0.7	The new teacher tends to <b>steamroller</b>
+steamroll%2:33:00::	metaphorical	0.7	<b>steamroller</b> the opposition
+steamroller%2:41:01::	metaphorical	0.5	The Senator <b>steamrollered</b> the bill to defeat
+steamroller%2:41:00::	metaphorical	0.7	The new teacher tends to <b>steamroller</b>
+steamroller%2:35:00::	literal	0.9	<b>steamroller</b> the road
+steamroller%2:33:00::	metaphorical	0.6	<b>steamroller</b> the opposition
+step%2:30:01::	metaphorical	0.5	She <b>stepped</b> into a life of luxury
+step%2:40:00::	literal	0.7	The architect wants to <b>step</b> the terrace
+step%2:38:03::	literal	1.0	<b>step</b> over to the blackboard
+stimulate%2:30:00::	literal	0.7	The book <b>stimulated</b> her imagination
+stimulate%2:29:00::	literal	0.8	Coffee and tea <b>stimulate</b> me
+stimulate%2:39:00::	literal	0.6	<b>stimulate</b> my appetite
+stoop%2:41:12::	metaphorical	0.8	I won't <b>stoop</b> to reading other people's mail.
+stoop%2:38:04::	literal	0.8	The eagle <b>stooped</b> on the mice in the field.
+stoop%2:38:05::	metaphorical	0.5	The rocks <b>stooped</b> down over the hiking path.
+stoop%2:35:02::	literal	0.8	The old man was <b>stooping</b> but he could walk around without a cane.
+stream%2:38:01::	metaphorical	0.6	their manes <b>streamed</b> like stiff black pennants in the wind
+stream%2:29:00::	metaphorical	0.5	She was <b>streaming</b> with sweat
+stream%2:38:00::	literal	0.6	Tears <b>streamed</b> down her face
+stuff%2:35:00::	literal	0.8	The child <b>stuffed</b> candy into his pockets
+stuff%2:35:01::	literal	0.7	My nose is all <b>stuffed</b>
+stuff%2:34:00::	metaphorical	0.6	She <b>stuffed</b> herself at the dinner
+stuff%2:30:02::	literal	0.9	<b>stuff</b> a pillow with feathers
+stuff%2:30:00::	literal	0.9	Have you <b>stuffed</b> the turkey yet?
+stumble%2:38:01::	literal	0.9	The drunk man <b>stumbled</b> about
+stumble%2:38:00::	literal	1.0	She <b>stumbled</b> over the tree root
+stumble%2:40:10::	metaphorical	0.7	I <b>stumbled</b> across a long-lost cousin last night in a restaurant
+suck%2:34:04::	literal	1.0	<b>suck</b> the poison from the place where the snake bit
+suck%2:38:00::	metaphorical	0.7	Mud was <b>sucking</b> at her feet
+suck%2:43:00::	metaphorical	0.8	The current boom in the economy <b>sucked</b> many workers in from abroad
+suck%2:34:02::	literal	0.9	The wetnurse <b>suckled</b> the infant
+supplicate%2:32:00::	literal	0.7	He <b>supplicated</b> the King for clemency
+supplicate%2:32:02::	literal	0.7	<b>supplicate</b> for permission
+supplicate%2:32:01::	literal	0.8	<b>supplicate</b> God's blessing
+suspend%2:35:00::	literal	0.875	The secret police <b>suspended</b> their victims from the ceiling and beat them.
+suspend%2:30:01::	metaphorical	0.6	The fluid <b>suspends</b> the particles.
+suspend%2:30:02::	literal	0.6	They <b>suspended</b> payments on the loan.
+suspend%2:42:00::	literal	0.6	The prison sentence was <b>suspended</b>.
+sustain%2:42:01::	literal	0.7	We <b>sustained</b> the diplomatic negotiations as long as possible
+sustain%2:34:01::	literal	0.8	We <b>sustained</b> ourselves on bread and water
+sustain%2:34:00::	literal	0.6	She alone <b>sustained</b> her family
+sustain%2:32:00::	literal	0.6	The court <b>sustained</b> the motion
+swallow%2:33:00::	metaphorical	0.8	The Nazis <b>swallowed</b> the Baltic countries
+swallow%2:35:00::	metaphorical	0.8	The huge waves <b>swallowed</b> the small boat and it sank shortly thereafter
+swallow%2:32:01::	metaphorical	0.7	She <b>swallowed</b> the last words of her speech
+swallow%2:32:00::	metaphorical	0.8	He <b>swallowed</b> his words
+swallow%2:31:01::	metaphorical	0.8	I <b>swallowed</b> my anger and kept quiet
+swallow%2:31:00::	metaphorical	0.8	Am I supposed to <b>swallow</b> that story?
+swell%2:30:02::	metaphorical	0.6	The music <b>swelled</b> to a crescendo
+swell%2:41:00::	metaphorical	0.8	The mother was <b>swelling</b> with importance when she spoke of her son
+swell%2:30:00::	literal	0.9	The bellies of the starving children are <b>swelling</b>
+swell%2:30:01::	literal	0.9	The water <b>swells</b> the wood
+swim%2:38:00::	literal	1.0	We had to <b>swim</b> for 20 minutes to reach the shore
+swim%2:42:02::	metaphorical	1.0	my brain is <b>swimming</b> after the bottle of champagne
+swim%2:42:00::	metaphorical	0.9	the meat was <b>swimming</b> in a fatty gravy
+swim%2:38:02::	literal	0.9	this snake <b>swims</b> through the soil where it lives
+synchronize%2:30:00::	literal	0.9	Let's <b>synchronize</b> our efforts
+synchronize%2:32:00::	literal	0.8	<b>synchronize</b> this film
+synchronize%2:31:00::	literal	0.7	<b>synchronize</b> biblical events
+synchronize%2:30:01::	literal	0.7	The clocks <b>synchronize</b>
+synchronize%2:30:03::	literal	0.9	<b>synchronize</b> your watches
+tack%2:35:00::	literal	0.9	<b>tack</b> the notice on the board
+tack%2:38:00::	literal	0.7	The sailors decided to <b>tack</b> the boat
+tack%2:36:05::	metaphorical	0.5	He <b>tacked</b> together some verses
+talk%2:32:01::	metaphorical	0.9	Actions <b>talk</b> louder than words.
+talk%2:32:00::	literal	0.8	She <b>talks</b> a lot of nonsense.
+talk%2:32:03::	literal	0.9	The baby <b>talks</b> already.
+talk%2:32:02::	literal	0.9	If you don't oblige me, I'll <b>talk</b>!
+talk%2:32:06::	literal	0.7	Be carefu l-- his secretary <b>talks</b>.
+talk%2:32:05::	literal	0.8	She will <b>talk</b> at Rutgers next week.
+taste%2:39:00::	literal	1.0	Can you <b>taste</b> the garlic?
+taste%2:39:12::	literal	1.0	This <b>tastes</b> of nutmeg
+taste%2:39:01::	literal	1.0	We <b>tasted</b> wines last night
+taste%2:31:05::	metaphorical	0.7	The ex-slave <b>tasted</b> freedom shortly before she died
+tax%2:40:00::	literal	0.7	The State <b>taxes</b> alcohol heavily.
+tax%2:34:00::	metaphorical	0.9	You are <b>taxing</b> my patience.
+tax%2:32:00::	metaphorical	0.6	They <b>taxed</b> him failure to appear in court.
+tease%2:37:00::	literal	0.9	The children <b>teased</b> the boy because of his stammer
+tease%2:32:00::	literal	0.9	The children <b>teased</b> the new teacher
+tease%2:37:01::	literal	0.7	The advertisement is intended to <b>tease</b> the customers
+tease%2:35:03::	literal	0.6	<b>tease</b> tissue for microscopic examinations
+tease%2:32:09::	literal	0.9	the flirting man <b>teased</b> the young woman
+tell%2:31:00::	literal	0.6	He could <b>tell</b> that she was unhappy
+tell%2:32:08::	literal	0.8	I <b>tell</b> you that man is a crook!
+tell%2:32:03::	literal	0.9	he was <b>telling</b> on all his former colleague
+tempt%2:32:01::	literal	0.8	We were <b>tempted</b> by the delicious-looking food
+tempt%2:32:04::	literal	0.7	He lured me into <b>temptation</b>
+tempt%2:37:00::	literal	0.8	the window displays <b>tempted</b> the shoppers
+tempt%2:32:03::	literal	0.9	St. Anthony was <b>tempted</b> in the desert
+tense%2:35:00::	literal	0.9	the bodybuilder's neck muscles <b>tensed;</b>
+tense%2:30:00::	literal	0.8	alternately relax and <b>tense</b> your calf muscle
+tense%2:29:01::	literal	0.9	He <b>tensed</b> up when he saw his opponent enter the room
+tense%2:29:00::	literal	0.8	he got a phone call from his lawyer that <b>tensed</b> him up
+test%2:32:00::	literal	1.0	The teacher <b>tests</b> us every week
+test%2:42:00::	literal	0.8	He <b>tested</b> positive for HIV
+test%2:33:00::	literal	1.0	She <b>tested</b> high on the LSAT and was admitted to all the good law schools
+test%2:31:06::	literal	0.7	She doesn't <b>test</b> well
+thrill%2:39:00::	literal	0.8	The men were <b>thrilled</b> by a loud whistle blow
+thrill%2:37:02::	literal	0.9	he was <b>thrilled</b> by the speed and the roar of the engine
+thrill%2:37:01::	literal	0.7	The children were <b>thrilled</b> at the prospect of going to the movies
+thunder%2:38:00::	metaphorical	0.7368	The bus <b>thundered</b> down the road.
+thunder%2:32:01::	metaphorical	0.7	The river <b>thundered</b> below.
+tie%2:35:00::	literal	1.0	They <b>tied</b> their victim to the chair
+tie%2:33:00::	literal	0.6	The teams drew a <b>tie</b>
+tie%2:30:01::	metaphorical	0.6	These big jets are <b>tied</b> to large airports
+tie%2:36:00::	literal	1.0	The fishermen <b>tied</b> their flies
+time%2:31:00::	literal	0.7727	The candidate carefully <b>timed</b> his appearance at the disaster scene.
+time%2:31:01::	literal	0.8889	We <b>time</b> the process to manufacture our cars very precisely.
+time%2:30:06::	literal	0.7	The good player <b>times</b> his swing so as to hit the ball squarely.
+tip%2:38:02::	literal	0.9	<b>tip</b> the screen upward
+tip%2:30:00::	literal	0.8	<b>tip</b> the arrow with the small stone
+tip%2:40:00::	literal	0.7	Remember to <b>tip</b> the waiter
+tip%2:32:04::	literal	0.6	He <b>tipped</b> off the police about the terrorist plot
+tithe%2:40:01::	literal	0.9	The church was <b>tithed</b>
+tithe%2:40:03::	literal	0.9	He <b>tithed</b> his income to the Church
+tithe%2:40:02::	literal	0.8	Although she left the church officially, she still <b>tithes</b>
+top%2:30:03::	metaphorical	0.8	They <b>topped</b> off their dinner with a cognac.
+top%2:42:02::	literal	0.92	A star <b>tops</b> the Christmas Tree.
+top%2:40:00::	literal	0.6	The towers were <b>topped</b> with conical roofs.
+top%2:38:04::	metaphorical	0.8	The hikers <b>topped</b> the mountain just before noon
+top%2:35:00::	metaphorical	0.7	The gardener <b>topped</b> the trees and bushes.
+trace%2:35:00::	literal	1.0	<b>trace</b> the outline of a figure in the sand
+trace%2:38:00::	literal	0.6	The hunters <b>traced</b> the deer into the woods
+trace%2:39:00::	metaphorical	0.6	She <b>traced</b> the circumstances of her birth
+trace%2:38:03::	metaphorical	0.5	The children <b>traced</b> along the edge of the dark forest
+trail%2:38:01::	metaphorical	0.7	John <b>trailed</b> behind his class mates.
+trail%2:35:03::	metaphorical	0.7	The toddler was <b>trailing</b> his pants.
+transfer%2:40:01::	literal	0.8	<b>transfer</b> the patient to another hospital
+transfer%2:38:00::	literal	1.0	<b>transfer</b> the packet from his trouser pockets to a pocket in his jacket
+transfer%2:40:00::	literal	0.9	I <b>transferred</b> my stock holdings to my children
+transform%2:30:00::	metaphorical	0.7	This experience <b>transformed</b> her completely.
+transform%2:30:03::	metaphorical	0.7	He <b>transformed</b> into a monster.
+transform%2:30:06::	literal	0.6	It can <b>transform</b> energy to light.
+translate%2:32:00::	literal	0.9	I have to <b>translate</b> when my in-laws from Austria visit the U.S.
+translate%2:30:01::	metaphorical	0.7	Braque <b>translated</b> collage into oil
+translate%2:42:03::	literal	0.8	the growth in income <b>translates</b> into greater purchasing power
+translate%2:42:00::	literal	0.6	poetry often does not <b>translate</b>
+translate%2:32:06::	literal	0.9	Can you <b>translate</b> the instructions in this manual for a layman?
+tread%2:38:01::	literal	0.6	For fools rush in where angels fear to <b>tread</b>
+tread%2:35:00::	literal	0.8	<b>tread</b> grapes to make wine
+tread%2:35:02::	literal	0.7	male birds <b>tread</b> the females
+treat%2:30:01::	literal	0.8	<b>treat</b> the water so it can be drunk
+treat%2:29:00::	literal	0.8	The doctor <b>treated</b> my broken leg
+treat%2:40:00::	literal	0.8	Grandmother always <b>treated</b> us to the circus
+treat%2:34:00::	literal	0.6	Don't worry about the expensive wine--I'm <b>treating</b>
+treat%2:32:03::	metaphorical	0.5	they had to <b>treat</b> with the King
+treat%2:31:00::	literal	0.7	I <b>treated</b> his advances as a joke
+trench%2:35:05::	literal	0.8	He <b>trenched</b> his military camp
+trench%2:35:00::	metaphorical	0.5	letters <b>trenched</b> into the stone
+trench%2:35:06::	literal	0.7	<b>trench</b> the fallen soldiers
+trench%2:35:01::	literal	0.8	The National Guardsmen were sent out to <b>trench</b>
+tug%2:35:00::	literal	1.0	The prisoner <b>tugged</b> at the chains
+tug%2:41:00::	metaphorical	0.8	She <b>tugged</b> for years to make a decent living
+tug%2:35:04::	literal	0.7	The <b>tugboat</b> tugged the freighter into the harbor
+tug%2:35:02::	literal	1.0	The horse finally <b>tugged</b> the cart out of the mud
+tug%2:35:01::	literal	0.9	Each oar was <b>tugged</b> by several men
+tug%2:33:00::	metaphorical	0.6	She <b>tugged</b> and wrestled with her conflicts
+twist%2:29:00::	literal	0.9	The wrestler <b>twisted</b> his shoulder
+twist%2:35:02::	literal	1.0	<b>twist</b> the dough into a braid
+twist%2:35:01::	literal	1.0	The cord is all <b>twisted</b>
+twist%2:32:00::	metaphorical	0.8	Don't <b>twist</b> my words
+understand%2:31:00::	literal	0.9	She did not <b>understand</b> her husband
+understand%2:31:03::	literal	0.9	She <b>understands</b> French
+understand%2:31:02::	literal	0.8	I <b>understand</b> you have no previous experience?
+understand%2:31:04::	literal	0.9	You don't need to explain--I <b>understand!</b>
+upgrade%2:30:00::	literal	0.9	I've <b>upgraded</b> my computer so I can run better software
+upgrade%2:30:05::	literal	0.9	I <b>upgraded</b> to First Class when Coach Class was overbooked
+upgrade%2:30:04::	literal	0.8	The airline <b>upgraded</b> me when I arrived late and Coach Class was full
+uproot%2:41:00::	metaphorical	0.7	The war <b>uprooted</b> many people.
+uproot%2:36:00::	metaphorical	0.8	The vestiges of political democracy were soon <b>uprooted</b>.
+uproot%2:35:00::	literal	1.0	They plan to <b>uproot</b> the vine that has spread all over the garden.
+use%2:34:01::	literal	0.8	we only <b>use</b> Spanish at home
+use%2:34:02::	literal	0.9	She <b>uses</b> drugs rarely
+use%2:41:14::	literal	0.9	She <b>uses</b> her influential friends to get jobs
+use%2:41:04::	literal	0.6	<b>use</b> care when going down the stairs
+use%2:41:03::	literal	0.9	She <b>used</b> to call her mother every week but now she calls only occasionally
+vanish%2:39:00::	literal	0.8	The effect <b>vanished</b> when day broke
+vanish%2:30:02::	literal	0.7	An entire civilization <b>vanished</b>
+vanish%2:30:01::	literal	0.6	the money <b>vanished</b> in las Vegas
+vegetate%2:30:02::	literal	0.6	They <b>vegetated</b> the hills behind their house
+vegetate%2:30:01::	literal	0.7	The fields <b>vegetate</b> vigorously
+vegetate%2:30:00::	literal	0.7	This fungus usually <b>vegetates</b> vigorously
+vegetate%2:30:04::	literal	0.6	warts and polyps can <b>vegetate</b> if not removed
+vegetate%2:29:01::	literal	0.6	The bacterial growth <b>vegetated</b> along
+vegetate%2:29:00::	metaphorical	0.6	After a hard day's work, I <b>vegetate</b> in front of the television
+vest%2:41:00::	metaphorical	0.6	They <b>vested</b> the council with special rights
+vest%2:40:02::	literal	0.6	She <b>vested</b> her vast fortune in her two sons
+vest%2:40:03::	literal	0.6	The property <b>vests</b> in the trustees
+visit%2:38:00::	literal	0.9	Did you ever <b>visit</b> Paris?
+visit%2:32:01::	metaphorical	0.8	The principal <b>visited</b> his rage on the students.
+visit%2:42:04::	literal	1.0	Every summer, we <b>visited</b> our relatives in the country for a month.
+visit%2:30:00::	metaphorical	0.7	He was <b>visited</b> with a terrible illness that killed him quickly.
+visualize%2:39:00::	literal	0.7	The radiologist can <b>visualize</b> the cancerous liver.
+visualize%2:36:02::	metaphorical	0.5	Mathematicians often <b>visualize</b>.
+visualize%2:30:00::	literal	0.8696	With this machine, ultrasound can be <b>visualized</b>.
+volley%2:38:01::	metaphorical	0.5	Gun shots <b>volleyed</b> at the attackers.
+volley%2:35:01::	literal	0.6	They began to <b>volley</b> the tennis ball.
+volley%2:35:00::	metaphorical	0.7	The attackers <b>volleyed</b> gunshots at the civilians.
+volley%2:32:00::	metaphorical	0.6842	I heard him <b>volley</b> a string of curses.
+vote%2:41:13::	literal	0.9	He <b>voted</b> for the motion
+vote%2:41:10::	literal	1.0	<b>vote</b> the Democratic ticket
+vote%2:41:11::	literal	0.8	I <b>vote</b> that we all go home
+vote%2:41:09::	literal	0.7	<b>vote</b> one's conscience
+vote%2:41:12::	literal	0.9	They <b>voted</b> aid for the underdeveloped countries in Asia
+vouch%2:32:01::	literal	0.7	Will he <b>vouch</b> for me?
+vouch%2:32:12::	literal	0.7	I <b>vouch</b> for the quality of my products.
+vouch%2:30:00::	metaphorical	0.5	He <b>vouched</b> his words by his deeds.
+walk%2:38:00::	literal	1.0	<b>Walk</b>, don't run!
+walk%2:38:04::	literal	0.9	The lovers held hands while <b>walking</b>.
+walk%2:38:01::	literal	0.8	I'll <b>walk</b> you to your car
+walk%2:38:03::	literal	1.0	Paul <b>walked</b> the streets of Damascus.
+walk%2:41:01::	literal	0.6	We must <b>walk</b> with our dispossessed brothers and sisters.
+walk%2:38:02::	literal	1.0	The horses <b>walked</b> across the meadow.
+walk%2:38:05::	literal	0.7917	He <b>walks</b> the horse up the mountain.
+wallow%2:34:01::	metaphorical	0.5	<b>wallow</b> in your sorrows
+wallow%2:38:00::	literal	0.9	pigs were <b>wallowing</b> in the mud
+wallow%2:34:00::	metaphorical	0.7	<b>wallow</b> in your success!
+want%2:37:00::	literal	0.9	I <b>want</b> to go home now
+want%2:34:00::	metaphorical	0.8	This piano <b>wants</b> the attention of a competent tuner
+want%2:35:00::	literal	0.7	Your former neighbor is <b>wanted</b> by the FBI
+want%2:31:01::	literal	0.9	I <b>want</b> you here at noon!
+want%2:42:01::	literal	0.9	<b>want</b> the strength to go on living
+warn%2:32:00::	literal	1.0	The director <b>warned</b> him that he might be fired.
+warn%2:32:01::	literal	0.88	I <b>warned</b> him not to go too far.
+warn%2:32:03::	literal	1.0	The old man <b>warned</b> the children off his property.
+warn%2:32:02::	literal	0.875	I <b>warned</b> you that I would ask some difficult questions.
+waste%2:40:00::	metaphorical	0.7	He <b>wasted</b> his inheritance on his insincere friends.
+waste%2:34:05::	metaphorical	0.5	Don't <b>waste</b> a joke on an unappreciative audience.
+waste%2:40:01::	literal	0.7619	We <b>waste</b> the dirty water by channeling it into the sewer.
+waste%2:38:00::	metaphorical	0.6	The water <b>wastes</b> back into the ocean.
+water%2:40:00::	literal	0.8	We <b>watered</b> the buffalo
+water%2:29:00::	literal	0.7	My mouth <b>watered</b> at the prospect of a good dinner
+water%2:30:04::	literal	0.9	His eyes were <b>watering</b>
+wear%2:29:00::	literal	1.0	She was <b>wearing</b> yellow that day
+wear%2:42:01::	metaphorical	1.0	He always <b>wears</b> a smile
+wear%2:29:02::	literal	0.8	<b>wear</b> one's hair in a certain way
+wear%2:29:01::	literal	1.0	What should I <b>wear</b> today?
+wharf%2:35:02::	metaphorical	0.5	<b>wharf</b> the passengers
+wharf%2:35:03::	literal	0.8	the big ship <b>wharfed</b> in the evening
+wharf%2:35:00::	literal	0.9	The ship was <b>wharfed</b>
+whistle%2:38:00::	metaphorical	0.6	The bullets <b>whistled</b> past him
+whistle%2:32:00::	literal	1.0	She <b>whistled</b> a melody
+whistle%2:38:01::	metaphorical	0.7	Her optimism <b>whistled</b> away these worries
+whistle%2:32:02::	literal	1.0	She <b>whistled</b> for her maid
+wish%2:37:00::	literal	1.0	I <b>wish</b> I could go home now.
+wish%2:32:02::	literal	0.6667	I <b>wish</b> that Christmas were over.
+wish%2:32:00::	literal	0.7222	We <b>wish</b> you a nice evening!
+worry%2:37:00::	literal	0.9	I <b>worry</b> about my job
+worry%2:37:12::	literal	0.9	I <b>worry</b> about my grades
+worry%2:37:01::	literal	0.7	I cannot sleep--my daughter's health is <b>worrying</b> me
+worry%2:42:00::	literal	0.9	I <b>worry</b> about the second Germanic consonant shift
+wrestle%2:33:01::	metaphorical	0.8	He <b>wrestled</b> all his life with his feeling of inferiority.
+wrestle%2:32:00::	metaphorical	0.9	I <b>wrestled</b> with this decision for years.
+wrestle%2:35:00::	literal	1.0	The children <b>wrestled</b> in the garden.
+write%2:36:10::	literal	0.9	She <b>writes</b> code faster than anybody else.
+write%2:32:00::	literal	1.0	Please <b>write</b> to me every week.
+write%2:36:02::	literal	1.0	How many books did Georges Simenon <b>write</b>?
