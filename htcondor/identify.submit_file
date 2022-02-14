@@ -12,10 +12,11 @@ JobBatchName = "Identify Metaphor in GLUE"
 
 model_name = /vol/research/nlg/frame_finder/checkpoints/labeling_no_token_type/
 save_folder = /vol/research/nlg/mpa/
+model_type = moh
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/metaphor_identify_glue.py $(model_name) $(task_name) $(save_folder)
+arguments     = $ENV(HOME)/mpa/metaphor_identify_glue.py $(model_name) $(task_name) $(save_folder) $(model_type)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -35,7 +36,7 @@ should_transfer_files = YES
 # Make certain project spaces available in container
 # environment = "mount=$ENV(HOME)"
 # environment = "mount=$ENV(HOME),/vol/research/nlg,/vol/research/lyc_d"
-environment = "mount=/vol/research/nlg,/vol/research/lyc_d"
+environment = "mount=/vol/research/nlg,/vol/research/lyc_d,/vol/research/lyc"
 # environment = "mount='/vol/research/nlg'"
 # environment = "mount='/vol/research/lyc_d'"
 

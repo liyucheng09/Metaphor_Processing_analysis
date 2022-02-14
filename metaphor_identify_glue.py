@@ -23,7 +23,7 @@ def data_preprocess(examples, col):
     return result
 
 if __name__ == '__main__':
-    model_name, task_name, save_folder = sys.argv[1:]
+    model_name, task_name, save_folder, model_type = sys.argv[1:]
     # save_folder = '/vol/research/nlg/mpa/'
     # save_folder = './'
 
@@ -56,13 +56,13 @@ if __name__ == '__main__':
     predictions_1 = np.argmax(pred_out1.predictions, axis=-1)
     true_pred_1 = [[l for l,m in zip(pred, att_mask)] for pred, att_mask in zip(predictions_1, ds1['attention_mask'])]
 
-    ds = ds.add_column(col1+'_vua', true_pred_1)
+    ds = ds.add_column(col1+f'_{model_type}', true_pred_1)
 
     if col2 is not None:
         pred_out2 = trainer.predict(ds2)
         predictions_2 = np.argmax(pred_out2.predictions, axis=-1)
         true_pred_2 = [[l for l,m in zip(pred, att_mask)] for pred, att_mask in zip(predictions_2, ds2['attention_mask'])]
-        ds = ds.add_column(col2+'_vua', true_pred_2)
+        ds = ds.add_column(col2+f'_{model_type}', true_pred_2)
 
     ds.save_to_disk(output_dir)
     
