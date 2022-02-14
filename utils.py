@@ -5,6 +5,39 @@ from sklearn.metrics import accuracy_score, f1_score, classification_report
 import string
 import nltk
 from nltk import word_tokenize
+from metaphor_identify_glue import tasks, task_to_keys
+import datasets
+import numpy as np
+
+def produce_metaphoricity_for_glue():
+
+    def compute_metaphorical_score(x, label_name, cols):
+        col1, col2 = cols
+        if col2 is not None:
+            labels = np.concatenate([x[f'{col1}_{label_name}'], x[f'{col2}_{label_name}']])
+        else:
+            labels = x[f'{col1}_{label_name}']
+        
+        return sum(labels)/(len(labels)-2)
+
+    for task in tasks:
+        if task == 'mnli': continue
+        cols = task_to_keys[task]
+        ds_moh = f'glue/moh/{task}'
+        ds_vua = f'glue_mermaid/{task}'
+
+        df_moh = datasets.load_from_disk(ds_moh).to_pandas()
+        df_vua = datasets.load_from_disk(ds_vua).to_pandas()
+
+        moh_labels = df_moh.apply(compute_metaphorical_score, axis=1, args=('moh', cols))
+        vua_labels = df_vua.apply(compute_metaphorical_score, axis=1, args=('vua', cols))
+
+        df_glue = pd.read_csv(f'glue/val_results_with_vua/vua_and_result_{task}.tsv', sep='\t')
+        output_path = f'glue/val_results_with_metaphoricity/result_{task}.tsv'
+        df_glue['vua_label'] = vua_labels
+        df_glue['moh_label'] = moh_labels
+        df_glue.to_csv(output_path, index=False, sep='\t')
+        print(f'Svaed to {output_path}')
 
 
 def load_moh_dataset(path):
@@ -182,8 +215,8 @@ if __name__ == '__main__':
     # df.to_csv('wsd/wsd.moh.metaphoricity.tsv', index=False, sep='\t')
 
     ## get metrics
-    df = load_moh_dataset('wsd/wsd.moh.metaphoricity.tsv')
-    compute_meta_non_meta_acc_f1(df)
+    # df = load_moh_dataset('wsd/wsd.moh.metaphoricity.tsv')
+    # compute_meta_non_meta_acc_f1(df)
 
     # ## generate wsd inference data
     # df = load_moh_dataset('Metaphor-Emotion-Data-Files/Data-metaphoric-or-literal.txt')
@@ -198,3 +231,6 @@ if __name__ == '__main__':
     ## Show pvalue for metaphor and literal
     # df = load_moh_dataset('wsd/wsd.moh.metaphoricity.tsv')
     # show_inference_confidence_for_meta_and_literal(df)
+
+    ## produce glue results table with metaphroicity label score
+    produce_metaphoricity_for_glue()
