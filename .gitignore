@@ -9,3 +9,4 @@ glue_val/
 *.so
 *.out
 __pycache__/
+logs/

@@ -45,8 +45,8 @@ def tokenize_alingn_labels_replace_with_mask_and_add_type_ids(ds, do_mask=False)
 if __name__ == '__main__':
 
     model_name, data_dir, dataset_name = sys.argv[1:]
-    save_folder = '/vol/research/nlg/metaphor/'
-    # save_folder = './'
+    # save_folder = '/vol/research/nlg/metaphor/'
+    save_folder = './'
     output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/')
     logging_dir = os.path.join(save_folder, 'logs/')
     prediction_output_file = os.path.join(output_dir, 'error_instances.csv')
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
     if dataset_name == 'moh':
         data_files=data_dir
-        ds = datasets.load_dataset(p, data_files=data_files)
+        ds = datasets.load_dataset(p, data_dir=data_files)
         ds = ds.map(tokenize_alingn_labels_replace_with_mask_and_add_type_ids)
         ds = ds['train'].train_test_split(test_size=0.12)
     elif dataset_name == 'vua20':
@@ -67,6 +67,7 @@ if __name__ == '__main__':
 
     # ds.rename_column_('target_mask', 'token_type_ids')
     # ds = ds.rename_column('is_target', 'token_type_ids')
+    ds = ds.remove_columns(['label'])
 
     args = get_base_hf_args(
         output_dir=output_dir,
