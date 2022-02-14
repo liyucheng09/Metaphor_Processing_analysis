@@ -10,8 +10,8 @@ JobBatchName = "Identify Metaphor in GLUE"
 
 # --------------------------------------------
 
-model_name = /vol/research/nlg/frame_finder/checkpoints/labeling_no_token_type/
-save_folder = /vol/research/nlg/mpa/
+model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
+save_folder = /vol/research/lyc/mpa/
 model_type = moh
 
 # Executable and its arguments

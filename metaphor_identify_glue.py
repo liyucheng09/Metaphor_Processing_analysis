@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # save_folder = '/vol/research/nlg/mpa/'
     # save_folder = './'
 
-    output_dir = os.path.join(save_folder, f'glue/{task_name}')
+    output_dir = os.path.join(save_folder, f'{model_type}/{task_name}')
     logging_dir = os.path.join(save_folder, 'logs/')
     # prediction_output_file = os.path.join(output_dir, 'output_labels.csv')
 
