@@ -37,7 +37,7 @@ index	prediction	label	vua_label	moh_label
 35	not_entailment	not_entailment	0.2	0.0
 36	entailment	entailment	0.02631578947368421	0.0
 37	entailment	entailment	0.1864406779661017	0.0
-38	entailment	entailment	0.041237113402061855	0.0
+38	entailment	entailment	0.041237113402061855	0.010309278350515464
 39	entailment	entailment	0.1276595744680851	0.0
 40	not_entailment	not_entailment	0.2692307692307692	0.0
 41	entailment	entailment	0.10869565217391304	0.0
@@ -175,7 +175,7 @@ index	prediction	label	vua_label	moh_label
 173	entailment	entailment	0.19230769230769232	0.0
 174	entailment	entailment	0.015151515151515152	0.0
 175	entailment	entailment	0.06382978723404255	0.0
-176	not_entailment	not_entailment	0.16666666666666666	0.0
+176	not_entailment	not_entailment	0.16666666666666666	0.016666666666666666
 177	entailment	entailment	0.06779661016949153	0.0
 178	entailment	entailment	0.04	0.0
 179	entailment	entailment	0.08	0.0
@@ -221,7 +221,7 @@ index	prediction	label	vua_label	moh_label
 219	entailment	entailment	0.15555555555555556	0.0
 220	not_entailment	not_entailment	0.047619047619047616	0.0
 221	entailment	entailment	0.07142857142857142	0.0
-222	not_entailment	not_entailment	0.022727272727272728	0.0
+222	not_entailment	not_entailment	0.022727272727272728	0.022727272727272728
 223	not_entailment	not_entailment	0.17391304347826086	0.0
 224	entailment	entailment	0.0	0.0
 225	not_entailment	not_entailment	0.058823529411764705	0.0
@@ -235,9 +235,9 @@ index	prediction	label	vua_label	moh_label
 233	not_entailment	not_entailment	0.13043478260869565	0.0
 234	entailment	entailment	0.1935483870967742	0.0
 235	entailment	entailment	0.05747126436781609	0.0
-236	entailment	not_entailment	0.05	0.0
+236	entailment	not_entailment	0.05	0.025
 237	entailment	entailment	0.06	0.0
-238	entailment	entailment	0.02247191011235955	0.0
+238	entailment	entailment	0.02247191011235955	0.011235955056179775
 239	entailment	entailment	0.13793103448275862	0.0
 240	entailment	entailment	0.08823529411764706	0.0
 241	entailment	entailment	0.017543859649122806	0.0
@@ -313,7 +313,7 @@ index	prediction	label	vua_label	moh_label
 311	entailment	not_entailment	0.0	0.0
 312	not_entailment	not_entailment	0.21052631578947367	0.0
 313	entailment	entailment	0.018518518518518517	0.0
-314	entailment	entailment	0.061224489795918366	0.0
+314	entailment	entailment	0.061224489795918366	0.04081632653061224
 315	entailment	entailment	0.041666666666666664	0.0
 316	entailment	entailment	0.18181818181818182	0.0
 317	entailment	entailment	0.07526881720430108	0.0
@@ -503,7 +503,7 @@ index	prediction	label	vua_label	moh_label
 501	entailment	entailment	0.13793103448275862	0.0
 502	entailment	entailment	0.1724137931034483	0.0
 503	entailment	entailment	0.11290322580645161	0.0
-504	not_entailment	not_entailment	0.021739130434782608	0.0
+504	not_entailment	not_entailment	0.021739130434782608	0.021739130434782608
 505	entailment	entailment	0.10344827586206896	0.0
 506	entailment	entailment	0.13157894736842105	0.0
 507	not_entailment	not_entailment	0.09259259259259259	0.0
@@ -563,7 +563,7 @@ index	prediction	label	vua_label	moh_label
 561	not_entailment	entailment	0.0	0.0
 562	not_entailment	not_entailment	0.0425531914893617	0.0
 563	entailment	entailment	0.061224489795918366	0.0
-564	entailment	entailment	0.0	0.0
+564	entailment	entailment	0.0	0.018867924528301886
 565	not_entailment	entailment	0.01818181818181818	0.0
 566	not_entailment	not_entailment	0.07692307692307693	0.0
 567	not_entailment	not_entailment	0.06382978723404255	0.0
@@ -574,7 +574,7 @@ index	prediction	label	vua_label	moh_label
 572	not_entailment	not_entailment	0.11764705882352941	0.0
 573	not_entailment	entailment	0.05405405405405406	0.0
 574	entailment	entailment	0.06818181818181818	0.0
-575	entailment	not_entailment	0.07954545454545454	0.0
+575	entailment	not_entailment	0.07954545454545454	0.011363636363636364
 576	entailment	entailment	0.14814814814814814	0.0
 577	not_entailment	not_entailment	0.12	0.0
 578	not_entailment	not_entailment	0.15384615384615385	0.0
@@ -622,7 +622,7 @@ index	prediction	label	vua_label	moh_label
 620	not_entailment	not_entailment	0.3246753246753247	0.0
 621	entailment	entailment	0.0	0.0
 622	entailment	entailment	0.03225806451612903	0.0
-623	entailment	entailment	0.1016949152542373	0.0
+623	entailment	entailment	0.1016949152542373	0.01694915254237288
 624	entailment	entailment	0.07894736842105263	0.0
 625	entailment	entailment	0.058823529411764705	0.0
 626	entailment	not_entailment	0.07894736842105263	0.0
@@ -665,7 +665,7 @@ index	prediction	label	vua_label	moh_label
 663	not_entailment	not_entailment	0.03636363636363636	0.0
 664	entailment	entailment	0.06976744186046512	0.0
 665	entailment	entailment	0.05128205128205128	0.0
-666	entailment	entailment	0.017543859649122806	0.0
+666	entailment	entailment	0.017543859649122806	0.017543859649122806
 667	entailment	entailment	0.1016949152542373	0.0
 668	not_entailment	not_entailment	0.3611111111111111	0.0
 669	not_entailment	not_entailment	0.1276595744680851	0.0
@@ -720,7 +720,7 @@ index	prediction	label	vua_label	moh_label
 718	not_entailment	not_entailment	0.2222222222222222	0.0
 719	not_entailment	not_entailment	0.11538461538461539	0.0
 720	not_entailment	not_entailment	0.17142857142857143	0.0
-721	entailment	not_entailment	0.017543859649122806	0.0
+721	entailment	not_entailment	0.017543859649122806	0.017543859649122806
 722	entailment	entailment	0.025	0.0
 723	not_entailment	not_entailment	0.06818181818181818	0.0
 724	entailment	entailment	0.028985507246376812	0.0
@@ -965,7 +965,7 @@ index	prediction	label	vua_label	moh_label
 963	not_entailment	not_entailment	0.05555555555555555	0.0
 964	not_entailment	not_entailment	0.10526315789473684	0.0
 965	not_entailment	not_entailment	0.125	0.0
-966	not_entailment	entailment	0.08247422680412371	0.0
+966	not_entailment	entailment	0.08247422680412371	0.010309278350515464
 967	not_entailment	not_entailment	0.12698412698412698	0.0
 968	entailment	entailment	0.15384615384615385	0.0
 969	not_entailment	not_entailment	0.1875	0.0
@@ -995,13 +995,13 @@ index	prediction	label	vua_label	moh_label
 993	entailment	entailment	0.020833333333333332	0.0
 994	not_entailment	not_entailment	0.07317073170731707	0.0
 995	entailment	entailment	0.1111111111111111	0.0
-996	not_entailment	not_entailment	0.01818181818181818	0.0
+996	not_entailment	not_entailment	0.01818181818181818	0.00909090909090909
 997	not_entailment	not_entailment	0.04	0.0
 998	entailment	entailment	0.08823529411764706	0.0
 999	entailment	entailment	0.04918032786885246	0.0
 1000	not_entailment	not_entailment	0.030303030303030304	0.0
 1001	not_entailment	not_entailment	0.08	0.0
-1002	not_entailment	not_entailment	0.14705882352941177	0.0
+1002	not_entailment	not_entailment	0.14705882352941177	0.014705882352941176
 1003	entailment	entailment	0.12244897959183673	0.0
 1004	entailment	entailment	0.05555555555555555	0.0
 1005	not_entailment	not_entailment	0.14285714285714285	0.0
@@ -1022,7 +1022,7 @@ index	prediction	label	vua_label	moh_label
 1020	not_entailment	not_entailment	0.07692307692307693	0.0
 1021	entailment	entailment	0.14	0.0
 1022	entailment	not_entailment	0.0	0.0
-1023	entailment	entailment	0.0967741935483871	0.0
+1023	entailment	entailment	0.0967741935483871	0.016129032258064516
 1024	entailment	entailment	0.06349206349206349	0.0
 1025	entailment	entailment	0.03571428571428571	0.0
 1026	entailment	entailment	0.13725490196078433	0.0
@@ -1058,7 +1058,7 @@ index	prediction	label	vua_label	moh_label
 1056	entailment	entailment	0.0	0.0
 1057	entailment	entailment	0.0	0.0
 1058	not_entailment	not_entailment	0.23529411764705882	0.0
-1059	entailment	entailment	0.0	0.0
+1059	entailment	entailment	0.0	0.013333333333333334
 1060	entailment	entailment	0.14285714285714285	0.0
 1061	not_entailment	not_entailment	0.058823529411764705	0.0
 1062	not_entailment	not_entailment	0.2545454545454545	0.0
@@ -1104,7 +1104,7 @@ index	prediction	label	vua_label	moh_label
 1102	entailment	entailment	0.13333333333333333	0.0
 1103	not_entailment	not_entailment	0.06557377049180328	0.0
 1104	not_entailment	not_entailment	0.03508771929824561	0.0
-1105	entailment	entailment	0.02702702702702703	0.0
+1105	entailment	entailment	0.02702702702702703	0.02702702702702703
 1106	entailment	entailment	0.058823529411764705	0.0
 1107	not_entailment	not_entailment	0.0	0.0
 1108	not_entailment	not_entailment	0.16	0.0
@@ -1296,7 +1296,7 @@ index	prediction	label	vua_label	moh_label
 1294	not_entailment	not_entailment	0.0	0.0
 1295	entailment	entailment	0.26666666666666666	0.0
 1296	entailment	entailment	0.042105263157894736	0.0
-1297	not_entailment	not_entailment	0.05660377358490566	0.0
+1297	not_entailment	not_entailment	0.05660377358490566	0.03773584905660377
 1298	entailment	not_entailment	0.16279069767441862	0.0
 1299	not_entailment	not_entailment	0.030303030303030304	0.0
 1300	not_entailment	not_entailment	0.0	0.0
@@ -1625,7 +1625,7 @@ index	prediction	label	vua_label	moh_label
 1623	entailment	entailment	0.023809523809523808	0.0
 1624	not_entailment	not_entailment	0.12941176470588237	0.0
 1625	not_entailment	entailment	0.07291666666666667	0.0
-1626	entailment	entailment	0.05970149253731343	0.0
+1626	entailment	entailment	0.05970149253731343	0.014925373134328358
 1627	entailment	entailment	0.0625	0.0
 1628	entailment	entailment	0.17647058823529413	0.0
 1629	entailment	entailment	0.14285714285714285	0.0
@@ -1695,7 +1695,7 @@ index	prediction	label	vua_label	moh_label
 1693	not_entailment	not_entailment	0.25	0.0
 1694	entailment	entailment	0.05	0.0
 1695	not_entailment	not_entailment	0.08695652173913043	0.0
-1696	entailment	entailment	0.0	0.0
+1696	entailment	entailment	0.0	0.018518518518518517
 1697	not_entailment	not_entailment	0.10416666666666667	0.0
 1698	entailment	entailment	0.0	0.0
 1699	not_entailment	not_entailment	0.019230769230769232	0.0
@@ -1707,7 +1707,7 @@ index	prediction	label	vua_label	moh_label
 1705	not_entailment	not_entailment	0.12048192771084337	0.0
 1706	entailment	entailment	0.022222222222222223	0.0
 1707	entailment	entailment	0.12121212121212122	0.0
-1708	not_entailment	not_entailment	0.0975609756097561	0.0
+1708	not_entailment	not_entailment	0.0975609756097561	0.024390243902439025
 1709	not_entailment	not_entailment	0.11428571428571428	0.0
 1710	not_entailment	not_entailment	0.14634146341463414	0.0
 1711	not_entailment	not_entailment	0.2	0.0
@@ -1748,7 +1748,7 @@ index	prediction	label	vua_label	moh_label
 1746	not_entailment	not_entailment	0.1111111111111111	0.0
 1747	entailment	entailment	0.03508771929824561	0.0
 1748	not_entailment	not_entailment	0.21875	0.0
-1749	entailment	entailment	0.043478260869565216	0.0
+1749	entailment	entailment	0.043478260869565216	0.014492753623188406
 1750	not_entailment	not_entailment	0.10714285714285714	0.0
 1751	not_entailment	not_entailment	0.03773584905660377	0.0
 1752	entailment	entailment	0.03333333333333333	0.0
@@ -1756,7 +1756,7 @@ index	prediction	label	vua_label	moh_label
 1754	entailment	entailment	0.0	0.0
 1755	entailment	entailment	0.043478260869565216	0.0
 1756	entailment	entailment	0.18181818181818182	0.0
-1757	entailment	not_entailment	0.13414634146341464	0.0
+1757	entailment	not_entailment	0.13414634146341464	0.012195121951219513
 1758	entailment	entailment	0.18181818181818182	0.0
 1759	not_entailment	not_entailment	0.015625	0.0
 1760	entailment	entailment	0.0	0.0
@@ -1779,7 +1779,7 @@ index	prediction	label	vua_label	moh_label
 1777	not_entailment	not_entailment	0.16666666666666666	0.0
 1778	entailment	entailment	0.06521739130434782	0.0
 1779	not_entailment	not_entailment	0.07352941176470588	0.0
-1780	entailment	not_entailment	0.0	0.0
+1780	entailment	not_entailment	0.0	0.024390243902439025
 1781	not_entailment	not_entailment	0.1590909090909091	0.0
 1782	not_entailment	not_entailment	0.018518518518518517	0.0
 1783	entailment	entailment	0.10588235294117647	0.0
@@ -1794,7 +1794,7 @@ index	prediction	label	vua_label	moh_label
 1792	entailment	not_entailment	0.08108108108108109	0.0
 1793	entailment	entailment	0.0975609756097561	0.0
 1794	entailment	entailment	0.019230769230769232	0.0
-1795	not_entailment	entailment	0.1702127659574468	0.0
+1795	not_entailment	entailment	0.1702127659574468	0.02127659574468085
 1796	entailment	entailment	0.0	0.0
 1797	not_entailment	not_entailment	0.10909090909090909	0.0
 1798	not_entailment	entailment	0.13953488372093023	0.0
@@ -1837,7 +1837,7 @@ index	prediction	label	vua_label	moh_label
 1835	not_entailment	not_entailment	0.047619047619047616	0.0
 1836	not_entailment	not_entailment	0.0	0.0
 1837	not_entailment	not_entailment	0.14285714285714285	0.0
-1838	entailment	entailment	0.010869565217391304	0.0
+1838	entailment	entailment	0.010869565217391304	0.03260869565217391
 1839	entailment	entailment	0.0	0.0
 1840	entailment	entailment	0.0	0.0
 1841	not_entailment	not_entailment	0.14285714285714285	0.0
@@ -2026,7 +2026,7 @@ index	prediction	label	vua_label	moh_label
 2024	not_entailment	not_entailment	0.11764705882352941	0.0
 2025	not_entailment	not_entailment	0.06521739130434782	0.0
 2026	entailment	entailment	0.06557377049180328	0.0
-2027	not_entailment	entailment	0.05263157894736842	0.0
+2027	not_entailment	entailment	0.05263157894736842	0.010526315789473684
 2028	entailment	entailment	0.047619047619047616	0.0
 2029	not_entailment	not_entailment	0.17647058823529413	0.0
 2030	not_entailment	not_entailment	0.125	0.0
@@ -2516,7 +2516,7 @@ index	prediction	label	vua_label	moh_label
 2514	entailment	entailment	0.075	0.0
 2515	entailment	entailment	0.0	0.0
 2516	entailment	entailment	0.08974358974358974	0.0
-2517	entailment	entailment	0.03296703296703297	0.0
+2517	entailment	entailment	0.03296703296703297	0.01098901098901099
 2518	entailment	entailment	0.06	0.0
 2519	not_entailment	not_entailment	0.11650485436893204	0.0
 2520	not_entailment	not_entailment	0.12903225806451613	0.0
@@ -2533,7 +2533,7 @@ index	prediction	label	vua_label	moh_label
 2531	entailment	entailment	0.0	0.0
 2532	entailment	entailment	0.075	0.0
 2533	entailment	entailment	0.017857142857142856	0.0
-2534	entailment	entailment	0.01485148514851485	0.0
+2534	entailment	entailment	0.01485148514851485	0.009900990099009901
 2535	entailment	entailment	0.10714285714285714	0.0
 2536	not_entailment	not_entailment	0.10638297872340426	0.0
 2537	entailment	entailment	0.14285714285714285	0.0
@@ -2553,7 +2553,7 @@ index	prediction	label	vua_label	moh_label
 2551	not_entailment	not_entailment	0.0	0.0
 2552	not_entailment	not_entailment	0.034482758620689655	0.0
 2553	not_entailment	not_entailment	0.0	0.0
-2554	entailment	entailment	0.10606060606060606	0.0
+2554	entailment	entailment	0.10606060606060606	0.015151515151515152
 2555	not_entailment	not_entailment	0.15789473684210525	0.0
 2556	not_entailment	not_entailment	0.045454545454545456	0.0
 2557	entailment	entailment	0.0	0.0
@@ -2583,7 +2583,7 @@ index	prediction	label	vua_label	moh_label
 2581	not_entailment	not_entailment	0.09375	0.0
 2582	not_entailment	not_entailment	0.0425531914893617	0.0
 2583	not_entailment	not_entailment	0.13725490196078433	0.0
-2584	entailment	entailment	0.12643678160919541	0.0
+2584	entailment	entailment	0.12643678160919541	0.011494252873563218
 2585	not_entailment	not_entailment	0.1794871794871795	0.0
 2586	not_entailment	not_entailment	0.0625	0.0
 2587	entailment	entailment	0.20408163265306123	0.0
@@ -2616,7 +2616,7 @@ index	prediction	label	vua_label	moh_label
 2614	not_entailment	not_entailment	0.04	0.0
 2615	not_entailment	not_entailment	0.058823529411764705	0.0
 2616	entailment	entailment	0.0759493670886076	0.0
-2617	entailment	entailment	0.042105263157894736	0.0
+2617	entailment	entailment	0.042105263157894736	0.010526315789473684
 2618	entailment	not_entailment	0.13333333333333333	0.0
 2619	entailment	entailment	0.05714285714285714	0.0
 2620	entailment	entailment	0.04	0.0
@@ -2659,7 +2659,7 @@ index	prediction	label	vua_label	moh_label
 2657	entailment	entailment	0.02564102564102564	0.0
 2658	not_entailment	not_entailment	0.05	0.0
 2659	entailment	entailment	0.0967741935483871	0.0
-2660	entailment	entailment	0.08333333333333333	0.0
+2660	entailment	entailment	0.08333333333333333	0.041666666666666664
 2661	entailment	entailment	0.10869565217391304	0.0
 2662	not_entailment	not_entailment	0.047619047619047616	0.0
 2663	not_entailment	not_entailment	0.11904761904761904	0.0
@@ -2684,7 +2684,7 @@ index	prediction	label	vua_label	moh_label
 2682	entailment	entailment	0.08571428571428572	0.0
 2683	not_entailment	not_entailment	0.20408163265306123	0.0
 2684	entailment	entailment	0.3142857142857143	0.0
-2685	not_entailment	not_entailment	0.11428571428571428	0.0
+2685	not_entailment	not_entailment	0.11428571428571428	0.02857142857142857
 2686	not_entailment	not_entailment	0.08064516129032258	0.0
 2687	not_entailment	not_entailment	0.07317073170731707	0.0
 2688	not_entailment	not_entailment	0.11666666666666667	0.0
@@ -2720,7 +2720,7 @@ index	prediction	label	vua_label	moh_label
 2718	not_entailment	not_entailment	0.0	0.0
 2719	entailment	entailment	0.06557377049180328	0.0
 2720	not_entailment	not_entailment	0.14545454545454545	0.0
-2721	entailment	entailment	0.05454545454545454	0.0
+2721	entailment	entailment	0.05454545454545454	0.01818181818181818
 2722	not_entailment	not_entailment	0.14583333333333334	0.0
 2723	entailment	entailment	0.10526315789473684	0.0
 2724	entailment	entailment	0.023809523809523808	0.0
@@ -2732,7 +2732,7 @@ index	prediction	label	vua_label	moh_label
 2730	entailment	entailment	0.15384615384615385	0.0
 2731	not_entailment	not_entailment	0.16666666666666666	0.0
 2732	not_entailment	not_entailment	0.23076923076923078	0.0
-2733	not_entailment	not_entailment	0.0	0.0
+2733	not_entailment	not_entailment	0.0	0.018518518518518517
 2734	not_entailment	not_entailment	0.09523809523809523	0.0
 2735	entailment	entailment	0.07692307692307693	0.0
 2736	not_entailment	not_entailment	0.0851063829787234	0.0
@@ -2755,7 +2755,7 @@ index	prediction	label	vua_label	moh_label
 2753	entailment	entailment	0.1702127659574468	0.0
 2754	entailment	entailment	0.04477611940298507	0.0
 2755	not_entailment	not_entailment	0.23404255319148937	0.0
-2756	entailment	entailment	0.02631578947368421	0.0
+2756	entailment	entailment	0.02631578947368421	0.02631578947368421
 2757	not_entailment	not_entailment	0.10810810810810811	0.0
 2758	not_entailment	not_entailment	0.07142857142857142	0.0
 2759	not_entailment	not_entailment	0.01818181818181818	0.0
@@ -2903,7 +2903,7 @@ index	prediction	label	vua_label	moh_label
 2901	not_entailment	not_entailment	0.1694915254237288	0.0
 2902	not_entailment	entailment	0.10416666666666667	0.0
 2903	not_entailment	not_entailment	0.057692307692307696	0.0
-2904	entailment	entailment	0.05102040816326531	0.0
+2904	entailment	entailment	0.05102040816326531	0.04081632653061224
 2905	not_entailment	not_entailment	0.16129032258064516	0.0
 2906	entailment	entailment	0.0410958904109589	0.0
 2907	not_entailment	not_entailment	0.09259259259259259	0.0
@@ -2930,7 +2930,7 @@ index	prediction	label	vua_label	moh_label
 2928	not_entailment	not_entailment	0.0	0.0
 2929	entailment	entailment	0.13636363636363635	0.0
 2930	not_entailment	entailment	0.016666666666666666	0.0
-2931	entailment	entailment	0.07272727272727272	0.0
+2931	entailment	entailment	0.07272727272727272	0.01818181818181818
 2932	entailment	entailment	0.025	0.0
 2933	entailment	entailment	0.08	0.0
 2934	entailment	entailment	0.0	0.0
@@ -2945,7 +2945,7 @@ index	prediction	label	vua_label	moh_label
 2943	entailment	entailment	0.15625	0.0
 2944	entailment	entailment	0.09523809523809523	0.0
 2945	entailment	entailment	0.1	0.0
-2946	not_entailment	not_entailment	0.03571428571428571	0.0
+2946	not_entailment	not_entailment	0.03571428571428571	0.017857142857142856
 2947	entailment	entailment	0.05128205128205128	0.0
 2948	not_entailment	not_entailment	0.1111111111111111	0.0
 2949	entailment	entailment	0.02857142857142857	0.0
@@ -3019,7 +3019,7 @@ index	prediction	label	vua_label	moh_label
 3017	entailment	entailment	0.0196078431372549	0.0
 3018	not_entailment	not_entailment	0.03225806451612903	0.0
 3019	entailment	entailment	0.03125	0.0
-3020	entailment	not_entailment	0.043478260869565216	0.0
+3020	entailment	not_entailment	0.043478260869565216	0.010869565217391304
 3021	not_entailment	not_entailment	0.015384615384615385	0.0
 3022	not_entailment	not_entailment	0.09375	0.0
 3023	entailment	entailment	0.09090909090909091	0.0
@@ -3041,7 +3041,7 @@ index	prediction	label	vua_label	moh_label
 3039	not_entailment	not_entailment	0.07692307692307693	0.0
 3040	entailment	entailment	0.125	0.0
 3041	entailment	entailment	0.03424657534246575	0.0
-3042	entailment	entailment	0.13157894736842105	0.0
+3042	entailment	entailment	0.13157894736842105	0.02631578947368421
 3043	entailment	entailment	0.08421052631578947	0.0
 3044	entailment	not_entailment	0.1	0.0
 3045	not_entailment	not_entailment	0.0975609756097561	0.0
@@ -3186,7 +3186,7 @@ index	prediction	label	vua_label	moh_label
 3184	entailment	entailment	0.03125	0.0
 3185	entailment	entailment	0.0	0.0
 3186	entailment	entailment	0.024390243902439025	0.0
-3187	entailment	entailment	0.019704433497536946	0.0
+3187	entailment	entailment	0.019704433497536946	0.009852216748768473
 3188	entailment	entailment	0.08695652173913043	0.0
 3189	entailment	entailment	0.0	0.0
 3190	entailment	entailment	0.16129032258064516	0.0
@@ -3220,7 +3220,7 @@ index	prediction	label	vua_label	moh_label
 3218	entailment	entailment	0.18032786885245902	0.0
 3219	entailment	entailment	0.08108108108108109	0.0
 3220	entailment	entailment	0.08333333333333333	0.0
-3221	entailment	entailment	0.031746031746031744	0.0
+3221	entailment	entailment	0.031746031746031744	0.015873015873015872
 3222	entailment	entailment	0.08888888888888889	0.0
 3223	not_entailment	not_entailment	0.09722222222222222	0.0
 3224	not_entailment	not_entailment	0.10638297872340426	0.0
@@ -3252,7 +3252,7 @@ index	prediction	label	vua_label	moh_label
 3250	not_entailment	not_entailment	0.08333333333333333	0.0
 3251	not_entailment	not_entailment	0.2	0.0
 3252	entailment	entailment	0.014285714285714285	0.0
-3253	entailment	not_entailment	0.03508771929824561	0.0
+3253	entailment	not_entailment	0.03508771929824561	0.017543859649122806
 3254	not_entailment	not_entailment	0.09433962264150944	0.0
 3255	entailment	entailment	0.07407407407407407	0.0
 3256	not_entailment	not_entailment	0.03296703296703297	0.0
@@ -3370,7 +3370,7 @@ index	prediction	label	vua_label	moh_label
 3368	entailment	entailment	0.22077922077922077	0.0
 3369	entailment	entailment	0.05714285714285714	0.0
 3370	entailment	entailment	0.011764705882352941	0.0
-3371	entailment	entailment	0.1095890410958904	0.0
+3371	entailment	entailment	0.1095890410958904	0.0136986301369863
 3372	entailment	entailment	0.0	0.0
 3373	entailment	entailment	0.027777777777777776	0.0
 3374	not_entailment	not_entailment	0.09259259259259259	0.0
@@ -3396,7 +3396,7 @@ index	prediction	label	vua_label	moh_label
 3394	not_entailment	not_entailment	0.1590909090909091	0.0
 3395	entailment	entailment	0.05084745762711865	0.0
 3396	not_entailment	not_entailment	0.03125	0.0
-3397	entailment	entailment	0.016666666666666666	0.0
+3397	entailment	entailment	0.016666666666666666	0.025
 3398	entailment	entailment	0.23333333333333334	0.0
 3399	not_entailment	not_entailment	0.06756756756756757	0.0
 3400	entailment	entailment	0.04	0.0
@@ -3450,7 +3450,7 @@ index	prediction	label	vua_label	moh_label
 3448	entailment	entailment	0.14705882352941177	0.0
 3449	entailment	entailment	0.0	0.0
 3450	entailment	entailment	0.046511627906976744	0.0
-3451	entailment	entailment	0.21818181818181817	0.0
+3451	entailment	entailment	0.21818181818181817	0.01818181818181818
 3452	entailment	entailment	0.05333333333333334	0.0
 3453	not_entailment	not_entailment	0.06666666666666667	0.0
 3454	entailment	entailment	0.041666666666666664	0.0
@@ -3490,7 +3490,7 @@ index	prediction	label	vua_label	moh_label
 3488	not_entailment	not_entailment	0.021505376344086023	0.0
 3489	not_entailment	not_entailment	0.1	0.0
 3490	entailment	entailment	0.05660377358490566	0.0
-3491	not_entailment	not_entailment	0.05128205128205128	0.0
+3491	not_entailment	not_entailment	0.05128205128205128	0.00641025641025641
 3492	entailment	entailment	0.10810810810810811	0.0
 3493	entailment	not_entailment	0.06818181818181818	0.0
 3494	not_entailment	not_entailment	0.08571428571428572	0.0
@@ -3607,7 +3607,7 @@ index	prediction	label	vua_label	moh_label
 3605	entailment	entailment	0.043478260869565216	0.0
 3606	not_entailment	not_entailment	0.20833333333333334	0.0
 3607	not_entailment	not_entailment	0.08	0.0
-3608	not_entailment	not_entailment	0.04054054054054054	0.0
+3608	not_entailment	not_entailment	0.04054054054054054	0.013513513513513514
 3609	not_entailment	not_entailment	0.07407407407407407	0.0
 3610	entailment	not_entailment	0.08163265306122448	0.0
 3611	entailment	entailment	0.05660377358490566	0.0
@@ -3710,7 +3710,7 @@ index	prediction	label	vua_label	moh_label
 3708	not_entailment	not_entailment	0.10204081632653061	0.0
 3709	entailment	entailment	0.031746031746031744	0.0
 3710	not_entailment	not_entailment	0.09090909090909091	0.0
-3711	entailment	entailment	0.05714285714285714	0.0
+3711	entailment	entailment	0.05714285714285714	0.014285714285714285
 3712	entailment	entailment	0.1	0.0
 3713	entailment	entailment	0.025	0.0
 3714	entailment	entailment	0.1574074074074074	0.0
@@ -3729,7 +3729,7 @@ index	prediction	label	vua_label	moh_label
 3727	not_entailment	not_entailment	0.10256410256410256	0.0
 3728	not_entailment	not_entailment	0.03636363636363636	0.0
 3729	entailment	entailment	0.08333333333333333	0.0
-3730	entailment	not_entailment	0.03508771929824561	0.0
+3730	entailment	not_entailment	0.03508771929824561	0.017543859649122806
 3731	not_entailment	not_entailment	0.061224489795918366	0.0
 3732	not_entailment	not_entailment	0.06521739130434782	0.0
 3733	not_entailment	not_entailment	0.1323529411764706	0.0
@@ -3835,7 +3835,7 @@ index	prediction	label	vua_label	moh_label
 3833	entailment	entailment	0.0	0.0
 3834	entailment	entailment	0.11627906976744186	0.0
 3835	not_entailment	not_entailment	0.1935483870967742	0.0
-3836	entailment	entailment	0.08108108108108109	0.0
+3836	entailment	entailment	0.08108108108108109	0.02702702702702703
 3837	entailment	entailment	0.0	0.0
 3838	entailment	entailment	0.0	0.0
 3839	entailment	entailment	0.13513513513513514	0.0
@@ -3965,7 +3965,7 @@ index	prediction	label	vua_label	moh_label
 3963	not_entailment	not_entailment	0.0	0.0
 3964	entailment	entailment	0.11363636363636363	0.0
 3965	not_entailment	not_entailment	0.08571428571428572	0.0
-3966	entailment	entailment	0.13725490196078433	0.0
+3966	entailment	entailment	0.13725490196078433	0.0196078431372549
 3967	not_entailment	not_entailment	0.0967741935483871	0.0
 3968	entailment	entailment	0.03225806451612903	0.0
 3969	entailment	entailment	0.11428571428571428	0.0
@@ -4148,7 +4148,7 @@ index	prediction	label	vua_label	moh_label
 4146	not_entailment	not_entailment	0.0425531914893617	0.0
 4147	not_entailment	not_entailment	0.04	0.0
 4148	entailment	entailment	0.0	0.0
-4149	entailment	entailment	0.1774193548387097	0.0
+4149	entailment	entailment	0.1774193548387097	0.016129032258064516
 4150	entailment	entailment	0.18333333333333332	0.0
 4151	not_entailment	not_entailment	0.17857142857142858	0.0
 4152	entailment	entailment	0.0	0.0
@@ -4206,7 +4206,7 @@ index	prediction	label	vua_label	moh_label
 4204	not_entailment	not_entailment	0.09090909090909091	0.0
 4205	not_entailment	not_entailment	0.1590909090909091	0.0
 4206	not_entailment	not_entailment	0.1875	0.0
-4207	entailment	entailment	0.1	0.0
+4207	entailment	entailment	0.1	0.011111111111111112
 4208	not_entailment	entailment	0.08536585365853659	0.0
 4209	not_entailment	not_entailment	0.0	0.0
 4210	not_entailment	not_entailment	0.03125	0.0
@@ -4236,7 +4236,7 @@ index	prediction	label	vua_label	moh_label
 4234	not_entailment	entailment	0.10526315789473684	0.0
 4235	entailment	entailment	0.08108108108108109	0.0
 4236	not_entailment	not_entailment	0.04	0.0
-4237	not_entailment	not_entailment	0.12048192771084337	0.0
+4237	not_entailment	not_entailment	0.12048192771084337	0.012048192771084338
 4238	entailment	entailment	0.0	0.0
 4239	entailment	entailment	0.0136986301369863	0.0
 4240	entailment	entailment	0.08163265306122448	0.0
@@ -4256,7 +4256,7 @@ index	prediction	label	vua_label	moh_label
 4254	not_entailment	not_entailment	0.046511627906976744	0.0
 4255	not_entailment	not_entailment	0.19298245614035087	0.0
 4256	not_entailment	entailment	0.043478260869565216	0.0
-4257	entailment	entailment	0.045454545454545456	0.0
+4257	entailment	entailment	0.045454545454545456	0.015151515151515152
 4258	not_entailment	not_entailment	0.07272727272727272	0.0
 4259	not_entailment	not_entailment	0.14583333333333334	0.0
 4260	entailment	entailment	0.043478260869565216	0.0
@@ -4445,7 +4445,7 @@ index	prediction	label	vua_label	moh_label
 4443	not_entailment	not_entailment	0.058823529411764705	0.0
 4444	not_entailment	entailment	0.02702702702702703	0.0
 4445	not_entailment	entailment	0.05	0.0
-4446	entailment	not_entailment	0.05194805194805195	0.0
+4446	entailment	not_entailment	0.05194805194805195	0.012987012987012988
 4447	entailment	entailment	0.125	0.0
 4448	entailment	entailment	0.046511627906976744	0.0
 4449	entailment	entailment	0.037037037037037035	0.0
@@ -4455,7 +4455,7 @@ index	prediction	label	vua_label	moh_label
 4453	entailment	entailment	0.012345679012345678	0.0
 4454	not_entailment	not_entailment	0.03571428571428571	0.0
 4455	not_entailment	entailment	0.10526315789473684	0.0
-4456	not_entailment	not_entailment	0.05172413793103448	0.0
+4456	not_entailment	not_entailment	0.05172413793103448	0.017241379310344827
 4457	not_entailment	not_entailment	0.037037037037037035	0.0
 4458	entailment	entailment	0.0	0.0
 4459	entailment	entailment	0.01639344262295082	0.0
@@ -4506,7 +4506,7 @@ index	prediction	label	vua_label	moh_label
 4504	entailment	entailment	0.17777777777777778	0.0
 4505	entailment	entailment	0.08333333333333333	0.0
 4506	not_entailment	not_entailment	0.05714285714285714	0.0
-4507	not_entailment	not_entailment	0.021739130434782608	0.0
+4507	not_entailment	not_entailment	0.021739130434782608	0.021739130434782608
 4508	not_entailment	not_entailment	0.08771929824561403	0.0
 4509	not_entailment	not_entailment	0.11363636363636363	0.0
 4510	entailment	entailment	0.08333333333333333	0.0
@@ -4633,7 +4633,7 @@ index	prediction	label	vua_label	moh_label
 4631	not_entailment	not_entailment	0.0392156862745098	0.0
 4632	entailment	entailment	0.04081632653061224	0.0
 4633	entailment	entailment	0.034782608695652174	0.0
-4634	entailment	entailment	0.0	0.0
+4634	entailment	entailment	0.0	0.02
 4635	not_entailment	not_entailment	0.1956521739130435	0.0
 4636	entailment	entailment	0.0	0.0
 4637	not_entailment	not_entailment	0.04081632653061224	0.0
@@ -4650,10 +4650,10 @@ index	prediction	label	vua_label	moh_label
 4648	not_entailment	not_entailment	0.12244897959183673	0.0
 4649	not_entailment	not_entailment	0.17543859649122806	0.0
 4650	not_entailment	not_entailment	0.06382978723404255	0.0
-4651	entailment	entailment	0.0	0.0
+4651	entailment	entailment	0.0	0.015873015873015872
 4652	not_entailment	not_entailment	0.0	0.0
 4653	not_entailment	not_entailment	0.14035087719298245	0.0
-4654	not_entailment	not_entailment	0.0963855421686747	0.0
+4654	not_entailment	not_entailment	0.0963855421686747	0.012048192771084338
 4655	not_entailment	not_entailment	0.0	0.0
 4656	not_entailment	entailment	0.025974025974025976	0.0
 4657	entailment	entailment	0.1724137931034483	0.0
@@ -4898,7 +4898,7 @@ index	prediction	label	vua_label	moh_label
 4896	not_entailment	not_entailment	0.125	0.0
 4897	entailment	entailment	0.030612244897959183	0.0
 4898	entailment	entailment	0.02702702702702703	0.0
-4899	not_entailment	not_entailment	0.10909090909090909	0.0
+4899	not_entailment	not_entailment	0.10909090909090909	0.01818181818181818
 4900	entailment	not_entailment	0.12727272727272726	0.0
 4901	not_entailment	not_entailment	0.056338028169014086	0.0
 4902	entailment	entailment	0.1388888888888889	0.0
@@ -4978,7 +4978,7 @@ index	prediction	label	vua_label	moh_label
 4976	entailment	entailment	0.06896551724137931	0.0
 4977	entailment	entailment	0.04950495049504951	0.0
 4978	entailment	entailment	0.046511627906976744	0.0
-4979	not_entailment	not_entailment	0.014925373134328358	0.0
+4979	not_entailment	not_entailment	0.014925373134328358	0.014925373134328358
 4980	not_entailment	not_entailment	0.08333333333333333	0.0
 4981	entailment	entailment	0.08108108108108109	0.0
 4982	not_entailment	not_entailment	0.038461538461538464	0.0
@@ -5028,7 +5028,7 @@ index	prediction	label	vua_label	moh_label
 5026	entailment	not_entailment	0.03571428571428571	0.0
 5027	not_entailment	not_entailment	0.1724137931034483	0.0
 5028	entailment	not_entailment	0.09375	0.0
-5029	entailment	entailment	0.029850746268656716	0.0
+5029	entailment	entailment	0.029850746268656716	0.014925373134328358
 5030	not_entailment	not_entailment	0.05333333333333334	0.0
 5031	not_entailment	not_entailment	0.06818181818181818	0.0
 5032	not_entailment	not_entailment	0.125	0.0
@@ -5080,8 +5080,8 @@ index	prediction	label	vua_label	moh_label
 5078	not_entailment	not_entailment	0.044444444444444446	0.0
 5079	not_entailment	not_entailment	0.03508771929824561	0.0
 5080	not_entailment	not_entailment	0.12631578947368421	0.0
-5081	not_entailment	not_entailment	0.08196721311475409	0.0
-5082	not_entailment	entailment	0.12244897959183673	0.0
+5081	not_entailment	not_entailment	0.08196721311475409	0.01639344262295082
+5082	not_entailment	entailment	0.12244897959183673	0.02040816326530612
 5083	not_entailment	not_entailment	0.08823529411764706	0.0
 5084	not_entailment	not_entailment	0.12903225806451613	0.0
 5085	not_entailment	not_entailment	0.0	0.0
@@ -5109,7 +5109,7 @@ index	prediction	label	vua_label	moh_label
 5107	not_entailment	not_entailment	0.11392405063291139	0.0
 5108	entailment	entailment	0.16216216216216217	0.0
 5109	not_entailment	not_entailment	0.10416666666666667	0.0
-5110	entailment	entailment	0.022222222222222223	0.0
+5110	entailment	entailment	0.022222222222222223	0.011111111111111112
 5111	not_entailment	not_entailment	0.017857142857142856	0.0
 5112	not_entailment	entailment	0.03333333333333333	0.0
 5113	not_entailment	not_entailment	0.07692307692307693	0.0
@@ -5153,7 +5153,7 @@ index	prediction	label	vua_label	moh_label
 5151	entailment	entailment	0.17073170731707318	0.0
 5152	not_entailment	not_entailment	0.14893617021276595	0.0
 5153	entailment	entailment	0.029411764705882353	0.0
-5154	entailment	entailment	0.03333333333333333	0.0
+5154	entailment	entailment	0.03333333333333333	0.025
 5155	not_entailment	not_entailment	0.018518518518518517	0.0
 5156	not_entailment	not_entailment	0.08163265306122448	0.0
 5157	not_entailment	not_entailment	0.1	0.0
@@ -5194,7 +5194,7 @@ index	prediction	label	vua_label	moh_label
 5192	not_entailment	not_entailment	0.02857142857142857	0.0
 5193	entailment	not_entailment	0.12	0.0
 5194	not_entailment	not_entailment	0.1935483870967742	0.0
-5195	entailment	entailment	0.06451612903225806	0.0
+5195	entailment	entailment	0.06451612903225806	0.010752688172043012
 5196	entailment	entailment	0.0	0.0
 5197	entailment	entailment	0.08928571428571429	0.0
 5198	entailment	entailment	0.14285714285714285	0.0
@@ -5209,7 +5209,7 @@ index	prediction	label	vua_label	moh_label
 5207	entailment	not_entailment	0.06451612903225806	0.0
 5208	entailment	not_entailment	0.1956521739130435	0.0
 5209	not_entailment	not_entailment	0.0	0.0
-5210	entailment	entailment	0.03389830508474576	0.0
+5210	entailment	entailment	0.03389830508474576	0.03389830508474576
 5211	not_entailment	not_entailment	0.03508771929824561	0.0
 5212	entailment	entailment	0.04	0.0
 5213	entailment	entailment	0.1111111111111111	0.0
@@ -5227,7 +5227,7 @@ index	prediction	label	vua_label	moh_label
 5225	not_entailment	entailment	0.05970149253731343	0.0
 5226	not_entailment	not_entailment	0.13333333333333333	0.0
 5227	not_entailment	not_entailment	0.08	0.0
-5228	not_entailment	not_entailment	0.12195121951219512	0.0
+5228	not_entailment	not_entailment	0.12195121951219512	0.012195121951219513
 5229	entailment	entailment	0.02040816326530612	0.0
 5230	not_entailment	not_entailment	0.15217391304347827	0.0
 5231	entailment	entailment	0.10416666666666667	0.0
@@ -5318,7 +5318,7 @@ index	prediction	label	vua_label	moh_label
 5316	not_entailment	not_entailment	0.0975609756097561	0.0
 5317	entailment	entailment	0.1875	0.0
 5318	entailment	entailment	0.11764705882352941	0.0
-5319	entailment	entailment	0.04477611940298507	0.0
+5319	entailment	entailment	0.04477611940298507	0.014925373134328358
 5320	not_entailment	not_entailment	0.06896551724137931	0.0
 5321	not_entailment	not_entailment	0.13725490196078433	0.0
 5322	entailment	entailment	0.1	0.0

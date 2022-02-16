@@ -11,8 +11,11 @@ def compute_acc(df, task=None, threshold=0):
     return accuracy_score(metaphors['label'], metaphors['prediction']), accuracy_score(non_metaphors['label'], non_metaphors['prediction'])
 
 if __name__ == '__main__':
-    result_dir = 'glue/val_results_with_vua/'
-    dfs = { task: pd.read_csv(result_dir+f'vua_and_result_{task}.tsv', sep='\t') for task in tasks }
+    # result_dir = 'glue/val_results_with_vua/'
+    model_type = 'moh'
+    result_dir = 'glue/val_results_with_metaphoricity/'
+
+    dfs = { task: pd.read_csv(result_dir+f'result_{task}.tsv', sep='\t') for task in tasks }
 
     statistics = {}
     for task, df in dfs.items():
@@ -23,8 +26,8 @@ if __name__ == '__main__':
             statistics[task] = {}
 
         # metaphor ratio
-        statistics[task]['token_ratio'] = df['vua_label'].sum() / len(df.index)
-        statistics[task]['sentence_ratio'] = (df['vua_label']>0).sum() / len(df.index)
+        statistics[task]['token_ratio'] = df[f'{model_type}_label'].sum() / len(df.index)
+        statistics[task]['sentence_ratio'] = (df[f'{model_type}_label']>0).sum() / len(df.index)
 
         # acc threshold 0
         statistics[task]['metaphor_acc_0'], statistics[task]['non_metaphor_acc_0'] = compute_acc(df, task=task)
@@ -47,5 +50,3 @@ if __name__ == '__main__':
     # statistics.plot(subplots=True, style=['*', '+', 'o', 's', '^', '+'])
 
     plt.show()
-
-

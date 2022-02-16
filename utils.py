@@ -8,6 +8,56 @@ from nltk import word_tokenize
 from metaphor_identify_glue import tasks, task_to_keys
 import datasets
 import numpy as np
+from lyc.utils import get_tokenizer
+
+def add_metaphor_marker_with_meta_label_sequence(tokenizer, sentence, labels):
+    tokens = tokenizer.tokenize(sentence)
+    labels = labels[1:-1]
+    if len(tokens) != len(labels):
+        print(f'{tokens} {labels} **{len(tokens)-len(labels)}')
+        return ''
+    end_marker = 0
+    for index, (token, label) in enumerate(zip(tokens, labels)):
+        if not label:
+            continue
+        if token.startswith('Ġ'):
+            tokens[index] = token[0] + '<m>' + token[1:]
+            if end_marker:
+                tokens[index] = '</m>' + token
+                end_marker=0
+        else: tokens[index] = '<m>' + token
+        end_marker = 1
+    sentence = ''.join(tokens).replace('Ġ', ' ')
+    return sentence
+
+def get_gleu_error_case_with_meta_label(meta_type = 'vua', num_samples = 100):
+    def process(x):
+        results = {}
+        results[col1] = add_metaphor_marker_with_meta_label_sequence(tokenizer, x[col1], x[col1+f'_{meta_type}'])
+        if col2 is not None:
+            results[col2] = add_metaphor_marker_with_meta_label_sequence(tokenizer, x[col2], x[col2+f'_{meta_type}'])
+        return results
+
+    tokenizer = get_tokenizer('roberta-base')
+    for task in tasks:
+        if task == 'mnli': continue
+        col1, col2 = task_to_keys[task]
+        ds = datasets.load_from_disk(f'glue/{meta_type}/{task}')
+        if 'pred' not in ds.column_names:
+            df = pd.read_csv(f'glue/val_results_with_metaphoricity/result_{task}.tsv', sep='\t')
+            pred, gold, meta_label = df['prediction'], df['label'], df[f'{meta_type}_label']
+            ds = ds.add_column('pred', pred)
+            ds = ds.add_column('gold', gold)
+            ds = ds.add_column(f'{meta_type}_label', meta_label)
+            ds.save_to_disk(f'glue/{meta_type}_with_sentence/{task}')
+        ds = ds.map(process, load_from_cache_file=False)
+        df = ds.to_pandas()
+        df = df[ df['pred']!=df['gold'] ]
+        df = df[ df[f'{meta_type}_label']>0]
+        num_samples = min(num_samples, len(df.index))
+        samples = df.sample(n=num_samples, replace=False)
+        samples.to_csv(f'glue/{meta_type}_error/{task}.tsv', index=False, sep='\t')
+        print(f'succesfully saved {task}.')
 
 def produce_metaphoricity_for_glue():
 
@@ -233,4 +283,7 @@ if __name__ == '__main__':
     # show_inference_confidence_for_meta_and_literal(df)
 
     ## produce glue results table with metaphroicity label score
-    produce_metaphoricity_for_glue()
+    # produce_metaphoricity_for_glue()
+
+    ## produce glue error examples
+    get_gleu_error_case_with_meta_label()

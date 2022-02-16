@@ -119,7 +119,7 @@ index	prediction	label	vua_label	moh_label
 117	equivalent	equivalent	0.0759493670886076	0.0
 118	equivalent	equivalent	0.07692307692307693	0.0
 119	equivalent	equivalent	0.2	0.0
-120	equivalent	equivalent	0.0641025641025641	0.0
+120	equivalent	equivalent	0.0641025641025641	0.01282051282051282
 121	equivalent	equivalent	0.08571428571428572	0.0
 122	not_equivalent	not_equivalent	0.17073170731707318	0.0
 123	equivalent	equivalent	0.045454545454545456	0.0
@@ -136,7 +136,7 @@ index	prediction	label	vua_label	moh_label
 134	equivalent	equivalent	0.25	0.0
 135	equivalent	equivalent	0.06818181818181818	0.0
 136	not_equivalent	not_equivalent	0.20454545454545456	0.0
-137	not_equivalent	not_equivalent	0.13333333333333333	0.0
+137	not_equivalent	not_equivalent	0.13333333333333333	0.03333333333333333
 138	equivalent	equivalent	0.10909090909090909	0.0
 139	equivalent	not_equivalent	0.058823529411764705	0.0
 140	equivalent	equivalent	0.09210526315789473	0.0
@@ -211,7 +211,7 @@ index	prediction	label	vua_label	moh_label
 209	not_equivalent	not_equivalent	0.25	0.0
 210	not_equivalent	not_equivalent	0.13157894736842105	0.0
 211	equivalent	equivalent	0.1076923076923077	0.0
-212	equivalent	equivalent	0.09090909090909091	0.0
+212	equivalent	equivalent	0.09090909090909091	0.030303030303030304
 213	equivalent	not_equivalent	0.06	0.0
 214	equivalent	equivalent	0.21739130434782608	0.0
 215	equivalent	equivalent	0.14583333333333334	0.0
@@ -241,7 +241,7 @@ index	prediction	label	vua_label	moh_label
 239	not_equivalent	not_equivalent	0.17777777777777778	0.0
 240	equivalent	equivalent	0.05	0.0
 241	not_equivalent	not_equivalent	0.08163265306122448	0.0
-242	equivalent	equivalent	0.04838709677419355	0.0
+242	equivalent	equivalent	0.04838709677419355	0.016129032258064516
 243	equivalent	equivalent	0.13513513513513514	0.0
 244	equivalent	equivalent	0.017857142857142856	0.0
 245	equivalent	equivalent	0.03333333333333333	0.0
@@ -291,7 +291,7 @@ index	prediction	label	vua_label	moh_label
 289	not_equivalent	equivalent	0.0975609756097561	0.0
 290	not_equivalent	equivalent	0.08333333333333333	0.0
 291	not_equivalent	not_equivalent	0.04878048780487805	0.0
-292	equivalent	equivalent	0.11320754716981132	0.0
+292	equivalent	equivalent	0.11320754716981132	0.018867924528301886
 293	not_equivalent	equivalent	0.15217391304347827	0.0
 294	equivalent	equivalent	0.07142857142857142	0.0
 295	not_equivalent	not_equivalent	0.06060606060606061	0.0
@@ -321,7 +321,7 @@ index	prediction	label	vua_label	moh_label
 319	equivalent	not_equivalent	0.02127659574468085	0.0
 320	not_equivalent	not_equivalent	0.018867924528301886	0.0
 321	not_equivalent	not_equivalent	0.0851063829787234	0.0
-322	not_equivalent	not_equivalent	0.12121212121212122	0.0
+322	not_equivalent	not_equivalent	0.12121212121212122	0.015151515151515152
 323	equivalent	equivalent	0.07317073170731707	0.0
 324	not_equivalent	not_equivalent	0.0	0.0
 325	equivalent	equivalent	0.028985507246376812	0.0
@@ -399,7 +399,7 @@ index	prediction	label	vua_label	moh_label
 397	equivalent	equivalent	0.16216216216216217	0.0
 398	equivalent	equivalent	0.09433962264150944	0.0
 399	equivalent	equivalent	0.14035087719298245	0.0
-400	not_equivalent	not_equivalent	0.1206896551724138	0.0
+400	not_equivalent	not_equivalent	0.1206896551724138	0.017241379310344827
 401	equivalent	equivalent	0.03125	0.0
 402	not_equivalent	equivalent	0.0	0.0
 403	not_equivalent	not_equivalent	0.014705882352941176	0.0
