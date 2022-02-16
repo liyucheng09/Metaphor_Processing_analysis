@@ -31,7 +31,7 @@ index	prediction	label	vua_label	moh_label
 29	not_entailment	not_entailment	0.0	0.0
 30	not_entailment	not_entailment	0.07894736842105263	0.0
 31	entailment	entailment	0.07971014492753623	0.0
-32	entailment	not_entailment	0.10837438423645321	0.0
+32	entailment	not_entailment	0.10837438423645321	0.0049261083743842365
 33	entailment	not_entailment	0.09210526315789473	0.0
 34	entailment	entailment	0.13333333333333333	0.0
 35	not_entailment	not_entailment	0.125	0.0
@@ -51,7 +51,7 @@ index	prediction	label	vua_label	moh_label
 49	not_entailment	not_entailment	0.20270270270270271	0.0
 50	entailment	not_entailment	0.14035087719298245	0.0
 51	entailment	entailment	0.0	0.0
-52	entailment	not_entailment	0.1	0.0
+52	entailment	not_entailment	0.1	0.0125
 53	entailment	entailment	0.08888888888888889	0.0
 54	entailment	entailment	0.06976744186046512	0.0
 55	not_entailment	not_entailment	0.038461538461538464	0.0
@@ -60,7 +60,7 @@ index	prediction	label	vua_label	moh_label
 58	not_entailment	not_entailment	0.0	0.0
 59	entailment	entailment	0.07462686567164178	0.0
 60	entailment	entailment	0.11428571428571428	0.0
-61	not_entailment	not_entailment	0.0125	0.0
+61	not_entailment	not_entailment	0.0125	0.0125
 62	entailment	not_entailment	0.1282051282051282	0.0
 63	entailment	entailment	0.040983606557377046	0.0
 64	not_entailment	not_entailment	0.058823529411764705	0.0
@@ -98,7 +98,7 @@ index	prediction	label	vua_label	moh_label
 96	not_entailment	not_entailment	0.0410958904109589	0.0
 97	entailment	entailment	0.12244897959183673	0.0
 98	not_entailment	entailment	0.07407407407407407	0.0
-99	entailment	entailment	0.059782608695652176	0.0
+99	entailment	entailment	0.059782608695652176	0.010869565217391304
 100	entailment	entailment	0.042105263157894736	0.0
 101	entailment	entailment	0.045454545454545456	0.0
 102	entailment	entailment	0.02	0.0
@@ -174,7 +174,7 @@ index	prediction	label	vua_label	moh_label
 172	entailment	not_entailment	0.04054054054054054	0.0
 173	entailment	entailment	0.05384615384615385	0.0
 174	not_entailment	entailment	0.07142857142857142	0.0
-175	entailment	entailment	0.029411764705882353	0.0
+175	entailment	entailment	0.029411764705882353	0.014705882352941176
 176	entailment	entailment	0.12871287128712872	0.0
 177	entailment	entailment	0.10714285714285714	0.0
 178	not_entailment	not_entailment	0.06976744186046512	0.0
@@ -211,7 +211,7 @@ index	prediction	label	vua_label	moh_label
 209	not_entailment	not_entailment	0.14583333333333334	0.0
 210	not_entailment	entailment	0.08035714285714286	0.0
 211	entailment	entailment	0.06060606060606061	0.0
-212	entailment	entailment	0.09090909090909091	0.0
+212	entailment	entailment	0.09090909090909091	0.01818181818181818
 213	entailment	not_entailment	0.05527638190954774	0.0
 214	entailment	entailment	0.07272727272727272	0.0
 215	not_entailment	not_entailment	0.013513513513513514	0.0
@@ -226,7 +226,7 @@ index	prediction	label	vua_label	moh_label
 224	entailment	entailment	0.06315789473684211	0.0
 225	entailment	not_entailment	0.0821917808219178	0.0
 226	entailment	entailment	0.0	0.0
-227	entailment	entailment	0.11290322580645161	0.0
+227	entailment	entailment	0.11290322580645161	0.008064516129032258
 228	not_entailment	not_entailment	0.057692307692307696	0.0
 229	entailment	entailment	0.11594202898550725	0.0
 230	not_entailment	not_entailment	0.023809523809523808	0.0
@@ -266,7 +266,7 @@ index	prediction	label	vua_label	moh_label
 264	not_entailment	not_entailment	0.03636363636363636	0.0
 265	not_entailment	not_entailment	0.12844036697247707	0.0
 266	entailment	entailment	0.025	0.0
-267	entailment	not_entailment	0.10989010989010989	0.0
+267	entailment	not_entailment	0.10989010989010989	0.005494505494505495
 268	entailment	entailment	0.08333333333333333	0.0
 269	not_entailment	not_entailment	0.07692307692307693	0.0
 270	entailment	not_entailment	0.037037037037037035	0.0
@@ -275,4 +275,4 @@ index	prediction	label	vua_label	moh_label
 273	entailment	entailment	0.03278688524590164	0.0
 274	entailment	entailment	0.1	0.0
 275	entailment	entailment	0.04081632653061224	0.0
-276	entailment	not_entailment	0.11864406779661017	0.0
+276	entailment	not_entailment	0.11864406779661017	0.00847457627118644

@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
     pred_out1 = trainer.predict(ds1)
     predictions_1 = np.argmax(pred_out1.predictions, axis=-1)
-    true_pred_1 = [[l for l,m in zip(pred, att_mask)] for pred, att_mask in zip(predictions_1, ds1['attention_mask'])]
+    true_pred_1 = [[(l,tokenizer.convert_ids_to_tokens(id_)) for l,id_,m in zip(pred, ids, att_mask)] for pred, ids, att_mask in zip(predictions_1, ds1['input_ids'], ds1['attention_mask'])]
 
     ds = ds.add_column(col1+f'_{model_type}', true_pred_1)
 
@@ -65,6 +65,3 @@ if __name__ == '__main__':
         ds = ds.add_column(col2+f'_{model_type}', true_pred_2)
 
     ds.save_to_disk(output_dir)
-    
-
-
