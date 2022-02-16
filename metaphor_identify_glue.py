@@ -31,6 +31,7 @@ def get_token_label_parallel(tokens, attention_mask, labels):
         for t,a,l in zip(token, att_mask, label):
             ll.append(l)
             tl.append(tokenizer.convert_ids_to_tokens(t))
+        assert len(ll) == len(tl)
         true_label.append(ll)
         true_token.append(tl)
     return true_token, true_label

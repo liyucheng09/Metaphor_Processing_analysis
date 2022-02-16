@@ -10,20 +10,22 @@ import datasets
 import numpy as np
 from lyc.utils import get_tokenizer
 
-def add_metaphor_marker_with_meta_label_sequence(tokenizer, sentence, labels):
-    tokens = tokenizer.tokenize(sentence)
-    labels = labels[1:-1]
+def add_metaphor_marker_with_meta_label_sequence(tokens, labels):
+    assert len(tokens) == len(labels), f'{tokens} {labels}'
     if len(tokens) != len(labels):
         print(f'{tokens} {labels} **{len(tokens)-len(labels)}')
         return ''
     end_marker = 0
     for index, (token, label) in enumerate(zip(tokens, labels)):
+        if token.startswith('Ġ') and end_marker:
+            tokens[index] = '</m>' + tokens[index]
+            end_marker=0
         if not label:
             continue
         if token.startswith('Ġ'):
-            tokens[index] = token[0] + '<m>' + token[1:]
+            if label: tokens[index] = token[0] + '<m>' + token[1:]
             if end_marker:
-                tokens[index] = '</m>' + token
+                tokens[index] = '</m>' + tokens[index]
                 end_marker=0
         else: tokens[index] = '<m>' + token
         end_marker = 1
@@ -33,12 +35,11 @@ def add_metaphor_marker_with_meta_label_sequence(tokenizer, sentence, labels):
 def get_gleu_error_case_with_meta_label(meta_type = 'vua', num_samples = 100):
     def process(x):
         results = {}
-        results[col1] = add_metaphor_marker_with_meta_label_sequence(tokenizer, x[col1], x[col1+f'_{meta_type}'])
+        results[col1] = add_metaphor_marker_with_meta_label_sequence(x[col1+f'_{meta_type}_token'], x[col1+f'_{meta_type}'])
         if col2 is not None:
-            results[col2] = add_metaphor_marker_with_meta_label_sequence(tokenizer, x[col2], x[col2+f'_{meta_type}'])
+            results[col2] = add_metaphor_marker_with_meta_label_sequence(x[col2+f'_{meta_type}_token'], x[col2+f'_{meta_type}'])
         return results
 
-    tokenizer = get_tokenizer('roberta-base')
     for task in tasks:
         if task == 'mnli': continue
         col1, col2 = task_to_keys[task]
