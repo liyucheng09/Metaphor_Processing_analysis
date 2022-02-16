@@ -22,6 +22,19 @@ def data_preprocess(examples, col):
     result = tokenizer(examples[col])
     return result
 
+def get_token_label_parallel(tokens, attention_mask, labels):
+    true_label = []
+    true_token = []
+    for token, att_mask, label in zip(tokens, attention_mask, labels):
+        ll = []
+        tl = []
+        for t,a,l in zip(token, att_mask, label):
+            ll.append(l)
+            tl.append(tokenizer.convert_ids_to_tokens(t))
+        true_label.append(ll)
+        true_token.append(tl)
+    return true_token, true_label
+
 if __name__ == '__main__':
     model_name, task_name, save_folder, model_type = sys.argv[1:]
     # save_folder = '/vol/research/nlg/mpa/'
@@ -54,14 +67,19 @@ if __name__ == '__main__':
 
     pred_out1 = trainer.predict(ds1)
     predictions_1 = np.argmax(pred_out1.predictions, axis=-1)
-    true_pred_1 = [[(l,tokenizer.convert_ids_to_tokens(id_)) for l,id_,m in zip(pred, ids, att_mask)] for pred, ids, att_mask in zip(predictions_1, ds1['input_ids'], ds1['attention_mask'])]
 
-    ds = ds.add_column(col1+f'_{model_type}', true_pred_1)
+    true_token_1, true_label_1 = get_token_label_parallel(ds1['input_ids'], ds1['attention_mask'], predictions_1)    
+
+    ds = ds.add_column(col1+f'_{model_type}', true_label_1)
+    ds = ds.add_column(col1+f'_{model_type}_token', true_token_1)
 
     if col2 is not None:
         pred_out2 = trainer.predict(ds2)
         predictions_2 = np.argmax(pred_out2.predictions, axis=-1)
-        true_pred_2 = [[l for l,m in zip(pred, att_mask)] for pred, att_mask in zip(predictions_2, ds2['attention_mask'])]
-        ds = ds.add_column(col2+f'_{model_type}', true_pred_2)
+
+        true_token_2, true_label_2 = get_token_label_parallel(ds2['input_ids'], ds2['attention_mask'], predictions_2)    
+
+        ds = ds.add_column(col2+f'_{model_type}', true_label_2)
+        ds = ds.add_column(col2+f'_{model_type}_token', true_token_2)
 
     ds.save_to_disk(output_dir)

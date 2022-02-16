@@ -10,9 +10,10 @@ JobBatchName = "Identify Metaphor in GLUE"
 
 # --------------------------------------------
 
-model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
+model_name = /vol/research/nlg/frame_finder/checkpoints/labeling_no_token_type/
+# model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
 save_folder = /vol/research/lyc/mpa/
-model_type = moh
+model_type = vua
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
