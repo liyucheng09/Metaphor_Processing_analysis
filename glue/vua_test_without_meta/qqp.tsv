@@ -1,0 +1,29 @@
+question1	question2	pred	gold	vua_label
+<s> Which is better: computer science or information technology?</s>	<s> Which one is better: information technology or computer science and engineering?</s>	not_duplicate	not_duplicate	0.0
+<s> What year was Mars discovered? How was it discovered?</s>	<s> What year was Venus discovered, and how was it discovered?</s>	not_duplicate	not_duplicate	0.0
+<s> What is your new year resolution for 2017 or goal for 2017?</s>	<s> What's your New Year 2017 resolution?</s>	duplicate	duplicate	0.0
+<s> How do you treat asthma?</s>	<s> How do we treat asthma?</s>	duplicate	duplicate	0.0
+<s> Why is everyone hating Donald Trump, even though more than half of the USA has elected him to be the president?</s>	<s> How embarrassing is it for the USA to elect Donald Trump as its president?</s>	not_duplicate	not_duplicate	0.0
+<s> Who is second most richest man in the world?</s>	<s> Who is the richest person in the world?</s>	not_duplicate	not_duplicate	0.0
+<s> What is one incident that changed your life?</s>	<s> What is one decision that changed your life forever?</s>	duplicate	duplicate	0.0
+<s> Do South Indians think that North Indians are arrogant?</s>	<s> How do North Indians insult a South Indian?</s>	not_duplicate	not_duplicate	0.0
+<s> What is cached data? Will it cause any problems, if we clear cached data?</s>	<s> Is it ok to clear data and caches from most applications?</s>	not_duplicate	not_duplicate	0.0
+<s> How reliable is Chegg India?</s>	<s> How do I register for Chegg.com?</s>	not_duplicate	not_duplicate	0.0
+<s> How do I become a video game maker?</s>	<s> How do I become an indie game maker?</s>	duplicate	not_duplicate	0.0
+<s> What is genotype?</s>	<s> What is a homozygous genotype?</s>	not_duplicate	not_duplicate	0.0
+<s> What are the best made wigs?</s>	<s> What is the best wig brand?</s>	duplicate	duplicate	0.0
+<s> How are we enabled to see the black colour?</s>	<s> How can we see black colour?</s>	duplicate	duplicate	0.0
+<s> Why are there no mainstream 'good news' newspapers or TV programs?</s>	<s> Why is the mainstream news channels in India biased?</s>	not_duplicate	not_duplicate	0.0
+<s> What are the crucial benefits of outsourcing bookkeeping and accounting services?</s>	<s> Why should large financial companies prefer to outsource bookkeeping or accounting services?</s>	not_duplicate	not_duplicate	0.0
+<s> How can I download any video from any websites?</s>	<s> How can I download a playlist from any video streaming website?</s>	duplicate	duplicate	0.0
+<s> Which is the best GATE coaching for CS/IT in Indore?</s>	<s> Which is the best institute for GATE coaching in pune?</s>	not_duplicate	not_duplicate	0.0
+<s> What is Deep Panda?</s>	<s> What is baya panda?</s>	not_duplicate	not_duplicate	0.0
+<s> Why is Hillary Clinton a better choice than Donald Trump?</s>	<s> Who would be a better president: Hillary Clinton or Donald Trump?</s>	duplicate	duplicate	0.0
+<s> Where can I buy freshly baked cupcakes in Gold Coast?</s>	<s> Where can I found adorable baked cupcakes in Gold Coast?</s>	duplicate	not_duplicate	0.0
+<s> What is your definition of a good person?</s>	<s> What is your definition of a perfect person? Why?</s>	not_duplicate	not_duplicate	0.0
+<s> How do I contact a hacker?</s>	<s> Where can I find a qualified hacker?</s>	duplicate	duplicate	0.0
+<s> Which are the best SIPs to invest in India for the beginners?</s>	<s> Which are the best SIP to invest in India?</s>	not_duplicate	not_duplicate	0.0
+<s> How do I update Ruby on Windows via Gitbash?</s>	<s> How do I install/update Windows 10 driver?</s>	not_duplicate	not_duplicate	0.0
+<s> What should I do to improve my English ?</s>	<s> How could I improve my English?</s>	duplicate	duplicate	0.0
+<s> What are the symptoms of a bad idle air control valve?</s>	<s> What are some symptoms of a bad idle air control sensor?</s>	duplicate	not_duplicate	0.0
+<s> How does cannabis affect cancer?</s>	<s> Can cannabis oil cure cancer?</s>	duplicate	duplicate	0.0

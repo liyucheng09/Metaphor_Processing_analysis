@@ -1,0 +1,29 @@
+sentence1	sentence2	pred	gold	vua_label
+<s> The drain is clogged with hair. It has to be cleaned.</s>	<s> The drain has to be cleaned.</s>	not_entailment	entailment	0.0
+<s> There is a pillar between me and the stage, and I can't see it.</s>	<s> I can't see around the stage.</s>	not_entailment	entailment	0.0
+<s> Fred covered his eyes with his hands, because the wind was blowing sand around. He opened them when the wind stopped.</s>	<s> He opened his eyes when the wind stopped.</s>	not_entailment	entailment	0.0
+<s> The man couldn't lift his son because he was so heavy.</s>	<s> The son was so heavy.</s>	not_entailment	entailment	0.0
+<s> Ann asked Mary what time the library closes, because she had forgotten.</s>	<s> Mary had forgotten.</s>	not_entailment	not_entailment	0.0
+<s> The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.</s>	<s> The mouse was too cautious.</s>	not_entailment	entailment	0.0
+<s> Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very ill.</s>	<s> Carl was very ill.</s>	not_entailment	not_entailment	0.0
+<s> The dog chased the cat, which ran up a tree. It waited at the top.</s>	<s> The cat waited at the top.</s>	not_entailment	entailment	0.0
+<s> There is a pillar between me and the stage, and I can't see around it.</s>	<s> I can't see around the pillar.</s>	not_entailment	entailment	0.0
+<s> The older students were bullying the younger ones, so we rescued them.</s>	<s> We rescued the older students.</s>	not_entailment	not_entailment	0.0
+<s> The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.</s>	<s> The cat was too cautious.</s>	not_entailment	not_entailment	0.0
+<s> Emma did not pass the ball to Janie although she was open.</s>	<s> She saw that Emma was open.</s>	not_entailment	not_entailment	0.0
+<s> The drain is clogged with hair. It has to be removed.</s>	<s> The drain has to be removed.</s>	not_entailment	not_entailment	0.0
+<s> The large ball crashed right through the table because it was made of styrofoam.</s>	<s> The large ball was made of styrofoam.</s>	not_entailment	not_entailment	0.0
+<s> The father carried the sleeping boy in his arms.</s>	<s> The father carried the sleeping boy in the father's arms.</s>	not_entailment	entailment	0.0
+<s> The lawyer asked the witness a question, but he was reluctant to repeat it.</s>	<s> The lawyer was reluctant to repeat it.</s>	not_entailment	entailment	0.0
+<s> Madonna fired her trainer because she slept with her boyfriend.</s>	<s> She slept with the trainer's boyfriend.</s>	not_entailment	not_entailment	0.0
+<s> Jane knocked on Susan's door but she did not answer.</s>	<s> Susan did not answer.</s>	not_entailment	entailment	0.0
+<s> Fred is the only man still alive who remembers my great-grandfather. He is a remarkable man.</s>	<s> Fred is a remarkable man.</s>	not_entailment	entailment	0.0
+<s> Sam's drawing was hung just above Tina's and it did look much better with another one below it.</s>	<s> Tina's drawing did look much better with another one below it.</s>	not_entailment	not_entailment	0.0
+<s> Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like golfers.</s>	<s> The sheep ended up looking more like golfers.</s>	not_entailment	not_entailment	0.0
+<s> I couldn't put the pot on the shelf because it was too high.</s>	<s> The pot was too high.</s>	not_entailment	not_entailment	0.0
+<s> Fred and Alice had very warm down coats, but they were not enough for the cold in Alaska.</s>	<s> coats were not enough for the cold in Alaska.</s>	not_entailment	entailment	0.0
+<s> I poured water from the bottle into the cup until it was empty.</s>	<s> The bottle was empty.</s>	not_entailment	entailment	0.0
+<s> By rolling over in her upper berth, Tatyana could look over the edge of it and see her mother plainly. How very small and straight and rigid she lay in the bunk below! Her eyes were closed, but Tatyana doubted if she slept.</s>	<s> How very small and straight and rigid her mother lay in the bunk below!</s>	not_entailment	entailment	0.0
+<s> When they had eventually calmed down a bit, and had gotten home, Mr. Farley put the magic pebble in an iron safe. Some day they might want to use it , but really for now, what more could they wish for?</s>	<s> Some day they might want to use the safe.</s>	not_entailment	not_entailment	0.0
+<s> The delivery truck zoomed by the school bus because it was going so slow.</s>	<s> The school bus was going so slow.</s>	not_entailment	entailment	0.0
+<s> The city councilmen refused the demonstrators a permit because they advocated violence.</s>	<s> The demonstrators advocated violence.</s>	not_entailment	entailment	0.0

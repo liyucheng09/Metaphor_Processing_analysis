@@ -1,0 +1,59 @@
+sentence	pred	gold	vua_label
+<s> I no more could have stolen <m>that</m> steak than Jack the diamonds.</s>	unacceptable	acceptable	0.0769230769230769
+<s> The bookcase <m>ran</m></s>	acceptable	unacceptable	0.25
+<s> Agnes wondered how John could eat but it's not <m>clear</m> what.</s>	acceptable	unacceptable	0.0714285714285714
+<s> The bird <m>give</m> the worm a tug.</s>	acceptable	unacceptable	0.125
+<s> The TA's have been arguing <m>about</m> whether some student or other should <m>pass,</m> but I can't now remember which one.</s>	acceptable	unacceptable	0.0833333333333333
+<s> We preferred them <m>on</m> our team.</s>	unacceptable	acceptable	0.1428571428571428
+<s> John is tall <m>on</m> several occasions.</s>	acceptable	unacceptable	0.1428571428571428
+<s> No one can forgive <m>that</m> comment <m>to</m> you.</s>	acceptable	unacceptable	0.2222222222222222
+<s> Most people probably <m>consider,</m> even though the courts didn't actually <m>find,</m> Klaus guilty of murder.</s>	unacceptable	acceptable	0.1052631578947368
+<s> John was tall, but I don't know <m>on</m> what occasions.</s>	acceptable	unacceptable	0.0769230769230769
+<s> Drowning cats, which is <m>against</m> the law, are <m>hard</m> to rescue.</s>	acceptable	unacceptable	0.125
+<s> The ship sank, but I don't know <m>with</m> what.</s>	acceptable	unacceptable	0.0833333333333333
+<s> Max seemed to be trying to <m>force</m> Ted to leave the room, and Walt to stay a little longer.</s>	acceptable	unacceptable	0.0476190476190476
+<s> Rusty talked <m>about</m> himself only after Mary did talk <m>about</m> him.</s>	unacceptable	acceptable	0.1666666666666666
+<s> <m>In</m> which <m>way</m> is Clinton anxious to find out which budget dilemmas Panetta would be willing to <m>solve?</m></s>	acceptable	unacceptable	0.1363636363636363
+<s> The tank <m>leaked</m> the fluid <m>free.</m></s>	unacceptable	acceptable	0.2857142857142857
+<s> Tom's dog with one eye <m>attacked</m> Frank's with three legs.</s>	acceptable	unacceptable	0.0769230769230769
+<s> She said she talked <m>to those</m> students but I don't know how many.</s>	acceptable	unacceptable	0.1333333333333333
+<s> She said she talked <m>to</m> three students but I don't know how many.</s>	acceptable	unacceptable	0.0666666666666666
+<s> I can't remember the name of somebody who <m>had</m> misgivings.</s>	acceptable	unacceptable	0.0666666666666666
+<s> Put a picture of Bill on your desk <m>before</m> tomorrow, <m>this</m> girl in the red coat will put a picture of Bill on your desk <m>before</m> tomorrow.</s>	acceptable	unacceptable	0.1034482758620689
+<s> Max seemed to be trying to <m>force</m> Ted to leave the room, and Walt, Ira.</s>	unacceptable	acceptable	0.0526315789473684
+<s> What the water <m>did to</m> the whole bottle was fill it.</s>	acceptable	unacceptable	0.1666666666666666
+<s> <m>This</m> is the senator <m>to</m> whose mother's friend's sister's I sent the letter.</s>	unacceptable	acceptable	0.1176470588235294
+<s> Jack is the person <m>with</m> whom Jenny <m>fell in</m> love <m>with.</m></s>	acceptable	unacceptable	0.3333333333333333
+<s> John was <m>struck</m> by Bill as pompous.</s>	acceptable	unacceptable	0.1111111111111111
+<s> The jeweller scribbled the contract <m>with</m> his name.</s>	acceptable	unacceptable	0.0909090909090909
+<s> <m>In</m> which <m>way</m> is Sandy very anxious to <m>see</m> if the students will be able to solve the homework problem?</s>	acceptable	unacceptable	0.1428571428571428
+<s> Newsweek <m>about</m> crime appeared on the newsstands.</s>	acceptable	unacceptable	0.1
+<s> She said she had spoken <m>to</m> everybody, but he wasn't sure who.</s>	acceptable	unacceptable	0.0666666666666666
+<s> Jones, that we were talking <m>to</m> last night, always watches football games alone.</s>	acceptable	unacceptable	0.0625
+<s> The tube was <m>escaped</m> by gas.</s>	acceptable	unacceptable	0.1428571428571428
+<s> Which article did Terry file papers <m>without</m> reading?</s>	acceptable	unacceptable	0.1111111111111111
+<s> Maytag will <m>give</m> a brand-new dryer to the winner of the Mrs.</s>	acceptable	unacceptable	0.0588235294117647
+<s> Leslie told us <m>about</m> us.</s>	acceptable	unacceptable	0.1666666666666666
+<s> What the water <m>did to</m> the bottle was fill it.</s>	acceptable	unacceptable	0.1818181818181818
+<s> The proof <m>this set</m> is recursive is difficult.</s>	acceptable	unacceptable	0.2222222222222222
+<s> John regretted it that Bill <m>had</m> a good time.</s>	unacceptable	acceptable	0.1
+<s> She mailed John a letter, but I don't know <m>to</m> whom.</s>	acceptable	unacceptable	0.0714285714285714
+<s> They were interested <m>in</m> his.</s>	unacceptable	acceptable	0.1666666666666666
+<s> <m>On</m> whom are you counting to incriminate himself?</s>	unacceptable	acceptable	0.1
+<s> I know that Meg's <m>attracted to</m> Harry, but they don't know who.</s>	acceptable	unacceptable	0.125
+<s> There <m>presented</m> itself a wonderful opportunity yesterday.</s>	acceptable	unacceptable	0.125
+<s> <m>Dumb</m> ideas are <m>put</m> notions <m>in</m> children's <m>heads</m> by TV.</s>	acceptable	unacceptable	0.3333333333333333
+<s> How many feature <m>structures</m> categories can label the first daughter?</s>	unacceptable	acceptable	0.0909090909090909
+<s> It has been determined that somebody will be appointed; it's just not <m>clear</m> yet who.</s>	acceptable	unacceptable	0.0555555555555555
+<s> Which topic did you get bored because Mary talked <m>about?</m></s>	acceptable	unacceptable	0.0909090909090909
+<s> Gould's performance of Bach on the piano doesn't please me anywhere as much as Ross's <m>on</m> the harpsichord.</s>	acceptable	unacceptable	0.04
+<s> How <m>fierce</m> the <m>battle?</m></s>	acceptable	unacceptable	0.4
+<s> The mayor <m>regarded</m> as being absurd the proposal to build a sidewalk from Dartmouth to Smith.</s>	acceptable	unacceptable	0.0588235294117647
+<s> Joan said she talked <m>to</m> the students, but Fred couldn't <m>figure</m> out who.</s>	acceptable	unacceptable	0.125
+<s> how mad was Bill <m>made?</m></s>	unacceptable	acceptable	0.1666666666666666
+<s> John <m>left</m> orders to <m>follow</m> Pete.</s>	unacceptable	acceptable	0.2857142857142857
+<s> That the cops spoke <m>to</m> the janitor <m>about</m> it yesterday is terrible, <m>that</m> robbery.</s>	acceptable	unacceptable	0.1764705882352941
+<s> Which girl did Mike quip never wore <m>this</m> hat?</s>	acceptable	unacceptable	0.0909090909090909
+<s> She doesn't meet anyone for dinner, but they can't <m>figure</m> out who.</s>	acceptable	unacceptable	0.0625
+<s> It was believed to be illegal by them to do <m>that.</m></s>	acceptable	unacceptable	0.0833333333333333
+<s> I think Agnes said that Bill would speak, but I don't remember what <m>about.</m></s>	unacceptable	acceptable	0.0555555555555555

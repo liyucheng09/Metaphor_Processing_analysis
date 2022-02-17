@@ -12,4 +12,4 @@ __pycache__/
 logs/
 glue/moh
 glue/vua
-glue/
+glue/vua_with_sentence

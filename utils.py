@@ -17,18 +17,26 @@ def add_metaphor_marker_with_meta_label_sequence(tokens, labels):
         return ''
     end_marker = 0
     for index, (token, label) in enumerate(zip(tokens, labels)):
-        if token.startswith('Ġ') and end_marker:
-            tokens[index] = '</m>' + tokens[index]
-            end_marker=0
-        if not label:
-            continue
-        if token.startswith('Ġ'):
-            if label: tokens[index] = token[0] + '<m>' + token[1:]
+        if label:
             if end_marker:
+                continue
+            if token.startswith('Ġ'):
+                tokens[index] = token[0] + '<m>' + token[1:]
+            else: 
+                tokens[index] = '<m>' + token
+            end_marker = 1
+        else:
+            if (token.startswith('Ġ') or token=='</s>') and end_marker:
                 tokens[index] = '</m>' + tokens[index]
                 end_marker=0
-        else: tokens[index] = '<m>' + token
-        end_marker = 1
+        # if token.startswith('Ġ'):
+        #     if label: tokens[index] = token[0] + '<m>' + token[1:]
+        #     if end_marker:
+        #         tokens[index] = '</m>' + tokens[index]
+        #         end_marker=0
+        # else: 
+        #     if label:tokens[index] = '<m>' + token
+        # if label: end_marker = 1
     sentence = ''.join(tokens).replace('Ġ', ' ')
     return sentence
 
@@ -51,13 +59,16 @@ def get_gleu_error_case_with_meta_label(meta_type = 'vua', num_samples = 100):
             ds = ds.add_column('gold', gold)
             ds = ds.add_column(f'{meta_type}_label', meta_label)
             ds.save_to_disk(f'glue/{meta_type}_with_sentence/{task}')
-        ds = ds.map(process, load_from_cache_file=False)
+        remove_cols = ['label', 'idx', f'{col1}_{meta_type}', f'{col1}_{meta_type}_token']
+        if col2 is not None:
+            remove_cols += [f'{col2}_{meta_type}', f'{col2}_{meta_type}_token']
+        ds = ds.map(process, load_from_cache_file=False, remove_columns=remove_cols)
         df = ds.to_pandas()
-        df = df[ df['pred']!=df['gold'] ]
-        df = df[ df[f'{meta_type}_label']>0]
+        # df = df[ df['pred']==df['gold'] ]
+        df = df[ df[f'{meta_type}_label']==0]
         num_samples = min(num_samples, len(df.index))
         samples = df.sample(n=num_samples, replace=False)
-        samples.to_csv(f'glue/{meta_type}_error/{task}.tsv', index=False, sep='\t')
+        samples.to_csv(f'glue/{meta_type}_test_without_meta/{task}.tsv', index=False, sep='\t')
         print(f'succesfully saved {task}.')
 
 def produce_metaphoricity_for_glue():

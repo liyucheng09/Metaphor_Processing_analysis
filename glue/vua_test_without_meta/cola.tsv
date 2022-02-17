@@ -1,0 +1,101 @@
+sentence	pred	gold	vua_label
+<s> Gilgamesh is having fought the dragon.</s>	unacceptable	unacceptable	0.0
+<s> Mary wonders that Bill will come.</s>	unacceptable	unacceptable	0.0
+<s> Susan whispered the news.</s>	acceptable	acceptable	0.0
+<s> Protect yourself!</s>	acceptable	acceptable	0.0
+<s> Cohen proved the independence of the continuum hypothesis.</s>	acceptable	acceptable	0.0
+<s> You may pick every flower, but leave a few for Mary.</s>	acceptable	unacceptable	0.0
+<s> Ted was bitten by the spider.</s>	acceptable	acceptable	0.0
+<s> Because she's so pleasant, as for Mary I really like her.</s>	unacceptable	unacceptable	0.0
+<s> List associates of each defendant who speaks Spanish.</s>	acceptable	acceptable	0.0
+<s> Mira condemned Terry for the accident.</s>	acceptable	acceptable	0.0
+<s> The visitor rang the bell.</s>	acceptable	acceptable	0.0
+<s> I met the person who left.</s>	acceptable	acceptable	0.0
+<s> A letter was received that Jones would be upset by.</s>	acceptable	acceptable	0.0
+<s> Herself likes Mary's mother.</s>	unacceptable	unacceptable	0.0
+<s> John offers many advice.</s>	unacceptable	unacceptable	0.0
+<s> John decided for Bill to get the prize.</s>	acceptable	unacceptable	0.0
+<s> I squeaked the door.</s>	acceptable	unacceptable	0.0
+<s> The teacher handed the student.</s>	unacceptable	unacceptable	0.0
+<s> How sane is Peter?</s>	acceptable	acceptable	0.0
+<s> A pound was weighed by the book.</s>	unacceptable	unacceptable	0.0
+<s> John is easy to please Kim.</s>	unacceptable	unacceptable	0.0
+<s> A chair was broken.</s>	acceptable	acceptable	0.0
+<s> Fluffy is sick, which not everybody knows.</s>	acceptable	acceptable	0.0
+<s> John's arriving dead surprised me.</s>	unacceptable	acceptable	0.0
+<s> John heard that they criticized themselves.</s>	acceptable	unacceptable	0.0
+<s> Nora sent Peter the book.</s>	acceptable	acceptable	0.0
+<s> the attempt by John to leave surprised me.</s>	acceptable	acceptable	0.0
+<s> What did you ask who Medea gave?</s>	unacceptable	unacceptable	0.0
+<s> Jerry attempted to blow up the Pentagon.</s>	acceptable	acceptable	0.0
+<s> Sarah promised Catherine her old car, but then gave it to her son instead.</s>	acceptable	acceptable	0.0
+<s> John likes some students, but I don't know who John likes some students.</s>	unacceptable	unacceptable	0.0
+<s> We launched the rocket to the moon, but it blew up before it got there.</s>	acceptable	acceptable	0.0
+<s> John was believed by Mary to be telling the truth.</s>	acceptable	acceptable	0.0
+<s> I bought three quarts of wine and two of Clorox.</s>	acceptable	acceptable	0.0
+<s> To please John is easy.</s>	acceptable	acceptable	0.0
+<s> Will he can do it?</s>	unacceptable	acceptable	0.0
+<s> a tall building.</s>	acceptable	acceptable	0.0
+<s> Heidi likes her violin.</s>	acceptable	acceptable	0.0
+<s> The bird sing.</s>	acceptable	unacceptable	0.0
+<s> Arizona elected Goldwater Senator, and Massachusetts, McCormack.</s>	acceptable	unacceptable	0.0
+<s> Chocolate eggs were hidden from each other by the children.</s>	acceptable	unacceptable	0.0
+<s> I have much of the manuscript left to type.</s>	acceptable	acceptable	0.0
+<s> Burn them!</s>	acceptable	acceptable	0.0
+<s> I was already aware of fact.</s>	acceptable	unacceptable	0.0
+<s> Everyone hopes everyone to sleep.</s>	unacceptable	unacceptable	0.0
+<s> The elixir was hidden in a hole in the ground</s>	acceptable	acceptable	0.0
+<s> John became rich.</s>	acceptable	acceptable	0.0
+<s> Chris was handed.</s>	unacceptable	unacceptable	0.0
+<s> I sensed his eagerness.</s>	acceptable	acceptable	0.0
+<s> Books were taken from no student and given to Mary by any professor.</s>	acceptable	unacceptable	0.0
+<s> Kim gave a dollar to Bobbie and a dime to Jean.</s>	acceptable	acceptable	0.0
+<s> Linda taped the picture onto the wall.</s>	acceptable	acceptable	0.0
+<s> Simon quickly dropped the gold, and Jack the diamonds.</s>	acceptable	acceptable	0.0
+<s> I saw even the student.</s>	acceptable	acceptable	0.0
+<s> I gave a book to Bill to read.</s>	acceptable	acceptable	0.0
+<s> Brian threw the fence with the stick.</s>	unacceptable	unacceptable	0.0
+<s> Dave, Dan, Erin, Jaime, and Alina left.</s>	acceptable	acceptable	0.0
+<s> Bill ate more peaches than Harry did grapes.</s>	acceptable	acceptable	0.0
+<s> No writer, nor any playwright, meets in Vienna.</s>	acceptable	unacceptable	0.0
+<s> John tried to be a good boy.</s>	acceptable	acceptable	0.0
+<s> We walks.</s>	unacceptable	unacceptable	0.0
+<s> I know which book Mag read, and which book Bob read my report that you hadn't.</s>	unacceptable	unacceptable	0.0
+<s> It was to to amuse us that Kim was singing that they wanted.</s>	unacceptable	unacceptable	0.0
+<s> Clearly, John probably will immediately learn French perfectly.</s>	acceptable	acceptable	0.0
+<s> Susan told her a story.</s>	acceptable	acceptable	0.0
+<s> How did you guess that he fixed the computer?</s>	acceptable	acceptable	0.0
+<s> Lou forgot the umbrella in the closet.</s>	acceptable	acceptable	0.0
+<s> Lee saw the student with a telescope.</s>	acceptable	acceptable	0.0
+<s> John believes it that Bill is here.</s>	acceptable	unacceptable	0.0
+<s> We like ourselves.</s>	acceptable	acceptable	0.0
+<s> I gave Pete the book to impress.</s>	acceptable	unacceptable	0.0
+<s> You must pick any flower you see.</s>	acceptable	acceptable	0.0
+<s> The paper is cut by Mary.</s>	acceptable	acceptable	0.0
+<s> In which car was the man seen?</s>	acceptable	acceptable	0.0
+<s> We investigated the area for bombs.</s>	unacceptable	acceptable	0.0
+<s> What they feared most was to be no one available to help them.</s>	acceptable	unacceptable	0.0
+<s> John was promised by Bill to leave.</s>	acceptable	unacceptable	0.0
+<s> I presented it to Bill to read.</s>	acceptable	acceptable	0.0
+<s> Which report that John was incompetent did he submit?</s>	acceptable	unacceptable	0.0
+<s> The jury believed the defendant lied.</s>	acceptable	acceptable	0.0
+<s> John convinced Bill that Mary should sleep.</s>	acceptable	acceptable	0.0
+<s> My mother is easy to please my father and.</s>	unacceptable	unacceptable	0.0
+<s> The teacher became.</s>	unacceptable	unacceptable	0.0
+<s> I served leek soup to my guests.</s>	acceptable	acceptable	0.0
+<s> It was the policeman met that several young students in the park last night.</s>	unacceptable	unacceptable	0.0
+<s> Sandy was trying to work out which students would be able to solve a certain problem, but she wouldn't tell us which one.</s>	acceptable	unacceptable	0.0
+<s> I bought it to give to Pete.</s>	acceptable	acceptable	0.0
+<s> The boat seen down the river sank.</s>	acceptable	acceptable	0.0
+<s> The cat got bitten.</s>	acceptable	acceptable	0.0
+<s> John is sad.</s>	acceptable	acceptable	0.0
+<s> Everyone hopes that he will sleep.</s>	acceptable	acceptable	0.0
+<s> They kicked them</s>	acceptable	acceptable	0.0
+<s> John is afraid of Bill.</s>	acceptable	acceptable	0.0
+<s> John left singing.</s>	acceptable	acceptable	0.0
+<s> I would prefer to leave.</s>	acceptable	acceptable	0.0
+<s> Did Athena help us?</s>	acceptable	acceptable	0.0
+<s> Mary arranged for, in St. Louis, John to rent a house cheap.</s>	unacceptable	unacceptable	0.0
+<s> Visiting relatives can be boring.</s>	acceptable	acceptable	0.0
+<s> Carla slid the book.</s>	unacceptable	acceptable	0.0
+<s> Somebody just left - guess who.</s>	acceptable	acceptable	0.0

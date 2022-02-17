@@ -1,0 +1,40 @@
+question1	question2	pred	gold	vua_label
+"<s> ""Are """"objects in the mirror really closer than they appear"""" in any vehicle?""</s>"	"<s> ""Why do car mirrors <m>state</m> that """"objects in mirror are closer than they appear""""?""</s>"	duplicate	not_duplicate	0.027027027027027
+<s> How do I <m>control</m> my diabetes?</s>	<s> What are risk Factor of diabetes?</s>	duplicate	not_duplicate	0.0625
+<s> Should I choose <m>further</m> maths or physics for my AS <m>Level?</m></s>	<s> Should I do <m>further</m> maths or physics <m>at</m> A <m>level?</m></s>	duplicate	not_duplicate	0.2
+<s> How flipkart <m>works?</m></s>	<s> How do companies like Flipkart actually <m>work?</m></s>	duplicate	not_duplicate	0.1111111111111111
+<s> How do I <m>find</m> investors for my medical startup?</s>	<s> How do I <m>find</m> investors for my startup?</s>	duplicate	not_duplicate	0.0952380952380952
+<s> Why do I <m>get</m> dreams daily?</s>	<s> Why do we <m>get dreams?</m></s>	duplicate	not_duplicate	0.2
+<s> What are thelatest off campus placements for 2017 <m>batch?</m></s>	<s> Is there any off campus placement for 2017 <m>batch?</m></s>	duplicate	not_duplicate	0.0833333333333333
+<s> Why Modi's followers hate Rajdeep Sardesai? Is Rajdeep Sardesai a 'Bad<m>ass</m> Journalist' or Sonia Gandhi's syc<m>ophant?</m></s>	<s> Why do some people hate Rajdeep Sardesai?</s>	not_duplicate	duplicate	0.0652173913043478
+<s> Will India ever be corruption-<m>free?</m></s>	<s> What <m>steps</m> must Indians <m>take</m> to <m>make</m> India corruption <m>free?</m></s>	duplicate	not_duplicate	0.238095238095238
+<s> I lost my prescription slip for norco 10-325 <m>before</m> having filled it what can I do?</s>	<s> What do I do if I have lost my prescription <m>slips?</m></s>	not_duplicate	duplicate	0.0588235294117647
+<s> What food should one eat to <m>gain</m> weight on their face?</s>	<s> How do I <m>gain</m> weight on my face?</s>	duplicate	not_duplicate	0.0869565217391304
+<s> How can I get Fifa 17 Coins and Points for free?</s>	<s> FIFA 17 coins Generator Online is generating coins for FIFA 17 but only once. How can I <m>bypass</m> the restriction to generate coins multiple times for free?</s>	not_duplicate	duplicate	0.0232558139534883
+<s> What are sugar skulls?</s>	<s> What do sugar skulls symbol<m>ize?</m></s>	duplicate	not_duplicate	0.0714285714285714
+<s> Why did Paul Manafort quit as Donald Trump's presidential campaign chairman?</s>	<s> How <m>big</m> of a <m>deal</m> is Paul Manafort's resignation as TrumpâĢĻs campaign chairman?</s>	duplicate	not_duplicate	0.0606060606060606
+<s> What is sex like with an older man?</s>	<s> What is it like to <m>have</m> sex with a older man?</s>	duplicate	not_duplicate	0.0434782608695652
+<s> How is Tanmay Bhat <m>losing</m> weight?</s>	<s> Tanmay Bhat: How did you <m>manage</m> to reduce your fat?</s>	duplicate	not_duplicate	0.08
+<s> How do I stop my dog <m>from</m> whining <m>after</m> getting spayed?</s>	<s> How do I stop my dog <m>from</m> whining?</s>	not_duplicate	duplicate	0.125
+<s> What are the best books for preparation for CAT?</s>	<s> What are the <m>section-wise</m> best books to <m>prepare</m> for CAT?</s>	not_duplicate	duplicate	0.12
+<s> What are the best books to learn data <m>structures?</m></s>	<s> What are the best books for learning data <m>structures?</m></s>	duplicate	not_duplicate	0.0909090909090909
+<s> Can Dr. Anbumani Ramadoss win the 2016 elections?</s>	<s> Will Anbumani Ramadoss <m>stage</m> a surprise <m>in</m> the coming elections?</s>	duplicate	not_duplicate	0.064516129032258
+<s> What are some examples of a terrible trailer for a <m>great</m> film?</s>	<s> What examples are there of <m>brilliant</m> films with terrible trailers?</s>	not_duplicate	duplicate	0.0769230769230769
+<s> How do I <m>hack</m> Instagram account? Someone is using my identity and posting inappropriate post?</s>	<s> Can anyone hack into your Instagram account?</s>	duplicate	not_duplicate	0.037037037037037
+<s> Are there any complications if you <m>lose</m> 40 pounds <m>in</m> 3 months?</s>	<s> What are some diets you can <m>take</m> to <m>lose</m> 40 pounds <m>in</m> 3 months?</s>	duplicate	not_duplicate	0.1666666666666666
+<s> How is Italian leather manufactured that <m>makes</m> it so expensive?</s>	<s> Why is Italian leather better than other types of leathers?</s>	not_duplicate	duplicate	0.04
+<s> How good are questions <m>on</m> Quora?</s>	<s> What are some good questions for new Quora users to check out?</s>	duplicate	not_duplicate	0.0416666666666666
+<s> What are the pros and cons of buying a used car <m>from</m> a rental agency <m>directly?</m> (example: buying an Accord <m>from</m> Hertz Used Car Sales)</s>	<s> Is buying used cars from Avis or Hertz a good idea?</s>	not_duplicate	duplicate	0.0652173913043478
+<s> How do you delete messages on Snapchat?</s>	<s> How do I <m>delete</m> a conversation <m>from</m> snapchat?</s>	not_duplicate	duplicate	0.1
+<s> How do I achieve <m>in</m> life?</s>	<s> How do I achieve myself <m>in</m> life?</s>	duplicate	not_duplicate	0.1176470588235294
+<s> How can I post an article on Quora?</s>	<s> How do I share an article <m>on</m> Quora?</s>	duplicate	not_duplicate	0.0454545454545454
+<s> Anybody willing to do online group study for cfa <m>level</m> 1 exam 2015? Let me know</s>	<s> How can I <m>join</m> Whatsapp group of CFA <m>level</m> 1 aspirants?</s>	not_duplicate	duplicate	0.0833333333333333
+<s> Why does the Catholic Church <m>oppose</m> artificial contraception?</s>	<s> Why does the Catholic Church <m>oppose</m> contraception?</s>	duplicate	not_duplicate	0.1052631578947368
+<s> What could be the implications of Mulayam Singh expelling Akhilesh Yadav <m>from</m> his party?</s>	<s> Why did Mulayam Singh Yadav expel Akhilesh Yadav <m>from</m> Samajwadi Party? What do you think <m>about</m> it?</s>	duplicate	not_duplicate	0.0566037735849056
+<s> What are the <m>top</m> ten speech recognition APIs?</s>	<s> What are some good voice recognition APIs?</s>	duplicate	not_duplicate	0.0526315789473684
+<s> Can <m>high levels</m> of anxiety <m>over</m> period of time cause brain damage?</s>	<s> Can <m>high levels</m> of <m>negative/</m> unpleasant emotions cause brain damage?</s>	not_duplicate	duplicate	0.2222222222222222
+<s> What is Quantitative Analysis <m>in</m> finance? How is it <m>applied?</m></s>	<s> What is quantitative analysis?</s>	not_duplicate	duplicate	0.1
+<s> Where do I go to learn how to become a <m>full stack</m> developer for free?</s>	<s> Any <m>free</m> video tutorial <m>resources</m> to learn <m>full stack</m> development?</s>	duplicate	not_duplicate	0.2068965517241379
+<s> What would be the best name for a cartoon studio that <m>makes</m> fantasy novels <m>into</m> wacky and z<m>any</m> animated movies?</s>	<s> What would be the best name for an animation studio that <m>makes</m> books <m>into</m> movies?</s>	not_duplicate	duplicate	0.1219512195121951
+<s> What is one <m>thing</m> you like and one you hate <m>about</m> your religion?</s>	<s> What are <m>things</m> you hate <m>about</m> your religion?</s>	not_duplicate	duplicate	0.16
+<s> What is the difference <m>between</m> an animal cell and a plant cell?</s>	<s> What is the difference <m>between</m> plant cell <m>vacuoles</m> and animal cell <m>vacuoles?</m></s>	duplicate	not_duplicate	0.1875

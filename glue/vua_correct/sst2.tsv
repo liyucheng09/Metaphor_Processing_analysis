@@ -1,0 +1,101 @@
+sentence	pred	gold	vua_label
+<s> a mood<m>y</m> , multi-dimensional love story and sci-fi mystery , solaris is a thought-prov<m>oking</m> , <m>haunting</m> film that <m>allows</m> the <m>seeds</m> of the imagination to <m>germinate</m> . </s>	positive	positive	0.2051282051282051
+<s> the wild thornberrys movie is a <m>jolly</m> surprise . </s>	positive	positive	0.1538461538461538
+<s> the story and <m>structure</m> are well-<m>honed</m> . </s>	positive	positive	0.2727272727272727
+<s> <m>this</m> is a good script , good dialogue , funny even for adults . </s>	positive	positive	0.0666666666666666
+<s> basically a <m>static</m> series of semi-improvised ( and semi-coherent ) <m>raps</m> between the stars . </s>	negative	negative	0.125
+<s> every nanosecond of the the new guy reminds you that you could be doing something else <m>far</m> more pleasurable . </s>	negative	negative	0.0416666666666666
+<s> not since tom cruise <m>in</m> risky business has an actor <m>made</m> such a <m>strong impression</m> in his underwear . </s>	positive	positive	0.2
+<s> villeneuve <m>spends</m> too much time <m>wallowing in</m> bibi 's generic angst ( there are a <m>lot</m> of shots of her gazing out windows ) . </s>	negative	negative	0.1612903225806451
+<s> for starters , the story is just too <m>slim</m> . </s>	negative	negative	0.0909090909090909
+<s> griffiths proves she 's <m>that</m> rare luminary who continually <m>raises</m> the <m>standard</m> of her profession . </s>	positive	positive	0.1428571428571428
+<s> <m>at</m> times , the suspense is <m>palpable</m> , but <m>by</m> the <m>end</m> there 's a <m>sense</m> that the cru<m>x</m> of the mystery <m>hinges on</m> a technicality that <m>strains</m> credulity and <m>leaves</m> the viewer <m>haunted</m> by the <m>waste</m> of potential . </s>	negative	negative	0.2608695652173913
+<s> <m>without</m> non-<m>stop</m> techno or the existential over<m>tones</m> of a kieslowski morality tale , maelstrÃ¶m is just another winter sleepers . </s>	negative	negative	0.09375
+<s> for each chuckle there are at least 10 complete <m>misses</m> , many <m>coming from</m> the amazingly lifelike tara reid , whose acting skills are comparable <m>to</m> a cardboard <m>cutout</m> . </s>	negative	negative	0.1666666666666666
+<s> it 's <m>played in</m> the most <m>straight-faced fashion</m> , <m>with</m> little humor to <m>lighten</m> things <m>up</m> . </s>	negative	negative	0.4090909090909091
+<s> <m>this</m> tenth feature is a <m>big</m> deal , indeed -- at least the third-best , and maybe even a <m>notch above</m> the previous runner-up , nicholas meyer 's star trek vi : the undiscovered country . </s>	positive	positive	0.0869565217391304
+<s> it <m>showcases</m> carvey 's talent for voices , but not nearly enough and not <m>without taxing</m> every <m>drop</m> of one 's patience to <m>get to</m> the good <m>stuff</m> . </s>	negative	negative	0.2121212121212121
+<s> ... a fun <m>little</m> timewaster , <m>helped</m> especially by the <m>cool</m> presence of jean reno . </s>	positive	positive	0.1428571428571428
+<s> the piece <m>plays</m> as well as it does thanks <m>in large</m> measure <m>to</m> anspaugh 's three <m>lead</m> actresses . </s>	positive	positive	0.217391304347826
+<s> pumpkin <m>takes</m> an admirable <m>look at</m> the hypocrisy of political correctness , but it does so <m>with</m> such an <m>uneven tone</m> that you never know when humor <m>ends</m> and tragedy begins . </s>	negative	negative	0.2121212121212121
+<s> <m>sticky sweet</m> sentimentality , <m>clumsy</m> plotting and a <m>rosily</m> my<m>opic view</m> of life in the wwii-era mississippi delta undermine <m>this adaptation</m> . </s>	negative	negative	0.2727272727272727
+<s> the humor is n't as <m>sharp</m> , the effects not as innovative , nor the story as imaginative as <m>in</m> the original . </s>	negative	negative	0.08
+<s> some of their jokes <m>work</m> , but most fail miserably and <m>in</m> the <m>end</m> , pumpkin is <m>far</m> more offensive than it is funny . </s>	negative	negative	0.1481481481481481
+<s> it 's a much more emotional <m>journey</m> than what shyamalan has <m>given</m> us <m>in</m> his past two movies , and gibson , <m>stepping</m> in for bruce willis , is the perfect actor to <m>take</m> us <m>on</m> the trip . </s>	positive	positive	0.1304347826086956
+<s> there are <m>plot holes</m> big enough for shamu the killer whale to swim through . </s>	negative	negative	0.1176470588235294
+<s> ( grant 's ) <m>bumbling magic takes over</m> the film , and it <m>turns</m> out to be another <m>winning star vehicle</m> . </s>	positive	positive	0.36
+<s> a <m>tender</m> , <m>heartfelt</m> family drama . </s>	positive	positive	0.25
+<s> davis ... is so enamored of her own creation that she ca n't <m>see</m> how insufferable the character is . </s>	negative	negative	0.037037037037037
+<s> if there 's one <m>thing this</m> world <m>needs</m> less of , it 's movies <m>about</m> college that are written and directed by people who could n't <m>pass</m> an entrance exam . </s>	negative	negative	0.1428571428571428
+<s> for anyone unfamiliar <m>with</m> pentacostal practices in general and theatrical phenomenon of hell houses in particular , it 's an eye-<m>opener</m> . </s>	positive	positive	0.1
+<s> what the director ca n't do is <m>make</m> either of val kilmer 's two personas interesting or <m>worth</m> caring <m>about</m> . </s>	negative	negative	0.1153846153846153
+<s> instead , he <m>shows</m> them the respect they are <m>due</m> . </s>	positive	positive	0.1666666666666666
+<s> <m>that</m> 's a cheat . </s>	negative	negative	0.1428571428571428
+<s> there is a <m>fabric</m> of <m>complex</m> ideas <m>here</m> , and feelings that profoundly <m>deepen</m> them . </s>	positive	positive	0.2352941176470588
+<s> the notion that bombing buildings is the funniest <m>thing</m> in the world <m>goes</m> entirely unexam<m>ined in this</m> startlingly unfunny comedy . </s>	negative	negative	0.1851851851851851
+<s> it <m>treats</m> women like <m>idiots</m> . </s>	negative	negative	0.2857142857142857
+<s> the script <m>kicks in</m> , and mr. hartley 's <m>distended</m> pace and foot-<m>dragging</m> rhythms <m>follow</m> . </s>	negative	negative	0.2692307692307692
+<s> <m>that</m> is a compliment <m>to</m> kuras and miller . </s>	positive	positive	0.1666666666666666
+<s> velocity represents everything wrong <m>with</m> '' independent film '' as a commod<m>ified</m> , sold-<m>out</m> concept <m>on</m> the american filmmaking <m>scene</m> . </s>	negative	negative	0.1923076923076923
+<s> stealing harvard as<m>pires to</m> comedic <m>grand</m> larceny but <m>stands</m> convicted of nothing more than petty theft of your time . </s>	negative	negative	0.16
+<s> feature debuter d.j. caruso directs a crack ensemble <m>cast</m> , <m>bringing</m> screenwriter tony gayton 's narcotics noir <m>to life</m> . </s>	positive	positive	0.125
+<s> harris <m>commands</m> the screen , using his frailty to <m>suggest</m> the <m>ravages</m> of a life of corruption and ruthlessness . </s>	positive	positive	0.16
+<s> a by-the-numbers effort that wo n't <m>do</m> much to enhance the <m>franchise</m> . </s>	negative	negative	0.1
+<s> the <m>piquant</m> story <m>needs</m> more <m>dramatic meat on</m> its <m>bones</m> . </s>	negative	negative	0.5714285714285714
+<s> it 's inoffensive , cheerful , <m>built</m> to inspire the young people , <m>set to</m> an un<m>ending</m> soundtrack of beach party pop numbers and aside from its remarkable cameraw<m>ork</m> and awesome scenery , it 's <m>about</m> as exciting as a sun<m>burn</m> . </s>	negative	negative	0.14
+<s> <m>at</m> a time when half the so-called real movies are little more than live-action cartoons , it 's refreshing to see a cartoon that <m>knows</m> what it is , and <m>knows</m> the <m>form</m> 's history . </s>	positive	positive	0.0930232558139534
+<s> bennett 's naturalistic performance <m>speaks volumes</m> more truth than any ` reality ' show , and anybody contemplating their own <m>drastic</m> life changes should watch some body first . </s>	positive	positive	0.0909090909090909
+<s> the mesmerizing performances of the leads <m>keep</m> the film <m>grounded</m> and <m>keep</m> the audience <m>riveted</m> . </s>	positive	positive	0.2631578947368421
+<s> if your taste <m>runs to</m> ` difficult ' films you absolutely ca n't <m>miss</m> it . </s>	positive	positive	0.1666666666666666
+<s> / but daphne , you 're too buff / fred thinks he 's <m>tough</m> / and velma - wow , you 've <m>lost</m> weight ! </s>	negative	negative	0.0606060606060606
+<s> <m>this</m> is not the undisputed worst boxing movie ever , but it 's certainly not a <m>champion</m> - the <m>big loser</m> is the audience . </s>	negative	negative	0.1428571428571428
+<s> the plot <m>convolutions</m> ultimately <m>add up to</m> nothing more than <m>jerking</m> the audience 's <m>chain</m> . </s>	negative	negative	0.4
+<s> fresnadillo 's <m>dark</m> and <m>jolting</m> images <m>have</m> a <m>way</m> of <m>plying into</m> your subconscious like the nightmare you <m>had</m> a week ago that wo n't <m>go away</m> . </s>	positive	positive	0.3243243243243243
+<s> the so-inept - it 's - surreal dubbing ( featuring the voices of glenn close , regis philbin and breckin meyer ) <m>brings back</m> memories of cheesy <m>old godzilla</m> flicks . </s>	negative	negative	0.1111111111111111
+<s> however it may please those who love movies that <m>blare with</m> pop songs , young science fiction fans will <m>stomp</m> away <m>in</m> disgust . </s>	negative	negative	0.1923076923076923
+<s> two hours <m>fly by</m> -- opera 's a pleasure when you do n't have to endure intermissions -- and even a novice <m>to</m> the <m>form comes away</m> exhilarated . </s>	positive	positive	0.1764705882352941
+<s> the movie <m>has</m> an <m>infectious</m> exuberance that will <m>engage</m> anyone <m>with</m> a <m>passing</m> interest <m>in</m> the skate/surf <m>culture</m> , the l.a. beach <m>scene</m> and the imaginative ( and sometimes illegal ) <m>ways</m> kids can <m>make</m> a playground out of the refuse of adults . </s>	positive	positive	0.1886792452830188
+<s> it 's a lovely film <m>with</m> lovely performances by buy and accorsi . </s>	positive	positive	0.0625
+<s> more <m>whiny</m> downer than <m>corruscating</m> commentary . </s>	negative	negative	0.4615384615384615
+<s> it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , <m>without</m> all oedekerk 's <m>impish augmentation</m> . </s>	negative	negative	0.1020408163265306
+<s> what the film <m>lacks</m> in general <m>focus</m> it <m>makes up</m> for <m>in</m> compassion , as corcuera <m>manages</m> to <m>find</m> the <m>seeds</m> of hope <m>in</m> the <m>form</m> of collective action . </s>	positive	positive	0.303030303030303
+<s> so unremittingly awful that labeling it a dog probably constitutes cruelty <m>to</m> canines . </s>	negative	negative	0.0555555555555555
+<s> it <m>has</m> the <m>charm</m> of the original american road movies , <m>feasting on</m> the gorgeous , ramsh<m>ackle</m> landscape of the filmmaker 's <m>motherland</m> . </s>	positive	positive	0.2258064516129032
+<s> it <m>confirms</m> fincher 's <m>status</m> as a film maker who artfully <m>bends</m> technical know-how <m>to</m> the <m>service</m> of psychological insight . </s>	positive	positive	0.1851851851851851
+<s> <m>in</m> a <m>way</m> , the film <m>feels</m> like a <m>breath</m> of <m>fresh air</m> , but only <m>to those</m> that <m>allow</m> it <m>in</m> . </s>	positive	positive	0.4166666666666667
+<s> director of photography benoit delhomme shot the movie <m>in</m> delicious colors , and the costumes and sets are grand . </s>	positive	positive	0.0416666666666666
+<s> so unassuming and <m>pure</m> of heart , you ca n't help but warmly extend your arms and yell ` safe ! ' </s>	positive	positive	0.0384615384615384
+<s> <m>on this tricky</m> topic , tadpole is very much a <m>step in</m> the right <m>direction</m> , <m>with</m> its <m>blend</m> of frankness , civility and compassion . </s>	positive	positive	0.2666666666666666
+<s> a disappointment for <m>those</m> who love alternate versions of the bard , particularly ones that involve deep fryers and hamburgers . </s>	negative	negative	0.0384615384615384
+<s> <m>manages</m> to <m>show</m> life <m>in</m> all of its banality when the intention is quite the <m>opposite</m> . </s>	negative	negative	0.2105263157894736
+<s> with rabbit-proof fence , noyce has <m>tailored</m> an <m>epic</m> tale <m>into</m> a <m>lean</m> , <m>economical</m> movie . </s>	positive	positive	0.2272727272727272
+<s> the script is n't very good ; not even someone as gifted as hoffman ( the actor ) can <m>make</m> it <m>work</m> . </s>	negative	negative	0.074074074074074
+<s> there are simply too many ideas <m>floating around</m> -- part farce , part sliding doors , part pop video -- and yet failing to exploit them . </s>	negative	negative	0.0689655172413793
+<s> combining quick-<m>cut</m> editing and a blaring <m>heavy</m> metal much of the time , beck seems to be <m>under</m> the illusion that he 's shooting the latest system of a <m>down</m> video . </s>	negative	negative	0.1081081081081081
+<s> every time you look , <m>sweet</m> home alabama is <m>taking</m> another b<m>ummer</m> of a wrong <m>turn</m> . </s>	negative	negative	0.2
+<s> like you could n't smell <m>this</m> turkey rotting from miles away . </s>	negative	negative	0.0714285714285714
+<s> <m>manages</m> to be both repulsively sadistic and mundane . </s>	negative	negative	0.0769230769230769
+<s> it 's a bit disappointing that it only <m>manages</m> to be decent instead of <m>dead brilliant</m> . </s>	negative	negative	0.1578947368421052
+<s> the director knows how to <m>apply</m> textural <m>gloss</m> , but his <m>portrait</m> of sex-as-<m>war</m> is strictly sitcom . </s>	negative	negative	0.1666666666666666
+<s> <m>this</m> one is definitely one to <m>skip</m> , even for horror movie fan<m>atics</m> . </s>	negative	negative	0.1875
+<s> there 's ... tremendous energy <m>from</m> the <m>cast</m> , a <m>sense</m> of playfulness and excitement that seems appropriate . </s>	positive	positive	0.1363636363636363
+<s> a <m>by-the-numbers</m> patient/doctor pic that <m>covers</m> all the usual <m>ground</m> </s>	negative	negative	0.1666666666666666
+<s> it 's a <m>scattershot</m> affair , but when it <m>hits</m> its <m>mark</m> it 's <m>brilliant</m> . </s>	positive	positive	0.2857142857142857
+<s> a quiet , <m>pure</m> , elliptical film </s>	positive	positive	0.1111111111111111
+<s> a very <m>long</m> movie , <m>dull in stretches</m> , <m>with</m> entirely too much <m>focus on</m> meal preparation and igloo construction . </s>	negative	negative	0.3043478260869565
+<s> <m>has</m> all the depth of a wading pool . </s>	negative	negative	0.0909090909090909
+<s> while the <m>resident</m> evil games may have <m>set</m> new <m>standards</m> for thrills , suspense , and gore for video games , the movie really only succeeds <m>in</m> the third of <m>these</m> . </s>	negative	negative	0.1470588235294117
+<s> though perry and hurley <m>make</m> inspiring efforts to <m>breathe life into</m> the disj<m>ointed</m> , haph<m>azard</m> script by jay scherick and david ronn , neither the actors nor director reginald hudlin can <m>make</m> it more than fitfully entertaining . </s>	negative	negative	0.1272727272727272
+<s> there 's no emotional <m>pulse to</m> solaris . </s>	negative	negative	0.1818181818181818
+<s> it 's <m>hard</m> to like a film <m>about</m> a guy who is utterly unlikeable , and shiner , starring michael caine as an aging british boxing promoter desperate for a <m>taste</m> of fame and fortune , is certainly <m>that</m> . </s>	negative	negative	0.0833333333333333
+<s> ( serry ) <m>wants</m> to <m>blend</m> politics and drama , an admirable ambition . </s>	positive	positive	0.125
+<s> it 's a remarkably <m>solid</m> and subtly satirical <m>tour de force</m> . </s>	positive	positive	0.2857142857142857
+<s> at least one <m>scene</m> is so disgusting that viewers may be <m>hard pressed</m> to <m>retain</m> their lunch . </s>	negative	negative	0.2105263157894736
+<s> it will <m>grip</m> even viewers who are n't interested <m>in</m> rap , as it <m>cuts to</m> the <m>heart</m> of american society <m>in</m> an unnerving <m>way</m> . </s>	positive	positive	0.2333333333333333
+<s> does n't <m>offer</m> much besides glib soullessness , raunchy language and a series of <m>brutal set pieces</m> ... that <m>raise</m> the <m>bar on</m> stylized screen violence . </s>	negative	negative	0.1944444444444444
+<s> <m>in</m> all , <m>this</m> is a watchable movie that 's not quite the memorable experience it might have been . </s>	negative	negative	0.0869565217391304
+<s> sometimes seems less like storytelling than something the otherwise compelling director needed to <m>get off</m> his <m>chest</m> . </s>	negative	negative	0.1578947368421052
+<s> you wonder why enough was n't just a music video rather than a full-<m>length</m> movie . </s>	negative	negative	0.05
+<s> care <m>deftly captures</m> the wonder and menace of growing up , but he never really <m>embraces</m> the joy of fuhrman 's destructive escapism or the <m>grace-in-rebellion found</m> by his characters . </s>	negative	negative	0.2
+<s> the best film <m>about</m> baseball to <m>hit</m> theaters since <m>field</m> of <m>dreams</m> . </s>	positive	positive	0.2857142857142857
+<s> given how <m>heavy-handed</m> and <m>portent-heavy</m> it is , <m>this</m> could be the worst <m>thing</m> soderbergh has ever done . </s>	negative	negative	0.25

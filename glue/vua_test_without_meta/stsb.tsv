@@ -1,0 +1,29 @@
+sentence1	sentence2	pred	gold	vua_label
+"<s> ""The European Union is basically absent,"" said Tito Barbini, regional minister for agriculture in Tuscany, Italy.</s>"	<s> Tito Barbini, a regional minister for agriculture in Tuscany, Italy, criticized the absence Tuesday in Sacramento.</s>	2.828	3.4	0.0
+<s> German Shephard jumping through black hoop while people watch</s>	<s> A dog jumps through a hoop.</s>	2.622	3.2	0.0
+<s> A girl dancing on a sandy beach.</s>	<s> A girl is on a sandy beach.</s>	3.661	3.6	0.0
+<s> A man is buttering a piece of bread.</s>	<s> A slow loris hanging on a cord.</s>	0.09	0.0	0.0
+<s> Two dogs fighting in the snow.</s>	<s> Two dogs play in the snow.</s>	4.038	3.2	0.0
+<s> An animal is biting a persons finger.</s>	<s> A slow loris is biting a persons finger.</s>	3.707	3.0	0.0
+<s> Rescuers scour debris after India buildings collapse</s>	<s> Select images from Bangladesh building collapse</s>	1.018	2.2	0.0
+<s> A crowd of people stand on a rural road, a field behind them, a forest in front.</s>	<s> A bunch of people standing next to a car with it's trunk open.</s>	1.603	0.8	0.0
+<s> A dog jogs through the grass.</s>	<s> a dog trots through the grass.</s>	4.808	5.0	0.0
+<s> A woman is slicing fruit.</s>	<s> Two women are slicing some lemons.</s>	2.665	2.0	0.0
+<s> The man is playing the guitar.</s>	<s> A man is playing a guitar.</s>	4.926	4.909	0.0
+<s> A woman stands with her arms out at her sides while another takes a picture.</s>	<s> A man stands in a crowd holding a white object.</s>	0.436	0.4	0.0
+<s> A woman is slicing a meat.</s>	<s> A woman is singing on stage.</s>	0.363	0.25	0.0
+<s> A method used to calculate the distance between stars is 3 Dimensional trigonometry.</s>	<s> You only need two-dimensional trigonometry if you know the distances to the two stars and their angular separation.</s>	2.647	2.0	0.0
+<s> The man is slicing a potato.</s>	<s> A man is slicing potato.</s>	5.007	5.0	0.0
+<s> A black and white cat playing with a wool basket.</s>	<s> A black and white cat lying on a blanket.</s>	2.679	1.8	0.0
+<s> Train going down the tracks.</s>	<s> A black steam train traveling on the railroad tracks.</s>	3.779	3.8	0.0
+<s> There is a black dog jumping into a swimming pool.</s>	<s> A black dog is leaping into a swimming pool.</s>	5.032	5.0	0.0
+<s> A golden dog is running through the snow.</s>	<s> A pack of sled dogs pulling a sled through a town.</s>	1.743	1.4	0.0
+<s> Most doctors do recommend rice cereal as the first food, as there is almost no worry of allergic reaction.</s>	<s> Eating off a spoon has to be an unusual experience for them.</s>	0.822	0.67	0.0
+<s> A woman is applying eye shadow.</s>	<s> A woman is washing a bowl.</s>	0.628	1.2	0.0
+<s> Young baby girl sitting on table.</s>	<s> A woman with a smiling baby sitting on the table.</s>	3.457	1.6	0.0
+<s> A man is dancing.</s>	<s> A man is speaking.</s>	0.631	1.2	0.0
+<s> An older Asian couple poses with a newborn baby at the dinner table.</s>	<s> A group of elderly people pose around a dining table.</s>	2.47	2.4	0.0
+<s> A man plays a keyboard.</s>	<s> A person is playing the keyboard.</s>	4.37	4.0	0.0
+<s> A man is pressing microwave buttons.</s>	<s> A man turns on the microwave.</s>	3.336	2.75	0.0
+<s> A man is playing a guitar.</s>	<s> A woman is riding a horse.</s>	0.07	0.5	0.0
+<s> A man is on a rooftop</s>	<s> A man is holding a microphone in a room.</s>	0.434	0.8	0.0
