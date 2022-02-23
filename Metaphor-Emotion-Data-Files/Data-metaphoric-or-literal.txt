@@ -1638,5 +1638,3 @@ wrestle	wrestle#v#4	The children <b>wrestled</b> in the garden.	literal	1
 write	write#v#10	She <b>writes</b> code faster than anybody else.	literal	0.9
 write	write#v#2	Please <b>write</b> to me every week.	literal	1
 write	write#v#3	How many books did Georges Simenon <b>write</b>?	literal	1
-Number of terms: 440
-Number of term--sense instances: 1639
