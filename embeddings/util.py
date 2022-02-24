@@ -5,6 +5,7 @@ from nltk.corpus import wordnet as wn
 from dataclasses import dataclass
 from utils import get_lemma
 from pprint import pprint
+import spacy
 
 @dataclass
 class sense:
@@ -59,6 +60,7 @@ class lemma2sentences:
     def __init__(self, save_path = 'embeddings/index'):
         self.word2lemmas = word2lemmas()
         self.sentences, self.lemma2context = self.load_lemma_to_context(save_path = 'embeddings/index')
+        self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
     
     def load_lemma_to_context(self, save_path):
         sentences_pkl, dict_pkl = os.path.join(save_path, 'sentences.pkl'), os.path.join(save_path, 'lemma2context.pkl')
@@ -94,8 +96,29 @@ class lemma2sentences:
             lemma2context = pickle.load(f)
         
         return sentences, lemma2context
+    
+    def get_wn_examples(self, sense):
+        meaning = wn.lemma_from_key(sense).synset()
+        examples = meaning.examples()
+        if len(examples) == 0:
+            print(f'Sense {sense} has no examples in wordnet.')
+            return ''
+        sentences = []
+        all_lemmas = meaning.lemmas()
+        for sent in examples:
+            sent = [Token(word = t.text, lemma=t.lemma_, pos=t.pos_, sense='-1') for t in self.nlp(sent)]
+            for lemma in all_lemmas:
+                for idx, t in enumerate(sent):
+                    if lemma.name() == t.lemma:
+                        t.sense = lemma
+                        sent[idx] = t
+                        sentences.append(Context(tokens = sent, index=idx))
+                        break
+        return sentences
 
-    def __call__(self, sense):
+    def __call__(self, sense, method = 'wsd'):
+        if method == 'wordnet':
+            return get_wn_examples(sense)
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus.')
             return ''
