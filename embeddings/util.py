@@ -6,6 +6,11 @@ from dataclasses import dataclass
 from utils import get_lemma
 from pprint import pprint
 import spacy
+import torch
+
+import sys
+sys.path.append('/Users/yucheng/projects/sentence_embedding/')
+from demo import SentenceEmbedding
 
 @dataclass
 class sense:
@@ -114,11 +119,14 @@ class lemma2sentences:
                         sent[idx] = t
                         sentences.append(Context(tokens = sent, index=idx))
                         break
+                else:
+                    continue
+                break
         return sentences
 
     def __call__(self, sense, method = 'wsd'):
         if method == 'wordnet':
-            return get_wn_examples(sense)
+            return self.get_wn_examples(sense)
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus.')
             return ''
@@ -131,10 +139,84 @@ class word2sentence:
     
     def __call__(self, word):
         lemmas = self.word2lemmas(word)
-        sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
+        sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wordnet'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
         return sentences
 
+class SemanticEmbedding(SentenceEmbedding):
+    def __init__(self, model_path, max_length=64, n_components=768, kernel_bias_path=None, 
+        corpus_for_kernel_computing=None, pool='last_idx', dynamic_kernel = False):
+        """[summary]
+
+        Args:
+            model_path ([type]): [description]
+            max_length (int, optional): [description]. Defaults to 64.
+            n_components (int, optional): [description]. Defaults to 768.
+            kernel_bias_path ([type], optional): [description]. Defaults to None.
+            corpus_for_kernel_computing ([type], optional): 训练kernel和bias需要的语料，纯txt，一行一个句子. Defaults to None.
+        """
+        self.model = get_model(Sentence, model_path)
+        self.tokenizer = get_tokenizer(model_path)
+        self.max_length=max_length
+        self.n_components=n_components
+        self.pool=pool
+        self.dynamic_kernel = dynamic_kernel
+        if not dynamic_kernel:
+            self._get_kernel_and_bias(model_path, kernel_bias_path, corpus_for_kernel_computing)
+
+    def preprocess_context(self, contexts: list(Context)):
+        sents = []
+        idxs = []
+        senses = []
+        new_idxs = []
+
+        for cont in contexts:
+            idx = cont.index
+            target_sense = cont[idx].sense
+            sent = [t.word for t in cont]
+            
+            sents.append(sent)
+            idxs.append(idx)
+            senses.append(target_sense)
+        
+        output = self.tokenizer(sents, is_split_into_words = True, max_length = self.max_length, padding=True, truncation = True, return_tensor = 'pt')
+        for i in range(len(sent)):
+            new_idx = output.word_ids(i)
+            new_idxs.append(new_idx)
+        
+        new_idxs = torch.LongTensor(new_idxs)
+        
+        return output, new_idxs, senses
+
+    def get_embeddings(self, contexts: list(Context), whitening=False):
+        encoding, idxs, senses = self.preprocess_context(contexts)
+        with torch.no_grad():
+            vecs=get_vectors(self.model, tokenized_sents, pool=self.pool, idxs = idxs)[0]
+        vecs=vecs.cpu().numpy()
+
+        if whitening:
+            if self.dynamic_kernel:
+                vecs=vector_l2_normlize(vecs)
+                kernel, bias = compute_kernel_bias([vecs])
+            else:
+                kernel, bias = self.kernel, self.bias
+            kernel=kernel[:, :self.n_components]
+            vecs=transform_and_normalize(vecs, kernel, bias)
+            return vecs
+        vecs=vector_l2_normlize(vecs)
+        return vecs
+    
+    def _computing_kernel_and_save(self, kernel_bias_path, corpus_for_kernel_computing):
+        with open(corpus_for_kernel_computing, 'rb') as f:
+            contexts = pickle.load(f)
+        vecs=self.get_embeddings(contexts, whitening=False)
+        kernel, bias = compute_kernel_bias([vecs])
+        save_kernel_and_bias(kernel, bias, kernel_bias_path)
 
 if __name__ == '__main__':
     word2sentence = word2sentence()
-    pprint(word2sentence('act'))
+    contexts = []
+    for k,v in word2sentence('act').items():
+        contexts.extend(v['sentences'])
+
+    demo = SemanticEmbedding('roberta-base', kernel_bias_path='embedding/kernel', dynamic_kernel=True)
+    demo.get_embeddings(contexts)
