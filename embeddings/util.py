@@ -3,14 +3,17 @@ import os
 import pandas as pd
 from nltk.corpus import wordnet as wn
 from dataclasses import dataclass
-from utils import get_lemma
 from pprint import pprint
 import spacy
 import torch
+from lyc.visualize import plotPCA
+from lyc.utils import get_model, get_tokenizer, vector_l2_normlize
 
 import sys
 sys.path.append('/Users/yucheng/projects/sentence_embedding/')
 from demo import SentenceEmbedding
+from utils import get_vectors
+from model import SimCSE, Sentence
 
 @dataclass
 class sense:
@@ -32,6 +35,18 @@ class Context:
 
     def __repr__(self):
         return ' '.join([t.word for t in self.tokens])
+
+def get_lemma(x):
+    """
+    x: MOH sense string
+    """
+    try:
+        lemma, pos, sense_id = x.split('#')
+    except:
+        return None
+    sense_id = int(sense_id)
+    lemma_str = f'{lemma}.{pos}.{sense_id:02d}.{lemma}'
+    return wn.lemma(lemma_str).key()
 
 class word2lemmas:
     def __init__(self, save_path = 'embeddings/index'):
@@ -139,7 +154,7 @@ class word2sentence:
     
     def __call__(self, word):
         lemmas = self.word2lemmas(word)
-        sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wordnet'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
+        sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wsd'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
         return sentences
 
 class SemanticEmbedding(SentenceEmbedding):
@@ -155,7 +170,7 @@ class SemanticEmbedding(SentenceEmbedding):
             corpus_for_kernel_computing ([type], optional): 训练kernel和bias需要的语料，纯txt，一行一个句子. Defaults to None.
         """
         self.model = get_model(Sentence, model_path)
-        self.tokenizer = get_tokenizer(model_path)
+        self.tokenizer = get_tokenizer(model_path, add_prefix_space=True)
         self.max_length=max_length
         self.n_components=n_components
         self.pool=pool
@@ -163,7 +178,7 @@ class SemanticEmbedding(SentenceEmbedding):
         if not dynamic_kernel:
             self._get_kernel_and_bias(model_path, kernel_bias_path, corpus_for_kernel_computing)
 
-    def preprocess_context(self, contexts: list(Context)):
+    def preprocess_context(self, contexts: list[Context]):
         sents = []
         idxs = []
         senses = []
@@ -171,26 +186,27 @@ class SemanticEmbedding(SentenceEmbedding):
 
         for cont in contexts:
             idx = cont.index
-            target_sense = cont[idx].sense
-            sent = [t.word for t in cont]
+            target_sense = cont.tokens[idx].sense
+            sent = [t.word for t in cont.tokens]
             
             sents.append(sent)
             idxs.append(idx)
             senses.append(target_sense)
         
-        output = self.tokenizer(sents, is_split_into_words = True, max_length = self.max_length, padding=True, truncation = True, return_tensor = 'pt')
-        for i in range(len(sent)):
+        output = self.tokenizer(sents, is_split_into_words = True, max_length = self.max_length, padding=True, truncation = True, return_tensors = 'pt')
+        for i in range(len(sents)):
             new_idx = output.word_ids(i)
+            new_idx = new_idx.index(idxs[i])
             new_idxs.append(new_idx)
         
-        new_idxs = torch.LongTensor(new_idxs)
+        # new_idxs = torch.LongTensor(new_idxs)
         
         return output, new_idxs, senses
 
-    def get_embeddings(self, contexts: list(Context), whitening=False):
+    def get_embeddings(self, contexts: list[Context], whitening=False):
         encoding, idxs, senses = self.preprocess_context(contexts)
         with torch.no_grad():
-            vecs=get_vectors(self.model, tokenized_sents, pool=self.pool, idxs = idxs)[0]
+            vecs=get_vectors(self.model, encoding, pool=self.pool, idxs = idxs)[0]
         vecs=vecs.cpu().numpy()
 
         if whitening:
@@ -219,4 +235,5 @@ if __name__ == '__main__':
         contexts.extend(v['sentences'])
 
     demo = SemanticEmbedding('roberta-base', kernel_bias_path='embedding/kernel', dynamic_kernel=True)
-    demo.get_embeddings(contexts)
+    # print(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])
+    plotPCA(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])
