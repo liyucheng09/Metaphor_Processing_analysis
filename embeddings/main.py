@@ -70,13 +70,14 @@ class SenseEmbedding(BertWhitening):
 
 
 if __name__ == '__main__':
-    word = 'look'
+    word = 'help'
+    pool = 'idx-first'
     word2sentence = word2sentence()
     contexts = []
     for k,v in word2sentence(word).items():
         contexts.extend(v['sentences'])
 
-    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = 'idx-last', max_length=100)
+    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=100)
     vecs = model.get_embeddings(contexts)
-    plotPCA(vecs, [str(con.tokens[con.index].sense) for con in contexts], figure_name=f'embeddings/imgs/{word}_sense_PCA.png')
+    plotPCA(vecs, [str(con.tokens[con.index].sense) for con in contexts], figure_name=f'embeddings/imgs/{word}_{pool}_sense_PCA.png')
 
