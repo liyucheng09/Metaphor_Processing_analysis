@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from pprint import pprint
 import spacy
 import torch
-from lyc.visualize import plotPCA
+# from lyc.visualize import plotPCA
 from lyc.utils import get_model, get_tokenizer, vector_l2_normlize
 
 import sys
@@ -14,8 +14,9 @@ import sys
 @dataclass
 class sense:
     lemma: str
-    label: str
-    confidence: float
+    gloss: str
+    label: str = None
+    confidence: float = None
 
 @dataclass
 class Token:
@@ -28,6 +29,7 @@ class Token:
 class Context:
     tokens: list[Token]
     index : int
+    gloss: str
 
     def __repr__(self):
         return ' '.join([t.word for t in self.tokens])
@@ -46,10 +48,10 @@ def get_lemma(x):
 
 class word2lemmas:
     def __init__(self, save_path = 'embeddings/index'):
-        self.word2lemmas = self.load_word2lemma_dict(save_path)
+        self.moh_word2lemmas = self.load_moh_word2lemma_dict(save_path)
     
-    def load_word2lemma_dict(self, save_path):
-        pkl_path = os.path.join(save_path, 'word2lemmas.pkl')
+    def load_moh_word2lemma_dict(self, save_path):
+        pkl_path = os.path.join(save_path, 'moh_word2lemmas.pkl')
         if not os.path.exists(pkl_path):
             word2lemmas = {}
             print(f'No dict found in {pkl_path}, start generating now...')
@@ -57,7 +59,10 @@ class word2lemmas:
             df = pd.read_csv(moh_path, sep='\t')
             for word, sub_df in df.groupby('term'):
                 assert word not in word2lemmas
-                senses = [sense(lemma = get_lemma(i['sense']), label = i['class'], confidence = i['confidence']) for _, i in sub_df.iterrows()]
+                senses = []
+                for _, i in sub_df.iterrows():
+                    lemma = get_lemma(i['sense'])
+                    senses.append(sense(lemma = lemma, gloss=wn.lemma_from_key(lemma).synset().definition(), label = i['class'], confidence = i['confidence']))
                 word2lemmas[word] = senses
             
             with open(pkl_path, 'wb') as f:
@@ -69,7 +74,15 @@ class word2lemmas:
         return word2lemmas
 
     def __call__(self, word):
-        return self.word2lemmas[word]
+        if word in self.moh_word2lemmas:
+            return self.word2lemmas[word]
+        senses = []
+        for s in wn.synsets(word):
+            lemmas = s.lemmas()
+            lemma = [l for l in lemmas if l.name() == word][0]
+            senses.append(sense(lemma=lemma.key(), gloss=s.definition()))
+        assert len(senses), f'No sense found for {word}!'
+        return senses
                 
 
 class lemma2sentences:
@@ -141,7 +154,9 @@ class lemma2sentences:
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus.')
             return ''
-        return [Context(tokens = self.sentences[i[0]], index = i[1]) for i in self.lemma2context[sense]]
+        return [Context(tokens = self.sentences[i[0]], index = i[1], \
+            gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
+            for i in self.lemma2context[sense]]
 
 class word2sentence:
     def __init__(self, save_path = 'embeddings/index'):
@@ -162,4 +177,4 @@ if __name__ == '__main__':
 
     demo = SemanticEmbedding('roberta-base', kernel_bias_path='embedding/kernel', dynamic_kernel=True)
     # print(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])
-    plotPCA(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])
+    # plotPCA(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])
