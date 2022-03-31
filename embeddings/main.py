@@ -6,7 +6,7 @@ from lyc.utils import (get_model,
                        save_kernel_and_bias)
 from lyc.model import SentenceEmbeddingModel
 from lyc.pipelines.bert_whitening import BertWhitening
-from lyc.visualize import plotPCA
+from lyc.visualize import plotDimensionReduction
 from util import word2sentence, sense, Token, Context
 import pickle
 import sys
@@ -70,14 +70,20 @@ class SenseEmbedding(BertWhitening):
 
 
 if __name__ == '__main__':
-    word = 'help'
-    pool = 'idx-first'
+    # words = [ 'crush', 'help', 'look', 'absorb']
+    words = [ 'bank' ]
+    pool = 'idx-last-four-average'
+    plot_types = ['tSNE', 'PCA']
+
     word2sentence = word2sentence()
-    contexts = []
-    for k,v in word2sentence(word).items():
-        contexts.extend(v['sentences'])
-
     model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=100)
-    vecs = model.get_embeddings(contexts)
-    plotPCA(vecs, [str(con.tokens[con.index].sense) for con in contexts], figure_name=f'embeddings/imgs/{word}_{pool}_sense_PCA.png')
+    for word in words:
+        contexts = []
+        for k,v in word2sentence(word).items():
+            contexts.extend(v['sentences'])
 
+        vecs = model.get_embeddings(contexts)
+        for plot_type in plot_types:
+            plotDimensionReduction(vecs, [con.gloss for con in contexts], \
+                figure_name=f'embeddings/imgs/{word}_{plot_type}_{pool}.png', plot_type=plot_type, \
+                legend_loc=9, bbox_to_anchor=(0.5, -0.1))
