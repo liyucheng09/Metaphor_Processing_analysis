@@ -16,3 +16,5 @@ glue/vua_with_sentence
 
 embeddings/index
 embeddings/imgs
+
+wsd/senseval
