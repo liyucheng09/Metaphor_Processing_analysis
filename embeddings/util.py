@@ -8,6 +8,7 @@ import spacy
 import torch
 # from lyc.visualize import plotPCA
 from lyc.utils import get_model, get_tokenizer, vector_l2_normlize
+from typing import Union, List
 
 import sys
 
@@ -86,12 +87,24 @@ class word2lemmas:
                 
 
 class lemma2sentences:
-    def __init__(self, save_path = 'embeddings/index'):
+    def __init__(self, source, save_path = 'embeddings/index'):
         self.word2lemmas = word2lemmas()
-        self.sentences, self.lemma2context = self.load_lemma_to_context(save_path = 'embeddings/index')
-        self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
+        self.sentences, self.lemma2context = self._prepare(source, save_path = 'embeddings/index')
     
-    def load_lemma_to_context(self, save_path):
+    def _prepare(self, source, save_path):
+        if source == 'semcor':
+            return self.load_lemma2context_semcor(source, save_path)
+        elif source == 'senseval3':
+            return self.load_lemma2context_senseval3(source, save_path)
+        elif source == 'wordnet':
+            self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
+            return None, None
+    
+    def load_lemma2context_senseval3(self, source, save_path):
+        sentences_pkl, dict_pkl = os.path.join(save_path, 'sentences_senseval3.pkl'), os.path.join(save_path, 'lemma2context_senseval3.pkl')
+        pass
+
+    def load_lemma2context_semcor(self, source, save_path):
         sentences_pkl, dict_pkl = os.path.join(save_path, 'sentences.pkl'), os.path.join(save_path, 'lemma2context.pkl')
         if not os.path.exists(sentences_pkl):
             semcor_path = '/Users/yucheng/projects/wsd-biencoders/WSD_Evaluation_Framework/conll/semcor.conll'
@@ -147,10 +160,22 @@ class lemma2sentences:
                     continue
                 break
         return sentences
+    
+    def get_senseval3_results(self, sense):
+        """
 
-    def __call__(self, sense, method = 'wsd'):
-        if method == 'wordnet':
-            return self.get_wn_examples(sense)
+        Args:
+            sense (str): just word with a pos tag, e.g., activate.v 
+            Do not need to be a lemma str
+        """
+        if sense not in self.lemma2context:
+            print(f'Sense {sense} not in the corpus. All avaliable words in Senseval3 are {self.lemma2context.keys()}.')
+            return ''
+        return [Context(tokens = self.sentences[i[0]], index = i[1], \
+            gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
+            for i in self.lemma2context[sense]]
+    
+    def get_semcor_results(self, sense):
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus.')
             return ''
@@ -158,15 +183,40 @@ class lemma2sentences:
             gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
             for i in self.lemma2context[sense]]
 
+    def __call__(self, sense, source = 'wsd'):
+        if source == 'wordnet':
+            return self.get_wn_examples(sense)
+        elif source == 'senseval3':
+            return self.get_senseval3_results(sense)
+        elif source == 'semcor':
+            return self.get_semcor_results(sense)
+
 class word2sentence:
-    def __init__(self, save_path = 'embeddings/index'):
-        self.word2lemmas = word2lemmas(save_path=save_path)
-        self.lemma2context = lemma2sentences(save_path=save_path)
+    valid_sources = ['semcor', 'senseval3', 'wordnet']
+
+    def __init__(self, source, index_path = 'embeddings/index'):
+        self._check_source(source)
+        self.source = source
+        self._prepare_indexs(source, index_path)
+    
+    def _prepare_indexs(self, source, index_path):
+        if source == 'semcor':
+            self.word2lemmas = word2lemmas(save_path=index_path)
+            self.lemma2context = lemma2sentences(save_path=index_path)
+        elif source == 'senseval3':
+            self.lemma2context = lemma2sentences(save_path=index_path)
+
+    def _check_source(self, source):
+        assert source in self.valid_sources, f'{source} is not a valid source, please use {self.valid_sources}'
     
     def __call__(self, word):
-        lemmas = self.word2lemmas(word)
-        sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wsd'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
-        return sentences
+        if self.source == 'senseval3':
+            sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wsd'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
+            return sentences
+        else:
+            lemmas = self.word2lemmas(word)
+            sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wsd'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
+            return sentences
 
 
 if __name__ == '__main__':
