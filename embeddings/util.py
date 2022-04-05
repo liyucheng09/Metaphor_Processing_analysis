@@ -9,6 +9,7 @@ import torch
 # from lyc.visualize import plotPCA
 from lyc.utils import get_model, get_tokenizer, vector_l2_normlize
 from typing import Union, List
+import xml.etree.cElementTree as ET
 
 import sys
 
@@ -89,20 +90,41 @@ class word2lemmas:
 class lemma2sentences:
     def __init__(self, source, save_path = 'embeddings/index'):
         self.word2lemmas = word2lemmas()
-        self.sentences, self.lemma2context = self._prepare(source, save_path = 'embeddings/index')
+        self._prepare(source, save_path = 'embeddings/index')
     
     def _prepare(self, source, save_path):
         if source == 'semcor':
-            return self.load_lemma2context_semcor(source, save_path)
+            self.load_lemma2context_semcor(source, save_path)
         elif source == 'senseval3':
-            return self.load_lemma2context_senseval3(source, save_path)
+            self.load_lemma2context_senseval3(source, save_path)
         elif source == 'wordnet':
             self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
-            return None, None
     
     def load_lemma2context_senseval3(self, source, save_path):
-        sentences_pkl, dict_pkl = os.path.join(save_path, 'sentences_senseval3.pkl'), os.path.join(save_path, 'lemma2context_senseval3.pkl')
-        pass
+        lemma2context_pkl = os.path.join(save_path, 'lemma2context_senseval3.pkl')
+        dictionary_pkl = os.path.join(save_path, 'dictionary_senseval3.pkl')
+
+        if not os.path.exists(lemma2context_pkl):
+            senseval3_data_path = 'wsd/senseval/senseval3/EnglishLS.train/EnglishLS.train'
+            sense_dict_path = 'wsd/senseval/senseval3/EnglishLS.test/EnglishLS.dictionary.mapping.xml'
+            tree = ET.parse(sense_dict_path)
+            root = tree.getroot()
+
+            dictionary = {}
+            for lex in root.iter('lexelt'):
+                key = lex.attrib['item']
+                dictionary[key] = {}
+                for sense in lex.iter('sense'):
+                    print(sense.attrib)
+                    pass
+
+        with open(lemma2context_pkl, 'rb') as f:
+            lemma2context = pickle.load(f)
+        with open(dictionary_pkl, 'rb') as f:
+            dictionary = pickle.load(f)
+
+        self.lemma2context = lemma2context
+        self.dictionary = dictionary     
 
     def load_lemma2context_semcor(self, source, save_path):
         sentences_pkl, dict_pkl = os.path.join(save_path, 'sentences.pkl'), os.path.join(save_path, 'lemma2context.pkl')
@@ -130,14 +152,18 @@ class lemma2sentences:
                 pickle.dump(lemma2context, f)
             print(f'saved to {sentences_pkl}, {dict_pkl}.')
         
-            return sentences, lemma2context
+            self.sentences = sentences
+            self.lemma2context = lemma2context
+            
+            return
         
         with open(sentences_pkl, 'rb') as f:
             sentences = pickle.load(f)
         with open(dict_pkl, 'rb') as f:
             lemma2context = pickle.load(f)
         
-        return sentences, lemma2context
+        self.sentences = sentences
+        self.lemma2context = lemma2context
     
     def get_wn_examples(self, sense):
         meaning = wn.lemma_from_key(sense).synset()
