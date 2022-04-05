@@ -89,7 +89,8 @@ class word2lemmas:
 
 class lemma2sentences:
     def __init__(self, source, save_path = 'embeddings/index'):
-        self.word2lemmas = word2lemmas()
+        # self.word2lemmas = word2lemmas()
+        self.source = source
         self._prepare(source, save_path = 'embeddings/index')
     
     def _prepare(self, source, save_path):
@@ -106,17 +107,57 @@ class lemma2sentences:
 
         if not os.path.exists(lemma2context_pkl):
             senseval3_data_path = 'wsd/senseval/senseval3/EnglishLS.train/EnglishLS.train'
-            sense_dict_path = 'wsd/senseval/senseval3/EnglishLS.test/EnglishLS.dictionary.mapping.xml'
+            sense_dict_path = 'wsd/senseval/senseval3/EnglishLS.train/EnglishLS.dictionary.mapping.xml.new'
             tree = ET.parse(sense_dict_path)
             root = tree.getroot()
 
+            # Read dictionary.mapping.xml file
             dictionary = {}
             for lex in root.iter('lexelt'):
                 key = lex.attrib['item']
                 dictionary[key] = {}
                 for sense in lex.iter('sense'):
-                    print(sense.attrib)
-                    pass
+                    attribs = sense.attrib
+                    id_ = attribs.pop('id')
+                    dictionary[key][id_] = attribs
+            
+            tree = ET.parse(senseval3_data_path)
+            root = tree.getroot()
+            # Read train.xml file
+            lemma2context = {}
+            for lex in root.iter('lexelt'):
+                key = lex.attrib['item']
+                lemma2context[key] = []
+                for ins in lex.iter('instance'):
+                    answers = [ans.attrib['senseid'] for ans in ins.findall('answer')]
+                    if 'U' in answers:
+                        answers.remove('U')
+                        if not len(answers):
+                            print(f'-----no sense id provides for {key}.')
+                            continue
+                    tokens = []
+                    index = -1
+                    for idx, word in enumerate(ins.find('context').text.split()):
+                        if not (word.startswith('--') and word.endswith('--')):
+                            token = Token(word = word, lemma = '_', pos = '_', sense = '_') 
+                        else:
+                            token = Token(word = word, lemma = '_', pos = '_', sense = ';'.join(answers))
+                            index = idx
+                        tokens.append(token)
+                    assert index !=-1
+                    gloss = dictionary[key][answers[0]]['gloss']
+                    cont = Context(tokens = tokens, index = index, gloss = gloss)
+                    lemma2context[key].append(cont)
+
+            with open(dictionary_pkl, 'wb') as f:
+                pickle.dump(dictionary, f)
+            with open(lemma2context_pkl, 'wb') as f:
+                pickle.dump(lemma2context, f)
+            
+            self.lemma2context = lemma2context
+            self.dictionary = dictionary 
+
+            return
 
         with open(lemma2context_pkl, 'rb') as f:
             lemma2context = pickle.load(f)
@@ -189,7 +230,6 @@ class lemma2sentences:
     
     def get_senseval3_results(self, sense):
         """
-
         Args:
             sense (str): just word with a pos tag, e.g., activate.v 
             Do not need to be a lemma str
@@ -197,9 +237,7 @@ class lemma2sentences:
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus. All avaliable words in Senseval3 are {self.lemma2context.keys()}.')
             return ''
-        return [Context(tokens = self.sentences[i[0]], index = i[1], \
-            gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
-            for i in self.lemma2context[sense]]
+        return self.lemma2context[sense]
     
     def get_semcor_results(self, sense):
         if sense not in self.lemma2context:
@@ -209,12 +247,12 @@ class lemma2sentences:
             gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
             for i in self.lemma2context[sense]]
 
-    def __call__(self, sense, source = 'wsd'):
-        if source == 'wordnet':
+    def __call__(self, sense):
+        if self.source == 'wordnet':
             return self.get_wn_examples(sense)
-        elif source == 'senseval3':
+        elif self.source == 'senseval3':
             return self.get_senseval3_results(sense)
-        elif source == 'semcor':
+        elif self.source == 'semcor':
             return self.get_semcor_results(sense)
 
 class word2sentence:
@@ -228,20 +266,22 @@ class word2sentence:
     def _prepare_indexs(self, source, index_path):
         if source == 'semcor':
             self.word2lemmas = word2lemmas(save_path=index_path)
-            self.lemma2context = lemma2sentences(save_path=index_path)
+            self.lemma2context = lemma2sentences(source = source, save_path=index_path)
         elif source == 'senseval3':
-            self.lemma2context = lemma2sentences(save_path=index_path)
+            self.lemma2context = lemma2sentences(source = source, save_path=index_path)
 
     def _check_source(self, source):
         assert source in self.valid_sources, f'{source} is not a valid source, please use {self.valid_sources}'
     
     def __call__(self, word):
         if self.source == 'senseval3':
-            sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wsd'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
-            return sentences
+            return self.lemma2context(word)
         else:
             lemmas = self.word2lemmas(word)
-            sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, method='wsd'), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
+            # sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, source=self.source), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
+            sentences = []
+            for lemma in lemmas:
+                sentences.extend(self.lemma2context(lemma.lemma))
             return sentences
 
 

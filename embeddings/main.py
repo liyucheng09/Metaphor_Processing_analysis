@@ -71,17 +71,14 @@ class SenseEmbedding(BertWhitening):
 
 if __name__ == '__main__':
     # words = [ 'crush', 'help', 'look', 'absorb']
-    words = [ 'bank' ]
+    words = [ 'bank.n' ]
     pool = 'idx-last-four-average'
     plot_types = ['tSNE', 'PCA']
 
-    word2sentence = word2sentence()
+    word2sentence = word2sentence('senseval3')
     model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=100)
     for word in words:
-        contexts = []
-        for k,v in word2sentence(word).items():
-            contexts.extend(v['sentences'])
-
+        contexts = word2sentence(word)
         vecs = model.get_embeddings(contexts)
         for plot_type in plot_types:
             plotDimensionReduction(vecs, [con.gloss for con in contexts], \
