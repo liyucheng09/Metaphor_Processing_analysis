@@ -15,7 +15,7 @@ import torch
 class SenseEmbedding(BertWhitening):
 
     def __init__(self, model_path, **kwargs):
-        super(SenseEmbedding, self).__init__(SentenceEmbeddingModel, 'roberta-base', **kwargs)    
+        super(SenseEmbedding, self).__init__(SentenceEmbeddingModel, model_path, **kwargs)    
 
     def preprocess_context(self, contexts: list[Context]):
         sents = []
@@ -76,9 +76,10 @@ if __name__ == '__main__':
     plot_types = ['tSNE', 'PCA']
 
     word2sentence = word2sentence('senseval3')
-    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=100)
+    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=256)
+    # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for word in words:
-        contexts = word2sentence(word)
+        contexts = word2sentence(word, minimum=2)
         vecs = model.get_embeddings(contexts)
         for plot_type in plot_types:
             plotDimensionReduction(vecs, [con.gloss for con in contexts], \

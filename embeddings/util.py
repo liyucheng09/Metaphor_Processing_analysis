@@ -273,16 +273,30 @@ class word2sentence:
     def _check_source(self, source):
         assert source in self.valid_sources, f'{source} is not a valid source, please use {self.valid_sources}'
     
-    def __call__(self, word):
+    def remove_rare_context(self, contexts, minimum):
+        if not minimum:
+            return contexts
+        gloss2context = {}
+        for cont in contexts:
+            gloss = cont.gloss
+            if gloss not in gloss2context: gloss2context[gloss] = []
+            gloss2context[gloss].append(cont)
+        pruned_contexts = []
+        for gloss, conts in gloss2context.items():
+            if len(conts)>minimum:
+                pruned_contexts.extend(conts)
+        return pruned_contexts
+
+    def __call__(self, word, minimum = 0):
         if self.source == 'senseval3':
-            return self.lemma2context(word)
+            sentences = self.lemma2context(word)
         else:
             lemmas = self.word2lemmas(word)
             # sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, source=self.source), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
             sentences = []
             for lemma in lemmas:
                 sentences.extend(self.lemma2context(lemma.lemma))
-            return sentences
+        return self.remove_rare_context(sentences, minimum)        
 
 
 if __name__ == '__main__':
