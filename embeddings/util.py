@@ -32,6 +32,7 @@ class Context:
     tokens: list[Token]
     index : int
     gloss: str
+    examples: list[str] = None
 
     def __repr__(self):
         return ' '.join([t.word for t in self.tokens])
@@ -146,7 +147,13 @@ class lemma2sentences:
                         tokens.append(token)
                     assert index !=-1
                     gloss = dictionary[key][answers[0]]['gloss']
-                    cont = Context(tokens = tokens, index = index, gloss = gloss)
+                    gloss = [ i for i in gloss[1:-1].split(';') if i ]
+                    if len(gloss)>1:
+                        examples = gloss[1:]
+                    else:
+                        examples = None
+                    gloss = gloss[0]
+                    cont = Context(tokens = tokens, index = index, gloss = gloss, examples=examples)
                     lemma2context[key].append(cont)
 
             with open(dictionary_pkl, 'wb') as f:
