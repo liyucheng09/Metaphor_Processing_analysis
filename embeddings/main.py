@@ -70,18 +70,26 @@ class SenseEmbedding(BertWhitening):
 
 
 if __name__ == '__main__':
-    # words = [ 'crush', 'help', 'look', 'absorb']
-    words = [ 'bank.n' ]
+    words = [ 'help', 'look', 'bank']
+    # words = [ 'bank.n' ]
     pool = 'idx-last-four-average'
     plot_types = ['tSNE', 'PCA']
+    output_data_point_path = 'embeddings/datapoints'
 
-    word2sentence = word2sentence('senseval3')
-    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=256)
+    word2sentence = word2sentence('semcor')
+    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=100)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for word in words:
         contexts = word2sentence(word, minimum=2)
         vecs = model.get_embeddings(contexts)
         for plot_type in plot_types:
-            plotDimensionReduction(vecs, [con.gloss for con in contexts], \
+            X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
                 figure_name=f'embeddings/imgs/{word}_{plot_type}_{pool}.png', plot_type=plot_type, \
                 legend_loc=9, bbox_to_anchor=(0.5, -0.1))
+            if output_data_point_path is not None:
+                path = f'{output_data_point_path}/{word}_{plot_type}_{pool}.csv'
+                f = open(path, 'w', encoding='utf-8')
+                for point, context in zip(X, contexts):
+                    f.write(f'{point[0]}\t{point[1]}\t{context.gloss}\t{" ".join([token.word if index != context.index else "[" + token.word +"]" for index, token in enumerate(context.tokens)])}\n')
+                f.close()
+                print(f'Saved to {path}!')

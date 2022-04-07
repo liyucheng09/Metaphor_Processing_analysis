@@ -17,6 +17,7 @@ import sys
 class sense:
     lemma: str
     gloss: str
+    # synset_name: str
     label: str = None
     confidence: float = None
 
@@ -32,6 +33,7 @@ class Context:
     tokens: list[Token]
     index : int
     gloss: str
+    # synset_name: str
     examples: list[str] = None
 
     def __repr__(self):
@@ -78,7 +80,7 @@ class word2lemmas:
 
     def __call__(self, word):
         if word in self.moh_word2lemmas:
-            return self.word2lemmas[word]
+            return self.moh_word2lemmas[word]
         senses = []
         for s in wn.synsets(word):
             lemmas = s.lemmas()
@@ -305,6 +307,39 @@ class word2sentence:
                 sentences.extend(self.lemma2context(lemma.lemma))
         return self.remove_rare_context(sentences, minimum)        
 
+class synset2sentence:
+
+    def __init__(self, index_path = 'embeddings/index'):
+        self._load_synset2sentence_map(index_path)
+    
+    def _load_synset2sentence_map(self, index_path):
+        synset2sentence_pkl = os.path.join(index_path, 'synset2sentence.pkl')
+        if not os.path.exists(synset2sentence_pkl):
+            assert os.path.exists(f'{index_path}/lemma2context.pkl'), 'lemma2context.pkl mapping does not exist'
+            with open(f'{index_path}/lemma2context.pkl', 'rb') as f:
+                lemma2context = pickle.load(f)
+            
+            synset2sentence = {}
+            for lemma, sents in lemma2context.items():
+                synset_name = lemma.synset().name()
+                if synset_name not in synset2sentence: synset2sentence[synset_name] = []
+                synset2sentence[synset_name].extend(sents)
+            
+            with open(synset2sentence_pkl, 'wb') as f:
+                pickle.dump(synset2sentence, f)
+            
+            self.synset2sentence = synset2sentence
+
+            return
+        
+        with open(synset2sentence_pkl, 'rb') as f:
+            self.synset2sentence = pickle.load(f)
+    
+    def get_all_synsets(self):
+        return self.synset2sentence.keys()
+    
+    def __call__(self, synset_name):
+        return self.synset2sentence[synset_name]
 
 if __name__ == '__main__':
     word2sentence = word2sentence()
