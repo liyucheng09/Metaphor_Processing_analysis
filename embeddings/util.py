@@ -311,6 +311,13 @@ class synset2sentence:
 
     def __init__(self, index_path = 'embeddings/index'):
         self._load_synset2sentence_map(index_path)
+        self._load_sentences(index_path)
+    
+    def _load_sentences(self, index_path):
+        sentences_pkl = f'{index_path}/sentences.pkl'
+        assert os.path.exists(sentences_pkl)
+        with open(sentences_pkl, 'rb') as f:
+            self.sentences = pickle.load(f)
     
     def _load_synset2sentence_map(self, index_path):
         synset2sentence_pkl = os.path.join(index_path, 'synset2sentence.pkl')
@@ -321,7 +328,7 @@ class synset2sentence:
             
             synset2sentence = {}
             for lemma, sents in lemma2context.items():
-                synset_name = lemma.synset().name()
+                synset_name = wn.lemma_from_key(lemma).synset().name()
                 if synset_name not in synset2sentence: synset2sentence[synset_name] = []
                 synset2sentence[synset_name].extend(sents)
             
@@ -338,8 +345,17 @@ class synset2sentence:
     def get_all_synsets(self):
         return self.synset2sentence.keys()
     
+    def synsets_frequencies(self):
+        return {synset: len(sents) for synset, sents in self.synset2sentence.items()}
+    
     def __call__(self, synset_name):
+        assert synset_name in self.synset2sentence
         return self.synset2sentence[synset_name]
+    
+    def realized_to_context(self, sentences):
+        return [Context(tokens = self.sentences[i[0]], index = i[1], \
+            gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
+            for i in sentences]
 
 if __name__ == '__main__':
     word2sentence = word2sentence()
