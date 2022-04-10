@@ -75,21 +75,24 @@ if __name__ == '__main__':
     pool = 'idx-last-four-average'
     plot_types = ['tSNE', 'PCA']
     output_data_point_path = 'embeddings/datapoints'
+    model_paths = ['roberta-base']
 
     word2sentence = word2sentence('semcor')
-    model = SenseEmbedding('roberta-base', add_prefix_space = True, pool = pool, max_length=100)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
-    for word in words:
-        contexts = word2sentence(word, minimum=2)
-        vecs = model.get_embeddings(contexts)
-        for plot_type in plot_types:
-            X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
-                figure_name=f'embeddings/imgs/{word}_{plot_type}_{pool}.png', plot_type=plot_type, \
-                legend_loc=9, bbox_to_anchor=(0.5, -0.1))
-            if output_data_point_path is not None:
-                path = f'{output_data_point_path}/{word}_{plot_type}_{pool}.csv'
-                f = open(path, 'w', encoding='utf-8')
-                for point, context in zip(X, contexts):
-                    f.write(f'{point[0]}\t{point[1]}\t{context.gloss}\t{" ".join([token.word if index != context.index else "[" + token.word +"]" for index, token in enumerate(context.tokens)])}\n')
-                f.close()
-                print(f'Saved to {path}!')
+    for model_path in model_paths:
+        model = SenseEmbedding(model_path=model_path, add_prefix_space = True, pool = pool, max_length=100)
+
+        for word in words:
+            contexts = word2sentence(word, minimum=2)
+            vecs = model.get_embeddings(contexts)
+            for plot_type in plot_types:
+                X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
+                    figure_name=f'embeddings/imgs/{word}_{plot_type}_{pool}_{model_path}.png', plot_type=plot_type, \
+                    legend_loc=9, bbox_to_anchor=(0.5, -0.1))
+                if output_data_point_path is not None:
+                    path = f'{output_data_point_path}/{word}_{plot_type}_{pool}_{model_path}.csv'
+                    f = open(path, 'w', encoding='utf-8')
+                    for point, context in zip(X, contexts):
+                        f.write(f'{point[0]}\t{point[1]}\t{context.gloss}\t{" ".join([token.word if index != context.index else "[" + token.word +"]" for index, token in enumerate(context.tokens)])}\n')
+                    f.close()
+                    print(f'Saved to {path}!')
