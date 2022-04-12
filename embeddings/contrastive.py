@@ -57,7 +57,9 @@ class SenseCL(IterableDataset):
         for synset in selected_synsets:
             selected_sentences = random.choices(self.synset2sentence(synset), k=2)
             sampled_sentences.extend(selected_sentences)
-        return self.synset2sentence.realized_to_context(sampled_sentences)
+        label = np.arange(self.batch_size*2)
+        label = (label+1)-(label%2)*2
+        return self.synset2sentence.realized_to_context(sampled_sentences), label
     
     def preprocess_context(self, contexts: list[Context]):
         sents = []
@@ -87,26 +89,30 @@ class SenseCL(IterableDataset):
     def __iter__(self):
         count = 0
         while count < self.max_steps:
-            sampled_sentences = self._sample_batch()
+            sampled_sentences, label = self._sample_batch()
             encoding, new_idxs, senses = self.preprocess_context(sampled_sentences)
-            yield {'idxs': new_idxs, **encoding}
+            yield {'idxs': new_idxs, 'label': label, **encoding}
             count+=1
+    
+    def __len__(self):
+        return self.max_steps
 
 
 if __name__ == '__main__':
-    model_path, index_path, max_steps, = sys.argv[1:]
+    model_path, index_path, max_steps, save_path= sys.argv[1:]
 
     tokenizer = get_tokenizer(model_path, add_prefix_space=True)
-    ds = SenseCL(tokenizer, index_path=index_path, max_steps = max_steps)
+    ds = SenseCL(tokenizer, index_path=index_path, max_steps = int(max_steps))
 
     args = get_base_hf_args(
-        output_dir='checkpoints/senseCL',
+        output_dir=save_path,
         train_batch_size=1,
         epochs=1,
         lr=5e-5,
         save_steps=100,
         save_strategy='steps',
-        save_total_limit=5
+        save_total_limit=5,
+        group_by_length = False
     )
 
     model = simcse(model_path, pooling_type='idx-last')
