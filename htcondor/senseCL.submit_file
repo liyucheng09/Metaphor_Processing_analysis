@@ -1,0 +1,65 @@
+####################
+#
+# Example Job for HTCondor
+#
+####################
+
+#---------------------------------------------
+# Name your batch so it's easy to distinguish in the q.
+JobBatchName = "SenseCL"
+
+# --------------------------------------------
+# Executable and its arguments
+
+model_name = roberta-base
+index_path = $ENV(HOME)/mpa/embeddings/index
+max_step = 500
+save_path = /vol/research/lyc/mpa/senseCL/checkpoint/
+
+executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
+arguments     = $ENV(HOME)/mpa/embeddings/contrastive.py $(model_name) $(index_path) $(max_step) $(save_path)
+
+
+# ---------------------------------------------------
+# Universe (vanilla, docker)
+universe         = docker
+docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
+
+# -------------------------------------------------
+# Event, out and error logs
+log    = SenseCL.c$(cluster).p$(process).step$(max_step).log
+output = SenseCL.c$(cluster).p$(process).step$(max_step).out
+error  = SenseCL.c$(cluster).p$(process).step$(max_step).error
+
+# -----------------------------------
+# File Transfer, Input, Output
+should_transfer_files = YES
+
+# Make certain project spaces available in container
+# environment = "mount=$ENV(HOME)"
+environment = "mount=/vol/research/nlg,/vol/research/lyc_d,/vol/research/lyc"
+
+# -------------------------------------
+# Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
+# NOTE: HasStornext is not valid on orca.
+requirements = (CUDAGlobalMemoryMb > 5000) && (CUDAGlobalMemoryMb <  25000) && \
+#              (HasStornext) && \
+			   (CUDACapability > 2.0)
+
+# --------------------------------------
+# Resources
+request_GPUs     = 1
+# this needs to be specified for the AI@Surrey cluster if requesting a GPU
++GPUMem          = 10000
+request_CPUs     = 1
+request_memory   = 8G
+
+#This job will complete in less than 1 hour
++JobRunTime = 5
+
+#This job can checkpoint
++CanCheckpoint = true
+
+# -----------------------------------
+# Queue commands
+queue
