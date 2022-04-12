@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/user/HS502/yl02706/mpa')
 from lyc.model import simcse
 from util import word2sentence, synset2sentence, Token, Context
 from torch.utils.data import IterableDataset
@@ -8,7 +10,7 @@ import random
 import os
 import pickle
 import numpy as np
-import sys
+from typing import Union, List
 from transformers import Trainer
 
 class SenseCL(IterableDataset):
@@ -26,8 +28,9 @@ class SenseCL(IterableDataset):
         self._init_sampling_weight()
     
     def _load_lemmatized2sentences(self, min_synsets, min_sents, index_path):
-        assert os.path.exists(f'{index_path}/lemmatized2sentences_semcor.pkl')
-        with open('embeddings/index/lemmatized2sentences_semcor.pkl', 'rb') as f:
+        lemmatized2sentences_pkl = f'{index_path}/lemmatized2sentences_semcor.pkl'
+        assert os.path.exists(lemmatized2sentences_pkl)
+        with open(lemmatized2sentences_pkl, 'rb') as f:
             lemmatized2sentences = pickle.load(f)
         new_map = {}
         for lemma, synset2sents in lemmatized2sentences.items():
@@ -61,7 +64,7 @@ class SenseCL(IterableDataset):
         label = (label+1)-(label%2)*2
         return self.synset2sentence.realized_to_context(sampled_sentences), label
     
-    def preprocess_context(self, contexts: list[Context]):
+    def preprocess_context(self, contexts: List[Context]):
         sents = []
         idxs = []
         senses = []

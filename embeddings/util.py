@@ -30,11 +30,11 @@ class Token:
 
 @dataclass
 class Context:
-    tokens: list[Token]
+    tokens: List[Token]
     index : int
     gloss: str
     # synset_name: str
-    examples: list[str] = None
+    examples: List[str] = None
 
     def __repr__(self):
         return ' '.join([t.word for t in self.tokens])
