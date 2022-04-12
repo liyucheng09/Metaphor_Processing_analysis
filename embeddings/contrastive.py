@@ -14,27 +14,47 @@ from transformers import Trainer
 class SenseCL(IterableDataset):
     def __init__(self, tokenizer, index_path = 'embeddings/index', max_steps = 300, batch_size = 32, min_synsets = 5, min_sents = 2, \
         max_length = 100):
-        self.lemmatized2sentences = self._load_lemmatized2sentences(min_synsets, min_sents, index_path)
         self.synset2sentence = synset2sentence(index_path=index_path)
         self.max_steps = max_steps
         self.batch_size = batch_size
         self.min_synsets = min_synsets
         self.tokenizer = tokenizer
         self.max_length = max_length
+        self.lemmatized2sentences = self._load_lemmatized2sentences(min_synsets, min_sents, index_path)
 
         self.lemmatized_list = list(self.lemmatized2sentences.keys())
         self._init_sampling_weight()
     
+    # def _load_lemmatized2sentences(self, min_synsets, min_sents, index_path):
+    #     assert os.path.exists(f'{index_path}/lemmatized2sentences_semcor.pkl')
+    #     with open('embeddings/index/lemmatized2sentences_semcor.pkl', 'rb') as f:
+    #         lemmatized2sentences = pickle.load(f)
+    #     new_map = {}
+    #     for lemma, synset2sents in lemmatized2sentences.items():
+    #         synset_counter = 0
+    #         for synset, sents in synset2sents.items():
+    #             if len(sents) > min_sents: synset_counter+=1
+    #         if synset_counter > min_synsets: new_map[lemma] = synset2sents
+    #     return new_map
+
     def _load_lemmatized2sentences(self, min_synsets, min_sents, index_path):
-        assert os.path.exists(f'{index_path}/lemmatized2sentences_semcor.pkl')
-        with open('embeddings/index/lemmatized2sentences_semcor.pkl', 'rb') as f:
-            lemmatized2sentences = pickle.load(f)
+        lemmatized2synsets = {}
+        for sent, sent_encoding in zip(self.synset2sentence.sentences, self.synset2sentence.sentences_encoding):
+            if len(sent_encoding['word_ids']) > self.max_length:
+                continue
+            for token in sent:
+                if token.sense != '-1':
+                    synset = wn.lemma_from_key(token.sense).synset().name()
+                    lemmatized = token.lemma
+                    if lemmatized not in lemmatized2synsets: lemmatized2synsets[lemmatized] = {}
+                    if synset not in lemmatized2synsets[lemmatized]: lemmatized2synsets[lemmatized][synset] = 0
+                    lemmatized2synsets[lemmatized][synset]+=1
         new_map = {}
-        for lemma, synset2sents in lemmatized2sentences.items():
+        for lemmatized, synsets in lemmatized2synsets.items():
             synset_counter = 0
-            for synset, sents in synset2sents.items():
-                if len(sents) > min_sents: synset_counter+=1
-            if synset_counter > min_synsets: new_map[lemma] = synset2sents
+            for synset, count in synsets.items():
+                if count > min_sents: synset_counter+=1
+            if synset_counter > min_synsets: new_map[lemma] = synsets
         return new_map
     
     def _init_sampling_weight(self, upper_bound = 1000, lower_bound = 100):
@@ -55,42 +75,33 @@ class SenseCL(IterableDataset):
         selected_synsets = list(selected_synsets)[:self.batch_size]
         sampled_sentences = []
         for synset in selected_synsets:
-            selected_sentences = random.choices(self.synset2sentence(synset), k=2)
+            selected_sentences = random.choices(self.synset2sentence(synset, max_length=self.max_length), k=2)
             sampled_sentences.extend(selected_sentences)
         label = np.arange(self.batch_size*2)
         label = (label+1)-(label%2)*2
-        return self.synset2sentence.realized_to_context(sampled_sentences), label
+        return sampled_sentences, label
     
-    def preprocess_context(self, contexts: list[Context]):
-        sents = []
+    def preprocess_context(self, sentences):
+        encoding = [] 
         idxs = []
-        senses = []
-        new_idxs = []
+        for sent in sentences:
+            encoding.append(sent['encoding'])
+            idxs.append(sent['idx'])
+        
+        encoding = self.tokenizer.pad(
+            encoding,
+            padding = True,
+            max_length = self.max_length,
+            return_tensors = 'pt'
+        )
 
-        for cont in contexts:
-            idx = cont.index
-            target_sense = cont.tokens[idx].sense
-            sent = [t.word for t in cont.tokens]
-            
-            sents.append(sent)
-            idxs.append(idx)
-            senses.append(target_sense)
-        
-        output = self.tokenizer(sents, is_split_into_words = True, max_length = self.max_length, padding=True, truncation = True, return_tensors = 'pt')
-        for i in range(len(sents)):
-            new_idx = output.word_ids(i)
-            new_idx = new_idx.index(idxs[i])
-            new_idxs.append(new_idx)
-        
-        # new_idxs = torch.LongTensor(new_idxs)
-        
-        return output, new_idxs, senses
+        return encoding, idxs
     
     def __iter__(self):
         count = 0
         while count < self.max_steps:
             sampled_sentences, label = self._sample_batch()
-            encoding, new_idxs, senses = self.preprocess_context(sampled_sentences)
+            encoding, new_idxs= self.preprocess_context(sampled_sentences)
             yield {'idxs': new_idxs, 'label': label, **encoding}
             count+=1
     
