@@ -378,7 +378,7 @@ class synset2sentence:
             if len(self.sentences_encoding[sentence_id]['word_ids'])>max_length:
                 continue
             new_idx = self.sentences_encoding[sentence_id]['word_ids'].index(index)
-            results.append({'encoding': self.sentences_encoding[sentence_id], 'idx': new_idx})
+            results.append({'encoding': self.sentences_encoding[sentence_id]['encoding'], 'idx': new_idx})
         return results
     
     def realized_to_context(self, sentences):
