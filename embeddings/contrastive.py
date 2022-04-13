@@ -10,11 +10,12 @@ import pickle
 import numpy as np
 import sys
 from transformers import Trainer
+from nltk.corpus import wordnet as wn
 
 class SenseCL(IterableDataset):
     def __init__(self, tokenizer, index_path = 'embeddings/index', max_steps = 300, batch_size = 32, min_synsets = 5, min_sents = 2, \
         max_length = 100):
-        self.synset2sentence = synset2sentence(index_path=index_path)
+        self.synset2sentence = synset2sentence(tokenizer, index_path=index_path)
         self.max_steps = max_steps
         self.batch_size = batch_size
         self.min_synsets = min_synsets
@@ -38,24 +39,33 @@ class SenseCL(IterableDataset):
     #     return new_map
 
     def _load_lemmatized2sentences(self, min_synsets, min_sents, index_path):
-        lemmatized2synsets = {}
-        for sent, sent_encoding in zip(self.synset2sentence.sentences, self.synset2sentence.sentences_encoding):
-            if len(sent_encoding['word_ids']) > self.max_length:
-                continue
-            for token in sent:
-                if token.sense != '-1':
-                    synset = wn.lemma_from_key(token.sense).synset().name()
-                    lemmatized = token.lemma
-                    if lemmatized not in lemmatized2synsets: lemmatized2synsets[lemmatized] = {}
-                    if synset not in lemmatized2synsets[lemmatized]: lemmatized2synsets[lemmatized][synset] = 0
-                    lemmatized2synsets[lemmatized][synset]+=1
-        new_map = {}
-        for lemmatized, synsets in lemmatized2synsets.items():
-            synset_counter = 0
-            for synset, count in synsets.items():
-                if count > min_sents: synset_counter+=1
-            if synset_counter > min_synsets: new_map[lemma] = synsets
-        return new_map
+        lemma2sentences_pkl = os.path.join(index_path, f'lemmatized2synsets_{min_synsets}_{min_sents}_{self.max_length}.pkl')
+        if not os.path.exists(lemma2sentences_pkl):
+            lemmatized2synsets = {}
+            for sent, sent_encoding in zip(self.synset2sentence.sentences, self.synset2sentence.sentences_encoding):
+                if len(sent_encoding['word_ids']) > self.max_length:
+                    continue
+                for token in sent:
+                    if token.sense != '-1':
+                        synset = wn.lemma_from_key(token.sense).synset().name()
+                        lemmatized = token.lemma
+                        if lemmatized not in lemmatized2synsets: lemmatized2synsets[lemmatized] = {}
+                        if synset not in lemmatized2synsets[lemmatized]: lemmatized2synsets[lemmatized][synset] = 0
+                        lemmatized2synsets[lemmatized][synset]+=1
+            new_map = {}
+            for lemmatized, synsets in lemmatized2synsets.items():
+                synset_counter = 0
+                for synset, count in synsets.items():
+                    if count > min_sents: synset_counter+=1
+                if synset_counter > min_synsets: new_map[lemmatized] = synsets
+            
+            with open(lemma2sentences_pkl, 'wb') as f:
+                pickle.dump(new_map, f)
+            
+            return new_map
+        
+        with open(lemma2sentences_pkl, 'rb') as f:
+            return pickle.load(f)
     
     def _init_sampling_weight(self, upper_bound = 1000, lower_bound = 100):
         synset_frequencies = self.synset2sentence.synsets_frequencies()
