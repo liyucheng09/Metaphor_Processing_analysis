@@ -94,7 +94,7 @@ class lemma2sentences:
     def __init__(self, source, save_path = 'embeddings/index'):
         # self.word2lemmas = word2lemmas()
         self.source = source
-        self._prepare(source, save_path = 'embeddings/index')
+        self._prepare(source, save_path)
     
     def _prepare(self, source, save_path):
         if source == 'semcor':

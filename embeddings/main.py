@@ -13,6 +13,7 @@ from util import word2sentence, sense, Token, Context
 import pickle
 import torch
 from typing import List
+import os
 
 class SenseEmbedding(BertWhitening):
 
@@ -72,16 +73,21 @@ class SenseEmbedding(BertWhitening):
 
 
 if __name__ == '__main__':
+    cwd, = sys.argv[1:]
+
+    index_path = os.path.join(cwd, 'embeddings/index')
+    output_data_point_path = os.path.join(cwd, 'embeddings/datapoints')
+    
     words = [ 'help', 'look', 'bank']
     # words = [ 'bank.n' ]
     pool = 'idx-last-four-average'
     plot_types = ['tSNE', 'PCA']
-    output_data_point_path = 'embeddings/datapoints'
     model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
 
-    word2sentence = word2sentence('semcor')
+    word2sentence = word2sentence('semcor', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for model_path in model_paths:
+        model_id = os.path.basename(model_path)
         model = SenseEmbedding(model_path=model_path, add_prefix_space = True, pool = pool, max_length=100)
 
         for word in words:
@@ -89,10 +95,10 @@ if __name__ == '__main__':
             vecs = model.get_embeddings(contexts)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
-                    figure_name=f'embeddings/imgs/senseCL/{word}_{plot_type}_{pool}_{model_path}.png', plot_type=plot_type, \
+                    figure_name= os.path.join(cwd, f'embeddings/imgs/senseCL/{word}_{plot_type}_{pool}_{model_id}.png'), plot_type=plot_type, \
                     legend_loc=9, bbox_to_anchor=(0.5, -0.1))
                 if output_data_point_path is not None:
-                    path = f'{output_data_point_path}/{word}_{plot_type}_{pool}_{model_path}.csv'
+                    path = f'{output_data_point_path}/{word}_{plot_type}_{pool}_{model_id}.csv'
                     f = open(path, 'w', encoding='utf-8')
                     for point, context in zip(X, contexts):
                         f.write(f'{point[0]}\t{point[1]}\t{context.gloss}\t{" ".join([token.word if index != context.index else "[" + token.word +"]" for index, token in enumerate(context.tokens)])}\n')
