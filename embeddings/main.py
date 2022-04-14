@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/user/HS502/yl02706/mpa')
 from lyc.utils import (get_model,
                        get_tokenizer,
                        vector_l2_normlize,
@@ -9,15 +11,15 @@ from lyc.pipelines.bert_whitening import BertWhitening
 from lyc.visualize import plotDimensionReduction
 from util import word2sentence, sense, Token, Context
 import pickle
-import sys
 import torch
+from typing import List
 
 class SenseEmbedding(BertWhitening):
 
     def __init__(self, model_path, **kwargs):
         super(SenseEmbedding, self).__init__(SentenceEmbeddingModel, model_path, **kwargs)    
 
-    def preprocess_context(self, contexts: list[Context]):
+    def preprocess_context(self, contexts: List[Context]):
         sents = []
         idxs = []
         senses = []
@@ -42,7 +44,7 @@ class SenseEmbedding(BertWhitening):
         
         return output, new_idxs, senses
 
-    def get_embeddings(self, contexts: list[Context], whitening=False):
+    def get_embeddings(self, contexts: List[Context], whitening=False):
         encoding, idxs, senses = self.preprocess_context(contexts)
         with torch.no_grad():
             vecs=get_vectors(self.model, encoding, idxs = idxs)
@@ -75,7 +77,7 @@ if __name__ == '__main__':
     pool = 'idx-last-four-average'
     plot_types = ['tSNE', 'PCA']
     output_data_point_path = 'embeddings/datapoints'
-    model_paths = ['roberta-base']
+    model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
 
     word2sentence = word2sentence('semcor')
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
@@ -87,7 +89,7 @@ if __name__ == '__main__':
             vecs = model.get_embeddings(contexts)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
-                    figure_name=f'embeddings/imgs/{word}_{plot_type}_{pool}_{model_path}.png', plot_type=plot_type, \
+                    figure_name=f'embeddings/imgs/senseCL/{word}_{plot_type}_{pool}_{model_path}.png', plot_type=plot_type, \
                     legend_loc=9, bbox_to_anchor=(0.5, -0.1))
                 if output_data_point_path is not None:
                     path = f'{output_data_point_path}/{word}_{plot_type}_{pool}_{model_path}.csv'
