@@ -309,9 +309,30 @@ class word2sentence:
 
 class synset2sentence:
 
-    def __init__(self, index_path = 'embeddings/index'):
+    def __init__(self, tokenizer, index_path = 'embeddings/index'):
         self._load_synset2sentence_map(index_path)
         self._load_sentences(index_path)
+        self.tokenizer = tokenizer
+        self._encoding_sentences(index_path)
+    
+    def _encoding_sentences(self, index_path):
+        sentences_encoding_pkl = os.path.join(index_path, 'sentences_encoding.pkl')
+        if not os.path.exists(sentences_encoding_pkl):
+            sentences_encoding = []
+            for sent in self.sentences:
+                tokens = [t.word for t in sent]
+                encoding = self.tokenizer(tokens, is_split_into_words = True)
+                idxs = encoding.word_ids()
+                sentences_encoding.append({'encoding': encoding, 'word_ids': idxs})
+            self.sentences_encoding = sentences_encoding
+
+            with open(sentences_encoding_pkl, 'wb') as f:
+                pickle.dump(sentences_encoding, f)
+        
+            return
+        
+        with open(sentences_encoding_pkl, 'rb') as f:
+            self.sentences_encoding = pickle.load(f)
     
     def _load_sentences(self, index_path):
         sentences_pkl = f'{index_path}/sentences.pkl'
@@ -348,9 +369,17 @@ class synset2sentence:
     def synsets_frequencies(self):
         return {synset: len(sents) for synset, sents in self.synset2sentence.items()}
     
-    def __call__(self, synset_name):
+    def __call__(self, synset_name, max_length):
         assert synset_name in self.synset2sentence
-        return self.synset2sentence[synset_name]
+        results = []
+        for sent in self.synset2sentence[synset_name]:
+            sentence_id = sent[0]
+            index = sent[1]
+            if len(self.sentences_encoding[sentence_id]['word_ids'])>max_length:
+                continue
+            new_idx = self.sentences_encoding[sentence_id]['word_ids'].index(index)
+            results.append({'encoding': self.sentences_encoding[sentence_id]['encoding'], 'idx': new_idx})
+        return results
     
     def realized_to_context(self, sentences):
         return [Context(tokens = self.sentences[i[0]], index = i[1], \
