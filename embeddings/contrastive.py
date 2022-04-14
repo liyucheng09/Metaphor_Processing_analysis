@@ -126,7 +126,8 @@ if __name__ == '__main__':
         group_by_length = False
     )
 
-    model = simcse(model_path, pooling_type='idx-last')
+    # model = simcse(model_path, pooling_type='idx-last')
+    model = get_model(simcse, model_path, pooling_type='idx-last', output_hidden_states = True)
 
     trainer = Trainer(
         args=args,
