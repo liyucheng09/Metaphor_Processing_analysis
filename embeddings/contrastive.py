@@ -27,18 +27,6 @@ class SenseCL(IterableDataset):
 
         self.lemmatized_list = list(self.lemmatized2sentences.keys())
         self._init_sampling_weight()
-    
-    # def _load_lemmatized2sentences(self, min_synsets, min_sents, index_path):
-    #     assert os.path.exists(f'{index_path}/lemmatized2sentences_semcor.pkl')
-    #     with open('embeddings/index/lemmatized2sentences_semcor.pkl', 'rb') as f:
-    #         lemmatized2sentences = pickle.load(f)
-    #     new_map = {}
-    #     for lemma, synset2sents in lemmatized2sentences.items():
-    #         synset_counter = 0
-    #         for synset, sents in synset2sents.items():
-    #             if len(sents) > min_sents: synset_counter+=1
-    #         if synset_counter > min_synsets: new_map[lemma] = synset2sents
-    #     return new_map
 
     def _load_lemmatized2sentences(self, min_synsets, min_sents, index_path):
         lemma2sentences_pkl = os.path.join(index_path, f'lemmatized2synsets_{min_synsets}_{min_sents}_{self.max_length}.pkl')
@@ -122,10 +110,10 @@ class SenseCL(IterableDataset):
 
 
 if __name__ == '__main__':
-    model_path, index_path, max_steps, save_path= sys.argv[1:]
+    model_path, index_path, max_steps, save_path = sys.argv[1:]
 
     tokenizer = get_tokenizer(model_path, add_prefix_space=True)
-    ds = SenseCL(tokenizer, index_path=index_path, max_steps = int(max_steps))
+    ds = SenseCL(tokenizer, index_path=index_path, max_steps = int(max_steps), max_length = 128)
 
     args = get_base_hf_args(
         output_dir=save_path,
