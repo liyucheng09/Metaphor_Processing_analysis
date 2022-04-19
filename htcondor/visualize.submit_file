@@ -11,10 +11,10 @@ JobBatchName = "Visualize Embedding"
 # --------------------------------------------
 # Executable and its arguments
 
-index_path = $ENV(HOME)/mpa/embeddings/index
+cwd = $ENV(HOME)/mpa
 
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/embeddings/main.py $(index_path)
+arguments     = $ENV(HOME)/mpa/embeddings/main.py $(cwd)
 
 
 # ---------------------------------------------------

@@ -91,18 +91,39 @@ class word2lemmas:
                 
 
 class lemma2sentences:
-    def __init__(self, source, save_path = 'embeddings/index'):
+    def __init__(self, tokenizer, source, save_path = 'embeddings/index'):
         # self.word2lemmas = word2lemmas()
         self.source = source
+        self.tokenizer = tokenizer
         self._prepare(source, save_path)
     
     def _prepare(self, source, save_path):
         if source == 'semcor':
             self.load_lemma2context_semcor(source, save_path)
+            self._encoding_semcor_sentences(save_path)
         elif source == 'senseval3':
             self.load_lemma2context_senseval3(source, save_path)
         elif source == 'wordnet':
             self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
+    
+    def _encoding_semcor_sentences(self, index_path):
+        sentences_encoding_pkl = os.path.join(index_path, 'sentences_encoding.pkl')
+        if not os.path.exists(sentences_encoding_pkl):
+            sentences_encoding = []
+            for sent in self.sentences:
+                tokens = [t.word for t in sent]
+                encoding = self.tokenizer(tokens, is_split_into_words = True)
+                idxs = encoding.word_ids()
+                sentences_encoding.append({'encoding': encoding, 'word_ids': idxs})
+            self.sentences_encoding = sentences_encoding
+
+            with open(sentences_encoding_pkl, 'wb') as f:
+                pickle.dump(sentences_encoding, f)
+        
+            return
+        
+        with open(sentences_encoding_pkl, 'rb') as f:
+            self.sentences_encoding = pickle.load(f)
     
     def load_lemma2context_senseval3(self, source, save_path):
         lemma2context_pkl = os.path.join(save_path, 'lemma2context_senseval3.pkl')
@@ -248,36 +269,43 @@ class lemma2sentences:
             return ''
         return self.lemma2context[sense]
     
-    def get_semcor_results(self, sense):
+    def get_semcor_results(self, sense, max_length):
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus.')
             return ''
-        return [Context(tokens = self.sentences[i[0]], index = i[1], \
-            gloss=wn.lemma_from_key(self.sentences[i[0]][i[1]].sense).synset().definition()) \
-            for i in self.lemma2context[sense]]
+        contexts = []
+        for sent in self.lemma2context[sense]:
+            sentence_id = sent[0]
+            index = sent[1]
+            if len(self.sentences_encoding[sentence_id]['word_ids'])>max_length:
+                continue
+            contexts.append(Context(tokens = self.sentences[sentence_id], index = index, \
+                gloss=wn.lemma_from_key(self.sentences[sentence_id][index].sense).synset().definition()))
+        return contexts
 
-    def __call__(self, sense):
+    def __call__(self, sense, max_length):
         if self.source == 'wordnet':
             return self.get_wn_examples(sense)
         elif self.source == 'senseval3':
             return self.get_senseval3_results(sense)
         elif self.source == 'semcor':
-            return self.get_semcor_results(sense)
+            return self.get_semcor_results(sense, max_length)
 
 class word2sentence:
     valid_sources = ['semcor', 'senseval3', 'wordnet']
 
-    def __init__(self, source, index_path = 'embeddings/index'):
+    def __init__(self, tokenizer, source, index_path = 'embeddings/index'):
         self._check_source(source)
+        # self.tokenizer = tokenizer
         self.source = source
-        self._prepare_indexs(source, index_path)
+        self._prepare_indexs(source, index_path, tokenizer)
     
-    def _prepare_indexs(self, source, index_path):
+    def _prepare_indexs(self, source, index_path, tokenizer):
         if source == 'semcor':
             self.word2lemmas = word2lemmas(save_path=index_path)
-            self.lemma2context = lemma2sentences(source = source, save_path=index_path)
+            self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
         elif source == 'senseval3':
-            self.lemma2context = lemma2sentences(source = source, save_path=index_path)
+            self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
 
     def _check_source(self, source):
         assert source in self.valid_sources, f'{source} is not a valid source, please use {self.valid_sources}'
@@ -296,7 +324,7 @@ class word2sentence:
                 pruned_contexts.extend(conts)
         return pruned_contexts
 
-    def __call__(self, word, minimum = 0):
+    def __call__(self, word, minimum = 0, max_length = 128):
         if self.source == 'senseval3':
             sentences = self.lemma2context(word)
         else:
@@ -304,7 +332,7 @@ class word2sentence:
             # sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, source=self.source), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
             sentences = []
             for lemma in lemmas:
-                sentences.extend(self.lemma2context(lemma.lemma))
+                sentences.extend(self.lemma2context(lemma.lemma, max_length))
         return self.remove_rare_context(sentences, minimum)        
 
 class synset2sentence:

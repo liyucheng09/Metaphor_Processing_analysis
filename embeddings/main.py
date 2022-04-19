@@ -77,21 +77,22 @@ if __name__ == '__main__':
 
     index_path = os.path.join(cwd, 'embeddings/index')
     output_data_point_path = os.path.join(cwd, 'embeddings/datapoints')
+    tokenizer = get_tokenizer('roberta-base', add_prefix_space=True)
     
-    words = [ 'help', 'look', 'bank']
+    words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
     # words = [ 'bank.n' ]
     pool = 'idx-last-four-average'
-    plot_types = ['tSNE', 'PCA']
+    plot_types = ['PCA']
     model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
 
-    word2sentence = word2sentence('semcor', index_path = index_path)
+    word2sentence = word2sentence(tokenizer, 'semcor', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for model_path in model_paths:
         model_id = os.path.basename(model_path)
-        model = SenseEmbedding(model_path=model_path, add_prefix_space = True, pool = pool, max_length=100)
+        model = SenseEmbedding(model_path=model_path, add_prefix_space = True, pool = pool, max_length=128)
 
         for word in words:
-            contexts = word2sentence(word, minimum=2)
+            contexts = word2sentence(word, minimum=2, max_length=128)
             vecs = model.get_embeddings(contexts)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
