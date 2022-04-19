@@ -83,16 +83,20 @@ if __name__ == '__main__':
     # words = [ 'bank.n' ]
     pool = 'idx-last-four-average'
     plot_types = ['PCA']
-    model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
+    # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
+    model_paths = ['roberta-base']
 
     word2sentence = word2sentence(tokenizer, 'semcor', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for model_path in model_paths:
         model_id = os.path.basename(model_path)
-        model = SenseEmbedding(model_path=model_path, add_prefix_space = True, pool = pool, max_length=128)
+        model = SenseEmbedding(model_path=model_path, add_prefix_space = True, pool = pool, max_length=128, output_hidden_states = True)
 
         for word in words:
             contexts = word2sentence(word, minimum=2, max_length=128)
+            if not contexts:
+                print(f'{word} do not have enough contexts to visualize!')
+                continue
             vecs = model.get_embeddings(contexts)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \

@@ -78,16 +78,21 @@ class word2lemmas:
             word2lemmas = pickle.load(f)
         return word2lemmas
 
-    def __call__(self, word):
-        if word in self.moh_word2lemmas:
-            return self.moh_word2lemmas[word]
-        senses = []
-        for s in wn.synsets(word):
-            lemmas = s.lemmas()
-            lemma = [l for l in lemmas if l.name() == word][0]
-            senses.append(sense(lemma=lemma.key(), gloss=s.definition()))
-        assert len(senses), f'No sense found for {word}!'
-        return senses
+    def __call__(self, word, source = 'wn'):
+        if source == 'moh':
+            if word in self.moh_word2lemmas:
+                return self.moh_word2lemmas[word]
+            else:
+                print(f'{word} not in MOH dataset!')
+                return []
+        elif source == 'wn':
+            senses = []
+            for s in wn.synsets(word):
+                lemmas = s.lemmas()
+                lemma = [l for l in lemmas if l.name() == word][0]
+                senses.append(sense(lemma=lemma.key(), gloss=s.definition()))
+            assert len(senses), f'No sense found for {word}!'
+            return senses
                 
 
 class lemma2sentences:
