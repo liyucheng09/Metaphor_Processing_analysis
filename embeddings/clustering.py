@@ -1,5 +1,5 @@
 import sys
-# sys.path.append('/user/HS502/yl02706/mpa')
+sys.path.append('/user/HS502/yl02706/mpa')
 from lyc.model import simcse
 from lyc.utils import get_tokenizer, get_model
 from lyc.data import SentenceDataset
@@ -9,6 +9,7 @@ from util import word2lemmas, sense, Token, Context, word2sentence
 from main import SenseEmbedding
 import numpy as np
 import os
+from nltk.corpus import wordnet as wn
 
 def compute_overlapping(vecs, lemmas):
     """计算每个sense和其余sense之间的重叠程度。
@@ -62,14 +63,16 @@ if __name__ == '__main__':
         overlapping = compute_overlapping(vecs, lemmas)
         metaphorical_senses = [ sense.lemma for sense in word2lemmas.moh_word2lemmas[word] if sense.label == 'metaphorical']
 
-        output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{word}.result')
-        img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{word}.png')
+        model_id = os.path.basename(model_path)
+        output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{model_id}_{word}.result')
+        img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{model_id}_{word}.png')
         
         overlap_path = open(output_overlapping_path, 'w', encoding='utf-8')
         for lemma, overlap in overlapping.items():
+            gloss = wn.lemma_from_key(lemma).synset().definition()
             if lemma in metaphorical_senses:
                 lemma = '*' + lemma
-            overlap_path.write(f'{lemma}\t{overlap}\n')
+            overlap_path.write(f'{lemma}\t{overlap}\t{gloss}\n')
         overlap_path.close()
 
         plotDimensionReduction(vecs, lemmas, img_path)

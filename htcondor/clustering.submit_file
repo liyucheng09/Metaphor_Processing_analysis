@@ -1,0 +1,65 @@
+####################
+#
+# Example Job for HTCondor
+#
+####################
+
+#---------------------------------------------
+# Name your batch so it's easy to distinguish in the q.
+JobBatchName = "Clustering"
+
+# --------------------------------------------
+# Executable and its arguments
+
+cwd = $ENV(HOME)/mpa
+max_length = 128
+pool = idx-last
+model_path = /vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-$(step)
+
+executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
+arguments     = $ENV(HOME)/mpa/embeddings/clustering.py $(cwd) $(max_length) $(model_path) $(pool)
+
+
+# ---------------------------------------------------
+# Universe (vanilla, docker)
+universe         = docker
+docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
+
+# -------------------------------------------------
+# Event, out and error logs
+log    = Clustering.c$(cluster).p$(process).log
+output = Clustering.c$(cluster).p$(process).out
+error  = Clustering.c$(cluster).p$(process).error
+
+# -----------------------------------
+# File Transfer, Input, Output
+should_transfer_files = YES
+
+# Make certain project spaces available in container
+# environment = "mount=$ENV(HOME)"
+environment = "mount=/vol/research/nlg,/vol/research/lyc_d,/vol/research/lyc"
+
+# -------------------------------------
+# Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
+# NOTE: HasStornext is not valid on orca.
+requirements = (CUDAGlobalMemoryMb > 5000) && (CUDAGlobalMemoryMb <  25000) && \
+#              (HasStornext) && \
+			   (CUDACapability > 2.0)
+
+# --------------------------------------
+# Resources
+request_GPUs     = 1
+# this needs to be specified for the AI@Surrey cluster if requesting a GPU
++GPUMem          = 10000
+request_CPUs     = 1
+request_memory   = 8G
+
+#This job will complete in less than 1 hour
++JobRunTime = 5
+
+#This job can checkpoint
++CanCheckpoint = true
+
+# -----------------------------------
+# Queue commands
+queue 1 step in 300, 400

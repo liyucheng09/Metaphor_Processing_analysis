@@ -81,10 +81,11 @@ if __name__ == '__main__':
     
     words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
     # words = [ 'bank.n' ]
-    pool = 'idx-last-four-average'
+    pool = 'idx-last'
+    # pool = 'idx-last-four-average'
     plot_types = ['PCA']
-    # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
-    model_paths = ['roberta-base']
+    model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
+    # model_paths = ['roberta-base']
 
     word2sentence = word2sentence(tokenizer, 'semcor', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)

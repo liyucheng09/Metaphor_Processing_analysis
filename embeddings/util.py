@@ -89,9 +89,14 @@ class word2lemmas:
             senses = []
             for s in wn.synsets(word):
                 lemmas = s.lemmas()
-                lemma = [l for l in lemmas if l.name() == word][0]
+                lemmas = [l for l in lemmas if l.name().lower() == word]
+                try:
+                    lemma = lemmas[0]
+                except IndexError as e:
+                    print(f'The sense "{s.name}" for word "{word}" has no appropriate lemma to use.')
+                    continue
                 senses.append(sense(lemma=lemma.key(), gloss=s.definition()))
-            assert len(senses), f'No sense found for {word}!'
+            # assert len(senses), f'No sense found for {word}!'
             return senses
                 
 
