@@ -370,11 +370,7 @@
 
 <lexelt item="play.v">
 <sense id="3165210" source="ws" wn="play%2:36:02::" synset="play act enact perform personate portray" gloss="to act the part of in a drama. 'He played Falstaff'."/>
-<<<<<<< HEAD
-<sense id="3165211" source="ws" wn="play%2:29:01::;play%2:36:06::"synset="play act affect feign" gloss="to act (a role) in real life. 'She is playing the injured wife'."/>
-=======
 <sense id="3165211" source="ws" wn="play%2:29:01::;play%2:36:06::" synset="play act affect feign" gloss="to act (a role) in real life. 'She is playing the injured wife'."/>
->>>>>>> 5461f8c0de6dfec257483a20c2e139083fa23c88
 <sense id="3165212" source="ws" wn="play%2:36:03::" synset="play" gloss="to perform in (a place or places). 'Our band played the midwest'."/>
 <sense id="3165213" source="ws" wn="play%2:33:00::" synset="play compete_in participate_in" gloss="to take part in (a game or contest). 'Let's play soccer'."/>
 <sense id="3165214" source="ws" wn="play%2:36:12::" synset="play" gloss="to make music with (an instrument)."/>

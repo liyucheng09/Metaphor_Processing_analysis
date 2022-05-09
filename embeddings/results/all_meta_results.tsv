@@ -1,0 +1,92 @@
+lemma_key	overlapping_ratio	gloss	num_sents
+*level%2:33:02::	0.3333333333333333	aim at	4
+*appeal%2:32:00::	1.0	request earnestly (something from somebody); ask for aid or protection	2
+*tie%2:30:01::	0.3333333333333333	limit or restrict to	4
+*suck%2:38:00::	1.0	draw something in by or as if by a vacuum	2
+*mount%2:36:00::	0.3333333333333333	put up or launch	4
+*lay%2:36:00::	0.25	prepare or position for action or operation	5
+*stream%2:38:01::	0.5	to extend, wave or float outward, as if in the wind	3
+*adhere%2:42:00::	0.7	be compatible or in accordance with	5
+*compose%2:42:00::	0.2142857142857142	form the substance of	14
+*revive%2:30:00::	1.0	be brought back to life, consciousness, or strength	2
+*revive%2:29:00::	0.75	give new life or energy to	5
+*crown%2:30:01::	1.0	be the culminating event	2
+*put%2:34:00::	0.3333333333333333	attribute or give	4
+*suspend%2:30:01::	0.3333333333333333	cause to be held in suspension in a fluid	4
+*stumble%2:40:10::	1.0	encounter by chance	2
+*culminate%2:30:00::	1.0	end, especially to reach a final or climactic stage	8
+*poison%2:41:00::	0.5	spoil as if by poison	3
+*vest%2:41:00::	1.0	provide with power and authority	2
+*erase%2:30:00::	1.0	remove from memory or existence	5
+*land%2:30:00::	0.5	bring into a different state	3
+*attack%2:32:00::	0.125	attack in speech or writing	9
+*neutralize%2:41:00::	1.0	make politically neutral and thus inoffensive	3
+*aim%2:31:01::	0.1666666666666666	propose or intend	7
+*precipitate%2:36:00::	0.3333333333333333	bring about abruptly	4
+*drown%2:35:00::	0.6666666666666666	cover completely or make imperceptible	3
+*drown%2:30:02::	1.0	get rid of as if by submerging	2
+*reach%2:35:00::	0.0449735449735449	move forward or upward in order to touch; also in a metaphorical sense	28
+*lie%2:42:02::	0.3333333333333333	have a place in relation to something else	4
+*gather%2:32:00::	1.0	conclude from evidence	2
+*inject%2:30:00::	0.5	to introduce (a new aspect or element)	3
+*thunder%2:38:00::	1.0	move fast, noisily, and heavily	2
+*shake%2:30:00::	0.3333333333333333	undermine or cause to waver	4
+*capture%2:37:00::	0.3333333333333333	attract; cause to be enamored	4
+*capture%2:36:00::	0.25	succeed in representing or expressing something intangible	5
+*blaze%2:43:01::	1.0	shine brightly and intensively	3
+*form%2:30:01::	0.1	give shape or form to	11
+*form%2:42:00::	0.0434782608695652	to compose or represent:	24
+*bow%2:32:01::	1.0	yield to another's wish or opinion	2
+*abuse%2:30:00::	1.0	change the inherent purpose or function of something	2
+*waste%2:40:00::	0.1111111111111111	spend thoughtlessly; throw away	10
+*waste%2:34:05::	0.1666666666666666	use inefficiently or inappropriately	7
+*relate%2:32:00::	0.3666666666666666	give an account of	6
+*wallow%2:34:01::	1.0	devote oneself entirely to something; indulge in to an immoderate degree, usually with pleasure	2
+*flash%2:32:00::	0.5	make known or cause to appear with great speed	3
+*boost%2:30:02::	1.0	give a boost to; be beneficial to	2
+*recapture%2:37:00::	1.0	experience anew	3
+*glow%2:39:01::	1.0	have a complexion with a strong bright color, such as red or pink	2
+*reflect%2:39:01::	0.3719512195121951	manifest or bring back	41
+*blast%2:39:00::	0.5	make a strident sound	3
+*push%2:32:00::	0.2	make publicity for; try to sell (a product)	6
+*push%2:32:01::	0.1666666666666666	press, drive, or impel (someone) to action or completion of an action	7
+*lock%2:35:04::	1.0	hold in a locking position	2
+*lock%2:35:03::	1.0	become engaged or intermeshed with one another	2
+*want%2:34:00::	0.0897435897435897	have need of	13
+*sit%2:38:01::	0.2333333333333333	be in session	6
+*sell%2:32:00::	0.25	persuade somebody to accept something	5
+*shed%2:35:01::	0.8333333333333334	get rid of	4
+*attest%2:32:01::	1.0	provide evidence for; stand as proof of; show by one's behavior, attitude, or external attributes	2
+*snort%2:32:00::	1.0	indicate contempt by breathing noisily and forcefully through the nose	2
+*emerge%2:30:01::	0.25	become known or apparent	5
+*sign%2:41:01::	1.0	engage by written agreement	2
+*translate%2:30:01::	0.1666666666666666	change from one form or medium into another	7
+*swallow%2:35:00::	1.0	enclose or envelop completely, as if by swallowing	2
+*preserve%2:42:00::	0.5105263157894737	keep or maintain in unaltered condition; cause to remain or last	20
+*down%2:34:00::	0.5	drink down entirely	3
+*erupt%2:30:02::	1.0	erupt or intensify suddenly	2
+*wear%2:42:01::	1.0	have in one's aspect; wear an expression of one's attitude or personality	2
+*hurt%2:37:00::	0.5	hurt the feelings of	3
+*climb%2:30:00::	1.0	go up or advance	2
+*flow%2:38:01::	0.0833333333333333	move or progress freely as if in a stream	13
+*transform%2:30:00::	0.4333333333333333	change or alter in form, appearance, or nature	10
+*transform%2:30:03::	0.5	change in outward structure or looks	3
+*amount%2:42:00::	0.3333333333333333	develop into	4
+*color%2:32:00::	1.0	affect as in thought or feeling	2
+*stamp%2:35:01::	1.0	to mark, or produce an imprint in or on something	2
+*rationalize%2:32:00::	0.8333333333333334	defend, explain, clear away, or make excuses for by reasoning	3
+*fill%2:30:01::	0.5827067669172933	make full, also in a metaphorical sense	57
+*talk%2:32:01::	0.6484158415841584	exchange thoughts; talk with	101
+*lend%2:42:00::	1.0	have certain characteristics of qualities for something; be open or vulnerable to	2
+*pour%2:38:00::	0.1666666666666666	move in large numbers	7
+*head%2:38:02::	0.5	travel in front of; go in advance of others	3
+*head%2:42:01::	1.0	be the first or leading member of (a group) and excel	2
+*pump%2:33:00::	0.5	deliver forth	3
+*absorb%2:31:00::	0.25	take up mentally	5
+*absorb%2:40:00::	0.3333333333333333	take up, as of debts or payments	4
+*absorb%2:30:00::	1.0	cause to become one with	2
+*smash%2:35:00::	0.3666666666666666	hit hard	6
+*pose%2:42:00::	0.3333333333333333	introduce	7
+*spell%2:32:01::	1.0	indicate or signify	2
+*screen%2:41:01::	1.0	test or examine for the presence of disease or infection	2
+*visit%2:32:01::	0.5	impose something unpleasant	3

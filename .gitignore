@@ -22,6 +22,6 @@ embeddings/overlapping
 wsd/senseval/*
 !wsd/senseval/senseval3/
 
-wsd/senseval/senseval3/*
-!wsd/senseval/senseval3/EnglishLS.train
+# wsd/senseval/senseval3/*
+# !wsd/senseval/senseval3/EnglishLS.train
 htcondor/docker_stderror

@@ -34,10 +34,11 @@ class Context:
     index : int
     gloss: str
     # synset_name: str
+    # tokenized_len : int
     examples: List[str] = None
 
     def __repr__(self):
-        return ' '.join([t.word for t in self.tokens])
+        return ' '.join([t.word if i != self.index else f'[{t.word}]' for i, t in enumerate(self.tokens)])
 
 def get_lemma(x):
     """
@@ -54,6 +55,31 @@ def get_lemma(x):
 class word2lemmas:
     def __init__(self, save_path = 'embeddings/index'):
         self.moh_word2lemmas = self.load_moh_word2lemma_dict(save_path)
+        self.senseval3_word2lemmas = self.load_senseval3_word2lemma_dict(save_path)
+    
+    def load_senseval3_word2lemma_dict(self, save_path):
+        pkl_path = os.path.join(save_path, 'senseval3_word2lemmas.pkl')
+        if not os.path.exists(pkl_path):
+            word2lemmas = {}
+            print(f'No dict found in {pkl_path}, start generating now...')
+            senseval3_annotation_path = 'wsd/senseval/senseval3/sense_annotation.tsv'
+            df = pd.read_csv(senseval3_annotation_path, sep='\t')
+            for word, sub_df in df.groupby('word'):
+                assert word not in word2lemmas
+                senses = []
+                for _, i in sub_df.iterrows():
+                    senses.append(sense(lemma = i['key'], gloss=i['gloss'], label = i['class-yucheng']))
+                if any([s.label == 'metaphorical' for s in senses]):
+                    word2lemmas[word] = senses
+            
+            with open(pkl_path, 'wb') as f:
+                pickle.dump(word2lemmas, f)
+            print(f'saved to {pkl_path}')
+            return word2lemmas
+            
+        with open(pkl_path, 'rb') as f:
+            word2lemmas = pickle.load(f)
+        return word2lemmas
     
     def load_moh_word2lemma_dict(self, save_path):
         pkl_path = os.path.join(save_path, 'moh_word2lemmas.pkl')
@@ -74,6 +100,7 @@ class word2lemmas:
                 pickle.dump(word2lemmas, f)
             print(f'saved to {pkl_path}')
             return word2lemmas
+
         with open(pkl_path, 'rb') as f:
             word2lemmas = pickle.load(f)
         return word2lemmas
@@ -113,18 +140,42 @@ class lemma2sentences:
             self._encoding_semcor_sentences(save_path)
         elif source == 'senseval3':
             self.load_lemma2context_senseval3(source, save_path)
+            self._encoding_senseval3_sentences(save_path)
         elif source == 'wordnet':
             self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
     
     def _encoding_semcor_sentences(self, index_path):
         sentences_encoding_pkl = os.path.join(index_path, 'sentences_encoding.pkl')
         if not os.path.exists(sentences_encoding_pkl):
+            assert self.tokenizer is not None, 'Tokenizer is not provided!'
             sentences_encoding = []
             for sent in self.sentences:
                 tokens = [t.word for t in sent]
                 encoding = self.tokenizer(tokens, is_split_into_words = True)
                 idxs = encoding.word_ids()
                 sentences_encoding.append({'encoding': encoding, 'word_ids': idxs})
+            self.sentences_encoding = sentences_encoding
+
+            with open(sentences_encoding_pkl, 'wb') as f:
+                pickle.dump(sentences_encoding, f)
+        
+            return
+        
+        with open(sentences_encoding_pkl, 'rb') as f:
+            self.sentences_encoding = pickle.load(f)
+    
+    def _encoding_senseval3_sentences(self, index_path):
+        sentences_encoding_pkl = os.path.join(index_path, 'sentences_encoding_semeval.pkl')
+        if not os.path.exists(sentences_encoding_pkl):
+            assert self.tokenizer is not None, 'Tokenizer is not provided!'
+            sentences_encoding = {}
+            for lemma, sents in self.lemma2context.items():
+                sentences_encoding[lemma] = []
+                for sent in sents:
+                    tokens = [t.word for t in sent.tokens]
+                    encoding = self.tokenizer(tokens, is_split_into_words = True)
+                    idxs = encoding.word_ids()
+                    sentences_encoding[lemma].append({'encoding': encoding, 'word_ids': idxs})
             self.sentences_encoding = sentences_encoding
 
             with open(sentences_encoding_pkl, 'wb') as f:
@@ -167,7 +218,7 @@ class lemma2sentences:
                     if 'U' in answers:
                         answers.remove('U')
                         if not len(answers):
-                            print(f'-----no sense id provides for {key}.')
+                            print(f'-----no sense id provides for {ins.attrib["id"]}.')
                             continue
                     tokens = []
                     index = -1
@@ -175,12 +226,13 @@ class lemma2sentences:
                         if not (word.startswith('--') and word.endswith('--')):
                             token = Token(word = word, lemma = '_', pos = '_', sense = '_') 
                         else:
+                            word = word.strip('--')
                             token = Token(word = word, lemma = '_', pos = '_', sense = ';'.join(answers))
                             index = idx
                         tokens.append(token)
                     assert index !=-1
                     gloss = dictionary[key][answers[0]]['gloss']
-                    gloss = [ i for i in gloss[1:-1].split(';') if i ]
+                    gloss = [ i.strip() for i in gloss[:-1].split(';') if i ]
                     if len(gloss)>1:
                         examples = gloss[1:]
                     else:
@@ -268,7 +320,7 @@ class lemma2sentences:
                 break
         return sentences
     
-    def get_senseval3_results(self, sense):
+    def get_senseval3_results(self, sense, max_length):
         """
         Args:
             sense (str): just word with a pos tag, e.g., activate.v 
@@ -277,9 +329,15 @@ class lemma2sentences:
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus. All avaliable words in Senseval3 are {self.lemma2context.keys()}.')
             return ''
-        return self.lemma2context[sense]
+        contexts = []
+        for sent, encoding in zip(self.lemma2context[sense], self.sentences_encoding[sense]):
+            if len(encoding['word_ids'])>max_length:
+                continue
+            contexts.append(sent)
+        return contexts
     
     def get_semcor_results(self, sense, max_length):
+        assert max_length is not None
         if sense not in self.lemma2context:
             print(f'Sense {sense} not in the corpus.')
             return ''
@@ -293,26 +351,25 @@ class lemma2sentences:
                 gloss=wn.lemma_from_key(self.sentences[sentence_id][index].sense).synset().definition()))
         return contexts
 
-    def __call__(self, sense, max_length):
+    def __call__(self, sense, max_length = None):
         if self.source == 'wordnet':
             return self.get_wn_examples(sense)
         elif self.source == 'senseval3':
-            return self.get_senseval3_results(sense)
+            return self.get_senseval3_results(sense, max_length)
         elif self.source == 'semcor':
             return self.get_semcor_results(sense, max_length)
 
 class word2sentence:
     valid_sources = ['semcor', 'senseval3', 'wordnet']
 
-    def __init__(self, tokenizer, source, index_path = 'embeddings/index'):
+    def __init__(self, source, tokenizer = None, index_path = 'embeddings/index'):
         self._check_source(source)
-        # self.tokenizer = tokenizer
         self.source = source
         self._prepare_indexs(source, index_path, tokenizer)
     
     def _prepare_indexs(self, source, index_path, tokenizer):
+        self.word2lemmas = word2lemmas(save_path=index_path)
         if source == 'semcor':
-            self.word2lemmas = word2lemmas(save_path=index_path)
             self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
         elif source == 'senseval3':
             self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
@@ -336,7 +393,7 @@ class word2sentence:
 
     def __call__(self, word, minimum = 0, max_length = 128):
         if self.source == 'senseval3':
-            sentences = self.lemma2context(word)
+            sentences = self.lemma2context(word, max_length)
         else:
             lemmas = self.word2lemmas(word)
             # sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, source=self.source), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
@@ -425,11 +482,35 @@ class synset2sentence:
             for i in sentences]
 
 if __name__ == '__main__':
-    word2sentence = word2sentence()
-    contexts = []
-    for k,v in word2sentence('act').items():
-        contexts.extend(v['sentences'])
+    # t = get_tokenizer('roberta-base', add_prefix_space=True)
+    # lemma2sentences = lemma2sentences(t, 'semcor')
+    # pprint(lemma2sentences('translate%2:30:01::', 128))
 
-    demo = SemanticEmbedding('roberta-base', kernel_bias_path='embedding/kernel', dynamic_kernel=True)
+    w2s = word2sentence('senseval3')
+    print(w2s('play.v', max_length=256))
+    # words = word2sentence.lemma2context.dictionary
+    # all_sense = []
+    # for word, senses in words.items():
+    #     for key, sense in senses.items():
+    #         line = {'word': word, 'key': key, 'source': sense['source'], 'wn': sense['wn'] if (sense['source'] != 'wn' and 'wn' in sense) else None, 'synset':'-'.join(sense['synset'].split()), 'gloss': sense['gloss']}
+    #         all_sense.append(line)
+    # df = pd.DataFrame(all_sense)
+
+    # def add_url(x):
+    #     source = x['source']
+    #     word = x['word'].split('.')[0]
+    #     if source == 'ws':
+    #         return f'https://www.wordsmyth.net/?level=3&ent={word}'
+    #     else:
+    #         return None
+    
+    # urls = df.apply(add_url, axis=1)
+    # df['url'] = urls
+    # df.to_csv(f'wsd/senseval/senseval3/sense_annotation.tsv', index=False, sep='\t')
+
+    # sents = word2sentence('activate.v', max_length=256)
+    # pprint(sents)
+
+    # demo = SemanticEmbedding('roberta-base', kernel_bias_path='embedding/kernel', dynamic_kernel=True)
     # print(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])
     # plotPCA(demo.get_embeddings(contexts), [str(con.tokens[con.index].sense) for con in contexts])

@@ -1,0 +1,370 @@
+url	word	key	source	wn	class	class-yucheng	gloss	synonyms
+https://www.wordsmyth.net/?level=3&ent=activate	activate.v	38201	ws	activate%2:36:00::		literal	to initiate action in; make active.	activate-actuate-energize-start-stimulate
+https://www.wordsmyth.net/?level=3&ent=activate	activate.v	38202	ws	activate%2:30:03::		literal	in chemistry, to make more reactive, as by heating.	activate
+https://www.wordsmyth.net/?level=3&ent=activate	activate.v	38203	ws	activate%2:30:00::		literal	to assign (a military unit) to active status.	activate-assign-ready
+https://www.wordsmyth.net/?level=3&ent=activate	activate.v	38204	ws	activate%2:30:01::		literal	in physics, to cause radioactive properties in (a substance).	activate
+https://www.wordsmyth.net/?level=3&ent=activate	activate.v	38205	ws	activate%2:30:02::		metaphorical	to cause decomposition in (sewage) by aerating.	activate-aerate-oxygenate
+https://www.wordsmyth.net/?level=3&ent=add	add.v	42601	ws	add%2:30:00::		literal	to combine (something) with something else, often to increase the amount or number of the latter. 'I added herbs to the recipe' ; 'He wants to add this stamp to his collection'.	add
+https://www.wordsmyth.net/?level=3&ent=add	add.v	42602	ws	add%2:32:00::		literal	to find the total of (often fol. by up). 'Add up the numbers'.	add-sum-tally-total
+https://www.wordsmyth.net/?level=3&ent=add	add.v	42603	ws	add%2:32:01::	metaphorical	metaphorical	to say or write beyond what has been said or written.	add-append-supplement-tack-on
+https://www.wordsmyth.net/?level=3&ent=add	add.v	42604	ws	add%2:31:00::		literal	to perform the mathematical operation of addition.	add-total
+https://www.wordsmyth.net/?level=3&ent=add	add.v	42605	ws	add%2:32:00::		literal	to make the correct total or expected result (fol. by up). 'His quitting doesn't add up'	add-figure
+https://www.wordsmyth.net/?level=3&ent=add	add.v	42606	ws	add%2:42:00::;add%2:40:00::		metaphorical	to increase (fol. by to).	add
+https://www.wordsmyth.net/?level=3&ent=appear	appear.v	190901	ws	appear%2:30:00::;appear%2:30:02::	literal	literal	to come into view; become visible.	appear-arise-emerge-show
+https://www.wordsmyth.net/?level=3&ent=appear	appear.v	190902	ws	appear%2:39:00::;appear%2:39:01::		metaphorical	to seem. 'He appears smart, but I have doubts'.	appear-look-seem
+https://www.wordsmyth.net/?level=3&ent=appear	appear.v	190903	ws	appear%2:30:01::;appear%2:36:00::	literal-literal	literal	to come before the public, as a book or performer.	appear-come_out
+	argument.n	argument%1:09:00::	wn			literal	(a variable in a logical or mathematical expression whose value determines the dependent variable; if f(x)=y, x is the independent variable)	argument-independent_variable
+	argument.n	argument%1:10:00::	wn			literal	(a discussion in which reasons are advanced for and against some proposition or proposal; 'the argument over foreign aid goes on and on')	argument-debate
+	argument.n	argument%1:10:01::	wn			literal	(a summary of the subject or plot of a literary work or play or movie; 'the editor added the argument to the poem')	argument-literary_argument
+	argument.n	argument%1:10:02::	wn			literal	(a fact or assertion offered as evidence that something is true; 'it was a strong argument that his hypothesis was true')	argument-statement
+	argument.n	argument%1:10:03::	wn			literal	(a dispute where there is strong disagreement; 'they were involved in a violent argument')	controversy-contention-contestation-tilt-argument-arguing
+	arm.n	arm%1:06:00::	wn			literal	(the part of a garment that is attached at armhole and provides a cloth covering for the arm)	sleeve-arm
+	arm.n	arm%1:06:01::	wn			literal	(instrument used in fighting or hunting; 'he was licensed to carry a weapon')	weapon-arm-weapon_system
+	arm.n	arm%1:06:02::	wn			literal	(the part of an armchair or sofa that supports the elbow and forearm of a seated person)	arm
+	arm.n	arm%1:06:03::	wn			metaphorical	(any projection that is thought to resemble an arm; 'the arm of the record player'; 'an arm of the sea'; 'a branch of the sewer')	arm-branch
+	arm.n	arm%1:08:00::	wn			literal	(a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb)	arm
+	arm.n	arm%1:14:00::	wn			metaphorical	(an administrative division of some larger or more complex organization; 'a branch of Congress')	branch-subdivision-arm
+https://www.wordsmyth.net/?level=3&ent=ask	ask.v	238101	ws	ask%2:32:00::;ask%2:32:02::	literal	literal	to put a question to. 'He asked me how to do it'.	ask-inquire_of-query-question
+https://www.wordsmyth.net/?level=3&ent=ask	ask.v	238102	ws	ask%2:32:05::		literal	to request of. 'I asked him to close the window'.	ask
+https://www.wordsmyth.net/?level=3&ent=ask	ask.v	238103	ws	ask%2:42:00::		literal	to demand or expect. 'All I ask is a little respect'.	ask-demand-require
+https://www.wordsmyth.net/?level=3&ent=ask	ask.v	238104	ws			literal	to invite. 'He asked me to the movies'.	ask-invite
+https://www.wordsmyth.net/?level=3&ent=ask	ask.v	238105	ws	ask%2:32:04::		literal	to question; inquire. 'She asked about you'.	ask-inquire
+https://www.wordsmyth.net/?level=3&ent=ask	ask.v	238106	ws	ask%2:32:01::	literal	literal	to request or seek (usu. fol. by for). 'He asked for some water'.	ask-request
+	atmosphere.n	atmosphere%1:07:00::	wn			literal	(a distinctive but intangible quality surrounding a person or thing: 'an air of mystery'; 'the house had a neglected air'; 'an atmosphere of defeat pervaded the candidate's headquarters'; 'the place had an aura of romance')	air-aura-atmosphere
+	atmosphere.n	atmosphere%1:15:00::	wn			literal	(the mass of air surrounding the Earth; 'there was great heat as the comet entered the atmosphere')	atmosphere
+	atmosphere.n	atmosphere%1:17:00::	wn			literal	(the envelope of gases surrounding any celestial body)	atmosphere
+	atmosphere.n	atmosphere%1:23:00::	wn			literal	(a unit of pressure: the pressure that will support a column of mercury 760 mm high at sea level and 0 degrees centigrade)	standard_atmosphere-atmosphere-atm-standard_pressure
+	atmosphere.n	atmosphere%1:26:00::	wn			literal	(the weather or climate at some place; 'the atmosphere was thick with fog')	atmosphere-atmospheric_state
+	atmosphere.n	atmosphere%1:26:01::	wn			literal	(a particular environment or surrounding influence; 'there was an atmosphere of excitement')	atmosphere-ambiance-ambience
+	audience.n	audience%1:10:00::	wn			literal	(a conference (usually with someone important); 'he had a consultation with the judge'; 'he requested an audience with the king')	consultation-audience-interview
+	audience.n	audience%1:14:00::	wn			literal	(a gathering of spectators or listeners at a (usually public) performance; 'the audience applauded'; 'someone in the audience began to cough')	audience
+	audience.n	audience%1:14:01::	wn			literal	(the part of the general public interested in a source of information or entertainment; 'every artist needs an audience'; 'the broadcast reached an audience of millions')	audience
+	audience.n	audience%1:26:00::	wn			literal	(an opportunity to state your case and be heard; 'they condemned him without a hearing'; 'he saw that he had lost his audience')	hearing-audience
+	bank.n	bank%1:04:00::	wn			literal	(a flight maneuver; aircraft tips laterally about its longitudinal axis (especially in turning); 'the plane went into a steep bank')	bank
+	bank.n	bank%1:06:00::	wn			literal	(a building in which commercial banking is transacted; 'the bank is on the corner of Nassau and Witherspoon')	bank-bank_building
+	bank.n	bank%1:06:01::	wn			literal	(a container (usually with a slot in the top) for keeping money at home; 'the coin bank was empty')	savings_bank-coin_bank-money_box-bank
+	bank.n	bank%1:14:00::	wn			literal	(a financial institution that accepts deposits and channels the money into lending activities; 'he cashed a check at the bank'; 'that bank holds the mortgage on my home')	depository_financial_institution-bank-banking_concern-banking_company
+	bank.n	bank%1:14:01::	wn			metaphorical	(an arrangement of similar objects in a row or in tiers; 'he operated a bank of switches')	bank
+	bank.n	bank%1:17:00::	wn			metaphorical	(a long ridge or pile; 'a huge bank of earth')	bank
+	bank.n	bank%1:17:01::	wn			literal	(sloping land (especially the slope beside a body of water); 'they pulled the canoe up on the bank'; 'he sat on the bank of the river and watched the currents')	bank
+	bank.n	bank%1:17:02::	wn			literal	(a slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force)	bank-cant-camber
+	bank.n	bank%1:21:00::	wn			literal	(a supply or stock held in reserve for future use (especially in emergencies))	bank
+	bank.n	bank%1:21:01::	wn			metaphorical	(the funds held by a gambling house or the dealer in some gambling games; 'he tried to break the bank at Monte Carlo')	bank
+https://www.wordsmyth.net/?level=3&ent=begin	begin.v	369201	ws	begin%2:30:00::		literal	to perform the first step in a process; start.	begin-commence-set_about-start
+https://www.wordsmyth.net/?level=3&ent=begin	begin.v	369202	ws	begin%2:42:00::	literal	literal	to come into being.	begin-commence-originate-start
+https://www.wordsmyth.net/?level=3&ent=begin	begin.v	369203	ws	begin%2:30:01::		literal	to perform the first step of (something); start.	begin-commence-kick_off-lead-open-set_about-start
+https://www.wordsmyth.net/?level=3&ent=begin	begin.v	369204	ws	begin%2:30:01::		metaphorical	to cause to come into being.	begin-inaugurate-initiate-start-undertake
+https://www.wordsmyth.net/?level=3&ent=climb	climb.v	770001	ws	climb%2:38:00::	literal	literal	to move upward; go towards the top; ascend.	climb-ascend
+https://www.wordsmyth.net/?level=3&ent=climb	climb.v	770002	ws	climb%2:38:06::	metaphorical	metaphorical	to slope upward.	climb-ascend
+https://www.wordsmyth.net/?level=3&ent=climb	climb.v	770003	ws			metaphorical	to twist around and up a tall support. 'The ivy climbed to the balcony'.	climb-creep-twine
+https://www.wordsmyth.net/?level=3&ent=climb	climb.v	770004	ws	climb%2:30:03::	metaphorical	metaphorical	to strive to become more important, wealthier, or more successful, or to become so.	climb
+https://www.wordsmyth.net/?level=3&ent=climb	climb.v	770005	ws	climb%2:38:00::	literal	literal	to go up; ascend. 'Let's climb the hill'.	climb-ascend
+https://www.wordsmyth.net/?level=3&ent=decide	decide.v	1067501	ws	decide%2:31:01::	literal	literal	to arrive at a conclusion about or a settlement of. 'We decided our dispute'.	decide-conclude-determine-negotiate-resolve-settle-solve
+https://www.wordsmyth.net/?level=3&ent=decide	decide.v	1067502	ws	decide%2:31:06::	literal	literal	to bring to a definite end. 'The game was decided by a shot in the final second'.	decide-conclude-determine-finish-resolve-terminate
+https://www.wordsmyth.net/?level=3&ent=decide	decide.v	1067503	ws	decide%2:31:00::	literal	literal	to make up one's mind about something; resolve to do something.	decide-choose-determine-resolve-settle
+https://www.wordsmyth.net/?level=3&ent=decide	decide.v	1067504	ws	decide%2:31:01::	literal	literal	to resolve a conflict or dispute.	decide-arbitrate-judge-settle
+	degree.n	degree%1:07:00::	wn			literal	(a position on a scale of intensity or amount or quality: 'a moderate degree of intelligence'; 'a high level of care is required'; 'it is all a matter of degree')	degree-grade-level
+	degree.n	degree%1:07:01::	wn			literal	(the seriousness of something (e.g., a burn or crime); 'murder in the second degree'; 'a second degree burn')	degree
+	degree.n	degree%1:09:00::	wn			literal	(the highest power of a term or variable)	degree
+	degree.n	degree%1:10:00::	wn			literal	(an award conferred by a college or university signifying that the recipient has satisfactorily completed a course of study; 'he earned his degree at Princeton summa cum laude')	academic_degree-degree
+	degree.n	degree%1:23:00::	wn			literal	(a measure for arcs and angles; 'there are 360 degrees in a circle')	degree-arcdegree
+	degree.n	degree%1:23:03::	wn			literal	(a unit of temperature on a specified scale; 'the game was played in spite of the 40-degree temperature')	degree
+	degree.n	degree%1:26:01::	wn			literal	(a specific identifiable position in a continuum or series or especially in a process; 'a remarkable degree of frankness'; 'at what stage are the social sciences?')	degree-level-stage-point
+	difference.n	difference%1:07:00::	wn			literal	(the quality of being unlike or dissimilar: 'there are many differences between jazz and rock')	difference
+	difference.n	difference%1:10:00::	wn			literal	(a disagreement or argument about something important; 'he had a dispute with his wife'; 'there were irreconcilable differences'; 'the familiar conflict between Republicans and Democrats')	dispute-difference-difference_of_opinion-conflict
+	difference.n	difference%1:11:00::	wn			literal	(a variation that deviates from the standard or norm; 'the deviation from the mean')	deviation-divergence-departure-difference
+	difference.n	difference%1:23:00::	wn			literal	(the number that remains after subtraction; the number that when added to the subtrahend gives the minuend)	remainder-difference
+	difference.n	difference%1:24:00::	wn			literal	(a significant change; 'the difference in her is amazing'; 'his support made a real difference')	difference
+	different.a	different%3:00:00::	wn			literal	(unlike in nature or quality or form or degree; 'took different approaches to the problem'; 'came to a different conclusion'; 'different parts of the country'; 'on different sides of the issue'; 'this meeting was different from the earlier one')	different
+	different.a	different%3:00:02::	wn			literal	(not like; marked by dissimilarity; 'for twins they are very unlike'; 'people are profoundly different')	unlike-dissimilar-different
+	different.a	different%5:00:00:other:00	wn			literal	(distinctly separate from the first; 'that's another (or different) issue altogether')	another(a)-different
+	different.a	different%5:00:00:unusual:00	wn			literal	(differing from all others; not ordinary; 'advertising that strives continually to be different'; 'this new music is certainly different but I don't really like it')	different
+	different.a	different%5:00:01:other:00	wn			literal	(distinct or separate; 'each interviewed different members of the community')	different
+	difficulty.n	difficulty%1:04:00::	wn			literal	(an effort that is inconvenient; 'I went to a lot of trouble'; 'he won without any trouble'; 'had difficulty walking'; 'finished the test only with great difficulty')	trouble-difficulty
+	difficulty.n	difficulty%1:07:00::	wn			literal	(the quality of being difficult; 'they agreed about the difficulty of the climb')	difficulty-difficultness
+	difficulty.n	difficulty%1:09:02::	wn			literal	(a factor causing trouble in achieving a positive result or tending to produce a negative result; 'serious difficulties were encountered in obtaining a pure reagent')	difficulty
+	difficulty.n	difficulty%1:26:00::	wn			literal	(a situation or condition almost beyond one's ability to deal with and requiring great effort to bear or overcome: 'grappling with financial difficulties')	difficulty
+	disc.n	disc%1:06:00::	wn			literal	(a thin flat circular plate)	disk-disc
+	disc.n	disc%1:06:01::	wn			literal	(sound recording consisting of a disc with continuous grooves; formerly used to reproduce music by rotating while a phonograph needle tracked in the grooves)	phonograph_record-phonograph_recording-record-disk-disc-platter
+	disc.n	disc%1:06:03::	wn			literal	((computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored)	magnetic_disk-magnetic_disc-disk-disc
+	disc.n	disc%1:25:00::	wn			literal	(something with a round shape like a flat circular plate)	disk-disc-saucer
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297001	ws	eat%2:34:00::	literal	literal	to consume (food) through the mouth.	eat-consume-ingest-swallow
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297002	ws	eat%2:30:00::		metaphorical	to destroy through wearing away; corrode. 'Rust eats metal'.	eat-corrode-deteriorate-wear
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297003	ws	eat%2:34:13::		metaphorical	to ravage or consume in the manner of eating. 'a budget that was eaten by unexpected expenses'.	eat-consume-devour-swallow
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297004	ws	eat%2:37:00::		metaphorical	to bother or disturb. 'What's eating them'?	eat-bother-bug-gnaw-trouble
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297005	ws			metaphorical	(informal) to bear the cost of. 'He had to eat the unpaid bills'.	eat
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297006	ws	eat%2:34:00::	literal	literal	to partake of food.	eat-fare-feed-sup
+https://www.wordsmyth.net/?level=3&ent=eat	eat.v	1297007	ws	eat%2:30:00::		metaphorical	to corrode. 'Rust ate through the metal'.	eat-corrode-deteriorate
+https://www.wordsmyth.net/?level=3&ent=encounter	encounter.v	1353101	ws	encounter%2:38:00::;encounter%2:40:00::		literal	to meet or come upon, esp. suddenly or by chance.	encounter-bump_into-come_across-run_across
+https://www.wordsmyth.net/?level=3&ent=encounter	encounter.v	1353102	ws	encounter%2:33:00::		literal	to meet or confront in battle or conflict.	encounter-battle-engage-meet
+https://www.wordsmyth.net/?level=3&ent=encounter	encounter.v	1353103	ws	encounter%2:42:00::		literal	to meet with, or come up against, esp. unexpectedly. 'I encountered some unforeseen difficulties'.	encounter-hit
+https://www.wordsmyth.net/?level=3&ent=encounter	encounter.v	1353104	ws	encounter%2:42:02::		literal	to meet, esp. in conflict or unexpectedly.	encounter-meet
+https://www.wordsmyth.net/?level=3&ent=expect	expect.v	1440301	ws	expect%2:31:00::;expect%2:31:01::	literal-literal	literal	to hope for or look forward to with some reason to believe in fulfillment. 'I expect him at noon'; 'I expect success'.	expect-communicate-convey
+https://www.wordsmyth.net/?level=3&ent=expect	expect.v	1440302	ws	expect%2:31:05::	literal	literal	(informal) to guess or suppose. 'I expect you would like a drink of water after such hard exercise'.	expect-guess-presume-reckon
+https://www.wordsmyth.net/?level=3&ent=expect	expect.v	1440303	ws	expect%2:29:00::;expect%2:29:02::	literal	literal	to be pregnant. 'She is expecting'.	expect
+https://www.wordsmyth.net/?level=3&ent=express	express.v	1446801	ws	express%2:32:01::		literal	to make (ideas, thoughts, or feelings) known by saying or writing, or by creating art works.	express-communicate-convey
+https://www.wordsmyth.net/?level=3&ent=express	express.v	1446802	ws	express%2:32:00::		literal	to make known the thoughts or feelings of (oneself).	express-communicate-convey-verbalize-voice
+https://www.wordsmyth.net/?level=3&ent=express	express.v	1446803	ws	express%2:32:09::	literal	literal	to send by rapid transport.	express
+https://www.wordsmyth.net/?level=3&ent=express	express.v	1446804	ws	express%2:32:01::		literal	to show or make manifest.	express-evince-reveal-show
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892101	ws	hear%2:39:00::		literal	to perceive with the ears.	hear
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892102	ws	hear%2:31:00::		literal	to be informed about; learn. 'I heard he was coming back to town'.	hear-learn
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892103	ws	hear%2:39:05::		literal	to listen to carefully. 'Did you really hear what he told you'?	hear-listen_to
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892104	ws	hear%2:41:00::		metaphorical	to give formal audience to, esp. in a court of law. 'The judge wouldn't hear our case'.	hear
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892105	ws			literal	to have the ability to perceive sound.	hear
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892106	ws	hear%2:39:01::		literal	to receive information or greetings from another. 'He heard from his sister yesterday'.	hear
+https://www.wordsmyth.net/?level=3&ent=hear	hear.v	1892107	ws			metaphorical	to listen with agreement or consent (usu. fol. by of). 'He would not hear of my paying the check'.	hear-agree_to-consent_to-stand_for-toleratw
+	hot.a	hot%3:00:01::	wn			literal	(used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning; 'hot stove'; 'hot water'; 'a hot August day'; 'a hot stuffy room'; 'she's hot and tired'; 'a hot forehead')	hot
+	hot.a	hot%3:00:02::	wn			metaphorical	(extended meanings; especially of psychological heat; marked by intensity or vehemence especially of passion or enthusiasm; 'a hot temper'; 'a hot topic'; 'a hot new book'; 'a hot love affair'; 'a hot argument')	hot
+	hot.a	hot%5:00:00:active:01	wn			metaphorical	((informal) marked by excited activity; 'a hot week on the stock market')	hot
+	hot.a	hot%5:00:00:charged:00	wn			literal	((electricity) charged or energized with electricity; 'a hot wire'; 'a live wire')	hot-live
+	hot.a	hot%5:00:00:eager:00	wn			metaphorical	(having or showing great eagerness or enthusiasm; 'hot for travel')	hot
+	hot.a	hot%5:00:00:fast:01	wn			metaphorical	(very fast; 'a blistering pace'; 'got off to a hot start'; 'in hot pursuit'; 'a red-hot line drive')	blistering-hot-red-hot
+	hot.a	hot%5:00:00:fresh:01	wn			metaphorical	(newly made; 'a hot scent')	hot
+	hot.a	hot%5:00:00:good:01	wn			metaphorical	(very good; often used in the negative; 'he's hot at math but not so hot at history')	hot
+	hot.a	hot%5:00:00:illegal:00	wn			metaphorical	((informal) recently stolen or smuggled; 'hot merchandise'; 'a hot car')	hot
+	hot.a	hot%5:00:00:lucky:00	wn			metaphorical	(having or bringing unusually good luck; 'hot at craps'; 'the dice are hot tonight')	hot
+	hot.a	hot%5:00:00:near:00	wn			metaphorical	(of a seeker; near to the object sought; 'you're getting warm'; 'hot on the trail')	warm-hot
+	hot.a	hot%5:00:00:new:00	wn			metaphorical	(newest or most recent; 'news hot off the press'; 'red-hot information')	hot-red-hot
+	hot.a	hot%5:00:00:popular:00	wn			metaphorical	((informal) very popular or successful; 'one of the hot young talents'; 'cabbage patch dolls were hot last season')	hot
+	hot.a	hot%5:00:00:pungent:00	wn			metaphorical	(having a piquant burning taste of spices or peppers; 'gingery Chinese food'; 'hot peppers'; 'hot curry'; 'corn chips with peppery salsa'; 'spicy tomato sauce')	gingery-hot-peppery-spicy
+	hot.a	hot%5:00:00:radioactive:00	wn			metaphorical	(having or dealing with dangerously high levels of radioactivity; 'hot fuel rods'; 'a hot laboratory')	hot
+	hot.a	hot%5:00:00:sexy:00	wn			metaphorical	(sexually excited or exciting; 'was hot for her'; 'hot pants')	hot
+	hot.a	hot%5:00:00:skilled:00	wn			metaphorical	((informal) performed or performing with unusually great skill and daring and energy; 'a hot drummer'; 'he's hot tonight')	hot
+	hot.a	hot%5:00:00:unpleasant:00	wn			metaphorical	(very unpleasant or even dangerous; 'make it hot for him'; 'in the hot seat'; 'in hot water')	hot
+	hot.a	hot%5:00:00:violent:00	wn			metaphorical	(characterized by violent and forceful activity or movement; very intense; 'the fighting became hot and heavy'; 'a hot engagement'; 'a raging battle'; 'the river became a raging torrent')	hot-raging
+	hot.a	hot%5:00:00:wanted:00	wn			metaphorical	(wanted by the police; 'a hot suspect')	hot
+	hot.a	hot%5:00:00:warm:03	wn			metaphorical	((color) bold and intense; 'hot pink')	hot
+	hot.a	hot%5:00:02:fast:01	wn			metaphorical	(capable of quick response and great speed; 'a hot sports car')	hot
+	image.n	image%1:06:00::	wn			literal	(a visual representation of an object or scene or person produced on a surface; 'they showed us the pictures of their wedding'; 'a movie is a series of images projected so rapidly that the eye integrates them')	picture-image-icon-ikon
+	image.n	image%1:06:01::	wn			literal	(a representation of a person (especially in the form of sculpture); 'the coin bears an effigy of Lincoln'; 'the emperor's tomb had his image carved in stone')	effigy-image-simulacrum
+	image.n	image%1:07:00::	wn			literal	((Jungian psychology) a personal facade one presents to the world; 'a public image is as fragile as Humpty Dumpty')	persona-image
+	image.n	image%1:09:00::	wn			metaphorical	(an iconic mental representation; 'her imagination forced images upon her too awful to contemplate')	image-mental_image
+	image.n	image%1:09:02::	wn			metaphorical	(a standard or typical example; 'he is the prototype of good breeding'; 'he provided America with an image of the good father')	prototype-paradigm-epitome-image
+	image.n	image%1:10:00::	wn			literal	(language used in a figurative or nonliteral sense)	trope-figure_of_speech-figure-image
+	image.n	image%1:18:00::	wn			metaphorical	(someone who closely resembles a famous person (especially an actor); 'he could be Gingrich's double'; 'she's the very image of her mother')	double-image-look-alike
+	important.a	important%3:00:00::	wn			literal	(of great significance or value; 'important people'; 'the important questions of the day')	important-of_import
+	important.a	important%3:00:02::	wn			literal	(of extreme importance; vital to the resolution of a crisis; 'a crucial moment in his career'; 'a crucial election'; 'a crucial issue for women')	crucial-important
+	important.a	important%3:00:04::	wn			literal	(important in effect or meaning; 'a significant change in tax laws'; 'a significant change in the Constitution'; 'a significant contribution'; 'significant details'; 'statistically significant')	significant-important
+	important.a	important%5:00:00:immodest:02	wn			literal	(having or suggesting a consciousness of high position; 'recited the decree with an important air'; 'took long important strides in the direction of his office')	important
+	important.a	important%5:00:00:influential:00	wn			literal	(having authority or ascendancy or influence; 'an important official'; 'the captain's authoritative manner')	authoritative-important
+	interest.n	interest%1:04:01::	wn			literal	(a subject or pursuit that occupies one's time and thoughts (usually pleasantly): 'sailing is her favorite pastime'; 'his main pastime is gambling'; 'he counts reading among his interests'; 'they criticized the boy for his limited interests')	pastime-interest
+	interest.n	interest%1:07:01::	wn			literal	(a reason for wanting something done; 'for your sake'; 'died for the sake of his country'; 'in the interest of safety'; 'in the common interest')	sake-interest
+	interest.n	interest%1:07:02::	wn			literal	(the power of attracting or holding one's interest (because it is unusual or exciting etc.); 'they said nothing of great interest'; 'primary colors can add interest to a room')	interest-interestingness
+	interest.n	interest%1:09:00::	wn			literal	(a sense of concern with and curiosity about someone or something; 'an interest in music')	interest-involvement
+	interest.n	interest%1:14:00::	wn			metaphorical	((usually plural) a social group whose members control some field of activity and who have common aims; 'the iron interests stepped up production')	interest-interest_group
+	interest.n	interest%1:21:00::	wn			literal	(a fixed charge for borrowing money; usually a percentage of the amount borrowed; 'how much interest do you pay on your mortgage?')	interest
+	interest.n	interest%1:21:03::	wn			literal	(a right or legal share of something; a financial involvement with something; 'they have interests all over the world'; 'a stake in the company's future')	interest-stake
+	judgment.n	judgment%1:04:00::	wn			literal	((law) the determination by a court of competent jurisdiction on matters submitted to it)	judgment-judgement-judicial_decision
+	judgment.n	judgment%1:04:02::	wn			literal	(the act of judging or assessing a person or situation or event; 'they criticized my judgment of the contestants')	judgment-judgement-assessment
+	judgment.n	judgment%1:07:00::	wn			literal	(the capacity to assess situations or circumstances shrewdly and to draw sound conclusions)	judgment-judgement-sound_judgment-sound_judgement-perspicacity
+	judgment.n	judgment%1:09:00::	wn			literal	(the cognitive process of reaching a decision or drawing conclusions)	judgment-judgement-judging
+	judgment.n	judgment%1:09:01::	wn			literal	(ability to make good judgments)	sagacity-sagaciousness-judgment-judgement-discernment
+	judgment.n	judgment%1:09:04::	wn			literal	(an opinion formed by judging something; 'he was reluctant to make his judgment known'; 'she changed her mind')	judgment-judgement-mind
+	judgment.n	judgment%1:10:00::	wn			literal	(the legal document stating the reasons for a judicial decision; 'opinions are usually written by a single judge')	judgment-judgement-opinion
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439901	ws	lose%2:40:02::;lose%2:35:00::		literal	to no longer possess; be unable to find; misplace. 'I lost my overshoes'.	lose-misplace
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439902	ws	lose%2:40:02::		metaphorical	to fail to keep possession of. 'I just lost a quarter in this candy machine'.	lose
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439903	ws	lose%2:33:00::		metaphorical	to fail to win. 'They lost the contest'.	lose
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439904	ws	lose%2:40:02::		metaphorical	to fail to maintain; be unable to keep. 'He lost his health, and then his pride'.	lose
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439905	ws	lose%2:37:00::		metaphorical	to suffer the loss of through death. 'He lost his mother last week'.	lose
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439906	ws			metaphorical	to fail to use or take advantage of; waste. 'This argument is causing us to lose time'.	lose-squander-waste
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439907	ws			metaphorical	to go astray from. 'I lost my way'.	lose
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439908	ws	lose%2:33:00::		metaphorical	to experience defeat or loss.	lose
+https://www.wordsmyth.net/?level=3&ent=lose	lose.v	2439909	ws	lose%2:30:03::		metaphorical	to diminish the effectiveness in a particular way. 'The tale loses in retelling'.	lose
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555501	ws	mean%2:32:01::	literal	literal	to have as a goal or purpose; intend. 'I mean to leave soon'.	mean-intend
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555502	ws	mean%2:31:01::		literal	to intend to denote or express. 'What I mean is that we are mortal'.	mean
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555503	ws	mean%2:32:03::		literal	of words, to signify. 'The word 'tomorrow' means the next day'.	mean-signify
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555504	ws	mean%2:31:05::	literal	literal	to intend for a particular purpose or end. 'He was meant for the priesthood'.	mean-destine-intend
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555505	ws	mean%2:42:00::	literal	literal	to cause as a result. 'The fire means we are unlikely to return'.	mean
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555506	ws	mean%2:42:03::		metaphorical	to have a specified degree of significance or importance. 'She means little to them'.	mean
+https://www.wordsmyth.net/?level=3&ent=mean	mean.v	2555507	ws	mean%2:31:00::		literal	to have intentions or be disposed. 'He means well, even though his acts don't show it'.	mean
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644301	ws	miss%2:39:00::	literal	literal	to fail to hit, catch, reach, cross, or in any way touch or contact (a particular object). 'He missed the ball' ; 'I missed the plane'.	miss
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644302	ws	miss%2:38:00::;miss%2:35:00::	literal-literal	literal	to fail to see, hear, understand, or otherwise acknowledge. 'He misses the point'.	miss
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644303	ws	miss%2:42:01::	literal	literal	to fail to perform, attend, or otherwise experience. 'I missed the concert'.	miss
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644304	ws			literal	to fail to achieve or attain. 'They missed a good chance'.	miss-muff-pass_up
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644305	ws	miss%2:32:00::	literal	literal	to avoid, escape, or evade. 'The car missed the tree'.	miss-espace-avoid
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644306	ws	miss%2:37:00::	literal	literal	to feel sad or lonely in the absence of. 'She missed her friend'.	miss
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644307	ws	miss%2:39:00::	literal	literal	to fail to hit, catch, or otherwise touch something such as a target, ball, or other object.	miss
+https://www.wordsmyth.net/?level=3&ent=miss	miss.v	2644308	ws	miss%2:33:00::		literal	to fail; not succeed.	miss-bomb-fail-flop
+https://www.wordsmyth.net/?level=3&ent=note	note.v	2822011	ws	note%2:39:00::;note%2:39:02::	literal-literal	literal	to perceive or observe attentively.	note-mark-notice-observe-remark
+https://www.wordsmyth.net/?level=3&ent=note	note.v	2822012	ws	note%2:32:01::	literal	literal	to make a written record or reminder of.	note-record-register
+https://www.wordsmyth.net/?level=3&ent=note	note.v	2822013	ws	note%2:32:00::		metaphorical	to mention; remark. 'She noted that she liked the wallpaper'.	note-comment-mention-observe-remark
+https://www.wordsmyth.net/?level=3&ent=operate	operate.v	2893201	ws	operate%2:35:03::		literal	to function in a correct or effective manner, as a machine.	operate-function-go-run-work
+https://www.wordsmyth.net/?level=3&ent=operate	operate.v	2893202	ws	operate%2:41:00::		literal	to be in the process of action; carry on affairs.	operate
+https://www.wordsmyth.net/?level=3&ent=operate	operate.v	2893203	ws	operate%2:29:00::		literal	to perform a surgical procedure (usu. fol. by on).	operate
+https://www.wordsmyth.net/?level=3&ent=operate	operate.v	2893204	ws	operate%2:33:00::		metaphorical	(informal) to act with skillful deception so as to improve one's own situation.	operate-finagle-machinate
+https://www.wordsmyth.net/?level=3&ent=operate	operate.v	2893205	ws	operate%2:35:00::		literal	to control the functioning of a machine or the like.	operate-run-work
+	organization.n	organization%1:04:00::	wn			literal	(the act of organizing a business or business-related activity; 'he was brought in to supervise the organization of a new department')	organization-organisation
+	organization.n	organization%1:04:01::	wn			literal	(the activity or result of distributing or disposing persons or things properly or methodically; 'in this new organization the container is much smaller')	organization-organisation-arrangement
+	organization.n	organization%1:04:02::	wn			literal	(the act of forming something; 'the constitution of a PTA group'; 'he still remembers the establishment of the hospital')	constitution-establishment-formation-organization-organisation
+	organization.n	organization%1:07:00::	wn			literal	(an ordered manner; orderliness by virtue of being methodical and well organized; 'his compulsive organization was not an endearing quality'; 'we can't do it unless we establish some system around here')	organization-organisation-system
+	organization.n	organization%1:09:00::	wn			literal	(an organized structure for arranging or classifying; 'he changed the arrangement of the topics'; 'the facts were familiar but it was in the organization of them that he was original'; 'he tried to understand their system of classification')	arrangement-organization-organisation-system
+	organization.n	organization%1:14:00::	wn			literal	(a group of people who work together)	organization-organisation
+	organization.n	organization%1:14:01::	wn			literal	(the persons (or committees or departments etc.) who make up a governing body and who administer something; 'he claims that the present administration is corrupt'; 'the governance of an association is responsible to its members'; 'he quickly became recognized as a member of the establishment')	administration-governance-establishment-brass-organization-organisation
+	paper.n	paper%1:06:00::	wn			literal	(a newspaper as a physical object: 'when it began to rain he covered his head with a newspaper')	newspaper-paper
+	paper.n	paper%1:10:00::	wn			literal	(medium for written communication; 'the notion of an office running without paper is absurd')	paper
+	paper.n	paper%1:10:01::	wn			literal	(an essay (especially one written as an assignment); 'he got an A on his composition')	composition-paper-report-theme
+	paper.n	paper%1:10:02::	wn			literal	(a scholarly article describing the results of observations or stating hypotheses; 'he has written many scientific papers')	paper
+	paper.n	paper%1:10:03::	wn			literal	(a daily or weekly publication on folded sheets; contains news and articles and advertisements; 'he read his newspaper at breakfast')	newspaper-paper
+	paper.n	paper%1:14:00::	wn			literal	(a business firm that publishes newspapers; 'Murdoch owns many newspapers')	newspaper-paper-newspaper_publisher
+	paper.n	paper%1:27:00::	wn			literal	(a material made of cellulose pulp derived mainly from wood or rags or certain grasses)	paper
+	party.n	party%1:11:00::	wn			literal	(an occasion on which people can assemble for social interaction and entertainment; 'he planned a party to celebrate Bastille Day')	party
+	party.n	party%1:14:00::	wn			literal	(a group of people gathered together for pleasure; 'she joined the party after dinner')	party
+	party.n	party%1:14:01::	wn			literal	(an organization to gain political power; 'in 1992 Perot tried to organize a third party at the national level')	party-political_party
+	party.n	party%1:14:02::	wn			literal	(a band of people associated temporarily in some activity; 'they organized a party to search for food'; 'the company of cooks walked into the kitchen')	party-company
+	party.n	party%1:18:00::	wn			literal	(a person involved in legal proceedings; 'the party of the first part')	party
+	performance.n	performance%1:04:00::	wn			literal	(the act of performing; of doing something successfully; using knowledge as distinguished from merely possessing it; 'they criticised his performance as mayor'; 'experience generally improves performance')	performance-execution-carrying_out-carrying_into_action
+	performance.n	performance%1:04:01::	wn			literal	(the act of presenting a play or a piece of music or other entertainment; 'we congratulated him on his performance at the rehearsal'; 'an inspired performance of Mozart's C minor concerto')	performance
+	performance.n	performance%1:04:03::	wn			literal	(any recognized accomplishment; 'they admired his performance under stress'; 'when Roger Maris powered four home runs in one game his performance merits awe')	performance
+	performance.n	performance%1:10:00::	wn			literal	(a dramatic or musical entertainment; 'they listened to ten different performances'; 'the play ran for 100 performances'; 'the frequent performances of the symphony testify to its popularity')	performance-public_presentation
+	performance.n	performance%1:22:00::	wn			literal	(process or manner of functioning or operating; 'the power of its engine determine its operation'; 'the plane's operation in high winds'; 'they compared the cooking performance of each oven'; 'the jet's performance conformed to high standards')	operation-functioning-performance
+	plan.n	plan%1:06:00::	wn			literal	(scale drawing of a structure; 'the plans for City Hall were on file')	plan-architectural_plan
+	plan.n	plan%1:09:00::	wn			literal	(a series of steps to be carried out or goals to be accomplished; 'they drew up a six-step plan'; 'they discussed plans for a new bond issue')	plan-program-programme
+	plan.n	plan%1:09:01::	wn			literal	(an arrangement scheme; 'the awkward design of the keyboard made operation difficult'; 'it was an excellent design for living'; 'a plan for seating guests')	design-plan
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165210	ws	play%2:36:02::		literal	to act the part of in a drama. 'He played Falstaff'.	play-act-enact-perform-personate-portray
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165211	ws	play%2:29:01::;play%2:36:06::		literal	to act (a role) in real life. 'She is playing the injured wife'.	play-act-affect-feign
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165212	ws	play%2:36:03::		literal	to perform in (a place or places). 'Our band played the midwest'.	play
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165213	ws	play%2:33:00::		literal	to take part in (a game or contest). 'Let's play soccer'.	play-compete_in-participate_in
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165214	ws	play%2:36:12::		literal	to make music with (an instrument).	play
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165215	ws	play%2:34:13::		literal	to manipulate for one's advantage (usu. fol. by off). 'She played off her husband against her father'.	play-exploit-use
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165216	ws	play%2:29:04::		literal	to control (a hooked fish).	play
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165217	ws	play%2:41:00::;play%2:41:03::		literal	to engage in recreation; have fun.	play-disport-sport
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165218	ws	play%2:33:00::		literal	to engage in a sport or game	play-compete-sport
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165219	ws	play%2:41:02::		literal	to behave in a specified way. 'He doesn't play fair'.	play-conform
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165220	ws	play%2:36:01::		literal	to make music with an instrument.	play
+https://www.wordsmyth.net/?level=3&ent=play	play.v	3165221	ws	play%2:31:01::		literal	to make a toy of another; use another without due regard for his or her feelings. 'He is simply playing with me'.	play-dally-trifle-try
+https://www.wordsmyth.net/?level=3&ent=produce	produce.v	3288301	ws	produce%2:36:02::	literal	literal	to bring into being; yield.	produce-generate-give-make-yield
+https://www.wordsmyth.net/?level=3&ent=produce	produce.v	3288302	ws	produce%2:36:00::	literal	literal	to manufacture.	produce-make-manufacture
+https://www.wordsmyth.net/?level=3&ent=produce	produce.v	3288303	ws			literal	to give birth to.	produce-bear-breed-deliver
+https://www.wordsmyth.net/?level=3&ent=produce	produce.v	3288304	ws	produce%2:39:01::	literal	literal	to bring forward into view or notice; present. 'His reluctance to produce his partner's name'.	produce-expose-manifest-present
+https://www.wordsmyth.net/?level=3&ent=produce	produce.v	3288305	ws	produce%2:39:00::		literal	to organize and present (a film, play, concert, or the like) for public entertainment.	produce
+https://www.wordsmyth.net/?level=3&ent=produce	produce.v	3288306	ws	produce%2:36:02::	literal	literal	to cause, create, or yield results, esp. the usual or expected results. 'The artist couldn't produce without encouragement'.	produce-yield
+https://www.wordsmyth.net/?level=3&ent=provide	provide.v	3313901	ws	provide%2:40:00::	literal	literal	to supply; furnish. 'I'll provide them with food'.	provide-furnish-purvey-serve-supply
+https://www.wordsmyth.net/?level=3&ent=provide	provide.v	3313902	ws	provide%2:34:00::	literal	literal	to make available for use; afford. 'The group provides an important service'.	provide-offer-proffer-tender
+https://www.wordsmyth.net/?level=3&ent=provide	provide.v	3313903	ws	provide%2:32:00::	literal	literal	to arrange or specify beforehand. 'This law provides that speeders will be fined'.	provide
+https://www.wordsmyth.net/?level=3&ent=provide	provide.v	3313904	ws			literal	to take precautionary action (usu. fol. by for or against). 'The village provided for a harsh winter'.	provide-prepare-stock_up-store_up
+https://www.wordsmyth.net/?level=3&ent=provide	provide.v	3313905	ws	provide%2:34:00::	literal	literal	to supply necessities such as money (often fol. by for). 'She provides for her children'.	provide-attend-deliver-minister
+https://www.wordsmyth.net/?level=3&ent=provide	provide.v	3313906	ws	provide%2:40:00::	literal	literal	to make an arrangement, agreement, or condition. 'The system provides for free medical care'.	provide-perform-yield
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434801	ws	receive%2:40:00::		literal	to get or take (something) that has been sent or offered.	receive-get
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434802	ws	receive%2:39:15::		literal	to accept (something) that has been bestowed. 'He received his degree last year'.	receive
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434803	ws	receive%2:32:00::		metaphorical	to welcome. 'They receive guests often' ; 'We received him as a club member'.	receive-welcome
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434804	ws	receive%2:39:03::		metaphorical	to undergo; experience. 'She received a serious injury'.	receive-sustain-undergo
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434805	ws	receive%2:39:00::		literal	to find out about. 'We received the news too late'.	receive-find_out-hear
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434806	ws	receive%2:40:00::		literal	to accept or get something.	receive
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434807	ws	receive%2:35:00::		metaphorical	to extend hospitality to guests.	receive-entertain
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434808	ws	receive%2:30:00::		literal	to pick up signals, as on a radio or television.	receive
+https://www.wordsmyth.net/?level=3&ent=receive	receive.v	3434809	ws			metaphorical	in football, to play in the position of one designated to catch a forward pass.	receive
+https://www.wordsmyth.net/?level=3&ent=remain	remain.v	3477801	ws	remain%2:30:00::		literal	to continue without a change in quality or state.	remain-abide-dwell-continue-last-persist-stay
+https://www.wordsmyth.net/?level=3&ent=remain	remain.v	3477802	ws	remain%2:42:03::		literal	to stay or be left in the same place after others have gone.	remain-abide-linger-stay-tarry
+https://www.wordsmyth.net/?level=3&ent=remain	remain.v	3477803	ws	remain%2:42:05::		literal	to be left, as still to be done. 'Who will win remains to be seen'.	remain-survive
+https://www.wordsmyth.net/?level=3&ent=rule	rule.v	3597906	ws	rule%2:41:00::		literal	to exert authority over; govern. 'He rules the country'.	rule-govern
+https://www.wordsmyth.net/?level=3&ent=rule	rule.v	3597907	ws	rule%2:42:00::		metaphorical	to have superiority over, within a particular field or area. 'She rules the field in racing'.	rule-dominate
+https://www.wordsmyth.net/?level=3&ent=rule	rule.v	3597908	ws	rule%2:36:00::		literal	to make evenly spaced parallel lines on (a piece of paper or other surface).	rule
+https://www.wordsmyth.net/?level=3&ent=rule	rule.v	3597910	ws	rule%2:32:00::		literal	to make a specific decision or ruling, as in a court of law.	rule-find
+https://www.wordsmyth.net/?level=3&ent=rule	rule.v	3597911	ws	rule%2:42:00::		metaphorical	to be pervasive or dominant. 'Chaos rules'.	rule-dominate-predominate-prevail
+	shelter.n	shelter%1:06:00::	wn			literal	(a structure that provides privacy and protection from danger)	shelter
+	shelter.n	shelter%1:06:01::	wn			literal	(protective covering that provides protection from the weather)	shelter
+	shelter.n	shelter%1:21:00::	wn			metaphorical	(a way of organizing business to reduce the taxes it must pay)	tax_shelter-shelter
+	shelter.n	shelter%1:26:00::	wn			literal	(the condition of being protected; 'they were huddled together for protection'; 'he enjoyed a sense of peace and protection in his new home')	protection-shelter
+	simple.a	simple%3:00:01::	wn			literal	((botany) of leaf shapes; of leaves having no divisions or subdivisions)	simple-unsubdivided
+	simple.a	simple%3:00:02::	wn			literal	(having few parts; not complex or complicated or involved; 'a simple problem'; 'simple mechanisms'; 'a simple design'; 'a simple substance')	simple
+	simple.a	simple%5:00:00:easy:01	wn			literal	(easy and not involved or complicated; 'an elementary problem in statistics'; 'elementary, my dear Watson'; 'a simple game'; 'found an uncomplicated solution to the problem')	elementary-simple-uncomplicated-unproblematic
+	simple.a	simple%5:00:00:naive:00	wn			metaphorical	(exhibiting childlike simplicity and credulity; 'childlike trust'; 'dewey-eyed innocence'; 'simple courtesy')	childlike-wide-eyed-dewey-eyed-simple
+	simple.a	simple%5:00:00:plain:01	wn			literal	(not elaborate in style; unornamented; 'a simple country schoolhouse'; 'her black dress--simple to austerity')	simple
+	simple.a	simple%5:00:00:retarded:00	wn			metaphorical	(lacking mental capacity and devoid of subtlety)	dim-witted-half-witted-simple-simple-minded
+	simple.a	simple%5:00:02:plain:01	wn			literal	(apart from anything else; without additions or modifications; 'only the bare facts'; 'shocked by the mere idea'; 'the simple passage of time was enough'; 'the simple truth')	bare(a)-mere(a)-simple(a)
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893501	ws	smell%2:39:01::		literal	to perceive the odor of by means of the nose.	smell-nose-scent
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893502	ws	smell%2:39:01::		literal	to examine by using the sense of smell. 'She smelled the soup to see if it was ready'.	smell-sniff-snuff
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893503	ws			metaphorical	to detect; discern. 'We smelled dishonesty in his conduct'.	smell-sense-discern-detect-sniff
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893505	ws	smell%2:39:00::		literal	to have or give off an odor or fragrance.	smell
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893507	ws	smell%2:39:02::		literal	to have or give off an unpleasant odor; stink.	smell-reek-stink
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893508	ws	smell%2:39:00::		literal	to have a lingering trace (usu. fol. by of). 'The room smelled of smoke'.	smell
+https://www.wordsmyth.net/?level=3&ent=smell	smell.v	3893509	ws			metaphorical	to investigate (usu. fol. by about or around). 'Let's smell around for some evidence'.	smell-sniff
+	solid.a	solid%3:00:01::	wn			literal	(of definite shape and volume; firm; neither liquid nor gaseous; 'ice is water in the solid state')	solid
+	solid.a	solid%3:00:02::	wn			literal	(entirely of one substance with no holes inside; 'solid silver'; 'a solid block of wood')	solid
+	solid.a	solid%5:00:00:cubic:00	wn			literal	(having three dimensions; 'a solid object')	solid
+	solid.a	solid%5:00:00:frozen:00	wn			literal	(turned into or covered with thick ice; 'a brook frozen solid')	solid
+	solid.a	solid%5:00:00:good:01	wn			metaphorical	(of good substantial quality; 'solid comfort'; 'a solid base hit')	solid
+	solid.a	solid%5:00:00:hard:01	wn			literal	(not soft or yielding to pressure; 'a firm mattress'; 'the snow was firm underfoot'; 'solid ground')	firm-solid
+	solid.a	solid%5:00:00:homogeneous:00	wn			metaphorical	(of one substance or character throughout; 'solid gold'; 'a solid color'; 'carved out of solid rock')	solid
+	solid.a	solid%5:00:00:honorable:00	wn			metaphorical	(having high moral qualities; 'a noble spirit'; 'a solid citizen'; 'an upstanding man'; 'a worthy successor')	noble-solid-upstanding-worthy
+	solid.a	solid%5:00:00:opaque:00	wn			metaphorical	(incapable of being seen through; 'solid blackness')	solid
+	solid.a	solid%5:00:00:plain:02	wn			metaphorical	(entirely of a single color throughout; 'a solid fabric')	solid-self-colored-self-coloured
+	solid.a	solid%5:00:00:sound:01	wn			metaphorical	(of good quality and condition; solidly built; 'a solid foundation'; 'several substantial timber buildings')	solid-strong-substantial
+	solid.a	solid%5:00:00:unbroken:02	wn			literal	(uninterrupted in space; having no gaps or breaks; 'a solid line across the page'; 'solid sheets of water')	solid
+	solid.a	solid%5:00:00:undiversified:00	wn			metaphorical	(acting together as a single undiversified whole; 'a solid voting bloc')	solid-unanimous
+	solid.a	solid%5:00:00:wholesome:00	wn			metaphorical	(providing abundant nourishment; 'a hearty meal'; 'good solid food'; 'ate a substantial breakfast')	hearty-satisfying-solid-substantial
+	sort.n	sort%1:07:00::	wn			literal	(an approximate definition or example; 'she wore a sort of magenta dress'; 'she served a creamy sort of dessert thing')	sort
+	sort.n	sort%1:09:00::	wn			literal	(a category of things distinguished by some common characteristic or quality; 'sculpture is a form of art'; 'what kinds of desserts are there?')	kind-sort-form-variety
+	sort.n	sort%1:18:00::	wn			literal	(a person of a particular character or nature; 'what sort of person is he?'; 'he's a good sort')	sort
+	sort.n	sort%1:22:00::	wn			literal	(an operation that segregates items into groups according to a specified criterion; 'the bottleneck in mail delivery it the process of sorting')	sort-sorting
+	source.n	source%1:06:00::	wn			literal	(a facility where something is available)	source
+	source.n	source%1:09:00::	wn			metaphorical	(anything that provides inspiration for later work)	source-seed-germ
+	source.n	source%1:10:00::	wn			literal	(a document (or organization) from which information is obtained; 'the reporter had two sources for the story')	source
+	source.n	source%1:10:01::	wn			literal	(a publication (or a passage from a publication) that is referred to; 'he carried an armful of references back to his desk'; 'he spent hours looking for the source of that quotation')	reference-source
+	source.n	source%1:15:00::	wn			metaphorical	(the place where something begins, where it springs into being; 'the Italian beginning of the Renaissance'; 'Jupiter was the origin of the radiation'; 'Pittsburgh is the source of the Ohio River'; 'communism's Russian root')	beginning-origin-root-rootage-source
+	source.n	source%1:18:00::	wn			literal	(someone who originates or causes or initiates something; 'he was the generator of several complaints')	generator-source-author
+	source.n	source%1:18:01::	wn			literal	(a person who supplies information)	informant-source
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155301	ws	suspend%2:35:00::	literal	literal	to hang (something) from a higher position.	suspend-hang
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155302	ws	suspend%2:30:02::	literal	literal	to cause to stop for a period of time. 'The game was suspended until they cleared the floor'.	suspend-intermit-interrupt
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155303	ws	suspend%2:30:00::		literal	to put off till later; defer. 'We will suspend judgment on the case'.	suspend-defer-delay-postpone
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155304	ws	suspend%2:30:02::	literal	literal	to cause to be temporarily ineffective. 'Can we suspend the usual rules'?	suspend
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155305	ws	suspend%2:41:00::		literal	to exclude for disciplinary reasons. 'The principal suspended John from school for fighting'.	suspend-expel
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155306	ws	suspend%2:30:01::	metaphorical	metaphorical	to cause to remain motionless, undissolved, or unattached in a fluid medium such as air or water.	suspend
+https://www.wordsmyth.net/?level=3&ent=suspend	suspend.v	4155307	ws	suspend%2:30:00::		literal	to cease activity for a period of time.	suspend-intermit-pause
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198501	ws	talk%2:32:01::;talk%2:32:03::	metaphorical-literal	literal	to communicate through spoken words; discuss. 'We talked about literary theory' ; 'Can the baby talk yet'?	talk-converse-speak
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198502	ws			literal	to gossip. 'The whole town is talking'.	talk-gossip-whisper
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198503	ws	talk%2:32:00::	literal	literal	to chatter idly or incessantly.	talk-chat-chitchat-gab-palaver
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198504	ws	talk%2:32:05::	literal	literal	to give a speech; lecture.	talk-declaim-discourse-lecture-speak
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198505	ws	talk%2:32:02::;talk%2:32:06::	literal-literal	literal	to disclose confidential or secret information. 'Even under torture he refused to talk'.	talk-tell
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198506	ws	talk%2:32:00::	literal	literal	to articulate in words.	talk-articulate-pronounce-say-speak-tell-utter
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198507	ws	talk%2:32:03::	literal	literal	to speak (a particular language or dialect).	talk-speak
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198508	ws	talk%2:32:01::	metaphorical	metaphorical	to discuss. 'They talked finance at the meeting'.	talk-address-discuss
+https://www.wordsmyth.net/?level=3&ent=talk	talk.v	4198509	ws			literal	to influence; convince. 'He talked her into buying a car'.	talk
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380101	ws	treat%2:41:00::		literal	to behave toward (someone) in a particular way.	treat-relate_to
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380102	ws	treat%2:41:00::		literal	to deal with or represent in a particular way.	treat-deal_with-handle
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380103	ws	treat%2:41:00::		metaphorical	to discuss in speech or writing. 'He treated several themes in his talk'.	treat-address-discuss
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380104	ws	treat%2:29:00::	literal	literal	to relieve or cure (a disease or illness). 'She treated her cold with vitamins'.	treat-cure-heal-relieve-remedy
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380105	ws	treat%2:29:00::	literal	literal	to give medical attention to. 'The doctor treats twenty patients a day'.	treat
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380106	ws	treat%2:34:00::	literal	literal	to offer (food, drink, or entertainment) to at one's own expense.	treat
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380107	ws	treat%2:30:01::	literal	literal	to act upon in order to achieve a desired result. 'He treated the wood with varnish'.	treat
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380108	ws	treat%2:32:00::		metaphorical	to deal with a subject, topic, or theme in speech or writing (often fol. by of). 'an essay that treats of politics'.	treat-deal
+https://www.wordsmyth.net/?level=3&ent=treat	treat.v	4380109	ws	treat%2:40:00::	literal	literal	to take responsibility for the cost of providing food, drink, or entertainment to another.	treat-buy-pay
+https://www.wordsmyth.net/?level=3&ent=use	use.v	4530701	ws	use%2:34:01::	literal	literal	to bring into service; employ, esp. habitually. 'I use a computer to do my homework'.	use-employ-utilize
+https://www.wordsmyth.net/?level=3&ent=use	use.v	4530702	ws	use%2:34:00::		literal	to expend; consume. 'He used his last dollar to buy some bread'.	use-consume-expend-spend
+https://www.wordsmyth.net/?level=3&ent=use	use.v	4530703	ws	use%2:41:14::	literal	literal	to employ for selfish motives; exploit. 'He used his friends to get what he wanted'.	use-exploit-take_advantage_of
+https://www.wordsmyth.net/?level=3&ent=use	use.v	4530704	ws	use%2:34:02::	literal	literal	to partake of (drugs). 'Using heroin made him very sick'.	use-take
+https://www.wordsmyth.net/?level=3&ent=use	use.v	4530705	ws	use%2:41:03::	literal	literal	used in the past tense in order to show a former habitual practice or state (fol. by to). 'We used to go shopping every Saturday'.	use
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636101	ws	wash%2:35:00::		literal	to make clean by immersing in or applying water or other liquid, esp. if soap is also used. 'He washed all the cups'.	wash-clean
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636102	ws	wash%2:35:02::		literal	to remove (dirt or other matter) by immersing in water or other liquid, esp. if soap is also used. 'She washed the stain out of her shirt'.	wash-rinse
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636103	ws			literal	to transport by means of a moving liquid, esp. water. 'The waves wash shells onto the beach'.	wash-carry
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636104	ws	wash%2:30:09::		literal	to erode or destroy by the action of moving water. 'Rain washed the snowman'.	wash-erode-wear
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636105	ws	wash%2:30:06::		literal	to make wet; moisten; drench.	wash-moisten-wet
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636106	ws	wash%2:42:12::		metaphorical	to rid of guilt or impurity.	wash-absolve-purify
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636107	ws	wash%2:29:00::		literal	to clean or bathe oneself.	wash-bathe-shower
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636108	ws	wash%2:30:05::		literal	to clean something in or with water or other liquid.	wash-clean
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636109	ws	wash%2:42:00::		literal	to be capable of being cleaned in or with water without shrinking or fading. 'This dress won't wash well'.	wash
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636110	ws	wash%2:38:01::		literal	to be carried by the action of moving water. 'A pail washed up on the beach'.	wash-float-drift
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636111	ws	wash%2:30:05::		literal	to be removed or worn down by the action of moving water (often fol. by away). 'The paint on the road washed away in the rain'.	wash-erode-wear
+https://www.wordsmyth.net/?level=3&ent=wash	wash.v	4636112	ws	wash%2:30:08::		literal	to flow over; rush against. 'The waves washed over the dock'.	wash-flow-pour-rush-stream
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640501	ws	watch%2:39:00::		literal	to look closely or with uninterrupted attention.	watch-look-regard
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640502	ws			literal	to look or wait in alert expectation (usu. fol. by for). 'Watch for our spring sales'.	watch-wait
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640503	ws	watch%2:41:00::		literal	to keep a vigil, esp. through the night.	watch
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640504	ws	watch%2:39:01::		literal	to be careful or alert.	watch
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640507	ws	watch%2:39:00::		literal	to look at closely or with uninterrupted attention.	watch-look-lookt_at-stare-regard
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640508	ws	watch%2:41:00::		literal	to guard or tend attentively. 'Grandmother is watching the children'.	watch-guard-tend-attend
+https://www.wordsmyth.net/?level=3&ent=watch	watch.v	4640509	ws	watch%2:41:00::;watch%2:39:05::		literal	to stay informed about or aware of. 'He watches the news of the world'.	watch-attend-follow-keep_track_of
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711401	ws	win%2:33:00::		literal	to be victorious in a competition.	win-conquer-prevail-triumph
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711402	ws	win%2:41:04::		literal	to gain success through effort or struggle.	win-overcome-succeed-triumph
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711403	ws	win%2:33:00::		literal	to gain victory in. 'He won the race'.	win-gain
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711404	ws	win%2:40:00::		metaphorical	to obtain through effort. 'It took years to win his freedom'.	win-achieve-acquire-attain-earn-get-procure
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711405	ws			metaphorical	to capture in battle. 'The army won the town'.	win-capture-conquer
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711406	ws	win%2:40:00::		metaphorical	to gain (loyalty, sympathy, affection, or the like). 'He won her love'.	win-acquire-gain
+https://www.wordsmyth.net/?level=3&ent=win	win.v	4711407	ws	win%2:33:01::		metaphorical	to succeed in obtaining the support of. 'His speech won many voters'.	win-bring_around
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753401	ws	write%2:36:01::		literal	to form (letters, words, symbols, or characters) on a surface with a pen, pencil, typewriter, or other instrument. 'Write your name on the paper'.	write
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753402	ws	write%2:32:00::	literal	literal	to express or record by writing. 'She wrote her ideas'.	write
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753403	ws	write%2:36:00::;write%2:36:04::		literal	to author or compose. 'She wrote that song'.	write-author-compose
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753404	ws	write%2:36:01::;write%2:32:00::	literal	literal	to fill in the spaces of or cover with writing. 'He wrote six pages'.	write-pen
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753405	ws			metaphorical	to leave the evidence or signs of. 'Guilt is written all over his face'.	write-evidence-exhibit-manifest
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753406	ws	write%2:36:01::		literal	to form letters, words, symbols, or characters on a surface with a pen, pencil, typewriter, or other instrument.	write
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753407	ws	write%2:36:02::	literal	literal	to create written material as a job or profession. 'She writes and he sells shoes'	write-compose
+https://www.wordsmyth.net/?level=3&ent=write	write.v	4753408	ws	write%2:32:01::		literal	to communicate by sending letters. 'Write to me soon'.	write

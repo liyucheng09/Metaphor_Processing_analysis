@@ -1,0 +1,1386 @@
+lemma_key	overlapping_ratio	gloss	num_sents
+claim%2:40:00::	0.0824175824175824	demand as being one's due or property; assert one's right or title to	14
+claim%2:32:02::	0.125	ask for legally or make a legal claim to, as of debts, for example	9
+claim%1:07:02::	0.5	an informal right to something	3
+claim%2:32:00::	0.0303030303030303	assert or affirm strongly; state to be true or existing	34
+claim%2:32:03::	0.3333333333333333	lay claim to; as of an idea	4
+claim%1:07:01::	1.0	an established or recognized right	2
+claim%1:04:00::	0.2	demand for something as rightful or due	6
+claim%1:10:00::	0.0851449275362318	an assertion of a right (as to money or property)	24
+claim%1:10:02::	0.1	an assertion that something is true or factual	11
+construct%2:36:01::	0.25	"put together out of artificial or natural components or parts; ; ; He manufactured a popular cereal"""	5
+construct%2:36:00::	0.7804232804232805	make by combining materials and parts	28
+construct%2:35:00::	1.0	draw with suitable instruments and under specified conditions	2
+line%1:09:01::	0.1111111111111111	a course of reasoning aimed at demonstrating a truth or falsehood; the methodical process of logical reasoning	10
+line%1:10:02::	0.1	text consisting of a row of words written across a page or computer screen	11
+line%1:06:06::	0.3333333333333333	a pipe used to transport liquids or gases	4
+line%1:15:00::	0.3333333333333333	a spatial location defined by a real or imaginary unidimensional extent	4
+line%2:42:00::	0.1666666666666666	be in line with; form a line along	7
+line%1:10:01::	0.0526315789473684	a mark that is long relative to its width	20
+line%1:14:03::	0.2	a formation of people or things one beside another	6
+line%1:14:02::	0.1428571428571428	a connected series of events or actions or developments	8
+line%1:14:01::	0.0833333333333333	a formation of people or things one behind another	13
+line%1:06:03::	0.3333333333333333	the road consisting of railroad track and roadbed	4
+line%1:14:00::	1.0	the descendants of one individual	2
+line%1:06:00::	1.0	something (as a cord or rope) that is long and thin and flexible	2
+line%1:06:07::	0.5	a telephone connection	3
+line%1:04:01::	0.5	acting in conformity	3
+line%1:25:00::	0.1428571428571428	a length (straight or curved) without breadth or thickness; the trace of a moving point	8
+line%2:35:00::	0.25	cover the interior of	5
+line%1:06:01::	0.125	a conductor for transmitting electrical or optical signals or electric power	9
+line%1:04:00::	1.0	the principal activity in your life that you do to earn money	2
+line%1:19:00::	0.1111111111111111	a single frequency (or very narrow band) of radiation in a spectrum	10
+*level%2:33:02::	0.3333333333333333	aim at	4
+level%1:07:01::	0.25	height above ground	5
+level%1:26:00::	0.1047619047619047	a specific identifiable position in a continuum or series or especially in a process	15
+level%1:07:00::	0.46462063086104	a position on a scale of intensity or amount or quality	69
+level%1:26:01::	0.1515151515151515	a relative position or degree of value in a graded group	22
+face%2:42:00::	0.0833333333333333	be oriented in a certain direction, often with respect to another reference point; be opposite to	13
+face%1:18:00::	1.0	a part of a person that is used to refer to a person	2
+face%2:42:02::	0.3333333333333333	be opposite	4
+face%1:08:00::	0.015215028722248	the front of the human head from the forehead to the chin and ear to ear	114
+face%2:32:00::	0.0185185185185185	deal with (something unpleasant) head on	55
+face%1:06:02::	0.3333333333333333	the striking or working surface of an implement	4
+face%1:07:00::	0.05	the general outward appearance of something	21
+face%1:07:03::	0.5	the feelings expressed on a person's face	3
+face%2:33:00::	0.032258064516129	oppose, as in hostility or a competition	32
+face%2:32:03::	0.5	present somebody with something, usually to accuse or criticize	3
+appeal%2:41:00::	0.3333333333333333	take a court case to a higher court for review	4
+appeal%1:07:00::	0.1428571428571428	attractiveness that interests or pleases or stimulates	8
+appeal%1:10:00::	0.3333333333333333	earnest or urgent request	4
+appeal%1:04:00::	0.1428571428571428	(law) a legal proceeding in which the appellant resorts to a higher court for the purpose of obtaining a review of a lower court decision and a reversal of the lower court's judgment or the granting of a new trial	8
+*appeal%2:32:00::	1.0	request earnestly (something from somebody); ask for aid or protection	2
+rotate%2:38:01::	1.0	turn on or around an axis or a center	8
+piece%1:17:00::	0.1964285714285714	a portion of a natural object	8
+piece%1:10:02::	1.0	an artistic or literary composition	2
+piece%1:11:00::	0.3333333333333333	an instance of some kind	4
+piece%1:06:00::	0.2285714285714285	a separate part of a whole	15
+piece%1:06:05::	0.1153846153846153	an item that is an instance of some type	13
+piece%1:10:01::	0.1666666666666666	a musical work that has been created	7
+plunge%2:30:10::	0.4166666666666667	begin with vigor	4
+plunge%2:38:01::	0.8333333333333334	drop steeply	4
+plunge%2:35:01::	0.25	thrust or throw into	5
+reform%1:04:00::	1.0	a change for the better as a result of correcting abuses	3
+invite%2:41:01::	0.5	have as a guest	3
+invite%2:37:01::	0.2619047619047619	increase the likelihood of	7
+invite%2:41:00::	0.2	invite someone to one's house	6
+invite%2:32:01::	1.0	request the participation or presence of	2
+invite%2:35:00::	1.0	ask to enter	2
+invite%2:32:00::	0.2	ask someone in a friendly way to do something	6
+invite%2:37:00::	0.3	give rise to a desire by being attractive or inviting	6
+depress%2:37:00::	1.0	lower someone's spirits; make downhearted	3
+profess%2:32:00::	0.8333333333333334	practice as a profession, teach, or claim to be knowledgeable about	4
+profess%2:32:03::	0.6666666666666666	confess one's faith in, or allegiance to	3
+lean%3:00:04::	0.3333333333333333	lacking excess flesh; ; -Shakespeare	4
+lean%2:42:01::	0.5	have a tendency or disposition to do or be something; be inclined	3
+lean%2:38:00::	0.4093567251461988	to incline or bend from a vertical position	19
+lean%2:35:00::	0.3333333333333333	cause to lean or incline	4
+interrupt%2:32:00::	0.7636363636363637	make a break in	11
+interrupt%2:30:03::	0.45	destroy the peace or tranquility of	5
+demand%1:10:00::	0.0974025974025974	an urgent or peremptory request	22
+demand%2:32:02::	0.2	claim as due or just	6
+demand%1:22:00::	0.125	the ability and desire to purchase goods and services	9
+demand%2:32:00::	0.0798780487804878	request urgently and forcefully	41
+demand%1:09:00::	0.2	required activity	6
+demand%2:42:00::	0.0476190476190476	require as useful, just, or proper	22
+demand%1:04:00::	0.5	the act of demanding	3
+infect%2:29:01::	1.0	communicate a disease to	2
+paste%2:35:01::	0.25	join or attach with or as if with glue	5
+paste%1:27:01::	0.4166666666666667	any mixture of a soft and malleable consistency	4
+tie%1:26:01::	0.3333333333333333	a social or business relationship	4
+tie%2:35:00::	0.0909090909090909	fasten or secure with a rope, string, or cord	12
+tie%1:26:00::	0.5	equality of score in a contest	3
+*tie%2:30:01::	0.3333333333333333	limit or restrict to	4
+tie%2:33:00::	0.3333333333333333	finish a game with an equal number of points, goals, etc.	4
+tie%1:06:01::	0.25	neckwear consisting of a long narrow piece of material worn (mostly by men) under a collar and tied in knot at the front	5
+splash%2:35:01::	1.0	cause (a liquid) to spatter about, especially with force	2
+refine%2:30:01::	1.0	improve or perfect by pruning or polishing	2
+suck%2:34:04::	0.6666666666666666	draw into the mouth by creating a practical vacuum in the mouth	3
+*suck%2:38:00::	1.0	draw something in by or as if by a vacuum	2
+inherit%2:40:00::	1.0	obtain from someone after their death	14
+join%2:35:01::	0.1830065359477124	cause to become joined or linked	18
+join%2:41:00::	0.6234727878563495	become part of; become a member of a group or organization	74
+join%2:35:00::	0.1666666666666666	make contact or come together	7
+join%2:41:01::	0.3	come into the company of	6
+register%1:10:00::	1.0	an official written record of names or events or transactions	2
+register%2:32:03::	0.2	record in a public office or in a court of law	6
+register%2:32:00::	1.0	indicate a certain reading; of gauges and instruments	2
+register%2:39:00::	0.5	be aware of	3
+register%2:41:00::	0.1666666666666666	record in writing; enter into a book of names or events or transactions	7
+register%2:41:01::	0.4166666666666667	enroll to vote	4
+mount%1:05:00::	0.3333333333333333	a lightweight horse kept for riding only	4
+mount%2:38:01::	0.5	get up on the back of	3
+*mount%2:36:00::	0.3333333333333333	put up or launch	4
+mount%2:35:00::	0.1111111111111111	attach to a support	10
+mount%2:30:00::	0.1428571428571428	go up or advance	8
+mount%2:38:00::	0.5	go upward with gradual or continuous progress	3
+mount%2:30:01::	0.2	fix onto a backing, setting, or support	6
+correct%2:41:01::	0.25	make reparations or amends for	5
+correct%5:00:00:proper:00	1.0	socially right or correct	2
+correct%2:30:00::	0.391025641025641	make right or correct	13
+correct%3:00:00::	0.25	free from error; especially conforming to fact or truth	5
+lay%2:35:01::	0.3815789473684211	put into a certain place or abstract location	20
+lay%2:35:02::	0.3333333333333333	lay eggs	4
+*lay%2:36:00::	0.25	prepare or position for action or operation	5
+lay%2:35:00::	0.1454545454545454	put in a horizontal position	11
+march%1:04:02::	1.0	a steady advance	2
+march%2:38:01::	0.125	march in a procession	9
+march%2:38:00::	0.5	walk fast, with regular or measured steps; walk with a stride	3
+march%1:28:00::	0.0708333333333333	the month following February and preceding April	16
+stream%1:17:00::	0.0824175824175824	a natural body of running water flowing on or under the earth	14
+stream%1:04:00::	0.5	the act of flowing or streaming; continuous progression	3
+*stream%2:38:01::	0.5	to extend, wave or float outward, as if in the wind	3
+stream%1:11:00::	1.0	a steady flow of a fluid (usually from natural causes)	2
+stream%1:14:00::	0.3333333333333333	dominant course (suggestive of running water) of successive events or ideas	4
+besiege%2:33:00::	1.0	surround so as to force to give up	2
+fear%2:37:00::	0.1078431372549019	be afraid or scared of; be frightened of	18
+fear%1:12:00::	0.3415300546448087	an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)	61
+fear%1:12:01::	0.3333333333333333	an anxious feeling	4
+fear%2:37:03::	0.0555555555555555	be afraid or feel anxious or apprehensive about a possible or probable situation or event	19
+answer%2:32:00::	0.0774722369116869	react verbally	62
+answer%1:10:01::	0.0608465608465608	a statement (either spoken or written) that is made to reply to a question or request or criticism or accusation	28
+answer%1:10:00::	0.1	the speech act of replying to a question	11
+answer%2:31:03::	0.25	understand the meaning of	5
+answer%1:10:02::	0.0555555555555555	a statement that solves a problem or explains how to solve the problem	19
+answer%2:31:02::	0.1666666666666666	respond to a signal	7
+answer%2:31:00::	0.1666666666666666	give the correct answer or solution to	7
+answer%2:32:06::	0.5	give a defence or refutation of (a charge) or in (an argument)	3
+divide%2:35:00::	1.0	come apart	2
+divide%2:42:00::	0.3333333333333333	act as a barrier between; stand between	4
+divide%2:31:00::	0.1	perform a division	11
+divide%2:41:00::	0.3040935672514619	separate into parts or portions	19
+distill%2:30:03::	1.0	remove impurities from, increase the concentration of, and separate through the process of distillation	3
+distill%2:30:01::	0.5	undergo the process of distillation	3
+accommodate%2:42:03::	1.0	have room for; hold without crowding	2
+accommodate%2:30:00::	0.35	make fit for, or change to suit a new purpose	5
+accommodate%2:34:00::	0.5	provide with something desired or needed	3
+accommodate%2:42:00::	0.25	be agreeable or acceptable to	5
+communicate%2:32:00::	0.5714285714285714	transmit thoughts or feelings	8
+communicate%2:32:01::	0.5138888888888888	transmit information	9
+seem%2:39:01::	0.1136820925553319	seem to be true, probable, or apparent	71
+seem%2:39:00::	0.8706444931773879	give a certain impression or have a certain outward aspect	513
+steam%2:38:02::	1.0	travel by means of steam power	2
+please%2:37:01::	0.1888888888888888	be the will of or have the will (to)	10
+please%2:37:00::	0.4619047619047619	give pleasure to or be pleasing to	15
+commit%2:40:02::	0.5	cause to be admitted; of persons to an institution	3
+commit%2:32:01::	0.106060606060606	give entirely to a specific person, activity, or cause	12
+commit%2:41:00::	0.1	perform an act, usually with a negative connotation	11
+blend%2:35:00::	0.6666666666666666	combine into one	7
+blend%1:11:00::	1.0	an occurrence of thorough mixing	2
+pin%2:35:03::	1.0	to hold fast or prevent from moving	2
+ascend%2:38:02::	1.0	travel up,	3
+portray%2:36:00::	1.0	make a portrait of	2
+portray%2:32:00::	0.6964285714285714	portray in words	8
+portray%2:36:01::	1.0	assume or act the character of	2
+scan%2:39:01::	0.5416666666666666	examine minutely or intensely	9
+scan%1:04:00::	0.5	the act of scanning; systematic examination of a prescribed region	3
+scan%2:39:00::	0.2	examine hastily	6
+excuse%2:32:03::	1.0	serve as a reason or cause or justification of	2
+excuse%1:10:00::	0.4285714285714285	a defense of some offensive behavior or some failure to keep a promise etc.	7
+excuse%2:32:00::	1.0	accept an excuse for	2
+excuse%2:32:04::	1.0	grant exemption or release to	2
+step%1:04:00::	0.25	the act of changing location by raising the foot and setting it down	5
+step%2:38:00::	0.0526315789473684	shift or move by taking a step	20
+step%1:04:02::	0.0515873015873015	any maneuver made as part of progress toward a goal	36
+step%1:23:00::	0.0909090909090909	the distance covered by a step	12
+step%1:06:00::	1.0	support consisting of a place to rest the foot while ascending or descending a stairway	2
+step%2:38:01::	0.25	put down or press the foot, place the foot	5
+plead%2:32:00::	0.2222222222222222	appeal or request earnestly	9
+plead%2:32:01::	0.3333333333333333	enter a plea, as in courts of law	4
+plead%2:32:02::	0.5	offer as an excuse or plea	4
+trail%2:38:02::	0.1428571428571428	to lag or linger behind	8
+trail%1:06:00::	0.3333333333333333	a path or track roughly blazed through wild or hilly country	4
+trail%2:38:00::	1.0	go after with the intent to catch	2
+trail%1:17:01::	0.5	a track or mark left by something that has passed	3
+ordain%2:41:01::	1.0	order by virtue of superior authority; decree	3
+adhere%2:30:00::	0.6666666666666666	follow through or carry out a plan without deviation	3
+*adhere%2:42:00::	0.7	be compatible or in accordance with	5
+help%2:29:00::	0.0454545454545454	improve the condition of	23
+help%2:42:00::	0.0555555555555555	be of use	19
+help%2:41:00::	0.6706107588977466	give help or assistance; be of service	179
+help%2:42:08::	0.25	abstain from doing; always used with a negative	5
+help%1:04:00::	0.0555555555555555	the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose	19
+help%1:18:00::	0.5	a person who contributes to the fulfillment of a need or furtherance of an effort or purpose	3
+help%2:34:00::	1.0	help to some food; help with food or drink	2
+denote%2:32:01::	0.5833333333333334	be a sign or indication of	9
+denote%2:32:00::	0.4285714285714285	have as a meaning	7
+relax%2:30:02::	0.5	become loose or looser or less tight	3
+relax%2:30:01::	0.25	make less taut	5
+relax%2:29:00::	0.5294117647058824	become less tense, rest, or take one's ease	17
+condemn%2:32:00::	0.875	express strong disapproval of	17
+condemn%2:32:02::	1.0	declare or judge unfit for use or habitation	2
+stampede%2:38:01::	1.0	cause to run in panic	2
+seize%2:40:01::	0.3333333333333333	take possession of by force, as after an invasion	4
+seize%2:40:02::	0.5	take temporary possession of as a security, by legal authority	3
+seize%2:35:00::	0.4821428571428571	take hold of; grab	8
+seize%2:35:01::	0.5833333333333334	take or capture by force	4
+cloud%1:19:01::	0.3909090909090909	any collection of particles (e.g., smoke or dust) or gases that is visible	11
+cloud%1:17:00::	0.2857142857142857	a visible mass of water or ice particles suspended at a considerable altitude	15
+bolt%2:35:00::	1.0	secure or lock with a bolt	2
+bolt%2:38:00::	1.0	move or jump suddenly	2
+challenge%1:10:00::	1.0	a call to engage in a contest or fight	2
+challenge%1:26:00::	0.3	a demanding or stimulating situation	5
+challenge%2:32:00::	0.1666666666666666	issue a challenge to	7
+challenge%2:32:01::	0.1	take exception to	11
+compose%2:36:01::	0.3333333333333333	produce a literary work	4
+*compose%2:42:00::	0.2142857142857142	form the substance of	14
+compose%2:36:03::	0.25	write music	5
+compose%2:36:09::	0.5	put together out of existing material	3
+blur%2:39:01::	1.0	become glassy; lose clear vision	2
+exhaust%2:29:00::	0.75	wear out completely	4
+exhaust%2:34:00::	0.5	use up (resources or materials)	3
+*revive%2:30:00::	1.0	be brought back to life, consciousness, or strength	2
+revive%2:29:01::	0.4	cause to regain consciousness	5
+*revive%2:29:00::	0.75	give new life or energy to	5
+walk%2:38:00::	0.889195613833295	use one's feet to advance; advance by steps	162
+walk%1:04:01::	0.3333333333333333	(baseball) an advance to first base by a batter who receives four balls	4
+walk%2:38:01::	0.5	accompany or escort	3
+walk%1:04:00::	0.5	the act of traveling by foot	3
+walk%1:07:00::	0.5	manner of walking	3
+walk%1:04:03::	1.0	the act of walking somewhere	2
+walk%2:33:00::	0.5	obtain a base on balls	3
+approach%2:42:00::	0.125	come near or verge on, resemble, come nearer in quality, or character	9
+approach%1:06:00::	1.0	a way of entering or leaving	2
+approach%2:38:00::	0.0262820512820512	move towards	40
+approach%2:38:01::	0.3333333333333333	come near in time	4
+approach%2:32:00::	0.25	make advances to someone, usually with a proposal or suggestion	5
+approach%1:04:02::	0.0357142857142857	ideas or actions intended to deal with a problem or situation	29
+approach%2:41:00::	0.2	begin to deal with	6
+approach%1:04:00::	0.2	the act of drawing spatially closer to something	6
+tug%2:35:00::	1.0	pull hard	3
+tense%1:10:00::	1.0	a grammatical category of verbs used to express distinctions of time	2
+eat%2:34:00::	0.7652752571082879	take in solid food	58
+eat%2:34:02::	0.3333333333333333	take in food; used of animals only	4
+eat%2:34:01::	0.2045454545454545	eat a meal; take a meal	12
+breathe%2:29:00::	1.0	draw air into, and expel out of, the lungs	17
+drink%1:13:00::	0.5	any liquid suitable for drinking	3
+drink%1:13:04::	0.0526315789473684	a single serving of a beverage	20
+drink%1:04:00::	0.3333333333333333	the act of drinking alcoholic beverages to excess	4
+drink%2:34:01::	0.125	consume alcohol	9
+drink%2:34:00::	0.0861538461538461	take in liquids	26
+include%2:30:00::	0.1209150326797385	add as part of something else; put in as part of a set, group, or category	18
+include%2:41:03::	0.1428571428571428	allow participation in or the right to be part of; permit to exercise the rights, functions, and responsibilities of	8
+include%2:31:00::	0.157258064516129	consider as part of something	32
+include%2:42:00::	0.7821005081874647	have as a part, be made up out of	231
+crown%2:41:00::	1.0	invest with regal power; enthrone	2
+*crown%2:30:01::	1.0	be the culminating event	2
+spray%1:27:01::	0.6666666666666666	a pesticide in suspension or solution; intended for spraying	3
+spray%2:35:00::	1.0	scatter in a mass or jet of droplets	2
+spray%2:35:01::	0.5	be discharged in sprays of liquid	3
+put%2:40:00::	0.5	make an investment	3
+put%2:35:00::	0.3223347081614798	put into a certain place or abstract location	127
+put%2:35:05::	0.2868980963045913	cause to be in a certain state; cause to be in a certain relation	95
+put%2:31:13::	1.0	estimate	2
+*put%2:34:00::	0.3333333333333333	attribute or give	4
+put%2:32:00::	0.041005291005291	formulate in a particular style or language	28
+suspend%2:41:00::	1.0	bar temporarily; from school, office, etc.	2
+*suspend%2:30:01::	0.3333333333333333	cause to be held in suspension in a fluid	4
+suspend%2:35:00::	0.3571428571428571	hang freely	8
+suspend%2:30:00::	1.0	stop a process or a habit by imposing a freeze on it	2
+penetrate%2:31:00::	0.6666666666666666	come to understand	3
+penetrate%2:35:00::	0.6333333333333333	pass into or through, often by overcoming resistance	6
+blister%2:30:00::	1.0	get blistered	2
+top%1:28:00::	0.5	the first half of an inning; while the visiting team is at bat	3
+top%1:15:02::	0.25	the top or extreme point of something (usually a mountain or hill)	5
+top%1:26:00::	0.5	the highest level or degree attainable; the highest stage of development	3
+top%3:00:00::	0.1818181818181818	situated at the top or highest position	11
+top%2:42:00::	1.0	be superior or better than some standard	2
+top%1:15:01::	0.2099567099567099	the upper part of anything	22
+top%1:15:00::	0.1813186813186813	the highest or uppermost side of anything	14
+stumble%2:38:00::	0.2619047619047619	miss a step and fall or nearly fall	7
+stumble%2:38:01::	0.4722222222222222	walk unsteadily	9
+*stumble%2:40:10::	1.0	encounter by chance	2
+recruit%2:41:01::	0.3333333333333333	register formally as a participant or member	7
+recruit%2:40:00::	0.5	seek to employ	3
+recruit%2:33:00::	1.0	cause to assemble or enlist in the military	2
+recruit%1:18:00::	1.0	any new member or supporter (as in the armed forces)	2
+double%2:30:00::	0.0909090909090909	increase twofold	12
+double%5:00:01:multiple:00	0.3333333333333333	twice as great or many	4
+double%5:00:03:multiple:00	0.25	having more than one decidedly dissimilar aspects or qualities; ; - R.W.Emerson; -Frederick Harrison	5
+double%5:00:02:multiple:00	0.25	consisting of or involving two parts or components usually in pairs	5
+double%1:04:00::	0.0909090909090909	a base hit on which the batter stops safely at second base	12
+double%2:35:00::	1.0	hit a two-base hit	2
+segregate%2:41:00::	1.0	separate by race or religion; practice a policy of racial segregation	5
+address%2:32:03::	0.3333333333333333	put an address on (an envelope)	4
+address%1:10:04::	0.05	(computer science) the code that identifies where a piece of information is stored	21
+address%2:32:02::	0.25	give a speech to	5
+address%1:10:00::	0.5	the act of delivering a formal spoken communication to an audience	3
+address%1:15:00::	0.25	the place where a person or organization can be found or communicated with	5
+address%2:32:00::	0.0833333333333333	speak to	13
+tempt%2:32:04::	0.8333333333333334	provoke someone to do something through (often false or exaggerated) promises or persuasion	4
+tempt%2:32:01::	0.4166666666666667	dispose or incline or entice to	4
+port%1:15:00::	1.0	a place (seaport or airport) where people and merchandise can enter or leave a country	5
+confirm%2:32:00::	0.5	strengthen or make more firm	5
+confirm%2:30:00::	1.0	make more firm	2
+confirm%2:31:00::	0.6568627450980392	establish or strengthen as with new evidence or facts	18
+ease%2:30:00::	0.5	make easier	3
+ease%2:38:00::	0.5	move gently or carefully	4
+ease%2:29:00::	0.3333333333333333	lessen pain or discomfort; alleviate	4
+finish%1:07:00::	0.5	a decorative texture or appearance of a surface (or the substance that gives it that appearance)	3
+finish%2:42:00::	0.1428571428571428	have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical	8
+finish%2:30:01::	0.1666666666666666	finally be or do something	12
+finish%2:34:00::	1.0	finish eating all the food on one's plate or on the table	2
+finish%2:35:00::	0.5	provide with a finish	3
+finish%2:30:02::	0.5580720092915215	come or bring to a finish or an end	42
+transfer%2:38:05::	0.2	lift and reset in another soil or situation	6
+transfer%2:38:00::	0.25	move around	5
+transfer%1:04:00::	0.2210526315789473	the act of moving something from one location to another	20
+transfer%2:40:01::	0.2	move from one place to another	6
+transfer%2:41:00::	0.2	transfer somebody to a different position or location of work	6
+locate%2:42:00::	0.4318181818181818	determine or indicate the place, site, or limits of, as if by an instrument or by a survey	12
+locate%2:40:01::	0.3333333333333333	assign a location to	4
+locate%2:40:00::	0.1625	discover the location of; determine the place of; find by searching or examining	16
+locate%2:30:00::	0.3333333333333333	take up residence and become established	4
+*culminate%2:30:00::	1.0	end, especially to reach a final or climactic stage	8
+poison%1:27:00::	0.5	any substance that causes injury or illness or death of a living organism	3
+*poison%2:41:00::	0.5	spoil as if by poison	3
+*vest%2:41:00::	1.0	provide with power and authority	2
+vest%1:06:01::	1.0	a man's sleeveless garment worn underneath a coat	2
+*erase%2:30:00::	1.0	remove from memory or existence	5
+land%1:17:00::	0.1666666666666666	the solid part of the earth's surface	7
+land%2:38:01::	0.3333333333333333	cause to come to the ground	4
+land%2:38:03::	1.0	bring ashore	2
+land%1:15:01::	0.1	territory over which rule or control is exercised	11
+land%2:38:00::	0.0714285714285714	reach or come to rest	15
+land%1:21:01::	0.0476190476190476	the land on which real estate is located	22
+land%1:21:00::	1.0	extensive landed property (especially in the country) retained by the owner for his own use	2
+*land%2:30:00::	0.5	bring into a different state	3
+land%1:17:01::	0.0588235294117647	material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use)	18
+land%1:15:02::	0.25	the territory occupied by a nation	5
+reenact%2:36:01::	1.0	enact or perform again	2
+float%2:38:00::	0.4107142857142857	be in motion due to some air or water current	8
+float%2:38:01::	0.5	be afloat either on or below a liquid surface and not sink to the bottom	4
+float%2:38:02::	0.6666666666666666	set afloat	3
+sing%2:36:00::	0.3190730837789661	produce tones with the voice	34
+sing%2:36:01::	0.2951273532668881	deliver by singing	43
+load%1:23:00::	1.0	a quantity that can be processed or transported at one time	2
+load%1:06:00::	0.1805555555555555	weight to be borne or conveyed	9
+load%2:35:01::	0.1666666666666666	fill or place a load on	7
+attack%2:33:01::	0.1666666666666666	take the initiative and go on the offensive	7
+attack%2:33:02::	0.5	attack someone physically or emotionally	3
+*attack%2:32:00::	0.125	attack in speech or writing	9
+attack%1:04:04::	0.5	an offensive move in a sport or game	3
+attack%2:33:00::	0.0785714285714285	launch an attack or assault on; begin hostilities or start warfare with	21
+attack%1:04:00::	0.1153846153846153	(military) an offensive against an enemy (using weapons)	14
+attack%1:10:00::	1.0	intense adverse criticism	2
+inform%2:30:00::	1.0	give character or essence to	2
+inform%2:32:00::	0.9540169133192388	impart knowledge of some fact, state or affairs, or event to	44
+orient%2:42:00::	1.0	be oriented	2
+orient%2:39:00::	1.0	determine one's position with reference to another point	2
+vanish%2:30:00::	0.6222222222222222	get lost, as without warning or explanation	10
+vanish%2:39:00::	0.5	become invisible or unnoticeable	4
+bind%2:35:06::	0.25	stick to firmly	8
+bind%2:35:00::	0.3333333333333333	make fast; tie or secure, with or as if with a rope	4
+bind%2:41:01::	0.3333333333333333	create social or emotional ties	4
+seat%2:42:00::	1.0	be able to seat	2
+seat%1:06:01::	1.0	furniture that is designed for sitting on	2
+seat%2:35:00::	0.25	show to a seat; assign a seat for	5
+seat%2:41:00::	1.0	place ceremoniously or formally in an office or position	2
+seat%1:15:01::	0.2321428571428571	a space reserved for sitting (as in a theater or on a train or airplane)	8
+seat%1:08:00::	0.3333333333333333	the fleshy part of the human body that you sit on	4
+seat%1:06:00::	1.0	any support where you can sit (especially the part of a chair or bench etc. on which you sit)	2
+*neutralize%2:41:00::	1.0	make politically neutral and thus inoffensive	3
+salt%1:13:00::	0.4	white crystalline form of especially sodium chloride used to season and preserve food	5
+salt%1:27:00::	0.5833333333333334	a compound formed by replacing hydrogen in an acid by a metal (or a radical that acts like a metal)	9
+*aim%2:31:01::	0.1666666666666666	propose or intend	7
+aim%2:33:10::	1.0	intend (something) to move towards a certain goal	2
+aim%1:09:01::	0.3333333333333333	the goal intended to be attained (and which is believed to be attainable)	4
+aim%2:33:00::	0.3333333333333333	point or cause to go (blows, weapons, or objects such as photographic equipment) towards	4
+aim%1:04:00::	0.5	the action of directing something at an object	3
+aim%2:31:02::	0.5	specifically design a product, event, or activity for a certain public	3
+aim%2:31:00::	1.0	have an ambitious plan or a lofty goal	2
+aim%2:32:09::	0.25	move into a desired direction of discourse	5
+aim%1:09:00::	0.1	an anticipated outcome that is intended or that guides your planned actions	11
+decline%2:30:00::	1.0	grow smaller	2
+decline%1:22:02::	0.3333333333333333	change toward something smaller or lower	4
+decline%2:32:00::	0.3333333333333333	show unwillingness towards	4
+decline%2:30:01::	0.25	grow worse	5
+decline%2:40:00::	0.3333333333333333	refuse to accept	4
+decline%1:26:00::	1.0	a condition inferior to an earlier condition; a gradual falling off from a better state	2
+volley%1:04:00::	1.0	rapid simultaneous discharge of firearms	2
+*precipitate%2:36:00::	0.3333333333333333	bring about abruptly	4
+precipitate%2:30:00::	0.3333333333333333	separate as a fine suspension of solid particles	4
+stagger%2:38:01::	0.6	walk with great difficulty	5
+stagger%2:38:00::	0.5666666666666667	walk as if unable to control one's movements	6
+repair%1:04:00::	0.4	the act of putting something in working order again	5
+repair%2:30:00::	0.5454545454545454	restore by replacing a part or putting together what is torn or broken	11
+vote%2:41:13::	0.3268817204301075	express one's preference for a candidate or for a measure or resolution; cast a vote	31
+vote%2:41:10::	0.1111111111111111	express one's choice or preference by vote	10
+vote%1:04:00::	0.1602564102564102	a choice that is made by counting the number of people in favor of each alternative	13
+vote%1:04:01::	0.5	the opinion of a group as determined by voting	3
+clog%2:35:00::	1.0	become or cause to become obstructed	4
+score%1:09:00::	0.0588235294117647	a number or letter indicating quality (especially of a student's performance)	18
+score%2:35:00::	0.0909090909090909	make small marks into the surface of	12
+score%2:33:00::	0.0816993464052287	gain points in a game	18
+score%2:32:00::	0.5	make underscoring marks	3
+score%1:14:00::	0.3333333333333333	a set of twenty members	4
+score%1:23:00::	0.3333333333333333	a number that expresses the accomplishment of a team or an individual in a game or contest	4
+score%1:10:00::	0.1428571428571428	a written form of a musical composition; parts for different instruments appear on separate staves on large pages	8
+time%1:28:05::	0.0897130242825607	a period of time considered as a resource under your control and sufficient to accomplish something	151
+time%2:30:00::	0.3333333333333333	measure the time or duration of an event or action or the person who performs an action in a certain period of time	4
+time%1:28:04::	0.3333333333333333	the fourth coordinate that is required (along with three spatial dimensions) to specify a physical event	4
+time%1:28:06::	0.0285714285714285	a suitable moment	36
+time%2:31:00::	0.5	assign a time for an activity or event	3
+time%1:03:00::	0.0294117647058823	the continuum of experience in which events pass from the future through the present to the past	35
+time%1:11:01::	0.2	a person's experience on a particular occasion	6
+time%1:11:00::	0.1836901929685435	an instance or single occasion for some event	195
+time%1:28:00::	0.0501754385964912	an indefinite period (usually marked by specific attributes or activities)	76
+time%1:28:03::	0.1666666666666666	a reading of a point in time as given by a clock	7
+mean%1:09:00::	0.1111111111111111	an average of n numbers computed by adding some function of the numbers and dividing by some function of n	10
+mean%2:32:03::	0.0238095238095238	denote or connote	43
+mean%5:00:00:ignoble:01	1.0	having or showing an ignoble lack of honor or morality; - Edmund Burke; ; - Shakespeare	2
+mean%2:42:00::	0.0209836941994119	have as a logical consequence	87
+mean%2:42:03::	0.125	have a specified degree of importance	9
+mean%2:31:00::	0.0416666666666666	have in mind as a purpose	25
+mean%2:32:01::	0.1085762064022933	mean or intend to express or convey	92
+mean%5:00:00:nasty:00	0.3333333333333333	characterized by malice	4
+mean%5:00:00:normal:01	0.0666666666666666	approximating the statistical norm or average or expected value	16
+mean%2:31:01::	0.1428571428571428	intend to refer to	8
+appear%2:39:00::	0.0187797566566743	give a certain impression or have a certain outward aspect	107
+appear%2:39:01::	0.1	seem to be true, probable, or apparent	11
+appear%2:30:00::	0.0666496424923391	come into sight or view	89
+appear%2:30:01::	0.0571428571428571	be issued or published	21
+appear%2:30:02::	0.1666666666666666	come into being or existence, or appear on the scene	7
+appear%2:36:00::	1.0	appear as a character on stage or appear in a play, etc.	2
+tack%2:35:00::	1.0	fasten with tacks	3
+*drown%2:35:00::	0.6666666666666666	cover completely or make imperceptible	3
+drown%2:30:00::	1.0	die from being submerged in water, getting water into the lungs, and asphyxiating	2
+*drown%2:30:02::	1.0	get rid of as if by submerging	2
+stimulate%2:29:00::	0.5	cause to be alert and energetic	3
+stimulate%2:37:00::	0.5	stir the feelings, emotions, or peace of	3
+stimulate%2:32:01::	0.3333333333333333	cause to do; cause to act in a specified manner	4
+stimulate%2:36:00::	1.0	cause to occur rapidly	2
+stimulate%2:30:00::	0.6	act as a stimulant	6
+cheer%1:10:00::	1.0	a cry or shout of approval	4
+ramp%1:06:00::	1.0	an inclined surface connecting two levels	2
+invade%2:33:00::	0.6428571428571429	march aggressively into another's territory by military force for the purposes of conquest and occupation	7
+invade%2:38:00::	0.6666666666666666	to intrude upon, infringe, encroach on, violate	3
+govern%2:41:02::	0.5454545454545454	bring into conformity with rules or principles or usage; impose regulations	11
+govern%2:41:01::	0.2857142857142857	direct or strongly influence the behavior of	8
+govern%2:41:00::	0.5	exercise authority over; as of nations	3
+gag%1:10:00::	1.0	a humorous anecdote or remark intended to provoke laughter	6
+reach%1:07:00::	1.0	an area in which something acts or operates or has power or control:	2
+reach%1:15:00::	1.0	the limits within which something can be effective	2
+reach%2:38:01::	0.1788377192982456	reach a destination, either real or abstract	96
+reach%2:38:06::	0.125	reach a goal, e.g.,	9
+reach%2:38:00::	0.0292792792792792	reach a point in time, or a certain state or level	37
+reach%2:32:00::	0.0497835497835497	be in or establish communication with	22
+*reach%2:35:00::	0.0449735449735449	move forward or upward in order to touch; also in a metaphorical sense	28
+reach%2:41:00::	0.0588235294117647	to gain with effort	18
+reach%2:42:00::	0.0909090909090909	to extend as far as	12
+reach%1:04:00::	1.0	the act of physically reaching or thrusting out	2
+lie%2:42:03::	0.2	be and remain in a particular state or condition	6
+lie%2:32:00::	0.2	tell an untruth; pretend with intent to deceive	6
+*lie%2:42:02::	0.3333333333333333	have a place in relation to something else	4
+lie%2:42:01::	0.0769230769230769	originate (in)	14
+lie%1:10:00::	0.2	a statement that deviates from or perverts the truth	6
+lie%2:35:00::	0.042517006802721	be lying, be prostrate; be in a horizontal position	49
+lie%2:42:00::	0.2692307692307692	be located or situated somewhere; occupy a certain position	65
+lie%2:38:00::	0.3333333333333333	assume a reclining position	4
+offset%2:42:00::	1.0	make up for	2
+offset%2:42:01::	0.6	compensate for or counterbalance	5
+gather%2:30:00::	0.5	collect or gather	3
+gather%2:35:00::	0.5474308300395256	assemble or get together	23
+*gather%2:32:00::	1.0	conclude from evidence	2
+gather%2:41:00::	0.1666666666666666	collect in one place	7
+build%2:36:09::	0.3333333333333333	build or establish something abstract	4
+build%2:30:00::	0.2444444444444444	form or accumulate steadily	10
+build%1:07:00::	1.0	constitution of the human body	2
+build%2:36:00::	0.8714985994397759	make by combining materials and parts	120
+clamor%2:32:03::	1.0	make loud demands	3
+sense%1:09:02::	0.125	the faculty through which the external world is apprehended	9
+sense%1:10:00::	0.0476190476190476	the meaning of a word or expression; the way in which a word or expression or situation can be interpreted	22
+sense%1:09:05::	0.0793650793650793	a general conscious awareness	36
+sense%1:09:04::	0.3333333333333333	sound practical judgment	4
+sense%2:39:00::	0.04	perceive by a physical sensation, e.g., coming from the skin or muscles	26
+note%1:10:03::	0.0833333333333333	a short personal letter	13
+note%2:39:00::	0.0331439393939393	notice or perceive	33
+note%1:10:04::	0.3333333333333333	a notation representing the pitch and duration of a musical sound	4
+note%2:39:02::	0.0357142857142857	observe with care or pay close attention to	29
+note%1:10:05::	0.5	a tone of voice that shows what the speaker is feeling	3
+note%1:10:00::	0.0833333333333333	a brief written record	13
+note%2:32:01::	0.5	make a written note of	3
+note%1:07:00::	1.0	a characteristic emotional quality	2
+note%2:32:00::	0.0397435897435897	make mention of	40
+specialize%2:32:00::	1.0	be specific about	2
+specialize%2:30:00::	0.5	become more focus on an area of activity or field of study	3
+specialize%2:30:01::	1.0	suit to a special purpose	2
+crush%2:30:00::	1.0	break into small pieces	2
+crush%2:41:00::	0.75	come down on or keep down by unjust use of one's authority	4
+*inject%2:30:00::	0.5	to introduce (a new aspect or element)	3
+inject%2:29:00::	0.3333333333333333	give an injection to	4
+miss%2:42:01::	0.125	fail to attend an event or activity	9
+miss%2:42:00::	0.3333333333333333	be without	4
+miss%2:38:00::	0.25	fail to reach or get to	5
+miss%2:37:00::	0.1217948717948717	feel or suffer from the lack of	13
+miss%2:35:00::	0.3333333333333333	fail to reach	4
+miss%1:18:00::	0.5	a young woman	3
+miss%2:39:00::	0.1333333333333333	fail to perceive or to catch with the senses or the mind	16
+miss%2:31:00::	0.2	leave undone or leave out	6
+clean%2:35:01::	1.0	clean and tidy up the house	2
+clean%2:30:01::	0.5	remove unwanted substances from, such as feathers or pits	3
+clean%2:35:00::	0.0875	make clean by removing dirt, filth, or unwanted substances from	16
+clean%3:00:01::	0.1139705882352941	free from dirt or impurities; or having clean habits	17
+clean%5:00:00:unqualified:02	1.0	free of restrictions or qualifications	2
+thunder%1:11:01::	0.5	a booming or crashing noise caused by air expanding along the path of a bolt of lightning	5
+*thunder%2:38:00::	1.0	move fast, noisily, and heavily	2
+report%2:32:01::	0.25	make known to the authorities	5
+report%1:11:00::	1.0	a sharp explosive sound (especially the sound of a gun firing)	2
+report%1:10:01::	0.1111111111111111	the act of informing by verbal report	10
+report%2:32:03::	0.0909090909090909	announce one's presence	12
+report%1:10:03::	0.0539965986394557	a written document describing the findings of some individual or group	49
+report%2:32:04::	0.0531674208144796	announce as the result of an investigation or experience or finding	52
+report%2:32:00::	0.0376344086021505	to give an account or representation of in words	63
+report%1:10:00::	0.1666666666666666	a short account of the news	7
+*shake%2:30:00::	0.3333333333333333	undermine or cause to waver	4
+shake%2:29:00::	0.0897435897435897	move with or as if with a tremor	13
+shake%2:38:02::	0.25	move back and forth or sideways	5
+shake%2:38:01::	0.3095238095238095	shake or vibrate rapidly and intensively	7
+shake%2:38:00::	0.3163992869875223	move or cause to move back and forth	34
+square%1:25:00::	0.2619047619047619	(geometry) a plane rectangle with four equal sides and four right angles; a four-sided regular polygon	22
+square%1:15:00::	1.0	an open area at the meeting of two or more streets	2
+square%2:31:00::	1.0	raise to the second power	2
+square%1:23:00::	1.0	the product of two equal terms	2
+square%2:30:00::	0.3333333333333333	make square	4
+square%3:00:00::	0.1666666666666666	having four equal sides and four right angles or forming a right angle	7
+capture%2:35:01::	0.3333333333333333	succeed in catching or seizing, especially after a chase	4
+capture%1:04:00::	1.0	the act of forcibly dispossessing an owner of property	2
+*capture%2:37:00::	0.3333333333333333	attract; cause to be enamored	4
+*capture%2:36:00::	0.25	succeed in representing or expressing something intangible	5
+admit%2:32:00::	0.8058441558441558	declare to be true or admit the existence or reality or truth of	56
+admit%2:41:01::	0.3363636363636363	allow to enter; grant entry to	11
+solicit%2:32:00::	1.0	make a solicitation or entreaty for something; request urgently or persistently	4
+worry%2:37:12::	0.125	be concerned with	9
+worry%2:37:00::	0.2473118279569892	be worried, concerned, anxious, troubled, or uneasy	31
+worry%1:12:00::	0.2	a strong feeling of anxiety	6
+worry%2:37:01::	0.1428571428571428	disturb the peace of mind of; afflict with mental agitation or distress	8
+worry%1:09:00::	0.1428571428571428	something or someone that causes anxiety; a source of unhappiness	8
+look%2:39:01::	0.0098767383059418	give a certain impression or have a certain outward aspect	113
+look%2:39:02::	0.1666666666666666	search or seek	7
+look%1:07:01::	0.0643274853801169	the feelings expressed on a person's face	19
+look%1:07:00::	0.1666666666666666	physical appearance	7
+look%2:29:00::	0.0526315789473684	have a certain outward or facial expression	20
+look%1:04:00::	0.0909090909090909	the act of directing the eyes toward something and perceiving it visually	12
+look%2:39:00::	0.1963005632360471	perceive with attention; direct one's gaze towards	217
+whistle%2:39:00::	1.0	make whistling sounds	2
+clap%1:11:00::	1.0	a sudden very loud noise	2
+remember%2:40:00::	1.0	show appreciation to	2
+remember%2:31:00::	0.4724524076147816	recall knowledge from memory; have a recollection	95
+remember%2:31:02::	0.0760233918128654	recapture the past; indulge in memories	19
+remember%2:31:01::	0.2695578231292517	keep in mind for attention or consideration	49
+*blaze%2:43:01::	1.0	shine brightly and intensively	3
+exclude%2:32:01::	1.0	prevent from entering; keep out	2
+exclude%2:31:01::	0.3857142857142857	prevent from being included or considered or accepted	15
+exclude%2:42:00::	0.6666666666666666	lack or fail to include	3
+exclude%2:41:00::	0.1904761904761904	prevent from entering; shut out	7
+range%2:38:00::	1.0	move about aimlessly or without any destination, often in search of food or employment	2
+range%2:42:01::	0.0303030303030303	change or be different within limits	34
+range%1:07:00::	0.0516840882694541	an area in which something acts or operates or has power or control:	42
+range%1:15:01::	0.0909090909090909	the limits within which something can be effective	12
+range%1:15:02::	0.1666666666666666	a large tract of grassy open land on which livestock can graze	7
+form%2:41:00::	0.0434782608695652	create (as an entity)	24
+form%2:41:02::	0.5	establish or impress firmly in the mind	3
+form%1:10:01::	1.0	a printed document with spaces in which to write	2
+*form%2:30:01::	0.1	give shape or form to	11
+form%1:10:00::	0.0107456140350877	the phonological or orthographic sound or appearance of a word that can be used to describe or identify something	96
+form%2:36:00::	0.125	make something, usually for a specific function	9
+form%1:07:00::	0.5	the visual appearance of something or someone	3
+form%1:09:01::	0.0200564971751412	a category of things distinguished by some common characteristic or quality	60
+form%1:09:00::	0.0263157894736842	a perceptual structure	39
+*form%2:42:00::	0.0434782608695652	to compose or represent:	24
+form%2:42:02::	0.0625	develop into a distinctive entity	17
+form%1:07:01::	0.0769230769230769	any spatial attributes (especially as defined by outline)	14
+form%1:03:00::	0.1666666666666666	the spatial arrangement of something as distinct from its substance	7
+form%1:08:00::	0.1666666666666666	alternative names for the body of a human being	7
+fasten%2:35:00::	1.0	become fixed or fastened	4
+fasten%2:35:01::	0.6590909090909091	cause to be firmly attached	12
+understand%2:31:00::	0.699084249084249	know and comprehend the nature or meaning of	105
+understand%2:31:01::	0.0935960591133004	perceive (an idea or situation) mentally	29
+understand%2:31:03::	0.3055555555555556	make sense of a language	9
+understand%2:31:02::	0.3333333333333333	believe to be the case	4
+wish%2:32:02::	0.1111111111111111	make or express a wish	10
+wish%2:37:02::	0.1945812807881773	prefer or wish to do something	29
+wish%2:37:01::	0.35	feel or express a desire or hope concerning the future or fortune of	5
+wish%2:37:00::	0.2369747899159663	hope for; have a wish	35
+wish%2:32:00::	1.0	invoke upon	2
+wish%1:12:00::	0.25	a specific feeling of desire	5
+wish%1:10:00::	1.0	an expression of some desire or inclination	2
+belong%2:42:03::	0.5	be in the right place or situation	3
+belong%2:40:00::	0.3666666666666666	be owned by; be in the possession of	10
+belong%2:42:02::	0.4166666666666667	be suitable or acceptable	4
+grind%2:35:00::	0.5	make a grating or grinding sound by rubbing together	3
+grind%2:35:02::	0.6666666666666666	press or grind with a crushing noise	3
+hail%1:19:00::	0.5	precipitation of ice pellets when there are strong rising air currents	3
+hail%2:32:02::	0.3333333333333333	praise vociferously	4
+conduct%2:36:00::	0.2471264367816092	lead, as in the performance of a composition	30
+conduct%2:41:01::	1.0	behave in a certain manner	2
+conduct%2:41:00::	0.3276955602536998	direct the course of; manage or control	44
+conduct%1:07:00::	0.5	(behavioral attributes) the way a person behaves toward other people	3
+conduct%1:04:00::	0.5	manner of acting or controlling yourself	3
+quote%2:32:00::	1.0	repeat a passage from	30
+fire%1:06:00::	0.5	a fireplace in which a relatively small fire is burning	3
+fire%1:04:00::	0.1111111111111111	the act of firing weapons or artillery at an enemy	10
+fire%2:33:01::	0.0513833992094861	start firing a weapon	23
+fire%2:33:00::	0.1	cause to go off	11
+fire%2:41:00::	0.1666666666666666	terminate the employment of; discharge from an office or position	7
+fire%2:30:00::	0.1111111111111111	bake in a kiln so as to harden	10
+fire%2:33:02::	0.25	go off or discharge	5
+fire%1:27:01::	0.5	once thought to be one of four elements composing the universe (Empedocles)	3
+fire%1:22:00::	0.1666666666666666	the process of combustion of inflammable materials producing heat and light and (often) smoke	7
+fire%1:11:00::	0.0588235294117647	the event of something burning (often destructive)	18
+bow%2:32:00::	0.1964285714285714	bend one's knee or body, or lower one's head	8
+bow%1:06:03::	0.3333333333333333	a knot with two loops and loose ends; used to tie shoelaces	4
+bow%1:06:00::	1.0	a slightly curved piece of resilient wood with taut horsehair strands; used in playing certain stringed instruments	2
+*bow%2:32:01::	1.0	yield to another's wish or opinion	2
+*abuse%2:30:00::	1.0	change the inherent purpose or function of something	2
+abuse%2:41:00::	1.0	treat badly	3
+match%2:35:08::	0.2	bring two objects, ideas, or people together	6
+match%2:42:00::	0.1375	be compatible, similar or consistent; coincide in their characteristics	16
+match%2:30:01::	0.5	make correspond or harmonize	3
+match%2:42:01::	0.3333333333333333	be equal to in quality or ability	4
+match%1:06:00::	0.5	lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction	4
+match%2:40:00::	0.1439393939393939	provide funds complementary to	12
+right%1:14:00::	0.3333333333333333	those who support political or social or economic conservatism; those who believe that things are better left unchanged	4
+right%4:02:09::	0.1	exactly	11
+right%4:02:04::	0.0769230769230769	precisely, exactly	14
+right%3:00:02::	0.0555555555555555	free from error; especially conforming to fact or truth	19
+right%4:02:03::	1.0	toward or on the right; also used figuratively	2
+right%1:04:00::	1.0	a turn toward the side of the body that is on the south when the person is facing east	2
+right%1:15:00::	0.0909090909090909	location near or direction toward the right side; i.e. the side to the south when a person or object faces east	12
+right%5:00:01:proper:00	0.0909090909090909	socially right or correct	12
+right%4:02:08::	0.0833333333333333	immediately	13
+right%1:07:00::	0.0587301587301587	an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt	36
+right%3:00:01::	0.1428571428571428	in conformance with justice or law or morality	8
+right%3:00:00::	0.0555555555555555	being or located on or directed toward the side of the body to the east when facing north	19
+right%4:02:07::	1.0	completely	2
+right%1:06:00::	0.25	the piece of ground in the outfield on the catcher's right	5
+right%4:02:00::	0.5	an interjection expressing agreement	3
+spread%2:38:00::	1.0	strew or distribute over an area	2
+spread%2:35:07::	0.25	become distributed or widespread	5
+spread%2:32:00::	0.25	cause to become widely known	5
+spread%2:38:02::	1.0	move outward	2
+spread%2:32:02::	0.3333333333333333	become widely known and passed on	4
+spread%2:42:00::	0.25	spread across or over	5
+spread%1:06:01::	1.0	farm consisting of a large tract of land along with facilities needed to raise livestock (especially cattle)	2
+spread%1:07:02::	0.5	a conspicuous disparity or difference as between two figures	3
+spread%1:11:00::	0.5	process or result of distributing or extending over a wide expanse of space	3
+spread%2:35:03::	0.3333333333333333	spread out or open from a closed or folded state	4
+spread%2:35:00::	0.2644927536231884	distribute or disperse widely	24
+*waste%2:40:00::	0.1111111111111111	spend thoughtlessly; throw away	10
+*waste%2:34:05::	0.1666666666666666	use inefficiently or inappropriately	7
+waste%1:04:00::	0.3333333333333333	useless or profitless activity; using or expending or consuming thoughtlessly or carelessly	4
+waste%1:27:00::	0.25	any materials unused and rejected as worthless or unwanted	5
+fuel%1:27:00::	0.5	a substance that can be consumed to produce energy	5
+fuel%2:40:00::	1.0	provide with a combustible substance that provides energy	2
+restore%2:41:01::	0.625	return to its original or usable and functioning condition	9
+restore%2:30:00::	0.3333333333333333	return to life; get or give new life or energy	4
+restore%2:40:00::	1.0	give or bring back	2
+believe%2:31:03::	0.0828877005347593	be confident about something	34
+believe%2:31:00::	0.4709480122324159	accept as true; take to be true	109
+believe%2:31:04::	0.2263352723426758	judge or regard; look upon; judge	62
+believe%2:31:01::	0.1666666666666666	follow a credo; have a faith; be a believer	10
+glare%2:29:00::	0.5	look at with a fixed gaze	3
+glare%1:07:00::	0.5	a light within the field of vision that is brighter than the brightness to which the eyes are adapted	3
+relate%2:41:00::	1.0	have or establish a relationship to	2
+relate%2:42:00::	0.1805555555555555	be relevant to	9
+relate%2:31:00::	0.2	make a logical or causal connection	15
+relate%2:42:01::	0.3333333333333333	be in a relationship with	4
+*relate%2:32:00::	0.3666666666666666	give an account of	6
+sound%1:07:00::	0.0526315789473684	the particular auditory effect produced by a given cause	20
+sound%1:10:00::	0.2	the audible part of a transmitted signal	6
+sound%1:19:00::	0.1111111111111111	mechanical vibrations transmitted by an elastic medium	10
+sound%2:39:00::	0.0833333333333333	make a certain noise or sound	13
+sound%1:11:00::	0.3333333333333333	the sudden occurrence of an audible event	4
+sound%3:00:00::	0.1428571428571428	financially secure and safe	8
+sound%2:39:06::	0.0277777777777777	appear in a certain way	37
+sound%2:39:03::	0.1428571428571428	give off a certain sound or sounds	8
+sound%1:09:00::	0.0714285714285714	the subjective sensation of hearing something	15
+sound%5:00:00:reasonable:00	0.5	exercising or showing good judgment	3
+*wallow%2:34:01::	1.0	devote oneself entirely to something; indulge in to an immoderate degree, usually with pleasure	2
+appreciate%2:31:00::	0.1222222222222222	be fully aware of; realize fully	10
+appreciate%2:40:00::	0.25	hold dear	5
+appreciate%2:37:00::	0.303030303030303	recognize with gratitude; be grateful for	12
+induct%2:41:00::	1.0	place ceremoniously or formally in an office or position	3
+water%2:29:00::	1.0	secrete or form water, as tears or saliva	2
+water%1:27:02::	1.0	once thought to be one of four elements composing the universe (Empedocles)	2
+water%1:17:00::	0.0833333333333333	the part of the earth's surface covered with water (such as a river or lake or ocean)	40
+water%1:06:00::	1.0	a facility that provides a source of water	2
+water%2:30:00::	0.5	supply with water, as with channels or ditches or streams	3
+water%2:40:00::	1.0	provide with water	2
+water%1:27:00::	0.6616507936507936	binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; freezes into ice below 0 degrees centigrade and boils above 100 degrees centigrade; widely used as a solvent	126
+name%1:26:00::	0.25	a person's reputation	5
+name%2:41:01::	0.25	charge with a function; charge to be	5
+name%2:32:03::	0.0344827586206896	assign a specified (usually proper) proper name to	30
+name%2:32:02::	0.2	give the name or identifying characteristics of; refer to by name or some other identifying characteristic property	6
+name%2:32:07::	0.3333333333333333	mention and identify by name	4
+name%1:10:00::	0.387123745819398	a language unit by which a person or thing is known	92
+name%2:41:00::	0.3333333333333333	create and charge with a task or function	4
+name%2:32:04::	1.0	make reference to	2
+name%1:14:00::	1.0	family based on male descent	2
+circulate%2:32:00::	1.0	cause to become widely known	2
+circulate%2:32:01::	1.0	become widely known and passed on	2
+jam%1:13:00::	1.0	preserve of crushed fruit	2
+dawn%1:28:00::	1.0	the first light of day	10
+flash%1:07:00::	0.3333333333333333	a momentary brightness	4
+flash%2:39:01::	0.5	display proudly; act ostentatiously or pretentiously	3
+flash%2:38:00::	1.0	run or move very quickly or hastily	2
+flash%1:11:00::	0.5	a sudden intense burst of radiant energy	3
+*flash%2:32:00::	0.5	make known or cause to appear with great speed	3
+flash%2:30:03::	1.0	appear briefly	2
+flash%2:39:00::	0.125	gleam or glow intermittently	9
+stoop%2:38:00::	1.0	bend one's back forward from the waist on down	4
+plaster%1:27:00::	1.0	a mixture of lime or gypsum with sand and water; hardens into a smooth solid; used to cover walls and ceilings	2
+sustain%2:29:00::	0.5	undergo (as of injuries and illnesses)	3
+sustain%2:34:00::	1.0	supply with necessities and support	2
+sustain%2:34:01::	1.0	provide with nourishment	2
+sustain%2:42:01::	0.3392857142857143	lengthen or extend in duration or space	8
+dance%1:14:00::	0.5	a party of people assembled for dancing	3
+dance%1:10:00::	0.1428571428571428	an artistic form of nonverbal communication	14
+dance%2:36:00::	0.106060606060606	move in a pattern; usually to musical accompaniment; do or perform a dance	12
+dance%2:38:01::	0.1208333333333333	move in a graceful and rhythmical way	16
+kick%2:35:01::	0.3636363636363636	drive or propel with the foot	11
+kick%2:35:00::	0.3333333333333333	strike with the foot	4
+kick%1:04:00::	0.5	the act of delivering a blow with the foot	3
+kick%2:38:00::	0.1428571428571428	thrash about or strike out with the feet	8
+consolidate%2:30:00::	1.0	unite into one	3
+sensitize%2:30:00::	1.0	make sensitive or aware	2
+flap%2:38:00::	1.0	move noisily	2
+flap%2:38:01::	0.5	move in a wavy pattern or with a rising and falling motion	4
+administer%2:40:01::	0.3	perform (a church sacrament) ritually	6
+administer%2:41:00::	0.4027777777777778	work in an administrative capacity; supervise or be in charge of	9
+*boost%2:30:02::	1.0	give a boost to; be beneficial to	2
+boost%1:04:00::	0.6666666666666666	the act of giving hope or support to someone	3
+boost%2:38:00::	0.5	increase	3
+affect%2:30:00::	0.6633444075304541	have an effect upon	43
+affect%2:42:00::	0.3333333333333333	connect closely and often incriminatingly	4
+affect%2:29:00::	0.3636363636363636	act physically on; have an effect upon	11
+affect%2:32:00::	0.5	make believe with the intent to deceive	3
+air%1:19:00::	0.5	a slight wind (usually refreshing)	3
+air%1:15:00::	0.1761904761904762	the region above the ground	15
+air%1:07:00::	0.2	a distinctive but intangible quality surrounding a person or thing	6
+air%1:27:00::	0.459280303030303	a mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of	33
+*recapture%2:37:00::	1.0	experience anew	3
+retain%2:42:00::	1.0	hold back within	2
+retain%2:41:01::	1.0	allow to remain in a place or position or maintain a property or feature	2
+glow%1:26:00::	0.5	an alert and refreshed state	3
+glow%2:39:00::	0.3333333333333333	emit a steady even light without flames	4
+*glow%2:39:01::	1.0	have a complexion with a strong bright color, such as red or pink	2
+glow%1:07:00::	1.0	light from nonthermal sources	2
+replace%2:40:00::	0.2	put in the place of another; switch seemingly equivalent items	6
+replace%2:41:00::	0.2095238095238095	take the place or move into the position of	21
+replace%2:35:00::	0.1666666666666666	put something back where it belongs	7
+replace%2:30:00::	0.4148550724637681	substitute a person or thing for (another that is broken or inefficient or lost or no longer working or yielding what is expected)	24
+reflect%2:39:00::	0.25	to throw or bend back (from a surface)	17
+*reflect%2:39:01::	0.3719512195121951	manifest or bring back	41
+reflect%2:31:00::	0.1111111111111111	reflect deeply on a subject	10
+reflect%2:43:00::	0.35	be bright by reflecting or casting light	5
+flick%1:11:00::	1.0	a light sharp contact (usually with something flexible)	2
+blast%2:35:00::	1.0	hit hard	2
+blast%1:04:00::	1.0	a very long fly ball	2
+*blast%2:39:00::	0.5	make a strident sound	3
+push%2:38:00::	0.6338652482269503	move with force,	48
+*push%2:32:00::	0.2	make publicity for; try to sell (a product)	6
+*push%2:32:01::	0.1666666666666666	press, drive, or impel (someone) to action or completion of an action	7
+push%2:41:00::	0.5	strive and make an effort to reach a goal	3
+push%1:04:00::	0.3333333333333333	the act of applying force in order to move something away	4
+stall%2:42:00::	1.0	postpone doing what one should be doing	2
+stall%1:06:03::	0.3	a compartment in a stable where a single animal is confined and fed	10
+stall%1:06:01::	1.0	a booth where articles are displayed for sale	2
+stall%1:06:00::	0.5	small area set off by walls for special use	3
+lock%1:06:00::	0.2	a fastener fitted to a door or drawer to keep it firmly closed	6
+lock%2:35:01::	0.1904761904761904	keep engaged	7
+*lock%2:35:04::	1.0	hold in a locking position	2
+lock%2:35:00::	0.1607142857142857	fasten with a lock	8
+lock%2:30:00::	0.3333333333333333	become rigid or immoveable	4
+*lock%2:35:03::	1.0	become engaged or intermeshed with one another	2
+want%2:37:00::	0.9446565163546295	feel or have a desire for; want strongly	371
+*want%2:34:00::	0.0897435897435897	have need of	13
+want%2:35:00::	0.5	hunt or look for; want for a particular reason	3
+want%2:31:01::	1.0	wish or demand the presence of	2
+want%1:26:00::	0.5	a state of extreme poverty	3
+swell%1:17:00::	1.0	a rounded elevation (especially one on an ocean floor)	2
+swell%1:11:00::	0.5	the undulating movement of the surface of the open sea	3
+swell%2:30:00::	0.3333333333333333	expand abnormally	4
+sit%2:38:00::	0.1111111111111111	take a seat	10
+sit%2:42:00::	0.310752688172043	be around, often idly or without specific purpose	31
+sit%2:35:00::	0.6901389981641752	be seated	124
+*sit%2:38:01::	0.2333333333333333	be in session	6
+raid%2:41:00::	1.0	search without warning, make a sudden surprise attack on	2
+raid%2:38:00::	1.0	enter someone else's territory and take spoils	2
+raid%1:04:00::	0.5	a sudden short attack	3
+sow%2:35:00::	1.0	place (seeds) in or on the ground for future growth	5
+trace%1:23:00::	0.25	a just detectable amount	5
+trace%2:38:00::	1.0	pursue or chase relentlessly	2
+trace%1:10:00::	1.0	an indication that something has been present	2
+trace%2:38:01::	1.0	to go back over again	2
+trace%2:31:00::	0.1527777777777778	follow, discover, or ascertain the course of development of something	9
+trace%2:35:00::	0.25	make a mark or lines on a surface	5
+prick%1:18:00::	1.0	insulting terms of address for people who are stupid or irritating or ridiculous	2
+prick%2:35:00::	1.0	make a small hole into, as with a needle or a thorn	2
+pound%1:23:09::	0.832171893147503	16 ounces avoirdupois	42
+pound%1:23:01::	1.0	the basic unit of money in Great Britain and Northern Ireland; equal to 100 pence	2
+pound%2:35:00::	0.25	hit hard with the hand, fist, or some heavy instrument	5
+explode%2:30:00::	0.4	burst outward, usually with noise	5
+explode%2:30:01::	0.4333333333333333	cause to burst with a violent release of energy	10
+explode%2:30:03::	1.0	be unleashed; emerge with violence or noise	2
+back%2:41:01::	0.3333333333333333	give support or one's approval to	4
+back%4:02:04::	0.0446069994262765	in or to or toward a former location	84
+back%4:02:01::	0.0714285714285714	in or to or toward a past time	15
+back%4:02:00::	0.0472370766488413	at or to or toward the back or rear	34
+back%2:38:01::	0.3333333333333333	cause to travel backward	4
+back%1:06:00::	0.125	the side that goes last or is not normally seen	9
+back%4:02:05::	0.0562770562770562	in or to or toward an original condition	22
+back%1:15:02::	0.5	the part of something that is furthest from the normal viewer	3
+back%3:00:00::	0.0714285714285714	related to or located at the back	15
+back%1:08:00::	0.035650623885918	the posterior part of a human (or animal) body from the neck to the end of the spine	34
+back%2:41:00::	0.1666666666666666	be behind; approve of	7
+back%2:40:00::	1.0	support financial backing for	2
+back%4:02:06::	0.0833333333333333	in reply	13
+back%2:38:00::	0.2	travel backward	6
+*sell%2:32:00::	0.25	persuade somebody to accept something	5
+sell%2:40:02::	1.0	give up for a price or reward	2
+sell%2:42:00::	0.1666666666666666	be sold at a certain price or in a certain way	12
+sell%2:40:01::	0.5	do business; offer for sale as for one's livelihood	3
+sell%2:40:00::	0.724960876369327	exchange or deliver for money or its equivalent	72
+thrill%1:12:00::	1.0	the swift release of a store of affective force	2
+bother%2:41:00::	0.0625	take the trouble to do something; concern oneself	17
+bother%2:41:01::	0.1428571428571428	to cause inconvenience or discomfort to	8
+bother%2:37:00::	0.1363636363636363	cause annoyance in; disturb, especially by minor irritations	12
+desert%1:15:00::	0.3333333333333333	arid land with little or no vegetation	4
+desert%2:31:00::	0.3333333333333333	leave someone who needs or counts on you; leave in the lurch	4
+consider%2:31:00::	0.0966666666666666	deem to be	100
+consider%2:39:00::	0.0972549019607843	give careful consideration to	51
+consider%2:32:02::	0.0769230769230769	think about carefully; weigh	14
+consider%2:32:00::	0.0584045584045584	show consideration for; take into account	27
+consider%2:31:01::	0.084084084084084	take into consideration for exemplifying purposes	37
+consume%2:34:00::	0.5	serve oneself to, or consume regularly	3
+consume%2:34:02::	1.0	spend extravagantly	2
+consume%2:34:03::	0.5	eat immoderately	3
+oppose%2:32:01::	0.5276679841897233	be against; express opposition to	23
+oppose%2:42:00::	0.4166666666666667	contrast with equal weight or force	4
+oppose%2:33:00::	0.5	set into opposition or rivalry	3
+oppose%2:33:01::	0.2638888888888889	fight against or resist strongly	9
+pierce%2:35:02::	1.0	cut or make a way through	2
+shed%2:35:02::	1.0	pour out in drops or small quantities or as if in drops or small quantities	2
+*shed%2:35:01::	0.8333333333333334	get rid of	4
+root%1:20:00::	0.4181818181818181	(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground	11
+root%1:15:00::	1.0	the place where something begins, where it springs into being	2
+root%1:10:00::	1.0	(linguistics) the form of a word after all affixes are removed	2
+root%2:30:00::	1.0	take root and begin to grow	2
+tip%1:21:00::	0.5	a relatively small amount of money given for services rendered (as by a waiter)	3
+tip%2:38:02::	0.25	cause to tilt	5
+tip%1:10:00::	0.5	an indication of potential opportunity	3
+tip%1:15:00::	0.125	the extreme end of something; especially something pointed	9
+act%2:36:00::	0.2	play a role or part	6
+act%2:29:00::	0.0555555555555555	behave in a certain manner; show a certain behavior; conduct or comport oneself	19
+act%1:10:01::	0.0333333333333333	a legal document codifying the result of deliberations of a committee or society or legislative body	31
+act%2:41:00::	0.0294117647058823	perform an action, or work out or perform (an action)	35
+act%1:10:00::	0.125	a subdivision of a play or opera or ballet	9
+act%1:10:02::	0.5	a short theatrical performance that is part of a longer program	3
+act%1:03:00::	0.0526315789473684	something that people do or cause to happen	20
+taste%1:12:02::	0.1666666666666666	a strong liking	7
+taste%2:34:00::	0.5	take a sample of	3
+taste%1:09:01::	0.5	delicate discrimination (especially of aesthetic values)	3
+taste%2:39:00::	0.5	perceive by the sense of taste	3
+taste%2:39:02::	0.1111111111111111	have flavor; taste of something	10
+taste%1:09:02::	0.1428571428571428	the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus	8
+*attest%2:32:01::	1.0	provide evidence for; stand as proof of; show by one's behavior, attitude, or external attributes	2
+*snort%2:32:00::	1.0	indicate contempt by breathing noisily and forcefully through the nose	2
+snort%2:29:00::	1.0	make a snorting sound by exhaling hard	2
+emerge%2:30:02::	0.1964285714285714	come out of	8
+emerge%2:30:00::	0.7032085561497327	come out into view, as from concealment	34
+emerge%2:38:00::	1.0	come up to the surface of or rise	2
+*emerge%2:30:01::	0.25	become known or apparent	5
+refer%2:42:00::	0.125	be relevant to	17
+refer%2:32:00::	0.5	have as a meaning	3
+refer%2:38:00::	0.2	send or direct for treatment, information, or a decision	6
+refer%2:32:12::	0.3333333333333333	seek information from	4
+refer%2:32:01::	0.1631578947368421	make reference to	20
+refer%2:31:00::	0.1515151515151515	think of, regard, or classify under a subsuming principle or with a general group or in relation to another	12
+condense%2:30:01::	1.0	undergo condensation; change from a gaseous to a liquid state and fall in drops	2
+warn%2:32:01::	0.25	admonish or counsel in terms of someone's behavior	5
+warn%2:32:00::	0.816017316017316	notify of danger, potential harm, or risk	22
+sign%1:10:00::	0.25	a public display of a message	5
+sign%1:10:03::	0.3333333333333333	any nonverbal action or gesture that encodes a message	4
+sign%1:15:00::	1.0	(astrology) one of 12 equal areas into which the zodiac is divided	2
+sign%2:41:00::	0.0833333333333333	approve and express assent, responsibility, or obligation	13
+sign%2:32:00::	0.1428571428571428	be engaged by a written agreement	8
+sign%1:10:05::	0.0625	a perceptible indication of something not immediately apparent (as a visible clue that something has happened)	17
+sign%1:06:01::	0.5	structure displaying a board on which advertisements can be posted	3
+sign%2:32:02::	0.0666666666666666	mark with one's signature; write one's name (on)	16
+*sign%2:41:01::	1.0	engage by written agreement	2
+factor%1:23:00::	0.3333333333333333	one of two or more integers that can be exactly divided into another integer	4
+factor%1:09:00::	0.2857142857142857	an abstract part of something	8
+factor%1:11:00::	0.5978494623655914	anything that contributes causally to a result	31
+factor%2:31:00::	1.0	resolve into factors	2
+paint%2:35:00::	0.141025641025641	apply paint to; coat with paint	13
+paint%2:36:01::	0.0958333333333333	make a painting	16
+paint%2:36:00::	0.109090909090909	make a painting of	11
+paint%1:06:00::	0.1666666666666666	a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating	7
+age%1:28:00::	0.2	a time of life (usually defined in years) at which some particular qualification or power arises	6
+age%1:28:02::	0.0454545454545454	an era of history having some distinctive feature	23
+age%1:07:00::	0.62	how long something has existed	75
+credit%1:10:00::	0.2333333333333333	approval	6
+credit%1:21:01::	0.3333333333333333	an accounting entry acknowledging income or capital items	4
+credit%2:31:12::	0.5	ascribe an achievement to	3
+credit%1:21:02::	0.25	money available for a client to borrow	5
+credit%2:31:01::	0.3333333333333333	give someone credit for something	4
+credit%1:04:01::	0.5	used in the phrase `to your credit' in order to indicate an achievement deserving praise	3
+credit%2:40:00::	1.0	accounting: enter as credit	2
+credit%1:21:00::	1.0	arrangement for deferred payment for goods and services	2
+grab%2:40:00::	0.5	get hold of or seize quickly and easily	4
+grab%2:35:00::	0.8514492753623188	take hold of so as to seize or restrain or stop the motion of	24
+allow%2:32:00::	0.3019323671497584	consent to, give permission	46
+allow%2:41:00::	0.3553477498538866	make it possible through a specific action or lack of action for something to happen	59
+allow%2:40:00::	0.0992647058823529	let have	17
+allow%2:31:00::	0.5	allow or plan for a certain possibility; concede the truth or validity of something	3
+allow%2:42:00::	0.5	make a possibility or provide opportunity for; permit to be attainable or cause to remain	3
+allow%2:31:01::	0.1428571428571428	give or assign a resource to a particular person or cause	8
+continue%2:32:00::	0.2436781609195402	continue talking;  he continued,	30
+continue%2:42:01::	0.664633510582838	continue a certain state, condition, or activity	139
+continue%2:42:00::	0.0714285714285714	keep or maintain in unaltered condition; cause to remain or last	22
+continue%2:41:00::	1.0	allow to remain in a place or position or maintain a property or feature	2
+continue%2:38:00::	0.3333333333333333	move ahead; travel onward in time or space	4
+melt%2:30:04::	1.0	become more relaxed, easygoing, or genial	2
+melt%2:30:00::	1.0	become or cause to become soft or liquid	2
+melt%2:30:01::	0.8333333333333334	reduce or cause to be reduced from a solid to a liquid state, usually by heating	3
+escape%2:32:04::	0.2	escape potentially unpleasant consequences; get away with a forbidden action	6
+escape%2:42:00::	1.0	be incomprehensible to; escape understanding by	2
+escape%1:04:00::	0.2	the act of escaping physically	6
+escape%2:32:00::	0.1785714285714285	fail to experience	8
+escape%2:38:00::	0.3366013071895425	run away from confinement	18
+buzz%2:39:00::	1.0	make a buzzing sound	2
+translate%2:31:00::	0.3333333333333333	make sense of a language	4
+translate%2:35:00::	1.0	bring to a certain spiritual state	2
+translate%2:32:00::	0.3555555555555555	restate (words) from one language into another language	10
+*translate%2:30:01::	0.1666666666666666	change from one form or medium into another	7
+translate%2:30:00::	1.0	change the position of (figures or bodies) in space without rotation	2
+ask%2:32:01::	0.1122996702706847	make a request or demand for something to somebody	162
+ask%2:32:02::	0.0666666666666666	direct or put; seek an answer to	16
+ask%2:32:00::	0.283994683880767	inquire about	230
+ask%2:32:05::	1.0	consider obligatory; request and expect	2
+flood%1:23:00::	1.0	an overwhelming number or amount	2
+flood%2:35:00::	0.2	fill quickly beyond capacity; as with a liquid	6
+flood%2:30:00::	0.5	cover with liquid, usually water	3
+flood%1:04:01::	1.0	a large flow	2
+flood%1:06:00::	1.0	light that is a source of artificial illumination having a broad beam; used in photography	2
+flood%1:19:00::	1.0	the rising of a body of water and its overflowing onto normally dry land	2
+decide%2:31:00::	0.9267906336088154	reach, make, or come to a decision about something	121
+decide%2:31:02::	0.3333333333333333	cause to decide	4
+decide%2:31:01::	0.25	bring to an end; settle conclusively	5
+swallow%2:34:00::	0.7142857142857143	pass through the esophagus as part of eating or drinking	8
+*swallow%2:35:00::	1.0	enclose or envelop completely, as if by swallowing	2
+swallow%1:13:00::	1.0	a small amount of liquid food	2
+use%2:34:02::	0.0909090909090909	take or consume (regularly or habitually)	12
+use%2:34:01::	0.7866791160908808	put into service; make work or employ for a particular purpose or for its inherent or natural purpose	595
+use%1:07:02::	0.2	a particular service	6
+use%1:07:00::	0.1	what something is used for	15
+use%1:04:00::	0.0167189132706374	the act of using	88
+use%2:34:00::	0.1428571428571428	use up, consume fully	8
+confront%2:32:03::	0.2	present somebody with something, usually to accuse or criticize	6
+confront%2:33:00::	0.5833333333333334	oppose, as in hostility or a competition	21
+confront%2:32:00::	0.3090909090909091	deal with (something unpleasant) head on	11
+grow%2:30:01::	0.1515151515151515	cause to grow or develop	12
+grow%2:30:04::	0.1666666666666666	develop and reach maturity; undergo maturation	7
+grow%2:30:10::	1.0	grow emotionally or mature	2
+grow%2:30:03::	0.0305851063829787	pass into a condition gradually, take on a specific property or attribute; become	48
+grow%2:30:00::	0.0685714285714285	become larger, greater, or bigger; expand or gain	50
+grow%2:29:00::	0.5	come to have or undergo a change of (physical features and attributes)	3
+grow%2:30:02::	0.0551724137931034	increase in size by natural process	30
+grow%2:36:00::	0.5	cultivate by growing, often involving improvements by means of agricultural techniques	3
+grow%2:42:00::	0.1666666666666666	come into existence; take on form or shape	7
+redouble%2:30:00::	1.0	double in magnitude, extent, or intensity	2
+test%1:04:03::	1.0	the act of undergoing testing	2
+test%1:04:00::	1.0	the act of testing something	2
+test%1:10:00::	1.0	a set of questions or exercises evaluating skill or knowledge	2
+test%1:04:02::	0.1666666666666666	any standardized procedure for measuring sensitivity or memory or intelligence or aptitude or personality etc	7
+test%2:41:00::	0.0666666666666666	put to the test, as for its quality, or give experimental use to	31
+test%2:41:01::	0.125	test or examine for the presence of disease or infection	9
+test%2:32:00::	0.3333333333333333	examine someone's knowledge of something	4
+test%1:09:02::	0.0584795321637426	trying something to find out about it	19
+guard%2:33:03::	1.0	protect against a challenge or attack	2
+guard%1:06:00::	1.0	a device designed to prevent injury or accidents	2
+guard%1:18:01::	1.0	the person who plays that position on a football team	2
+guard%2:41:00::	0.25	to keep watch over	5
+guard%2:33:00::	0.2	watch over or shield from danger or harm; protect	6
+guard%1:18:03::	0.0833333333333333	a person who keeps watch over something or someone	13
+preserve%2:40:00::	0.3472222222222222	keep in safety and protect from harm, decay, loss, or destruction	9
+preserve%2:40:01::	0.2916666666666667	to keep up and reserve for personal or special use	9
+*preserve%2:42:00::	0.5105263157894737	keep or maintain in unaltered condition; cause to remain or last	20
+bounce%2:35:03::	0.25	hit something so that it bounces	5
+bounce%2:38:00::	0.4924242424242424	spring back; spring away from an impact	12
+bounce%1:07:00::	1.0	the quality of a substance that is able to rebound	2
+bounce%2:38:02::	1.0	move up and down repeatedly	2
+exploit%2:34:00::	0.6428571428571429	use or manipulate to one's advantage	8
+exploit%2:34:01::	0.5	draw from; make good use of	3
+exploit%1:04:00::	1.0	a notable achievement	2
+agree%2:32:01::	0.1	consent or assent to a condition, or agree to do something	25
+agree%2:32:00::	0.5949788263762855	be in accord; be in agreement	58
+agree%2:42:00::	0.3333333333333333	be compatible, similar or consistent; coincide in their characteristics	4
+down%3:00:00::	0.1388888888888889	being or moving lower in position or less in some value	9
+*down%2:34:00::	0.5	drink down entirely	3
+down%5:00:00:descending:00	1.0	extending or moving from a higher to a lower place	2
+down%4:02:03::	1.0	paid in cash at time of purchase	2
+down%4:02:00::	0.6657633242999097	spatially or metaphorically from a higher to a lower level or position	82
+down%4:02:02::	0.0909090909090909	away from a more central or a more northerly place	22
+write%2:32:00::	0.1907433380084151	communicate or express by writing	93
+write%2:32:08::	0.0761904761904762	communicate (with) in writing	15
+write%2:36:02::	0.0464015151515151	have (one's written work) issued for publication	33
+write%2:36:04::	0.125	write music	9
+write%2:36:01::	0.1428571428571428	mark or trace on a surface	8
+write%2:32:03::	0.3333333333333333	record data on a computer	4
+write%2:36:00::	0.2980817347789825	produce a literary work	110
+write%2:32:01::	0.1111111111111111	communicate by letter	10
+puff%2:34:01::	1.0	smoke and exhale strongly	2
+*erupt%2:30:02::	1.0	erupt or intensify suddenly	2
+erupt%2:30:01::	0.7666666666666667	start abruptly	6
+swim%2:38:00::	1.0	travel through water	12
+gutter%1:06:00::	1.0	a channel along the eaves or on the roof; collects and carries away rainwater	2
+dump%2:40:00::	1.0	throw away as refuse	12
+key%1:06:00::	0.2527472527472527	metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated	14
+key%1:09:00::	0.3333333333333333	something crucial for explaining	4
+key%5:00:00:important:00	0.1428571428571428	serving as an essential component	8
+*wear%2:42:01::	1.0	have in one's aspect; wear an expression of one's attitude or personality	2
+wear%2:29:02::	1.0	have or show an appearance of	2
+wear%2:29:00::	0.7857772553629151	be dressed in	83
+wear%2:29:04::	0.25	have on one's person	16
+sail%2:38:01::	1.0	move with sweeping, effortless, gliding motions	2
+sail%2:38:03::	0.8560606060606061	traverse or travel on (a body of water)	12
+produce%2:36:00::	0.1214285714285714	create or manufacture a man-made product	36
+produce%2:36:02::	0.4181365897783808	bring forth or yield	67
+produce%1:13:00::	1.0	fresh fruits and vegetable grown for the market	2
+produce%2:39:01::	0.2333333333333333	bring out for display	6
+produce%2:39:00::	0.2333333333333333	bring onto the market or release	6
+produce%2:36:03::	0.0476923076923076	cause to happen, occur or exist	26
+produce%2:36:05::	0.2	cultivate by growing, often involving improvements by means of agricultural techniques	6
+tread%1:04:00::	1.0	a step in walking or running	2
+stuff%2:38:00::	1.0	press or force	2
+stuff%1:27:00::	0.25	the tangible substance that goes into the makeup of a physical object	5
+stuff%2:35:00::	0.25	cram into a cavity	5
+stuff%1:06:00::	0.25	miscellaneous unspecified objects	5
+fit%2:30:02::	0.5	insert or adjust several objects or people	3
+fit%2:42:04::	0.3333333333333333	be compatible, similar or consistent; coincide in their characteristics	4
+fit%3:00:02::	0.5	meeting adequate standards for a purpose	3
+fit%1:26:01::	0.5	a display of bad temper	3
+fit%3:00:01::	0.5	physically and mentally sound or healthy	3
+fit%1:26:00::	1.0	a sudden uncontrollable attack	2
+fit%2:30:01::	0.1666666666666666	make fit	7
+fit%2:42:01::	0.1428571428571428	satisfy a condition or restriction	8
+fit%2:42:02::	0.1111111111111111	be the right size or shape; fit correctly or as desired	10
+fit%5:00:00:ready:00	0.5	(usually followed by `to' or `for') on the point of or strongly disposed	3
+fit%2:42:05::	0.0769230769230769	be agreeable or acceptable to	14
+expect%2:31:00::	0.8141088568935427	regard something as probable or likely	192
+expect%2:32:00::	0.0873563218390804	consider obligatory; request and expect	30
+expect%2:31:01::	0.2272727272727272	look forward to the probable occurrence of	11
+dismiss%2:32:00::	0.7564102564102564	bar from attention or consideration	13
+dismiss%2:32:02::	0.5	cease to consider; put out of judicial consideration	3
+recall%2:31:00::	0.9032051282051282	recall knowledge from memory; have a recollection	40
+recall%2:32:00::	0.5833333333333334	go back to something earlier	4
+gain%2:40:03::	0.2066666666666666	obtain	25
+gain%2:40:01::	0.0833333333333333	win something through one's efforts	13
+gain%2:30:01::	1.0	increase or develop	2
+gain%1:07:01::	1.0	the amount of increase in signal power or voltage or current expressed as the ratio of output to input	2
+gain%1:07:02::	1.0	the advantageous quality of being beneficial	2
+gain%2:33:00::	1.0	obtain advantages, such as points, etc.	2
+gain%2:30:00::	1.0	rise in rate or price	2
+gain%2:38:00::	0.3333333333333333	reach a destination, either real or abstract	4
+gain%1:23:00::	0.2	a quantity that is added	6
+gain%2:40:02::	0.1666666666666666	derive a benefit from	7
+moderate%5:00:00:mild:00	1.0	not extreme	2
+moderate%3:00:00::	0.7888888888888889	being within reasonable or average limits; not excessive or extreme	10
+hurt%2:39:00::	0.3333333333333333	be the source of pain	4
+hurt%2:37:01::	0.5	cause emotional anguish or make miserable	3
+*hurt%2:37:00::	0.5	hurt the feelings of	3
+hurt%2:30:04::	0.3333333333333333	cause damage or affect negatively	4
+hurt%2:29:01::	0.1904761904761904	give trouble or pain to	7
+drift%2:38:01::	0.5	move about aimlessly or without any destination, often in search of food or employment	3
+drift%2:38:04::	0.5	wander from a direct course or at random	3
+drift%2:38:02::	0.3	be in motion due to some air or water current	5
+drift%1:19:00::	0.5	a force that moves something along	3
+assume%2:31:00::	0.5460930640913082	take to be the case or to be true; accept without verification or proof	68
+assume%2:40:01::	0.2	take on as one's own the expenses or debts of another person	6
+assume%2:30:00::	0.1111111111111111	take on a certain form, attribute, or aspect	10
+assume%2:38:00::	1.0	occupy or take on	2
+assume%2:41:00::	0.0833333333333333	take on titles, offices, duties, responsibilities	13
+*climb%2:30:00::	1.0	go up or advance	2
+climb%2:38:01::	1.0	move with difficulty, by grasping	2
+climb%2:38:00::	0.878494623655914	go upward with gradual or continuous progress	31
+visualize%2:36:00::	1.0	imagine; conceive of; see in one's mind	4
+assign%2:31:00::	0.2142857142857142	select something or someone for a specific purpose	7
+assign%2:41:00::	0.2571428571428571	give an assignment to (a person) to a post, or assign a task to (a person)	15
+assign%2:40:01::	0.2238095238095238	give out	15
+assign%2:31:02::	0.1666666666666666	attribute or credit to	7
+upgrade%2:31:00::	1.0	rate higher; raise in value or esteem	2
+flow%1:04:00::	0.3333333333333333	the act of flowing or streaming; continuous progression	4
+flow%2:38:00::	0.1111111111111111	move along, of liquids	10
+flow%1:28:00::	0.1666666666666666	the amount of fluid that flows in a given time	7
+flow%1:11:00::	0.0620915032679738	the motion characteristic of fluids (liquids or gases)	18
+flow%1:22:00::	0.6666666666666666	any uninterrupted stream or discharge	3
+*flow%2:38:01::	0.0833333333333333	move or progress freely as if in a stream	13
+supplicate%2:32:00::	1.0	ask humbly (for something)	2
+provide%2:41:00::	1.0	mount or put up	2
+provide%2:32:00::	0.106060606060606	determine (what is to happen in certain contingencies), especially by including a proviso condition or stipulation	12
+provide%2:40:00::	0.8669339177717361	give something useful or necessary to	269
+provide%2:34:00::	0.085	give what is desired or needed, especially support, food or sustenance	25
+nod%2:32:01::	0.6477832512315271	express or signify by nodding	29
+nod%2:32:00::	0.3736263736263736	lower and raise the head, as to indicate assent or agreement or confirmation	14
+design%2:31:00::	0.037037037037037	plan something for a specific role or purpose or effect	28
+design%2:36:02::	0.0333333333333333	make or work out a plan for; devise	31
+design%1:09:02::	0.5	something intended as a guide for making something else	3
+design%1:04:00::	0.0833333333333333	the act of working out the form of something (as by making a sketch or outline or plan)	13
+design%2:36:00::	0.1428571428571428	make a design of; plan out in systematic, often graphic form	8
+design%2:36:01::	0.0555555555555555	create the design for; create or execute in an artistic or highly skilled manner	19
+design%1:09:01::	0.0909090909090909	an arrangement scheme	12
+design%1:06:00::	1.0	a decorative or artistic work	2
+tax%2:40:00::	0.0666666666666666	levy a tax on	16
+tax%1:21:00::	0.63107822410148	charge against a citizen's person or property or activity for the support of government	44
+twist%1:10:00::	1.0	an interpretation of a text or action	2
+twist%1:11:00::	1.0	an unforeseen development	2
+twist%1:04:01::	1.0	any clever maneuver	2
+twist%2:35:02::	0.3333333333333333	cause (a plastic object) to assume a crooked or angular form	4
+twist%2:38:01::	0.2909090909090909	to move in a twisting or contorted motion, (especially when struggling)	11
+transform%2:30:02::	0.1153846153846153	subject to a mathematical transformation	14
+*transform%2:30:00::	0.4333333333333333	change or alter in form, appearance, or nature	10
+*transform%2:30:03::	0.5	change in outward structure or looks	3
+compare%2:31:00::	0.6779220779220779	examine and note the similarities or differences of	56
+compare%2:31:01::	0.2916666666666667	consider or describe as similar, equal, or analogous	9
+compare%2:42:00::	0.0909090909090909	be comparable	12
+hunt%2:33:00::	0.5	pursue for food or sport (as of wild animals)	4
+hunt%2:38:00::	1.0	pursue or chase relentlessly	2
+execute%2:41:00::	1.0	kill as a means of socially sanctioned punishment	2
+treat%2:29:00::	0.0791666666666666	provide treatment for	16
+treat%2:30:01::	0.0988142292490118	subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition	23
+treat%2:32:00::	0.1444444444444444	act on verbally or in some form of artistic expression	10
+treat%2:40:00::	0.5	provide with a gift or entertainment	3
+treat%2:41:00::	0.0689655172413793	interact in a certain way	30
+begin%2:30:00::	0.749006570916552	take the first step or steps in carrying out an action	278
+begin%2:42:00::	0.0971348707197763	have a beginning, in a temporal, spatial, or evaluative sense	54
+begin%2:30:01::	0.0854700854700854	set in motion, cause to start	27
+live%3:00:02::	0.2	actually being performed at the time of hearing or viewing	6
+live%2:42:08::	0.1971428571428571	inhabit or live in; be an inhabitant of	126
+live%2:42:00::	0.0824175824175824	have life, be alive	14
+live%2:42:01::	0.125	support oneself	16
+live%2:42:04::	0.0727513227513227	continue to live through hardship or adversity	28
+live%2:42:06::	0.088235294117647	lead a certain kind of life; live in a certain style	51
+amount%1:07:00::	0.1072874493927125	the relative magnitude of something with reference to a criterion	39
+amount%2:42:01::	0.3333333333333333	add up in number or quantity	4
+amount%1:21:00::	0.0327169274537695	a quantity of money	38
+amount%1:09:00::	1.0	a quantity obtained by the addition of a group of numbers	2
+amount%1:03:00::	0.0588235294117647	how much there is or how many there are of something that you can quantify	18
+*amount%2:42:00::	0.3333333333333333	develop into	4
+amount%2:42:03::	0.1111111111111111	be tantamount or equivalent to	10
+precede%2:42:01::	0.3	come before	5
+precede%2:42:00::	0.5972222222222222	be earlier in time; go back further	9
+precede%2:41:00::	0.5	be the predecessor of	3
+color%1:14:00::	1.0	a race with skin pigmentation different from the white race (especially Blacks)	2
+*color%2:32:00::	1.0	affect as in thought or feeling	2
+color%3:00:00::	0.3333333333333333	having or capable of producing colors	4
+color%1:07:02::	0.5	the timbre of a musical sound	3
+color%2:30:00::	0.1666666666666666	add color to	7
+color%1:07:03::	0.5	interest and variety and intensity	3
+color%1:07:00::	0.5352564102564102	a visual attribute of things that results from the light they emit or transmit or reflect	40
+mold%2:36:02::	1.0	form in clay, wax, etc	4
+intervene%2:41:00::	1.0	get involved, so as to alter or hinder an action, or through force or threat of force	4
+impress%2:31:00::	0.5833333333333334	produce or try to produce a vivid impression of	4
+impress%2:37:00::	0.2321428571428571	impress positively	8
+impress%2:37:01::	0.2142857142857142	have an emotional or cognitive impact upon	7
+introduce%2:30:03::	0.1388888888888889	introduce	9
+introduce%2:38:00::	0.2	bring in a new person or object into a familiar environment	6
+introduce%2:32:00::	0.4214285714285714	cause to come to know personally	21
+introduce%2:36:00::	0.1111111111111111	bring something new to an environment	10
+review%2:32:00::	0.1388888888888889	appraise critically	9
+review%2:31:00::	0.2803030303030303	look at again; examine again	12
+review%1:09:00::	0.3333333333333333	a new appraisal or evaluation	4
+review%1:10:01::	1.0	an essay or article that gives a critical evaluation (as of a book or play)	2
+*stamp%2:35:01::	1.0	to mark, or produce an imprint in or on something	2
+stamp%2:38:00::	0.6666666666666666	walk heavily	3
+crawl%2:38:00::	1.0	move slowly; in the case of people or animals with the body near the ground	27
+drain%2:38:00::	1.0	flow off gradually	2
+rationalize%2:30:00::	1.0	weed out unwanted or unnecessary things	2
+*rationalize%2:32:00::	0.8333333333333334	defend, explain, clear away, or make excuses for by reasoning	3
+involve%2:42:04::	0.2452380952380952	engage as a participant	21
+involve%2:42:01::	0.4663299663299663	connect closely and often incriminatingly	55
+involve%2:42:02::	0.1666666666666666	contain as a part	7
+involve%2:42:07::	0.0984848484848484	require as useful, just, or proper	12
+involve%2:42:00::	0.0661764705882353	have as a necessary feature	17
+ruin%2:35:00::	0.3333333333333333	destroy completely; damage irreparably	4
+ruin%1:26:00::	0.5	an irrecoverable state of devastation and destruction	3
+shower%1:04:00::	0.3333333333333333	washing yourself by standing upright under water sprayed from a nozzle	4
+shower%2:29:00::	1.0	take a shower; wash one's body in the shower	2
+shower%1:06:00::	0.25	a plumbing fixture that sprays water over you	5
+buy%2:40:00::	0.9802950883323628	obtain by purchase; acquire by means of a financial transaction	102
+buy%2:40:02::	1.0	make illegal payments to in exchange for favors or influence	2
+map%1:06:00::	0.5	a diagrammatic representation of the earth's surface (or part of it)	7
+map%2:36:00::	0.5	make a map of; show or establish the features of details of	3
+shorten%2:30:01::	0.5333333333333333	make shorter than originally intended; reduce or retrench in length or duration	6
+shorten%2:30:02::	0.6666666666666666	reduce in scope while retaining essential elements	3
+spot%1:10:01::	1.0	a short section or illustration (as between radio or tv programs or in a magazine) that is often used for advertising	2
+spot%1:15:01::	0.0666666666666666	a point located with respect to surface features of some region	16
+spot%2:39:00::	0.0588235294117647	catch sight of	18
+radiate%2:43:00::	1.0	send out rays or waves	2
+confuse%2:31:03::	0.3	be confusing or perplexing to; cause to be unable to think clearly	5
+confuse%2:31:02::	0.4555555555555555	mistake one thing for another	10
+attend%2:42:00::	0.975609756097561	be present at (meetings, church services, university), etc.	83
+attend%2:41:12::	1.0	take charge of or deal with	2
+incline%2:42:01::	1.0	have a tendency or disposition to do or be something; be inclined	4
+grope%2:35:01::	1.0	feel about uncertainly or blindly	5
+*fill%2:30:01::	0.5827067669172933	make full, also in a metaphorical sense	57
+fill%2:41:00::	0.25	assume, as of positions or roles	5
+fill%2:30:00::	0.1136363636363636	become full	12
+fill%2:42:00::	0.1904761904761904	occupy the whole of	7
+fill%2:34:02::	0.25	fill or meet a want or need	5
+count%2:32:03::	0.3333333333333333	show consideration for; take into account	4
+count%2:32:00::	0.1883116883116883	determine the number or amount of	22
+count%1:04:00::	0.5	the act of counting; reciting numbers in ascending order	3
+count%2:32:01::	0.5	name or recite the numbers in ascending order	3
+count%2:31:00::	1.0	include as if by counting	2
+count%2:42:00::	0.1904761904761904	have weight; have import, carry weight	7
+count%1:23:00::	0.3333333333333333	the total number counted	4
+dull%3:00:03::	0.6666666666666666	lacking in liveliness or animation	3
+dull%3:00:02::	0.3333333333333333	emitting or reflecting very little light	4
+dull%5:00:01:uninteresting:00	1.0	so lacking in interest as to cause mental weariness; ; ; ; ; ; - Edmund Burke; ; - Mark Twain	2
+talk%2:32:00::	0.1119047619047619	express in speech	21
+talk%2:32:03::	0.2	use language	6
+*talk%2:32:01::	0.6484158415841584	exchange thoughts; talk with	101
+talk%2:32:02::	0.5	reveal information	3
+talk%2:32:06::	1.0	divulge confidential information or secrets	2
+talk%1:10:00::	0.1111111111111111	an exchange of ideas via conversation	10
+process%1:09:00::	0.5	(psychology) the performance of some composite cognitive activity; an operation that affects mental contents	3
+process%1:04:00::	0.9183303085299456	a particular course of action intended to achieve a result	58
+process%2:30:00::	1.0	subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition	2
+lend%2:40:00::	0.2619047619047619	give temporarily; let have for a limited time	7
+*lend%2:42:00::	1.0	have certain characteristics of qualities for something; be open or vulnerable to	2
+lend%2:40:01::	0.1666666666666666	bestow a quality on	7
+dash%2:30:00::	1.0	break into pieces, as by striking or knocking over	2
+dash%2:38:00::	0.6	run or move very quickly or hastily	5
+date%1:18:00::	0.5	a participant in a date	3
+date%1:28:00::	0.7391304347826086	the specified day of the month	23
+date%1:14:00::	0.5	a meeting arranged in advance	3
+express%2:32:00::	0.2724867724867725	articulate; either verbally or with a cry, shout, or noise	28
+express%2:32:01::	0.4978229317851959	give expression to	53
+express%2:32:02::	0.1238095238095238	serve as a means for expressing something	15
+express%2:32:03::	1.0	indicate through a symbol, formula, etc.	2
+scrape%2:35:00::	0.5	scratch repeatedly	4
+scrape%1:11:00::	1.0	a harsh noise made by scraping	2
+avoid%2:41:01::	0.2034632034632034	prevent the occurrence of; prevent from happening	22
+avoid%2:41:03::	0.2058823529411764	refrain from doing something	18
+avoid%2:32:00::	0.3625730994152046	stay clear from; keep away from; keep out of the way of someone or something	19
+brush%2:35:01::	0.1	rub with a brush, or as if with a brush	11
+brush%2:35:02::	0.25	clean with a brush	5
+brush%1:14:00::	0.1	a dense growth of bushes	11
+brush%2:35:00::	0.1111111111111111	touch lightly and briefly	10
+brush%1:06:00::	0.1428571428571428	an implement that has hairs or bristles firmly set into a handle	8
+pour%2:38:04::	0.2	pour out	6
+pour%2:38:03::	0.1	cause to run	11
+*pour%2:38:00::	0.1666666666666666	move in large numbers	7
+pour%2:38:02::	0.3333333333333333	flow in a spurt	4
+*head%2:38:02::	0.5	travel in front of; go in advance of others	3
+head%2:38:01::	1.0	direct the course; determine the direction of travelling	2
+head%2:41:00::	0.0588235294117647	be in charge of	18
+head%1:05:00::	0.05	a single domestic animal	21
+head%1:19:00::	0.5	the pressure exerted by a fluid	3
+head%1:08:00::	0.3655510374309248	the upper part of the human body or the front part of the body in animals; contains the face and brains	139
+head%2:38:00::	0.0357142857142857	to go or travel towards	29
+*head%2:42:01::	1.0	be the first or leading member of (a group) and excel	2
+head%1:09:00::	0.2	that which is responsible for one's thoughts and feelings; the seat of the faculty of reason	6
+head%1:18:00::	0.2	a person who is in charge	6
+end%1:09:02::	0.0476190476190476	the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it	22
+end%2:42:01::	0.1111111111111111	be the end of; be the last or concluding part of	10
+end%1:15:01::	1.0	a boundary marking the extremities of something	2
+end%1:11:00::	0.0588235294117647	the concluding parts of an event or occurrence	18
+end%1:09:00::	0.0833333333333333	a final part or section	13
+end%2:30:01::	0.037037037037037	bring to an end or halt	28
+end%1:18:00::	0.5	(football) the person who plays at one end of the line of scrimmage	3
+end%1:15:02::	0.25	the surface at either extremity of a three-dimensional object	5
+end%2:42:00::	0.0196078431372549	have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical	52
+end%1:26:00::	0.2	a final state	6
+end%1:28:00::	0.037037037037037	the point in time at which something ends	28
+end%1:15:00::	0.0333333333333333	either extremity of something that has length	31
+*pump%2:33:00::	0.5	deliver forth	3
+pump%2:35:00::	0.3333333333333333	operate like a pump; move up and down, like a handle or a pedal	4
+pump%1:06:00::	0.5	a mechanical device that moves fluid or gas by pressure or suction	3
+change%2:38:00::	0.5	change from one vehicle or transportation line to another	3
+change%2:30:00::	0.0212765957446808	undergo a change; become different in essence; losing one's or its original nature	48
+change%2:30:03::	0.2	change clothes; put on different clothes	6
+change%1:04:00::	0.0666666666666666	the action of changing something	16
+change%2:30:04::	0.3333333333333333	exchange or replace with another, usually of the same kind or category	4
+change%1:11:00::	0.0263157894736842	an event that occurs when something passes from one state or phase to another	39
+change%2:30:05::	0.25	lay aside, abandon, or leave for another	5
+change%2:30:02::	0.0909090909090909	become different in some particular way, without permanently losing one's or its former characteristics or essence	12
+change%2:40:00::	1.0	give to, and receive from, one another	2
+change%1:21:02::	1.0	the balance of money received when the amount you tender is greater than the amount due	2
+change%1:24:00::	0.024390243902439	a relational difference between states; especially between states before and after some event	42
+change%1:19:00::	0.1	the result of alteration or modification	11
+change%2:30:01::	0.0188679245283018	cause to change; make different; cause a transformation	54
+analyze%2:31:00::	0.8947368421052632	consider in detail and subject to an analysis in order to discover essential features or meaning	20
+analyze%2:31:01::	1.0	make a mathematical, chemical, or grammatical analysis of; break down into components or essential features	2
+debut%1:04:00::	0.5	the act of beginning something new	5
+debut%2:36:02::	1.0	present for the first time to the public	2
+*absorb%2:31:00::	0.25	take up mentally	5
+absorb%2:35:01::	0.25	become imbued	8
+absorb%2:35:00::	0.5833333333333334	take in, also metaphorically	4
+*absorb%2:40:00::	0.3333333333333333	take up, as of debts or payments	4
+*absorb%2:30:00::	1.0	cause to become one with	2
+rail%1:06:02::	1.0	a barrier consisting of a horizontal bar and supports	2
+rail%1:06:03::	0.5	short for railway	3
+tell%2:32:03::	0.3333333333333333	give evidence	4
+tell%2:31:01::	0.5	mark as different	3
+tell%2:32:00::	0.2348701210390316	let something be known	172
+tell%2:32:01::	0.0384108867427568	narrate or give a detailed account of	68
+tell%2:32:04::	0.231283422459893	express in words	188
+tell%2:31:00::	0.05	discern or comprehend	21
+tell%2:32:08::	1.0	inform positively and with certainty and confidence	2
+tell%2:32:02::	0.0248979591836734	give instructions to or direct somebody to do something with authority	50
+cook%2:36:00::	0.1607142857142857	prepare for eating by applying heat	8
+cook%2:30:00::	0.2	transform and make suitable for consumption by heating	6
+cook%1:18:00::	0.1904761904761904	someone who cooks food	7
+cook%2:36:01::	0.125	prepare a hot meal	9
+*smash%2:35:00::	0.3666666666666666	hit hard	6
+smash%2:30:00::	0.5833333333333334	break into pieces, as by striking or knocking over	4
+*pose%2:42:00::	0.3333333333333333	introduce	7
+pose%2:39:00::	0.3333333333333333	assume a posture as for artistic purposes	4
+assimilate%2:30:00::	1.0	become similar to one's environment	2
+assimilate%2:31:00::	1.0	take up mentally	2
+like%2:37:04::	0.0588235294117647	be fond of	18
+like%3:00:00::	0.0516666666666666	resembling or similar; having the same or some of the same characteristics; often used in combination	25
+like%2:31:00::	1.0	feel about or towards; consider, evaluate, or regard	2
+like%2:37:01::	0.0955734406438631	prefer or wish to do something	71
+like%2:37:05::	0.1295822676896845	find enjoyable or agreeable	69
+pledge%2:32:00::	1.0	promise solemnly and formally	3
+declare%2:32:00::	0.3850574712643678	state emphatically and authoritatively	30
+declare%2:32:04::	0.2638888888888889	declare to be	9
+declare%2:32:05::	0.1923076923076923	announce publicly or officially	13
+declare%2:32:01::	0.1666666666666666	state firmly	10
+rip%2:35:01::	1.0	cut (wood) along the grain	2
+rip%2:35:00::	0.7857142857142857	tear or be torn violently	8
+scale%1:24:01::	0.3333333333333333	the ratio between the size of something and a representation of it	6
+scale%1:24:03::	0.3	an ordered reference standard	10
+scale%1:24:00::	0.1333333333333333	relative magnitude	10
+scale%1:20:00::	1.0	a specialized leaf or bract that protects a bud or catkin	2
+spell%2:32:00::	1.0	orally recite the letters of or give the spelling of	2
+*spell%2:32:01::	1.0	indicate or signify	2
+spell%1:26:00::	0.3333333333333333	a psychological state induced by (or as if induced by) a magical incantation	4
+screen%1:06:05::	1.0	the display that is electronically created on the surface of the large end of a cathode-ray tube	2
+screen%1:06:04::	0.5	a protective covering that keeps things out or hinders sight	3
+*screen%2:41:01::	1.0	test or examine for the presence of disease or infection	2
+screen%2:31:00::	1.0	examine methodically	2
+screen%1:06:06::	0.3333333333333333	a white or silvered surface where pictures can be projected for viewing	4
+screen%1:06:01::	1.0	a covering that serves to conceal or shelter something	2
+heap%1:14:00::	1.0	a collection of objects laid on top of each other	4
+bob%2:38:00::	1.0	move up and down repeatedly	2
+indicate%2:32:02::	0.0769230769230769	give evidence of	14
+indicate%2:32:00::	0.173015873015873	to state or express briefly	36
+indicate%2:32:01::	0.2498869289914066	be a signal for or a symptom of	67
+indicate%2:32:03::	0.3833333333333333	indicate a place, direction, person, or thing; either spatially or figuratively	60
+indicate%2:32:04::	0.3333333333333333	suggest the necessity of an intervention; in medicine	4
+acknowledge%2:32:00::	0.25	declare to be true or admit the existence or reality or truth of	5
+acknowledge%2:32:04::	1.0	report the receipt of	2
+acknowledge%2:32:07::	1.0	express recognition of the presence or existence of, or acquaintance with	2
+*visit%2:32:01::	0.5	impose something unpleasant	3
+visit%2:38:00::	0.0525362318840579	go to certain places as for sightseeing	24
+visit%2:41:00::	0.0714285714285714	pay a brief visit	15
+visit%2:38:01::	0.2	come to see in an official or professional capacity	6
+visit%2:41:02::	0.0701970443349753	go to see a place, as for entertainment	29
+visit%1:04:01::	0.3333333333333333	the act of visiting in an official capacity (as for an inspection)	4
+visit%1:14:00::	0.1666666666666666	a meeting arranged by the visitor to see someone (such as a doctor or lawyer) for treatment or advice	7
+visit%1:04:02::	0.1	the act of going to see some person or place or thing for a short time	11
