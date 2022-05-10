@@ -37,29 +37,17 @@ def compute_overlapping(vecs, lemmas):
         mask = np.isin(lemma_knn, idxs_of_lemma)
         total = num_of_context * (num_of_context-1)
 
-        overlapping[lemma] = mask.sum()/total
+        overlap_score = mask.sum()/total
+
+        noises = np.where(mask, lemma_knn, -1)
+        knns = Counter(noises.reshape(-1))
+        knns.pop(-1)
+        top_k_noises = knns.most_common(num_of_context)
+        idxs_of_noises = np.array([n[0] for n in noises])
+
+        overlapping[lemma] = {'overlap_score': overlap_score, 'idxs': idxs_of_lemma, 'idxs_for_noises': idxs_of_noises}
     
     return overlapping
-
-def prepare_overlapping_computing_senseval3(vecs, lemmas):
-    """This function is intented to deal with words with multiple sense annotated in senseval3.
-    The basic idea here is to duplicate the vector for each sense.
-
-    Args:
-        vecs (_type_): vectors np.array
-        lemmas (_type_): lemmas np.array
-    """
-
-    idxs = list(range(len(lemma)))
-    extended_lemmas = []
-    for index, lemma in enumerate(lemmas):
-        if ';' not in lemma:
-            continue
-        ls = lemma.split(';')
-        extended_lemmas.extend(ls)
-        idxs.extend([index]*len(ls))
-    
-    return vecs[idxs], np.append(lemmas, extended_lemmas)
 
 
 if __name__ == '__main__':
@@ -79,8 +67,12 @@ if __name__ == '__main__':
     lemma2gloss = {s.lemma : s.gloss for word, senses in words.items() for s in senses }
 
     # model = get_model(simcse, model_path, pool = pool, output_hidden_states = True)
+    meta_sense_output_file = open(f'embedding/results/{source}_meta_results.tsv')
+    non_meta_sense_output_file = open(f'embedding/results/{source}_non_meta_results.tsv')
     for word in words:
         contexts = word2sentence(word, minimum = 1, max_length = max_length)
+        if source == 'senseval3':
+            contexts = [sent for sent in contexts if not ';' in sent.tokens[sent.index].sense]
         if not contexts:
             print(f'{word} do not have enough contexts!')
             continue
@@ -90,22 +82,31 @@ if __name__ == '__main__':
         metaphorical_senses = [ sense.lemma for sense in words[word] if sense.label == 'metaphorical']
 
         vecs = model.get_embeddings(contexts)
-        if source == 'senseval3':
-            vecs, lemmas = prepare_overlapping_computing_senseval3(vecs, lemmas)
         overlapping = compute_overlapping(vecs, lemmas)
 
         model_id = os.path.basename(model_path)
-        output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{model_id}_{word}.result')
+        # output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{model_id}_{word}.result')
         img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{model_id}_{word}.png')
         
-        overlap_path = open(output_overlapping_path, 'w', encoding='utf-8')
-        overlap_path.write(f'lemma\toverlap_score\tgloss\tnum_sent\n')
+        # overlap_path = open(output_overlapping_path, 'w', encoding='utf-8')
+        # overlap_path.write(f'lemma\toverlap_score\tgloss\tnum_sent\n')
         for lemma, overlap in overlapping.items():
+            overlap_score = overlap['overlap_score']
+            idxs = overlap['idxs']
+            idxs_of_noise = overlap['idxs_of_noises']
+
             gloss = lemma2gloss[lemma]
             if lemma in metaphorical_senses:
                 lemma = '*' + lemma
-            overlap_path.write(f'{lemma}\t{overlap}\t{gloss}\t{lemma_counter[lemma]}\n')
-        overlap_path.close()
+                meta_sense_output_file.write(f'{lemma}\t{overlap}\t{gloss}\t{lemma_counter[lemma]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\n')
+            else:
+                non_meta_sense_output_file.write(f'{lemma}\t{overlap}\t{gloss}\t{lemma_counter[lemma]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\n')
+            # overlap_path.write(f'{lemma}\t{overlap}\t{gloss}\t{lemma_counter[lemma]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\n')
+
+        # overlap_path.close()
 
         plotDimensionReduction(vecs, lemmas, img_path)
-        print(f'{word} process finished!')        
+        print(f'{word} process finished!')
+         
+    meta_sense_output_file.close()
+    non_meta_sense_output_file.close()    
