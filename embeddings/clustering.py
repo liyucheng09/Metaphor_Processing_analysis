@@ -33,7 +33,7 @@ def compute_overlapping(vecs, lemmas):
         xidx = (lemmas == lemma)
         idxs_of_lemma = xidx.nonzero()[0]
         num_of_context = xidx.sum()
-        lemma_knn = sort_idxs[xidx][:, :num_of_context-1]
+        lemma_knn = sort_idxs[xidx][:, num_of_context-1:]
         mask = np.isin(lemma_knn, idxs_of_lemma)
         total = num_of_context * (num_of_context-1)
 
@@ -45,7 +45,7 @@ def compute_overlapping(vecs, lemmas):
         top_k_noises = knns.most_common(num_of_context)
         idxs_of_noises = np.array([n[0] for n in noises])
 
-        overlapping[lemma] = {'overlap_score': overlap_score, 'idxs': idxs_of_lemma, 'idxs_for_noises': idxs_of_noises}
+        overlapping[lemma] = {'overlap_score': overlap_score, 'idxs': idxs_of_lemma, 'idxs_of_noises': idxs_of_noises}
     
     return overlapping
 
@@ -67,8 +67,11 @@ if __name__ == '__main__':
     lemma2gloss = {s.lemma : s.gloss for word, senses in words.items() for s in senses }
 
     # model = get_model(simcse, model_path, pool = pool, output_hidden_states = True)
-    meta_sense_output_file = open(f'embedding/results/{source}_meta_results.tsv')
-    non_meta_sense_output_file = open(f'embedding/results/{source}_non_meta_results.tsv')
+    meta_sense_output_path = os.path.join(cwd, f'embeddings/results/{source}_meta_results.tsv')
+    non_meta_sense_output_path = os.path.join(cwd, f'embeddings/results/{source}_non_meta_results.tsv')
+
+    meta_sense_output_file = open(meta_sense_output_path, 'w')
+    non_meta_sense_output_file = open(non_meta_sense_output_path, 'w')
     for word in words:
         contexts = word2sentence(word, minimum = 1, max_length = max_length)
         if source == 'senseval3':
@@ -86,7 +89,7 @@ if __name__ == '__main__':
 
         model_id = os.path.basename(model_path)
         # output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{model_id}_{word}.result')
-        img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{model_id}_{word}.png')
+        img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{source}_{model_id}_{word}.png')
         
         # overlap_path = open(output_overlapping_path, 'w', encoding='utf-8')
         # overlap_path.write(f'lemma\toverlap_score\tgloss\tnum_sent\n')
