@@ -64,18 +64,20 @@ def hard_metaphor_corpus(output_file, word, lemma, overlap_score, num_sents, idx
         for i in idxs:
             sent = contexts[i]
             output_file.write(
-                f"{word}\t{lemma}\t{lemma2gloss(lemma)}\tmetaphorical\t{overlap_score}\t{__repr__(sent)}\t{sent.index}\n"
+                f"{word}\t{lemma}\t{lemma2gloss(lemma[1:])}\tmetaphorical\t{overlap_score}\t{repr(sent)}\t{sent.index}\n"
             )
         for i in idxs_non_meta_noises:
             sent = contexts[i]
             noise_lemma = sent.tokens[sent.index].sense
             output_file.write(
-                f"{word}\t{noise_lemma}\t{lemma2gloss(noise_lemma)}\tliteral\t_\t{__repr__(sent)}\t{sent.index}\n"
+                f"{word}\t{noise_lemma}\t{lemma2gloss(noise_lemma)}\tliteral\t_\t{repr(sent)}\t{sent.index}\n"
             )
     print(f"write {word} to hard metaphor corpus!")
 
 if __name__ == '__main__':
     cwd, max_length, model_path, pool, source, threshold_for_num_sent, threshold_for_overlap, = sys.argv[1:]
+    threshold_for_num_sent = int(threshold_for_num_sent)
+    threshold_for_overlap = float(threshold_for_overlap)
     max_length = int(max_length)
 
     index_path = os.path.join(cwd, 'embeddings/index')
@@ -135,7 +137,7 @@ if __name__ == '__main__':
             if lemma in metaphorical_senses:
                 lemma = '*' + lemma
                 meta_sense_output_file.write(f'{word}\t{lemma}\t{overlap_score}\t{gloss}\t{lemma_counter[lemma[1:]]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\t{",".join(idxs)}\t{",".join(idxs_of_non_meta_noise)}\n')
-                hard_metaphor_corpus(corpus_output_file, word, lemma, overlap_score, lemma_counter[lemma[1:]], idxs, idxs_of_non_meta_noise, contexts)
+                hard_metaphor_corpus(corpus_output_file, word, lemma, overlap_score, lemma_counter[lemma[1:]], overlap['idxs'].tolist(), overlap['idxs_of_non_meta_noises'].tolist(), contexts)
             else:
                 non_meta_sense_output_file.write(f'{word}\t{lemma}\t{overlap_score}\t{gloss}\t{lemma_counter[lemma]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\t{",".join(idxs)}\t{",".join(idxs_of_non_meta_noise)}\n')
             # overlap_path.write(f'{lemma}\t{overlap}\t{gloss}\t{lemma_counter[lemma]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\n')
