@@ -110,17 +110,18 @@ class SenseCL(IterableDataset):
 
 
 if __name__ == '__main__':
-    model_path, index_path, max_steps, save_path = sys.argv[1:]
+    model_path, index_path, max_steps, save_path, max_length, = sys.argv[1:]
+    max_length = int(max_length)
 
     tokenizer = get_tokenizer(model_path, add_prefix_space=True)
-    ds = SenseCL(tokenizer, index_path=index_path, max_steps = int(max_steps), max_length = 128)
+    ds = SenseCL(tokenizer, index_path=index_path, max_steps = int(max_steps), max_length = max_length)
 
     args = get_base_hf_args(
         output_dir=save_path,
         train_batch_size=1,
         epochs=1,
         lr=5e-5,
-        save_steps=100,
+        save_steps=200,
         save_strategy='steps',
         save_total_limit=5,
         group_by_length = False
