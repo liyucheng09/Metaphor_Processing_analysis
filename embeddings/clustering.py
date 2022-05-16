@@ -83,7 +83,7 @@ def instance_level_overlapping(vecs, lemmas, metaphorical_lemmas):
         lemma_knn = sort_idxs[xidx][:, -(num_of_context-1):]
         overlap_mask = np.isin(lemma_knn, idxs_of_lemma)
 
-        overlap_score = overlap_mask.sum(axis=1)/total
+        overlap_score = overlap_mask.sum(axis=1)/(num_of_context-1)
         # hard_idxs = idxs_of_lemma[overlap_score > threshold_for_overlap]
         
         noises = np.where(overlap_mask, -1, lemma_knn)
@@ -99,13 +99,13 @@ def instance_level_overlapping(vecs, lemmas, metaphorical_lemmas):
         for each_hard in non_meta_noises:
             try:
                 most_ambiguous = (each_hard!=-1).nonzero()[0][-1]
-                most_ambiguouses.append(most_ambiguouses)
+                most_ambiguouses.append(most_ambiguous)
             except:
                 most_ambiguouses.append(None)
 
         overlapping[lemma] = []
 
-        for idx, score, most_ambiguous in zip(hard_idxs, overlap_score[hard_idxs], most_ambiguouses):
+        for idx, score, most_ambiguous in zip(idxs_of_lemma, overlap_score, most_ambiguouses):
             overlapping[lemma].append((idx, score, most_ambiguous))
     
     return overlapping
@@ -191,6 +191,7 @@ if __name__ == '__main__':
     corpus_output_file.write('word\tlemma\tgloss\tlabel\toverlap_score\tcontext\ttarget_index\n')
     for word in words:
         contexts = word2sentence(word, minimum = 1, max_length = max_length)
+        # contexts = contexts[:100]
         if source == 'senseval3':
             contexts = [sent for sent in contexts if not ';' in sent.tokens[sent.index].sense]
         if not contexts:
@@ -202,9 +203,8 @@ if __name__ == '__main__':
         metaphorical_senses = [ sense.lemma for sense in words[word] if sense.label == 'metaphorical']
 
         vecs = model.get_embeddings(contexts)
-        overlapping = compute_overlapping(vecs, lemmas, metaphorical_senses)
+        overlapping = compute_overlapping(vecs, lemmas, metaphorical_senses) if level == 'senses' else instance_level_overlapping(vecs, lemmas, metaphorical_senses)
 
-        model_id = os.path.basename(model_path)
         # output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{model_id}_{word}.result')
         # img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{source}_{model_id}_{word}.png')
         
@@ -212,20 +212,20 @@ if __name__ == '__main__':
         # overlap_path.write(f'lemma\toverlap_score\tgloss\tnum_sent\n')
         for lemma, overlap in overlapping.items():
             gloss = lemma2gloss(lemma)
-            is_metaphorical = lemma in metaphorical_senses:
+            is_metaphorical = lemma in metaphorical_senses
 
             if level == 'senses':
                 hard_metaphor_corpus(corpus_output_file, meta_sense_output_file, non_meta_sense_output_file, \
                     word, lemma, overlap, contexts, is_metaphorical, gloss)
-            elif level == 'instances' ans is_metaphorical:
+            elif level == 'instances' and is_metaphorical:
                 instance_level_metaphor_corpus(corpus_output_file, word, lemma, overlap, contexts, gloss)
             # overlap_path.write(f'{lemma}\t{overlap}\t{gloss}\t{lemma_counter[lemma]}\t{",".join(idxs)}\t{",".join(idxs_of_noise)}\n')
 
         # overlap_path.close()
-
         # plotDimensionReduction(vecs, lemmas, img_path)
         print(f'{word} process finished!')
-         
-    meta_sense_output_file.close()
-    non_meta_sense_output_file.close()
+    
+    if level == 'senses':
+        meta_sense_output_file.close()
+        non_meta_sense_output_file.close()
     corpus_output_file.close()
