@@ -33,7 +33,7 @@ def compute_overlapping(vecs, lemmas, metaphorical_lemmas):
         xidx = (lemmas == lemma)
         idxs_of_lemma = xidx.nonzero()[0]
         num_of_context = xidx.sum()
-        lemma_knn = sort_idxs[xidx][:, num_of_context-1:]
+        lemma_knn = sort_idxs[xidx][:, -(num_of_context-1):]
         overlap_mask = np.isin(lemma_knn, idxs_of_lemma)
         total = num_of_context * (num_of_context-1)
 
