@@ -214,7 +214,7 @@ if __name__ == '__main__':
         train_batch_size=1,
         epochs=1,
         lr=5e-5,
-        save_steps=200,
+        save_steps=300,
         save_strategy='steps',
         save_total_limit=5,
         group_by_length = False
