@@ -3,7 +3,8 @@ sys.path.append('/user/HS502/yl02706/mpa')
 from lyc.model import simcse
 from util import word2sentence, synset2sentence, Token, Context
 from torch.utils.data import IterableDataset
-from lyc.data import SimCSEDataSet
+import torch
+from lyc.data import SimCSEDataSet, get_hf_ds_scripts_path
 from lyc.utils import get_tokenizer, get_model
 from lyc.train import get_base_hf_args
 import random
@@ -13,6 +14,7 @@ import numpy as np
 from typing import Union, List
 from transformers import Trainer
 from nltk.corpus import wordnet as wn
+import datasets
 
 class SenseCL(IterableDataset):
     def __init__(self, tokenizer, index_path = 'embeddings/index', max_steps = 300, batch_size = 32, min_synsets = 5, min_sents = 2, \
@@ -108,13 +110,104 @@ class SenseCL(IterableDataset):
     def __len__(self):
         return self.max_steps
 
+class FrameCL(IterableDataset):
+    def __init__(self, tokenizer, data_path, max_length, max_steps, minimum_sents = 2, batch_size = 32):
+        hfds_script = get_hf_ds_scripts_path('sesame')
+        ds = datasets.load_dataset(hfds_script, data_dir=data_path)
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.max_steps = max_steps
+        self.batch_size = batch_size
+        self.minimum_sents = minimum_sents
+
+        self.frame2encoding = {}
+        self._prepare(ds)
+
+    def _prepare(self, ds, ):
+        ds = datasets.concatenate_datasets([ds['train'], ds['validation']])
+        ignore_count = 0
+        for line in ds:
+            frame_tags = line['frame_tags']
+            tokens = line['tokens']
+
+            nonzeros = [(i, tag) for i, tag in enumerate(frame_tags) if tag]
+            try:
+                assert len(nonzeros) == 1, "multi frame tags per sentence"
+            except:
+                ignore_count +=1
+                continue
+
+            encoding = self.tokenizer(tokens, is_split_into_words = True)
+            idxs = encoding.word_ids()
+            if len(idxs) > self.max_length:
+                continue
+            tag = nonzeros[0][1]
+            target_idx = nonzeros[0][0]
+
+            new_idx = idxs.index(target_idx)
+            if tag not in self.frame2encoding:
+                self.frame2encoding[tag] = []
+            self.frame2encoding[tag].append({'encoding': encoding, 'index': new_idx})
+        
+        print(f'{ignore_count} instances are ignored.')
+        
+        frame_sampling_weight = []
+        self.frame_list = []
+        for frame in self.frame2encoding:
+            num_sents = len(self.frame2encoding[frame])
+            if num_sents < self.minimum_sents:
+                continue
+            self.frame_list.append(frame)
+            frame_sampling_weight.append(num_sents)
+        self.frame_sampling_weight = np.array(frame_sampling_weight)/sum(frame_sampling_weight)
+    
+    def _sample_batch(self):
+        sampled_frames = np.random.choice(self.frame_list, size=self.batch_size, replace=False, p=self.frame_sampling_weight)
+        sample_encoding_1 = []
+        sample_encoding_2 = []
+        sample_idx_1 = []
+        sample_idx_2 = []
+        for frame in sampled_frames:
+            sampled_sent = random.sample(self.frame2encoding[frame], k=2)
+            sample_encoding_1.append(sampled_sent[0]['encoding'])
+            sample_encoding_2.append(sampled_sent[1]['encoding'])
+            sample_idx_1.append(sampled_sent[0]['index'])
+            sample_idx_2.append(sampled_sent[1]['index'])
+        
+        encoding = self.tokenizer.pad(
+            sample_encoding_1 + sample_encoding_2,
+            padding = True,
+            max_length = self.max_length,
+            return_tensors = 'pt'
+        )
+        
+        idx1=torch.arange(self.batch_size*2)[None, :]
+        idx2=(idx1.T+self.batch_size)%(self.batch_size*2)
+        label = torch.LongTensor(idx2).squeeze(-1)
+
+        return encoding, sample_idx_1+sample_idx_2, label
+    
+    def __iter__(self):
+        count = 0
+        while count <= self.max_steps:
+            batch, idxs, labels = self._sample_batch()
+            yield {'idxs': idxs, 'label': labels, **batch}
+            count += 1
+    
+    def __len__(self):
+        return self.max_steps
 
 if __name__ == '__main__':
-    model_path, index_path, max_steps, save_path, max_length, = sys.argv[1:]
+    model_path, index_path, max_steps, save_path, max_length, data_type, = sys.argv[1:]
     max_length = int(max_length)
+    max_steps = int(max_steps)
+    assert data_type in ['sense', 'frame'], f"Not supported data type {data_type}"
 
     tokenizer = get_tokenizer(model_path, add_prefix_space=True)
-    ds = SenseCL(tokenizer, index_path=index_path, max_steps = int(max_steps), max_length = max_length)
+    if data_type == 'sense':
+        ds = SenseCL(tokenizer, index_path=index_path, max_steps = max_steps, max_length = max_length)
+    elif data_type == 'frame':
+        ds = FrameCL(tokenizer, index_path, max_length=max_length, max_steps=max_steps)
 
     args = get_base_hf_args(
         output_dir=save_path,
