@@ -15,10 +15,11 @@ cwd = $ENV(HOME)/mpa
 # max_length = 256
 pool = idx-last
 model_path = /vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-400
+level = instances
 # source = senseval3
 
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/embeddings/clustering.py $(cwd) $(max_length) $(model_path) $(pool) $(source) $(threshold_for_num_sent) $(threshold_for_overlap)
+arguments     = $ENV(HOME)/mpa/embeddings/clustering.py $(cwd) $(max_length) $(model_path) $(pool) $(source) $(threshold_for_num_sent) $(threshold_for_overlap) $(level)
 
 
 # ---------------------------------------------------
