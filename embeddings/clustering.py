@@ -99,7 +99,7 @@ def instance_level_overlapping(vecs, lemmas, metaphorical_lemmas):
         for each_hard in non_meta_noises:
             try:
                 most_ambiguous = (each_hard!=-1).nonzero()[0][-1]
-                most_ambiguouses.append(most_ambiguous)
+                most_ambiguouses.append(each_hard[most_ambiguous])
             except:
                 most_ambiguouses.append(None)
 
@@ -139,20 +139,20 @@ def hard_metaphor_corpus(corpus_file, metaphorical_sense_file, non_meta_sense_fi
             )
     print(f"write {word}-{lemma} to hard metaphor corpus!")
 
-def instance_level_metaphor_corpus(corpus_output_file, word, lemma, overlap, contexts, gloss):
+def instance_level_metaphor_corpus(corpus_file, word, lemma, overlap, contexts, gloss):
     for idx, score, most_ambiguous in overlap:
         num_sents = lemma_counter[lemma]
 
         if score < threshold_for_overlap and num_sents > threshold_for_num_sent:
             sent = contexts[idx]
             corpus_file.write(
-                f"{word}\t{lemma}\t{gloss}\tmetaphorical\t{overlap_score}\t{repr(sent)}\t{sent.index}\n"
+                f"{word}\t{'*' + lemma}\t{gloss}\tmetaphorical\t{score}\t{repr(sent)}\t{sent.index}\n"
             )
             if most_ambiguous is not None:
                 ambiguous_sent = contexts[most_ambiguous]
-                noise_lemma = ambiguous_sent.tokens[sent.index].sense
+                noise_lemma = ambiguous_sent.tokens[ambiguous_sent.index].sense
                 corpus_file.write(
-                    f"{word}\t{noise_lemma}\t{lemma2gloss(noise_lemma)}\literal\t_\t{repr(ambiguous_sent)}\t{ambiguous_sent.index}\n"
+                    f"{word}\t{noise_lemma}\t{lemma2gloss(noise_lemma)}\tliteral\t_\t{repr(ambiguous_sent)}\t{ambiguous_sent.index}\n"
                 )
     print(f"write {word} to hard metaphor corpus!")
 

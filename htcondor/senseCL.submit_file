@@ -12,13 +12,14 @@ JobBatchName = "SenseCL"
 # Executable and its arguments
 
 model_name = roberta-base
-index_path = $ENV(HOME)/mpa/embeddings/index
-max_step = 1000
-save_path = /vol/research/lyc/mpa/senseCL/checkpoint/
+# index_path = $ENV(HOME)/mpa/embeddings/index
+# index_path = $ENV(HOME)/frame_finder/data/open_sesame_v1_data/fn1.7/
+max_step = 1500
+# save_path = /vol/research/lyc/mpa/FrameCL/checkpoint/
 max_length = 256
 
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/embeddings/contrastive.py $(model_name) $(index_path) $(max_step) $(save_path) $(max_length)
+arguments     = $ENV(HOME)/mpa/embeddings/contrastive.py $(model_name) $(index_path) $(max_step) $(save_path) $(max_length) $(data_type)
 
 
 # ---------------------------------------------------
@@ -63,4 +64,7 @@ request_memory   = 8G
 
 # -----------------------------------
 # Queue commands
-queue
+queue data_type, save_path, index_path from (
+	sense, /vol/research/lyc/mpa/senseCL/checkpoint/, $ENV(HOME)/mpa/embeddings/index
+	frame, /vol/research/lyc/mpa/frameCL/checkpoint/, $ENV(HOME)/frame_finder/data/open_sesame_v1_data/fn1.7/
+)
