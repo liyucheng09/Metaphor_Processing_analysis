@@ -156,6 +156,14 @@ def instance_level_metaphor_corpus(corpus_output_file, word, lemma, overlap, con
                 )
     print(f"write {word} to hard metaphor corpus!")
 
+def sense_merge(contexts, sense_merging_mapping):
+    for index, sent in enumerate(contexts):
+        lemma = sent.tokens[sent.index].sense
+        if lemma in sense_merging_mapping:
+            sent.tokens[sent.index].sense = sense_merging_mapping[lemma]
+            contexts[index] = sent
+    return contexts
+
 if __name__ == '__main__':
     cwd, max_length, model_path, pool, source, threshold_for_num_sent, threshold_for_overlap, level, = sys.argv[1:]
     assert level in ['instances', 'senses'], f"Not supported level {level}."
@@ -176,6 +184,7 @@ if __name__ == '__main__':
         words = word2sentence.word2lemmas.senseval3_word2lemmas
         glosses = {s.lemma : s.gloss for word, senses in words.items() for s in senses }
         lemma2gloss = glosses.get
+        sense_merging_mapping = word2sentence.word2lemmas.senseval3_sense_merging
 
     # model = get_model(simcse, model_path, pool = pool, output_hidden_states = True)
     if level == 'senses':
@@ -191,6 +200,7 @@ if __name__ == '__main__':
     corpus_output_file.write('word\tlemma\tgloss\tlabel\toverlap_score\tcontext\ttarget_index\n')
     for word in words:
         contexts = word2sentence(word, minimum = 1, max_length = max_length)
+        contexts = sense_merge(contexts, sense_merging_mapping)
         # contexts = contexts[:100]
         if source == 'senseval3':
             contexts = [sent for sent in contexts if not ';' in sent.tokens[sent.index].sense]

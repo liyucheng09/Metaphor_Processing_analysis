@@ -59,6 +59,7 @@ class word2lemmas:
     
     def load_senseval3_word2lemma_dict(self, save_path):
         pkl_path = os.path.join(save_path, 'senseval3_word2lemmas.pkl')
+        sense_merging_path = os.path.join(save_path, 'senseval3_sense_merging.pkl')
         if not os.path.exists(pkl_path):
             word2lemmas = {}
             print(f'No dict found in {pkl_path}, start generating now...')
@@ -71,14 +72,20 @@ class word2lemmas:
                     senses.append(sense(lemma = i['key'], gloss=i['gloss'], label = i['class-yucheng']))
                 if any([s.label == 'metaphorical' for s in senses]):
                     word2lemmas[word] = senses
-            
+            sense_merging = {line['key']: line['sense_to_merge'] for index, line in df[~df['sense_to_merge'].isna()].iterrows()}
+
             with open(pkl_path, 'wb') as f:
                 pickle.dump(word2lemmas, f)
+            with open(sense_merging_path, 'wb') as f:
+                pickle.dump(sense_merging, f)
             print(f'saved to {pkl_path}')
             return word2lemmas
+            self.senseval3_sense_merging = sense_merging
             
         with open(pkl_path, 'rb') as f:
             word2lemmas = pickle.load(f)
+        with open(sense_merging_path, 'rb') as f:
+            self.senseval3_sense_merging = pickle.load(f)
         return word2lemmas
     
     def load_moh_word2lemma_dict(self, save_path):
@@ -482,12 +489,12 @@ class synset2sentence:
             for i in sentences]
 
 if __name__ == '__main__':
-    # t = get_tokenizer('roberta-base', add_prefix_space=True)
-    # lemma2sentences = lemma2sentences(t, 'semcor')
-    # pprint(lemma2sentences('translate%2:30:01::', 128))
+    t = get_tokenizer('roberta-base', add_prefix_space=True)
+    lemma2sentences = lemma2sentences(t, 'semcor')
+    pprint(lemma2sentences('source%1:09:00::', 128))
 
-    w2s = word2sentence('senseval3')
-    print(w2s('play.v', max_length=256))
+    # w2s = word2sentence('senseval3')
+    # print(w2s('play.v', max_length=256))
     # words = word2sentence.lemma2context.dictionary
     # all_sense = []
     # for word, senses in words.items():
