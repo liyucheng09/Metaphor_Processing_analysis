@@ -14,13 +14,12 @@ JobBatchName = "Clustering"
 cwd = $ENV(HOME)/mpa
 # max_length = 256
 pool = idx-last
-model_path = /vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-400
+model_path = /vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-600
 level = instances
 # source = senseval3
 
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
 arguments     = $ENV(HOME)/mpa/embeddings/clustering.py $(cwd) $(max_length) $(model_path) $(pool) $(source) $(threshold_for_num_sent) $(threshold_for_overlap) $(level)
-
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -65,6 +64,6 @@ request_memory   = 8G
 # -----------------------------------
 # Queue commands
 queue source, max_length, threshold_for_num_sent, threshold_for_overlap from (
- 	semcor, 128, 4, 0.8
-	senseval3, 256, 12, 0.8
+# 	semcor, 128, 4, 0.8
+	senseval3, 256, 4, 0.8
 )
