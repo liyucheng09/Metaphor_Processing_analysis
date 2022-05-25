@@ -1,4 +1,5 @@
 import sys
+sys.path.append('/user/HS502/yl02706/mpa')
 from main import SenseEmbedding
 from lyc.utils import get_tokenizer, get_model
 from util import word2lemmas, sense, Token, Context, word2sentence
@@ -15,9 +16,10 @@ def merging(vecs, eps = 0.1, min_samples = 4):
     return labels
 
 if __name__ == '__main__':
-    cwd, max_length, model_path, pool, source, eps, = sys.argv[1:]
+    cwd, max_length, model_path, pool, source, eps, min_samples, = sys.argv[1:]
     max_length = int(max_length)
     eps = float(eps)
+    min_samples = int(min_samples)
 
     index_path = os.path.join(cwd, 'embeddings/index')
 
@@ -42,8 +44,8 @@ if __name__ == '__main__':
             continue
         lemmas = [ cont.tokens[cont.index].sense for cont in contexts]
         vecs = model.get_embeddings(contexts)
-        labels = merging(vecs, eps=eps)
+        labels = merging(vecs, eps=eps, min_samples = min_samples)
 
-        merged_img_path = os.path.join(cwd, 'embeddings/imgs/merging', f'merged_{source}_{eps}_{word}.png')
+        merged_img_path = os.path.join(cwd, 'embeddings/imgs/merging', f'merged_{source}_{eps}_{min_samples}_{word}.png')
         plotDimensionReduction(vecs, labels, merged_img_path)
         print(f'{word} process finished!')

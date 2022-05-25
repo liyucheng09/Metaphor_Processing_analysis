@@ -14,11 +14,11 @@ JobBatchName = "Sense Merging"
 cwd = $ENV(HOME)/mpa
 max_length = 256
 pool = idx-last
-model_path = /vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-400
+model_path = /vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-600
 source = senseval3
 
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/embeddings/sense_merging.py $(cwd) $(max_length) $(model_path) $(pool) $(source) $(eps)
+arguments     = $ENV(HOME)/mpa/embeddings/sense_merging.py $(cwd) $(max_length) $(model_path) $(pool) $(source) $(eps) $(min_samples)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -62,4 +62,17 @@ request_memory   = 8G
 
 # -----------------------------------
 # Queue commands
-queue eps in 0.1, 0.2, 0.3
+queue eps, min_samples from (
+	0.03, 3
+	0.06, 3
+	0.09, 3
+	0.12, 3
+	0.15, 3
+	0.03, 4
+	0.06, 4
+	0.09, 4
+	0.12, 4
+	0.15, 4
+	0.2, 4
+	0.25, 4
+)
