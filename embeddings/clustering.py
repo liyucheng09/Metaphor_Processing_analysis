@@ -216,6 +216,7 @@ if __name__ == '__main__':
         overlapping = compute_overlapping(vecs, lemmas, metaphorical_senses) if level == 'senses' else instance_level_overlapping(vecs, lemmas, metaphorical_senses)
 
         # output_overlapping_path = os.path.join(cwd, 'embeddings/overlapping', f'{model_id}_{word}.result')
+        # model_id = os.path.basename(model_path)
         # img_path = os.path.join(cwd, 'embeddings/imgs/clustering', f'{source}_{model_id}_{word}.png')
         
         # overlap_path = open(output_overlapping_path, 'w', encoding='utf-8')
