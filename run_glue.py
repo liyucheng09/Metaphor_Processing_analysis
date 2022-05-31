@@ -26,7 +26,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score
 
 import numpy as np
-from datasets import load_dataset, load_metric, load_from_disk
+from datasets import load_dataset, load_metric, load_from_disk, concatenate_datasets
 
 import transformers
 from transformers import (
@@ -180,11 +180,11 @@ class ModelArguments:
 
 def get_vua_label(x, vua_cols):
     num_metaphor = 0
-    all = 0
+    all_ = 0
     for col in vua_cols:
-        all += len(x[col])-2
+        all_ += len(x[col])-2
         num_metaphor += sum(x[col][1:-1])
-    return num_metaphor / all
+    return num_metaphor / all_
 
 def main():
     # See all possible arguments in src/transformers/training_args.py
@@ -492,7 +492,7 @@ def main():
         if data_args.task_name == "mnli":
             # tasks.append("mnli-mm")
             eval_datasets.append(datasets["validation_mismatched"])
-            ds = datasets.concatenate_datasets(eval_datasets)
+            ds = concatenate_datasets(eval_datasets)
             eval_datasets = [ds]
 
         for eval_dataset, task in zip(eval_datasets, tasks):

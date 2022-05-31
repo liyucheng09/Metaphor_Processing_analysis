@@ -6,10 +6,23 @@ import datasets
 
 tasks=['cola', 'sst2', 'mrpc', 'stsb', 'qqp', 'qnli', 'rte', 'wnli', 'mnli', ]
 
-def compute_acc(df, task=None, threshold=0, model_type = 'vua', metric = accuracy_score):
+def compute_metric(df, task=None, threshold=0, model_type = 'vua', metric = accuracy_score):
     metaphors = df[df[f'{model_type}_label']>threshold]
     non_metaphors = df[df[f'{model_type}_label']<=threshold]
-    return metric(metaphors['label'], metaphors['prediction']), metric(non_metaphors['label'], non_metaphors['prediction'])
+
+    meta = metric(metaphors['label'], metaphors['prediction'])
+    literal = metric(non_metaphors['label'], non_metaphors['prediction'])
+    all_ = metric(df['label'], df['prediction'])
+
+    results = {}
+    for k,v in meta.items():
+        results[f'meta_{threshold}_{k}'] = v
+    for k,v in meta.items():
+        results[f'literal_{threshold}_{k}'] = v
+    for k,v in meta.items():
+        results[f'all_{threshold}_{k}'] = v
+    
+    return results
 
 if __name__ == '__main__':
     # result_dir = 'glue/val_results_with_vua/'
@@ -28,16 +41,19 @@ if __name__ == '__main__':
         statistics[task]['sentence_ratio'] = (df[f'{model_type}_label']>0).sum() / len(df.index)
         statistics[task]['sentence_ratio_0.1'] = (df[f'{model_type}_label']>0.1).sum() / len(df.index)
 
-        if task == 'stsb':
-            metric = datasets.load_metric('glue', 'stsb')
-            statistics[task]['metaphor_acc_0'], statistics[task]['non_metaphor_acc_0'] = compute_acc(df, task=task, model_type = model_type, metric = metric)
-            statistics[task]['metaphor_acc_0.1'], statistics[task]['non_metaphor_acc_0.1'] = compute_acc(df, task=task, threshold=0.1, model_type = model_type, metric = metric)
-            break
+        # if task == 'stsb':
+        #     metric = datasets.load_metric('glue', 'stsb')
+        #     statistics[task]['metaphor_acc_0'], statistics[task]['non_metaphor_acc_0'] = compute_acc(df, task=task, model_type = model_type, metric = metric)
+        #     statistics[task]['metaphor_acc_0.1'], statistics[task]['non_metaphor_acc_0.1'] = compute_acc(df, task=task, threshold=0.1, model_type = model_type, metric = metric)
+        #     break
 
-        # acc threshold 0
-        statistics[task]['metaphor_acc_0'], statistics[task]['non_metaphor_acc_0'] = compute_acc(df, task=task, model_type = model_type)
-        # acc threshold 0.1
-        statistics[task]['metaphor_acc_0.1'], statistics[task]['non_metaphor_acc_0.1'] = compute_acc(df, task=task, threshold=0.1, model_type = model_type)
+        metric = datasets.load_metric('glue', task)
+        # threshold 0
+        results = compute_metric(df, task=task, model_type = model_type, metric = metric)
+        statistics[task].update(results)
+        # threshold 0.1
+        results = compute_metric(df, task=task, threshold=0.1, model_type = model_type, metric = metric)
+        statistics[task].update(results)
     
     statistics = pd.DataFrame.from_dict(statistics, orient='index')
     fig, axes = plt.subplots(4,1,figsize=(8,8))
