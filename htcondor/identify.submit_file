@@ -26,9 +26,9 @@ docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
 
 # -------------------------------------------------
 # Event, out and error logs
-log    = c$(cluster).p$(process).$(task_name).log
-output = c$(cluster).p$(process).$(task_name).out
-error  = c$(cluster).p$(process).$(task_name).error
+log    = Identify.c$(cluster).p$(process).$(task_name).log
+output = Identify.c$(cluster).p$(process).$(task_name).out
+error  = Identify.c$(cluster).p$(process).$(task_name).error
 
 # -----------------------------------
 # File Transfer, Input, Output
@@ -64,4 +64,5 @@ request_memory   = 8G
 
 # -----------------------------------
 # Queue commands
-queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
+# queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
+queue 1 task_name in mnli

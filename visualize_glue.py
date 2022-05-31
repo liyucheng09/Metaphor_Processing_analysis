@@ -2,13 +2,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 import numpy as np
+import datasets
 
-tasks=['cola', 'sst2', 'mrpc', 'stsb', 'qqp', 'qnli', 'rte', 'wnli']
+tasks=['cola', 'sst2', 'mrpc', 'stsb', 'qqp', 'qnli', 'rte', 'wnli', 'mnli', ]
 
-def compute_acc(df, task=None, threshold=0, model_type = 'vua'):
+def compute_acc(df, task=None, threshold=0, model_type = 'vua', metric = accuracy_score):
     metaphors = df[df[f'{model_type}_label']>threshold]
     non_metaphors = df[df[f'{model_type}_label']<=threshold]
-    return accuracy_score(metaphors['label'], metaphors['prediction']), accuracy_score(non_metaphors['label'], non_metaphors['prediction'])
+    return metric(metaphors['label'], metaphors['prediction']), metric(non_metaphors['label'], non_metaphors['prediction'])
 
 if __name__ == '__main__':
     # result_dir = 'glue/val_results_with_vua/'
@@ -19,9 +20,6 @@ if __name__ == '__main__':
 
     statistics = {}
     for task, df in dfs.items():
-        if task == 'stsb':
-            continue
-
         if task not in statistics:
             statistics[task] = {}
 
@@ -30,9 +28,14 @@ if __name__ == '__main__':
         statistics[task]['sentence_ratio'] = (df[f'{model_type}_label']>0).sum() / len(df.index)
         statistics[task]['sentence_ratio_0.1'] = (df[f'{model_type}_label']>0.1).sum() / len(df.index)
 
+        if task == 'stsb':
+            metric = datasets.load_metric('glue', 'stsb')
+            statistics[task]['metaphor_acc_0'], statistics[task]['non_metaphor_acc_0'] = compute_acc(df, task=task, model_type = model_type, metric = metric)
+            statistics[task]['metaphor_acc_0.1'], statistics[task]['non_metaphor_acc_0.1'] = compute_acc(df, task=task, threshold=0.1, model_type = model_type, metric = metric)
+            break
+
         # acc threshold 0
         statistics[task]['metaphor_acc_0'], statistics[task]['non_metaphor_acc_0'] = compute_acc(df, task=task, model_type = model_type)
-
         # acc threshold 0.1
         statistics[task]['metaphor_acc_0.1'], statistics[task]['non_metaphor_acc_0.1'] = compute_acc(df, task=task, threshold=0.1, model_type = model_type)
     

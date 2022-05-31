@@ -17,6 +17,7 @@ from transformers import RobertaForTokenClassification, DataCollatorForTokenClas
 from lyc.train import get_base_hf_args
 import sys
 import numpy as np
+import datasets
 
 def data_preprocess(examples, col):
     result = tokenizer(examples[col])
@@ -47,7 +48,14 @@ if __name__ == '__main__':
 
     tokenizer = get_tokenizer(model_name)
 
-    ds = load_dataset('glue', task_name)['validation']
+    if task_name != 'mnli':
+        ds = load_dataset('glue', task_name)['validation']
+    else:
+        ds1 = load_dataset('glue', task_name)['validation_matched']
+        ds2 = load_dataset('glue', task_name)['validation_mismatched']
+        ds = datasets.concatenate_datasets([ds1, ds2])
+        del ds1, ds2
+
     col1, col2 = task_to_keys[task_name]
     ds1 = ds.map(data_preprocess, fn_kwargs={'col':col1}, remove_columns=ds.column_names)
     if col2 is not None:

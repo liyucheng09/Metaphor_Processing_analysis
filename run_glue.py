@@ -490,8 +490,10 @@ def main():
         tasks = [data_args.task_name]
         eval_datasets = [eval_dataset]
         if data_args.task_name == "mnli":
-            tasks.append("mnli-mm")
+            # tasks.append("mnli-mm")
             eval_datasets.append(datasets["validation_mismatched"])
+            ds = datasets.concatenate_datasets(eval_datasets)
+            eval_datasets = [ds]
 
         for eval_dataset, task in zip(eval_datasets, tasks):
             # metrics = trainer.evaluate(eval_dataset=eval_dataset)
