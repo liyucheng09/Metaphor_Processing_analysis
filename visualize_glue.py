@@ -7,26 +7,40 @@ import datasets
 tasks=['cola', 'sst2', 'mrpc', 'stsb', 'qqp', 'qnli', 'rte', 'wnli', 'mnli', ]
 
 def compute_metric(df, task=None, threshold=0, model_type = 'vua', metric = accuracy_score):
+    if task != 'stsb':
+        ds = datasets.load_dataset('glue', task)
+        label_list = ds["train"].features["label"].names
+        label_list.sort()
+        label2id = {label:index for index, label in enumerate(label_list)}
+
+        def label2id_(x):
+            x['prediction'] = label2id[x['prediction']]
+            x['label'] = label2id[x['label']]
+
+            return x
+        
+        df = df.apply(label2id_, axis=1)
+
     metaphors = df[df[f'{model_type}_label']>threshold]
     non_metaphors = df[df[f'{model_type}_label']<=threshold]
 
-    meta = metric(metaphors['label'], metaphors['prediction'])
-    literal = metric(non_metaphors['label'], non_metaphors['prediction'])
-    all_ = metric(df['label'], df['prediction'])
+    meta = metric.compute(references = metaphors['label'], predictions = metaphors['prediction'])
+    literal = metric.compute(references = non_metaphors['label'], predictions = non_metaphors['prediction'])
+    all_ = metric.compute(references = df['label'], predictions = df['prediction'])
 
     results = {}
     for k,v in meta.items():
         results[f'meta_{threshold}_{k}'] = v
-    for k,v in meta.items():
+    for k,v in literal.items():
         results[f'literal_{threshold}_{k}'] = v
-    for k,v in meta.items():
+    for k,v in all_.items():
         results[f'all_{threshold}_{k}'] = v
     
     return results
 
 if __name__ == '__main__':
     # result_dir = 'glue/val_results_with_vua/'
-    model_type = 'moh'
+    model_type = 'vua'
     result_dir = 'glue/val_results_with_metaphoricity/'
 
     dfs = { task: pd.read_csv(result_dir+f'result_{task}.tsv', sep='\t') for task in tasks }
@@ -56,19 +70,20 @@ if __name__ == '__main__':
         statistics[task].update(results)
     
     statistics = pd.DataFrame.from_dict(statistics, orient='index')
-    fig, axes = plt.subplots(4,1,figsize=(8,8))
+    statistics.to_csv(result_dir+'metrics.tsv', sep = '\t')
+    # fig, axes = plt.subplots(4,1,figsize=(8,8))
 
-    statistics[['token_ratio', 'sentence_ratio']].plot(ax=axes[0], style=['+','o'], yticks=np.linspace(0,1,6), markerfacecolor='none')
-    statistics[['token_ratio', 'sentence_ratio_0.1']].plot(ax=axes[1], style=['+','o'], yticks=np.linspace(0,1,6), markerfacecolor='none')
-    statistics[['metaphor_acc_0', 'non_metaphor_acc_0']].plot(ax=axes[2], style=['^','s'], yticks=np.linspace(0,1,6), markerfacecolor='none')
-    statistics[['metaphor_acc_0.1', 'non_metaphor_acc_0.1']].plot(ax=axes[3], style=['^','s'], yticks=np.linspace(0,1,6), markerfacecolor='none')
+    # statistics[['token_ratio', 'sentence_ratio']].plot(ax=axes[0], style=['+','o'], yticks=np.linspace(0,1,6), markerfacecolor='none')
+    # statistics[['token_ratio', 'sentence_ratio_0.1']].plot(ax=axes[1], style=['+','o'], yticks=np.linspace(0,1,6), markerfacecolor='none')
+    # statistics[['metaphor_acc_0', 'non_metaphor_acc_0']].plot(ax=axes[2], style=['^','s'], yticks=np.linspace(0,1,6), markerfacecolor='none')
+    # statistics[['metaphor_acc_0.1', 'non_metaphor_acc_0.1']].plot(ax=axes[3], style=['^','s'], yticks=np.linspace(0,1,6), markerfacecolor='none')
 
-    axes[0].set_ylabel('Metaphor ratio')
-    axes[1].set_ylabel('Metaphor ratio \n threshold set to 0.1')
-    axes[2].set_ylabel('Accuracy for \n metaphor and \n non_metaphor examples')
-    axes[3].set_ylabel('Accuracy where \n metaphor threshold \n is set to 0.1')
+    # axes[0].set_ylabel('Metaphor ratio')
+    # axes[1].set_ylabel('Metaphor ratio \n threshold set to 0.1')
+    # axes[2].set_ylabel('Accuracy for \n metaphor and \n non_metaphor examples')
+    # axes[3].set_ylabel('Accuracy where \n metaphor threshold \n is set to 0.1')
 
 
-    # statistics.plot(subplots=True, style=['*', '+', 'o', 's', '^', '+'])
+    # # statistics.plot(subplots=True, style=['*', '+', 'o', 's', '^', '+'])
 
-    plt.show()
+    # plt.show()

@@ -83,7 +83,7 @@ def produce_metaphoricity_for_glue():
         return sum(labels)/(len(labels)-2)
 
     for task in tasks:
-        if task == 'mnli': continue
+        # if task == 'mnli': continue
         cols = task_to_keys[task]
         ds_moh = f'glue/moh/{task}'
         ds_vua = f'glue_mermaid/{task}'
@@ -295,7 +295,7 @@ if __name__ == '__main__':
     # show_inference_confidence_for_meta_and_literal(df)
 
     ## produce glue results table with metaphroicity label score
-    # produce_metaphoricity_for_glue()
+    produce_metaphoricity_for_glue()
 
     ## produce glue error examples
-    get_gleu_error_case_with_meta_label()
+    # get_gleu_error_case_with_meta_label()

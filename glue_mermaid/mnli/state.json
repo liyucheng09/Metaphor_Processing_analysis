@@ -1,0 +1,24 @@
+{
+  "_data_files": [
+    {
+      "filename": "dataset.arrow"
+    }
+  ],
+  "_fingerprint": "a088248337e3e74e",
+  "_format_columns": [
+    "hypothesis",
+    "hypothesis_vua",
+    "hypothesis_vua_token",
+    "idx",
+    "label",
+    "premise",
+    "premise_vua",
+    "premise_vua_token"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_indexes": {},
+  "_indices_data_files": null,
+  "_output_all_columns": false,
+  "_split": null
+}

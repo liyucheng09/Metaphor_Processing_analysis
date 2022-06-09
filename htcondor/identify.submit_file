@@ -10,10 +10,10 @@ JobBatchName = "Identify Metaphor in GLUE"
 
 # --------------------------------------------
 
-model_name = /vol/research/nlg/frame_finder/checkpoints/labeling_no_token_type/
-# model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
+# model_name = /vol/research/nlg/frame_finder/checkpoints/labeling_no_token_type/
+model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
 save_folder = /vol/research/lyc/mpa/
-model_type = vua
+model_type = moh
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
@@ -26,9 +26,9 @@ docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
 
 # -------------------------------------------------
 # Event, out and error logs
-log    = Identify.c$(cluster).p$(process).$(task_name).log
-output = Identify.c$(cluster).p$(process).$(task_name).out
-error  = Identify.c$(cluster).p$(process).$(task_name).error
+log    = Identify.c$(cluster).p$(process).$(task_name).$(model_type).log
+output = Identify.c$(cluster).p$(process).$(task_name).$(model_type).out
+error  = Identify.c$(cluster).p$(process).$(task_name).$(model_type).error
 
 # -----------------------------------
 # File Transfer, Input, Output
