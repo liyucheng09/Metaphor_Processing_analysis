@@ -112,8 +112,8 @@ if __name__ == '__main__':
 
     model_name, data_dir, dataset_name, = sys.argv[1:]
     do_train = False
-    # save_folder = '/vol/research/nlg/metaphor/'
-    save_folder = './'
+    save_folder = '/vol/research/lyc/metaphor/'
+    # save_folder = './'
     output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/')
     logging_dir = os.path.join(save_folder, 'logs/')
     prediction_output_file = os.path.join(output_dir, 'error_instances.csv')
@@ -173,18 +173,21 @@ if __name__ == '__main__':
         trainer.train()
         trainer.save_model()
 
-    result = trainer.evaluate(ds['train'])
+    if dataset_name == 'hard':
+        result = trainer.evaluate(ds['train'])
+    else:
+        result = trainer.evaluate(ds['test'])
     print(result)
 
-    # pred_out = trainer.predict(ds['test'])
+    pred_out = trainer.predict(ds['train'])
     # pred_out = trainer.predict(ds)
 
-    # predictions = pred_out.predictions
-    # labels = pred_out.label_ids
-    # predictions = np.argmax(predictions, axis=-1)
+    predictions = pred_out.predictions
+    labels = pred_out.label_ids
+    predictions = np.argmax(predictions, axis=-1)
 
-    # true_p, true_l = get_true_label(predictions, labels)
+    true_p, true_l = get_true_label(predictions, labels)
     # show_error_instances_id(true_p, true_l, prediction_output_file, ds['sent_id'], ds['tokens'])
-    # write_predict_to_file(pred_out, ds['tokens'], out_file=prediction_output_file)
+    write_predict_to_file(pred_out, ds['train']['tokens'], out_file=prediction_output_file)
     # result = eval_with_weights(pred_out, ds['test']['token_type_ids'])
     # print(result)

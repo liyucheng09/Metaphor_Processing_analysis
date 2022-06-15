@@ -11,9 +11,12 @@ JobBatchName = "roberta seq"
 # --------------------------------------------
 # Executable and its arguments
 
-model_name = roberta-base
-dataset_name = moh
-data_dir = $ENV(HOME)/mpa/Metaphor-Emotion-Data-Files/Data-metaphoric-or-literal.txt
+# model_name = roberta-base
+# data_dir = $ENV(HOME)/mpa/Metaphor-Emotion-Data-Files/Data-metaphoric-or-literal.txt
+
+model_name = /vol/research/nlg/frame_finder/checkpoints/roberta_seq
+dataset_name = hard
+data_dir = $ENV(HOME)/mpa/embeddings/results/senseval3_instances_ChalMC.tsv
 
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
 arguments     = $ENV(HOME)/mpa/roberta_seq.py $(model_name) $(data_dir) $(dataset_name)
@@ -26,9 +29,9 @@ docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
 
 # -------------------------------------------------
 # Event, out and error logs
-log    = c$(cluster).p$(process).log
-output = c$(cluster).p$(process).out
-error  = c$(cluster).p$(process).error
+log    = RobertaSeq.c$(cluster).p$(process).log
+output = RobertaSeq.c$(cluster).p$(process).out
+error  = RobertaSeq.c$(cluster).p$(process).error
 
 # -----------------------------------
 # File Transfer, Input, Output
