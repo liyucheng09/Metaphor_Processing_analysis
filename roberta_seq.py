@@ -111,7 +111,7 @@ def tokenize_alingn_labels_replace_with_mask_and_add_type_ids(ds, do_mask=False)
 
 if __name__ == '__main__':
 
-    model_name, data_dir, dataset_name = sys.argv[1:]
+    model_name, data_dir, dataset_name, = sys.argv[1:]
     # save_folder = '/vol/research/nlg/metaphor/'
     save_folder = './'
     output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/')
@@ -131,6 +131,8 @@ if __name__ == '__main__':
         ds = get_tokenized_ds(p, tokenizer, tokenize_func='tagging', \
             tokenize_cols=['tokens'], tagging_cols={'is_target':0, 'labels':-100}, \
             data_files=data_files, batched=False, name = 'combined')
+    elif dataset_name == 'hard':
+        pass
 
     # ds.rename_column_('target_mask', 'token_type_ids')
     # ds = ds.rename_column('is_target', 'token_type_ids')

@@ -79,15 +79,15 @@ if __name__ == '__main__':
     output_data_point_path = os.path.join(cwd, 'embeddings/datapoints')
     tokenizer = get_tokenizer('roberta-base', add_prefix_space=True)
     
-    words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
-    # words = [ 'bank.n' ]
+    # words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
+    words = [ 'bank.n', 'activate.v', 'lose.v', 'play.v', 'image.n']
     pool = 'idx-last'
     # pool = 'idx-last-four-average'
     plot_types = ['PCA']
-    model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
-    # model_paths = ['roberta-base']
+    # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
+    model_paths = ['checkpoints/senseCL/checkpoint-400']
 
-    word2sentence = word2sentence(tokenizer, 'semcor', index_path = index_path)
+    word2sentence = word2sentence('senseval3', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for model_path in model_paths:
         model_id = os.path.basename(model_path)
@@ -98,6 +98,7 @@ if __name__ == '__main__':
             if not contexts:
                 print(f'{word} do not have enough contexts to visualize!')
                 continue
+            contexts.append(Context(tokens=[Token(word, '_', '_', f'blend_of_{word}')], index=0, gloss=f'blend_of_{word}'))
             vecs = model.get_embeddings(contexts)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
