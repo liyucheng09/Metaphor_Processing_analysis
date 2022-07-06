@@ -95,7 +95,7 @@ def tokenize_alingn_labels_replace_with_mask_and_add_type_ids(ds, do_mask=False)
             results.update(out_)
 
     words_ids = out_.word_ids()
-    label_sequence = [0 for i in range(len(words_ids))]
+    label_sequence = [-100 for i in range(len(words_ids))]
     target_mask = [0 for i in range(len(words_ids))]
     word_idx = words_ids.index(target_index)
 
