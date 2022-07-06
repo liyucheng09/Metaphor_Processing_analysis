@@ -14,10 +14,11 @@ JobBatchName = "Identify Metaphor in GLUE"
 model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
 save_folder = /vol/research/lyc/mpa/
 model_type = moh
+cwd = $ENV(HOME)/mpa
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/metaphor_identify_glue.py $(model_name) $(task_name) $(save_folder) $(model_type)
+arguments     = $ENV(HOME)/mpa/metaphor_identify_glue.py $(model_name) $(task_name) $(save_folder) $(model_type) $(cwd)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)

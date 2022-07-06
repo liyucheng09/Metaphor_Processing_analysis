@@ -9,12 +9,14 @@ task_to_keys = {
     "sst2": ("sentence", None),
     "stsb": ("sentence1", "sentence2"),
     "wnli": ("sentence1", "sentence2"),
+    "empathy": ("essay", None)
 }
 from lyc.utils import get_model, get_tokenizer
 import os
 from datasets import load_dataset
 from transformers import RobertaForTokenClassification, DataCollatorForTokenClassification, Trainer
 from lyc.train import get_base_hf_args
+from lyc.data import get_hf_ds_scripts_path
 import sys
 import numpy as np
 import datasets
@@ -38,7 +40,7 @@ def get_token_label_parallel(tokens, attention_mask, labels):
     return true_token, true_label
 
 if __name__ == '__main__':
-    model_name, task_name, save_folder, model_type = sys.argv[1:]
+    model_name, task_name, save_folder, model_type, cwd, = sys.argv[1:]
     # save_folder = '/vol/research/nlg/mpa/'
     # save_folder = './'
 
@@ -48,7 +50,11 @@ if __name__ == '__main__':
 
     tokenizer = get_tokenizer(model_name)
 
-    if task_name != 'mnli':
+    if task_name == 'empathy':
+        path = get_hf_ds_scripts_path(task_name)
+        data_files = os.path.join(cwd, 'Metaphor-Emotion-Data-Files/empathy/messages_train_ready_for_WS.tsv')
+        ds = load_dataset(path, data_files=data_files, split='train')
+    elif task_name != 'mnli':
         ds = load_dataset('glue', task_name)['validation']
     else:
         ds1 = load_dataset('glue', task_name)['validation_matched']
