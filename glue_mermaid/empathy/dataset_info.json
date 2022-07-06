@@ -1,0 +1,83 @@
+{
+  "builder_name": "empathy",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 949260,
+  "description": "The WASSA Empathy dataset.",
+  "download_checksums": {},
+  "download_size": 0,
+  "features": {
+    "message_id": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "response_id": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "article_id": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    },
+    "empathy": {
+      "dtype": "float32",
+      "id": null,
+      "_type": "Value"
+    },
+    "distress": {
+      "dtype": "float32",
+      "id": null,
+      "_type": "Value"
+    },
+    "essay": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "essay_vua": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "essay_vua_token": {
+      "feature": {
+        "dtype": "string",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 949260,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 949260,
+      "num_examples": 1860,
+      "dataset_name": "empathy"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
