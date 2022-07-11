@@ -3,7 +3,7 @@ from lyc.data import get_hf_ds_scripts_path, get_tokenized_ds, get_dataloader
 import sys
 from lyc.train import get_base_hf_args, HfTrainer
 from lyc.eval import tagging_eval_for_trainer, write_predict_to_file, \
-    eval_with_weights, show_error_instances_id, get_true_label
+    eval_with_weights, show_error_instances_id, get_true_label_and_token
 from transformers import RobertaForTokenClassification, DataCollatorForTokenClassification, Trainer
 from transformers.integrations import TensorBoardCallback
 import os
@@ -190,8 +190,8 @@ if __name__ == '__main__':
     labels = pred_out.label_ids
     predictions = np.argmax(predictions, axis=-1)
 
-    true_p, true_l = get_true_label(predictions, labels)
+    true_p, true_l, true_tokens = get_true_label_and_token(predictions, labels, tokens=ds['train']['tokens'], tokenizer=tokenizer)
     # show_error_instances_id(true_p, true_l, prediction_output_file, ds['sent_id'], ds['tokens'])
-    write_predict_to_file(pred_out, ds['train']['tokens'], out_file=prediction_output_file)
+    write_predict_to_file(pred_out, true_tokens, out_file=prediction_output_file)
     # result = eval_with_weights(pred_out, ds['test']['token_type_ids'])
     # print(result)
