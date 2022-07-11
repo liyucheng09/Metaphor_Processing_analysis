@@ -54,7 +54,8 @@ class Moh(RobertaForTokenClassification):
 
         loss = None
         if labels is not None:
-            loss_fct = CrossEntropyLoss()
+            weight = torch.tensor([0.5, 1.]).to(self.device)
+            loss_fct = CrossEntropyLoss(weight=weight)
             # Only keep active parts of the loss
             if attention_mask is not None:
                 active_loss = attention_mask.view(-1) == 1
@@ -111,10 +112,11 @@ def tokenize_alingn_labels_replace_with_mask_and_add_type_ids(ds, do_mask=False)
 if __name__ == '__main__':
 
     model_name, data_dir, dataset_name, = sys.argv[1:]
-    do_train = False
+    do_train = True
+    token_type = False
     save_folder = '/vol/research/lyc/metaphor/'
     # save_folder = './'
-    output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/')
+    output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/token_type_{"on" if token_type else "off"}')
     logging_dir = os.path.join(save_folder, 'logs/')
     prediction_output_file = os.path.join(output_dir, 'error_instances.csv')
 
@@ -125,7 +127,7 @@ if __name__ == '__main__':
         data_files=data_dir
         ds = datasets.load_dataset(p, data_dir=data_files)
         ds = ds.map(tokenize_alingn_labels_replace_with_mask_and_add_type_ids)
-        ds = ds['train'].train_test_split(test_size=0.12)
+        ds = ds['train'].train_test_split(test_size=0.1)
     elif dataset_name == 'vua20':
         data_files={'train': os.path.join(data_dir, 'train.tsv'), 'test': os.path.join(data_dir, 'test.tsv')}
         ds = get_tokenized_ds(p, tokenizer, tokenize_func='tagging', \
@@ -137,27 +139,29 @@ if __name__ == '__main__':
         ds = ds.map(tokenize_alingn_labels_replace_with_mask_and_add_type_ids)
 
     if dataset_name != 'vua20':
-        ds.rename_column_('target_mask', 'token_type_ids')
+        if token_type: ds.rename_column_('target_mask', 'token_type_ids')
         ds = ds.remove_columns(['label'])
     else:
-        ds.rename_column_('is_target', 'token_type_ids')
+        if token_type: ds.rename_column_('is_target', 'token_type_ids')
 
     args = get_base_hf_args(
         output_dir=output_dir,
         logging_steps=1,
         logging_dir = logging_dir,
         lr=5e-5,
-        train_batch_size=24,
-        epochs=5
+        train_batch_size=36,
+        epochs=3,
+        save_strategy = 'no'
     )
 
     data_collator = DataCollatorForTokenClassification(tokenizer, max_length=128)
     if not do_train:
-        model = get_model(RobertaForTokenClassification if dataset_name == 'vua20' else Moh, model_name, num_labels = 2,)
+        model = get_model(Moh if dataset_name == 'moh' else RobertaForTokenClassification, model_name, num_labels = 2, type_vocab_size=2 if token_type else 1)
     else:
-        model = get_model(RobertaForTokenClassification, model_name, num_labels = 2, type_vocab_size=2)
-        model.roberta.embeddings.token_type_embeddings = torch.nn.Embedding(2, 768)
-        model._init_weights(model.roberta.embeddings.token_type_embeddings)
+        model = get_model(Moh if dataset_name == 'moh' else RobertaForTokenClassification, model_name, num_labels = 2)
+        if token_type:
+            model.roberta.embeddings.token_type_embeddings = torch.nn.Embedding(2, 768)
+            model._init_weights(model.roberta.embeddings.token_type_embeddings)
 
     trainer = Trainer(
         model=model,
