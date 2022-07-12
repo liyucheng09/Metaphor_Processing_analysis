@@ -6,31 +6,16 @@
 
 #---------------------------------------------
 # Name your batch so it's easy to distinguish in the q.
-JobBatchName = "RUN GLUE"
+JobBatchName = "Downstream for Hard Metaphor"
 
 # --------------------------------------------
 
-model_name = roberta-base
-save_folder = /vol/research/nlg/mpa/glue/$(task_name)
-vua_validation = /vol/research/nlg/mpa/glue_val/$(task_name)
-benchmark = super_glue
+data_path = $ENV(HOME)/mpa/Hard/corpus/senseval3_$(task).tsv
+output_path = /vol/research/nlg/mpa/hard
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/run_glue.py \
-  --model_name_or_path $(model_name) \
-  --task_name $(task_name) \
-  --do_train \
-  --do_eval \
-  --max_seq_length 128 \
-  --per_device_train_batch_size 32 \
-  --learning_rate 2e-5 \
-  --num_train_epochs 3 \
-  --output_dir $(save_folder) \
-  --save_strategy no \
-# --vua_validation $(vua_validation) \
-  --overwrite_output_dir \
-  --benchmark $(benchmark)
+arguments     = $ENV(HOME)/mpa/Hard/downstream.py $(task) $(data_path) $(model_name) $(output_path)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -39,9 +24,9 @@ docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
 
 # -------------------------------------------------
 # Event, out and error logs
-log    = $(benchmark).c$(cluster).p$(process).$(task_name).$(model_name).log
-output = $(benchmark).c$(cluster).p$(process).$(task_name).$(model_name).out
-error  = $(benchmark).c$(cluster).p$(process).$(task_name).$(model_name).error
+log    = Downstream.c$(cluster).p$(process).$(task).log
+output = Downstream.c$(cluster).p$(process).$(task).out
+error  = Downstream.c$(cluster).p$(process).$(task).error
 
 # -----------------------------------
 # File Transfer, Input, Output
@@ -50,7 +35,7 @@ should_transfer_files = YES
 # Make certain project spaces available in container
 # environment = "mount=$ENV(HOME)"
 # environment = "mount=$ENV(HOME),/vol/research/nlg,/vol/research/lyc_d"
-environment = "mount=/vol/research/nlg,/vol/research/lyc_d"
+environment = "mount=/vol/research/nlg,/vol/research/lyc_d,/vol/research/lyc"
 # environment = "mount='/vol/research/nlg'"
 # environment = "mount='/vol/research/lyc_d'"
 
@@ -78,5 +63,6 @@ request_memory   = 8G
 # -----------------------------------
 # Queue commands
 # queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
-queue 1 task_name in boolq
-
+queue 1 task, model_name from (
+    nli, /vol/research/nlg/mpa/glue/mrpc
+)
