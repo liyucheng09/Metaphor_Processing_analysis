@@ -27,3 +27,4 @@ wsd/senseval/*
 htcondor/docker_stderror
 
 checkpoints/
+Hard/corpus
