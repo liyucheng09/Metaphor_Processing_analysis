@@ -54,7 +54,7 @@ class Moh(RobertaForTokenClassification):
 
         loss = None
         if labels is not None:
-            weight = torch.tensor([0.5, 1.]).to(self.device)
+            weight = torch.tensor([1., 1.]).to(self.device)
             loss_fct = CrossEntropyLoss(weight=weight)
             # Only keep active parts of the loss
             if attention_mask is not None:
@@ -113,7 +113,7 @@ if __name__ == '__main__':
 
     model_name, data_dir, dataset_name, = sys.argv[1:]
     do_train = True
-    token_type = False
+    token_type = True
     save_folder = '/vol/research/lyc/metaphor/'
     # save_folder = './'
     output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/token_type_{"on" if token_type else "off"}')
@@ -146,7 +146,7 @@ if __name__ == '__main__':
 
     args = get_base_hf_args(
         output_dir=output_dir,
-        logging_steps=1,
+        logging_steps=50,
         logging_dir = logging_dir,
         lr=5e-5,
         train_batch_size=36,
@@ -183,15 +183,15 @@ if __name__ == '__main__':
         result = trainer.evaluate(ds['test'])
     print(result)
 
-    pred_out = trainer.predict(ds['train'])
+    pred_out = trainer.predict(ds['test'])
     # pred_out = trainer.predict(ds)
 
     predictions = pred_out.predictions
     labels = pred_out.label_ids
     predictions = np.argmax(predictions, axis=-1)
 
-    true_p, true_l, true_tokens = get_true_label_and_token(predictions, labels, tokens=ds['train']['tokens'], tokenizer=tokenizer)
+    # true_p, true_l, true_tokens = get_true_label_and_token(predictions, labels, tokens=ds['train']['input_ids'], tokenizer=tokenizer)
     # show_error_instances_id(true_p, true_l, prediction_output_file, ds['sent_id'], ds['tokens'])
-    write_predict_to_file(pred_out, true_tokens, out_file=prediction_output_file)
+    write_predict_to_file(pred_out, ds['test']['input_ids'], out_file=prediction_output_file, tokenizer = tokenizer)
     # result = eval_with_weights(pred_out, ds['test']['token_type_ids'])
     # print(result)
