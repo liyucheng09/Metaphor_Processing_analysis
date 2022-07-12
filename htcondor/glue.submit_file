@@ -13,6 +13,7 @@ JobBatchName = "RUN GLUE"
 model_name = roberta-base
 save_folder = /vol/research/nlg/mpa/glue/$(task_name)
 vua_validation = /vol/research/nlg/mpa/glue_val/$(task_name)
+benchmark = glue
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
@@ -29,6 +30,7 @@ arguments     = $ENV(HOME)/mpa/run_glue.py \
   --save_strategy no \
   --vua_validation $(vua_validation) \
   --overwrite_output_dir
+  --benchmark $(benchmark)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)

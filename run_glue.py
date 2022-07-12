@@ -59,6 +59,7 @@ task_to_keys = {
     "sst2": ("sentence", None),
     "stsb": ("sentence1", "sentence2"),
     "wnli": ("sentence1", "sentence2"),
+    "boolq": ("question", "passage"),
 }
 
 logger = logging.getLogger(__name__)
@@ -77,6 +78,10 @@ class DataTrainingArguments:
     task_name: Optional[str] = field(
         default=None,
         metadata={"help": "The name of the task to train on: " + ", ".join(task_to_keys.keys())},
+    )
+    benchmark: Optional[str] = field(
+        default='glue',
+        metadata={"help": "The name of the benchmark to use, supports: " + ", ".join(['glue', 'super_glue'])},
     )
     max_seq_length: int = field(
         default=128,
@@ -251,8 +256,9 @@ def main():
     # download the dataset.
     if data_args.task_name is not None:
         # Downloading and loading a dataset from the hub.
-        datasets = load_dataset("glue", data_args.task_name)
-        vua_validation = load_from_disk(data_args.vua_validation)
+        datasets = load_dataset(data_args.benchmark, data_args.task_name)
+        if data_args.vua_validation is not None:
+            vua_validation = load_from_disk(data_args.vua_validation)
     else:
         # Loading a dataset from your local files.
         # CSV/JSON training and evaluation files are needed.
@@ -508,31 +514,34 @@ def main():
             pred = np.squeeze(pred) if is_regression else np.argmax(pred, axis=1)
             labels = predictions.label_ids
 
-            df = vua_validation.to_pandas()
-            vua_cols = [i for i in df.columns if 'vua' in i]
-            vua_labels = df[vua_cols].apply(get_vua_label, axis=1, args=(vua_cols,))
+            output_cols = (pred, labels,)
+            if data_args.vua_validation is not None:
+                df = vua_validation.to_pandas()
+                vua_cols = [i for i in df.columns if 'vua' in i]
+                vua_labels = df[vua_cols].apply(get_vua_label, axis=1, args=(vua_cols,))
+                output_cols += (vua_labels,)
             
             output_eval_label_and_vua_label = os.path.join(training_args.output_dir, f"vua_and_result_{task}.tsv")
             if trainer.is_world_process_zero():
                 with open(output_eval_label_and_vua_label, "w") as writer:
                     logger.info(f"***** Eval results {task} *****")
                     writer.write("index\tprediction\tlabel\tvua_label\n")
-                    for index, (p, l, v) in enumerate(zip(pred, labels, vua_labels)):
-                        if is_regression:
-                            writer.write(f"{index}\t{p:3.3f}\t{l:3.3f}\t{v:3.3f}\n")
-                        else:
-                            p_item = label_list[p]
-                            l_item = label_list[l]
-                            writer.write(f"{index}\t{p_item}\t{l_item}\t{v:3.3f}\n")
+                    for index, cols in enumerate(zip(*output_cols)):
+                        # if is_regression:
+                            # writer.write(f"{index}\t" + "\t".joint(cols) + "\n")
+                        # else:
+                            # p_item = label_list[p]
+                            # l_item = label_list[l]
+                            # writer.write(f"{index}\t{p_item}\t{l_item}\t{v:3.3f}\n")
+                        writer.write(f"{index}\t" + "\t".joint(cols) + "\n")
 
             print(f'Successfully saved at {output_eval_label_and_vua_label}')
-            if not is_regression:
+            if not is_regression and data_args.vua_validation is not None:
                 results = {'pred': pred, 'labels':labels, 'vua':vua_labels}
                 results = pd.DataFrame(results)
                 print('ACC for non metaphor: ', accuracy_score(results[results['vua']==0]['labels'], results[results['vua']==0]['pred']))
                 print('ACC for metaphor: ', accuracy_score(results[results['vua']>0]['labels'], results[results['vua']>0]['pred']))
 
-            
     if training_args.do_predict:
         logger.info("*** Test ***")
 
