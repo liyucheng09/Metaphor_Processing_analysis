@@ -13,6 +13,7 @@ JobBatchName = "RUN GLUE"
 model_name = roberta-base
 save_folder = /vol/research/nlg/mpa/glue/$(task_name)
 vua_validation = /vol/research/nlg/mpa/glue_val/$(task_name)
+benchmark = super_glue
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
@@ -27,8 +28,9 @@ arguments     = $ENV(HOME)/mpa/run_glue.py \
   --num_train_epochs 3 \
   --output_dir $(save_folder) \
   --save_strategy no \
-  --vua_validation $(vua_validation) \
-  --overwrite_output_dir
+# --vua_validation $(vua_validation) \
+  --overwrite_output_dir \
+  --benchmark $(benchmark)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -37,9 +39,9 @@ docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
 
 # -------------------------------------------------
 # Event, out and error logs
-log    = Glue.c$(cluster).p$(process).$(task_name).$(model_name).log
-output = Glue.c$(cluster).p$(process).$(task_name).$(model_name).out
-error  = Glue.c$(cluster).p$(process).$(task_name).$(model_name).error
+log    = $(benchmark).c$(cluster).p$(process).$(task_name).$(model_name).log
+output = $(benchmark).c$(cluster).p$(process).$(task_name).$(model_name).out
+error  = $(benchmark).c$(cluster).p$(process).$(task_name).$(model_name).error
 
 # -----------------------------------
 # File Transfer, Input, Output
@@ -56,7 +58,7 @@ environment = "mount=/vol/research/nlg,/vol/research/lyc_d"
 # Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
 # NOTE: HasStornext is not valid on orca.
 requirements = (CUDAGlobalMemoryMb > 8000) && (CUDAGlobalMemoryMb <  25000) && \
-#              (HasStornext) && \
+               (HasStornext) && \
 			   (CUDACapability > 2.0) && (CUDACapability < 8.0)
 
 # --------------------------------------
@@ -76,5 +78,5 @@ request_memory   = 8G
 # -----------------------------------
 # Queue commands
 # queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
-queue 1 task_name in mnli
+queue 1 task_name in boolq
 

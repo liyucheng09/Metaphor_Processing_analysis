@@ -11,13 +11,14 @@ JobBatchName = "Identify Metaphor in GLUE"
 # --------------------------------------------
 
 # model_name = /vol/research/nlg/frame_finder/checkpoints/labeling_no_token_type/
-model_name = /vol/research/lyc/metaphor/checkpoints/moh/labeling_no_token_type
+model_name = /vol/research/lyc/metaphor/checkpoints/moh/roberta_seq/token_type_off
 save_folder = /vol/research/lyc/mpa/
 model_type = moh
+cwd = $ENV(HOME)/mpa
 
 # Executable and its arguments
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/metaphor_identify_glue.py $(model_name) $(task_name) $(save_folder) $(model_type)
+arguments     = $ENV(HOME)/mpa/metaphor_identify_glue.py $(model_name) $(task_name) $(save_folder) $(model_type) $(cwd)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -45,7 +46,7 @@ environment = "mount=/vol/research/nlg,/vol/research/lyc_d,/vol/research/lyc"
 # Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
 # NOTE: HasStornext is not valid on orca.
 requirements = (CUDAGlobalMemoryMb > 8000) && (CUDAGlobalMemoryMb <  25000) && \
-#              (HasStornext) && \
+#               (HasStornext) && \
 			   (CUDACapability > 2.0) && (CUDACapability < 8.0)
 
 # --------------------------------------
@@ -65,4 +66,4 @@ request_memory   = 8G
 # -----------------------------------
 # Queue commands
 # queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
-queue 1 task_name in mnli
+queue 1 task_name in empathy

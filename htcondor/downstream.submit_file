@@ -6,21 +6,16 @@
 
 #---------------------------------------------
 # Name your batch so it's easy to distinguish in the q.
-JobBatchName = "roberta seq"
+JobBatchName = "Downstream for Hard Metaphor"
 
 # --------------------------------------------
+
+data_path = $ENV(HOME)/mpa/Hard/corpus/senseval3_$(task).tsv
+output_path = /vol/research/nlg/mpa/hard
+
 # Executable and its arguments
-
-model_name = roberta-base
-data_dir = $ENV(HOME)/mpa/Metaphor-Emotion-Data-Files/Data-metaphoric-or-literal.txt
-
-# model_name = /vol/research/nlg/frame_finder/checkpoints/roberta_seq
-dataset_name = moh
-# data_dir = $ENV(HOME)/mpa/embeddings/results/senseval3_instances_ChalMC.tsv
-
 executable    = $ENV(HOME)/.conda/envs/lyc/bin/python
-arguments     = $ENV(HOME)/mpa/roberta_seq.py $(model_name) $(data_dir) $(dataset_name)
-
+arguments     = $ENV(HOME)/mpa/Hard/downstream.py $(task) $(data_path) $(model_name) $(output_path)
 
 # ---------------------------------------------------
 # Universe (vanilla, docker)
@@ -29,9 +24,9 @@ docker_image     = nvidia/cuda:10.2-cudnn7-runtime-ubuntu16.04
 
 # -------------------------------------------------
 # Event, out and error logs
-log    = RobertaSeq.c$(cluster).p$(process).log
-output = RobertaSeq.c$(cluster).p$(process).out
-error  = RobertaSeq.c$(cluster).p$(process).error
+log    = Downstream.c$(cluster).p$(process).$(task).log
+output = Downstream.c$(cluster).p$(process).$(task).out
+error  = Downstream.c$(cluster).p$(process).$(task).error
 
 # -----------------------------------
 # File Transfer, Input, Output
@@ -39,14 +34,17 @@ should_transfer_files = YES
 
 # Make certain project spaces available in container
 # environment = "mount=$ENV(HOME)"
+# environment = "mount=$ENV(HOME),/vol/research/nlg,/vol/research/lyc_d"
 environment = "mount=/vol/research/nlg,/vol/research/lyc_d,/vol/research/lyc"
+# environment = "mount='/vol/research/nlg'"
+# environment = "mount='/vol/research/lyc_d'"
 
 # -------------------------------------
 # Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
 # NOTE: HasStornext is not valid on orca.
-requirements = (CUDAGlobalMemoryMb > 5000) && (CUDAGlobalMemoryMb <  25000) && \
-#               (HasStornext) && \
-			   (CUDACapability > 2.0)
+requirements = (CUDAGlobalMemoryMb > 8000) && (CUDAGlobalMemoryMb <  25000) && \
+               (HasStornext) && \
+			   (CUDACapability > 2.0) && (CUDACapability < 8.0)
 
 # --------------------------------------
 # Resources
@@ -64,4 +62,7 @@ request_memory   = 8G
 
 # -----------------------------------
 # Queue commands
-queue
+# queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
+queue 1 task, model_name from (
+    nli, /vol/research/nlg/mpa/glue/mrpc
+)
