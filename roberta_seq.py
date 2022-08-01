@@ -95,7 +95,7 @@ def tokenize_alingn_labels_replace_with_mask_and_add_type_ids(ds, do_mask=False)
             results.update(out_)
 
     words_ids = out_.word_ids()
-    label_sequence = [0 for i in range(len(words_ids))]
+    label_sequence = [-100 for i in range(len(words_ids))]
     target_mask = [0 for i in range(len(words_ids))]
     word_idx = words_ids.index(target_index)
 
@@ -112,8 +112,8 @@ if __name__ == '__main__':
 
     model_name, data_dir, dataset_name, = sys.argv[1:]
     do_train = False
-    save_folder = '/vol/research/lyc/metaphor/'
-    # save_folder = './'
+    # save_folder = '/vol/research/lyc/metaphor/'
+    save_folder = './'
     output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/')
     logging_dir = os.path.join(save_folder, 'logs/')
     prediction_output_file = os.path.join(output_dir, 'error_instances.csv')
@@ -137,7 +137,7 @@ if __name__ == '__main__':
         ds = ds.map(tokenize_alingn_labels_replace_with_mask_and_add_type_ids)
 
     if dataset_name != 'vua20':
-        ds.rename_column_('target_mask', 'token_type_ids')
+        # ds.rename_column_('target_mask', 'token_type_ids')
         ds = ds.remove_columns(['label'])
     else:
         ds.rename_column_('is_target', 'token_type_ids')
@@ -173,13 +173,14 @@ if __name__ == '__main__':
         trainer.train()
         trainer.save_model()
 
-    if dataset_name == 'hard':
-        result = trainer.evaluate(ds['train'])
-    else:
-        result = trainer.evaluate(ds['test'])
-    print(result)
+    # if dataset_name == 'hard':
+    #     result = trainer.evaluate(ds['train'])
+    # else:
+    #     result = trainer.evaluate(ds['test'])
+    # print(result)
 
-    pred_out = trainer.predict(ds['train'])
+    ds2 = datasets.Dataset.from_dict(ds['train'][:10])
+    pred_out = trainer.predict(ds2)
     # pred_out = trainer.predict(ds)
 
     predictions = pred_out.predictions
