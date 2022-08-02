@@ -426,7 +426,7 @@ def main():
 
     # Get the metric function
     if data_args.task_name is not None:
-        metric = load_metric("glue", data_args.task_name)
+        metric = load_metric(data_args.benchmark, data_args.task_name)
     # TODO: When datasets metrics include regular accuracy, make an else here and remove special branch from
     # compute_metrics
 
@@ -502,13 +502,13 @@ def main():
             eval_datasets = [ds]
 
         for eval_dataset, task in zip(eval_datasets, tasks):
-            # metrics = trainer.evaluate(eval_dataset=eval_dataset)
+            metrics = trainer.evaluate(eval_dataset=eval_dataset)
 
-            # max_val_samples = data_args.max_val_samples if data_args.max_val_samples is not None else len(eval_dataset)
-            # metrics["eval_samples"] = min(max_val_samples, len(eval_dataset))
+            max_val_samples = data_args.max_val_samples if data_args.max_val_samples is not None else len(eval_dataset)
+            metrics["eval_samples"] = min(max_val_samples, len(eval_dataset))
+            trainer.log_metrics("eval", metrics)
+            trainer.save_metrics("eval", metrics)
 
-            # trainer.log_metrics("eval", metrics)
-            # trainer.save_metrics("eval", metrics)
             predictions = trainer.predict(eval_dataset)
             pred = predictions.predictions
             pred = np.squeeze(pred) if is_regression else np.argmax(pred, axis=1)
@@ -528,12 +528,12 @@ def main():
                     writer.write("index\tprediction\tlabel\tvua_label\n")
                     for index, cols in enumerate(zip(*output_cols)):
                         # if is_regression:
-                            # writer.write(f"{index}\t" + "\t".joint(cols) + "\n")
+                            # writer.write(f"{index}\t" + "\t".join(cols) + "\n")
                         # else:
                             # p_item = label_list[p]
                             # l_item = label_list[l]
                             # writer.write(f"{index}\t{p_item}\t{l_item}\t{v:3.3f}\n")
-                        writer.write(f"{index}\t" + "\t".joint(cols) + "\n")
+                        writer.write(f"{index}\t" + "\t".join([str(i) for i in cols]) + "\n")
 
             print(f'Successfully saved at {output_eval_label_and_vua_label}')
             if not is_regression and data_args.vua_validation is not None:

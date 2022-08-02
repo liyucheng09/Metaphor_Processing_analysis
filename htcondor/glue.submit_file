@@ -58,7 +58,7 @@ environment = "mount=/vol/research/nlg,/vol/research/lyc_d"
 # Requirements for the Job (Requirements are explained in further detail in example09.submit_file)
 # NOTE: HasStornext is not valid on orca.
 requirements = (CUDAGlobalMemoryMb > 8000) && (CUDAGlobalMemoryMb <  25000) && \
-               (HasStornext) && \
+#              (HasStornext) && \
 			   (CUDACapability > 2.0) && (CUDACapability < 8.0)
 
 # --------------------------------------

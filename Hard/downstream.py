@@ -1,20 +1,23 @@
+import sys
+sys.path.append('/user/HS502/yl02706/mpa')
 import datasets
 import pandas as pd
-import sys
 from lyc.utils import get_model, get_tokenizer
 from transformers import AutoModelForSequenceClassification, Trainer, RobertaForSequenceClassification
-from transformers.data import default_data_collator
+from transformers import default_data_collator
 from lyc.train import get_base_hf_args
 from lyc.eval import write_predict_to_file
 import os
 
 task_to_cols = {
     'nli': {'Hypothesis' : 'sentence1', 'Claim': 'sentence2', 'Answer': 'label'},
-    'qa': {'Question': 'question', 'context': 'passage', 'Answer': 'label'}
+    'qa': {'Question': 'question', 'context': 'passage', 'Answer': 'label'},
+    'qa_non': {'Question': 'question', 'context': 'passage', 'Answer': 'label'}
 }
 task_to_keys = {
     'nli': ("sentence1", "sentence2"),
-    'qa': ('question', 'passage')
+    'qa': ('question', 'passage'),
+    'qa_non': ('question', 'passage')
 }
 
 label2id = {'F':0, 'T':1}
@@ -28,6 +31,11 @@ def load_dataset(data_type, data_path):
         data_type (str): name of the task, supports ['nli', 'qa']
         data_path (str): path to the dataset file
     """
+    def remove_brackets(x):
+        tokens = x.split()
+        tokens = [token[1:-1] if token.startswith('[') and token.endswith(']') else token for token in tokens]
+        return ' '.join(tokens)
+
     assert data_type in task_to_cols, f"Task {data_type} not found."
     df = pd.read_csv(data_path, sep='\t')
 
@@ -36,6 +44,9 @@ def load_dataset(data_type, data_path):
 
     cols_to_drop = [col for col in df.columns if col not in cols_map]
     df = df.drop(columns=cols_to_drop)
+    if 'context' in df.columns:
+        print('has context')
+        df['context'] = df['context'].apply(remove_brackets)
 
     df = df.rename(columns=cols_map)
     ds = datasets.Dataset.from_pandas(df)
