@@ -177,11 +177,11 @@ if __name__ == '__main__':
         trainer.train()
         trainer.save_model()
 
-    if dataset_name == 'hard':
-        result = trainer.evaluate(ds['train'])
-    else:
-        result = trainer.evaluate(ds['test'])
-    print(result)
+    # if dataset_name == 'hard':
+    #     result = trainer.evaluate(ds['train'])
+    # else:
+    #     result = trainer.evaluate(ds['test'])
+    # print(result)
 
     pred_out = trainer.predict(ds['test'])
     # pred_out = trainer.predict(ds)
