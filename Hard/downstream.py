@@ -31,10 +31,31 @@ def load_dataset(data_type, data_path):
         data_type (str): name of the task, supports ['nli', 'qa']
         data_path (str): path to the dataset file
     """
+    punctuations = ['.', '!', '?',]
     def remove_brackets(x):
         tokens = x.split()
         tokens = [token[1:-1] if token.startswith('[') and token.endswith(']') else token for token in tokens]
         return ' '.join(tokens)
+    
+    def simplify_context(x):
+        tokens = x.split()
+        start, end = 0, 0
+        found = None
+        while found is None:
+            count = 0
+            for token in tokens[start:]:
+                count += 1
+                if token.startswith('[') and token.endswith(']'):
+                    found = True
+                if token in punctuations:
+                    if found is not None:
+                        end = start + count
+                    else:
+                        start += count
+                    break
+        reduced_context = tokens[start: end]
+        reduced_context = ' '.join(reduced_context)
+        return reduced_context
 
     assert data_type in task_to_cols, f"Task {data_type} not found."
     df = pd.read_csv(data_path, sep='\t')
@@ -46,6 +67,7 @@ def load_dataset(data_type, data_path):
     df = df.drop(columns=cols_to_drop)
     if 'context' in df.columns:
         print('has context')
+        df['context'] = df['context'].apply(simplify_context)
         df['context'] = df['context'].apply(remove_brackets)
 
     df = df.rename(columns=cols_map)
