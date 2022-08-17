@@ -34,7 +34,8 @@ def load_dataset(data_type, data_path):
     punctuations = ['.', '!', '?',]
     def remove_brackets(x):
         tokens = x.split()
-        tokens = [token[1:-1] if token.startswith('[') and token.endswith(']') else token for token in tokens]
+        tokens = [token[1:] if token.startswith('[') else token for token in tokens]
+        tokens = [token[:-1] if token.endswith(']') else token for token in tokens]
         return ' '.join(tokens)
     
     def simplify_context(x):
@@ -45,7 +46,8 @@ def load_dataset(data_type, data_path):
             count = 0
             for token in tokens[start:]:
                 count += 1
-                if token.startswith('[') and token.endswith(']'):
+                # if token.startswith('[') and token.endswith(']'):
+                if token.startswith('['):
                     found = True
                 if token in punctuations:
                     if found is not None:
