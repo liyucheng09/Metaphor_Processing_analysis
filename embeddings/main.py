@@ -80,12 +80,12 @@ if __name__ == '__main__':
     tokenizer = get_tokenizer('roberta-base', add_prefix_space=True)
     
     # words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
-    words = [ 'bank.n', 'activate.v', 'lose.v', 'play.v', 'image.n']
+    words = [ 'hot.a']
     pool = 'idx-last'
     # pool = 'idx-last-four-average'
     plot_types = ['PCA']
     # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
-    model_paths = ['checkpoints/senseCL/checkpoint-400']
+    model_paths = ['checkpoints/senseCL/checkpoint-300']
 
     word2sentence = word2sentence('senseval3', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
