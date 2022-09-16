@@ -80,14 +80,24 @@ if __name__ == '__main__':
     tokenizer = get_tokenizer('roberta-base', add_prefix_space=True)
     
     # words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
-    words = [ 'hot.a']
+    words = [ 'act']
     pool = 'idx-last'
     # pool = 'idx-last-four-average'
     plot_types = ['PCA']
     # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
-    model_paths = ['checkpoints/senseCL/checkpoint-300']
+    model_paths = ['checkpoints/senseCL/checkpoint-400']
+    # model_paths = ['roberta-base']
+    act_gloss_map = {
+        'a legal document codifying the result of deliberations of a committee or society or legislative body': 'a legal document',
+        'a short theatrical performance that is part of a longer program': 'a short theatrical performance',
+        'a subdivision of a play or opera or ballet': 'a subdivision of a play',
+        'perform an action, or work out or perform (an action)': 'perform action, work out or perform',
+        'behave in a certain manner; show a certain behavior; conduct or comport oneself': 'behave in a certain manner',
+        'something that people do or cause to happen': 'something that people cause to happen'
+    }
 
-    word2sentence = word2sentence('senseval3', index_path = index_path)
+    word2sentence = word2sentence('semcor', index_path = index_path)
+    # word2sentence = word2sentence('senseval3', index_path = index_path)
     # model = SenseEmbedding('bert-large-uncased', pool = pool, max_length=256)
     for model_path in model_paths:
         model_id = os.path.basename(model_path)
@@ -95,15 +105,20 @@ if __name__ == '__main__':
 
         for word in words:
             contexts = word2sentence(word, minimum=2, max_length=128)
+            for sent in contexts:
+                if not sent.gloss in act_gloss_map:
+                    continue
+                sent.gloss = act_gloss_map[sent.gloss]
+            # contexts = contexts[:5]
             if not contexts:
                 print(f'{word} do not have enough contexts to visualize!')
                 continue
-            contexts.append(Context(tokens=[Token(word, '_', '_', f'blend_of_{word}')], index=0, gloss=f'blend_of_{word}'))
+            # contexts.append(Context(tokens=[Token(word, '_', '_', f'blend_of_{word}')], index=0, gloss=f'blend_of_{word}'))
             vecs = model.get_embeddings(contexts)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
                     figure_name= os.path.join(cwd, f'embeddings/imgs/senseCL/{word}_{plot_type}_{pool}_{model_id}.png'), plot_type=plot_type, \
-                    legend_loc=9, bbox_to_anchor=(0.5, -0.1))
+                    legend_loc=2, bbox_to_anchor=(1.03,1))
                 if output_data_point_path is not None:
                     path = f'{output_data_point_path}/{word}_{plot_type}_{pool}_{model_id}.csv'
                     f = open(path, 'w', encoding='utf-8')

@@ -112,10 +112,10 @@ def tokenize_alingn_labels_replace_with_mask_and_add_type_ids(ds, do_mask=False)
 if __name__ == '__main__':
 
     model_name, data_dir, dataset_name, = sys.argv[1:]
-    do_train = True
-    token_type = True
-    save_folder = '/vol/research/lyc/metaphor/'
-    # save_folder = './'
+    do_train = False
+    token_type = False
+    # save_folder = '/vol/research/lyc/metaphor/'
+    save_folder = './'
     output_dir = os.path.join(save_folder, f'checkpoints/{dataset_name}/roberta_seq/token_type_{"on" if token_type else "off"}')
     logging_dir = os.path.join(save_folder, 'logs/')
     prediction_output_file = os.path.join(output_dir, 'error_instances.csv')
