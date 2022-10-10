@@ -27,6 +27,7 @@ from sklearn.metrics import accuracy_score
 
 import numpy as np
 from datasets import load_dataset, load_metric, load_from_disk, concatenate_datasets
+import datasets
 
 import transformers
 from transformers import (
@@ -131,6 +132,13 @@ class DataTrainingArguments:
         default=None, metadata={"help": "validation data containing vua labels"}
     )
     test_file: Optional[str] = field(default=None, metadata={"help": "A csv or a json file containing the test data."})
+    mask_vua_token: bool = field(
+        default=False,
+        metadata={
+            "help": "Whether to mask metaphor tokens before feed input into the model. "
+            "If ture, will mask metaphor tokens. To see whether metaphors are critical for the prediction."
+        },
+    )
 
     def __post_init__(self):
         if self.task_name is not None:
@@ -190,6 +198,17 @@ def get_vua_label(x, vua_cols):
         all_ += len(x[col])-2
         num_metaphor += sum(x[col][1:-1])
     return num_metaphor / all_
+
+def mask_vua_token_func(glue_ds, vua_ds, task_name, mask_token_id):
+    col1, col2 = task_to_keys[task_name]
+    glue_ds = glue_ds.to_dict()
+    for sent_index, sent_ids in enumerate(glue_ds['input_ids']):
+        vua_labels = vua_ds[col1+'_vua'] if col2 is None else vua_ds[col1+'_vua'] + vua_ds[col2+'_vua']
+        for token_index, (token_id, vua_label) in enumerate(zip(sent_ids, vua_labels)):
+            if vua_label:
+                glue_ds['input_ids'][sent_index][token_index] = mask_token_id
+    glue_ds = datasets.Dataset.from_dict(glue_ds)
+    return glue_ds
 
 def main():
     # See all possible arguments in src/transformers/training_args.py
@@ -411,6 +430,8 @@ def main():
         eval_dataset = datasets["validation_matched" if data_args.task_name == "mnli" else "validation"]
         if data_args.max_val_samples is not None:
             eval_dataset = eval_dataset.select(range(data_args.max_val_samples))
+        if data_args.mask_vua_token:
+            eval_dataset = mask_vua_token_func(eval_dataset, vua_validation, data_args.task_name, tokenizer.mask_token_id)
 
     if training_args.do_predict or data_args.task_name is not None or data_args.test_file is not None:
         if "test" not in datasets and "test_matched" not in datasets:
