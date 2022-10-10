@@ -135,7 +135,7 @@ if __name__ == '__main__':
             data_files=data_files, batched=False, name = 'combined')
     elif dataset_name == 'hard':
         do_train = False
-        ds = datasets.load_dataset(p, data_files=data_dir)
+        ds = datasets.load_dataset(p, data_files=data_dir, split='train')
         ds = ds.map(tokenize_alingn_labels_replace_with_mask_and_add_type_ids)
 
     if dataset_name != 'vua20':
@@ -154,6 +154,13 @@ if __name__ == '__main__':
         save_strategy = 'no'
     )
 
+    if dataset_name == 'hard':
+        ds_train = ds
+        ds_test = ds
+    elif dataset_name == 'moh' or dataset_name == 'vua20':
+        ds_train = ds['train']
+        ds_test = ds['test']
+
     data_collator = DataCollatorForTokenClassification(tokenizer, max_length=128)
     if not do_train:
         model = get_model(Moh if dataset_name == 'moh' else RobertaForTokenClassification, model_name, num_labels = 2, type_vocab_size=2 if token_type else 1)
@@ -166,7 +173,7 @@ if __name__ == '__main__':
     trainer = Trainer(
         model=model,
         args=args,
-        train_dataset=ds['train'],
+        train_dataset=ds_train,
         data_collator=data_collator,
         tokenizer=tokenizer,
         callbacks=[TensorBoardCallback()],
@@ -183,7 +190,7 @@ if __name__ == '__main__':
     #     result = trainer.evaluate(ds['test'])
     # print(result)
 
-    pred_out = trainer.predict(ds['test'])
+    pred_out = trainer.predict(ds_test)
     # pred_out = trainer.predict(ds)
 
     predictions = pred_out.predictions
@@ -192,6 +199,6 @@ if __name__ == '__main__':
 
     # true_p, true_l, true_tokens = get_true_label_and_token(predictions, labels, tokens=ds['train']['input_ids'], tokenizer=tokenizer)
     # show_error_instances_id(true_p, true_l, prediction_output_file, ds['sent_id'], ds['tokens'])
-    write_predict_to_file(pred_out, ds['test']['input_ids'], out_file=prediction_output_file, tokenizer = tokenizer)
+    write_predict_to_file(pred_out, ds_test['input_ids'], out_file=prediction_output_file, tokenizer = tokenizer)
     # result = eval_with_weights(pred_out, ds['test']['token_type_ids'])
     # print(result)

@@ -64,7 +64,9 @@ request_memory   = 8G
 # Queue commands
 # queue 1 task_name in cola, sst2, mrpc, stsb, qqp, mnli, qnli, rte, wnli
 queue 1 task, model_name from (
-#   nli, /vol/research/nlg/mpa/glue/mrpc
+#    nli, /vol/research/nlg/mpa/glue/mrpc
+#    nli_non, /vol/research/nlg/mpa/glue/mrpc
 #    qa, /vol/research/nlg/mpa/glue/boolq/
+#    qa1, /vol/research/nlg/mpa/glue/boolq/
     qa_non, /vol/research/nlg/mpa/glue/boolq/
 )
