@@ -1,0 +1,171 @@
+
+
+(Synset('blast.v.07'), 1, 0, Synset('blaze_away.v.02'), Synset('blast.v.07'))
+(Synset('depart.v.03'), 1, 0, Synset('blaze.v.04'), Synset('depart.v.03'))	(Synset('leave.v.01'), 2, 1, Synset('blaze.v.04'), Synset('depart.v.04'))
+(Synset('knock.v.06'), 2, 0, Synset('blister.v.02'), Synset('knock.v.06'))
+(Synset('change.v.01'), 2, 1, Synset('boost.v.02'), Synset('better.v.02'))
+
+
+(Synset('change.v.01'), 1, 2, Synset('cloud.v.06'), Synset('impair.v.01'))	(Synset('change.v.01'), 1, 2, Synset('cloud.v.06'), Synset('mar.v.01'))
+(Synset('intend.v.01'), 1, 0, Synset('design.v.07'), Synset('intend.v.01'))
+(Synset('weaken.v.01'), 1, 0, Synset('enfeeble.v.01'), Synset('weaken.v.01'))	(Synset('change.v.01'), 2, 2, Synset('enfeeble.v.01'), Synset('de-escalate.v.02'))	(Synset('change.v.01'), 2, 2, Synset('enfeeble.v.01'), Synset('dampen.v.07'))
+(Synset('consume.v.05'), 1, 0, Synset('drain.v.02'), Synset('consume.v.05'))
+'see 2D'
+
+(Synset('make.v.03'), 2, 2, Synset('express.v.05'), Synset('give_birth.v.01'))
+
+'see 2D'
+(Synset('pervert.v.03'), 1, 0, Synset('fracture.v.01'), Synset('pervert.v.03'))
+(Synset('reason.v.01'), 1, 1, Synset('gather.v.04'), Synset('deduce.v.01'))	(Synset('reason.v.01'), 1, 1, Synset('gather.v.04'), Synset('generalize.v.01'))	(Synset('reason.v.01'), 1, 1, Synset('gather.v.04'), Synset('deduce.v.02'))	(Synset('think.v.03'), 2, 4, Synset('gather.v.04'), Synset('understand.v.04'))
+'see 2D'
+(Synset('run.v.06'), 1, 0, Synset('gutter.v.02'), Synset('run.v.06'))
+(Synset('be.v.03'), 1, 0, Synset('lie.v.06'), Synset('be.v.03'))
+
+
+(Synset('overwhelm.v.01'), 1, 0, Synset('lock.v.06'), Synset('overwhelm.v.01'))
+(Synset('appear.v.02'), 1, 0, Synset('peep.v.05'), Synset('appear.v.02'))
+
+(Synset('affect.v.05'), 1, 0, Synset('pierce.v.02'), Synset('affect.v.05'))
+
+(Synset('give.v.03'), 2, 3, Synset('pour.v.05'), Synset('invest.v.01'))	(Synset('supply.v.01'), 1, 2, Synset('pour.v.05'), Synset('invest.v.03'))
+(Synset('crowd.v.03'), 1, 0, Synset('pour.v.02'), Synset('crowd.v.03'))
+
+
+(Synset('travel.v.01'), 3, 0, Synset('rip.v.02'), Synset('travel.v.01'))
+(Synset('knock.v.06'), 2, 0, Synset('rip.v.04'), Synset('knock.v.06'))
+'see 2D'
+
+
+'see 2D'
+(Synset('weaken.v.01'), 1, 0, Synset('shake.v.05'), Synset('weaken.v.01'))	(Synset('change.v.01'), 2, 2, Synset('shake.v.05'), Synset('de-escalate.v.02'))	(Synset('change.v.01'), 2, 2, Synset('shake.v.05'), Synset('dampen.v.07'))
+
+(Synset('ruin.v.02'), 1, 0, Synset('shipwreck.v.01'), Synset('ruin.v.02'))
+(Synset('communicate.v.02'), 1, 0, Synset('sign.v.05'), Synset('communicate.v.02'))	(Synset('interact.v.01'), 2, 1, Synset('sign.v.05'), Synset('communicate.v.05'))
+
+(Synset('overwhelm.v.01'), 1, 0, Synset('stagger.v.04'), Synset('overwhelm.v.01'))
+'see 2D'
+(Synset('communicate.v.02'), 1, 0, Synset('talk.v.01'), Synset('communicate.v.02'))	(Synset('interact.v.01'), 2, 1, Synset('talk.v.01'), Synset('communicate.v.05'))
+(Synset('strain.v.03'), 1, 0, Synset('tax.v.03'), Synset('strain.v.03'))
+(Synset('displace.v.01'), 1, 0, Synset('uproot.v.01'), Synset('displace.v.01'))	(Synset('move.v.02'), 2, 0, Synset('uproot.v.01'), Synset('move.v.02'))
+(Synset('destroy.v.01'), 1, 0, Synset('uproot.v.02'), Synset('destroy.v.01'))
+(Synset('inflict.v.01'), 0, 0, Synset('inflict.v.01'), Synset('inflict.v.01'))
+(Synset('afflict.v.02'), 1, 0, Synset('visit.v.08'), Synset('afflict.v.02'))
+(Synset('waste.v.01'), 0, 0, Synset('waste.v.01'), Synset('waste.v.01'))
+
+
+
+(Synset('react.v.01'), 1, 0, Synset('answer.v.10'), Synset('react.v.01'))	(Synset('act.v.01'), 2, 1, Synset('answer.v.10'), Synset('react.v.02'))
+(Synset('get_down.v.07'), 1, 0, Synset('attack.v.05'), Synset('get_down.v.07'))
+
+(Synset('decrease.v.01'), 2, 0, Synset('blur.v.06'), Synset('decrease.v.01'))
+
+
+(Synset('call.v.05'), 2, 1, Synset('buzz.v.04'), Synset('summon.v.01'))	(Synset('summon.v.02'), 1, 0, Synset('buzz.v.04'), Synset('summon.v.02'))
+
+(Synset('put.v.01'), 1, 0, Synset('clap.v.01'), Synset('put.v.01'))
+(Synset('progress.v.01'), 1, 0, Synset('climb.v.05'), Synset('progress.v.01'))	(Synset('develop.v.10'), 2, 1, Synset('climb.v.05'), Synset('build_up.v.02'))
+(Synset('increase.v.01'), 1, 0, Synset('wax.v.02'), Synset('increase.v.01'))
+(Synset('affect.v.01'), 1, 0, Synset('tinge.v.01'), Synset('affect.v.01'))	(Synset('change.v.01'), 2, 1, Synset('tinge.v.01'), Synset('affect.v.02'))
+(Synset('connect.v.03'), 3, 0, Synset('communicate.v.04'), Synset('connect.v.03'))
+(Synset('amuse.v.02'), 1, 0, Synset('convulse.v.01'), Synset('amuse.v.02'))
+(Synset('culminate.v.01'), 1, 0, Synset('crown.v.02'), Synset('culminate.v.01'))
+(Synset('lie.v.01'), 2, 1, Synset('crown.v.03'), Synset('top.v.03'))
+
+
+(Synset('begin.v.02'), 1, 0, Synset('dawn.v.02'), Synset('begin.v.02'))
+(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('reduce.v.01'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('reduce.v.02'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('reduce.v.04'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('shrink.v.03'))	(Synset('change.v.01'), 1, 3, Synset('deflate.v.04'), Synset('reduce.v.09'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('reduce.v.15'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('abridge.v.01'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('reduce.v.18'))	(Synset('change.v.01'), 1, 2, Synset('deflate.v.04'), Synset('dilute.v.01'))
+(Synset('destroy.v.02'), 1, 0, Synset('devour.v.01'), Synset('destroy.v.02'))
+(Synset('enjoy.v.01'), 1, 0, Synset('devour.v.02'), Synset('enjoy.v.01'))
+(Synset('systematize.v.01'), 1, 0, Synset('digest.v.05'), Synset('systematize.v.01'))
+
+
+(Synset('submerge.v.02'), 0, 0, Synset('submerge.v.02'), Synset('submerge.v.02'))
+
+(Synset('decrease.v.01'), 2, 0, Synset('dull.v.07'), Synset('decrease.v.01'))
+
+(Synset('appear.v.02'), 1, 0, Synset('emerge.v.03'), Synset('appear.v.02'))
+
+
+
+(Synset('convey.v.01'), 1, 0, Synset('flash.v.04'), Synset('convey.v.01'))	(Synset('communicate.v.02'), 5, 1, Synset('flash.v.04'), Synset('carry.v.04'))
+
+(Synset('travel.v.01'), 1, 0, Synset('float.v.05'), Synset('travel.v.01'))
+
+(Synset('move.v.03'), 1, 0, Synset('flow.v.01'), Synset('move.v.03'))
+(Synset('hush.v.02'), 1, 0, Synset('gag.v.01'), Synset('hush.v.02'))	(Synset('suppress.v.01'), 2, 1, Synset('gag.v.01'), Synset('silence.v.02'))
+(Synset('shine.v.02'), 1, 0, Synset('glare.v.03'), Synset('shine.v.02'))
+'see 2D'
+(Synset('intrigue.v.01'), 1, 0, Synset('grab.v.06'), Synset('intrigue.v.01'))
+(Synset('tend.v.01'), 1, 0, Synset('gravitate.v.01'), Synset('tend.v.01'))
+(Synset('try.v.01'), 1, 0, Synset('grope.v.02'), Synset('try.v.01'))
+(Synset('move.v.03'), 4, 1, Synset('hunt.v.05'), Synset('vibrate.v.01'))	(Synset('oscillate.v.02'), 1, 0, Synset('hunt.v.05'), Synset('oscillate.v.02'))
+(Synset('arouse.v.01'), 1, 0, Synset('inflame.v.04'), Synset('arouse.v.01'))	(Synset('make.v.03'), 2, 1, Synset('inflame.v.04'), Synset('raise.v.07'))	(Synset('arouse.v.01'), 1, 2, Synset('inflame.v.04'), Synset('arouse.v.07'))
+
+(Synset('add.v.01'), 1, 0, Synset('inject.v.02'), Synset('add.v.01'))
+(Synset('manage.v.02'), 1, 0, Synset('juggle.v.03'), Synset('manage.v.02'))	(Synset('manage.v.02'), 1, 2, Synset('juggle.v.03'), Synset('oversee.v.01'))
+(Synset('change.v.01'), 1, 1, Synset('bring.v.05'), Synset('bring.v.02'))	(Synset('bring.v.05'), 0, 0, Synset('bring.v.05'), Synset('bring.v.05'))	(Synset('change.v.01'), 1, 1, Synset('bring.v.05'), Synset('lend.v.01'))
+
+
+
+(Synset('lie.v.01'), 1, 1, Synset('front.v.01'), Synset('orient.v.01'))
+'see 2D'
+(Synset('weaken.v.02'), 1, 0, Synset('melt.v.06'), Synset('weaken.v.02'))
+(Synset('change.v.02'), 3, 3, Synset('melt.v.04'), Synset('unify.v.01'))	(Synset('blend.v.03'), 1, 0, Synset('melt.v.04'), Synset('blend.v.03'))
+(Synset('cling.v.01'), 1, 0, Synset('mold.v.05'), Synset('cling.v.01'))
+(Synset('move.v.03'), 1, 2, Synset('nod.v.04'), Synset('rock.v.01'))	(Synset('move.v.03'), 1, 2, Synset('nod.v.04'), Synset('swing.v.02'))
+
+
+
+
+(Synset('advertise.v.02'), 0, 0, Synset('advertise.v.02'), Synset('advertise.v.02'))
+(Synset('approach.v.01'), 1, 0, Synset('push.v.06'), Synset('approach.v.01'))	(Synset('come.v.01'), 2, 1, Synset('push.v.06'), Synset('approach.v.04'))	(Synset('come.v.01'), 2, 2, Synset('push.v.06'), Synset('approach.v.05'))
+(Synset('deal.v.06'), 1, 0, Synset('push.v.08'), Synset('deal.v.06'))	(Synset('interact.v.01'), 3, 5, Synset('push.v.08'), Synset('betray.v.02'))
+(Synset('crusade.v.01'), 0, 0, Synset('crusade.v.01'), Synset('crusade.v.01'))
+(Synset('urge.v.01'), 1, 0, Synset('push.v.02'), Synset('urge.v.01'))
+
+
+
+(Synset('change.v.01'), 2, 4, Synset('salt.v.03'), Synset('complement.v.01'))
+(Synset('scatter.v.03'), 2, 0, Synset('salt.v.02'), Synset('scatter.v.03'))
+
+(Synset('lavish.v.01'), 0, 0, Synset('lavish.v.01'), Synset('lavish.v.01'))
+(Synset('give.v.03'), 2, 1, Synset('shower.v.05'), Synset('supply.v.01'))	(Synset('provide.v.02'), 1, 0, Synset('shower.v.05'), Synset('provide.v.02'))	(Synset('give.v.03'), 2, 3, Synset('shower.v.05'), Synset('leave.v.06'))	(Synset('give.v.03'), 2, 2, Synset('shower.v.05'), Synset('provide.v.06'))
+(Synset('sound.v.02'), 1, 0, Synset('whistle.v.05'), Synset('sound.v.02'))
+
+(Synset('put.v.01'), 2, 0, Synset('square.v.04'), Synset('put.v.01'))
+(Synset('act.v.01'), 2, 8, Synset('steamroller.v.02'), Synset('rush.v.03'))	(Synset('act.v.01'), 2, 1, Synset('steamroller.v.02'), Synset('rush.v.04'))
+
+(Synset('remove.v.01'), 2, 1, Synset('suck.v.02'), Synset('draw.v.05'))	(Synset('remove.v.01'), 2, 2, Synset('suck.v.02'), Synset('pluck.v.05'))	(Synset('remove.v.01'), 2, 1, Synset('suck.v.02'), Synset('extract.v.01'))	(Synset('remove.v.01'), 2, 1, Synset('suck.v.02'), Synset('pull.v.17'))
+
+
+(Synset('be.v.01'), 1, 1, Synset('swim.v.04'), Synset('cover.v.18'))
+(Synset('be.v.01'), 1, 1, Synset('swim.v.03'), Synset('confuse.v.02'))
+(Synset('experience.v.01'), 2, 0, Synset('taste.v.06'), Synset('experience.v.01'))	(Synset('know.v.05'), 1, 0, Synset('taste.v.06'), Synset('know.v.05'))	(Synset('undergo.v.01'), 3, 1, Synset('taste.v.06'), Synset('experience.v.03'))	(Synset('change.v.02'), 4, 1, Synset('taste.v.06'), Synset('have.v.11'))
+(Synset('change.v.01'), 1, 1, Synset('translate.v.02'), Synset('transform.v.01'))	(Synset('change.v.01'), 1, 1, Synset('translate.v.02'), Synset('transform.v.02'))	(Synset('translate.v.02'), 0, 0, Synset('translate.v.02'), Synset('translate.v.02'))	(Synset('change.v.01'), 1, 1, Synset('translate.v.02'), Synset('transform.v.05'))	(Synset('change.v.01'), 1, 1, Synset('translate.v.02'), Synset('transform.v.06'))	(Synset('change.v.01'), 1, 1, Synset('translate.v.02'), Synset('transform.v.07'))
+(Synset('tug.v.02'), 0, 0, Synset('tug.v.02'), Synset('tug.v.02'))
+(Synset('want.v.02'), 0, 0, Synset('want.v.02'), Synset('want.v.02'))
+(Synset('have.v.02'), 1, 0, Synset('wear.v.03'), Synset('have.v.02'))
+(Synset('move.v.02'), 1, 2, Synset('whistle.v.04'), Synset('remove.v.05'))
+'see 2D'
+(Synset('eject.v.01'), 1, 0, Synset('bounce.v.07'), Synset('eject.v.01'))
+(Synset('believe.v.01'), 1, 0, Synset('buy.v.05'), Synset('believe.v.01'))	(Synset('evaluate.v.02'), 3, 1, Synset('buy.v.05'), Synset('think.v.01'))	(Synset('evaluate.v.02'), 3, 2, Synset('buy.v.05'), Synset('believe.v.03'))	(Synset('believe.v.01'), 1, 1, Synset('buy.v.05'), Synset('believe.v.04'))	(Synset('believe.v.01'), 1, 3, Synset('buy.v.05'), Synset('believe.v.05'))
+'see 2D'
+'see 2D'
+'see 2D'
+(Synset('arouse.v.01'), 2, 0, Synset('ferment.v.02'), Synset('arouse.v.01'))	(Synset('make.v.03'), 3, 2, Synset('ferment.v.02'), Synset('provoke.v.02'))
+'see 2D'
+'see 2D'
+(Synset('feel.v.01'), 1, 1, Synset('glow.v.04'), Synset('rejoice.v.01'))	(Synset('feel.v.01'), 1, 3, Synset('glow.v.04'), Synset('exuberate.v.01'))	(Synset('feel.v.01'), 1, 3, Synset('glow.v.04'), Synset('wallow.v.04'))
+(Synset('cope.v.01'), 1, 0, Synset('hack.v.02'), Synset('cope.v.01'))
+(Synset('match.v.01'), 1, 0, Synset('harmonize.v.01'), Synset('match.v.01'))
+'see 2D'
+'see 2D'
+'see 2D'
+'see 2D'
+'see 2D'
+'see 2D'
+'see 2D'
+(Synset('mean.v.01'), 1, 0, Synset('spell.v.02'), Synset('mean.v.01'))
+'see 2D'
+
+'see 2D'
