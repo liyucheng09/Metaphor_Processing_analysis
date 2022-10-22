@@ -207,7 +207,7 @@ def mask_vua_token_func(glue_ds, vua_ds, task_name, mask_token_id):
     glue_ds = glue_ds.to_dict()
     for sent_index, sent_ids in enumerate(glue_ds['input_ids']):
         vua_labels = vua_ds[col1+'_vua'] if col2 is None else vua_ds[col1+'_vua'] + vua_ds[col2+'_vua']
-        for token_index, (token_id, vua_label) in enumerate(zip(sent_ids, vua_labels)):
+        for token_index, (token_id, vua_label) in enumerate(zip(sent_ids, vua_labels[sent_index])):
             if vua_label:
                 glue_ds['input_ids'][sent_index][token_index] = mask_token_id
     glue_ds = datasets.Dataset.from_dict(glue_ds)

@@ -3,6 +3,8 @@ import spacy
 from lxml import html
 import requests
 from nltk.stem import WordNetLemmatizer
+import pandas as pd
+import time
 
 class DefaultBasic:
     def __init__(self, method = 'macmillan'):
@@ -48,15 +50,43 @@ class DefaultBasic:
                 break
         else:
             return None
+        print(sent, '-- Done!')
         return sent, index
     
     def __call__(self, word):
         if self.method == 'wordnet':
             return self._wordnet(word)
         elif self.method == 'macmillan':
+            time.sleep(1)
             return self._macmillan(word)
 
+def filter_token_with_punc(token):
+    if (token.endswith(',') or token.endswith('.')):
+        return token
+
+def get_basic(x):
+    try:
+        sent, idx = basicer(x['target'])
+    except:
+        return None
+    x['sent'] = ' '.join(sent)
+    x['idx'] = str(idx)
+    return x
 
 if __name__ == '__main__':
     basicer = DefaultBasic()
-    print(basicer('break'))
+
+    df = pd.read_csv('BasicMIP/without_basic/nb_cases_18.csv', sep='\t')
+    df2 = pd.read_csv('BasicMIP/without_basic/nb_cases.csv', sep='\t')
+
+    tokens = pd.concat([df['target'], df2['target']], ignore_index=True)
+    tokens = tokens.apply(filter_token_with_punc)
+    tokens = tokens.dropna()
+    tokens = tokens.to_frame('target')
+    result = tokens.apply(get_basic, axis=1)
+    result = result.dropna()
+    # sents = sents.dropna()
+    output_path = 'BasicMIP/without_basic/basics_with_punc.tsv'
+    result.to_csv(output_path, sep='\t', index = False)
+    print('Finish basicing.')
+    # print(basicer('break'))
