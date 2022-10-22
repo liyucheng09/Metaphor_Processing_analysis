@@ -139,6 +139,9 @@ class DataTrainingArguments:
             "If ture, will mask metaphor tokens. To see whether metaphors are critical for the prediction."
         },
     )
+    result_output_path: Optional[str] = field(
+        default=None, metadata={"help": "Output path for the results and vua labels."}
+    )
 
     def __post_init__(self):
         if self.task_name is not None:
@@ -428,6 +431,8 @@ def main():
         if "validation" not in datasets and "validation_matched" not in datasets:
             raise ValueError("--do_eval requires a validation dataset")
         eval_dataset = datasets["validation_matched" if data_args.task_name == "mnli" else "validation"]
+        if data_args.task_name == "mnli":
+            eval_dataset = concatenate_datasets([eval_dataset, datasets["validation_mismatched"]])
         if data_args.max_val_samples is not None:
             eval_dataset = eval_dataset.select(range(data_args.max_val_samples))
         if data_args.mask_vua_token:
@@ -516,11 +521,6 @@ def main():
         # Loop to handle MNLI double evaluation (matched, mis-matched)
         tasks = [data_args.task_name]
         eval_datasets = [eval_dataset]
-        if data_args.task_name == "mnli":
-            # tasks.append("mnli-mm")
-            eval_datasets.append(datasets["validation_mismatched"])
-            ds = concatenate_datasets(eval_datasets)
-            eval_datasets = [ds]
 
         for eval_dataset, task in zip(eval_datasets, tasks):
             metrics = trainer.evaluate(eval_dataset=eval_dataset)
@@ -542,7 +542,7 @@ def main():
                 vua_labels = df[vua_cols].apply(get_vua_label, axis=1, args=(vua_cols,))
                 output_cols += (vua_labels,)
             
-            output_eval_label_and_vua_label = os.path.join(training_args.output_dir, f"vua_and_result_{task}.tsv")
+            output_eval_label_and_vua_label = os.path.join(data_args.result_output_path, f"vua_and_result_{task}" + ('_masked' if data_args.mask_vua_token else '') + ".tsv")
             if trainer.is_world_process_zero():
                 with open(output_eval_label_and_vua_label, "w") as writer:
                     logger.info(f"***** Eval results {task} *****")
@@ -579,7 +579,7 @@ def main():
             predictions = trainer.predict(test_dataset=test_dataset).predictions
             predictions = np.squeeze(predictions) if is_regression else np.argmax(predictions, axis=1)
 
-            output_test_file = os.path.join(training_args.output_dir, f"test_results_{task}.txt")
+            output_test_file = os.path.join(data_args.result_output_path, f"test_results_{task}.txt")
             if trainer.is_world_process_zero():
                 with open(output_test_file, "w") as writer:
                     logger.info(f"***** Test results {task} *****")
