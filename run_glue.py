@@ -206,9 +206,10 @@ def mask_vua_token_func(glue_ds, vua_ds, task_name, mask_token_id):
     col1, col2 = task_to_keys[task_name]
     glue_ds = glue_ds.to_dict()
     for sent_index, sent_ids in enumerate(glue_ds['input_ids']):
-        vua_labels = vua_ds[col1+'_vua'] if col2 is None else vua_ds[col1+'_vua'] + vua_ds[col2+'_vua']
-        for token_index, (token_id, vua_label) in enumerate(zip(sent_ids, vua_labels[sent_index])):
-            if vua_label:
+        vua_labels = vua_ds[col1+'_vua'][sent_index] if col2 is None else vua_ds[col1+'_vua'][sent_index] + vua_ds[col2+'_vua'][sent_index]
+        ratio = sum(vua_labels)/len(vua_labels)
+        for token_index, (token_id, vua_label) in enumerate(zip(sent_ids, vua_labels)):
+            if vua_label and np.random.random()<ratio:
                 glue_ds['input_ids'][sent_index][token_index] = mask_token_id
     glue_ds = datasets.Dataset.from_dict(glue_ds)
     return glue_ds
