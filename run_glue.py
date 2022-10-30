@@ -142,6 +142,12 @@ class DataTrainingArguments:
     result_output_path: Optional[str] = field(
         default=None, metadata={"help": "Output path for the results and vua labels."}
     )
+    run_number: Optional[str] = field(
+        default=None,
+        metadata={
+            "help": "id of this run"
+        },
+    )
 
     def __post_init__(self):
         if self.task_name is not None:
@@ -211,6 +217,7 @@ def mask_vua_token_func(glue_ds, vua_ds, task_name, mask_token_id):
         for token_index, (token_id, vua_label) in enumerate(zip(sent_ids, vua_labels)):
             if vua_label and np.random.random()<ratio:
                 glue_ds['input_ids'][sent_index][token_index] = mask_token_id
+                break
     glue_ds = datasets.Dataset.from_dict(glue_ds)
     return glue_ds
 
@@ -543,7 +550,7 @@ def main():
                 vua_labels = df[vua_cols].apply(get_vua_label, axis=1, args=(vua_cols,))
                 output_cols += (vua_labels,)
             
-            output_eval_label_and_vua_label = os.path.join(data_args.result_output_path, f"vua_and_result_{task}" + ('_masked' if data_args.mask_vua_token else '') + ".tsv")
+            output_eval_label_and_vua_label = os.path.join(data_args.result_output_path, f"vua_and_result_{task}" + ('_masked' if data_args.mask_vua_token else '') + f"_{data_args.run_number}.tsv")
             if trainer.is_world_process_zero():
                 with open(output_eval_label_and_vua_label, "w") as writer:
                     logger.info(f"***** Eval results {task} *****")
