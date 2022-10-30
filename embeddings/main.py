@@ -45,10 +45,10 @@ class SenseEmbedding(BertWhitening):
         
         return output, new_idxs, senses
 
-    def get_embeddings(self, contexts: List[Context], whitening=False):
+    def get_embeddings(self, contexts: List[Context], whitening=False, batch_size = 32):
         encoding, idxs, senses = self.preprocess_context(contexts)
         with torch.no_grad():
-            vecs=get_vectors(self.model, encoding, idxs = idxs)
+            vecs=get_vectors(self.model, encoding, idxs = idxs,  batch_size = batch_size)
         vecs=vecs.cpu().numpy()
 
         if whitening:
@@ -86,8 +86,8 @@ if __name__ == '__main__':
     # pool = 'idx-last-four-average'
     plot_types = ['PCA']
     # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
-    model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-300']
-    # model_paths = ['checkpoints/senseCL/checkpoint-400']
+    # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-300']
+    model_paths = ['checkpoints/senseCL/checkpoint-300']
     # model_paths = ['roberta-base']
     act_gloss_map = {
         'a legal document codifying the result of deliberations of a committee or society or legislative body': 'a legal document',
@@ -116,7 +116,7 @@ if __name__ == '__main__':
                 print(f'{word} do not have enough contexts to visualize!')
                 continue
             # contexts.append(Context(tokens=[Token(word, '_', '_', f'blend_of_{word}')], index=0, gloss=f'blend_of_{word}'))
-            vecs = model.get_embeddings(contexts)
+            vecs = model.get_embeddings(contexts, batch_size=8)
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
                     figure_name= os.path.join(cwd, f'embeddings/imgs/senseCL/{word}_{plot_type}_{pool}_{model_id}.png'), plot_type=plot_type, \
