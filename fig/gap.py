@@ -13,16 +13,16 @@ task = ['mt', 'qa', 'nli',]
 models = [ 'Google', 'DeepL', 'RoBERTa', 'T5', 'RoBERTa', 'T5', 'Precision', 'Recall']
 
 
-
 if __name__ == '__main__':
 
     plt.figure(figsize=(10, 3.5), dpi=120)
 
     plt.plot(x1, literal, 'x', color = 'red', markerfacecolor='none', label = 'Literal')
-    plt.plot(x1, meta, 'o', color = 'blue', markerfacecolor='none', label = 'Metaphor')
-
-    plt.plot(x2, hmc, 's', color = 'blue', markerfacecolor='none', label = 'HMC')
     plt.plot(x2, vua, '^', color = 'red', markerfacecolor='none', label = 'VUA')
+
+    plt.plot(x1, meta, 's', color = 'blue', markerfacecolor='none')
+    # plt.plot(x1, meta, 'o', color = 'blue', markerfacecolor='none', label = 'Metaphor')
+    plt.plot(x2, hmc, 's', color = 'blue', markerfacecolor='none', label = 'HMC')
 
     plt.yticks(np.linspace(0.5,0.95,5))
     plt.xticks(x1+x2, models)
