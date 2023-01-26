@@ -4,7 +4,7 @@ from sklearn.metrics import recall_score
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    mi_results = 'Hard/mi/mi_result.csv'
+    mi_results = 'Hard/mi/token_on.csv'
     hmc_path = 'embeddings/results/senseval3_instances_ChalMC.tsv'
 
     hmc = pd.read_csv(hmc_path, sep='\t')

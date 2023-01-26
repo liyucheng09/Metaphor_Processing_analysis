@@ -28,3 +28,13 @@ htcondor/docker_stderror
 
 checkpoints/
 Hard/corpus
+
+VUA20/pos_dfs
+VUA20/pos_dfs_test
+VUA20/pos_analysis/*.tsv
+VUA20/*.json
+VUA20/*.tsv
+
+moh/extend/*.pickle
+Hard/mt/annotation.tsv/
+Hard/mi/

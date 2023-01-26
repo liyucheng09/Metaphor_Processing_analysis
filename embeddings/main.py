@@ -79,7 +79,7 @@ if __name__ == '__main__':
     output_data_point_path = os.path.join(cwd, 'embeddings/datapoints')
     tokenizer = get_tokenizer('roberta-base', add_prefix_space=True)
     
-    # words = [ 'act', 'admit', 'age', 'address', 'answer', 'ask', 'breathe', 'buy', 'consider', 'cook', 'distill', 'end', 'fire', 'head']
+    # words = [ 'adhere','attack', 'emerge', 'flow', 'preserve', 'reach', 'sit', ]
     # words = [ 'bank.n', 'activate.v', 'lose.v', 'play.v', 'image.n', 'hot.a']
     words = [ 'act']
     pool = 'idx-last'
@@ -87,8 +87,8 @@ if __name__ == '__main__':
     plot_types = ['PCA']
     # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-{i}' for i in range(100, 600, 100)]
     # model_paths = [f'/vol/research/lyc/mpa/senseCL/checkpoint/checkpoint-300']
-    model_paths = ['checkpoints/senseCL/checkpoint-300']
-    # model_paths = ['roberta-base']
+    # model_paths = ['checkpoints/senseCL/checkpoint-400']
+    model_paths = ['roberta-base']
     act_gloss_map = {
         'a legal document codifying the result of deliberations of a committee or society or legislative body': 'a legal document',
         'a short theatrical performance that is part of a longer program': 'a short theatrical performance',
@@ -120,7 +120,7 @@ if __name__ == '__main__':
             for plot_type in plot_types:
                 X = plotDimensionReduction(vecs, [con.gloss for con in contexts], \
                     figure_name= os.path.join(cwd, f'embeddings/imgs/senseCL/{word}_{plot_type}_{pool}_{model_id}.png'), plot_type=plot_type, \
-                    legend_loc=2, bbox_to_anchor=(1.03,1))
+                    legend_loc=2, bbox_to_anchor=(1.03,1), no_legend = True)
                 if output_data_point_path is not None:
                     path = f'{output_data_point_path}/{word}_{plot_type}_{pool}_{model_id}.csv'
                     f = open(path, 'w', encoding='utf-8')

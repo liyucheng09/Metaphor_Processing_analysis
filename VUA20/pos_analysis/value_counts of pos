@@ -1,0 +1,187 @@
+ADJ
+** Total: 10691
+more     305
+other    191
+such     182
+most     147
+many     146
+Name: target, dtype: int64
+
+
+----
+PROPN
+** Total: 9566
+Mm        174
+Adam       81
+social     79
+cos        76
+GIS        67
+Name: target, dtype: int64
+
+
+----
+VERB
+** Total: 19402
+would    444
+said     398
+know     383
+can      357
+will     311
+Name: target, dtype: int64
+
+
+----
+NOUN
+** Total: 29254
+time      197
+work      177
+data      174
+way       143
+people    142
+Name: target, dtype: int64
+
+
+----
+PRON
+** Total: 11875
+I       1844
+it      1656
+you     1358
+he       933
+they     651
+Name: target, dtype: int64
+
+
+----
+AUX
+** Total: 9340
+is      1599
+was     1384
+be       987
+have     777
+are      750
+Name: target, dtype: int64
+
+
+----
+X
+** Total: 3868
+a     3287
+A      176
+1       36
+et      36
+2       30
+Name: target, dtype: int64
+
+
+----
+NUM
+** Total: 2803
+one      464
+two      222
+three    137
+four      89
+six       69
+Name: target, dtype: int64
+
+
+----
+ADP
+** Total: 18962
+of     4631
+to     3761
+in     2570
+for    1264
+on     1126
+Name: target, dtype: int64
+
+
+----
+ADV
+** Total: 10484
+there    521
+up       335
+so       306
+out      300
+then     264
+Name: target, dtype: int64
+
+
+----
+DET
+** Total: 16113
+the     8205
+that    1746
+The      909
+his      556
+this     545
+Name: target, dtype: int64
+
+
+----
+SYM
+** Total: 50
+£3           3
+£2million    2
+£5           2
+£2           2
+£500         2
+Name: target, dtype: int64
+
+
+----
+CCONJ
+** Total: 5511
+and    3837
+but     571
+or      473
+But     270
+And     254
+Name: target, dtype: int64
+
+
+----
+PART
+** Total: 3431
+'s     1684
+n't     898
+not     738
+Not      62
+To       49
+Name: target, dtype: int64
+
+
+----
+PUNCT
+** Total: 3188
+‘      1232
+’      1199
+—       309
+'ve     195
+'m      146
+Name: target, dtype: int64
+
+
+----
+SCONJ
+** Total: 2446
+as         895
+like       278
+if         278
+than       236
+because    131
+Name: target, dtype: int64
+
+
+----
+INTJ
+** Total: 3170
+Yeah    384
+no      318
+No      290
+Oh      267
+well    230
+Name: target, dtype: int64
+
+
+----
