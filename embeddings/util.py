@@ -8,8 +8,10 @@ import spacy
 import torch
 # from lyc.visualize import plotPCA
 from lyc.utils import get_model, get_tokenizer, vector_l2_normlize
-from typing import Union, List
+from typing import Union, List, Dict
 import xml.etree.cElementTree as ET
+from datasets import load_dataset, Dataset
+from transformers import BatchEncoding
 
 import sys
 
@@ -26,16 +28,24 @@ class Token:
     word: str
     lemma: str
     pos: str
+
+    # the primary sense
     sense: str
+
+    # all possible senses
+    sense_list: List[str] = None
 
 @dataclass
 class Context:
     tokens: List[Token]
     index : int
-    gloss: str
+    glosses: Dict[str, str]
     # synset_name: str
     # tokenized_len : int
+    gloss: str = None
     examples: List[str] = None
+    sense_list: List[str] = None
+    encoding: BatchEncoding = None
 
     def __repr__(self):
         return ' '.join([t.word if i != self.index else f'[{t.word}]' for i, t in enumerate(self.tokens)])
@@ -93,7 +103,7 @@ class word2lemmas:
         if not os.path.exists(pkl_path):
             word2lemmas = {}
             print(f'No dict found in {pkl_path}, start generating now...')
-            moh_path = 'Metaphor-Emotion-Data-Files/Data-metaphoric-or-literal.txt'
+            moh_path = '../moh/Data-metaphoric-or-literal.tsv'
             df = pd.read_csv(moh_path, sep='\t')
             for word, sub_df in df.groupby('term'):
                 assert word not in word2lemmas
@@ -150,7 +160,32 @@ class lemma2sentences:
             self._encoding_senseval3_sentences(save_path)
         elif source == 'wordnet':
             self.nlp = spacy.load('en_core_web_sm', disable=["parser", "ner"])
+        elif source == 'ufsac':
+            self._ufsac = load_dataset('liyucheng/UFSAC', split = 'train')
+            self.load_lemma2instance_ufsac(source, save_path)
     
+    def load_lemma2instance_ufsac(self, source, index_path):
+        lemma2instance_pkl = os.path.join(index_path, 'lemma2instances_ufsac.pkl')
+        if not os.path.exists(lemma2instance_pkl):
+            lemma2instance = {}
+            for index, line in enumerate(self._ufsac):
+                lemmas = line['sense_keys']
+                for lemma in lemmas:
+                    if lemma not in lemma2instance: lemma2instance[lemma] = []
+                    lemma2instance[lemma].append(index)
+            
+            with open(lemma2instance_pkl, 'wb') as f:
+                pickle.dump(lemma2instance, f)
+
+            self.lemma2context = lemma2instance
+            return
+        
+        print(f'found cached index in {lemma2instance_pkl}. Reused.')
+        with open(lemma2instance_pkl, 'rb') as f:
+            lemma2instance = pickle.load(f)
+
+        self.lemma2context = lemma2instance
+
     def _encoding_semcor_sentences(self, index_path):
         sentences_encoding_pkl = os.path.join(index_path, 'sentences_encoding.pkl')
         if not os.path.exists(sentences_encoding_pkl):
@@ -234,18 +269,26 @@ class lemma2sentences:
                             token = Token(word = word, lemma = '_', pos = '_', sense = '_') 
                         else:
                             word = word.strip('--')
-                            token = Token(word = word, lemma = '_', pos = '_', sense = ';'.join(answers))
+                            token = Token(word = word, lemma = '_', pos = '_', sense = ';'.join(answers), sense_list = answers)
                             index = idx
                         tokens.append(token)
                     assert index !=-1
-                    gloss = dictionary[key][answers[0]]['gloss']
-                    gloss = [ i.strip() for i in gloss[:-1].split(';') if i ]
-                    if len(gloss)>1:
-                        examples = gloss[1:]
-                    else:
-                        examples = None
-                    gloss = gloss[0]
-                    cont = Context(tokens = tokens, index = index, gloss = gloss, examples=examples)
+
+                    glosses = {}
+                    all_examples = {}
+                    for answer in answers:
+                        gloss = dictionary[key][answer]['gloss']
+                        gloss = [ i.strip() for i in gloss[:-1].split(';') if i ]
+                        if len(gloss)>1:
+                            examples = gloss[1:]
+                        else:
+                            examples = None
+                        gloss = gloss[0]
+                        
+                        glosses[answer] = gloss
+                        all_examples[answer] = examples
+
+                    cont = Context(tokens = tokens, index = index, glosses = glosses, examples = all_examples, sense_list = answers)
                     lemma2context[key].append(cont)
 
             with open(dictionary_pkl, 'wb') as f:
@@ -354,20 +397,48 @@ class lemma2sentences:
             index = sent[1]
             if len(self.sentences_encoding[sentence_id]['word_ids'])>max_length:
                 continue
-            contexts.append(Context(tokens = self.sentences[sentence_id], index = index, \
-                gloss=wn.lemma_from_key(self.sentences[sentence_id][index].sense).synset().definition()))
+            tokens = self.sentences[sentence_id]
+            contexts.append(Context(tokens = tokens, index = index, \
+                gloss=wn.lemma_from_key(self.sentences[sentence_id][index].sense).synset().definition(), sense_list=tokens[index].sense))
+        return contexts
+    
+    def get_ufsac_results(self, sense, max_length, no_ambiguous_sentence):
+        assert max_length is not None
+        if sense not in self.lemma2context:
+            print(f'Sense {sense} not in the corpus.')
+            return ''
+        
+        contexts = []
+        sents = self._ufsac.select(self.lemma2context[sense])
+        # sents = Dataset.from_dict(self._ufsac[self.lemma2context[sense]])
+
+        # preprocessing = lambda x: self.tokenizer(x['tokens'], is_split_into_words=True)
+        def preprocessing(ds):
+            return self.tokenizer(ds['tokens'], is_split_into_words=True)
+
+        encoding = sents.map(preprocessing, keep_in_memory = True, batched=True)
+
+        for sent, encoding in zip(sents, encoding):
+            if len(encoding['input_ids']) > max_length or (no_ambiguous_sentence and len(sent['sense_keys'])>1):
+                continue
+            glosses = [ wn.lemma_from_key(sense).synset().definition() for sense in sent['sense_keys']]
+            context = Context(tokens = sent['tokens'], index = sent['target_idx'], glosses=glosses, sense_list=sent['sense_keys'], encoding=encoding)
+            contexts.append(context)
+        
         return contexts
 
-    def __call__(self, sense, max_length = None):
+    def __call__(self, sense, max_length = None, no_ambiguous_sentence = True):
         if self.source == 'wordnet':
             return self.get_wn_examples(sense)
         elif self.source == 'senseval3':
             return self.get_senseval3_results(sense, max_length)
         elif self.source == 'semcor':
             return self.get_semcor_results(sense, max_length)
+        elif self.source == 'ufsac':
+            return self.get_ufsac_results(sense, max_length, no_ambiguous_sentence)
 
 class word2sentence:
-    valid_sources = ['semcor', 'senseval3', 'wordnet']
+    valid_sources = ['semcor', 'senseval3', 'wordnet', 'ufsac']
 
     def __init__(self, source, tokenizer = None, index_path = 'embeddings/index'):
         self._check_source(source)
@@ -380,6 +451,8 @@ class word2sentence:
             self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
         elif source == 'senseval3':
             self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
+        elif source == 'ufsac':
+            self.lemma2context = lemma2sentences(tokenizer, source, save_path=index_path)
 
     def _check_source(self, source):
         assert source in self.valid_sources, f'{source} is not a valid source, please use {self.valid_sources}'
@@ -387,26 +460,44 @@ class word2sentence:
     def remove_rare_context(self, contexts, minimum):
         if not minimum:
             return contexts
-        gloss2context = {}
+        sense2context = {}
         for cont in contexts:
-            gloss = cont.gloss
-            if gloss not in gloss2context: gloss2context[gloss] = []
-            gloss2context[gloss].append(cont)
+            sense = cont.sense_list[0]
+            if sense not in sense2context: sense2context[sense] = []
+            sense2context[sense].append(cont)
+        
         pruned_contexts = []
-        for gloss, conts in gloss2context.items():
+        for sense, conts in sense2context.items():
             if len(conts)>minimum:
                 pruned_contexts.extend(conts)
         return pruned_contexts
 
+        # gloss2context = {}
+        # for cont in contexts:
+        #     gloss = cont.gloss
+        #     if gloss not in gloss2context: gloss2context[gloss] = []
+        #     gloss2context[gloss].append(cont)
+        # pruned_contexts = []
+        # for gloss, conts in gloss2context.items():
+        #     if len(conts)>minimum:
+        #         pruned_contexts.extend(conts)
+        # return pruned_contexts
+
     def __call__(self, word, minimum = 0, max_length = 128):
         if self.source == 'senseval3':
             sentences = self.lemma2context(word, max_length)
-        else:
+        elif self.source in ('semcor', 'ufsac'):
             lemmas = self.word2lemmas(word)
             # sentences = {lemma.lemma: {'class': lemma.label, 'sentences': self.lemma2context(lemma.lemma, source=self.source), 'gloss': wn.lemma_from_key(lemma.lemma).synset().definition()} for lemma in lemmas}
             sentences = []
             for lemma in lemmas:
                 sentences.extend(self.lemma2context(lemma.lemma, max_length))
+        # elif self.source == 'ufsac':
+        #     lemmas = self.word2lemmas(word)
+        #     sentences = []
+        #     for lemma in lemmas:
+        #         sentences.extend(self.lemma2context(lemma.lemma, max_length))
+
         return self.remove_rare_context(sentences, minimum)        
 
 class synset2sentence:
@@ -490,8 +581,10 @@ class synset2sentence:
 
 if __name__ == '__main__':
     t = get_tokenizer('roberta-base', add_prefix_space=True)
-    lemma2sentences = lemma2sentences(t, 'semcor')
-    pprint(lemma2sentences('source%1:09:00::', 128))
+    w2s = word2sentence('ufsac', tokenizer=t,)
+    w2s('act')
+    # lemma2sentences = lemma2sentences(t, 'semcor')
+    # pprint(lemma2sentences('source%1:09:00::', 128))
 
     # w2s = word2sentence('senseval3')
     # print(w2s('play.v', max_length=256))
