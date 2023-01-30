@@ -39,7 +39,7 @@ class Token:
 class Context:
     tokens: List[Token]
     index : int
-    glosses: Dict[str, str]
+    glosses: Dict[str, str] = None
     # synset_name: str
     # tokenized_len : int
     gloss: str = None
