@@ -38,3 +38,5 @@ VUA20/*.tsv
 moh/extend/*.pickle
 Hard/mt/annotation.tsv/
 Hard/mi/
+
+moh/extend/*.tsv

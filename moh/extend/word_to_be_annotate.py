@@ -111,22 +111,22 @@ class lemma_to_annotate:
         df.to_csv(output_path, sep='\t', index=False)
         print(f"Saved to {output_path} .")
                 
-def words_to_annotate(pos, minimum_num_senses = 4):
-    with open(f'moh/extend/lemma_{pos}.pickle', 'rb') as f:
-        lemmas_to_annotate = pickle.load(f)
-    
-    with open(f'moh/extend/words_to_annotate_pos_{pos}.tsv', 'w') as f:
-        df = pd.DataFrame(lemmas_to_annotate)
-        for word, group in df.groupby('word'):
-            if len(group) <= minimum_num_senses:
-                continue
-            f.write(f'{word}\t{len(group)}\t')
-            f.write('\t'.join(group['lemma']))
-            f.write('\n')
-    
-    print(f'Write to moh/extend/words_to_annotate_pos_{pos}.tsv')
+    def words_to_annotate(self, minimum_num_senses = 4, save_path = 'moh/extend'):
+        save_path = os.path.join(save_path, f"words_to_annotate_pos_{self.pos}.tsv")
+        with open(save_path, 'w') as f:
+            f.write('word\tnum_senses\tlemmas\n')
+            df = pd.DataFrame(self.all_lemmas)
+            for word, group in df.groupby('word'):
+                if len(group) <= minimum_num_senses:
+                    continue
+                f.write(f'{word}\t{len(group)}\t')
+                f.write('\t'.join(group['lemma']))
+                f.write('\n')
+        
+        print(f'Write to {save_path} .')
 
 if __name__ == '__main__':
-    l2a = lemma_to_annotate('a')
+    l2a = lemma_to_annotate('r')
     l2a.annotation_forms(save_path='moh/extend')
+    l2a.words_to_annotate(save_path='moh/extend')
     # l2a = words_to_annotate('a')
