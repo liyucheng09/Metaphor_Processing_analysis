@@ -1,1264 +1,474 @@
-Does the following sentence pair semantically equivalent?
+He strokes its side , which is white and marked with **round** patches of black , like islands on a naïvely drawn map .
+ {'around'}
 
-1. Just cut the **damn** boat loose , ’ I said vengefully . 
-2. Just cut the **all-fired** boat loose , ’ I said vengefully .
+No one could therefore call for the closure of incineration plants at a stroke , because noxious chemicals have to go **somewhere** .
+ {'someplace'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+They seem to be weighing the incident **carefully** in their minds .
+ {'cautiously'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+She is the child of this paper unless I indicate **otherwise** .
+ {'other_than', 'differently'}
 
-1. Yeah I had it go over **there** 
-2. Yeah I had it go over **at_that_place**
+In **hard** hats and protective glasses , we walked past the huge ‘ fume cupboard ’ where the most noxious barrels are opened , and arrived at the vast , closed mouth of the furnace itself .
+ {'heavily', 'firmly', 'intemperately', 'severely'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+On her **second** day Madame Mattli took her to Vidal Sassoon 's salon in Grosvenor House so that her hair could be cut in an up-to-the-minute style .
+ {'secondly'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Is it possible to change school science in this fashion and **still** preserve the essential character of science itself ?
+ {'notwithstanding', 'however', 'yet', 'even', 'all_the_same', 'nonetheless', 'stock-still', 'withal', 'even_so', 'nevertheless'}
 
-1. **Just** a minute darling it 's alright I can afford to buy you a packet of Polos . 
-2. **just** a minute darling it 's alright I can afford to buy you a packet of Polos .
+They held up the bright new diesel buses and , **even** worse , blocked the progress of private motorists in bulbous Austins and lumpen Humbers in canyon-like city thoroughfares .
+ {'yet', 'still'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+For example Roe ( 1952 ) , Eiduson ( 1962 ) and McClelland ( 1962 ) suggested that male scientists often experienced a lonely childhood , **perhaps** suffering social isolation through illness or family circumstances , so that they developed a strong interest in their surrounding material world and a below average interest in other people and relationships .
+ {'maybe', 'mayhap', 'peradventure', 'possibly', 'perchance'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+**Quite** good actually .
+ {'quite', 'rather', 'quite_a', 'quite_an'}
 
-1. In his sermon , Dr Runcie said : ‘ We should **ever** recognise the scandal that Anglicans and Roman Catholics must celebrate two eucharists to make one memorial of our redemption on the day of our Lord . ’ 
-2. In his sermon , Dr Runcie said : ‘ We should **of_all_time** recognise the scandal that Anglicans and Roman Catholics must celebrate two eucharists to make one memorial of our redemption on the day of our Lord . ’
+Oh I have n't got that long to make them , **yet** am I ?
+ {'notwithstanding', 'as_yet', 'so_far', 'until_now', 'heretofore', 'up_to_now', 'nonetheless', 'however', 'in_time', 'withal', 'even_so', 'even', 'all_the_same', 'still', 'thus_far', 'til_now', 'hitherto', 'nevertheless'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+VISTA made science more girl friendly in two ways : both boys and girls were offered an attractive image of a competent woman scientist , and talks concentrated on social and industrial applications of science , an element too **often** missing from science at school .
+ {'frequently', 'ofttimes', 'much', 'a_great_deal', 'oft', 'oftentimes'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+At a nearby house , Leonard Hough , a retired schoolmaster , had **earlier** told me about ‘ the fog ’ which he says comes from the factory .
+ {'in_the_beginning', 'originally', 'before', 'in_the_first_place', 'sooner', 'to_begin_with'}
 
-1. Well she does n't like M C Hammer , he was on , and **then** there was one week with Germans on it and it was , erm , it 's a German group that used to be popular and have n't done a song for ages . 
-2. Well she does n't like M C Hammer , he was on , and **so** there was one week with Germans on it and it was , erm , it 's a German group that used to be popular and have n't done a song for ages .
+It 's not very heavy **Really** to start a truss that 's
+ {'very', 'genuinely', 'truly', 'really', 'real', 'rattling', 'actually', 'in_truth'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+**Maybe** one day … ’
+ {'maybe', 'mayhap', 'perhaps', 'peradventure', 'possibly', 'perchance'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+There was some space at the other end **actually** .
+ {'really', 'in_reality'}
 
-1. The AEC is **primarily** intended for young adults subject to a probation order with a special condition of attendance ( Schedule 11 4A(II) Criminal Justice Act 1982 ) and reflects the fact that most Somerset offenders in trouble through drink commit serious offences and/or possess a substantial number of previous convictions . 
-2. The AEC is **in_the_main** intended for young adults subject to a probation order with a special condition of attendance ( Schedule 11 4A(II) Criminal Justice Act 1982 ) and reflects the fact that most Somerset offenders in trouble through drink commit serious offences and/or possess a substantial number of previous convictions .
+‘ He 's **precisely** what anyone would expect of a drop-out Phys Ed basketball-playing retard , ’ Ellen said scornfully , ‘ by which I mean that he 's a jock with the brains of a dung beetle .
+ {'on_the_dot', 'on_the_button', 'on_the_nose', 'exactly', 'incisively', 'just'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+The major problem faced by theories suggesting a link between genetic make-up and **criminal** behaviour is the difficulty of distinguishing between genetic and environmental effects .
+ {'vicious', 'reprehensible', 'deplorable', 'condemnable', 'felonious'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+to make and enter into , on a basis of mutual consent , quasifamilial relationships outside one 's immediate family — i.e. the right to seek and choose guardians other than one 's own parents and to be legally **dependent** on them .
+ {'dependant', 'qualified', 'pendent', 'pendant', 'drug-addicted', 'strung-out', 'subject', 'subordinate', 'hooked'}
 
-1. The organization has initiated many of the schemes which **now** are under discussion — the IGBP , for instance , has been strongly influenced by NASA proposals . 
-2. The organization has initiated many of the schemes which **like_a_shot** are under discussion — the IGBP , for instance , has been strongly influenced by NASA proposals .
+One of the purposes of an extended period of single-sex science teaching might be to let teachers see how girls approach scientific matters , and to discover , what may well be the case , that girls are just as **capable** of ‘ scientific thinking ’ as boys .
+ {'open', 'equal_to', 'up_to', 'subject', 'adequate_to', 'able'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+There is , therefore , before any understanding of historic agents and movements , a **certain** aporia in all social ensembles : from afar they may appear whole , but close to , they can be seen as riddled with holes .
+ {'sure', 'sealed'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Sartre produces a persuasive formulation of the relation of the individual to the determining **historical** circumstance through his concepts of praxis and the practico-inert ; it is also obvious to him how the larger question of History ought to be solved .
+ {'historic', 'diachronic'}
 
-1. ‘ But you think **there** is . ’ 
-2. ‘ But you think **on_that_point** is . ’
+An individual 's degree of extroversion or introversion is inherited , determined by his or her **genetic** make-up .
+ {'familial', 'genetical', 'hereditary', 'transmissible', 'inherited', 'transmitted', 'genic'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Education has been directed at the production of the **rational** , the free , the independent of mind , the dignified , in short , the autonomous human being .
+ {'noetic', 'intellectual'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+It is a good time to plant **hardy** shrubs too .
+ {'stout', 'stalwart', 'intrepid', 'dauntless', 'unfearing', 'audacious', 'sturdy', 'brave', 'fearless'}
 
-1. **Seriously** , I 'd fucking have it out of there , everything I own . 
-2. **badly** , I 'd fucking have it out of there , everything I own .
+It 's just , just a **little** , a little sort of parquet
+ {'trivial', 'piddling', 'short', 'lilliputian', 'footling', 'petty', 'fiddling', 'small', 'piffling', 'minuscule', 'picayune', 'slight', 'niggling'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Those who are still in a state to require being taken care of by others must be protected against their own actions as well as against **external** injury .
+ {'outside', 'extraneous', 'international'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+In those cases there is no **possible** treatment , one is born a criminal .
+ {'potential'}
 
-1. and **probably** because because of his father and er the the other relative having the bypasses done . 
-2. and **in_all_probability** because because of his father and er the the other relative having the bypasses done .
+In all this , there are perhaps a couple of things which look plausible when we compare the philosopher 's child with our **mental** picture ; Aristotle 's observation that children are immature and Mill 's suggestion that they might need protection .
+ {'genial'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+If by 1945 Merleau-ponty had here already indicated the historical basis for what was to become Sartre 's project in the Critique , the theoretical problem that followed was how to unite orthodox Marxist concepts of economic determinism and **historical** necessity with the individualism of Sartre 's earlier work , that is the existentialist notion of the authentic self and the possibility of choosing one 's own freedom : how to relocate human practice within historical determinism , to reconcile the individual with the social , the idea of agency with that of necessity , or freedom with history ?
+ {'historic', 'diachronic'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+No matter ; only the accents change — and the pants : here , the squares wear slacks , the **good** guys blue-jeans .
+ {'unspoilt', 'well', 'respectable', 'dependable', 'secure', 'right', 'adept', 'just', 'honorable', 'effective', 'expert', 'serious', 'skilful', 'unspoiled', 'honest', 'skillful', 'dear', 'in_force', 'safe', 'full', 'undecomposed', 'in_effect', 'proficient', 'salutary', 'practiced', 'ripe', 'beneficial', 'estimable', 'upright', 'near', 'sound'}
 
-1. Now he really was human — unscripted , jokey , **even** a bit passionate . 
-2. Now he really was human — unscripted , jokey , **still** a bit passionate .
+Not too **bad** .
+ {'uncollectible', 'forged', 'sorry', 'defective', 'tough', 'big', 'spoilt', 'speculative', 'unfit', 'unsound', 'regretful', 'spoiled', 'high-risk', 'risky'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+She did n't need a **single** second .
+ {'exclusive', 'individual', 'unmarried', 'undivided'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+The youth … is **capable** of having principles ; his religious and moral ideas can be cultivated , and he is able to attend to his own refinement .
+ {'open', 'equal_to', 'up_to', 'subject', 'adequate_to', 'able'}
 
-1. Amaldi astounded his group in October 1934 with his discovery that by slowing down , **rather** than accelerating , neutrons , he could provoke intense nuclear reactions . 
-2. Amaldi astounded his group in October 1934 with his discovery that by slowing down , **sooner** than accelerating , neutrons , he could provoke intense nuclear reactions .
+That **old** lady ?
+ {'Old', 'quondam', 'older', 'previous', 'honest-to-god', 'sometime', 'sure-enough', 'onetime', 'honest-to-goodness', 'former', 'erstwhile', 'one-time'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+A further possibility is that the **individual** may , at least for a time , hold onto beliefs and values taken without question from others , for example parents , teachers , peers .
+ {'private', 'item-by-item', 'case-by-case', 'single'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+At present the science curriculum is structured around physical science interests , on which boys are keener ( how motor cars work , atoms and molecules ) ; we were able to recommend that teaching build on the overlapping interests of the two sexes , because girls as well as boys want to know more about human biology and **spectacular** features of the environment ( animals in the jungle , volcanoes and earthquakes , acids and chemicals ) .
+ {'salient', 'dramatic', 'striking', 'outstanding', 'prominent'}
 
-1. In August 1976 a car , containing an IRA gunman , **possibly** already dead , ploughed onto a pavement and killed three of Mrs Maguire 's children , Joanne , eight , John , two , Andrew , six weeks , leaving one son , Mark , aged seven . 
-2. In August 1976 a car , containing an IRA gunman , **perchance** already dead , ploughed onto a pavement and killed three of Mrs Maguire 's children , Joanne , eight , John , two , Andrew , six weeks , leaving one son , Mark , aged seven .
+Oh **dear** , oh Lord !
+ {'costly', 'earnest', 'heartfelt', 'good', 'high-priced', 'beloved', 'pricey', 'darling', 'pricy', 'near', 'devout'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+for the third of January , then he goes back **tenth** cos his
+ {'10th'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+He turns his **old** head wearily , as if to indicate to his family the kind of people he has to deal with these days .
+ {'Old', 'quondam', 'older', 'previous', 'honest-to-god', 'sometime', 'sure-enough', 'onetime', 'honest-to-goodness', 'former', 'erstwhile', 'one-time'}
 
-1. It is **also** a warning to all hack Tories who think that it is a telling blow against Kinnock to keep on pointing out that he has reversed his opinions about unilateral nuclear disarmament , British membership of the EC , or anything else . 
-2. It is **besides** a warning to all hack Tories who think that it is a telling blow against Kinnock to keep on pointing out that he has reversed his opinions about unilateral nuclear disarmament , British membership of the EC , or anything else .
+**ILLEGITIMATE** INFERENCES
+ {'outlawed', 'illicit', 'outlaw', 'illegitimate', 'unlawful'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Paula **said** roundly .
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+He was supposed to deliver a bull to the district officer , it was about three weeks ago , and he decided at the last moment to **replace** the bull with another one .
+ {'supervene_upon', 'exchange', 'put_back', 'supercede', 'supplant', 'substitute', 'interchange', 'supersede'}
 
-1. He describes the features of the four main systems that are **currently** in use in the UK and illustrates their application with reference to examples drawn from retail analysis and store location , market research , credit rating and target marketing . 
-2. He describes the features of the four main systems that are **presently** in use in the UK and illustrates their application with reference to examples drawn from retail analysis and store location , market research , credit rating and target marketing .
+And now my family have offered forty-nine cattle to his family , but the government will not take them to **give** to his family in England . ’
+ {'collapse', 'feed', 'chip_in', 'pass_on', 'ease_up', 'yield', 'gift', 'give_way', 'commit', 'render', 'establish', 'fall_in', 'have', 'throw', 'hold', 'present', 'grant', 'make', 'cave_in', 'apply', 'afford', 'pay', 'dedicate', 'founder', 'reach', 'impart', 'contribute', 'generate', 'leave', 'sacrifice', 'return', 'hand', 'pass', 'turn_over', 'break', 'consecrate', 'open', 'devote', 'kick_in', 'move_over'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+We must **remember** that to deny someone control of their own lives is to offer them a most profound insult , not to mention the which the frustration of their wishes and the setting at naught of their own plans for themselves will add .
+ {'recollect', 'recall', 'retrieve', 'think', 'commemorate', 'call_back', 'think_of', 'think_back', 'commend', 'call_up'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+And then **watch**
+ {'see', 'find_out', 'ascertain', 'determine', 'watch_over', 'look_out', 'look_on', 'observe', 'keep_an_eye_on', 'check', 'watch_out', 'view', 'take_in', 'catch', 'learn', 'follow'}
 
-1. IT was n't the only programme **last** night to shine light into dirty corners . 
-2. IT was n't the only programme **finally** night to shine light into dirty corners .
+‘ He 's precisely what anyone would expect of a drop-out Phys Ed basketball-playing retard , ’ Ellen **said** scornfully , ‘ by which I mean that he 's a jock with the brains of a dung beetle .
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+‘ I guess you can **guess** , ’ he said .
+ {'reckon', 'judge', 'pretend', 'opine', 'think', 'hazard', 'estimate', 'infer', 'gauge', 'approximate', 'imagine', 'suppose', 'venture'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+The waste **arrives** at the rate of up to seven tanker-loads every day — that is seven lorries passing thousands of doorsteps .
+ {'make_it', 'get_in', 'get', 'go_far', 'come'}
 
-1. **Now** why , what made them take it to the stage 
-2. **straight_off** why , what made them take it to the stage
+It was when you were playing with it with your fingers , do you **remember** ?
+ {'recollect', 'recall', 'retrieve', 'think', 'commemorate', 'call_back', 'think_of', 'think_back', 'commend', 'call_up'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Half way through the day 's programme of shows , while the dressers went off to grab a sandwich and the model girls , who would not dare to eat while they were showing , revived themselves with cups of black coffee , Madame Mattli **took** Paula to one side .
+ {'hire', 'convey', 'postulate', 'admit', 'subscribe', 'get_hold_of', 'consume', 'adopt', 'involve', 'lease', 'accept', 'get', 'conduct', 'lead', 'have', 'rent', 'take_on', 'occupy', 'claim', 'withdraw', 'shoot', 'hold', 'fill', 'make', 'submit', 'guide', 'take_away', 'drive', 'exact', 'call_for', 'pick_out', 'necessitate', 'train', 'choose', 'take_up', 'ingest', 'read', 'aim', 'consider', 'direct', 'require', 'take_aim', 'deal', 'carry', 'strike', 'ask', 'pack', 'learn', 'study', 'demand', 'contain', 'assume', 'acquire', 'charter', 'use_up', 'select', 'need', 'engage', 'subscribe_to', 'contract', 'bring', 'film', 'remove', 'take_in', 'look_at'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+But you ca n't expect me to cut myself off from my friends , ’ she **said** .
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-1. She did **so** , casting an experienced eye over him . 
-2. She did **indeed** , casting an experienced eye over him .
+He **looks** at Fairfax without fear .
+ {'see', 'attend', 'expect', 'reckon', 'calculate', 'front', 'depend', 'search', 'appear', 'take_care', 'wait', 'count', 'seem', 'await', 'bet', 'face'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Is it any better to **oblige** her to go abseiling or butterfly-catching instead ?
+ {'hold', 'compel', 'obligate', 'accommodate', 'bind'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+As Lord McCarthy noted some 13 years ago , the management side of the councils comprise ‘ employers who do not **pay** and paymasters who do not employ . ’
+ {'pay_off', 'devote', 'yield', 'ante_up', 'bear', 'compensate', 'pay_up', 'make_up', 'give'}
 
-1. This did not , however , stop the question of political marginality and the need to reform existing policies from being raised at all , as can be seen subsequently by the attempts after 1981 to introduce both **locally** and nationally measures which were meant to address some of the grievances of the rioters and to ensure that further disturbances did not occur . 
-2. This did not , however , stop the question of political marginality and the need to reform existing policies from being raised at all , as can be seen subsequently by the attempts after 1981 to introduce both **topically** and nationally measures which were meant to address some of the grievances of the rioters and to ensure that further disturbances did not occur .
+If he , if he **says** anything to me I 'll just have to tell him .
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Months later , when Marie had **departed** , Louis is said to have paused nostalgically at Brouage on his way to Paris after marrying the Spanish Infanta at St Jean-de-Luz .
+ {'sidetrack', 'straggle', 'set_off', 'part', 'take_off', 'start', 'digress', 'quit', 'set_forth', 'set_out', 'deviate', 'vary', 'take_leave', 'pull_up_stakes', 'leave', 'diverge', 'go', 'start_out', 'go_away'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Oh yeah you you have to erase it but nobody 's gon na , I mean to say , nobody knows who you are , what you 've **said** anyway at all , do they ?
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-1. The vector potential is not a popular variable among engineers , **maybe** because it is not directly measurable . 
-2. The vector potential is not a popular variable among engineers , **possibly** because it is not directly measurable .
+But a disclaimer can never take away your rights under the Defective Premises Act 1972 for the **collapsing** conservatory or prevent anyone being sued for negligence which has caused death or injury .
+ {'break_down', 'crock_up', 'crumple', 'founder', 'crumble', 'tumble', 'crack', 'burst', 'cave_in', 'give_way', 'break', 'fall_in', 'give', 'break_up', 'crack_up'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Half way through the day 's programme of shows , while the dressers went off to grab a sandwich and the model girls , who would not dare to eat while they were **showing** , revived themselves with cups of black coffee , Madame Mattli took Paula to one side .
+ {'render', 'establish', 'prove', 'bear_witness', 'present', 'record', 'demo', 'evince', 'express', 'point', 'show_up', 'indicate', 'evidence', 'read', 'demonstrate', 'testify', 'depict', 'picture', 'usher', 'designate', 'register', 'exhibit', 'shew'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+I do n't **think** we did Tim .
+ {'reckon', 'imagine', 'conceive', 'believe', 'recall', 'remember', 'mean', 'cogitate', 'consider', 'call_back', 'intend', 'suppose', 'cerebrate', 'call_up', 'recollect', 'opine', 'guess', 'retrieve'}
 
-1. You want to plant them , you can help me plant them cos you 'll be **around** 
-2. You want to plant them , you can help me plant them cos you 'll be **close_to**
+I mean , you think about all this I **mean** a load of crap when they have larders and all that !
+ {'signify', 'think', 'stand_for', 'think_of', 'entail', 'imply', 'intend', 'have_in_mind'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Eventually these persons might have to face up to period of crisis , of self-examination , and so achieve ego-identity by route C. However , foreclosure does offer an escape route and an individual might **postpone** indefinitely any real self-examination by clinging rigidly to his or her beliefs and values ( route D ) .
+ {'defer', 'put_over', 'set_back', 'table', 'put_off', 'shelve', 'hold_over', 'remit', 'prorogue'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Here Only me about me **getting** drunk , as if I would dear !
+ {'bring_forth', 'pay_off', 'obtain', 'mother', 'incur', 'convey', 'arrive', 'bugger_off', 'puzzle', 'get_down', 'set_about', 'scram', 'bewilder', "get_under_one's_skin", 'nonplus', 'come', 'have', 'catch', 'vex', 'stimulate', 'commence', 'begin', 'become', 'receive', 'gravel', 'make', 'start', 'let', 'baffle', 'drive', 'cause', 'pose', 'set_out', 'fetch', 'suffer', 'fuck_off', 'stick', 'mystify', 'fix', 'capture', 'aim', 'draw', 'grow', 'perplex', 'dumbfound', 'experience', 'sustain', 'flummox', 'induce', 'develop', 'generate', 'stupefy', 'amaze', 'find', 'arrest', 'engender', 'beget', 'acquire', 'father', 'contract', 'go', 'sire', 'take', 'bring', 'pay_back', 'buzz_off', 'beat', 'start_out', 'produce'}
 
-1. **Out** at the meeting again on Monday night . 
-2. **away** at the meeting again on Monday night .
+But if the valuer is negligent and you **buy** the property relying on his report , you may still be able to sue him for damages .
+ {'purchase', "grease_one's_palms", 'corrupt', 'bribe'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Design : Crossed lines over the toytown tram : City transport could soon be back on the right track , **says** Jonathan Glancey
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Prices have **remained** high-indeed the FT-SE index has risen another 55 points since then — allowing even the most passive of private investors , including unit trust holders , to take advantage of the market .
+ {'stay', 'rest', 'persist', 'continue', 'stay_on'}
 
-1. I do not **fully** appreciate the experience of an American late-night movie without a bourbon , or a book at bedtime without a single malt . 
-2. I do not **amply** appreciate the experience of an American late-night movie without a bourbon , or a book at bedtime without a single malt .
+Afterwards , incongruously dressed in a raincoat , she went to the bows and **stared** briefly down at the mesmerising onrush of sea where it split and foamed at Wavebreaker 's cutwater .
+ {'asterisk', 'gaze', 'stare'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+To **impose** such a test on children would be a particularly invidious way of discriminating against them , unless Harris has in mind that we should all undergo such examination .
+ {'enforce', 'visit', 'bring_down', 'inflict', 'levy'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Five more incinerators currently **proposed** in various parts of the country will double capacity .
+ {'aim', 'purpose', 'project', 'pop_the_question', 'purport', 'nominate', 'offer', 'declare_oneself', 'suggest', 'advise'}
 
-1. ‘ **Maybe** not women , but … my parents . 
-2. ‘ **peradventure** not women , but … my parents .
+Yet the ambulance worker is only being offered £10,000 , when a fire officer is being given £13,000 and a Metropolitan police constable can **earn** £25,000 .
+ {'bring_in', 'garner', 'realise', 'make', 'take_in', 'clear', 'realize', 'pull_in', 'gain'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+A child **greets** her , but a young warrior strikes the child with a stick .
+ {'recognize', 'recognise'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+She had known about the vacancy at Mattli and hoped that the job might be **offered** to Paula .
+ {'bid', 'put_up', 'pop_the_question', 'proffer', 'tender', 'extend', 'provide', 'propose', 'volunteer', 'declare_oneself', 'offer_up'}
 
-1. **There** are also outstanding bits of Indian stone monuments , with gods and goddesses sensuously entwined in spiritual embrace ; they start with the Gandhara grey schist carvings of the third/fourth century . 
-2. **at_that_place** are also outstanding bits of Indian stone monuments , with gods and goddesses sensuously entwined in spiritual embrace ; they start with the Gandhara grey schist carvings of the third/fourth century .
+But all the same I could n't make such a move without giving it some thought , ’ Paula **said** grandly .
+ {'aver', 'read', 'order', 'sound_out', 'enunciate', 'enounce', 'pronounce', 'state', 'articulate', 'suppose', 'enjoin', 'allege', 'tell'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+You sort of pass it without **realising** , going to the Dordogne .
+ {'bring_in', 'earn', 'agnize', 'agnise', 'see', 'make', 'substantiate', 'take_in', 'clear', 'actualize', 'realize', 'pull_in', 'actualise', 'recognize', 'gain', 'understand', 'recognise'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+They **want** somebody here from the for half an hour and them not being served first
+ {'need', 'require', 'desire'}
 
-1. It was a distinguished face with the **deep-set** , widely spaced eyes beneath straight brows , a well-shaped , rather secretive mouth and strong greying hair swept upwards and curled into a chignon . 
-2. It was a distinguished face with the **sunken** , widely spaced eyes beneath straight brows , a well-shaped , rather secretive mouth and strong greying hair swept upwards and curled into a chignon .
+‘ I have been **watching** you work , ’ Madame Mattli said directly .
+ {'see', 'find_out', 'ascertain', 'determine', 'watch_over', 'look_out', 'look_on', 'observe', 'keep_an_eye_on', 'check', 'watch_out', 'view', 'take_in', 'catch', 'learn', 'follow'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+The recognition that children can not simply be written off in the rationality stakes and can not therefore be denied autonomy on this account has led some writers to conclude that they can not , therefore , be **denied** it on any account .
+ {'abnegate', 'refuse', 'traverse'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+But these themes are always **interspersed** with more fanciful ones : grimacing masks , weird animals , exuberant abstract patterns .
+ {'interlard'}
 
-1. The need , at least with data on the **terrestrial** environment , for an inference process to extract useful information from the secondary ( and often proxy ) data ; 
-2. The need , at least with data on the **planetary** environment , for an inference process to extract useful information from the secondary ( and often proxy ) data ;
+all , just hardboard like that , with just a little O like that and you , you , you **shout** a pint of beer and you pushed your money through and then a beer came out the other side !
+ {'abuse', 'yell', 'exclaim', 'cry', 'shout_out', 'clapperclaw', 'blackguard', 'holler', 'outcry', 'squall', 'scream', 'call', 'call_out', 'cry_out', 'hollo'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Five air-monitoring plants had been installed ( he took me to **see** them ) .
+ {'reckon', 'examine', 'witness', 'visualize', 'discover', 'watch', 'pick_up', 'visit', 'interpret', 'regard', 'check', 'get_a_line', 'take_care', 'look', 'date', 'get_wind', 'catch', 'run_into', 'assure', 'attend', 'hear', 'visualise', 'construe', 'project', 'image', 'run_across', 'go_steady', 'meet', 'view', 'go_out', 'consider', 'fancy', 'determine', 'experience', 'see_to_it', 'realize', 'find', 'control', 'understand', 'learn', 'encounter', 'picture', 'find_out', 'ascertain', 'realise', 'envision', 'figure', 'come_across', 'escort', 'ensure', 'go_through', 'get_word', 'insure', 'take_in'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Are you coming Christopher or are you going to **sit** here to have your meal ?
+ {'model', 'sit_down', 'posture', 'baby-sit', 'sit_around', 'pose', 'ride', 'seat'}
 
-1. It should be clear from this brief description that these issues are inherently **geographical** . 
-2. It should be clear from this brief description that these issues are inherently **geographic** .
+He said that the most important thing in the world , I mean our **world** , is to live la vraie vie .
+ {'universe', 'humankind', 'populace', 'mankind', 'existence', 'macrocosm', 'reality', 'man', 'earth', 'cosmos', 'human_beings', 'domain', 'creation', 'earthly_concern', 'worldly_concern', 'humans', 'globe', 'Earth', 'humanity', 'public', 'human_race'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Ay , I I 've I 've said that to them I said well you might have , if I take to work you 'll certainly hear some they said well if that 's common usage words that 's what it has to be and words that we never use at all that are in dictionaries and nobody ever uses them , they want to know common ordinary speech **words** that we use .
+ {'row', 'password', 'run-in', 'dustup', 'Bible', 'speech', 'Son', 'wrangle', 'countersign', 'Holy_Writ', 'words', 'Scripture', 'lyric', 'news', 'Holy_Scripture', 'parole', 'intelligence', 'tidings', 'Christian_Bible', 'Logos', 'Good_Book', 'Book', 'language', 'discussion', 'quarrel', 'give-and-take', 'word_of_honor', 'watchword', "actor's_line", 'Word_of_God', 'Word'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+A vast , smoke-blackened furnace ; 100 people to do the work ; massive investment — the company spent £2m last year on cleaning up **smoke** emissions .
+ {'fastball', 'weed', 'hummer', 'locoweed', 'sens', 'grass', 'pot', 'bullet', 'Mary_Jane', 'dope', 'roll_of_tobacco', 'heater', 'green_goddess', 'skunk', 'gage', 'smoking', 'sess', 'fume'}
 
-1. Off we go up the step there 's a **good** girl . 
-2. Off we go up the step there 's a **just** girl .
+On their **heads** they wear fezes .
+ {'school_principal', 'foreland', 'promontory', 'oral_sex', 'headland', 'heading', 'top_dog', 'read/write_head', 'question', 'point', 'head_teacher', 'straits', 'caput', 'headspring', 'drumhead', 'headway', 'header', 'brain', 'nous', 'pass', 'chief', 'principal', 'psyche', 'capitulum', 'mind', 'forefront', 'fountainhead', 'head_word'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+‘ Can you manage a brandy and **soda** ? ’
+ {'soda_pop', 'sodium_carbonate', 'tonic', 'pop', 'sal_soda', 'soda_ash', 'washing_soda', 'soda_water'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Gary was not interested in **girls** .
+ {'young_lady', 'fille', 'lady_friend', 'little_girl', 'young_woman', 'female_child', 'daughter', 'missy', 'miss', 'girlfriend'}
 
-1. A large sports-fishing boat was moored alongside Wavebreaker , but moored so crudely that whoever had brought the powerboat alongside the schooner had not bothered to put out fenders , but instead had gouged long **ugly** gashes in Wavebreaker 's white paint . 
-2. A large sports-fishing boat was moored alongside Wavebreaker , but moored so crudely that whoever had brought the powerboat alongside the schooner had not bothered to put out fenders , but instead had gouged long **vile** gashes in Wavebreaker 's white paint .
+Sixty watt light **bulbs**
+ {'electric-light_bulb', 'medulla_oblongata', 'incandescent_lamp', 'medulla', 'light_bulb', 'electric_light', 'lightbulb'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Overall there would be some increase in the **recruitment** of girls , but no qualitative improvement .
+ {'enlisting'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+In his **book** L'Uomo Delinquente , Lombroso developed a complex description of what he called the ‘ born criminal ’ , who could be recognised by a variety of physical characteristics , in particular facial characteristics — for example large jaws and ears , and high cheek bones .
+ {'record_book', 'Bible', 'Holy_Writ', 'book_of_account', 'Scripture', "al-Qur'an", 'record', 'Holy_Scripture', 'Word_of_God', 'volume', 'script', 'Christian_Bible', 'Good_Book', 'ledger', 'account_book', 'Book', 'Quran', 'leger', 'Koran', 'playscript', 'rule_book', 'Word'}
 
-1. These factors are worthy of emphasis because in practice they are still dealt with very badly in many organisations and yet it takes little trouble or expertise to make an **enormous** difference . 
-2. These factors are worthy of emphasis because in practice they are still dealt with very badly in many organisations and yet it takes little trouble or expertise to make an **tremendous** difference .
+But she 's got about six different firms on the computer and was comparing **notes** .
+ {'note_of_hand', 'bill', 'promissory_note', "banker's_bill", 'short_letter', 'annotation', 'greenback', 'Federal_Reserve_note', 'eminence', 'distinction', 'bank_bill', 'line', 'notation', 'bank_note', 'preeminence', 'banknote', 'tone', 'billet', 'musical_note', 'government_note'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+In front of the building is a **row** of white-painted stones and some cactus-like sisal plants forming a circle around a patch of grass .
+ {'rowing', 'quarrel', 'run-in', 'dustup', 'course', 'wrangle', 'words'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Thereafter , there is a steady decline of interest in **science** and this disillusionment extends right through the secondary-school years and into the undergraduate period .
+ {'skill', 'scientific_discipline'}
 
-1. To complicate matters still further , however , it seems at least possible that the components of the earth system may best be predicted deterministically at some spatial and temporal scales but stochastically at others and that the basis of prediction will differ for **different** components . 
-2. To complicate matters still further , however , it seems at least possible that the components of the earth system may best be predicted deterministically at some spatial and temporal scales but stochastically at others and that the basis of prediction will differ for **dissimilar** components .
+Not all problems have gone away of course : yesterday 's £6.4 billion public sector **borrowing** requirement is not much higher than expectations , but it is almost as large as the deficit for the previous 11 months and — with this year 's deficit forecast to be double last year 's — shows why the Bank of England so eagerly sold £2 billion or more of gilts on election night and why it needs a regular stream of massive sales .
+ {'adoption'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+**Girls** had far less ‘ tinkering ’ experience than boys and the connection with their lesser interest in topics like ‘ how electricity is produced ’ seemed obvious .
+ {'girl', 'young_lady', 'fille', 'lady_friend', 'little_girl', 'young_woman', 'female_child', 'daughter', 'missy', 'miss', 'girlfriend'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+She had booked herself a bed at a YWCA hostel for the **time** being .
+ {'clip', 'clock_time', 'sentence', 'prison_term', 'fourth_dimension', 'meter', 'metre'}
 
-1. **Few** people noticed the event as it took place in an uninhabited part of Kamchatcka and caused no known casualties . 
-2. **few** people noticed the event as it took place in an uninhabited part of Kamchatcka and caused no known casualties .
+Well this is the **area** that you 'll have to do something about is the if you 're gon na knock it into the Winter Gardens this is the area that knocks into the Winter Gardens .
+ {'surface_area', 'region', 'domain', 'arena', 'expanse', 'country', 'orbit', 'field', 'sphere'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Furthermore , the characteristics of those students who do opt for science show clear **sex** differences .
+ {'sexual_activity', 'sexuality', 'sexual_practice', 'gender', 'sexual_urge', 'sex_activity'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+In fact I have just been looking at a **place** in South Audley Street , not far from Mattli .
+ {'berth', 'home', 'property', 'spot', 'situation', 'lieu', 'office', 'space', 'topographic_point', 'blank_space', 'billet', 'post', 'seat', 'stead', 'position', 'shoes', 'piazza', 'plaza', 'station'}
 
-1. It is always laborious to find the components of a vector , so we are not much better off with A than with H or B. It turns out however that A is a more basic quantity of physics than B. Since B is given by the curl of A it is **possible** that A is finite while its curl is zero . 
-2. It is always laborious to find the components of a vector , so we are not much better off with A than with H or B. It turns out however that A is a more basic quantity of physics than B. Since B is given by the curl of A it is **potential** that A is finite while its curl is zero .
+In relation to the sentence stem ‘ A girl and her mother … ’ , girls often produce responses like ‘ often go through a bad patch for a **year** but once they learn to understand each other , become the best of friends ’ or ‘ can help each other with their problems ’ .
+ {'yr', 'class', 'twelvemonth'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Cos if you 're looking at a two hundred **capacity** conference for er
+ {'capacitance', 'content', 'capability', 'mental_ability', 'electrical_capacity'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+You can not kill a **man** deliberately . ’
+ {'humankind', 'valet', 'world', 'military_personnel', 'mankind', 'human', 'valet_de_chambre', 'Isle_of_Man', 'serviceman', 'human_beings', "gentleman's_gentleman", 'human_being', 'homo', 'humans', 'gentleman', 'humanity', 'adult_male', 'piece', 'human_race', 'Man', 'military_man'}
 
-1. But the effect of the **magnetic** field upon the motion of the electrons is nearly always negligible ( one exception causing the pinch effect is mentioned in the previous section ) . 
-2. But the effect of the **magnetised** field upon the motion of the electrons is nearly always negligible ( one exception causing the pinch effect is mentioned in the previous section ) .
+‘ Never has homo faber better understood that he has made **history** and never has he felt so powerless before history ’ .
+ {'account', 'story', 'chronicle'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+That when women are given the vote it follows that children should be given it too is no **argument** at all , but a version of it occurs in modern debates over the justice or injustice of Mill 's famous disclaimer in his essay On Liberty .
+ {'line', 'logical_argument', 'tilt', 'statement', 'contestation', 'debate', 'controversy', 'parameter', 'arguing', 'argumentation', 'contention', 'literary_argument', 'line_of_reasoning', 'disputation', 'disceptation'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+No , no , I come in the car , I was coming on the bus when I had this bloke next door doing some work like , I used to go out with him years ago , so he come in and had a cup of tea , I said , come in about half past eleven went **home** at one , he come
+ {'household', 'plate', 'habitation', 'place', 'menage', 'rest_home', 'domicile', 'dwelling_house', 'home_plate', 'base', 'house', 'home_base', 'abode', 'dwelling', 'nursing_home', 'family'}
 
-1. ‘ I could do with a **good** laugh . ’ 
-2. ‘ I could do with a **upright** laugh . ’
+A common result of this is that when the philosophers deny autonomy to women , they do so for the same **sorts** of reason that they deny it to children and cite lack of rationality , capriciousness and vulnerability among their characteristics .
+ {'kind', 'form', 'variety', 'sorting'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Will it fit in the **garage** ?
+ {'service_department'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+The products of a conflict , as well as its residues , may seem incomprehensible insofar as they differ from the original **intentions** of any of the combatants .
+ {'purpose', 'aim', 'design', 'intent'}
 
-1. Islington is a **multi-ethnic** , inner city London borough with a child population of 29,000 . 
-2. Islington is a **multiethnic** , inner city London borough with a child population of 29,000 .
+There 's a **car** there .
+ {'cable_car', 'machine', 'railroad_car', 'auto', 'elevator_car', 'railcar', 'railway_car', 'automobile', 'gondola', 'motorcar'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+But the regulatory functions over the food **industry** , now split between MAFF and the Department of Health , would transfer to a new Food Standards Agency .
+ {'diligence', 'industriousness', 'manufacture'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+While he suggests in apocalyptic tones in The Problem of Method that this process of self-consciousness is at last beginning to take place , and that civil , foreign and colonial wars are becoming apparent as different forms of a single **class** struggle , Sartre also admits that the divorce between theory and praxis which ensued under Stalinism has generally prevented any clear self-consciousness among the masses .
+ {'form', 'division', 'year', 'course_of_instruction', 'socio-economic_class', 'course', 'grade', 'course_of_study', 'social_class', 'stratum', 'category', 'family'}
 
-1. This may sound **utopian** , but it has been borne out by the experience of existing telecottages . 
-2. This may sound **Utopian** , but it has been borne out by the experience of existing telecottages .
+Crossing the autoroute and turning north on the D127 brings you to St Jean-d'Angely by way of the isolated **church** of Fenioux .
+ {'church_building', 'church_service', 'Christian_church'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+And with a miserable **face** like hers I 'm surprised you ever get any work done at all . ’
+ {'nerve', 'typeface', 'fount', 'expression', 'case', 'grimace', 'cheek', 'aspect', 'boldness', 'look', 'facial_expression', 'human_face', 'font', 'brass', 'side'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+In relation to the sentence stem ‘ A girl and her mother … ’ , girls often produce responses like ‘ often go through a bad patch for a year but once they learn to understand each other , become the best of **friends** ’ or ‘ can help each other with their problems ’ .
+ {'admirer', 'booster', 'protagonist', 'Friend', 'supporter', 'acquaintance', 'champion', 'Quaker', 'ally'}
 
-1. In addition , the question whether the cultures and values of the **black** communities , their family structures , and their political attitudes ‘ bred violence ’ was constantly raised ( van Dijk , 1988 ) . 
-2. In addition , the question whether the cultures and values of the **disastrous** communities , their family structures , and their political attitudes ‘ bred violence ’ was constantly raised ( van Dijk , 1988 ) .
+Such an ideal does not stand isolated from the **practices** which strive towards it but interacts with those practices , helps to construct them , and is in turn constructed by them .
+ {'pattern', 'exercise', 'praxis', 'recitation', 'practice_session', 'drill'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Our papers are currently full of ‘ hard-to-place ’ children in local authority care **advertising** for foster or adoptive parents .
+ {'advertizing', 'ad', 'advertizement', 'advert', 'advertisement', 'publicizing'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Robin-Anne reached over and tipped her brother 's food on to her own **plate** .
+ {'home', 'collection_plate', 'dental_plate', 'shell', 'home_plate', 'home_base', 'photographic_plate', 'scale', 'denture', 'crustal_plate', 'plateful'}
 
-1. **Other** work on assessment of costs and benefits of such data have been carried out for the French government by Professor Didier ( 1990 ) . 
-2. **former** work on assessment of costs and benefits of such data have been carried out for the French government by Professor Didier ( 1990 ) .
+Saintes , with Gallo-Roman remains , a beautiful Romanesque abbey and an atmospheric medieval quarter , is 17 miles south of St Jean ; 15-odd miles to the north-west is Surgeres , all of whose public buildings , including an engagingly asymmetrical **church** , are within the 16th-century castle walls , scattered among beautiful gardens and parkland — perfect for picnicking .
+ {'church_building', 'church_service', 'Christian_church'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+‘ Its main concerns would become **food** and the people who consume it , not farming and those who produce it . ’
+ {'food_for_thought', 'nutrient', 'intellectual_nourishment', 'solid_food'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Furthermore , the **characteristics** of those students who do opt for science show clear sex differences .
+ {'device_characteristic', 'feature'}
 
-1. But it should be possible to create and enforce enough common rules to prevent the **absurd** see-sawing of industrial relations legislation we have seen since 1969 . 
-2. But it should be possible to create and enforce enough common rules to prevent the **nonsensical** see-sawing of industrial relations legislation we have seen since 1969 .
+Of course , this last point does not show that there is no link between parent-child relations and **crime** and delinquency .
+ {'criminal_offence', 'law-breaking', 'offence', 'offense', 'criminal_offense'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+are not aware of the **unreality** of their original pictures which is why , often in the same sentence , they produce these contradictions .
+ {'irreality'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+The summer 's sprawl begins to be oppressive at this stage in the year and trigger fingers are itching to snip back overgrown mallows , clear out the mildewing foliage of golden **rod** and reduce the overpowering bulk of bullyboy ground cover .
+ {'perch', 'retinal_rod', 'pole', 'gat', 'rod_cell'}
 
-1. It is a curious comment on Thatcherism , however , that the administration most committed to a reduction in the role of the state , and in the need for an independent private sector , has spent more on specific urban regeneration and employment schemes and incentives to private investment in urban areas than any other in **recent** history . 
-2. It is a curious comment on Thatcherism , however , that the administration most committed to a reduction in the role of the state , and in the need for an independent private sector , has spent more on specific urban regeneration and employment schemes and incentives to private investment in urban areas than any other in **late** history .
+Sartre considered that orthodox dialectical **materialism** takes the easy way out by merely eliminating the first in favour of the second , making man a passive product entirely determined by economic circumstances .
+ {'physicalism', 'philistinism'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+But to allow herself to be dictated to in this way when she knew she had done nothing wrong was tantamount to admitting **guilt** .
+ {'guilty_conscience', 'guiltiness', 'guilt_feelings', 'guilt_trip'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Ian only last about three or four **weeks** , he was gone .
+ {'hebdomad', 'workweek', 'calendar_week'}
 
-1. We can offer you , you know , a nice **twin** room ! 
-2. We can offer you , you know , a nice **twinned** room !
+For example , lack of **discipline** in the home , genetic defects , poverty , mixing with the ‘ wrong sort ’ have all been proposed as causes of criminality .
+ {'study', 'correction', 'subject_area', 'subject_field', 'bailiwick', 'subject', 'field_of_study', 'field'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+‘ There is nothing wrong with milking cows and **goats** . ’
+ {'stooge', 'Goat', 'caprine_animal', 'laughingstock', 'Capricorn', 'Capricorn_the_Goat', 'butt'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+My present house model leaves at the end of the **month** and there are plenty of girls who would jump at the chance . ’
+ {'calendar_month'}
 
-1. The doctor refused to give her more sleeping tablets but scribbled a prescription for tranquillizers , which were increasingly prescribed for women like Clare , with symptoms of anxiety in **stressful** situations such as poverty , divorce , or bereavement ; women with marital problems and women who were out of work also found them helpful , although the pills did nothing to resolve the problem responsible for the initial anxiety . 
-2. The doctor refused to give her more sleeping tablets but scribbled a prescription for tranquillizers , which were increasingly prescribed for women like Clare , with symptoms of anxiety in **trying** situations such as poverty , divorce , or bereavement ; women with marital problems and women who were out of work also found them helpful , although the pills did nothing to resolve the problem responsible for the initial anxiety .
+Well one **day** you 'll be about eighty , dear and you 'll be the one sat there and someone saying , bloody hell look at that old codger behind the wheel !
+ {'twenty-four_hour_period', 'Clarence_Day', '24-hour_interval', 'daytime', 'sidereal_day', 'twenty-four_hours', 'Day', 'mean_solar_day', 'Clarence_Shepard_Day_Jr.', 'daylight', 'solar_day'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+In Liverpool , a dockers ' spokesman with the Transport and General Workers Union admitted : ‘ **Drivers** are n't happy handling some of these commodities , but at least a lorry-driver has more idea of what he is handling than a docker , who could have a consignment and just not know what it is . ’
+ {'number_one_wood', 'device_driver', 'driver'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Unwilling to follow Merleau-Ponty by dropping the second in favour of the first , Sartre argued that it was possible for man to be both at once through the movement of praxis , that is intentional **actions** which produce material effects .
+ {'activity', 'military_action', 'legal_action', 'action_at_law', 'activeness', 'natural_process', 'action_mechanism', 'natural_action'}
 
-1. Padded leisure shirts five ninety nine and I read the **bloody** thing out yesterday . 
-2. Padded leisure shirts five ninety nine and I read the **crashing** thing out yesterday .
+They are approaching the **fire** .
+ {'flaming', 'ardor', 'flack', 'flak', 'firing', 'fervency', 'blast', 'fervidness', 'flame', 'attack', 'fervour', 'fervor', 'ardour'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+While he suggests in apocalyptic tones in The Problem of Method that this process of self-consciousness is at last beginning to take place , and that civil , foreign and colonial wars are becoming apparent as different forms of a single class struggle , Sartre also admits that the divorce between **theory** and praxis which ensued under Stalinism has generally prevented any clear self-consciousness among the masses .
+ {'hypothesis', 'possibility'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Among the rich and famous who had come to the salon to have their hair cut , tinted and set , Paula recognised Dusty Springfield , the pop singer , her eyes big and sooty , her **lips** pearly pink , and was unable to suppress the thrill of excitement which ran through her .
+ {'back_talk', 'brim', 'backtalk', 'rim', 'sass', 'sassing', 'mouth'}
 
-1. The party was in a mutinous condition in November 1911 and there was no **apparent** successor who would have even half of Balfour 's political gifts . 
-2. The party was in a mutinous condition in November 1911 and there was no **patent** successor who would have even half of Balfour 's political gifts .
+Small **children** can sometimes be persuaded to eat cow cake in the same way that old people will eat cat food , but the chief result of all this farming was to produce huge food mountains which we could then refuse to give to the Third World , or to the socialists of Eastern Europe , in order to teach them the error of their ways .
+ {'tyke', 'youngster', 'fry', 'nestling', 'tiddler', 'small_fry', 'baby', 'nipper', 'kid', 'tike', 'minor', 'shaver'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+The funding of higher education would become the **responsibility** of one body , rather than two .
+ {'obligation', 'province', 'responsibleness', 'duty'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+So that I can go through my designs and make quite certain that there is not one collar , not one cuff **detail** , not the slightest influence that they could accuse me of copying from them .
+ {'item', 'contingent', 'point', 'particular'}
 
-1. This means in practice that district medical officers are charged with preparing an **annual** report , presenting and interpreting epidemiological data , identifying local health problems and evaluating service outcomes . 
-2. This means in practice that district medical officers are charged with preparing an **one-year** report , presenting and interpreting epidemiological data , identifying local health problems and evaluating service outcomes .
+Government compounds all these problems when it sets down working parameters which fail to reflect the value the **country** gets from a system that is run efficiently , can shift people to destinations with exemplary speed and safety — as Europe consistently demonstrates .
+ {'nation', 'area', 'body_politic', 'commonwealth', 'res_publica', 'state', 'rural_area', 'land'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Oh Saturday **night** then .
+ {'dark', 'Night', 'Nox', 'nighttime'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+And since they 've refused repeatedly to have a public inquiry into what is going on there we 're not certain of the **safety** of what 's coming out .
+ {'safe', 'condom', 'prophylactic', 'base_hit', 'guard', 'refuge', 'safety_device', 'rubber'}
 
-1. **Silly** buggers , it 's jobs they want there first . 
-2. **giddy** buggers , it 's jobs they want there first .
+If each action negates the aim of the other , where is the ‘ unity ’ totalized in the **conflict** ?
+ {'difference_of_opinion', 'fight', 'struggle', 'battle', 'engagement', 'dispute', 'difference'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+IT WAS unfair of Auden to suggest , in his ‘ **Letter** to Lord Byron ’ , that a poet 's ‘ sense of other people 's very hazy ’ .
+ {'alphabetic_character', 'varsity_letter', 'letter', 'letter_of_the_alphabet', 'missive'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Sartre does not attempt to answer this **question** , shifting rather to the notion of a lack of self-consciousness .
+ {'enquiry', 'inquiry', 'interrogative_sentence', 'interrogation', 'doubt', 'interrogative', 'doubtfulness', 'motion', 'query', 'head', 'dubiousness'}
 
-1. Is that **nice** ? 
-2. Is that **prissy** ?
+It dips its wings in acknowledgement of the landing strip , and circles , preparing to **land** .
+ {'nation', 'Land', 'realm', 'country', 'Edwin_Herbert_Land', 'terra_firma', 'state', 'farming', 'earth', 'ground', 'domain', 'landed_estate', 'soil', 'acres', 'res_publica', 'estate', 'dry_land', 'Din_Land', 'body_politic', 'commonwealth', 'demesne', 'kingdom', 'solid_ground'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+So she had a **list** of about five things she wanted sorted out and she said so far we were the cheapest .
+ {'lean', 'tilt', 'inclination', 'listing', 'leaning'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+‘ Depends on their will **power** , 'cause nothing else will do it for them .
+ {'business_leader', 'index', 'might', 'baron', 'exponent', 'mogul', 'great_power', 'top_executive', 'major_power', 'ability', 'world_power', 'big_businessman', 'magnate', 'powerfulness', 'force', 'king', 'tycoon', 'mightiness', 'superpower', 'office'}
 
-1. Well I ai n't had a on the **same** rate as me ! blue they should have the same , like mine ! 
-2. Well I ai n't had a on the **like** rate as me ! blue they should have the like , like mine !
+He asserts it often enough : ‘ History continually **effects** totalisations of totalisations , ( I , 15 ) .
+ {'event', 'impression', 'burden', 'outcome', 'essence', 'gist', 'personal_effects', 'upshot', 'core', 'issue', 'force', 'effects', 'result', 'consequence'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+Those who are still in a state to require being taken **care** of by others must be protected against their own actions as well as against external injury .
+ {'attention', 'forethought', 'tending', 'charge', 'maintenance', 'caution', 'fear', 'tutelage', 'upkeep', 'aid', 'concern', 'guardianship', 'precaution'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+Another **man** was killed in the ridiculous filming .
+ {'humankind', 'valet', 'world', 'military_personnel', 'mankind', 'human', 'valet_de_chambre', 'Isle_of_Man', 'serviceman', 'human_beings', "gentleman's_gentleman", 'human_being', 'homo', 'humans', 'gentleman', 'humanity', 'adult_male', 'piece', 'human_race', 'Man', 'military_man'}
 
-1. ‘ Of course the trustees **manage** the business , and they do it very well , ’ Adam said . 
-2. ‘ Of course the trustees **deal** the business , and they do it very well , ’ Adam said .
+Stack emissions of PCBs were below the American standard for breathing air - 1,000 **times** lower than the British equivalent .
+ {'clip', 'clock_time', 'times', 'multiplication', 'sentence', 'prison_term', 'fourth_dimension', 'meter', 'metre'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+And then he takes a day off Bank **Holidays** .
+ {'vacation', 'holiday'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+In the development through the **years** of adolescence the number of foreclosure pupils will diminish , hence the recruitment of boys into science would be cut .
+ {'long_time', 'age', 'old_age', 'eld', 'geezerhood', 'years', 'class', 'days', 'yr', 'twelvemonth'}
 
-1. Perhaps the single most important conclusion to be drawn from this review is that the monitoring , **modelling** and management of the global environment are tasks which uniquely require the integration of skills and techniques from many disciplines . 
-2. Perhaps the single most important conclusion to be drawn from this review is that the monitoring , **pose** and management of the global environment are tasks which uniquely require the integration of skills and techniques from many disciplines .
+At the moment , as you know , the white **people** and their friends are fighting with the Germans .
+ {'the_great_unwashed', 'masses', 'citizenry', 'multitude', 'hoi_polloi', 'mass'}
 
-Your answer [Correct: 1, Wrong: 0]: 
+To the **sentence** stem ‘ When a child will not join in group activities … ’ , these boys gave responses like ‘ he is selfish ’ , ‘ he must be stupid ’ , ‘ he deserves to be unpopular ’ .
+ {'judgment_of_conviction', 'condemnation', 'conviction', 'prison_term', 'time'}
 
-----------------
-Does the following sentence pair semantically equivalent?
+‘ We are **owners** of many cattle . ’
+ {'possessor', 'proprietor'}
 
-1. ‘ When you want to **write** , you 'll write , ’ Buzz would tell her then . 
-2. ‘ When you want to **compose** , you 'll compose , ’ Buzz would tell her then .
+Mind you in the evening , if it gets quite chilly in the evenings so it might be a good jumper to wear in the evenings when we go for our **evening** walks by the sea .
+ {'eventide', 'even', 'eve'}
 
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Within the next decade , as the **privatized** water companies develop their GIS , we shall see a massive amount of data conversion in this area . 
-2. Within the next decade , as the **privatise** water companies develop their GIS , we shall see a massive amount of data conversion in this area .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ If one of my patients wants to give up a potentially curative treatment in favour of an alternative therapy , then I **will** try to dissuade them . 
-2. ‘ If one of my patients wants to give up a potentially curative treatment in favour of an alternative therapy , then I **leave** try to dissuade them .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. These **contain** some valuable material on disposal practices , and volumes of waste generated and disposed of by each waste regulation authority ( WRA ) — counties in England , districts in Wales , Scotland and Northern Ireland . 
-2. These **moderate** some valuable material on disposal practices , and volumes of waste generated and disposed of by each waste regulation authority ( WRA ) — counties in England , districts in Wales , Scotland and Northern Ireland .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Those who **kill** and are convicted of manslaughter by reason of diminished responsibility are no less dangerous than those convicted of murder , and yet the judge has sentencing discretion in one case and not in the other . 
-2. Those who **belt_down** and are convicted of manslaughter by reason of diminished responsibility are no less dangerous than those convicted of murder , and yet the judge has sentencing discretion in one case and not in the other .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. There can be little doubt that a GIS approach has wide applicability in all sorts of location problems where the goal is to **minimize** ( rather than , as conventionally , maximize ) accessibility to a population . 
-2. There can be little doubt that a GIS approach has wide applicability in all sorts of location problems where the goal is to **minimise** ( rather than , as conventionally , maximize ) accessibility to a population .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In the scenario he outlines , an area affected by radioactive releases is **determined** , the population within that area is allocated to reception areas ( with capacity constraints ) , evacuation routes are identified and traffic restrictions implemented . 
-2. In the scenario he outlines , an area affected by radioactive releases is **decide** , the population within that area is allocated to reception areas ( with capacity constraints ) , evacuation routes are identified and traffic restrictions implemented .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The imagery of the ‘ black bomber , used in Handsworth was extended to the notion that there were groups of alienated and **criminalized** young blacks who saw the riots as a chance to engage in an ‘ orgy of looting ’ . 
-2. The imagery of the ‘ black bomber , used in Handsworth was extended to the notion that there were groups of alienated and **illegalise** young blacks who saw the riots as a chance to engage in an ‘ orgy of looting ’ .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. However , in the spring of 1977 an offer was made , which my son **accepted** . 
-2. However , in the spring of 1977 an offer was made , which my son **swallow** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. If the cross-section happens to be smaller at a certain place , then the forces are larger there than at the neighbouring cross-sections , so the beam will be further **constricted** , etc. , leading to the so-called sausage instability ( Fig. 3.3(a) ) . 
-2. If the cross-section happens to be smaller at a certain place , then the forces are larger there than at the neighbouring cross-sections , so the beam will be further **compact** , etc. , leading to the so-called sausage instability ( Fig. 3.3(a) ) .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Did you know what you were **choosing** ? 
-2. Did you know what you were **pick_out** ?
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. We 'll **eat** your dinner for you . 
-2. We 'll **eat_on** your dinner for you .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. What conditions are **needed** to reduce murder to manslaughter ? 
-2. What conditions are **want** to reduce murder to manslaughter ?
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. He stood for a moment laughing at her as she cast furiously for the vanished rabbit , and walked on , to catch her up , along the **raised** embankment . 
-2. He stood for a moment laughing at her as she cast furiously for the vanished rabbit , and walked on , to catch her up , along the **fire** embankment .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. More problematic is the way in which such a dislocation has led to the acceptance of her ‘ Mexicanness ’ as mere decoration of the essentially feminist themes of her work , thereby defusing a substantial part of the art **described** by Breton as a ‘ ribbon round a bomb ’ . 
-2. More problematic is the way in which such a dislocation has led to the acceptance of her ‘ Mexicanness ’ as mere decoration of the essentially feminist themes of her work , thereby defusing a substantial part of the art **key** by Breton as a ‘ ribbon round a bomb ’ .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Workshops facilitated by the speakers and the conference organising group examined integration policies , overcoming practical problems for children in **integrated** provision and available sources of information . 
-2. Workshops facilitated by the speakers and the conference organising group examined integration policies , overcoming practical problems for children in **mix** provision and available sources of information .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. This is a clear example of the extension of the Prevention of Terrorism Act where criteria for stopping , questioning and searching are purely subjective to the official **involved** . 
-2. This is a clear example of the extension of the Prevention of Terrorism Act where criteria for stopping , questioning and searching are purely subjective to the official **postulate** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Other spatially referenced data incorporated into the system include those on the distribution of schools , medical and transport services which can be **displayed** and supplementary information about them obtained . 
-2. Other spatially referenced data incorporated into the system include those on the distribution of schools , medical and transport services which can be **expose** and supplementary information about them obtained .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. And I **said** it 's alright we 're still in 
-2. And I **allege** it 's alright we 're still in
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. **go** home 
-2. **proceed** home
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Am I , as a man , supposed to **think** that , if my body is hairy , it is ‘ thick and bestial ’ ? 
-2. Am I , as a man , supposed to **remember** that , if my body is hairy , it is ‘ thick and bestial ’ ?
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. A sheet of rain had come down then , a hard , gusty shower , while they were laying the squares of turf back in place , and Adam had **said** something about the rain making the grass grow quickly , the rain being on their side . 
-2. A sheet of rain had come down then , a hard , gusty shower , while they were laying the squares of turf back in place , and Adam had **suppose** something about the rain making the grass grow quickly , the rain being on their side .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Yeah well she 's sort of with the third year and **will** admit she 's so fed up ! 
-2. Yeah well she 's sort of with the third year and **bequeath** admit she 's so fed up !
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In Four Saints Thomson 's informality was given free reign since he first of all improvised the music at the piano then , when it stuck , **wrote** it down to a figured bass . 
-2. In Four Saints Thomson 's informality was given free reign since he first of all improvised the music at the piano then , when it stuck , **spell** it down to a figured bass .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Oh well I bet , I **think** perhaps it is really . 
-2. Oh well I bet , I **guess** perhaps it is really .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. I do n't wan na **make** . 
-2. I do n't wan na **stimulate** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. So went to Tesco , and we **walk** around , the cake , erm , cake thing 
-2. So went to Tesco , and we **take_the_air** around , the cake , erm , cake thing
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Adam had Hilbert 's old golf-bag **stuck** between his legs and Rufus guessed the gun was inside it . 
-2. Adam had Hilbert 's old golf-bag **amaze** between his legs and Rufus guessed the gun was inside it .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. I **suggest** you ask your Allies about that . 
-2. I **paint_a_picture** you ask your Allies about that .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ We want everyone to be **licensed** , but the Government did n't think it necessary . 
-2. ‘ We want everyone to be **licence** , but the Government did n't think it necessary .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. I was n't quite decent and I thought well I 'm not **letting** people in when I 'm not decent 
-2. I was n't quite decent and I thought well I 'm not **permit** people in when I 'm not decent
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. He did n't know what Lewis **meant** about someone looking after the house but no doubt he , Adam , had at the time concocted some tale to keep his father quiet , to keep him away even . 
-2. He did n't know what Lewis **intend** about someone looking after the house but no doubt he , Adam , had at the time concocted some tale to keep his father quiet , to keep him away even .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. I **mean** no one noticed anything unusual about her and she seemed to be full of plans for the wedding . ’ 
-2. I **think** no one noticed anything unusual about her and she seemed to be full of plans for the wedding . ’
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ The thirty thousand in the Soviet Union , as I **said** , became a community in their own right . 
-2. ‘ The thirty thousand in the Soviet Union , as I **aver** , became a community in their own right .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Well we do n't **see** him much now do we ? 
-2. Well we do n't **take_in** him much now do we ?
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ It 's important you understand the background , ’ **said** Sorge , not allowing the American to get under his skin . 
-2. ‘ It 's important you understand the background , ’ **read** Sorge , not allowing the American to get under his skin .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. This chapter , then , attempts to review some of the problems in environmental monitoring and prediction , describes some of the relevant scientific and organizational activities and **looks** ahead to what is likely to happen next . 
-2. This chapter , then , attempts to review some of the problems in environmental monitoring and prediction , describes some of the relevant scientific and organizational activities and **await** ahead to what is likely to happen next .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Matthews ( 1989 ) has **used** data from the Regional Cancer Registry ( morbidity rather than mortality data ) and data on trace elements to examine this link . 
-2. Matthews ( 1989 ) has **apply** data from the Regional Cancer Registry ( morbidity rather than mortality data ) and data on trace elements to examine this link .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In August 1911 the diehard **peers** used language as violent as any that Law was to use later , and in the crucial decision on the House of Lords Law sided with the hedgers rather than the ditchers . 
-2. In August 1911 the diehard **match** used language as violent as any that Law was to use later , and in the crucial decision on the House of Lords Law sided with the hedgers rather than the ditchers .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Howard Keizner , of Landlords , said : ‘ There were a lot of complications with this particular letting and **management** . ’ 
-2. Howard Keizner , of Landlords , said : ‘ There were a lot of complications with this particular letting and **direction** . ’
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. only other one he 's got is a silk one so er I was gon na go on Tuesday and have a look and they had them there before Christmas , seven ninety nine and , but it said one **size** now I do n't know whether the one size will fit Di because the last one I had for him I sent away for and I had erm so I do n't know whether them down there would fit , they were seven ninety nine , there were white and lemon and pale green that was striped I think . 
-2. only other one he 's got is a silk one so er I was gon na go on Tuesday and have a look and they had them there before Christmas , seven ninety nine and , but it said one **size_of_it** now I do n't know whether the one size_of_it will fit Di because the last one I had for him I sent away for and I had erm so I do n't know whether them down there would fit , they were seven ninety nine , there were white and lemon and pale green that was striped I think .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. So kindly **curb** your theatrical , James Bond streak . 
-2. So kindly **curbing** your theatrical , James Bond streak .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Mrs Bottomley 's first big test as Health Secretary will come this **summer** with the annual public spending round , which will be conducted against a background of concern over high Government borrowing and pressure from the Tory Right for public spending cuts . 
-2. Mrs Bottomley 's first big test as Health Secretary will come this **summertime** with the annual public spending round , which will be conducted against a background of concern over high Government borrowing and pressure from the Tory Right for public spending cuts .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Murder , manslaughter , and several other offences are discussed , and one recurrent issue here is whether English law responds proportionately to the different degrees of culpability manifested in **cases** where death is caused . 
-2. Murder , manslaughter , and several other offences are discussed , and one recurrent issue here is whether English law responds proportionately to the different degrees of culpability manifested in **display_case** where death is caused .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The actual facts ' of who was arrested during the riots , whether black or white , were hardly debated since it was assumed that they were mostly black and mostly unemployed and involved with **crime** ( Keith , 1987 ) . 
-2. The actual facts ' of who was arrested during the riots , whether black or white , were hardly debated since it was assumed that they were mostly black and mostly unemployed and involved with **law-breaking** ( Keith , 1987 ) .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. This has itself generated a substantial **literature** ( see the papers in Elliot 1988 for an overview ) and is nowhere better exemplified than in Openshaw 's geographical analysis machine ( see Ch. 2 ) . 
-2. This has itself generated a substantial **lit** ( see the papers in Elliot 1988 for an overview ) and is nowhere better exemplified than in Openshaw 's geographical analysis machine ( see Ch. 2 ) .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Savannah animals differ from those of tropical **rain** forests , and these again from inhabitants of the tundra at high latitudes . 
-2. Savannah animals differ from those of tropical **rainwater** forests , and these again from inhabitants of the tundra at high latitudes .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Thus , The Times of 17 December 1990 reported that a group of 40 of the most senior Civil Servants had met the previous weekend to discuss ‘ ways in which the government machine could respond better to national and international **problems** such as the threat of global climate change ’ . 
-2. Thus , The Times of 17 December 1990 reported that a group of 40 of the most senior Civil Servants had met the previous weekend to discuss ‘ ways in which the government machine could respond better to national and international **job** such as the threat of global climate change ’ .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The sexless **voices** rose in the cold . 
-2. The sexless **part** rose in the cold .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Modern audiences no longer accept plastic bushes , and the southern Californian suburban sprawl means the production companies have to take their horses and **cows** to locations far away in Arizona or Montana . 
-2. Modern audiences no longer accept plastic bushes , and the southern Californian suburban sprawl means the production companies have to take their horses and **moo-cow** to locations far away in Arizona or Montana .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. He added , ‘ She should n't have left the matches within reach of a **child** . ’ 
-2. He added , ‘ She should n't have left the matches within reach of a **nestling** . ’
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Like most of the other contributors to this section , Gatrell and Vincent see decision support systems as a major area for **future** development in the geographic information management field . 
-2. Like most of the other contributors to this section , Gatrell and Vincent see decision support systems as a major area for **hereafter** development in the geographic information management field .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. They interviewed parents , **specialist** professionals and mainstream day-care workers and they designed a questionnaire which was completed by workers in a large proportion of mainstream council services and voluntary organisations , as well as by some child-minders . 
-2. They interviewed parents , **medical_specialist** professionals and mainstream day-care workers and they designed a questionnaire which was completed by workers in a large proportion of mainstream council services and voluntary organisations , as well as by some child-minders .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Clare still swapped one night a **week** off with Stephanie and reported subsequent events to Gilda , who now managed the shoe shop : occasionally she visited Clare for an evening meal . 
-2. Clare still swapped one night a **hebdomad** off with Stephanie and reported subsequent events to Gilda , who now managed the shoe shop : occasionally she visited Clare for an evening meal .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The sharply reduced number of 16-18-year-olds will inevitably lead employers to bid up the wages of that age group to entice young people away from education and into unskilled or semi-skilled **jobs** . 
-2. The sharply reduced number of 16-18-year-olds will inevitably lead employers to bid up the wages of that age group to entice young people away from education and into unskilled or semi-skilled **caper** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. for this reason they make particularly heavy demands on current GIS technology both because of the size of the **data** sets and the diversity of the data structures that are involved . 
-2. for this reason they make particularly heavy demands on current GIS technology both because of the size of the **datum** sets and the diversity of the datum structures that are involved .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In this case , however , methodological issues are tackled from a largely **user** standpoint , whereas in the previous part they were viewed as substantive problems in their own right . 
-2. In this case , however , methodological issues are tackled from a largely **exploiter** standpoint , whereas in the previous part they were viewed as substantive problems in their own right .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ Is Frick one of these guys ? ’ asked the DDA , remembering the **name** picked up by Adam in New Orleans . 
-2. ‘ Is Frick one of these guys ? ’ asked the DDA , remembering the **figure** picked up by Adam in New Orleans .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The gangway lamps seemed to give no **light** , only add further to the gloom of the dusk . 
-2. The gangway lamps seemed to give no **luminousness** , only add further to the gloom of the dusk .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. My **Mum** brought up five of us in a flat far worse than what these immigrants complain about . ’ 
-2. My **ma** brought up five of us in a flat far worse than what these immigrants complain about . ’
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. These days , he writes the **books** intended to help children learn to read . 
-2. These days , he writes the **record_book** intended to help children learn to read .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Into these large **numbers** of local conflicts were subsumed . 
-2. Into these large **numbers_pool** of local conflicts were subsumed .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The dissemination of information in the event of an incident is dealt with at three levels : the first is the normal system of press notices ; the second is the use of teletext and viewdata ( Ceefax and Prestel ) to get direct to members of the public at their **homes** or places of work ; the third is the use of Telecom Gold electronic mail to get more technical details to various official bodies , such as water authorities ( Jackson 1989 ) . 
-2. The dissemination of information in the event of an incident is dealt with at three levels : the first is the normal system of press notices ; the second is the use of teletext and viewdata ( Ceefax and Prestel ) to get direct to members of the public at their **plate** or places of work ; the third is the use of Telecom Gold electronic mail to get more technical details to various official bodies , such as water authorities ( Jackson 1989 ) .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In practice , legislation generally forbids such data being held thus and distributed in anything other than area aggregate form ; the cross-tabulations commonly employed ( e.g. to give tables of population numbers broken down by age and sex ) often result in a great multiplication of the data **volumes** . 
-2. In practice , legislation generally forbids such data being held thus and distributed in anything other than area aggregate form ; the cross-tabulations commonly employed ( e.g. to give tables of population numbers broken down by age and sex ) often result in a great multiplication of the data **loudness** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. It also says a **lot** about modern American TV . 
-2. It also says a **mass** about modern American TV .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. However the map does require more intellectual **effort** than does the routine not only in making decisions about how to proceed but also in filtering out the required information from the massive irrelevance ( for a particular task ) which is equally available . 
-2. However the map does require more intellectual **crusade** than does the routine not only in making decisions about how to proceed but also in filtering out the required information from the massive irrelevance ( for a particular task ) which is equally available .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Millie and the **secretaries** of Pat Muldoon and Clancy McGillicuddy were all close friends . 
-2. Millie and the **secretarial_assistant** of Pat Muldoon and Clancy McGillicuddy were all close friends .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Canals within the algae stand out as rods in this kind of preservation , which is common in Ordovician **rocks** . 
-2. Canals within the algae stand out as rods in this kind of preservation , which is common in Ordovician **Rock** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ Together with some other clients we took the owner to **court** but he escaped to Spain . ’ 
-2. ‘ Together with some other clients we took the owner to **homage** but he escaped to Spain . ’
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Yes , his next month out of his **wages** ! 
-2. Yes , his next month out of his **wages** !
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. He smoothly changed the subject to the looks of the blond model , three tables away , and Barton agreed he would n't **mind** a bit of that ; on the thin side , mind you , but tasty . 
-2. He smoothly changed the subject to the looks of the blond model , three tables away , and Barton agreed he would n't **psyche** a bit of that ; on the thin side , psyche you , but tasty .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Such agreements can range from the issue of borders to the issue of free wave-lengths for our future television and **radio** networks . 
-2. Such agreements can range from the issue of borders to the issue of free wave-lengths for our future television and **receiving_set** networks .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. It is also desirable to have the possibility of shifting staff between design and operational **duties** . 
-2. It is also desirable to have the possibility of shifting staff between design and operational **responsibility** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. this was about last week 's **episode** ? 
-2. this was about last week 's **instalment** ?
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. This is a difficult **trick** to bring off with suburban trains hurtling by on one side and lorries grinding through their gears on the other . 
-2. This is a difficult **conjuration** to bring off with suburban trains hurtling by on one side and lorries grinding through their gears on the other .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. It was the **heat** and sunshine and privacy he liked . 
-2. It was the **passion** and sunshine and privacy he liked .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Yet the Chelsea manager , Bobby Campbell , and Arsenal assistant , Theo Foley , agreed it had been a good match , and the **spectators** ' complaints were muted . 
-2. Yet the Chelsea manager , Bobby Campbell , and Arsenal assistant , Theo Foley , agreed it had been a good match , and the **watcher** ' complaints were muted .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Ulster 's opposition to Home Rule long pre-dated **Law** 's leadership and he had rarely even spoken on Irish affairs in parliament before becoming leader . 
-2. Ulster 's opposition to Home Rule long pre-dated **jurisprudence** 's leadership and he had rarely even spoken on Irish affairs in parliament before becoming leader .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. **candidates** all been arrested in the north 
-2. **nominee** all been arrested in the north
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The supposedly jokey **answers** are illustrated by photographs of people sleeping outside covered by copies of The Independent : they look like some of the hundreds of visitors who come to St Botolph 's Crypt Centre for homeless people every day . 
-2. The supposedly jokey **result** are illustrated by photographs of people sleeping outside covered by copies of The Independent : they look like some of the hundreds of visitors who come to St Botolph 's Crypt Centre for homeless people every day .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Brown 's chapter on geodemographics discusses an application field where primary data collected for operational purposes are typically evaluated in relation to secondary data derived from sources such as the Census of **Population** . 
-2. Brown 's chapter on geodemographics discusses an application field where primary data collected for operational purposes are typically evaluated in relation to secondary data derived from sources such as the Census of **universe** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. What is clear , however , is that monitoring is rarely a simple exercise , that the time-scales of the sponsors of monitoring and environmental research are rarely long term though most **science** is inevitably of this nature and that the increasingly multinational nature of such work necessitates a degree of management not always present in local or nationally based schemes . 
-2. What is clear , however , is that monitoring is rarely a simple exercise , that the time-scales of the sponsors of monitoring and environmental research are rarely long term though most **skill** is inevitably of this nature and that the increasingly multinational nature of such work necessitates a degree of management not always present in local or nationally based schemes .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. She was in the swivel chair , reflected in the window with the dark night as a backdrop , her **head** angled towards him . 
-2. She was in the swivel chair , reflected in the window with the dark night as a backdrop , her **header** angled towards him .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Yet without a reasonably comprehensive task description the total **system** performance may be unreliable or unpredictable . 
-2. Yet without a reasonably comprehensive task description the total **organisation** performance may be unreliable or unpredictable .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Drinks exercises introduce the notion of **measurement** , concentration of alcohol content ; information which will be necessary to carry out the recording of alcohol consumption throughout the duration of the course ( p. 3 ) . 
-2. Drinks exercises introduce the notion of **mensuration** , concentration of alcohol content ; information which will be necessary to carry out the recording of alcohol consumption throughout the duration of the course ( p. 3 ) .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. We 've gone awayfrom the days of systems imposed by the data processing department , this is going to be a system for the **users** . ’ 
-2. We 've gone awayfrom the days of systems imposed by the data processing department , this is going to be a system for the **exploiter** . ’
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. **Earnings** were level at 17.5p a share . 
-2. **net_profit** were level at 17.5p a share .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Nevertheless , the high proportion of inner urban populations composed of people from ethnic minorities , and the high incidence among these groups of all the indices of **poverty** and social and environmental hardship — combined with the specific problem of inter-racial rivalry , harassment , and tension — make race and ethnicity an aspect that is central to any analysis of the inner cities and of any ameliorative approach . 
-2. Nevertheless , the high proportion of inner urban populations composed of people from ethnic minorities , and the high incidence among these groups of all the indices of **impoverishment** and social and environmental hardship — combined with the specific problem of inter-racial rivalry , harassment , and tension — make race and ethnicity an aspect that is central to any analysis of the inner cities and of any ameliorative approach .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. As the **cypresses** must always , differently , mean death . 
-2. As the **cypress_tree** must always , differently , mean death .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. I could n't stand the bloke at the **time** . 
-2. I could n't stand the bloke at the **clock_time** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The **identification** of chemical hazards requires that the locations of sites be known , together with the dangerous substances stored or processed there . 
-2. The **designation** of chemical hazards requires that the locations of sites be known , together with the dangerous substances stored or processed there .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Aggreko generator hire , Salvesen 's world market leader which provides power for **customers** from pop concerts to the oil industry , contributed strongly to a 37 per cent growth in trading profits in the industrial services division . 
-2. Aggreko generator hire , Salvesen 's world market leader which provides power for **client** from pop concerts to the oil industry , contributed strongly to a 37 per cent growth in trading profits in the industrial services division .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In 1983 the Home Secretary imposed restrictions on the release of persons serving life for murders of police- and prison-officers , terrorist killings , murder during robbery , and the sadistic or sexual murder of young children , fixing a minimum of twenty years ' **imprisonment** for these offenders . 
-2. In 1983 the Home Secretary imposed restrictions on the release of persons serving life for murders of police- and prison-officers , terrorist killings , murder during robbery , and the sadistic or sexual murder of young children , fixing a minimum of twenty years ' **internment** for these offenders .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. But we were n't educated in , in , in **health** though . 
-2. But we were n't educated in , in , in **wellness** though .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. By 1995/96 , they will be very much greater , notably from the EOS **programme** . 
-2. By 1995/96 , they will be very much greater , notably from the EOS **computer_programme** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The travelling chaos of a modern party leader 's election entourage had carried Major within a few miles of the home of the founder of the profession , a few of whose more troublesome contemporary **practitioners** are said to have caused him much irritation over the 16 months of his premiership . 
-2. The travelling chaos of a modern party leader 's election entourage had carried Major within a few miles of the home of the founder of the profession , a few of whose more troublesome contemporary **practician** are said to have caused him much irritation over the 16 months of his premiership .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The odd **policy** to put the stage in the middle of the room rather than at one end leads to a diminishing of the atmosphere ( the corners are seldom filled ) . 
-2. The odd **insurance_policy** to put the stage in the middle of the room rather than at one end leads to a diminishing of the atmosphere ( the corners are seldom filled ) .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. It would provide the multitudinous popular **committees** and activities with a more advanced form of organisation and structure . 
-2. It would provide the multitudinous popular **citizens_committee** and activities with a more advanced form of organisation and structure .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Mike heard a sarcastic **voice** from behind him . 
-2. Mike heard a sarcastic **phonation** from behind him .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. They also return more miles to the gallon than their petrol **equivalents** , although service intervals are shorter . 
-2. They also return more miles to the gallon than their petrol **equivalent_weight** , although service intervals are shorter .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In the foyer of the Clanrickard Club , Mike **Grant** leaned against the wall at the bottom of a double-sided curving staircase . 
-2. In the foyer of the Clanrickard Club , Mike **Ulysses_S._Grant** leaned against the wall at the bottom of a double-sided curving staircase .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. Tasks agreed for the IGBP-DIS include making available a ‘ directory of data directories ’ modelled on NASA 's Master Directory , providing data sets for education and **training** and undertaking a land cover pilot study . 
-2. Tasks agreed for the IGBP-DIS include making available a ‘ directory of data directories ’ modelled on NASA 's Master Directory , providing data sets for education and **grooming** and undertaking a land cover pilot study .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. In Chapter 10 Gatrell and Vincent consider a wide range of natural and technological hazards including industrial hazards , risk **assessment** , hazardous waste disposal , emergency planning , natural hazards and environmental epidemiology . 
-2. In Chapter 10 Gatrell and Vincent consider a wide range of natural and technological hazards including industrial hazards , risk **appraisal** , hazardous waste disposal , emergency planning , natural hazards and environmental epidemiology .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. The **bathroom** 's a bit chilly but once you 've put that heater on and shut the door for a few minutes it 's 
-2. The **lav** 's a bit chilly but once you 've put that heater on and shut the door for a few minutes it 's
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. ‘ Oh , this will be of great help in ordering raw materials , but sometimes we get **part** deliveries , could we have an extra facility to deal with those ? 
-2. ‘ Oh , this will be of great help in ordering raw materials , but sometimes we get **theatrical_role** deliveries , could we have an extra facility to deal with those ?
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-Does the following sentence pair semantically equivalent?
-
-1. She gasped in **amazement** . 
-2. She gasped in **astonishment** .
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------

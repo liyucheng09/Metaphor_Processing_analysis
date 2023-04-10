@@ -1,58 +1,8 @@
 Does the translation of **"around"** in the following example make sense?:
 
-**Original Sentence**: Throughout 1980 and 1981 debates about the riots in the media , in Parliament , and in various official reports hinged **around** the interrelationship between racial , law-and-order , and social factors .
+**Original Sentence**: They have been told that their claim may only amount to **around** £11,000 of their £15,000 as capital gains tax is likely to be deducted from the total .
 
-**Translation**: 在整个1980年和1981年，媒体、议会和各种官方报告中关于骚乱的辩论都是围绕着种族、法律和秩序以及社会因素之间的相互关系而**的。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"hard"** in the following example make sense?:
-
-**Original Sentence**: Meadowell has even discovered a new martyr in the shape of one Willy Hunter , a local **hard** nut awaiting trial for murder , and allegedly the victim of a police frame-up .
-
-**Translation**: Meadowell甚至发现了一个新的烈士，他就是Willy Hunter，一个当地的**硬**分子，正在等待谋杀案的审判，据说是警察陷害的受害者。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"out"** in the following example make sense?:
-
-**Original Sentence**: I hate being sick and one thing another well , it turned **out**
-
-**Translation**: 我讨厌生病，另一件事也很好，它变成了***。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"back"** in the following example make sense?:
-
-**Original Sentence**: As they set up the now empty suit with its **back** to the door , half slumped over a control panel , he settled down behind the curtained entrance of the showers .
-
-**Translation**: 当他们把现在空荡荡的衣服背对着门，半躺在控制面板上时，他在淋浴间的窗帘后面安顿下来。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"there"** in the following example make sense?:
-
-**Original Sentence**: Allan Ahlberg says : ‘ In the past , a lot of children 's books seemed to be the work of talented illustrators whose pictures looked brilliant framed in a gallery , but when you tried to read the book , there was nothing **there** , because the words started as a coat-hanger to hang pictures on . ’
-
-**Translation**: Allan Ahlberg说："在过去，很多儿童书籍似乎是有才华的插图画家的作品，他们的图片在画廊里看起来很出色，但当你试图阅读这本书时，那里没有什么***，因为文字开始作为衣架来悬挂图片。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"here"** in the following example make sense?:
-
-**Original Sentence**: Procedures is sometimes used for what are **here** called routines and sometimes to indicate all the operator 's information support except software .
-
-**Translation**: 程序有时用于这里***称为例程的东西，有时用于表示除软件之外的所有操作员的信息支持。
+**Translation**: 他们被告知，他们的索赔可能只有15,000英镑中的11,000英镑左右，因为资本利得税可能会从总额中扣除。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -60,449 +10,449 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"next"** in the following example make sense?:
 
-**Original Sentence**: It won substantial critical acclaim and will show in Britain **next** year .
+**Original Sentence**: just turn them off , and that 's it Just normal conversations the words that people use in common different areas of the country , with accents and dialect and one thing and another it 's for the Oxford English Dictionary the **next** edition .
 
-**Translation**: 它赢得了大量的好评，并将于明年***年在英国展出。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"off"** in the following example make sense?:
-
-**Original Sentence**: The pattern caused problems , in that the circumstances which might trigger **off** renewed fighting were unpredictable ; yet the moment an opportunity offered , princes had to be prepared for invading their enemies ; there was no time for lengthy preparation .
-
-**Translation**: 这种模式造成了一些问题，因为可能引发***重新开战的情况是不可预测的；然而，一旦有机会，王公们就必须为入侵他们的敌人做好准备；没有时间进行漫长的准备。
+**Translation**: 只要把它们关掉，就可以了 只是正常的对话，人们在全国不同地区共同使用的词语，有口音和方言，还有其他的东西，这是为牛津英语词典的下一版。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"now"** in the following example make sense?:
+Does the translation of **"Back"** in the following example make sense?:
 
-**Original Sentence**: bath every , every **now** and again yeah .
+**Original Sentence**: **Back** along the waste chain , the Liverpool dockers who objected to the import of exactly this type of chemical should be aware that PCBs are moving about our roads all the time .
 
-**Translation**: 每一次洗澡，每一次***，再一次是的。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"up"** in the following example make sense?:
-
-**Original Sentence**: Does n't help with the dark ceiling , that soaks it **up** does n't it ?
-
-**Translation**: 对黑暗的天花板没有帮助，它把它**起来了，不是吗？
+**Translation**: 回到废物链上，反对进口这类化学品的利物浦码头工人应该知道，多氯联苯一直在我们的道路上移动。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"down"** in the following example make sense?:
+Does the translation of **"elaborately"** in the following example make sense?:
 
-**Original Sentence**: It 's **down** there .
+**Original Sentence**: The sergeant 's face is **elaborately** composed .
 
-**Translation**: 它是***在那里。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"where"** in the following example make sense?:
-
-**Original Sentence**: The magnetic field strength is given again by eqn ( 3.27 ) ; we only need to substitute for the current In + Ip **where** the subscripts n and p refer to negative and positive particles respectively .
-
-**Translation**: 磁场强度再次由公式（3.27）给出；我们只需要代入电流In + Ip ***其中***的标号n和p分别指负粒子和正粒子。
+**Translation**: 中士的脸是精心组成的。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"accurately"** in the following example make sense?:
+Does the translation of **"forwards"** in the following example make sense?:
 
-**Original Sentence**: He himself , at sixty-two , felt , not quite **accurately** , that he was now too old , too settled , to be put out , by her or by anyone else .
+**Original Sentence**: He thus asserts the Truth of History while constantly projecting **forwards** and deferring its proof .
 
-**Translation**: 他自己，在六十二岁的时候，觉得，不是很准确地**，他现在太老了，太安定了，不能被她或其他任何人放出来。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"swiftly"** in the following example make sense?:
-
-**Original Sentence**: A subsequent debate on the same issue in March 1982 was also full of references to the experience of 1981 , the impact of street violence , crime , decaying urban conditions , the breakdown of consent between the police and many local communities , and the spectre of ‘ more violence to come ’ if changes in both policing tactics and social policy were not **swiftly** introduced ( Hansard , vol. 20 , 25 March 1982 : cols. 1107–81 ) .
-
-**Translation**: 随后在1982年3月就同一问题进行的辩论中，也充分提到了1981年的经验、街头暴力的影响、犯罪、城市条件的恶化、警察和许多当地社区之间同意的破裂，以及如果不**迅速引入警务策略和社会政策的变化，"更多的暴力将会发生 "的幽灵（Hansard, vol. 20, 25 March 1982 : cols. 1107-81）。
+**Translation**: 他这样断言历史的真实性，同时不断地向前推演，推迟其证明。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"closely"** in the following example make sense?:
+Does the translation of **"back"** in the following example make sense?:
 
-**Original Sentence**: Their tense , edgy faces watched Delaney **closely** .
+**Original Sentence**: Lockean children have the added amazing ability to recognise reason in you without possessing any themselves , while Kantian kids , two stages **back** from rationality , have the disconcerting habit of getting puzzled and asking questions .
 
-**Translation**: 他们紧张、急切的脸庞密切注视着德莱尼**。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"direct"** in the following example make sense?:
-
-**Original Sentence**: Hattersley had suggested that the riots were a ‘ **direct** product ’ of high levels of youth unemployment , and a furious debate ensued in both Parliament and the media about this assertion .
-
-**Translation**: 哈特斯利提出，暴乱是青年高失业率的 "直接**产物"，议会和媒体随后就这一说法展开了激烈的辩论。
+**Translation**: 洛克式的孩子有一种额外的惊人的能力，可以在你身上识别出理性，而他们自己却不具备任何理性，而康德式的孩子，离理性还有两个阶段，有一种令人不安的习惯，即感到困惑和提出问题。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"accurate"** in the following example make sense?:
+Does the translation of **"next"** in the following example make sense?:
 
-**Original Sentence**: But the end-product is the **accurate** reconstruction of the Jurassic and Cretaceous terrestrial world , over which the dinosaurs were indisputably dominant .
+**Original Sentence**: Every time they collect our cows , they promise to give us something in return , but the **next** time ask for more cows .
 
-**Translation**: 但最终产品是对侏罗纪和白垩纪陆地世界的**准确的重建，在这个世界上恐龙是无可争议的主宰。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"sweet"** in the following example make sense?:
-
-**Original Sentence**: ‘ And tell me , **sweet** creature , do you count as a toy ?
-
-**Translation**: '告诉我，***可爱的生物，你算不算是一个玩具？
+**Translation**: 每次他们收集我们的奶牛，他们承诺会给我们一些回报，但下一次却要求更多的奶牛。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"toothed"** in the following example make sense?:
+Does the translation of **"rigidly"** in the following example make sense?:
 
-**Original Sentence**: The leaf is divided into three parts with a broad central lobe ( finely **toothed** ) and two flanking lobes .
+**Original Sentence**: Eventually these persons might have to face up to period of crisis , of self-examination , and so achieve ego-identity by route C. However , foreclosure does offer an escape route and an individual might postpone indefinitely any real self-examination by clinging **rigidly** to his or her beliefs and values ( route D ) .
 
-**Translation**: 叶子分为三部分，有一个宽大的中央裂片（细**齿）和两个侧面的裂片。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"unharmed"** in the following example make sense?:
-
-**Original Sentence**: We wish to be **unharmed** , in our own state .
-
-**Translation**: 我们希望**不受伤害，在我们自己的国家。
+**Translation**: 最终，这些人可能不得不面对危机期，进行自我审视，从而通过C途径实现自我认同。然而，取消抵押品赎回权确实提供了一条逃避的途径，个人可能通过死守自己的信仰和价值观，无限期地推迟任何真正的自我审视（D途径）。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"concerned"** in the following example make sense?:
+Does the translation of **"true"** in the following example make sense?:
 
-**Original Sentence**: Probation practice is not , however , solely **concerned** with the establishment of rules .
+**Original Sentence**: That 's **true** .
 
-**Translation**: 然而，缓刑实践并不只是**地关注规则的建立。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"balanced"** in the following example make sense?:
-
-**Original Sentence**: The Elle feature transposed the ‘ Kahlo style ’ to Kahlo lookalikes in contemporary clothing **balanced** around segments of Herrera 's biography of the artist .
-
-**Translation**: Elle的专题报道将 "卡洛风格 "转换为穿着现代服装的卡洛形象，并围绕Herrera的艺术家传记的部分内容进行了**平衡。
+**Translation**: 这倒是真的。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"sad"** in the following example make sense?:
+Does the translation of **"free"** in the following example make sense?:
 
-**Original Sentence**: What a **sad** sack we are today .
+**Original Sentence**: Assuming the power station at the end of the line burns cleanly , the tram is virtually pollution **free** .
 
-**Translation**: 我们今天是多么的***悲哀啊。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"springboard"** in the following example make sense?:
-
-**Original Sentence**: The essays in this book do not amount to a programme : but they are intended to provide a **springboard** for one .
-
-**Translation**: 本书中的文章并不等同于一个方案：但它们旨在为一个方案提供一个***的跳板。
+**Translation**: 假设线路末端的发电站燃烧得很干净，有轨电车几乎没有污染。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"open"** in the following example make sense?:
+Does the translation of **"autonomous"** in the following example make sense?:
 
-**Original Sentence**: when we 're **open** so I 'll get a delivery on Thursday and I 'll get some er
+**Original Sentence**: Education has been directed at the production of the rational , the free , the independent of mind , the dignified , in short , the **autonomous** human being .
 
-**Translation**: 当我们***开放时，我将在周四收到一份快递，我将得到一些呃
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"drunken"** in the following example make sense?:
-
-**Original Sentence**: If the approach was that way he would get no warning at all , and it would be on top of George — his name for the dummy sitting like a **drunken** son-of-a-bitch — before he knew it .
-
-**Translation**: 如果是这样的话，他根本不会得到任何警告，而且在他知道之前，它就会在乔治--他对那个像**醉酒的**婊子的假人的称呼--上面。
+**Translation**: 教育的目的是培养理性的、自由的、独立思考的、有尊严的，总之是自主的人。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"potential"** in the following example make sense?:
+Does the translation of **"symptomatic"** in the following example make sense?:
 
-**Original Sentence**: Since it is the equation formula that needs to be satisfied , we should choose the potential as a vector ( called , not without logic , the vector **potential** ) , defined by the equation formula .
+**Original Sentence**: His difficulty is accompanied by a no doubt **symptomatic** increasing distrust of universals so that , in championing specificities against them , he seems to give up the attempt to validate the universals — History as Totalization — that originally formed the object of his project .
 
-**Translation**: 由于需要满足方程公式，我们应该选择电位作为一个矢量（称为，并非没有逻辑，矢量**电位**），由方程公式定义。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"anxious"** in the following example make sense?:
-
-**Original Sentence**: Nowhere was the impact of this clumsy sleight of hand more evident than in the inner cities , where voluntary organizations had been most active , and where the Government was most **anxious** for them to mop up unemployment .
-
-**Translation**: 这种笨拙的手腕的影响在城市中心最明显，那里的志愿组织最活跃，政府也最**急于让它们来填补失业。
+**Translation**: 他的困难伴随着一种无疑是症状性的对普遍性的日益不信任，因此，在拥护反对普遍性的特殊性时，他似乎放弃了验证普遍性的尝试--作为全面化的历史--这原本是他项目的目标。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"potential"** in the following example make sense?:
+Does the translation of **"reasonable"** in the following example make sense?:
 
-**Original Sentence**: First , we could search for some analogue of the **potential** function which proved so useful in electrostatics .
+**Original Sentence**: A solicitor fails to draw up a will within a **reasonable** time for a client who subsequently dies .
 
-**Translation**: 首先，我们可以寻找一些**势**函数的类似物，这在静电学中证明是非常有用的。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"Co-ordinating"** in the following example make sense?:
-
-**Original Sentence**: He told a Labour **Co-ordinating** Committee rally that it was not enough for Labour to win the next election .
-
-**Translation**: 他在工党**协调委员会的集会上说，工党要赢得下一次选举，这还远远不够。
+**Translation**: 律师未能在合理的时间内为后来死亡的客户拟定遗嘱。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"disaffected"** in the following example make sense?:
+Does the translation of **"damaging"** in the following example make sense?:
 
-**Original Sentence**: Penelope was looking particularly discontented and **disaffected** , picking at her food .
+**Original Sentence**: These two suggestions , far from being enlightened liberation of all children , are actually oppression of a deeply **damaging** kind to at least some , and Harris 's suggestion contains a capacity criterion in disguise .
 
-**Translation**: 佩内洛普看起来特别不满和***影响，挑着她的食物。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"gentle"** in the following example make sense?:
-
-**Original Sentence**: But next morning Ruth awakened early and , leaving Miss Beard to her **gentle** dreams , dressed quickly and hurried out of the house .
-
-**Translation**: 但第二天早上，露丝很早就醒了，而且，让胡子小姐继续做她的***温柔的梦，她迅速穿好衣服，匆匆走出了家门。
+**Translation**: 这两个建议，远不是对所有儿童的开明解放，实际上是对至少一些儿童的深深伤害的压迫，而哈里斯的建议包含了一个变相的能力标准。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"handy"** in the following example make sense?:
+Does the translation of **"senior"** in the following example make sense?:
 
-**Original Sentence**: It helped us to derive Biot-Savart 's law , it will come **handy** later in solving certain radiation problems , and it often leads to nice formulae , e.g. for the magnetic flux crossing a surface , defined as formula that may be rewritten in terms of the vector potential as follows : formula where C is the curve enclosing the surface .
+**Original Sentence**: Under strain for a start because it was technically ill-equipped to avert disaster or to cope with the consequences when disaster struck ; under strain from commercial pressures which , as the inquiry puts it , ‘ compromised ’ safety ; under strain above all because the people on the spot could n't or would n't cope , were weary from gruesome working hours ( the **senior** signal technician who heads the list of the culpable had had only one day off in the past 13 weeks ) , lacked adequate training , or simply could n't be bothered .
 
-**Translation**: 它帮助我们推导出Biot-Savart定律，以后在解决某些辐射问题时，它将***方便，而且它经常导致漂亮的公式，例如，对于穿过一个表面的磁通量，定义为公式，可以用矢量电势重写如下：公式中C是包围表面的曲线。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"continuous"** in the following example make sense?:
-
-**Original Sentence**: On the other hand it can be argued that the sauropods like Brachiosaurus were so large , and with a relatively small surface area through which to cool compared with their enormous volume , that their cooling rate could have been slow enough to allow them to sustain more **continuous** activity than smaller , living reptiles .
-
-**Translation**: 另一方面，我们可以认为，像腕龙这样的长脚类动物是如此之大，而且与它们巨大的体积相比，它们的冷却表面积相对较小，因此它们的冷却速度可能足够慢，以使它们能够维持比更小的活体爬行动物更**连续的活动。
+**Translation**: 首先，它处于紧张状态，因为它在技术上没有能力避免灾难或在灾难发生时应对后果；处于商业压力的紧张状态，正如调查中所说的，"损害 "了安全；处于紧张状态的主要原因是现场的人不能或不愿意应付，因可怕的工作时间而疲惫不堪（在过去13周内，罪魁祸首的高级信号技术员只休息了一天），缺乏足够的培训，或者根本无法打扰。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"whole"** in the following example make sense?:
+Does the translation of **"surprised"** in the following example make sense?:
 
-**Original Sentence**: As a result of some 40 sub-projects involving all the Member States ( and often several groups within each one ) , databases of topography , soils , water resources and quality , biotopes , atmospheric emissions , climate , soil erosion and administrative boundaries have been built up for the **whole** Community and can be interrelated ; other data sets ( such as land cover , derived from satellite imagery ) have already been compiled for some of the Member States .
+**Original Sentence**: He is perhaps **surprised** by her composure .
 
-**Translation**: 作为涉及所有成员国（往往是每个成员国中的几个小组）的大约40个子项目的结果，已经为整个**共同体建立了地形、土壤、水资源和质量、生物群落、大气排放、气候、土壤侵蚀和行政边界的数据库，并且可以相互关联；其他数据集（如从卫星图像中得出的土地覆盖）已经为一些成员国编制了。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"bloody"** in the following example make sense?:
-
-**Original Sentence**: the **bloody** hell do you have to do !
-
-**Translation**: 你要做的是什么？
+**Translation**: 他也许对她的镇定感到惊讶。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"struggled"** in the following example make sense?:
+Does the translation of **"fresher"** in the following example make sense?:
 
-**Original Sentence**: And now , for the first time , he thought that he could smell the North Sea , that potent but half-illusory tang evoking nostalgic memories of childhood holidays , of solitary adolescent walks as he **struggled** with his first poems , of his aunt 's tall figure at his side , binoculars round her neck , striding towards the haunts of her beloved birds .
+**Original Sentence**: The showrooms of the House of Oliver were smaller and less grand than those at the House of Mattli but the décor was newer and **fresher** , pale grey drapes , ultra modern black furniture and a great deal of gleaming stainless steel .
 
-**Translation**: 现在，他第一次觉得自己闻到了北海的味道，那种强烈而又半虚幻的味道唤起了他对童年假期的怀念，唤起了他在青春期独自散步时**挣扎着写下的第一首诗，唤起了他姑姑在他身边的高大身影，脖子上挂着望远镜，大步走向她心爱的鸟儿的巢穴。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"wake"** in the following example make sense?:
-
-**Original Sentence**: He took a deep breath and headed down , the sergeant , two constables and Miss Williams in his **wake** .
-
-**Translation**: 他深吸了一口气，往下走，中士、两个警员和威廉姆斯小姐在他的**下被叫醒。
+**Translation**: 奥利弗之家的展厅比马特利之家的展厅要小，没有那么宏伟，但装饰更新颖，淡灰色的窗帘，超现代的黑色家具和大量闪亮的不锈钢。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"matched"** in the following example make sense?:
+Does the translation of **"clean"** in the following example make sense?:
 
-**Original Sentence**: It was an excitement that **matched** my own , for I had never sailed the South Seas and I had long dreamed of that scatter of tiny , magically named islands strewn across one third of a globe .
+**Original Sentence**: On this page , Nick Roe visits a plant which , despite strenuous public relations efforts , has failed to convince its neighbours that it has come **clean** .
 
-**Translation**: 这是一种与我自己**相匹配的兴奋，因为我从未在南洋航行过，而我长期以来一直梦想着那散落在地球三分之一处的、名字神奇的小岛。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"halt"** in the following example make sense?:
-
-**Original Sentence**: Alternatively , it may be able to muster enough support from SeaCo shareholders to **halt** the current disposal of assets by Mr Sherwood for its bid with Stena to be fully considered .
-
-**Translation**: 另外，它可能会得到SeaCo股东的足够支持，以****Sherwood先生目前对资产的处置，使其与Stena的竞标得到充分考虑。
+**Translation**: 在这一页，尼克-罗参观了一家工厂，尽管它在公共关系方面做出了努力，但却未能说服它的邻居，让他们相信它已经坦白了。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"rest"** in the following example make sense?:
+Does the translation of **"worth"** in the following example make sense?:
 
-**Original Sentence**: Why not give sex a **rest** for a bit , and pay a bit of attention to yourself ?
+**Original Sentence**: It 's not as if there are n't aspects of his career that are n't **worth** exploring : how did he come to use drums , then almost unknown in Texan country line-ups ?
 
-**Translation**: 为什么不给性爱一个**的休息时间，并关注一下自己？
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"threatening"** in the following example make sense?:
-
-**Original Sentence**: Wearing jeans and a blue shirt , she was tugging at a filing cabinet which was too large for her to embrace and which was **threatening** to over-balance on her .
-
-**Translation**: 她穿着牛仔裤和蓝衬衫，正拽着一个文件柜，这个文件柜对她来说太大了，无法拥抱，而且**威胁到她的平衡。
+**Translation**: 这并不是说他的职业生涯没有值得探索的方面：他是如何使用鼓的，当时在德克萨斯州的乡村阵容中几乎无人知晓？
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"fighting"** in the following example make sense?:
+Does the translation of **"complete"** in the following example make sense?:
 
-**Original Sentence**: Some say it was the importing of whole streets of **fighting** families from the fishquays , with their dockland diversions of prostitution , drug-dealing and handling .
+**Original Sentence**: ‘ You know that we insist on **complete** loyalty , ’ Madame Mattli continued .
 
-**Translation**: 有人说，这是因为从渔港引进了整条街道的***斗士家庭，他们在码头区从事卖淫、贩毒和搬运等活动。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"heading"** in the following example make sense?:
-
-**Original Sentence**: Here 's us , **heading** for trouble and God knows what else , and in the middle of you talking about Nordhausen , I start thinking of Peter .
-
-**Translation**: 我们在这里，**着麻烦，天知道还有什么，在你谈论诺德豪森的时候，我开始想到了彼得。
+**Translation**: 你知道我们坚持完全的忠诚，"Mattli夫人继续说。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"going"** in the following example make sense?:
+Does the translation of **"high"** in the following example make sense?:
 
-**Original Sentence**: It 's **going** to fours .
+**Original Sentence**: For numerous studies have shown that a **high** percentage of the population have committed criminal offences , in particular high proportions of juveniles , and it is difficult to believe that they are all different or abnormal .
 
-**Translation**: 它是****的四分之一。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"goes"** in the following example make sense?:
-
-**Original Sentence**: Oh come on Christopher come and sometimes it in the right panel , that 's the right panel there and then it goes in the left hand and then it goes to the right hand and then it **goes** to the left then right , the left , the right , left , right , left , confusing , but it 's that hand to start with
-
-**Translation**: 哦，来吧，克里斯托弗，有时它在右边的面板上，那是右边的面板，然后它到了左手，然后它到了右手，然后它**到了左边，然后是右边，左边，右边，左边，右边，左边，令人困惑，但它是那只手开始。
+**Translation**: 因为许多研究表明，人口中很高比例的人都有犯罪行为，特别是青少年的比例很高，很难相信他们都是与众不同或不正常的。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"indicates"** in the following example make sense?:
+Does the translation of **"mournful"** in the following example make sense?:
 
-**Original Sentence**: This contribution also **indicates** the wide variety of groups that are involved in monitoring environmental change and draws attention to the role that the European Community is increasingly playing in co-ordinating these efforts .
+**Original Sentence**: Somehow the image of the tall , thin , **mournful** double-deck tram with its wooden body , slatted wooden seats and growling electric motor has stuck in the British mind .
 
-**Translation**: 这一贡献也**说明了参与监测环境变化的各种团体，并提请注意欧洲共同体在协调这些努力方面日益发挥的作用。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"got"** in the following example make sense?:
-
-**Original Sentence**: Well you 've **got** an , you 're got ta go , have an appointment to go and see somebody there are n't you ?
-
-**Translation**: 你已经***了，你得走了，已经约好去见某人了，不是吗？
+**Translation**: 不知何故，这种高、瘦、悲哀的双层有轨电车的形象，以及它的木制车身、木制板条座椅和咆哮的电动马达，一直停留在英国人的脑海中。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"underlying"** in the following example make sense?:
+Does the translation of **"stunned"** in the following example make sense?:
 
-**Original Sentence**: Too much specialisation is bad for systems development ; it feeds the temptation to get engrossed in technical difficulties and forget about the **underlying** business needs .
+**Original Sentence**: Paula repeated , **stunned** .
 
-**Translation**: 太多的专业化对系统开发是不利的；它助长了沉迷于技术难题而忘记了***业务需求的诱惑。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"held"** in the following example make sense?:
-
-**Original Sentence**: He certainly **held** deep convictions as to the absolute wrongness of the Liberal policies that he opposed , but at least a part of his apparent hostility was assumed for the occasion , a hard line that might secure a better compromise in the end .
-
-**Translation**: 对于他所反对的自由党政策的绝对错误性，他当然**持有深刻的信念，但他表面上的敌意至少有一部分是为了这个场合而采取的，这种强硬的态度可能会在最后获得更好的妥协。
+**Translation**: 宝拉重复道，惊呆了。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"Make"** in the following example make sense?:
+Does the translation of **"subject"** in the following example make sense?:
 
-**Original Sentence**: Not even the time he was dunked head first in a tub of dubious liquid , and brought up gasping for breath : ‘ **Make** him sing God Save the Queen ! ’ they shouted .
+**Original Sentence**: In recent years there has been a steady accumulation of evidence that personality and allied affective factors play a crucial role in determining **subject** choice and student success .
 
-**Translation**: 甚至连他被头朝下浸泡在一盆可疑的液体中，并被抬起来喘气的那次也没有："***让他唱《上帝保佑女王》！"他们喊道。
+**Translation**: 近年来，不断积累的证据表明，人格和相关的情感因素在决定学科选择和学生成功方面发挥着至关重要的作用。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"refreshing"** in the following example make sense?:
+
+**Original Sentence**: There is a **refreshing** simplicity and tenderness in Motion 's account of the way Francis nurses her , but she herself is too sketchily drawn for the episode to carry much weight .
+
+**Translation**: 在Motion对Francis护理她的方式的叙述中，有一种令人耳目一新的简单和温柔，但她本人的描写太过简略，使这一情节没有多少分量。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"separate"** in the following example make sense?:
+
+**Original Sentence**: Without an adequate theory of their articulation , they simply begin to **separate** again .
+
+**Translation**: 如果没有足够的理论来说明它们的衔接，它们只是开始再次分离。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"short"** in the following example make sense?:
+
+**Original Sentence**: ‘ We must run it safely in the **short** term and long term , ’ he said , ‘ because if people are able to demonstrate that we are causing an environment problem we will be shut down . ’
+
+**Translation**: 我们必须在短期和长期内安全运行，"他说，"因为如果人们能够证明我们正在造成环境问题，我们将被关闭。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"short"** in the following example make sense?:
+
+**Original Sentence**: Turnbull explains through the interpreter that time is **short** ; it is late ; there is a great war on with the Germans .
+
+**Translation**: 特恩布尔通过翻译解释说，时间很短；已经很晚了；正在与德国人进行一场伟大的战争。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"fine"** in the following example make sense?:
+
+**Original Sentence**: Then he turns to the policeman : ‘ That 's **fine** , sergeant .
+
+**Translation**: 然后他转向警察：'很好，警官。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"critical"** in the following example make sense?:
+
+**Original Sentence**: Yet it was Mr Clarke , not Mr Nichol , who was involved in the **critical** decisions — the cash limit for the NHS , the 6.5 per cent offer to ambulance workers ( compared to seven per cent for nurses , eight per cent for doctors and nine per cent for ancillary workers ) ; and today 's introduction of military ambulances .
+
+**Translation**: 然而，参与关键决策的是克拉克先生，而不是尼克尔先生--国家医疗服务系统的现金限额，向救护车工作人员提供6.5%的优惠（相比之下，护士为7%，医生为8%，辅助人员为9%）；以及今天引入的军用救护车。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"reading"** in the following example make sense?:
+
+**Original Sentence**: The ‘ detour , of Stalinism is thus formalized as Marxism 's own descent into its unconscious , resulting in a dream-work of heterogeneous histories that have eluded systematization and subsumption into the single meaning of Marxism 's own **reading** of history .
+
+**Translation**: 因此，斯大林主义的 "迂回 "被正式确定为马克思主义自己在其无意识中的堕落，导致了异质历史的梦幻作品，这些历史没有被系统化并归入马克思主义自己的历史解读的单一意义。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"Save"** in the following example make sense?:
+
+**Original Sentence**: **Save** you , save you carrying them .
+
+**Translation**: 拯救你，拯救你携带他们。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"see"** in the following example make sense?:
+
+**Original Sentence**: A change in the tax rules affecting pensions was shortly followed by a job with the Department of Environment 's Property Services Agency , a post which carries him through to March and may **see** him stay until he is 70 .
+
+**Translation**: 在影响养老金的税收规则发生变化之后，他很快就在环境部的财产服务局找到了一份工作，这个职位让他一直工作到3月，并可能一直工作到70岁。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"stay"** in the following example make sense?:
+
+**Original Sentence**: Overall there would be a reduction in the number of students choosing science , but those who do so choose will be more likely to **stay** happily in the subject and to possess more flexible minds .
+
+**Translation**: 总的来说，选择科学的学生数量会减少，但那些选择科学的学生将更有可能愉快地留在这个学科中，并拥有更灵活的头脑。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"break"** in the following example make sense?:
+
+**Original Sentence**: Extroverts take longer to learn the rules of society , they are more likely to **break** them , and thus more likely become convicted criminals .
+
+**Translation**: 外向的人需要更长的时间来学习社会规则，他们更有可能违反规则，因此更有可能成为被定罪的罪犯。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"find"** in the following example make sense?:
+
+**Original Sentence**: If we compare boys of 14 years of age who opt for science with other boys , we **find** that the former have very cut-and-dried views on many issues .
+
+**Translation**: 如果我们将选择科学的14岁男孩与其他男孩进行比较，我们会发现前者对许多问题的看法非常切题。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"seeing"** in the following example make sense?:
+
+**Original Sentence**: For example , girls at the age of 12 and 14 years seem to take a more mature attitude to personal relationships , **seeing** their complexity and reciprocal nature , while boys are more exploitative .
+
+**Translation**: 例如，12岁和14岁的女孩似乎对个人关系采取了更成熟的态度，看到了它们的复杂性和互惠性，而男孩则更有利用价值。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"messing"** in the following example make sense?:
+
+**Original Sentence**: No **messing** !
+
+**Translation**: 不乱来!
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"ran"** in the following example make sense?:
+
+**Original Sentence**: Among the rich and famous who had come to the salon to have their hair cut , tinted and set , Paula recognised Dusty Springfield , the pop singer , her eyes big and sooty , her lips pearly pink , and was unable to suppress the thrill of excitement which **ran** through her .
+
+**Translation**: 在那些来沙龙理发、染发和定型的富人和名人中，宝拉认出了流行歌手达斯蒂-斯普林菲尔德（Dusty Springfield），她的眼睛又大又黑，嘴唇是珍珠般的粉红色，她无法抑制激动的心情，这让她很兴奋。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"maintain"** in the following example make sense?:
+
+**Original Sentence**: But sadly , there is no indication that the GMA consortium which will design , operate and **maintain** the first of the new generation British trams in Manchester will share the looks of their Milanese counterparts .
+
+**Translation**: 但遗憾的是，没有迹象表明，将在曼彻斯特设计、运营和维护第一辆新一代英国有轨电车的GMA财团将与米兰的同行们一样，拥有同样的外观。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"recall"** in the following example make sense?:
+
+**Original Sentence**: How many of us can now **recall** the real Maria von Trapp or Fanny Brice ?
+
+**Translation**: 现在有多少人能够想起真正的玛丽亚-冯-特拉普或范妮-布莱斯？
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"throw"** in the following example make sense?:
+
+**Original Sentence**: But he 's not doing the estimates he 's been given and he ca n't afford to **throw** money away .
+
+**Translation**: 但是，他没有做他所得到的估计，他不可能把钱扔掉。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"ageing"** in the following example make sense?:
+
+**Original Sentence**: The supertram is , in effect , a low-cost replacement for British Rail 's **ageing** fleet of suburban diesel multiple-unit trains , those rasping diesels which change gear to the accompaniment of voluminous clouds of acrid black exhaust fumes and the blessing of train spotters .
+
+**Translation**: 超级电车实际上是英国铁路公司老化的郊区柴油动车组的低成本替代品，这些嘎嘎作响的柴油机在大量刺鼻的黑色废气云的伴奏下换挡，并得到了列车观测员的祝福。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"see"** in the following example make sense?:
+
+**Original Sentence**: you **see** put John , one of us start trussing early but we did n't need one Ann 's got another team in the other room doing it .
+
+**Translation**: 你看，约翰，我们中的一个人很早就开始做桁架，但我们不需要，安的另一个团队在另一个房间做。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"set"** in the following example make sense?:
+
+**Original Sentence**: There was a hint of sadness now in Madame 's eyes but her mouth was **set** and determined .
+
+**Translation**: 夫人的眼睛里现在有一丝悲伤，但她的嘴是固定的和坚定的。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"discounting"** in the following example make sense?:
+
+**Original Sentence**: It is not that prospects for earnings are 10 p.c. better that they were in the middle of last week , but it is possible to argue that prospects are that much better than they would have been under a Labour government and that the market was **discounting** such a result .
+
+**Translation**: 这并不是说收益前景比上周中期时好了10个百分点，但可以说前景比工党政府执政时好了那么多，而且市场对这样的结果是有折扣的。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -510,39 +460,49 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"found"** in the following example make sense?:
 
-**Original Sentence**: Indeed , while with one hand trying to hold down expenditure by local authorities , the Government **found** itself by the late 1980s involved with the other hand in massive ear-marked spending on inner urban areas .
+**Original Sentence**: Studies in this area have indicated that too strict or too lax parental attitudes increase the risk of delinquency ( the work of John Bowlby , for example ) ; they have **found** that if a young child is deprived of close personal relationships with parents or parent figures then ‘ problem behaviour ’ is more common .
 
-**Translation**: 事实上，政府一方面试图控制地方当局的支出，另一方面却在80年代末发现自己参与了对城市内部地区的大规模专项支出。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"introduce"** in the following example make sense?:
-
-**Original Sentence**: Drinks exercises **introduce** the notion of measurement , concentration of alcohol content ; information which will be necessary to carry out the recording of alcohol consumption throughout the duration of the course ( p. 3 ) .
-
-**Translation**: 饮料练习**介绍**测量的概念，酒精含量的浓度；这些信息对于在整个课程期间进行酒精消费记录是必要的（第3页）。
+**Translation**: 这一领域的研究表明，父母的态度过于严格或过于宽松都会增加犯罪的风险（例如，约翰-鲍尔比的工作）；他们发现，如果幼儿被剥夺了与父母或父母的亲密个人关系，那么 "问题行为 "就会更加普遍。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"leave"** in the following example make sense?:
+Does the translation of **"dump"** in the following example make sense?:
 
-**Original Sentence**: No , **leave** the sound !
+**Original Sentence**: Yet he did not oppose all toxic waste movement ( after all , the same union represents workers at Rechem itself ) ; he simply did n't like the idea that big industrial nations like Canada could **dump** their dirty problems on this country and his members .
 
-**Translation**: 不，**离开**的声音!
+**Translation**: 然而，他并不反对所有的有毒废物运动（毕竟，同一个工会代表Rechem本身的工人）；他只是不喜欢像加拿大这样的大工业国可以把他们的肮脏问题倾倒在这个国家和他的成员身上。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"stretched"** in the following example make sense?:
+Does the translation of **"see"** in the following example make sense?:
 
-**Original Sentence**: To her , the long summer days had **stretched** ahead , world without end .
+**Original Sentence**: and then Ann started that little line trussing you **see** , so we 've done it between us but I 've got a thousand to do and she 's got about four
 
-**Translation**: 对她来说，漫长的夏日已经**地延伸到了前方，没有尽头。
+**Translation**: 然后，安开始了小线桁架，你看，所以我们已经做了我们之间，但我有一千多人要做，她有大约四个。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"divided"** in the following example make sense?:
+
+**Original Sentence**: At the very least , the CEGB should be **divided** into a wider range of generating companies to stimulate competition .
+
+**Translation**: 至少，CEGB应该被划分为更多的发电公司，以刺激竞争。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"take"** in the following example make sense?:
+
+**Original Sentence**: ‘ How long will it **take** , anyway ? ’
+
+**Translation**: '到底要花多长时间？
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -550,439 +510,99 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"making"** in the following example make sense?:
 
-**Original Sentence**: The selectors knew they were playing with fire when they decided to arrange a couple of club fixtures and they have duly been consumed in a conflagration of their own **making** .
+**Original Sentence**: And in this sense it must be said that the Resistance experience , by **making** us believe that politics is a relationship between man and man or between consciousnesses , fostered our illusions of 1939 and masked the truth of the incredible power of history which the Occupation taught us in another connection .
 
-**Translation**: 当选择者决定安排几个俱乐部的比赛时，他们就知道自己在玩火，而且他们已经在自己**制造的大火中被烧死了。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"got"** in the following example make sense?:
-
-**Original Sentence**: He chewed his thumbnail as he walked , out of long experience keeping in mind the highest priorities : Ensure Body Not Moved and Ensure Next of Kin Notified before the Press **got** the story .
-
-**Translation**: 他边走边咬着拇指甲，出于长期的经验，他牢记最优先的事项：确保尸体不被移动，并确保在媒体***得到消息之前通知亲属。
+**Translation**: 在这个意义上，必须说抵抗运动的经验，通过使我们相信政治是人与人之间或意识之间的关系，助长了我们对1939年的幻想，并掩盖了历史的惊人力量的真相，而占领运动在另一个方面教会了我们。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"felt"** in the following example make sense?:
+Does the translation of **"given"** in the following example make sense?:
 
-**Original Sentence**: But finally , in spite of their common roots in Satie and Stein , Thomson **felt** that Cage 's aesthetic was destructive .
+**Original Sentence**: They attack the status quo by pointing out that the reasons **given** for denying rights to children are bad reasons , and then explicitly or implicitly deny them duties for no reason at all .
 
-**Translation**: 但最后，尽管他们在萨蒂和斯坦因中有着共同的根基，汤姆森**觉得凯奇的美学是破坏性的。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"abandoning"** in the following example make sense?:
-
-**Original Sentence**: But it will not mean that we are **abandoning** them .
-
-**Translation**: 但这并不意味着我们要**抛弃**他们。
+**Translation**: 他们通过指出剥夺儿童权利的理由是不好的理由来攻击现状，然后明确或隐含地否认他们的职责，根本没有任何理由。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"goes"** in the following example make sense?:
+Does the translation of **"cracked"** in the following example make sense?:
 
-**Original Sentence**: It 's getting more and more important as it **goes** .
+**Original Sentence**: Workers in blue overalls drifted around us and **cracked** jokes in gentle Welsh accents .
 
-**Translation**: 它越来越重要，因为它是***的。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"heard"** in the following example make sense?:
-
-**Original Sentence**: From what I **heard** , Germany was still their home .
-
-**Translation**: 从我**听到的情况来看，德国仍然是他们的家。
+**Translation**: 穿着蓝色工作服的工人在我们身边飘来飘去，用温和的威尔士口音开着玩笑。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"closed"** in the following example make sense?:
+Does the translation of **"separates"** in the following example make sense?:
 
-**Original Sentence**: The trees had grown up beside it in the twenty-five years since the railway had **closed** , and the boy stopped every now and then to watch small birds hopping around the top branches .
+**Original Sentence**: The degeneration occurs , not because men are congenitally or even incorrigibly narrow , libertine , isolated or selfish , but because in defining themselves as autonomous beings in opposition to other human beings they have had to seek what **separates** them as a group from others .
 
-**Translation**: 在铁路关闭后的二十五年里，旁边的树已经长大了，男孩时不时地停下来，看小鸟在树顶的树枝上跳跃。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"accompany"** in the following example make sense?:
-
-**Original Sentence**: Some of the refugees originally refused to touch East German territory again , but were reassured when two of the West German diplomats said they would **accompany** the train , to ensure that the rules were followed .
-
-**Translation**: 一些难民原本拒绝再次接触东德领土，但当两名西德外交官表示他们将**陪同**火车，以确保规则得到遵守时，他们感到放心了。
+**Translation**: 堕落的发生，并不是因为人先天或甚至不可救药地狭隘、放纵、孤立或自私，而是因为在将自己定义为与其他人类相对立的自主生命时，他们不得不寻求将他们作为一个群体与其他人分开的东西。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"shared"** in the following example make sense?:
+Does the translation of **"breathe"** in the following example make sense?:
 
-**Original Sentence**: And on that one is er , sixty three **shared** by nine six time sixty three divided by nine
+**Original Sentence**: Paula was amazed by the security arrangements that were necessary to ensure that the new season 's collections remained exclusive — the windows at the rear of the premises were heavily barred and practically the first thing she had to do on commencing her employment was to sign a contract promising that she would not **breathe** a word about the designs she saw .
 
-**Translation**: 而在那一个是呃，六十三**分享**的九个六次六十三除以九。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"assist"** in the following example make sense?:
-
-**Original Sentence**: ( When he became Chancellor of the Exchequer this practice caused consternation at the Treasury , when he used only a page of notes to **assist** him in moving complicated resolutions on wartime finance ; he relied successfully on his memory to provide details and figures . )
-
-**Translation**: (当他成为财政大臣时，这种做法在财政部引起了惊愕，当时他只用了一页笔记来**协助他提出关于战时财政的复杂决议；他成功地依靠自己的记忆来提供细节和数字。)
+**Translation**: 宝拉对为确保新一季产品的独占性而必须作出的安全安排感到惊讶--房舍后部的窗户有很多栅栏，实际上，她开始工作时必须做的第一件事就是签署一份合同，承诺她不会对她所看到的设计透露一个字。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"overcome"** in the following example make sense?:
+Does the translation of **"fail"** in the following example make sense?:
 
-**Original Sentence**: Once people **overcome** their fears about computers and begin to use them in telecottages , they acquire their own equipment .
+**Original Sentence**: Like most shows which are manufactured with an eye to commercial success ( Winnie , High Society , to name only Buddy 's predecessors at the Victoria Palace ) , this one will probably **fail** .
 
-**Translation**: 一旦人们**克服了对计算机的恐惧，并开始在电信领域使用它们，他们就会获得自己的设备。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"avoid"** in the following example make sense?:
-
-**Original Sentence**: Well they give you all these bloody tips and papers about what to do , to avoid this and **avoid** that .
-
-**Translation**: 他们给了你所有这些该死的提示和文件，告诉你该怎么做，以避免这个和**避免**那个。
+**Translation**: 像大多数着眼于商业成功而制造的节目一样（《温妮》、《上流社会》，仅举巴迪在维多利亚宫的前辈们的例子），这个节目可能会失败。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"asks"** in the following example make sense?:
+Does the translation of **"mean"** in the following example make sense?:
 
-**Original Sentence**: ‘ What do independent experts say about our 10 extra pages ? ’ **asks** the advertisement .
+**Original Sentence**: ‘ Does that **mean** they 'll be seeing green monkeys and blue snakes up the rigging ? ’
 
-**Translation**: '独立的专家对我们的10个额外的页面怎么说？ '**问**的广告。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"rose"** in the following example make sense?:
-
-**Original Sentence**: To his right the ground **rose** gently towards the southern cliffs and he could see the dark mouth of a concrete pillbox , undemolished since the war , and as seemingly indestructible as the great hulks of wave-battered concrete , remnants of the old fortifications which lay half-submerged in the sand along part of the beach .
-
-**Translation**: 在他的右边，地面**向南边的悬崖缓缓升起，他可以看到一个混凝土碉堡的黑口，自战争以来一直没有被拆除，而且似乎和那些被海浪打碎的混凝土大块一样坚不可摧，这些旧的防御工事的残余物沿着海滩的一部分半淹没在沙子里。
+**Translation**: 这是否意味着他们将在索具上看到绿猴子和蓝蛇？
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"opened"** in the following example make sense?:
+Does the translation of **"came"** in the following example make sense?:
 
-**Original Sentence**: She dug into her pocket , unfolded a bit of newspaper , and read , Sportsman Jim Clark today **opened** a splendidly equipped physical training college at Larkwood in Wiltshire , formerly the family home of the O'Dare family .
+**Original Sentence**: ‘ And I had to lose a good , good woman before I **came** to my senses .
 
-**Translation**: 她掏出口袋，展开一点报纸，读到：运动员吉姆-克拉克今天在威尔特郡的拉克伍德**了一所设备精良的体能训练学院，该学院以前是奥达雷家族的家。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"put"** in the following example make sense?:
-
-**Original Sentence**: Well we used to **put** , I mean , I put twelve , thirteen hundred in the Sugar House .
-
-**Translation**: 我们曾经**过，我的意思是，我在糖屋里放了一千二百个，一千三百个。
+**Translation**: 我不得不失去一个好的，好的女人，然后我才清醒过来。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"set"** in the following example make sense?:
+Does the translation of **"said"** in the following example make sense?:
 
-**Original Sentence**: Although the Scarman Report is often taken to be the central text which argues for a link between ‘ social conditions ’ and ‘ disorder ’ , the terms of the debate were by no means **set** by Scarman .
+**Original Sentence**: The prison has a medical block with 24 beds and a gym with equipment that staff **said** would be the envy of many council leisure centres .
 
-**Translation**: 尽管《斯卡曼报告》经常被认为是论证 "社会条件 "和 "混乱 "之间联系的核心文本，但辩论的条件绝不是由斯卡曼**定的。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"demanded"** in the following example make sense?:
-
-**Original Sentence**: Again Law succeeded by unorthodoxy ; he was quick to grasp the essentials of an opponent 's argument and quite prepared to be rude or direct if the situation **demanded** it .
-
-**Translation**: 罗氏又一次以非正统的方式获得了成功；他迅速抓住了对手论点的要害，并准备在情况需要时粗暴或直接地表达出来。
+**Translation**: 监狱有一个拥有24张床位的医疗区和一个健身房，工作人员说，这些设备会让许多议会休闲中心羡慕不已。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"sit"** in the following example make sense?:
+Does the translation of **"bury"** in the following example make sense?:
 
-**Original Sentence**: Unlike the prison inmate , AEC participants can not **sit** back and passively do their time .
+**Original Sentence**: If the more economically puny ASEAN countries ( Indonesia , Malaysia , Singapore , Brunei , Thailand and the Philippines ) were to **bury** their reservations , then the high growth from other partners , including such tigers as Thailand and South Korea alongside the more mature economies of Japan and Australia , could mean a dynamic coalition .
 
-**Translation**: 与监狱里的囚犯不同，AEC的参与者不能**坐着，被动地做他们的工作。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"got"** in the following example make sense?:
-
-**Original Sentence**: She never **got** her use back and she never spoke again .
-
-**Translation**: 她从来没有***过她的使用权，她也没有再说话。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"overruled"** in the following example make sense?:
-
-**Original Sentence**: Joseph Chamberlain retained his preference for independence but allowed himself to be **overruled** by Austen and by the overwhelming wishes of the Liberal Unionist Council to merge .
-
-**Translation**: 约瑟夫-张伯伦保留了他对独立的偏好，但他允许自己被奥斯汀和自由联合党委员会压倒性的合并愿望所**。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"called"** in the following example make sense?:
-
-**Original Sentence**: Forgotten what it 's **called** .
-
-**Translation**: 忘了它叫什么名字了。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"construct"** in the following example make sense?:
-
-**Original Sentence**: Why should it be necessary to ‘ **construct** ’ a murder conviction out of this lesser intent ?
-
-**Translation**: 为什么要用这种较小的意图来 "**构筑**"谋杀罪？
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"come"** in the following example make sense?:
-
-**Original Sentence**: A successful policy for tackling the roots of urban disorder was seen as one which sought to involve all the community in dealing with the problems of each area so that they could **come** to feel that they have a stake in its future ( Scarman , 1981 , para. 6.42 ) .
-
-**Translation**: 一项成功的解决城市混乱根源的政策被认为是寻求让所有社区参与处理每个地区的问题，这样他们就能**来感觉到他们与该地区的未来有关系（Scarman，1981年，第6.42段）。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"examine"** in the following example make sense?:
-
-**Original Sentence**: In the process it will be necessary to **examine** not only the extent to which geographic issues feature on the policy issues agenda in these fields but also the institutional context which governs decision-making and the extent to which data are available for research and policy analysis purposes .
-
-**Translation**: 在这一过程中，不仅需要**审查地理问题在这些领域的政策问题议程中的重要性，还需要审查支配决策的体制环境以及为研究和政策分析目的提供数据的程度。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"got"** in the following example make sense?:
-
-**Original Sentence**: That one 's nice over by there cos it 's **got** the long hair .
-
-**Translation**: 那边的那个很好，因为它有***的长头发。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"proceed"** in the following example make sense?:
-
-**Original Sentence**: The offer from the Anglo-Swedish consortium formed by Tiphook and Stena AB is the subject of an appeal in the Bermudan courts which is aimed at overturning an earlier ruling allowing SeaCo to **proceed** with its ‘ poison pill ’ defence .
-
-**Translation**: 由Tiphook和Stena AB组成的英瑞财团提出的报价是百慕大法院上诉的主题，其目的是推翻先前允许SeaCo继续**其 "毒丸 "辩护的裁决。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"set"** in the following example make sense?:
-
-**Original Sentence**: Entire departments can be **set** up , in health , foreign affairs , agriculture , trade , finance , education , justice , religion , information and social welfare .
-
-**Translation**: 在卫生、外交、农业、贸易、金融、教育、司法、宗教、信息和社会福利方面，可以**设立整个部门。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"gone"** in the following example make sense?:
-
-**Original Sentence**: That 's where all these long thin ones have **gone** .
-
-**Translation**: 这就是所有这些瘦长的人都**了的地方。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"wore"** in the following example make sense?:
-
-**Original Sentence**: He **wore** that mantle well at Rome University until his retirement in 1978 .
-
-**Translation**: 他在罗马大学很好地**了这个衣钵，直到1978年退休。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"went"** in the following example make sense?:
-
-**Original Sentence**: And we **went** down , liked it and that was it .
-
-**Translation**: 我们去了***，喜欢它，就是这样。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"casting"** in the following example make sense?:
-
-**Original Sentence**: It has Ely Cathedral , its great green windows **casting** a translucent light across the Lady Chapel .
-
-**Translation**: 它有伊利大教堂，其巨大的绿色窗户***在女礼拜堂上投下半透明的光。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"set"** in the following example make sense?:
-
-**Original Sentence**: Normally , the reserve is **set** only days or hours before the auction , when the agents will already have a good indication of how much interest has been shown .
-
-**Translation**: 通常情况下，底价是在拍卖前几天或几个小时才确定的，这时中介已经很清楚地知道有多少人有兴趣。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"follow"** in the following example make sense?:
-
-**Original Sentence**: Worse , far worse was to **follow** .
-
-**Translation**: 更糟糕的是，更糟糕的是******。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"supported"** in the following example make sense?:
-
-**Original Sentence**: It is also urging the conference to oppose a motion , **supported** by the National Union of Mineworkers , to commit a Labour government to abolishing all nuclear power within 15 years .
-
-**Translation**: 它还敦促大会反对一项由全国矿工工会支持的动议，即承诺工党政府在15年内废除所有核电。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"run"** in the following example make sense?:
-
-**Original Sentence**: A 1985 Lancia Y10 ( lead only ) sells for around £2,000 whereas the similar Fiat Uno 55 from the same year , converted to **run** on unleaded , is worth around £500 more .
-
-**Translation**: 一辆1985年的蓝旗亚Y10（仅有铅）售价约为2000英镑，而同年的类似菲亚特Uno 55，改装为***运行的无铅汽油，价值约为500英镑以上。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"investigate"** in the following example make sense?:
-
-**Original Sentence**: In contrast to our previous example we shall now **investigate** a cylindrical beam consisting of two kinds of charge carriers : negative electrons and some positive particles , which I do not wish to be more precise about at the moment .
-
-**Translation**: 与我们之前的例子相比，我们现在要**研究的是一个由两种电荷载体组成的圆柱形光束：负电子和一些正粒子，我现在不想更精确地描述这些。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"included"** in the following example make sense?:
-
-**Original Sentence**: Is the cooker **included** or not ?
-
-**Translation**: 炊具是否包括***？
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"assess"** in the following example make sense?:
-
-**Original Sentence**: Bobby Robson was there to **assess** World Cup candidates , but nothing positive emerged from 90 minutes of scuffling that made one almost yearn for the more measured boredom of Rangers ' European Cup exit in Munich three days earlier .
-
-**Translation**: 博比-罗布森在那里对世界杯候选人进行了**评估，但在90分钟的混战中没有出现任何积极进展，这让人几乎渴望三天前流浪者队在慕尼黑的欧洲杯上出局时的那种更有分寸的无聊感。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"held"** in the following example make sense?:
-
-**Original Sentence**: Thus stated , there is no reference to the defendant 's intention or awareness of the risks : the fact that D has chosen to commit rape , robbery , or another serious offence , and has caused death thereby , is **held** to constitute sufficient moral grounds for placing the killing in the highest category .
-
-**Translation**: 因此，这里没有提到被告的意图或对风险的认识：D选择了强奸、抢劫或其他严重的罪行，并因此造成了死亡，这一事实**被认为**构成了将杀戮置于最高类别的充分道德理由。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"come"** in the following example make sense?:
-
-**Original Sentence**: it 's raining in time for us to go to school , **come** on
-
-**Translation**: 下雨了，我们要去上学了，***来吧
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"left"** in the following example make sense?:
-
-**Original Sentence**: ‘ I must go and do my duty as a host for what 's **left** of the night . ’
-
-**Translation**: 我必须去履行我作为主人的职责，为晚上剩下的***做准备。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"considering"** in the following example make sense?:
-
-**Original Sentence**: So Lewis did not say , even to himself , when he was privately **considering** trying to get hold of his son in Tenerife , that he disliked Adam and would have been pleased to spoil his holiday .
-
-**Translation**: 因此，刘易斯没有说，甚至对自己说，当他私下**考虑**试图在特内里费岛找到他的儿子时，他不喜欢亚当，并会很乐意破坏他的假期。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"give"** in the following example make sense?:
-
-**Original Sentence**: There she was in a conventional two-piece suit , fine dark wool , muted geometrical pattern in greens and unexpected straw browns , caught in at the waist — still very thin — to **give** the effect of a bustle , the skirt long and straight to the knee .
-
-**Translation**: 她穿着一套传统的两件式套装，上等的深色羊毛，柔和的几何图案的绿色和出乎意料的草棕色，在腰部被夹住--仍然很薄--以**出半身裙的效果，裙子很长，直达膝部。
+**Translation**: 如果经济上比较弱小的东盟国家（印度尼西亚、马来西亚、新加坡、文莱、泰国和菲律宾）要埋头苦干，那么其他伙伴的高增长，包括泰国和韩国这样的小老虎以及日本和澳大利亚这样的成熟经济体，可能意味着一个充满活力的联盟。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -990,289 +610,379 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"made"** in the following example make sense?:
 
-**Original Sentence**: A task description which is part of a design process should be fully — documented in terms of the origins of information , the assumptions **made** and the methods used .
+**Original Sentence**: The other girls disliked her for her outstanding looks and her haughty ways and **made** no attempt to be friendly on anything but the most superficial level and the pattern cutters and sewing hands hurried home to their families and boyfriends the moment they finished their long day 's work .
 
-**Translation**: 作为设计过程一部分的任务描述应该在信息来源、假设**和使用的方法方面进行充分的记录。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"raise"** in the following example make sense?:
-
-**Original Sentence**: The scientists hope to **raise** £100,000 through an appeal by Windsor Safari Park .
-
-**Translation**: 科学家们希望通过温莎野生动物园的呼吁，***筹集到10万英镑的资金。
+**Translation**: 其他女孩不喜欢她出色的长相和傲慢的态度，除了最肤浅的层面外，没有试图与她友好相处，而剪纸师和缝纫师在结束一天漫长的工作后，就匆匆回家与家人和男友团聚。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"plans"** in the following example make sense?:
+Does the translation of **"makes"** in the following example make sense?:
 
-**Original Sentence**: This non-punitive paradigm will provide a framework for contrasting the efficacy of current practice with future **plans** inappropriately to transform probation work into ‘ a new approach to punishment in the community ’ ( p. 18 , para. 4.3 ) .
+**Original Sentence**: that , that just **makes** the total picture just different altogether .
 
-**Translation**: 这种非惩罚性的范式将提供一个框架，以对比当前实践与未来**计划的功效，不适当地将缓刑工作转变为'社区惩罚的新方法'（第18页，第4.3段）。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"side"** in the following example make sense?:
-
-**Original Sentence**: Law conceived of the role of the leader in an exactly opposite sense from Balfour : he sought to foster unity by placing himself at the head of the discordant elements where Balfour had thrown the leadership on the **side** of restraint .
-
-**Translation**: 罗在与贝尔福完全相反的意义上设想了领袖的作用：他试图通过将自己置于不和谐因素的领导地位来促进团结，而贝尔福则将领导权放在了克制的**边。
+**Translation**: 这只是使总的情况完全不同而已。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"planning"** in the following example make sense?:
+Does the translation of **"transmitted"** in the following example make sense?:
 
-**Original Sentence**: ‘ He 's goin' to head-up world **planning** operations from Detroit . ’
+**Original Sentence**: Citing Marx 's famous remark in The Eighteenth Brumaire , ‘ Men make their own History … but under circumstances … given and **transmitted** from the past ’ , Sartre suggested that this implied ‘ the permanent and dialectical unity of freedom and necessity , ( I , 35 ) .
 
-**Translation**: "他将在底特律领导世界**规划**行动。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"trials"** in the following example make sense?:
-
-**Original Sentence**: There have been no controlled **trials** of the Gerson therapy .
-
-**Translation**: 目前还没有关于格森疗法的对照**试验。
+**Translation**: 萨特引用了马克思在《第十八次布尔马》中的名言："人创造自己的历史......但却是在......从过去给予和传播的情况下"，他认为这意味着 "自由和必然性的永久和辩证的统一，（I , 35）。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"members"** in the following example make sense?:
+Does the translation of **"decided"** in the following example make sense?:
 
-**Original Sentence**: MORE than 800 Lloyd 's of London members on syndicates managed by the loss-making Gooda Walker agency have failed in their legal attempt to prevent Lloyd 's and **members** ' agents from drawing down their funds .
+**Original Sentence**: This is what the House of Lords **decided** in two cases last April in spite of an attempt to get the valuers off the hook by a disclaimer which said : ‘ I accept that the valuer does not warrant anything stated in his report as being accurate …
 
-**Translation**: 由亏损的古达-沃克代理公司管理的辛迪加上的800多名劳合社成员在阻止劳合社和**成员**代理公司提取其资金的法律尝试中失败。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"home"** in the following example make sense?:
-
-**Original Sentence**: Miranda pushed **home** this advantage .
-
-**Translation**: 米兰达把***的这个优势推到了家里。
+**Translation**: 这就是上议院去年4月对两起案件的裁决，尽管有人试图通过免责声明让估价师脱身，声明中说：'我接受估价师不保证其报告中所述的任何内容是准确的......。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"bit"** in the following example make sense?:
+Does the translation of **"save"** in the following example make sense?:
 
-**Original Sentence**: ‘ In a tough market you need to get the programme right , the price right and have a little **bit** of luck . ’
+**Original Sentence**: Save you , **save** you carrying them .
 
-**Translation**: 在一个艰难的市场中，你需要得到正确的方案，正确的价格，并有一点***的运气。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"bit"** in the following example make sense?:
-
-**Original Sentence**: Why not give sex a rest for a bit , and pay a **bit** of attention to yourself ?
-
-**Translation**: 为什么不把性爱放一放，而对自己给予***的关注？
+**Translation**: 拯救你，拯救你携带他们。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"melodrama"** in the following example make sense?:
+Does the translation of **"pursuing"** in the following example make sense?:
 
-**Original Sentence**: ‘ I 've had enough of your **melodrama** , ’ Adam snarled .
+**Original Sentence**: They 're not **pursuing** it until we put these things out .
 
-**Translation**: '我已经受够了你的**剧，'亚当咆哮道。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"makers"** in the following example make sense?:
-
-**Original Sentence**: This is one reason why policy **makers** never seem to take account fully of the people affected by their decisions .
-
-**Translation**: 这就是为什么政策**制定者似乎从来没有充分考虑到受其决定影响的人的原因之一。
+**Translation**: 在我们把这些东西放出来之前，他们不会再追究了。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"limits"** in the following example make sense?:
+Does the translation of **"kick"** in the following example make sense?:
 
-**Original Sentence**: The first part should be a general introduction which orientates the readers towards the system , its purpose , its functional structure and mode of operation and its performance **limits** .
+**Original Sentence**: But I did **kick** the drug , Mr Breakspear , and it was probably the hardest damned thing I ever did in all my life .
 
-**Translation**: 第一部分应该是一个总的介绍，使读者对系统、其目的、其功能结构和操作模式以及其性能**限制有一个定位。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"declines"** in the following example make sense?:
-
-**Original Sentence**: Of course , I know perfectly well why the Department of the Environment **declines** to list it .
-
-**Translation**: 当然，我非常清楚为什么环境部**拒绝列出它。
+**Translation**: 但我确实戒了毒，Breakspear先生，这可能是我一生中做过的最难的该死的事情。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"reception"** in the following example make sense?:
+Does the translation of **"took"** in the following example make sense?:
 
-**Original Sentence**: Only visitors and VIPs got that special **reception** .
+**Original Sentence**: A month later Paula , smartly dressed in a new tweed suit with the obligatory matching bag and shoes , and lugging both her modelling case and a brand new cream leather suitcase , **took** the train to London to begin her new career .
 
-**Translation**: 只有游客和贵宾才能得到这种特殊的**接待。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"form"** in the following example make sense?:
-
-**Original Sentence**: Although many deaths arise from natural causes , and many others from illnesses and diseases , each year sees a large number of deaths caused by ‘ accidents ’ , and also a number caused by acts or omissions which amount to some **form** of homicide in English law .
-
-**Translation**: 尽管许多死亡是由自然原因造成的，还有许多是由疾病造成的，但每年都有大量的死亡是由 "事故 "造成的，还有一些是由相当于英国法律中某种**形式的杀人罪的行为或不行为造成的。
+**Translation**: 一个月后，宝拉穿着一身新的斜纹软呢套装，带着必须的配套包和鞋，拖着她的模特箱和一个全新的奶油色皮箱，坐火车去伦敦开始她的新事业。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"emphasis"** in the following example make sense?:
+Does the translation of **"takes"** in the following example make sense?:
 
-**Original Sentence**: While Elle , Vogue and subsequently The Independent ( Fig. 5 ) , stressed different facets of Kahlo 's public persona , they all shared the **emphasis** on ‘ her ’ , as an encapsulisation of stereotypical images of Mexico , rather than her work .
+**Original Sentence**: It **takes** him a moment to regain his composure .
 
-**Translation**: 虽然《Elle》、《Vogue》和后来的《独立报》（图5）强调了卡洛公众人物的不同方面，但它们都共同**强调 "她"，作为对墨西哥陈旧形象的概括，而不是她的作品。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"appropriation"** in the following example make sense?:
-
-**Original Sentence**: There is , however , an inevitable logic to the **appropriation** of her meticulously constructed image , a process which the artist was mocking as early as 1933 : ‘ … some of the gringa women are imitating me and trying to dress ‘ a la Mexicana ’ , but the poor souls only look like cabbages and to tell you the naked truth they look absolutely impossible . '
-
-**Translation**: 然而，对她精心构建的形象的**挪用有一个不可避免的逻辑，艺术家早在1933年就在嘲笑这个过程："......一些外国女人在模仿我，试图打扮成'墨西哥人'，但这些可怜的人只看起来像白菜，告诉你一个赤裸裸的事实，他们看起来绝对不可能。
+**Translation**: 他花了一些时间来恢复他的镇定。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"melt"** in the following example make sense?:
+Does the translation of **"makes"** in the following example make sense?:
 
-**Original Sentence**: Yet the logic of the definition suggested that it would benefit especially kings , whose competence to declare war could not be impugned : thus Thibaud of Blois failed to persuade the monks of Marmoutier that they owed him service when he fought against Louis VI ; they claimed discretion in the matter ; and in 1184 , the mighty Philip of Alsace hesitated to commit to battle the army he had summoned against Philip Augustus , through fear that its ranks might **melt** away .
+**Original Sentence**: At the same time Sartre **makes** a larger , though less persuasive claim that the boxing-match also works synecdochally and re-exteriorizes a more fundamental violence , namely the interiorized condition of scarcity that he considers to be the basis of conflict in general .
 
-**Translation**: 然而，该定义的逻辑表明，它特别有利于国王，因为他们宣战的能力不容置疑：因此，布卢瓦的蒂博（Thibaud）在与路易六世作战时，未能说服马尔穆蒂埃（Marmoutier）的僧侣们为他服务；他们声称对此事有自由裁量权；1184年，强大的阿尔萨斯的菲利普（Philip）担心他召集的军队可能**融化，因此犹豫不决，不敢投入战斗。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"force"** in the following example make sense?:
-
-**Original Sentence**: It may be seen from the above equation that the magnetic force is negligible in comparison with the electric **force** unless the velocity of the electron approaches the velocity of light .
-
-**Translation**: 从上述公式可以看出，与电**力相比，磁力可以忽略不计，除非电子的速度接近光速。
+**Translation**: 同时，萨特提出了一个更大的、虽然不太有说服力的主张，即拳击比赛也在同步进行，并重新恶化了一种更基本的暴力，即他认为是一般冲突的基础的内部化的匮乏状况。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"travel"** in the following example make sense?:
+Does the translation of **"went"** in the following example make sense?:
 
-**Original Sentence**: Since charged particles rarely **travel** close to the velocity of light we may conclude that the magnetic forces are by orders of magnitude smaller than the electric forces .
+**Original Sentence**: But ‘ posturing and pretending ’ **went** far beyond the unions .
 
-**Translation**: 由于带电粒子很少以接近光速的速度**旅行，我们可以得出结论，磁力比电力小几个数量级。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"lot"** in the following example make sense?:
-
-**Original Sentence**: ‘ A **lot** of books used in schools are technically readable but rather drab stories .
-
-**Translation**: '学校里使用的***书籍在技术上是可读的，但故事比较单调。
+**Translation**: 但 "装腔作势 "远远超出了工会的范围。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"change"** in the following example make sense?:
+Does the translation of **"spent"** in the following example make sense?:
 
-**Original Sentence**: But once the user sees the potential of the system , a **change** in attitude takes place .
+**Original Sentence**: ‘ It may seem a little odd for prison staff to be looking at their prisoners as customers , but they are the direct consumers of our service , ’ explained Mr Stephen Twinn , prison director , who **spent** 23 years in the public sector at various grades of prison governor .
 
-**Translation**: 但是，一旦用户看到了系统的潜力，态度就会发生**的变化。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"resources"** in the following example make sense?:
-
-**Original Sentence**: If **resources** are held at one set of locations and the demands are at another and the costs of transportation are known , how do we allocate the resources most efficiently ?
-
-**Translation**: 如果**资源存放在一组地点，而需求在另一组地点，并且运输成本是已知的，我们如何最有效地分配资源？
+**Translation**: 监狱工作人员将囚犯视为客户似乎有点奇怪，但他们是我们服务的直接消费者，"监狱长Stephen Twinn先生解释说，他在公共部门担任过23年的各种级别的监狱长。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"technique"** in the following example make sense?:
+Does the translation of **"stick"** in the following example make sense?:
 
-**Original Sentence**: Just as Thomson transferred Stein 's literary abstraction to music , so these portraits unusually employ the painter 's **technique** of drawing the sitter from life : an ideal combination of Thomson 's habit of immediate response with an actual subject .
+**Original Sentence**: Choke up at The Price Of Fame : ‘ I give ‘ em everything and they **stick** a knife in my back . ’
 
-**Translation**: 正如汤姆森将斯坦因的文学抽象主义搬到了音乐中，这些肖像画也不同寻常地采用了画家的**技术，即从生活中画出坐者：这是汤姆森的即时反应习惯与实际主题的理想结合。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"framework"** in the following example make sense?:
-
-**Original Sentence**: This development , together with the availability of digital terrain models , will allow quite sophisticated flood forecasting models to be developed within a GIS **framework** .
-
-**Translation**: 这一发展，加上数字地形模型的可用性，将允许在地理信息系统**框架内开发相当复杂的洪水预报模型。
+**Translation**: 哽咽着说："我给了他们一切，他们却在我背后捅刀子。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"resources"** in the following example make sense?:
+Does the translation of **"find"** in the following example make sense?:
 
-**Original Sentence**: In any major emergency a typical problem is the assignment of **resources** to demands .
+**Original Sentence**: It would therefore be reasonable to consider whether children **find** it offensive to be treated like children .
 
-**Translation**: 在任何重大紧急情况下，一个典型的问题是将**资源分配给需求。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"addition"** in the following example make sense?:
-
-**Original Sentence**: Two **addition** questions .
-
-**Translation**: 两个**补充的**问题。
+**Translation**: 因此，考虑儿童是否认为被当作儿童对待是一种冒犯，是合理的。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"pump"** in the following example make sense?:
+Does the translation of **"knock"** in the following example make sense?:
 
-**Original Sentence**: As for the private sector , while BT may be happy to provide **pump** priming for five telecottages in the north of Scotland , it is not about to bankroll a nationwide network .
+**Original Sentence**: That approach would seek to **knock** out a keystone of Civil Service tradition .
 
-**Translation**: 至于私营部门，虽然英国电信公司可能乐于为苏格兰北部的五个电信局提供**泵**启动，但它并不打算为全国性的网络提供资金。
+**Translation**: 这种做法将试图打掉公务员制度传统的一块基石。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"dismiss"** in the following example make sense?:
+
+**Original Sentence**: When philosophers **dismiss** women as ‘ not-men ’ they frequently do more than simply lump them together with children or lunatics .
+
+**Translation**: 当哲学家们把妇女斥为 "非人 "时，他们经常做的不仅仅是把她们与儿童或疯子混为一谈而已。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"lose"** in the following example make sense?:
+
+**Original Sentence**: Why I 've been , it will be ten months that 's all Rita , ten month it took me to **lose** six stone , you do n't want to lose that much do you ?
+
+**Translation**: 为什么我已经，这将是10个月，这是所有丽塔，10个月我花了6石，你不希望失去这么多，你呢？
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"designed"** in the following example make sense?:
+
+**Original Sentence**: Several interventions were **designed** to make science more girl friendly .
+
+**Translation**: 有几项干预措施是为了使科学对女孩更友好。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"sacrificing"** in the following example make sense?:
+
+**Original Sentence**: Is it worth **sacrificing** the long-term future of Britain 's biggest stateowned industry to make political capital in the run-up to the next election ?
+
+**Translation**: 是否值得牺牲英国最大的国有产业的长期未来，以在下一次选举前赚取政治资本？
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"coming"** in the following example make sense?:
+
+**Original Sentence**: It is interesting to notice that the Association for Science Education ( 1979 ) policy statement in Britain and the proposals on school physics **coming** from the Institute for Science Education ( IPN ) in Kiel are advocating such changes .
+
+**Translation**: 值得注意的是，英国科学教育协会（1979年）的政策声明和基尔科学教育研究所（IPN）提出的关于学校物理学的建议都主张进行这种改革。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"hold"** in the following example make sense?:
+
+**Original Sentence**: Leaders on Capitol Hill virtually put all other business on **hold** as it sought to hammer out a debt ceiling increase .
+
+**Translation**: 国会山的领导人几乎搁置了所有其他事务，因为他们寻求达成提高债务上限的方案。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"given"** in the following example make sense?:
+
+**Original Sentence**: Until this year , the three independent review bodies which make recommendations for nurses , doctors and the professions allied to medicine have **given** much higher awards than the Whitley Councils .
+
+**Translation**: 直到今年，为护士、医生和与医学相关的职业提出建议的三个独立审查机构给予了比惠特利委员会高得多的奖励。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"sorted"** in the following example make sense?:
+
+**Original Sentence**: And it has n't been **sorted** yet ?
+
+**Translation**: 它还没有被解决吗？
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"arise"** in the following example make sense?:
+
+**Original Sentence**: Some problems about identity **arise** with the young child in the context of home and school , and others occur in later life , for example on retirement .
+
+**Translation**: 有些关于身份的问题是在家庭和学校的背景下与幼儿一起出现的，而其他问题则是在以后的生活中出现的，例如退休时。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"make-up"** in the following example make sense?:
+
+**Original Sentence**: Biological ( or physiological ) explanations are based on the notion that some individuals are predisposed to criminal behaviour because of their genetic **make-up** .
+
+**Translation**: 生物学（或生理学）的解释是基于这样的概念，即一些人由于其基因构成而有犯罪行为的倾向。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"require"** in the following example make sense?:
+
+**Original Sentence**: It would be able to ‘ **require** each government department to review its policies , practices , and existing and proposed legislation ’ .
+
+**Translation**: 它将能够 "要求每个政府部门审查其政策、做法以及现有和拟议的立法"。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"make"** in the following example make sense?:
+
+**Original Sentence**: Though this neatly solves the problem of how man can **make** history while at the same time history makes him , it does not answer the larger question of how a multiplicity of the products of individual acts , ‘ totalizations ’ , can themselves be totalized into the overall totalization required by the logic of dialectical rationality — rather than being the arbitrary , blind and self-cancelling movements of , say , Hardy 's immanent will .
+
+**Translation**: 虽然这很好地解决了人如何创造历史而同时历史又创造他的问题，但它并没有回答一个更大的问题，即个人行为的多种产品，"总体化"，本身如何能够被总体化为辩证理性逻辑所要求的总体化--而不是成为任意的、盲目的和自我取消的运动，例如，哈代的内在意志。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"give"** in the following example make sense?:
+
+**Original Sentence**: Me dad said he 's had enough Well , we were debating whether to **give** it to you or not .
+
+**Translation**: 我爸爸说他已经受够了 好吧，我们正在争论是否要把它给你。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"come"** in the following example make sense?:
+
+**Original Sentence**: I do n't like , just , I could n't be like Deirdre and , put me overall on and in go in without collecting me thoughts getting myself together Deirdre never arrives till about three minutes before she gets in the door , she 's putting her overall on saying **come** on ladies , its time were , but she 's putting her overall and on , and they all sit there looking at her and so
+
+**Translation**: 我不喜欢，只是，我不能像迪尔德丽那样，把我的衣服穿上，然后进去，不把我的想法放在一起 迪尔德丽从来没有来过，直到她进门前三分钟，她把她的衣服穿上说，来吧，女士们，时间到了，但她把她的衣服穿上，他们都坐在那里，看着她，所以
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"hold"** in the following example make sense?:
+
+**Original Sentence**: A further possibility is that the individual may , at least for a time , **hold** onto beliefs and values taken without question from others , for example parents , teachers , peers .
+
+**Translation**: 另一种可能性是，个人可能，至少在一段时间内，不问青红皂白地坚持从他人那里获得的信仰和价值观，例如父母、老师、同伴。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"enveloping"** in the following example make sense?:
+
+**Original Sentence**: thus one can and must say … that each fight is the singularisation of all the circumstances of the social whole in movement and that by this singularisation , it incarnates the **enveloping** totalization which the historical process is .
+
+**Translation**: 因此，我们可以而且必须说......每一场战斗都是运动中的社会整体的所有情况的单一化，而且通过这种单一化，它体现了历史进程所包含的整体化。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"isolated"** in the following example make sense?:
+
+**Original Sentence**: Such an ideal does not stand **isolated** from the practices which strive towards it but interacts with those practices , helps to construct them , and is in turn constructed by them .
+
+**Translation**: 这样的理想并不孤立于努力实现它的实践，而是与这些实践相互作用，帮助构建它们，反过来又被它们构建。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"remains"** in the following example make sense?:
+
+**Original Sentence**: The company 's figures imply that when you have burnt 99.9999 per cent of a 30,000-tonne annual throughput , a figure of 0.03 of a tonne **remains** .
+
+**Translation**: 该公司的数字表明，当你烧掉了3万吨年产量的99.9999%时，还剩下0.03吨的数字。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"draws"** in the following example make sense?:
+
+**Original Sentence**: In a tone of meek appeasement , the letter **draws** attention to the arrest by Hong Kong police of anti-China demonstrators outside the agency 's National Day reception .
+
+**Translation**: 信中以温顺的口吻，提请注意香港警方在该机构的国庆招待会上逮捕反华示威者的事件。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"turns"** in the following example make sense?:
+
+**Original Sentence**: But when the proof comes it also **turns** out to rest on the assumption that it is already true .
+
+**Translation**: 但当证明来临时，它也变成了建立在已经是真实的假设之上。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"makes"** in the following example make sense?:
+
+**Original Sentence**: Unlike Lukács ' insignificant event from which the universal is precariously drawn out through the narrative , Sartre 's singularity works synecdochally in a conventional antinomy with the universal , the relation between the two structured according to the familiar nineteenth-century model of organic growth or process in which each singular event **makes** up the whole while , as he puts it , ‘ the whole is entirely present in the part as its present meaning and as its destiny ’ .
+
+**Translation**: 与卢卡奇的 "微不足道的事件 "不同，萨特的 "奇异性 "与 "普遍性 "在传统的对立中协同工作，两者之间的关系是根据熟悉的十九世纪的有机增长或过程模式来构建的，其中每个奇异事件构成整体，而正如他所说的，"整体完全存在于部分，作为其当前意义和命运"。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"choose"** in the following example make sense?:
+
+**Original Sentence**: Their problem seems to be not one of the inability to choose goals or to form strategies for achieving them , but an incorrigible propensity to **choose** the wrong ones and an awesome efficiency in achieving them unless adults intervene .
+
+**Translation**: 他们的问题似乎不是无法选择目标或形成实现目标的策略，而是无可救药地倾向于选择错误的目标，而且除非成年人干预，否则实现目标的效率非常高。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"extend"** in the following example make sense?:
+
+**Original Sentence**: There is still endless dithering on how broad a ‘ safety net ’ Britain will **extend** to its citizens .
+
+**Translation**: 在英国将向其公民提供多宽的 "安全网 "问题上，仍有无休止的犹豫不决。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -1280,69 +990,139 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"predecessors"** in the following example make sense?:
 
-**Original Sentence**: Leinster will be hard pushed to keep the score within the respectable margins of defeat set by their **predecessors** .
+**Original Sentence**: These are all referred to as ‘ supertram ’ networks , the implication being that the new-generation tram is an altogether more dynamic form of transport than its pre-war **predecessors** .
 
-**Translation**: 莱恩斯特将很难把比分保持在他们的**前辈所设定的可敬的失败幅度内。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"world"** in the following example make sense?:
-
-**Original Sentence**: But the end-product is the accurate reconstruction of the Jurassic and Cretaceous terrestrial **world** , over which the dinosaurs were indisputably dominant .
-
-**Translation**: 但最终的成果是准确地重建了侏罗纪和白垩纪的陆地**世界，在这个世界上，恐龙是无可争议的主宰。
+**Translation**: 这些都被称为 "超级电车 "网络，其含义是新一代的电车是一种比战前更有活力的交通形式。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"way"** in the following example make sense?:
+Does the translation of **"flotation"** in the following example make sense?:
 
-**Original Sentence**: It was within this kind of environment that chivalry flourished , that young men learned to identify , their vassalage towards their lord as a symbol of their honour , that they debated the relative merits of Roland 's and Oliver 's **way** of displaying loyalty ; and that they learned the finer points of jousting .
+**Original Sentence**: For the nuclear element in electricity privatisation is the coping stone on which the **flotation** plans are based .
 
-**Translation**: 正是在这样的环境中，骑士精神得到了发扬光大，年轻人学会了识别，他们对领主的附庸地位是他们荣誉的象征，他们争论罗兰和奥利弗展示忠诚的**方式的相对优点；他们还学会了比武的精髓。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"saturation"** in the following example make sense?:
-
-**Original Sentence**: The issue of drugs provided an everyday image , already a national issue through **saturation** media coverage and public debate , around which the police , the Home Office , and other institutions could depoliticize the riots .
-
-**Translation**: 毒品问题提供了一个日常形象，通过**饱和的媒体报道和公众辩论，它已经成为一个全国性的问题，围绕它，警察、内政部和其他机构可以将骚乱非政治化。
+**Translation**: 因为电力私有化中的核元素是浮选计划所依据的垫脚石。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"work"** in the following example make sense?:
+Does the translation of **"thing"** in the following example make sense?:
 
-**Original Sentence**: It wo n't **work**
+**Original Sentence**: say , there 's so many combinations that 's the **thing** is n't it ?
 
-**Translation**: 它不能**工作**
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"point"** in the following example make sense?:
-
-**Original Sentence**: At some **point** Rufus himself had taken the things out of the fridge and left the door open to defrost it .
-
-**Translation**: 在某个**点上，鲁弗斯自己把东西从冰箱里拿出来，并把门打开进行解冻。
+**Translation**: 说，有这么多的组合，这就是问题所在，不是吗？
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"bars"** in the following example make sense?:
+Does the translation of **"nature"** in the following example make sense?:
 
-**Original Sentence**: Unemployment is up another 17 per cent ; more houses and shops are boarded up ; burglaries and joyriding continue — and if there is less ram-raiding it is only because 50 or so of the hardest cases are still behind **bars** .
+**Original Sentence**: During the project there was a shift away from locating the issue as one of girls ' motivation towards attempts to change the **nature** of school science .
 
-**Translation**: 失业率又上升了17%；更多的房屋和商店被封起来；入室盗窃和兜风仍在继续--如果说兜风现象有所减少，那只是因为50个左右最严重的案件仍在**监狱中。
+**Translation**: 在该项目中，有一个转变，即从将问题定位为女孩的动机，转向试图改变学校科学的性质。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"suit"** in the following example make sense?:
+
+**Original Sentence**: What , we may ask Holt , happens to the child who , dissatisfied at home , seeks in vain for guardians who would **suit** him ?
+
+**Translation**: 我们可以问霍尔特，那些在家里不满意，徒劳地寻找适合他的监护人的孩子会怎样？
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"structure"** in the following example make sense?:
+
+**Original Sentence**: This means that first , they lead to results , and second , that the internal **structure** of social objects contains ‘ the double negation of themselves and of each constituent part by the other ’ ( II , 22 ) .
+
+**Translation**: 这意味着，首先，它们导致了结果，其次，社会对象的内部结构包含了 "对自身和每个构成部分的双重否定"（二，22）。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"reservations"** in the following example make sense?:
+
+**Original Sentence**: If the more economically puny ASEAN countries ( Indonesia , Malaysia , Singapore , Brunei , Thailand and the Philippines ) were to bury their **reservations** , then the high growth from other partners , including such tigers as Thailand and South Korea alongside the more mature economies of Japan and Australia , could mean a dynamic coalition .
+
+**Translation**: 如果经济上比较弱小的东盟国家（印度尼西亚、马来西亚、新加坡、文莱、泰国和菲律宾）要埋头苦干，那么其他伙伴的高增长，包括泰国和韩国这样的小老虎以及日本和澳大利亚这样的成熟经济体，可能意味着一个充满活力的联盟。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"contrast"** in the following example make sense?:
+
+**Original Sentence**: The voice of rock'n'roll , in **contrast** , is almost unrelievedly soupy .
+
+**Translation**: 摇滚的声音，相比之下，几乎是不可靠的汤。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"slices"** in the following example make sense?:
+
+**Original Sentence**: The sounds are the same as those of daylight , yet somehow the night magnifies and sharpens the creak of a yielding block , the sigh of air over a shroud , the stretching of a sail , the hiss of water sliding sleek against the hull , the curl of a quarter-wave falling away , and the thump as a wave strikes the cutwater to be sheared into two bright **slices** of whiteness .
+
+**Translation**: 这些声音和白天的声音是一样的，但不知何故，夜色将屈服的木块的吱吱声、空气在罩子上的叹息声、帆的伸展声、水滑过船身的嘶嘶声、四分之一波浪的卷曲声、以及波浪冲击切口被切成两片明亮的白色时的砰砰声放大并加强。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"support"** in the following example make sense?:
+
+**Original Sentence**: She touches Fairfax 's arm for **support** .
+
+**Translation**: 她碰了碰费尔法克斯的手臂以示支持。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"stage"** in the following example make sense?:
+
+**Original Sentence**: It might make it easier for girls at the foreclosure **stage** to accept science so recruitment might increase .
+
+**Translation**: 这可能会使处于赎回权阶段的女孩更容易接受科学，因此招募人数可能会增加。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"holes"** in the following example make sense?:
+
+**Original Sentence**: There is , therefore , before any understanding of historic agents and movements , a certain aporia in all social ensembles : from afar they may appear whole , but close to , they can be seen as riddled with **holes** .
+
+**Translation**: 因此，在对历史人物和运动的任何理解之前，所有的社会组合中都存在着某种缺陷：从远处看，它们可能是完整的，但在近处，它们可以被看作是千疮百孔的。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"role"** in the following example make sense?:
+
+**Original Sentence**: It has turned up in Canberra with Japan to develop Asia Pacific Economic Co-operation ( APEC ) and a new 12-nation organisation which will mimic the **role** of the Organisation for Economic Co-operation and Development in Europe .
+
+**Translation**: 它在堪培拉与日本一起发展亚太经济合作组织（APEC）和一个新的12国组织，将模仿欧洲经济合作与发展组织的作用。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"exercise"** in the following example make sense?:
+
+**Original Sentence**: Failure to **exercise** one 's rights may be morally neutral ; failure to carry out one 's duties is not .
+
+**Translation**: 不行使自己的权利可能在道德上是中性的；不履行自己的义务则不是。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -1350,109 +1130,379 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"features"** in the following example make sense?:
 
-**Original Sentence**: The analyst is then forced on the defensive , explaining why new **features** can not be included because they are technically difficult or prohibitively expensive .
+**Original Sentence**: We need now only take note of the most salient **features** .
 
-**Translation**: 然后，分析师被迫处于防御状态，解释为什么新的**功能不能包括在内，因为它们在技术上是困难的或过于昂贵。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"Assessment"** in the following example make sense?:
-
-**Original Sentence**: One well known database is Major Hazard Incident Data Service ( MHIDAS ) global industrial hazards database which is currently being developed by the Safety and Reliability Directorate on behalf of the Major Hazards **Assessment** Unit of the UK Health and Safety Directorate .
-
-**Translation**: 一个众所周知的数据库是重大危险事件数据服务（MHIDAS）全球工业危险数据库，目前正由安全和可靠性局代表英国健康和安全局的重大危险**评估股开发。
+**Translation**: 我们现在只需要注意到最突出的特点。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"shock"** in the following example make sense?:
+Does the translation of **"bit"** in the following example make sense?:
 
-**Original Sentence**: But there had been no spirit in him , the **shock** of what his father told him had been too great .
+**Original Sentence**: Yeah , little **bit** over .
 
-**Translation**: 但他身上没有任何精神，他父亲告诉他的***震惊太大。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"scale"** in the following example make sense?:
-
-**Original Sentence**: OPCS , of course , is a major data repository for medical statistics and their various Monitor Series are of use , though only at the **scale** of district health authority and above ( see Gatrell and Lovett 1988 for an example ) .
-
-**Translation**: 当然，OPCS是医学统计的主要数据库，他们的各种监测系列是有用的，尽管只是在**规模的地区卫生当局和以上（见Gatrell和Lovett 1988的例子）。
+**Translation**: 是的，有点过了。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"share"** in the following example make sense?:
+Does the translation of **"reduction"** in the following example make sense?:
 
-**Original Sentence**: It was Grizel Huntley 's own view that her brother had not been fooled at all but had been charmed and diverted by a dashing girl thirty years his junior , and had seen no reason at all why she should not have a **share** of his considerable estate when that left a very decent down-setting for his niece as well .
+**Original Sentence**: Otherwise Congress would have to face the consequences of automatic across-the-board cuts under the Gramm-Rudman-Hollings budget deficit **reduction** law .
 
-**Translation**: 格里泽尔-亨特利自己认为，她的哥哥根本没有被愚弄，而是被一个比他小30岁的潇洒女孩迷住了，并且认为她根本没有理由不从他的大量财产中获得**份额，因为这也给他的侄女留下了非常体面的底线。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"sense"** in the following example make sense?:
-
-**Original Sentence**: His strategy was rather to canalize the enthusiasm of the diehards into party channels , to articulate their views , and to create unity from the **sense** of movement .
-
-**Translation**: 他的策略是将死忠分子的热情引向党的渠道，阐明他们的观点，并从运动的**感中创造团结。
+**Translation**: 否则，国会将不得不面对格拉姆-鲁德曼-霍林斯预算赤字削减法规定的自动全面削减的后果。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"measures"** in the following example make sense?:
+Does the translation of **"pupils"** in the following example make sense?:
 
-**Original Sentence**: Half-way **measures** can only imply half-way success .
+**Original Sentence**: However , only a minority of adolescents will have reached the ego-identity achievement stage at the age when most **pupils** have to make crucial decisions about subject choice at school .
 
-**Translation**: 半途而废的**措施，只能意味着半途而废的成功。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"motion"** in the following example make sense?:
-
-**Original Sentence**: The wheels have already been set in **motion** .
-
-**Translation**: 轮子已经在**的运动中被设定了。
+**Translation**: 然而，只有少数青少年在大多数学生必须对学校的科目选择做出关键决定的年龄段达到了自我认同的成就阶段。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"component"** in the following example make sense?:
+Does the translation of **"nightmare"** in the following example make sense?:
 
-**Original Sentence**: There is now cylindrical symmetry and a net charge per unit length formula , yielding for the radial **component** of the electric field formula .
+**Original Sentence**: The day thrift turned into a **nightmare** .
 
-**Translation**: 现在有了圆柱对称性和单位长度的净电荷公式，产生了电场公式的径向**分量。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"band"** in the following example make sense?:
-
-**Original Sentence**: He had some **band** that were awful apparently and the
-
-**Translation**: 他有一些***乐队，显然很糟糕，而
+**Translation**: 这一天，节俭变成了一场恶梦。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"chains"** in the following example make sense?:
+Does the translation of **"models"** in the following example make sense?:
 
-**Original Sentence**: ‘ Many people have suffered from sales falling through and from house-buying **chains** , and some of our vendors feel that now 's as good a time as any to sell . ’
+**Original Sentence**: I 'm looking for a couple of good **models** .
 
-**Translation**: 许多人因销售失败和买房的**链而受到影响，我们的一些供应商认为现在是出售的好时机。
+**Translation**: 我正在寻找几个好的模型。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"articulation"** in the following example make sense?:
+
+**Original Sentence**: Without an adequate theory of their **articulation** , they simply begin to separate again .
+
+**Translation**: 如果没有足够的理论来说明它们的衔接，它们只是开始再次分离。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"climate"** in the following example make sense?:
+
+**Original Sentence**: In a desperately competitive **climate** , where anyone bright and competent could go down the road and pick up a better paid job with kinder hours and more congenial working conditions from someone like British Telecom , the railways ran a service dependent on people who belonged to a narrow and inbred working culture , with outdated procedures of training and promotion , and an institutional reliance on overtime working , whose wholly disgraceful dimensions are symbolised by the fact that maximum weekly hours were only recently cut to 72 hours a week .
+
+**Translation**: 在一个令人绝望的竞争环境中，任何聪明和有能力的人都可以去英国电信这样的公司找到一份收入更高的工作，工作时间更宽松，工作条件更舒适，而铁路部门经营的服务却依赖于那些属于狭隘和近亲繁殖的工作文化的人，培训和晋升的程序已经过时，对加班的制度性依赖，其完全可耻的程度体现在每周最高工作时间最近才被削减到72小时。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"creation"** in the following example make sense?:
+
+**Original Sentence**: Perfectly groomed from head to toe and with all that assurance , she was ready to take on the world , Arlene thought with satisfaction , for she looked on Paula as her very own **creation** .
+
+**Translation**: 从头到脚的完美打扮和所有的保证，她已经准备好迎接世界了，阿琳满意地想，因为她把宝拉看成是她自己的作品。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"proportion"** in the following example make sense?:
+
+**Original Sentence**: A **proportion** of both boys and girls at ego-identity achievement stage will choose science .
+
+**Translation**: 在自我认同的成就阶段，有一部分男孩和女孩都会选择科学。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"self-examination"** in the following example make sense?:
+
+**Original Sentence**: In fact , most girls entering science are probably at this stage as they will need some **self-examination** and sense of commitment to make this unconventional choice .
+
+**Translation**: 事实上，大多数进入科学领域的女孩可能都处于这个阶段，因为她们需要一些自我检查和承诺感来做出这种非传统的选择。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"meeting"** in the following example make sense?:
+
+**Original Sentence**: But were it not for the perceived economic might of a more unified Economic Community , the dozen or so nations of the Pacific Rim , who have been **meeting** in Australia , might not have bothered .
+
+**Translation**: 但是，如果不是因为看到一个更加统一的经济共同体的经济实力，环太平洋地区的十几个国家在澳大利亚举行会议，可能就不会这样做了。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"invention"** in the following example make sense?:
+
+**Original Sentence**: He sees childhood as a fairly modern **invention** designed to fit adult rather than children 's needs , and an oppressive invention at that .
+
+**Translation**: 他认为童年是一个相当现代的发明，旨在满足成人而不是儿童的需要，而且是一个压迫性的发明。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"steps"** in the following example make sense?:
+
+**Original Sentence**: Preliminary **steps** taken to conduct studies on trade , technology and investment flows in the region may seem insignificant .
+
+**Translation**: 为对该地区的贸易、技术和投资流动进行研究而采取的初步措施可能看起来微不足道。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"goals"** in the following example make sense?:
+
+**Original Sentence**: The traditional view is encapsulated in the claim that children are not autonomous ; that is , on a standard interpretation , they lack the capacity to act rationally in pursuit of their own self-chosen **goals** .
+
+**Translation**: 传统的观点被概括为：儿童没有自主性；也就是说，根据标准的解释，他们缺乏理性地追求自己选择的目标的能力。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"stage"** in the following example make sense?:
+
+**Original Sentence**: A proportion of both boys and girls at ego-identity achievement **stage** will choose science .
+
+**Translation**: 在自我认同的成就阶段，有一部分男孩和女孩都会选择科学。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"predecessors"** in the following example make sense?:
+
+**Original Sentence**: Like most shows which are manufactured with an eye to commercial success ( Winnie , High Society , to name only Buddy 's **predecessors** at the Victoria Palace ) , this one will probably fail .
+
+**Translation**: 像大多数着眼于商业成功而制造的节目一样（《温妮》、《上流社会》，仅举巴迪在维多利亚宫的前辈们的例子），这一场可能会失败。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"hive"** in the following example make sense?:
+
+**Original Sentence**: In contrast to this elegant frontage the workrooms beyond were a **hive** of frenzied activity .
+
+**Translation**: 与这个优雅的门面相比，外面的工作间是一个疯狂的活动场所。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"destruction"** in the following example make sense?:
+
+**Original Sentence**: In such a situation the skilled care of social workers is crucial to ensuring that an unwanted by-product of success for some children is not the total **destruction** of self-esteem for others .
+
+**Translation**: 在这种情况下，社会工作者的熟练照顾是至关重要的，以确保对一些儿童来说不需要的成功副产品不会完全摧毁其他人的自尊心。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"end"** in the following example make sense?:
+
+**Original Sentence**: Holt and Harris both , in the **end** , face the same problem .
+
+**Translation**: 霍尔特和哈里斯两人，最后都面临着同样的问题。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"object"** in the following example make sense?:
+
+**Original Sentence**: His difficulty is accompanied by a no doubt symptomatic increasing distrust of universals so that , in championing specificities against them , he seems to give up the attempt to validate the universals — History as Totalization — that originally formed the **object** of his project .
+
+**Translation**: 他的困难伴随着一种无疑是症状性的对普遍性的日益不信任，因此，在拥护反对普遍性的特殊性时，他似乎放弃了验证普遍性的尝试--作为全面化的历史--这原本是他项目的目标。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"blame"** in the following example make sense?:
+
+**Original Sentence**: If a society lets any considerable number of its members grow up mere children , incapable of being acted on by rational consideration of distant motives , society has itself to **blame** for the consequences .
+
+**Translation**: 如果一个社会让它的任何相当数量的成员成长为单纯的孩子，不能通过理性地考虑远方的动机而采取行动，那么社会就要为其后果负责。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"growth"** in the following example make sense?:
+
+**Original Sentence**: The market yield , a historic 4¾ p.c. , could return back above 5 p.c. , therefore giving basic-rate taxpayers a real return with the prospect of real **growth** too .
+
+**Translation**: 市场收益率，即历史上的4/4个百分点，可能会回到5个百分点以上，因此给基本税率的纳税人一个实际的回报，也有实际增长的前景。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"interests"** in the following example make sense?:
+
+**Original Sentence**: This told us that any simplistic assumptions about featuring ‘ female ’ domestic **interests** in science would probably meet with failure .
+
+**Translation**: 这告诉我们，任何关于以 "女性 "为特征的国内科学兴趣的简单化假设都可能会遭遇失败。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"movement"** in the following example make sense?:
+
+**Original Sentence**: China claims that the Hong Kong Government recently gave a written commitment to limit the activities of the pro-democracy **movement** in the territory .
+
+**Translation**: 中国声称，香港政府最近作出书面承诺，限制民主运动在香港的活动。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"approach"** in the following example make sense?:
+
+**Original Sentence**: The most famous exponent of this **approach** was the nineteenth-century Italian physician , Cesare Lombroso .
+
+**Translation**: 这种方法最著名的阐述者是19世纪的意大利医生切萨雷-隆布罗索。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"calls"** in the following example make sense?:
+
+**Original Sentence**: Nine out of 10 are routine **calls** , many of which could be carried out by mini cabs .
+
+**Translation**: 10个电话中的9个是常规电话，其中许多可以由小型出租车来完成。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"game"** in the following example make sense?:
+
+**Original Sentence**: Ah yeah , that 's my **game** .
+
+**Translation**: 啊，是的，那是我的游戏。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"thing"** in the following example make sense?:
+
+**Original Sentence**: The one **thing** they do not do is to re-examine the original for the tell-tale signs of forgery .
+
+**Translation**: 他们不做的一件事是重新检查原件是否有伪造的迹象。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"spider-web"** in the following example make sense?:
+
+**Original Sentence**: The lower reaches of the Sevre Niortaise are swollen with the waters that once covered the whole area , until medieval monks started to dig a **spider-web** of ditches to drain it .
+
+**Translation**: 尼奥尔泰斯河（Sevre Niortaise）的下游被曾经覆盖整个地区的水所淹没，直到中世纪的僧侣开始挖掘蜘蛛网状的沟渠来排水。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"hell"** in the following example make sense?:
+
+**Original Sentence**: That 's when the real **hell** begins . ’
+
+**Translation**: 这时，真正的地狱才开始。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"causes"** in the following example make sense?:
+
+**Original Sentence**: But they are not completely lost **causes** .
+
+**Translation**: 但他们并不是完全的失败者。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"market"** in the following example make sense?:
+
+**Original Sentence**: The change in employment may not always be so favourable as yesterday 's either , but the **market** is now starting to feel bullish and looking for a FT-SE of 3,000 by next year .
+
+**Translation**: 就业的变化也不一定像昨天那么有利，但市场现在开始感到看涨，并期待明年的FT-SE达到3000点。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"things"** in the following example make sense?:
+
+**Original Sentence**: PRINCE CHARLES is jolly good at opening **things** .
+
+**Translation**: 查尔斯王子很善于打开东西。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"model"** in the following example make sense?:
+
+**Original Sentence**: ‘ You know I 'd give my right arm to have someone as good as you to **model** for me !
+
+**Translation**: 你知道我愿意用我的右臂来换取像你这样优秀的人做我的模特！"。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"training"** in the following example make sense?:
+
+**Original Sentence**: But the job of lifting the standards of people employed , giving them proper **training** , and paying a wage which breaks dependence on overtime and lifts morale : this together must far exceed the costs of the technology , and it is n't by any means clear what the bill will be or where the money will come from .
+
+**Translation**: 但是，提高就业人员的标准，给他们提供适当的培训，支付打破对加班的依赖和提高士气的工资：这些加起来必须远远超过技术的成本，而且现在还不清楚账单会是什么，也不知道钱从哪里来。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"heart"** in the following example make sense?:
+
+**Original Sentence**: Keith Thomas pressed a button and a huge door clanked upwards so that I could peer into the **heart** of the furnace .
+
+**Translation**: 凯斯-托马斯按了一个按钮，一个巨大的门哐当一声向上打开，这样我就可以窥视到炉子的中心。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"heart"** in the following example make sense?:
+
+**Original Sentence**: Or : ‘ When Cupid shot his dart He shot it at your **heart** . ’
+
+**Translation**: 或："当丘比特射出他的飞镖时，他射向你的心脏。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
@@ -1460,109 +1510,69 @@ Your answer [Correct: 1, Wrong: 0]:
 
 Does the translation of **"way"** in the following example make sense?:
 
-**Original Sentence**: Er we saw her one day she said oh I 've got the keys by the **way** .
+**Original Sentence**: Sartre considered that orthodox dialectical materialism takes the easy **way** out by merely eliminating the first in favour of the second , making man a passive product entirely determined by economic circumstances .
 
-**Translation**: 有一天，我们看到她，她说，哦，我已经得到了钥匙，在***的路上。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"reconstructions"** in the following example make sense?:
-
-**Original Sentence**: Since popular ideas of life in the past are often founded on vividly coloured **reconstructions** of ‘ The World in the Jurassic Period ’ and the like , it is important to remember that these imaginative scenes are all inferences from bones , and similar fragments .
-
-**Translation**: 由于人们对过去生活的看法往往建立在对 "侏罗纪时期的世界 "之类的生动色彩的**重构上，因此必须记住，这些富有想象力的场景都是根据骨头和类似的碎片推断出来的。
+**Translation**: 萨特认为，正统的辩证唯物主义走的是捷径，它仅仅消除了第一种情况，而支持第二种情况，使人成为完全由经济环境决定的被动产品。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"manufactures"** in the following example make sense?:
+Does the translation of **"secretiveness"** in the following example make sense?:
 
-**Original Sentence**: This assumes that nature only **manufactures** efficient designs .
+**Original Sentence**: I like the **secretiveness** of a boat in the blackness , when the only thing to dislike is the prospect of dawn , which seems like a betrayal because , at night , in a boat under sail , it is easy to feel very close to God — for eternity is all around .
 
-**Translation**: 这就假设自然界只**造出了**的有效设计。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"thing"** in the following example make sense?:
-
-**Original Sentence**: The most irritating **thing** about Rytasha — and there were many — was that , though she does not speak their language , she presumes to teach them a spurious form of their own religion .
-
-**Translation**: 丽塔莎最令人恼火的**--有很多--是，虽然她不会说他们的语言，但她却自以为是地教他们自己宗教的虚假形式。
+**Translation**: 我喜欢黑夜中的船的隐秘性，那时唯一不喜欢的是黎明的前景，这似乎是一种背叛，因为在晚上，在航行中的船上，很容易感到与上帝非常接近--因为永恒就在周围。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"field"** in the following example make sense?:
+Does the translation of **"foreclosure"** in the following example make sense?:
 
-**Original Sentence**: Brown 's chapter on geodemographics discusses an application **field** where primary data collected for operational purposes are typically evaluated in relation to secondary data derived from sources such as the Census of Population .
+**Original Sentence**: For boys at the **foreclosure** stage , science is likely to be appealing .
 
-**Translation**: 布朗在关于地理统计学的章节中讨论了一个应用**领域，在这个领域中，为操作目的而收集的原始数据通常会与来自人口普查等来源的二级数据进行评估。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"art"** in the following example make sense?:
-
-**Original Sentence**: The authors were asked to review the current state of the **art** in their fields with particular reference to the likely requirements of the future policy issues agenda in terms of the demands that they make on geographic information management .
-
-**Translation**: 作者们被要求审查他们领域的**技术现状，并特别提到未来政策问题议程对地理信息管理的要求方面的可能要求。
+**Translation**: 对于处于赎回权阶段的男孩来说，科学很可能是有吸引力的。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"powers"** in the following example make sense?:
+Does the translation of **"interest"** in the following example make sense?:
 
-**Original Sentence**: Dr Runcie repeated his offer of a limited primacy , involving the limited **powers** exercised by the popes in the first few centuries of the Christian Church .
+**Original Sentence**: The evidence for an association between personality characteristics and an **interest** in science has been more fully reviewed by Head ( 1979 ) .
 
-**Translation**: Runcie博士重复了他提出的有限的最高权力，涉及基督教会最初几个世纪中教皇所行使的有限的**权力。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"thing"** in the following example make sense?:
-
-**Original Sentence**: When I ask the fat ladies at the drop-in centre what is the one **thing** that would do most to improve the estate they say ‘ get rid of the kids ’ and they are only half joking .
-
-**Translation**: 当我问救助中心的胖女士们，什么是最能改善房地产的**事，她们说'摆脱孩子'，她们只是半开玩笑。
+**Translation**: Head（1979）对人格特征与科学兴趣之间的关联证据进行了更全面的审查。
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"contribution"** in the following example make sense?:
+Does the translation of **"pop"** in the following example make sense?:
 
-**Original Sentence**: The Chairman of the company told him he was most impressed with the **contribution** he 's made to the business , and that he could go right to the top if he keeps it up .
+**Original Sentence**: we 'd **pop** in see how you were and
 
-**Translation**: 公司董事长告诉他，他对自己对企业做出的**贡献印象深刻，如果他继续保持下去，他可以直接升到顶层。
-
-Your answer [Correct: 1, Wrong: 0]: 
-
-----------------
-
-Does the translation of **"essence"** in the following example make sense?:
-
-**Original Sentence**: This was the **essence** of the problem : the press could only be managed by someone who knew their methods and who would not expect them to come round to Central Office to search for news .
-
-**Translation**: 这就是问题的***本质：新闻界只能由知道他们的方法的人管理，而且不会指望他们到中央办公室来寻找新闻。
+**Translation**: 我们会去看看你的情况，并且
 
 Your answer [Correct: 1, Wrong: 0]: 
 
 ----------------
 
-Does the translation of **"conflagration"** in the following example make sense?:
+Does the translation of **"liberation"** in the following example make sense?:
 
-**Original Sentence**: The selectors knew they were playing with fire when they decided to arrange a couple of club fixtures and they have duly been consumed in a **conflagration** of their own making .
+**Original Sentence**: It is no accident that the **liberation** of women , such as it is , should form part of a wider movement of liberation in general ; liberation for one part of the ‘ not-men ’ is bound to have a knock-on effect when your fellow groups are sometimes quite literally identified with you .
 
-**Translation**: 当选择者决定安排几个俱乐部的比赛时，他们就知道自己在玩火，他们已经在自己制造的**冲突中被消耗掉了。
+**Translation**: 妇女的解放，比如说它，应该构成更广泛的总体解放运动的一部分，这不是偶然的；当你的同伴们有时与你的身份相当时，对 "非男性 "的一部分的解放必然会产生连锁反应。
+
+Your answer [Correct: 1, Wrong: 0]: 
+
+----------------
+
+Does the translation of **"Framework"** in the following example make sense?:
+
+**Original Sentence**: The School **Framework**
+
+**Translation**: 学校框架
 
 Your answer [Correct: 1, Wrong: 0]: 
 

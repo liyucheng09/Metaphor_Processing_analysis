@@ -1,140 +1,157 @@
-What is the meaning of **"accompanying"** in the following sentence?
+What is the meaning of **"manage"** in the following sentence?
 
-yinhao One for you , yinhao said Frederica to Alexander , still skimming the necessary **accompanying** print .
+I did **manage** to sort out the food for tomorrow and
 
 Your answer (choose one of the following): 
-- [ ] be present or associated with an event or entity
-- [ ] go or travel along with
-- [ ] perform an accompaniment to
-- [ ] be a companion to somebody
+- [ ] be successful; achieve a goal
+- [ ] be in charge of, act on, or dispose of
+- [ ] come to terms with
+- [ ] watch and direct
+- [ ] achieve something by means of trickery or devious methods
+- [ ] carry on or function
+- [ ] handle effectively
 ----------------
-What is the meaning of **"interspersed"** in the following sentence?
+What is the meaning of **"endorsed"** in the following sentence?
 
-The rest of lunch passed in similar diversion , **interspersed** with details of last week 's turnover which were never far from Barton 's mind , whatever other distractions offered .
+I WRITE in response to Judith Raymont ( November 16 ) who wrote of the cartoon Men — A User 's Guide , ‘ It is either insulting to men and should not be **endorsed** by publication , or it is witty and amusing , in which case we , as women , have no right to complain about equivalent portrayals of female stereotypes . ’
 
 Your answer (choose one of the following): 
-- [ ] place at intervals in or among
-- [ ] introduce one's writing or speech with certain expressions
+- [ ] be behind; approve of
+- [ ] give support or one's approval to
+- [ ] guarantee as meeting a certain standard
+- [ ] sign as evidence of legal transfer
 ----------------
-What is the meaning of **"find"** in the following sentence?
+What is the meaning of **"aim"** in the following sentence?
 
-‘ Lots of guys **find** it a turn-on to watch two women making love . ’
-
-Your answer (choose one of the following): 
-- [ ] come upon, as if by accident; meet with
-- [ ] discover or determine the existence, presence, or fact of
-- [ ] come upon after searching; find the location of something that was missed or lost
-- [ ] establish after a calculation, investigation, experiment, survey, or study
-- [ ] come to believe on the basis of emotion, intuitions, or indefinite grounds
-- [ ] perceive or be contemporaneous with
-- [ ] get something or somebody for a specific purpose
-- [ ] make a discovery, make a new finding
-- [ ] make a discovery
-- [ ] obtain through effort or management
-- [ ] decide on and make a declaration about
-- [ ] receive a specified treatment (abstract)
-- [ ] perceive oneself to be in a certain condition or place
-- [ ] get or find back; recover the use of
-- [ ] succeed in reaching; arrive at
-- [ ] accept and make use of one's personality, abilities, and situation
-----------------
-What is the meaning of **"made"** in the following sentence?
-
-The range of data sets involved and the demands that are **made** on GIS technology in applications of this kind are often more limited than those of previous applications fields .
+This **aim** is underpinned by three interrelated objectives and it is not without significance how they complement and serve to implement the White Paper 's own trinity of ‘ aims of supervision ’ , that is , protection of the public , prevention of reoffending and successful reintegration of the offender in the community ( p. 35 , para. 7.3 ) .
 
 Your answer (choose one of the following): 
-- [ ] engage in
-- [ ] give certain properties to something
-- [ ] make or cause to be or to become
-- [ ] cause to do; cause to act in a specified manner
-- [ ] give rise to; cause to happen or occur, not always intentionally
-- [ ] create or manufacture a man-made product
-- [ ] make, formulate, or derive in the mind
-- [ ] compel or make somebody or something to act in a certain way
-- [ ] create by artistic means
-- [ ] earn on some commercial or business transaction; earn as salary or wages
-- [ ] create or design, often in a certain way
-- [ ] to compose or represent:
-- [ ] reach a goal, e.g.,
-- [ ] be or be capable of being changed or made into
-- [ ] make by shaping or bringing together constituents
-- [ ] perform or carry out
-- [ ] make by combining materials and parts
-- [ ] change from one form into another
-- [ ] act in a certain way so as to acquire
-- [ ] charge with a function; charge to be
-- [ ] achieve a point or goal
-- [ ] reach a destination, either real or abstract
-- [ ] institute, enact, or establish
-- [ ] carry out or commit
-- [ ] form by assembling individuals or constituents
-- [ ] organize or be responsible for
-- [ ] put in order or neaten
-- [ ] head into a specified direction
-- [ ] have a bowel movement
-- [ ] undergo fabrication or creation
-- [ ] be suitable for
-- [ ] add up to
-- [ ] amount to
-- [ ] constitute the essence of
-- [ ] appear to begin an activity
-- [ ] proceed along a path
-- [ ] reach in time
-- [ ] gather and light the materials for
-- [ ] prepare for eating by applying heat
-- [ ] induce to have sex
-- [ ] assure the success of
-- [ ] represent fictitiously, as in a play, or pretend to be or act like
-- [ ] consider as being
-- [ ] calculate as being
-- [ ] cause to be enjoyable or pleasurable
-- [ ] favor the development of
-- [ ] develop into
-- [ ] behave in a certain way
-- [ ] eliminate urine
-----------------
-What is the meaning of **"failed"** in the following sentence?
-
-The aim is to analyse a problem which economic growth alone has **failed** to cure — and to consider possible new forms of public action .
-
-Your answer (choose one of the following): 
-- [ ] fail to do something; leave something undone
-- [ ] be unsuccessful
-- [ ] disappoint, prove undependable to; abandon, forsake
-- [ ] stop operating or functioning
-- [ ] be unable
-- [ ] judge unacceptable
-- [ ] fail to get a passing grade
-- [ ] fall short in what is expected
-- [ ] become bankrupt or insolvent; fail financially and close
-- [ ] prove insufficient
-- [ ] get worse
-----------------
-What is the meaning of **"placing"** in the following sentence?
-
-Law conceived of the role of the leader in an exactly opposite sense from Balfour : he sought to foster unity by **placing** himself at the head of the discordant elements where Balfour had thrown the leadership on the side of restraint .
-
-Your answer (choose one of the following): 
-- [ ] put into a certain place or abstract location
-- [ ] place somebody in a particular situation or location
-- [ ] assign a rank or rating to
-- [ ] assign a location to
-- [ ] to arrange for
-- [ ] take a place in a competition; often followed by an ordinal
+- [ ] point or cause to go (blows, weapons, or objects such as photographic equipment) towards
+- [ ] propose or intend
+- [ ] move into a desired direction of discourse
+- [ ] specifically design a product, event, or activity for a certain public
 - [ ] intend (something) to move towards a certain goal
-- [ ] recognize as being; establish the identity of someone or something
-- [ ] assign to (a job or a home)
-- [ ] locate
-- [ ] estimate
-- [ ] identify the location or place of
-- [ ] make an investment
-- [ ] assign to a station
-- [ ] finish second or better in a horse or dog race
-- [ ] sing a note with the correct pitch
+- [ ] direct (a remark) toward an intended goal
+- [ ] have an ambitious plan or a lofty goal
+----------------
+What is the meaning of **"jerked"** in the following sentence?
+
+Adam might have escaped the file memories for years , suppressed them and **jerked** violently away from them , but he had never been able to pretend he was unscathed by those events .
+
+Your answer (choose one of the following): 
+- [ ] pull, or move with a sudden movement
+- [ ] move with abrupt, seemingly uncontrolled motions
+- [ ] make an uncontrolled, short, jerky motion
+- [ ] jump vertically, with legs stiff and back arched
+- [ ] throw or toss with a quick motion
+----------------
+What is the meaning of **"reflects"** in the following sentence?
+
+The struggle **reflects** a revolution in mass consciousness , by which people have come to realise that ideas and aspirations must be embodied in manifest acts if reality is to be changed .
+
+Your answer (choose one of the following): 
+- [ ] manifest or bring back
+- [ ] reflect deeply on a subject
+- [ ] to throw or bend back (from a surface)
+- [ ] be bright by reflecting or casting light
+- [ ] show an image of
+- [ ] give evidence of a certain behavior
+- [ ] give evidence of the quality of
+----------------
+What is the meaning of **"looking"** in the following sentence?
+
+The ideal hotel from which to explore is Dedham Hall , set among tall trees in the Vale of Dedham , **looking** directly across towards Dedham church on one side and Flatford Mill on the other : both painted by Constable .
+
+Your answer (choose one of the following): 
+- [ ] perceive with attention; direct one's gaze towards
+- [ ] give a certain impression or have a certain outward aspect
+- [ ] have a certain outward or facial expression
+- [ ] search or seek
+- [ ] be oriented in a certain direction, often with respect to another reference point; be opposite to
+- [ ] take charge of or deal with
+- [ ] convey by one's expression
+- [ ] look forward to the probable occurrence of
+- [ ] accord in appearance with
+- [ ] have faith or confidence in
+----------------
+What is the meaning of **"reached"** in the following sentence?
+
+His hand went out , **reached** for the submachine gun , his fingers tightening on the stock .
+
+Your answer (choose one of the following): 
+- [ ] reach a destination, either real or abstract
+- [ ] reach a point in time, or a certain state or level
+- [ ] move forward or upward in order to touch; also in a metaphorical sense
+- [ ] be in or establish communication with
+- [ ] to gain with effort
+- [ ] to extend as far as
+- [ ] reach a goal, e.g.,
+- [ ] place into the hands or custody of
+- [ ] to exert much effort or energy
+----------------
+What is the meaning of **"increased"** in the following sentence?
+
+The enormous rise in the economic value of her work has developed in tandem with the **increased** critical and popular response to her particular blend of naive style and incisive content .
+
+Your answer (choose one of the following): 
+- [ ] become bigger or greater in amount
+- [ ] make bigger or more
+----------------
+What is the meaning of **"prepared"** in the following sentence?
+
+Oh and yes … a chap from Conservative Central Office rang up to say they 'd like to know if you would be **prepared** to stand for the European Parliament .
+
+Your answer (choose one of the following): 
+- [ ] make ready or suitable or equip in advance for a particular purpose or for some use, event, etc
+- [ ] prepare for eating by applying heat
+- [ ] to prepare verbally, either for written or spoken delivery
+- [ ] arrange by systematic planning and united effort
+- [ ] educate for a future role or function
+- [ ] create by training and teaching
+- [ ] lead up to and soften by sounding the dissonant note in it as a consonant note in the preceding chord
+- [ ] undergo training or instruction in preparation for a particular role, function, or profession
+----------------
+What is the meaning of **"cackle"** in the following sentence?
+
+As if in protest , George uttered a blood-curdling , lunatic-sounding **cackle** , and fell fractionally forward .
+
+Your answer (choose one of the following): 
+- [ ] talk or utter in a cackling manner
+- [ ] squawk shrilly and loudly, characteristic of hens
+- [ ] emit a loud, unpleasant kind of laughing
+----------------
+What is the meaning of **"attached"** in the following sentence?
+
+PLAYING THIS WEEK TONIGHT Bop Brothers Blues Band The plethora of litigation surrounding Blues Brothers lookalikes almost matches that **attached** to the release of Wired , the unofficial biography of the original brother , John Belushi .
+
+Your answer (choose one of the following): 
+- [ ] cause to be attached
+- [ ] be attached; be in contact with
+- [ ] become attached
+- [ ] create social or emotional ties
+- [ ] take temporary possession of as a security, by legal authority
+----------------
+What is the meaning of **"bludgeoned"** in the following sentence?
+
+There are few things worse than being **bludgeoned** into reading a book you hate .
+
+Your answer (choose one of the following): 
+- [ ] overcome or coerce as if by using a heavy club
+- [ ] strike with a club or a bludgeon
+----------------
+What is the meaning of **"searching"** in the following sentence?
+
+in a defensive posture , eyes **searching** the stacked containers , trying to probe the black , jagged recesses between them .
+
+Your answer (choose one of the following): 
+- [ ] try to locate or discover, or try to establish the existence of
+- [ ] search or seek
+- [ ] inquire into
+- [ ] subject to a search
 ----------------
 What is the meaning of **"help"** in the following sentence?
 
-Bristol and West claims these auctions will **help** to bring some action to an otherwise slow market , and says it was overwhelmed by the response from people wanting to sell in this way .
+Seeds of the maple family are typically in pairs , joined at the base , with flat ‘ wings ’ that **help** the seeds to disperse .
 
 Your answer (choose one of the following): 
 - [ ] give help or assistance; be of service
@@ -146,119 +163,304 @@ Your answer (choose one of the following):
 - [ ] take or use
 - [ ] improve; change for the better
 ----------------
-What is the meaning of **"go"** in the following sentence?
+What is the meaning of **"aim"** in the following sentence?
 
-He said the NHS should address itself more to the needs of cancer patients so that they do not feel they have to **go** outside the system .
+The divergence was sharpened by the application of a theoretical distinction , the fruit of Augustinian theology , amplified as the century went on by canon and Roman law reference ; princes pronounced their campaigns just wars ( fought against aggressors with the **aim** of re-establishing peace ) or public wars ( declared by a competent authority in the public interest ) , while they condemned the wars of lesser men as infractions of the peace .
+
+Your answer (choose one of the following): 
+- [ ] point or cause to go (blows, weapons, or objects such as photographic equipment) towards
+- [ ] propose or intend
+- [ ] move into a desired direction of discourse
+- [ ] specifically design a product, event, or activity for a certain public
+- [ ] intend (something) to move towards a certain goal
+- [ ] direct (a remark) toward an intended goal
+- [ ] have an ambitious plan or a lofty goal
+----------------
+What is the meaning of **"arrived"** in the following sentence?
+
+Last week he promised to supply us with a written explanation of the way his company had treated Debbie , but it never **arrived** .
+
+Your answer (choose one of the following): 
+- [ ] reach a destination; arrive by movement or progress
+- [ ] succeed in a big way; get to the top
+----------------
+What is the meaning of **"preferred"** in the following sentence?
+
+Most bottom-dwelling trilobites **preferred** to live at a particular water depth , or on a particular type of sea bottom ( mud , sand or lime ) .
+
+Your answer (choose one of the following): 
+- [ ] like better; value more highly
+- [ ] select as an alternative over another
+- [ ] promote over another
+- [ ] give preference to one creditor over another
+----------------
+What is the meaning of **"spent"** in the following sentence?
+
+And at the end , Conlon drew the one hopeful conclusion : ‘ If this stops capital punishment ever coming back , the time I 've **spent** in prison will be well worth it .
+
+Your answer (choose one of the following): 
+- [ ] pass time in a specific way
+- [ ] pay out
+- [ ] spend completely
+----------------
+What is the meaning of **"prepared"** in the following sentence?
+
+‘ We accept that we could lose the money we 've paid to go to auction , but that 's a risk we 're **prepared** to take , ’ says Julie Widlake .
+
+Your answer (choose one of the following): 
+- [ ] make ready or suitable or equip in advance for a particular purpose or for some use, event, etc
+- [ ] prepare for eating by applying heat
+- [ ] to prepare verbally, either for written or spoken delivery
+- [ ] arrange by systematic planning and united effort
+- [ ] educate for a future role or function
+- [ ] create by training and teaching
+- [ ] lead up to and soften by sounding the dissonant note in it as a consonant note in the preceding chord
+- [ ] undergo training or instruction in preparation for a particular role, function, or profession
+----------------
+What is the meaning of **"misjudged"** in the following sentence?
+
+Had she **misjudged** the time ?
+
+Your answer (choose one of the following): 
+- [ ] judge incorrectly
+----------------
+What is the meaning of **"commit"** in the following sentence?
+
+The AEC is primarily intended for young adults subject to a probation order with a special condition of attendance ( Schedule 11 4A(II) Criminal Justice Act 1982 ) and reflects the fact that most Somerset offenders in trouble through drink **commit** serious offences and/or possess a substantial number of previous convictions .
+
+Your answer (choose one of the following): 
+- [ ] perform an act, usually with a negative connotation
+- [ ] give entirely to a specific person, activity, or cause
+- [ ] cause to be admitted; of persons to an institution
+- [ ] confer a trust upon
+- [ ] make an investment
+- [ ] engage in or perform
+----------------
+What is the meaning of **"let"** in the following sentence?
+
+She had **let** her overwhelming desire feed her imagination ; had read something into his words , his looks , his actions , which had not been there at all .
+
+Your answer (choose one of the following): 
+- [ ] make it possible through a specific action or lack of action for something to happen
+- [ ] actively cause something to happen
+- [ ] consent to, give permission
+- [ ] cause to move; cause to be in a certain position or condition
+- [ ] leave unchanged
+- [ ] grant use or occupation of under a term of contract
+----------------
+What is the meaning of **"fought"** in the following sentence?
+
+She **fought** hard to get him a part-time playgroup place in the group his older brother attended .
+
+Your answer (choose one of the following): 
+- [ ] be engaged in a fight; carry on a fight
+- [ ] fight against or resist strongly
+- [ ] make a strenuous or labored effort
+- [ ] exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for
+----------------
+What is the meaning of **"lagging"** in the following sentence?
+
+Britain is **lagging** behind .
+
+Your answer (choose one of the following): 
+- [ ] hang (back) or fall (behind) in movement, progress, development, etc.
+- [ ] lock up or confine, in or as in a jail
+- [ ] throw or pitch at a mark, as with coins
+- [ ] cover with lagging to prevent heat loss
+----------------
+What is the meaning of **"telling"** in the following sentence?
+
+His wife was **telling** him to saddle up and steal a fresh batch of cattle from his neighbour 's herds .
+
+Your answer (choose one of the following): 
+- [ ] express in words
+- [ ] let something be known
+- [ ] narrate or give a detailed account of
+- [ ] give instructions to or direct somebody to do something with authority
+- [ ] discern or comprehend
+- [ ] inform positively and with certainty and confidence
+- [ ] give evidence
+- [ ] mark as different
+----------------
+What is the meaning of **"crushed"** in the following sentence?
+
+Yeah , but it was a , it was also a it was a bit of a celebrity , I mean it was people , people were **crushed** around , bloody hell I mean
+
+Your answer (choose one of the following): 
+- [ ] come down on or keep down by unjust use of one's authority
+- [ ] to compress with violence, out of natural shape or condition
+- [ ] come out better in a competition, race, or conflict
+- [ ] break into small pieces
+- [ ] humiliate or depress completely
+- [ ] crush or bruise
+- [ ] make ineffective
+- [ ] become injured, broken, or distorted by pressure
+----------------
+What is the meaning of **"blinding"** in the following sentence?
+
+The **blinding** headaches he had been experiencing in recent weeks were taking their toll , and he looked grey and drawn when he arrived home .
+
+Your answer (choose one of the following): 
+- [ ] render unable to see
+- [ ] make blind by putting the eyes out
+- [ ] make dim by comparison or conceal
+----------------
+What is the meaning of **"add"** in the following sentence?
+
+It would **add** another necessary touch in the process of creating a Palestinian home .
+
+Your answer (choose one of the following): 
+- [ ] make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of
+- [ ] state or say further
+- [ ] bestow a quality on
+- [ ] make an addition by combining numbers
+- [ ] determine the sum of
+- [ ] constitute an addition
+----------------
+What is the meaning of **"extracted"** in the following sentence?
+
+I wo n't be held by a promise that was unfairly **extracted** from me before I legally became an adult .
+
+Your answer (choose one of the following): 
+- [ ] remove, usually with some force or effort; also used in an abstract sense
+- [ ] get despite difficulties or obstacles
+- [ ] deduce (a principle) or construe (a meaning)
+- [ ] extract by the process of distillation
+- [ ] separate (a metal) from an ore
+- [ ] obtain from a substance, as by mechanical action
+- [ ] take out of a literary work in order to cite or copy
+- [ ] calculate the root of a number
+----------------
+What is the meaning of **"travelling"** in the following sentence?
+
+The electric force on an electron of charge e **travelling** at the edge of the beam ( R = a ) is it is in the radial direction pointing outwards .
 
 Your answer (choose one of the following): 
 - [ ] change location; move, travel, or proceed, also metaphorically
-- [ ] follow a procedure or take a course
-- [ ] move away from a place into another direction
-- [ ] enter or assume a certain state or condition
-- [ ] be awarded; be allotted
-- [ ] have a particular form
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] follow a certain course
-- [ ] be abolished or discarded
-- [ ] be or continue to be in a certain condition
-- [ ] make a certain noise or sound
-- [ ] perform as expected when applied
-- [ ] to be spent or finished
-- [ ] progress by being changed
-- [ ] continue to live through hardship or adversity
-- [ ] pass, fare, or elapse; of a certain state of affairs or action
-- [ ] pass from physical life and lose all bodily attributes and functions necessary to sustain life
-- [ ] be in the right place or situation
-- [ ] be ranked or compare
-- [ ] begin or set in motion
-- [ ] have a turn; make one's move in a game
-- [ ] be contained in
-- [ ] be sounded, played, or expressed
-- [ ] blend or harmonize
-- [ ] lead, extend, or afford access
-- [ ] be the right size or shape; fit correctly or as desired
-- [ ] go through in search of something; search through someone's belongings in an unauthorized way
-- [ ] be spent
-- [ ] give support (to) or make a choice (of) one out of a group or number
-- [ ] stop operating or functioning
+- [ ] undertake a journey or trip
+- [ ] make a trip for pleasure
+- [ ] travel upon or across
+- [ ] undergo transportation as in a vehicle
+- [ ] travel from place to place, as for the purpose of finding work, preaching, or acting as a judge
 ----------------
-What is the meaning of **"raise"** in the following sentence?
+What is the meaning of **"percolate"** in the following sentence?
 
-Moreover , the borderlines between the various degrees would **raise** questions of law , which would provide much opportunity for legal argument and for appeals .
+In fact there is nothing fixed about such interpretations , because the way the fossils are understood may change over the years , but it is usually some time before new discoveries **percolate** into the popular presentations .
 
 Your answer (choose one of the following): 
-- [ ] raise the level or amount of something
-- [ ] raise from a lower to a higher position
-- [ ] cause to be heard or known; express or utter
-- [ ] collect funds for a specific purpose
-- [ ] cultivate by growing, often involving improvements by means of agricultural techniques
-- [ ] bring up
-- [ ] summon into action or bring into existence, often as if by magic
-- [ ] move upwards
-- [ ] construct, build, or erect
-- [ ] call forth (emotions, feelings, and responses)
-- [ ] create a disturbance, especially by making a great noise
-- [ ] raise in rank or condition
-- [ ] increase
-- [ ] give a promotion to or assign to a higher position
-- [ ] cause to puff up with a leaven
-- [ ] bid (one's partner's suit) at a higher level
-- [ ] bet more than the previous player
-- [ ] cause to assemble or enlist in the military
-- [ ] put forward for consideration or discussion
-- [ ] pronounce (vowels) by bringing the tongue closer to the roof of the mouth
-- [ ] activate or stir up
-- [ ] establish radio communications with
-- [ ] multiply (a number) by itself a specified number of times: 8 is 2 raised to the power 3
-- [ ] bring (a surface or a design) into relief and cause to project
-- [ ] invigorate or heighten
-- [ ] put an end to
-- [ ] cause to become alive again
+- [ ] permeate or penetrate gradually
+- [ ] spread gradually
+- [ ] prepare in a percolator
+- [ ] cause (a solvent) to pass through a permeable substance in order to extract a soluble constituent
+- [ ] pass through
+- [ ] gain or regain energy
 ----------------
-What is the meaning of **"accompany"** in the following sentence?
+What is the meaning of **"interpret"** in the following sentence?
 
-Shall I **accompany** you on the violin ?
+From the optical properties of this mineral we know that the lens was able to **interpret** light coming from a direction more or less at right-angles to the lens surface .
 
 Your answer (choose one of the following): 
-- [ ] be present or associated with an event or entity
-- [ ] go or travel along with
-- [ ] perform an accompaniment to
-- [ ] be a companion to somebody
+- [ ] make sense of; assign a meaning to
+- [ ] give an interpretation or explanation to
+- [ ] give an interpretation or rendition of
+- [ ] create an image or likeness of
+- [ ] restate (words) from one language into another language
+- [ ] make sense of a language
 ----------------
-What is the meaning of **"employed"** in the following sentence?
+What is the meaning of **"adopted"** in the following sentence?
 
-It has **employed** a dual strategy to achieve these two objectives .
+A fourth approach , **adopted** by English law until 1957 and still in force in many American jurisdictions , is some form of felony-murder rule : anyone who kills during the course of a felony ( or , more restrictively , a serious crime of violence ) or whilst resisting arrest should be convicted of murder .
 
 Your answer (choose one of the following): 
-- [ ] put into service; make work or employ for a particular purpose or for its inherent or natural purpose
-- [ ] engage or hire for work
+- [ ] choose and follow; as of theories, ideas, policies, strategies or plans
+- [ ] take up and practice as one's own
+- [ ] take on titles, offices, duties, responsibilities
+- [ ] take on a certain form, attribute, or aspect
+- [ ] take into one's family
+- [ ] put into dramatic form
+- [ ] take up the cause, ideology, practice, method, of someone and use it as one's own
 ----------------
-What is the meaning of **"extending"** in the following sentence?
+What is the meaning of **"looking"** in the following sentence?
 
-This type of tree has a history **extending** back to the upper Cretaceous .
+Are you **looking** for sex , or just someone to talk to ?
 
 Your answer (choose one of the following): 
-- [ ] extend in scope or range or area
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] span an interval of distance, space or time
-- [ ] make available; provide
-- [ ] thrust or extend out
-- [ ] reach outward in space
-- [ ] offer verbally
-- [ ] extend one's limbs or muscles, or the entire body
-- [ ] expand the influence of
-- [ ] lengthen in time; cause to be or last longer
-- [ ] extend or stretch out to a greater or the full length
-- [ ] cause to move at full gallop
-- [ ] open or straighten out; unbend
-- [ ] use to the utmost; exert vigorously or to full capacity
-- [ ] prolong the time allowed for payment of
-- [ ] continue or extend
-- [ ] increase in quantity or bulk by adding a cheaper substance
+- [ ] perceive with attention; direct one's gaze towards
+- [ ] give a certain impression or have a certain outward aspect
+- [ ] have a certain outward or facial expression
+- [ ] search or seek
+- [ ] be oriented in a certain direction, often with respect to another reference point; be opposite to
+- [ ] take charge of or deal with
+- [ ] convey by one's expression
+- [ ] look forward to the probable occurrence of
+- [ ] accord in appearance with
+- [ ] have faith or confidence in
 ----------------
-What is the meaning of **"allows"** in the following sentence?
+What is the meaning of **"punch"** in the following sentence?
 
-A high level of mobility in the structure **allows** for continuous interchange of roles and ideas , and retains for the Unified National Command the closeness to grass roots that is required to make it truly reflect people 's wishes and sentiments .
+New Orleans favours a mid-morning milk **punch** , or its own variation on the gin fizz .
+
+Your answer (choose one of the following): 
+- [ ] deliver a quick blow to
+- [ ] drive forcibly as if by a punch
+- [ ] make a hole into or between, as for ease of separation
+----------------
+What is the meaning of **"confronted"** in the following sentence?
+
+As for me , I tell you as a friend , I feel impotent when **confronted** with such nature , for my Northern brains were oppressed by a nightmare in those peaceful spots as I felt one ought to do better things with the foliage .
+
+Your answer (choose one of the following): 
+- [ ] oppose, as in hostility or a competition
+- [ ] deal with (something unpleasant) head on
+- [ ] present somebody with something, usually to accuse or criticize
+- [ ] be face to face with
+----------------
+What is the meaning of **"stitched"** in the following sentence?
+
+Arsenal were **stitched** and stuffed , with no question of a fluke .
+
+Your answer (choose one of the following): 
+- [ ] fasten by sewing; do needlework
+----------------
+What is the meaning of **"shocked"** in the following sentence?
+
+But now she was visibly **shocked** by the drained and haggard-looking face which kissed her .
+
+Your answer (choose one of the following): 
+- [ ] surprise greatly; knock someone's socks off
+- [ ] strike with disgust or revulsion
+- [ ] strike with horror or terror
+- [ ] collide violently
+- [ ] collect or gather into shocks
+- [ ] subject to electrical shocks
+- [ ] inflict a trauma upon
+----------------
+What is the meaning of **"tackle"** in the following sentence?
+
+It was providing 27,500 training places ( often in conjunction with the Manpower Services Commission ) : some 2,500 buildings were being improved ; estate action aimed to **tackle** run down housing ; and a large number of new ‘ partnerships ’ ( which some might see as subsidies , or discredited regional grants , in a new guise ) were in operation , in an effort to bring private investment to run-down urban areas .
+
+Your answer (choose one of the following): 
+- [ ] accept as a challenge
+- [ ] put a harness
+- [ ] seize and throw down an opponent player, who usually carries the ball
+----------------
+What is the meaning of **"tells"** in the following sentence?
+
+The 1989-90 season , which started this month , brought another new prime-time western series , ABC 's Young Riders , which **tells** the story of the Pony Express .
+
+Your answer (choose one of the following): 
+- [ ] express in words
+- [ ] let something be known
+- [ ] narrate or give a detailed account of
+- [ ] give instructions to or direct somebody to do something with authority
+- [ ] discern or comprehend
+- [ ] inform positively and with certainty and confidence
+- [ ] give evidence
+- [ ] mark as different
+----------------
+What is the meaning of **"allowing"** in the following sentence?
+
+The offer from the Anglo-Swedish consortium formed by Tiphook and Stena AB is the subject of an appeal in the Bermudan courts which is aimed at overturning an earlier ruling **allowing** SeaCo to proceed with its ‘ poison pill ’ defence .
 
 Your answer (choose one of the following): 
 - [ ] make it possible through a specific action or lack of action for something to happen
@@ -272,147 +474,85 @@ Your answer (choose one of the following):
 - [ ] grant as a discount or in exchange
 - [ ] allow the presence of or allow (an activity) without opposing or prohibiting
 ----------------
-What is the meaning of **"make"** in the following sentence?
+What is the meaning of **"expanded"** in the following sentence?
 
-These factors are worthy of emphasis because in practice they are still dealt with very badly in many organisations and yet it takes little trouble or expertise to **make** an enormous difference .
+He successfully defended rowing as an Olympic sport and in 1976 introduced women 's events , which have now **expanded** to six classes .
 
 Your answer (choose one of the following): 
-- [ ] engage in
-- [ ] give certain properties to something
-- [ ] make or cause to be or to become
-- [ ] cause to do; cause to act in a specified manner
-- [ ] give rise to; cause to happen or occur, not always intentionally
-- [ ] create or manufacture a man-made product
-- [ ] make, formulate, or derive in the mind
-- [ ] compel or make somebody or something to act in a certain way
-- [ ] create by artistic means
-- [ ] earn on some commercial or business transaction; earn as salary or wages
-- [ ] create or design, often in a certain way
-- [ ] to compose or represent:
-- [ ] reach a goal, e.g.,
-- [ ] be or be capable of being changed or made into
-- [ ] make by shaping or bringing together constituents
-- [ ] perform or carry out
-- [ ] make by combining materials and parts
-- [ ] change from one form into another
-- [ ] act in a certain way so as to acquire
-- [ ] charge with a function; charge to be
-- [ ] achieve a point or goal
-- [ ] reach a destination, either real or abstract
-- [ ] institute, enact, or establish
-- [ ] carry out or commit
-- [ ] form by assembling individuals or constituents
-- [ ] organize or be responsible for
-- [ ] put in order or neaten
-- [ ] head into a specified direction
-- [ ] have a bowel movement
-- [ ] undergo fabrication or creation
-- [ ] be suitable for
-- [ ] add up to
-- [ ] amount to
-- [ ] constitute the essence of
-- [ ] appear to begin an activity
-- [ ] proceed along a path
-- [ ] reach in time
-- [ ] gather and light the materials for
-- [ ] prepare for eating by applying heat
-- [ ] induce to have sex
-- [ ] assure the success of
-- [ ] represent fictitiously, as in a play, or pretend to be or act like
-- [ ] consider as being
-- [ ] calculate as being
-- [ ] cause to be enjoyable or pleasurable
-- [ ] favor the development of
-- [ ] develop into
-- [ ] behave in a certain way
-- [ ] eliminate urine
+- [ ] extend in one or more directions
+- [ ] become larger in size or volume or quantity
+- [ ] make bigger or wider in size, volume, or quantity
+- [ ] grow vigorously
+- [ ] exaggerate or make bigger
+- [ ] add details, as to an account or idea; clarify the meaning of and discourse in a learned way, usually in writing
+- [ ] expand the influence of
 ----------------
-What is the meaning of **"formed"** in the following sentence?
+What is the meaning of **"replace"** in the following sentence?
 
-The offer from the Anglo-Swedish consortium **formed** by Tiphook and Stena AB is the subject of an appeal in the Bermudan courts which is aimed at overturning an earlier ruling allowing SeaCo to proceed with its ‘ poison pill ’ defence .
+First , it would consolidate the structures of the developing national authority which is competing to **replace** the occupation authority .
 
 Your answer (choose one of the following): 
-- [ ] create (as an entity)
-- [ ] to compose or represent:
-- [ ] develop into a distinctive entity
-- [ ] give shape or form to
-- [ ] make something, usually for a specific function
-- [ ] establish or impress firmly in the mind
-- [ ] assume a form or shape
+- [ ] substitute a person or thing for (another that is broken or inefficient or lost or no longer working or yielding what is expected)
+- [ ] take the place or move into the position of
+- [ ] put something back where it belongs
+- [ ] put in the place of another; switch seemingly equivalent items
 ----------------
-What is the meaning of **"mean"** in the following sentence?
+What is the meaning of **"shared"** in the following sentence?
 
-Does that **mean** he may lay an information and bring the matter before the magistrates without first putting the person alleged to be in default on notice of what is alleged ?
+What has been lacking however — as well as the political will to do something — has been any **shared** agreement on the cause .
 
 Your answer (choose one of the following): 
-- [ ] mean or intend to express or convey
-- [ ] have as a logical consequence
-- [ ] denote or connote
-- [ ] have in mind as a purpose
-- [ ] have a specified degree of importance
-- [ ] intend to refer to
-- [ ] destine or designate for a certain purpose
+- [ ] have in common
+- [ ] use jointly or in common
+- [ ] have, give, or receive a share of
+- [ ] give out as one's portion or share
+- [ ] communicate
 ----------------
-What is the meaning of **"feel"** in the following sentence?
+What is the meaning of **"cancels"** in the following sentence?
 
-‘ My dear , they 'll do whatever they **feel** is necessary to do .
+The reason is , of course , that there are two kinds of electric charges and their effect usually **cancels** , so the small magnetic field has a chance of getting observed .
 
 Your answer (choose one of the following): 
-- [ ] undergo an emotional sensation or be in a particular state of mind
-- [ ] come to believe on the basis of emotion, intuitions, or indefinite grounds
-- [ ] perceive by a physical sensation, e.g., coming from the skin or muscles
-- [ ] be conscious of a physical, mental, or emotional state
-- [ ] have a feeling or perception about oneself in reaction to someone's behavior or attitude
-- [ ] undergo passive experience of:
-- [ ] be felt or perceived in a certain way
-- [ ] grope or feel in search of something
-- [ ] examine by touch
-- [ ] examine (a body part) by palpation
-- [ ] find by testing or cautious exploration
-- [ ] produce a certain impression
-- [ ] pass one's hands over the sexual organs of
+- [ ] postpone indefinitely or annul something that was scheduled
+- [ ] make up for
+- [ ] declare null and void; make ineffective
+- [ ] remove or make invisible
+- [ ] make invalid for use
 ----------------
-What is the meaning of **"negotiated"** in the following sentence?
+What is the meaning of **"evaded"** in the following sentence?
 
-She **negotiated** a free catalogue .
+He **evaded** Mark 's eyes .
 
 Your answer (choose one of the following): 
-- [ ] discuss the terms of an arrangement
-- [ ] succeed in passing through, around, or over
+- [ ] avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)
+- [ ] escape, either physically or mentally
+- [ ] practice evasion
+- [ ] use cunning or deceit to escape or avoid
 ----------------
-What is the meaning of **"bet"** in the following sentence?
+What is the meaning of **"captured"** in the following sentence?
 
-At least I 'll give you , who 's gon na **bet**
+The final symbolic cue used to make sense of the 1980–1 protests is more difficult to categorize , but its basic meaning can be **captured** by the term ‘ political marginality ’ .
 
 Your answer (choose one of the following): 
-- [ ] maintain with or as if with a bet
-- [ ] stake on the outcome of an issue
-- [ ] have faith or confidence in
+- [ ] succeed in representing or expressing something intangible
+- [ ] attract; cause to be enamored
+- [ ] succeed in catching or seizing, especially after a chase
+- [ ] bring about the capture of an elementary particle or celestial body and causing it enter a new orbit
+- [ ] take possession of by force, as after an invasion
+- [ ] capture as if by hunting, snaring, or trapping
 ----------------
-What is the meaning of **"helped"** in the following sentence?
+What is the meaning of **"earmarked"** in the following sentence?
 
-Oil slicks in Alaska and elsewhere **helped** Vikoma , the group 's environmental cleaning equipment manufacturer , which specialises in separating oil from water , and although Salvesen brick , is suffering in the second half from a 30 to 40 per cent cut in demand as housebuilding nosedives , the first half was prosperous and full year trading profit should be on a level with 1988 , says finance director Brian Fidler .
+As a rich , forceful young man , Keller had been **earmarked** as a likely future president , even before Mullegg was killed in an aircrash in 1958 .
 
 Your answer (choose one of the following): 
-- [ ] give help or assistance; be of service
-- [ ] improve the condition of
-- [ ] be of use
-- [ ] abstain from doing; always used with a negative
-- [ ] help to some food; help with food or drink
-- [ ] contribute to the furtherance of
-- [ ] take or use
-- [ ] improve; change for the better
+- [ ] give or assign a resource to a particular person or cause
 ----------------
-What is the meaning of **"lay"** in the following sentence?
+What is the meaning of **"lying"** in the following sentence?
 
-The families of North Tynedale in westernmost Northumberland — Charltons and Robsons , Milburns and Dodds — were never slow to **lay** hands on each other 's property in the lawless old days .
+whole of the rugby team were **lying** in front of stage with their
 
 Your answer (choose one of the following): 
-- [ ] put into a certain place or abstract location
-- [ ] put in a horizontal position
-- [ ] prepare or position for action or operation
-- [ ] lay eggs
-- [ ] impose as a duty, burden, or punishment
 - [ ] be located or situated somewhere; occupy a certain position
 - [ ] be lying, be prostrate; be in a horizontal position
 - [ ] originate (in)
@@ -421,30 +561,135 @@ Your answer (choose one of the following):
 - [ ] have a place in relation to something else
 - [ ] assume a reclining position
 ----------------
-What is the meaning of **"tackle"** in the following sentence?
+What is the meaning of **"traced"** in the following sentence?
 
-We will **tackle** putting our economy in order so that we can achieve that social ambition , so that the strong economy is used to finance and develop the fair society . ’
+Despite the contemporary tone of much of Action for Cities , the programme 's heritage can be **traced** to the early 1960s studies which provided the basis for the 1965 Milner–Holland Report on housing and the 1967 Plowden Report on education , as a result of which general improvement areas and education priority areas were established .
 
 Your answer (choose one of the following): 
-- [ ] accept as a challenge
-- [ ] put a harness
-- [ ] seize and throw down an opponent player, who usually carries the ball
+- [ ] follow, discover, or ascertain the course of development of something
+- [ ] make a mark or lines on a surface
+- [ ] to go back over again
+- [ ] pursue or chase relentlessly
+- [ ] discover traces of
+- [ ] make one's course or travel along a path; travel or pass over, around, or along
+- [ ] copy by following the lines of the original drawing on a transparent sheet placed upon it; make a tracing of
+- [ ] read with difficulty
 ----------------
-What is the meaning of **"commit"** in the following sentence?
+What is the meaning of **"constructed"** in the following sentence?
 
-Yet the logic of the definition suggested that it would benefit especially kings , whose competence to declare war could not be impugned : thus Thibaud of Blois failed to persuade the monks of Marmoutier that they owed him service when he fought against Louis VI ; they claimed discretion in the matter ; and in 1184 , the mighty Philip of Alsace hesitated to **commit** to battle the army he had summoned against Philip Augustus , through fear that its ranks might melt away .
+This was by no means an accident , since throughout the 1970s a powerful body of media , political , and academic opinion had been **constructed** around the theme of how Britain was drifting into a ‘ violent society ’ , and how the basis of consent was being shifted by the pressures of immigration and the growth of multi-racial inner city areas .
 
 Your answer (choose one of the following): 
-- [ ] perform an act, usually with a negative connotation
-- [ ] give entirely to a specific person, activity, or cause
-- [ ] cause to be admitted; of persons to an institution
-- [ ] confer a trust upon
+- [ ] make by combining materials and parts
+- [ ] put together out of artificial or natural components or parts; ; ; He manufactured a popular cereal"
+- [ ] draw with suitable instruments and under specified conditions
+- [ ] create by linking linguistic units
+- [ ] create by organizing and linking ideas, arguments, or concepts
+- [ ] reassemble mentally
+----------------
+What is the meaning of **"put"** in the following sentence?
+
+The area had effectively been abandoned by the authorities , a fact which became clear during the riot itself , when police waited five hours to enter the estate and **put** down the disturbances .
+
+Your answer (choose one of the following): 
+- [ ] put into a certain place or abstract location
+- [ ] cause to be in a certain state; cause to be in a certain relation
+- [ ] formulate in a particular style or language
+- [ ] attribute or give
 - [ ] make an investment
-- [ ] engage in or perform
+- [ ] estimate
+- [ ] cause (someone) to undergo something
+- [ ] adapt
+- [ ] arrange thoughts, ideas, temporal events
 ----------------
-What is the meaning of **"includes"** in the following sentence?
+What is the meaning of **"asserted"** in the following sentence?
 
-It must be shown that the defendant intended ( which , again , **includes** both purpose and awareness of practical certainty ) to cause really serious injury to someone .
+Kahlo 's adoption of Tehuana dress , while being an attractive disguise of what she saw as a less than perfect body , **asserted** both a feminist and an anti-colonialist position .
+
+Your answer (choose one of the following): 
+- [ ] state categorically
+- [ ] to declare or affirm solemnly and formally as true
+- [ ] insist on having one's opinions and rights recognized
+- [ ] assert to be true
+----------------
+What is the meaning of **"restored"** in the following sentence?
+
+Above all he **restored** the focus of music criticism onto the music itself .
+
+Your answer (choose one of the following): 
+- [ ] return to its original or usable and functioning condition
+- [ ] return to life; get or give new life or energy
+- [ ] give or bring back
+- [ ] restore by replacing a part or putting together what is torn or broken
+- [ ] bring back into original existence, use, function, or position
+----------------
+What is the meaning of **"penetrated"** in the following sentence?
+
+Not a sign of spring had yet **penetrated** this secret valley , but another month would put that right .
+
+Your answer (choose one of the following): 
+- [ ] pass into or through, often by overcoming resistance
+- [ ] come to understand
+- [ ] become clear or enter one's consciousness or emotions
+- [ ] enter a group or organization in order to spy on the members
+- [ ] make one's way deeper into or through
+- [ ] insert the penis into the vagina or anus of
+- [ ] spread or diffuse through
+----------------
+What is the meaning of **"deploy"** in the following sentence?
+
+Such data are crucial , either for assisting the emergency services to make assessments about resources they need to **deploy** in such events , or for high-quality estimates to be made of risk .
+
+Your answer (choose one of the following): 
+- [ ] place troops or weapons in battle formation
+- [ ] to distribute systematically or strategically
+----------------
+What is the meaning of **"producing"** in the following sentence?
+
+Law personally conducted the negotiations with Gardner Sinclair over the sale of the Observer and the Pall Mall Gazette in 1914 ; this negotiation also demonstrates that , as well as **producing** information and nursing editors , the party had to work hard to keep some of the newspapers in business .
+
+Your answer (choose one of the following): 
+- [ ] bring forth or yield
+- [ ] create or manufacture a man-made product
+- [ ] cause to happen, occur or exist
+- [ ] bring out for display
+- [ ] cultivate by growing, often involving improvements by means of agricultural techniques
+- [ ] bring onto the market or release
+- [ ] come to have or undergo a change of (physical features and attributes)
+----------------
+What is the meaning of **"dictated"** in the following sentence?
+
+The sequence is **dictated** by the optimal order in which actions should be taken , for example in starting up an aircraft .
+
+Your answer (choose one of the following): 
+- [ ] issue commands or orders for
+- [ ] say out loud for the purpose of recording
+- [ ] rule as a dictator
+----------------
+What is the meaning of **"prepared"** in the following sentence?
+
+But my guess is early retirement too , unless you 're **prepared** to go back to divisional work .
+
+Your answer (choose one of the following): 
+- [ ] make ready or suitable or equip in advance for a particular purpose or for some use, event, etc
+- [ ] prepare for eating by applying heat
+- [ ] to prepare verbally, either for written or spoken delivery
+- [ ] arrange by systematic planning and united effort
+- [ ] educate for a future role or function
+- [ ] create by training and teaching
+- [ ] lead up to and soften by sounding the dissonant note in it as a consonant note in the preceding chord
+- [ ] undergo training or instruction in preparation for a particular role, function, or profession
+----------------
+What is the meaning of **"gazed"** in the following sentence?
+
+He saw a leg , uncomfortably wedged between sapling trees , swollen grotesquely , and **gazed** at it , stupidly , wondering if it was plastic .
+
+Your answer (choose one of the following): 
+- [ ] look at with fixed eyes
+----------------
+What is the meaning of **"included"** in the following sentence?
+
+Only a thousand pounds a week , yacht **included** .
 
 Your answer (choose one of the following): 
 - [ ] have as a part, be made up out of
@@ -452,521 +697,35 @@ Your answer (choose one of the following):
 - [ ] add as part of something else; put in as part of a set, group, or category
 - [ ] allow participation in or the right to be part of; permit to exercise the rights, functions, and responsibilities of
 ----------------
-What is the meaning of **"crinkled"** in the following sentence?
+What is the meaning of **"put"** in the following sentence?
 
-To the north the broken arches and stumps of the ruined Benedictine abbey gleamed golden in the afternoon sun against the **crinkled** blue of the sea and , breasting a small ridge , he glimpsed for the first time the topsail of Larksoken Mill and beyond it , against the skyline , the great grey bulk of Larksoken Nuclear power Station .
-
-Your answer (choose one of the following): 
-- [ ] make wrinkles or creases on a smooth surface; make a pressed, folded or wrinkled line in
-- [ ] become wrinkled or crumpled or creased
-----------------
-What is the meaning of **"evolved"** in the following sentence?
-
-Scott was so pleased with the style he had **evolved** at Battersea , a treatment that humanised industrial forms without denying their function , that he also used it on the Guinness Factory at Park Royal , west London .
+Effectively the sequence is that the person in default is told what is wrong and is required to **put** it right .
 
 Your answer (choose one of the following): 
-- [ ] work out
-- [ ] undergo development or evolution
-- [ ] gain through experience
-----------------
-What is the meaning of **"felt"** in the following sentence?
-
-Schooldays and the void they both **felt** when the boys went off to boarding school , followed by the joy unconfined when they came home at the end of term .
-
-Your answer (choose one of the following): 
-- [ ] mat together and make felt-like
-- [ ] cover with felt
-- [ ] change texture so as to become matted and felt-like
-- [ ] undergo an emotional sensation or be in a particular state of mind
-- [ ] come to believe on the basis of emotion, intuitions, or indefinite grounds
-- [ ] perceive by a physical sensation, e.g., coming from the skin or muscles
-- [ ] be conscious of a physical, mental, or emotional state
-- [ ] have a feeling or perception about oneself in reaction to someone's behavior or attitude
-- [ ] undergo passive experience of:
-- [ ] be felt or perceived in a certain way
-- [ ] grope or feel in search of something
-- [ ] examine by touch
-- [ ] examine (a body part) by palpation
-- [ ] find by testing or cautious exploration
-- [ ] produce a certain impression
-- [ ] pass one's hands over the sexual organs of
-----------------
-What is the meaning of **"give"** in the following sentence?
-
-‘ Theresa , here is Mr Dalgliesh to **give** you all a lift .
-
-Your answer (choose one of the following): 
-- [ ] cause to have, in the abstract sense or physical sense
-- [ ] be the cause or source of
-- [ ] transfer possession of something concrete or abstract to somebody
-- [ ] convey or reveal information
-- [ ] convey, as of a compliment, regards, attention, etc.; bestow
-- [ ] organize or be responsible for
-- [ ] convey or communicate; of a smile, a look, a physical gesture
-- [ ] give as a present; make a gift of
-- [ ] cause to happen or be responsible for
-- [ ] dedicate
-- [ ] give or supply
-- [ ] transmit (knowledge or skills)
-- [ ] bring about
-- [ ] leave with; give temporarily
-- [ ] emit or utter
-- [ ] endure the loss of
-- [ ] place into the hands or custody of
-- [ ] give entirely to a specific person, activity, or cause
-- [ ] give (as medicine)
-- [ ] give or convey physically
-- [ ] bestow
-- [ ] bestow, especially officially
-- [ ] move in order to make room for someone for something
-- [ ] give food to
-- [ ] contribute to some cause
-- [ ] break down, literally or metaphorically
-- [ ] estimate the duration or outcome of something
-- [ ] execute and deliver
-- [ ] deliver in exchange or recompense
-- [ ] afford access to
-- [ ] present to view
-- [ ] perform for an audience
-- [ ] be flexible under stress of physical force
-- [ ] propose
-- [ ] accord by verdict
-- [ ] manifest or show
-- [ ] offer in good faith
-- [ ] submit for consideration, judgment, or use
-- [ ] guide or direct, as by behavior of persuasion
-- [ ] allow to have or take
-- [ ] inflict as a punishment
-- [ ] occur
-- [ ] consent to engage in sexual intercourse with a man
-- [ ] proffer (a body part)
-----------------
-What is the meaning of **"raped"** in the following sentence?
-
-The Indian Mexico **raped** and abused by the conquistador yet bearing his bastard child .
-
-Your answer (choose one of the following): 
-- [ ] force (someone) to have sex against their will
-- [ ] destroy and strip of its possession
-- [ ] strike sharply
-- [ ] make light, repeated taps on a surface
-- [ ] perform rap music
-- [ ] talk volubly
-----------------
-What is the meaning of **"contain"** in the following sentence?
-
-Admittedly , the Model Penal Code does **contain** a list of circumstances which may amount to extreme indifference , which assists the courts and increases the predictability of verdicts in a way that Scots law does not , but the essence of both approaches is that there is no precise way of describing those non-intentional killings which are as heinous as intentional killings .
-
-Your answer (choose one of the following): 
-- [ ] include or contain; have as a component
-- [ ] contain or hold; have within
-- [ ] lessen the intensity of; temper; hold in restraint; hold or keep within limits
-- [ ] be divisible by
-- [ ] be capable of holding or containing
-- [ ] hold back, as of a danger or an enemy; check the expansion or influence of
-----------------
-What is the meaning of **"casts"** in the following sentence?
-
-His warning **casts** doubt on Labour 's commitment to increase spending on ‘ priority ’ programmes for the health service and pensions .
-
-Your answer (choose one of the following): 
-- [ ] put or send forth
-- [ ] deposit
-- [ ] select to play,sing, or dance a part in a play, movie, musical, opera, or ballet
-- [ ] throw forcefully
-- [ ] assign the roles of (a movie or a play) to actors
-- [ ] move about aimlessly or without any destination, often in search of food or employment
-- [ ] form by pouring (e.g., wax or hot metal) into a cast or mold
-- [ ] get rid of
-- [ ] choose at random
+- [ ] put into a certain place or abstract location
+- [ ] cause to be in a certain state; cause to be in a certain relation
 - [ ] formulate in a particular style or language
-- [ ] eject the contents of the stomach through the mouth
+- [ ] attribute or give
+- [ ] make an investment
+- [ ] estimate
+- [ ] cause (someone) to undergo something
+- [ ] adapt
+- [ ] arrange thoughts, ideas, temporal events
 ----------------
-What is the meaning of **"recognise"** in the following sentence?
+What is the meaning of **"tied"** in the following sentence?
 
-The ‘ impossibility ’ stemmed from the failure of such followers to **recognise** the symbolic importance of Kahlo 's choice of clothing , a failure also intrinsic to her recent magazine appearances .
+But you know how it is , it 's family ties and kids growing up and then they grow up and have families of their own , then you get **tied** to the grandchildren or what have you .
 
 Your answer (choose one of the following): 
-- [ ] show approval or appreciation of
-- [ ] grant credentials to
-- [ ] detect with the senses
-- [ ] express greetings upon meeting someone
-- [ ] express obligation, thanks, or gratitude for
-- [ ] be fully aware or cognizant of
-- [ ] perceive to be the same
-- [ ] accept (someone) to be what is claimed or accept his power and authority
-----------------
-What is the meaning of **"showing"** in the following sentence?
-
-Her husband Francis had made a slightly better **showing** than her daughter Jennifer , who was looking particularly ragged .
-
-Your answer (choose one of the following): 
-- [ ] give an exhibition of to an interested audience
-- [ ] establish the validity of something, as by an example, explanation or experiment
-- [ ] provide evidence for
-- [ ] make visible or noticeable
-- [ ] show in, or as in, a picture
-- [ ] give expression to
-- [ ] indicate a place, direction, person, or thing; either spatially or figuratively
-- [ ] be or become visible or noticeable
-- [ ] indicate a certain reading; of gauges and instruments
-- [ ] give evidence of, as of records
-- [ ] take (someone) to their seats, as in theaters or auditoriums
-- [ ] finish third or better in a horse or dog race
-----------------
-What is the meaning of **"Come"** in the following sentence?
-
-**Come** on .
-
-Your answer (choose one of the following): 
-- [ ] move toward, travel toward something or somebody or approach something or somebody
-- [ ] reach a destination; arrive by movement or progress
-- [ ] come to pass; arrive, as in due course
-- [ ] reach or enter a state, relation, condition, use, or position
-- [ ] to be the product or result
-- [ ] be found or available
-- [ ] come forth
-- [ ] be a native of
-- [ ] extend or reach
-- [ ] exist or occur in a certain point in a series
-- [ ] cover a certain distance
-- [ ] come under, be classified or included
-- [ ] happen as a result
-- [ ] add up in number or quantity
-- [ ] develop into
-- [ ] be received
-- [ ] come to one's mind; suggest itself
-- [ ] come from; be connected by a relationship of blood, for example
-- [ ] proceed or get along
-- [ ] experience orgasm
-- [ ] have a certain priority
-----------------
-What is the meaning of **"see"** in the following sentence?
-
-**see** .
-
-Your answer (choose one of the following): 
-- [ ] perceive by sight or have the power to perceive by sight
-- [ ] perceive (an idea or situation) mentally
-- [ ] perceive or be contemporaneous with
-- [ ] imagine; conceive of; see in one's mind
-- [ ] deem to be
-- [ ] get to know or become aware of, usually accidentally
-- [ ] see or watch
-- [ ] come together
-- [ ] find out, learn, or determine with certainty, usually by making an inquiry or other effort
-- [ ] be careful or certain to do something; make certain of something
-- [ ] go to see for professional or business reasons
-- [ ] go to see for a social visit
-- [ ] go to see a place, as for entertainment
-- [ ] take charge of or deal with
-- [ ] receive as a specified guest
-- [ ] date regularly; have a steady relationship with
-- [ ] see and understand, have a good eye
-- [ ] deliberate or decide
-- [ ] observe as if with an eye
-- [ ] observe, check out, and look over carefully or inspect
-- [ ] go or live through
-- [ ] accompany or escort
-- [ ] match or meet
-- [ ] make sense of; assign a meaning to
-----------------
-What is the meaning of **"containing"** in the following sentence?
-
-It would maximise civilian tactics of resistance and defuse the natural potential for violence , **containing** and eventually eliminating the marginal but intrusive phenomenon of collaborator activation by Israeli security authorities and collaborator execution by local Palestinians .
-
-Your answer (choose one of the following): 
-- [ ] include or contain; have as a component
-- [ ] contain or hold; have within
-- [ ] lessen the intensity of; temper; hold in restraint; hold or keep within limits
-- [ ] be divisible by
-- [ ] be capable of holding or containing
-- [ ] hold back, as of a danger or an enemy; check the expansion or influence of
-----------------
-What is the meaning of **"combined"** in the following sentence?
-
-Probation orders which are **combined** with constructive , disciplined and effective programmes of supervision are increasingly being used for offenders who stand to receive custodial sentences ( 1990b , p. 35 ) .
-
-Your answer (choose one of the following): 
-- [ ] have or possess in combination
-- [ ] put or add together
-- [ ] combine so as to form a whole; mix
-- [ ] add together from different sources
-- [ ] join for a common purpose or in a common action
-- [ ] gather in a mass, sum, or whole
-- [ ] mix together different elements
-----------------
-What is the meaning of **"running"** in the following sentence?
-
-Colin Pavey of British Telecom hopes that they will be **running** by the end of the year .
-
-Your answer (choose one of the following): 
-- [ ] move fast by using one's feet, with one foot off the ground at any given time
-- [ ] flee; take to one's heels; cut and run
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] direct or control; projects, businesses, etc.
-- [ ] have a particular form
-- [ ] move along, of liquids
-- [ ] perform as expected when applied
-- [ ] change or be different within limits
-- [ ] run, stand, or compete for an office or a position
-- [ ] cause to emit recorded audio or video
-- [ ] move about freely and without restraint, or act as if running around in an uncontrolled way
-- [ ] have a tendency or disposition to do or be something; be inclined
-- [ ] be operating, running or functioning
-- [ ] change from one state to another
-- [ ] cause to perform
-- [ ] be affected by; be subjected to
-- [ ] continue to exist
-- [ ] occur persistently
-- [ ] carry out a process or program, as on a computer or a machine
-- [ ] include as the content; broadcast or publicize
-- [ ] carry out
-- [ ] pass over, across, or through
-- [ ] cause something to pass or lead somewhere
-- [ ] make without a miss
-- [ ] deal in illegally, such as arms or liquor
-- [ ] cause an animal to move fast
-- [ ] be diffused
-- [ ] sail before the wind
-- [ ] cover by running; run a certain distance
-- [ ] extend or continue for a certain period of time
-- [ ] set animals loose to graze
-- [ ] keep company
-- [ ] run with the ball; in such sports as football
-- [ ] travel rapidly, by any (unspecified) means
-- [ ] travel a route regularly
-- [ ] pursue for food or sport (as of wild animals)
-- [ ] compete in a race
-- [ ] progress by being changed
-- [ ] reduce or cause to be reduced from a solid to a liquid state, usually by heating
-- [ ] come unraveled or undone as if by snagging
-- [ ] become undone
-----------------
-What is the meaning of **"take"** in the following sentence?
-
-Second , family health service authorities ( FHSAs ) , are also required to **take** on these roles , but from the viewpoint of primary health care services .
-
-Your answer (choose one of the following): 
-- [ ] carry out
-- [ ] require (time or space)
-- [ ] take somebody somewhere
-- [ ] get into one's hands, take physically
-- [ ] take on a certain form, attribute, or aspect
-- [ ] interpret something in a certain way; convey a particular meaning or impression
-- [ ] take something or somebody with oneself somewhere
-- [ ] take into one's possession
-- [ ] travel or go by means of a certain kind of transportation, or a certain route
-- [ ] pick out, select, or choose from a number of alternatives
-- [ ] receive willingly something given or offered
-- [ ] assume, as of positions or roles
-- [ ] take into consideration for exemplifying purposes
-- [ ] require as useful, just, or proper
-- [ ] experience or feel or submit to
-- [ ] make a film or photograph of something
-- [ ] remove something concrete, as by lifting, pushing, or taking off, or remove something abstract
-- [ ] serve oneself to, or consume regularly
-- [ ] accept or undergo, often unwillingly
-- [ ] make use of or accept for some purpose
-- [ ] take by force
-- [ ] occupy or take on
-- [ ] admit into a group or community
-- [ ] ascertain or determine by measuring, computing or take a reading from a dial
-- [ ] be a student of a certain subject
-- [ ] take as an undesirable consequence of some event or state of affairs
-- [ ] head into a specified direction
-- [ ] point or cause to go (blows, weapons, or objects such as photographic equipment) towards
-- [ ] be seized or affected in a specified way
-- [ ] have with oneself; have on one's person
-- [ ] engage for service under a term of contract
-- [ ] receive or obtain regularly
-- [ ] buy, select
-- [ ] to get into a position of having, e.g., safety, comfort
-- [ ] have sex with; archaic use
-- [ ] lay claim to; as of an idea
-- [ ] be designed to hold or take
-- [ ] be capable of holding or containing
-- [ ] develop a habit
-- [ ] proceed along in a vehicle
-- [ ] obtain by winning
-- [ ] be stricken by an illness, fall victim to an illness
-----------------
-What is the meaning of **"based"** in the following sentence?
-
-The Government 's post-1987 initiatives have , to some extent , reflected a diagnosis **based** on the need for better management — though on the principle that central authorities can provide a firmer grip than local ones — but combined with an anti-collectivist belief in the restorative powers of capitalism .
-
-Your answer (choose one of the following): 
-- [ ] use as a basis for; found on
-- [ ] situate as a center of operations
-- [ ] use (purified cocaine) by burning it and inhaling the fumes
-----------------
-What is the meaning of **"going"** in the following sentence?
-
-These are , of course , commercially important questions and a good deal of money is **going** into the collection of such data by insurance companies .
-
-Your answer (choose one of the following): 
-- [ ] change location; move, travel, or proceed, also metaphorically
-- [ ] follow a procedure or take a course
-- [ ] move away from a place into another direction
-- [ ] enter or assume a certain state or condition
-- [ ] be awarded; be allotted
-- [ ] have a particular form
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] follow a certain course
-- [ ] be abolished or discarded
-- [ ] be or continue to be in a certain condition
-- [ ] make a certain noise or sound
-- [ ] perform as expected when applied
-- [ ] to be spent or finished
-- [ ] progress by being changed
-- [ ] continue to live through hardship or adversity
-- [ ] pass, fare, or elapse; of a certain state of affairs or action
-- [ ] pass from physical life and lose all bodily attributes and functions necessary to sustain life
-- [ ] be in the right place or situation
-- [ ] be ranked or compare
-- [ ] begin or set in motion
-- [ ] have a turn; make one's move in a game
-- [ ] be contained in
-- [ ] be sounded, played, or expressed
-- [ ] blend or harmonize
-- [ ] lead, extend, or afford access
-- [ ] be the right size or shape; fit correctly or as desired
-- [ ] go through in search of something; search through someone's belongings in an unauthorized way
-- [ ] be spent
-- [ ] give support (to) or make a choice (of) one out of a group or number
-- [ ] stop operating or functioning
-----------------
-What is the meaning of **"BRINGING"** in the following sentence?
-
-**BRINGING** FOSSILS BACK TO LIFE
-
-Your answer (choose one of the following): 
-- [ ] take something or somebody with oneself somewhere
-- [ ] cause to come into a particular state or condition
-- [ ] cause to happen or to occur as a consequence
-- [ ] go or come after and bring or take back
-- [ ] bring into a different state
-- [ ] be accompanied by
-- [ ] advance or set forth in court; ,
-- [ ] bestow a quality on
-- [ ] be sold for a certain price
-- [ ] attract the attention of
-- [ ] induce or persuade
-----------------
-What is the meaning of **"went"** in the following sentence?
-
-and Phil **went** round there yesterday afternoon .
-
-Your answer (choose one of the following): 
-- [ ] change location; move, travel, or proceed, also metaphorically
-- [ ] follow a procedure or take a course
-- [ ] move away from a place into another direction
-- [ ] enter or assume a certain state or condition
-- [ ] be awarded; be allotted
-- [ ] have a particular form
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] follow a certain course
-- [ ] be abolished or discarded
-- [ ] be or continue to be in a certain condition
-- [ ] make a certain noise or sound
-- [ ] perform as expected when applied
-- [ ] to be spent or finished
-- [ ] progress by being changed
-- [ ] continue to live through hardship or adversity
-- [ ] pass, fare, or elapse; of a certain state of affairs or action
-- [ ] pass from physical life and lose all bodily attributes and functions necessary to sustain life
-- [ ] be in the right place or situation
-- [ ] be ranked or compare
-- [ ] begin or set in motion
-- [ ] have a turn; make one's move in a game
-- [ ] be contained in
-- [ ] be sounded, played, or expressed
-- [ ] blend or harmonize
-- [ ] lead, extend, or afford access
-- [ ] be the right size or shape; fit correctly or as desired
-- [ ] go through in search of something; search through someone's belongings in an unauthorized way
-- [ ] be spent
-- [ ] give support (to) or make a choice (of) one out of a group or number
-- [ ] stop operating or functioning
-----------------
-What is the meaning of **"brought"** in the following sentence?
-
-Section 22 of the 1979 Estate Agents Act dealing with bonding , licensing and standards of competency has not been **brought** in .
-
-Your answer (choose one of the following): 
-- [ ] take something or somebody with oneself somewhere
-- [ ] cause to come into a particular state or condition
-- [ ] cause to happen or to occur as a consequence
-- [ ] go or come after and bring or take back
-- [ ] bring into a different state
-- [ ] be accompanied by
-- [ ] advance or set forth in court; ,
-- [ ] bestow a quality on
-- [ ] be sold for a certain price
-- [ ] attract the attention of
-- [ ] induce or persuade
-----------------
-What is the meaning of **"kicked"** in the following sentence?
-
-‘ We have a new problem , ’ **kicked** off the Exec Director .
-
-Your answer (choose one of the following): 
-- [ ] drive or propel with the foot
-- [ ] thrash about or strike out with the feet
-- [ ] strike with the foot
-- [ ] kick a leg up
-- [ ] spring back, as from a forceful thrust
-- [ ] stop consuming
-- [ ] make a goal
-- [ ] express complaints, discontent, displeasure, or unhappiness
-----------------
-What is the meaning of **"restrained"** in the following sentence?
-
-With busy pomposity Lewis dictated it to a typist and would have gone on and on had he not been diplomatically **restrained** .
-
-Your answer (choose one of the following): 
-- [ ] keep under control; keep in check
-- [ ] place limits on (extent or access)
-- [ ] to close within bounds, limit or hold back from movement
-- [ ] hold back
-- [ ] to compel or deter by or as if by threats
-----------------
-What is the meaning of **"stemmed"** in the following sentence?
-
-The ‘ impossibility ’ **stemmed** from the failure of such followers to recognise the symbolic importance of Kahlo 's choice of clothing , a failure also intrinsic to her recent magazine appearances .
-
-Your answer (choose one of the following): 
-- [ ] grow out of, have roots in, originate in
-- [ ] cause to point inward
-- [ ] stop the flow of a liquid
-- [ ] remove the stem from
-----------------
-What is the meaning of **"filtering"** in the following sentence?
-
-However the map does require more intellectual effort than does the routine not only in making decisions about how to proceed but also in **filtering** out the required information from the massive irrelevance ( for a particular task ) which is equally available .
-
-Your answer (choose one of the following): 
-- [ ] remove by passing through a filter
-- [ ] pass through
-- [ ] run or flow slowly, as in drops or in an unsteady stream
-----------------
-What is the meaning of **"spent"** in the following sentence?
-
-We 've **spent** twenty-four hours together and in that time I 've been bitten by bugs in a hooker 's bed , tied up a guy with no legs and stolen his wheelchair , stayed cooped up in a train for twelve hours with an attractive man and behaved like a virgin .
-
-Your answer (choose one of the following): 
-- [ ] pass time in a specific way
-- [ ] pay out
-- [ ] spend completely
-----------------
-What is the meaning of **"welcomed"** in the following sentence?
-
-Sir : Despite a significant gap in the Labour Party 's education and training proposals , their objective to double the number of 16-18year-olds in full-time education must be **welcomed** ( 28 September ) .
-
-Your answer (choose one of the following): 
-- [ ] accept gladly
-- [ ] bid welcome to; greet upon arrival
-- [ ] receive someone, as into one's house
+- [ ] fasten or secure with a rope, string, or cord
+- [ ] finish a game with an equal number of points, goals, etc.
+- [ ] limit or restrict to
+- [ ] connect, fasten, or put together two or more pieces
+- [ ] form a knot or bow in
+- [ ] create social or emotional ties
+- [ ] perform a marriage ceremony
+- [ ] make by tying pieces together
+- [ ] unite musical notes by a tie
 ----------------
 What is the meaning of **"produce"** in the following sentence?
 
@@ -981,548 +740,23 @@ Your answer (choose one of the following):
 - [ ] bring onto the market or release
 - [ ] come to have or undergo a change of (physical features and attributes)
 ----------------
-What is the meaning of **"administered"** in the following sentence?
+What is the meaning of **"obliged"** in the following sentence?
 
-The 1970s ‘ Urban Programme ’ had a social , rather than economic , emphasis and was **administered** by the Home Office .
+Another rule of thumb is that if the act is **obliged** to rest their microphone stand and amplifiers on beer crates instead of the stage , it will be a good evening .
 
 Your answer (choose one of the following): 
-- [ ] work in an administrative capacity; supervise or be in charge of
-- [ ] perform (a church sacrament) ritually
-- [ ] administer or bestow, as in small portions
-- [ ] give or apply (medications)
-- [ ] direct the taking of
+- [ ] force somebody to do something
+- [ ] bind by an obligation; cause to be indebted
+- [ ] provide a service or favor for someone
 ----------------
-What is the meaning of **"going"** in the following sentence?
+What is the meaning of **"modified"** in the following sentence?
 
-Rufus overtook a bus **going** to Colchester and dropped the two in the back so that they could catch it .
-
-Your answer (choose one of the following): 
-- [ ] change location; move, travel, or proceed, also metaphorically
-- [ ] follow a procedure or take a course
-- [ ] move away from a place into another direction
-- [ ] enter or assume a certain state or condition
-- [ ] be awarded; be allotted
-- [ ] have a particular form
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] follow a certain course
-- [ ] be abolished or discarded
-- [ ] be or continue to be in a certain condition
-- [ ] make a certain noise or sound
-- [ ] perform as expected when applied
-- [ ] to be spent or finished
-- [ ] progress by being changed
-- [ ] continue to live through hardship or adversity
-- [ ] pass, fare, or elapse; of a certain state of affairs or action
-- [ ] pass from physical life and lose all bodily attributes and functions necessary to sustain life
-- [ ] be in the right place or situation
-- [ ] be ranked or compare
-- [ ] begin or set in motion
-- [ ] have a turn; make one's move in a game
-- [ ] be contained in
-- [ ] be sounded, played, or expressed
-- [ ] blend or harmonize
-- [ ] lead, extend, or afford access
-- [ ] be the right size or shape; fit correctly or as desired
-- [ ] go through in search of something; search through someone's belongings in an unauthorized way
-- [ ] be spent
-- [ ] give support (to) or make a choice (of) one out of a group or number
-- [ ] stop operating or functioning
-----------------
-What is the meaning of **"aroused"** in the following sentence?
-
-Such was the feeling Joss Barnet had **aroused** in her , that not for one moment did it occur to her to blame him for anything .
+Yet if the example is **modified** a little , so that the overtaking is on a country road at night and the risk is known to be slight , it becomes questionable whether the causing of death in these circumstances should be labelled in the same way as intentional killings .
 
 Your answer (choose one of the following): 
-- [ ] call forth (emotions, feelings, and responses)
-- [ ] stop sleeping
-- [ ] summon into action or bring into existence, often as if by magic
-- [ ] cause to be alert and energetic
-- [ ] cause to become awake or conscious
-- [ ] to begin moving,
-- [ ] stimulate sexually
-----------------
-What is the meaning of **"give"** in the following sentence?
-
-Just **give** me a week to have in here .
-
-Your answer (choose one of the following): 
-- [ ] cause to have, in the abstract sense or physical sense
-- [ ] be the cause or source of
-- [ ] transfer possession of something concrete or abstract to somebody
-- [ ] convey or reveal information
-- [ ] convey, as of a compliment, regards, attention, etc.; bestow
-- [ ] organize or be responsible for
-- [ ] convey or communicate; of a smile, a look, a physical gesture
-- [ ] give as a present; make a gift of
-- [ ] cause to happen or be responsible for
-- [ ] dedicate
-- [ ] give or supply
-- [ ] transmit (knowledge or skills)
-- [ ] bring about
-- [ ] leave with; give temporarily
-- [ ] emit or utter
-- [ ] endure the loss of
-- [ ] place into the hands or custody of
-- [ ] give entirely to a specific person, activity, or cause
-- [ ] give (as medicine)
-- [ ] give or convey physically
-- [ ] bestow
-- [ ] bestow, especially officially
-- [ ] move in order to make room for someone for something
-- [ ] give food to
-- [ ] contribute to some cause
-- [ ] break down, literally or metaphorically
-- [ ] estimate the duration or outcome of something
-- [ ] execute and deliver
-- [ ] deliver in exchange or recompense
-- [ ] afford access to
-- [ ] present to view
-- [ ] perform for an audience
-- [ ] be flexible under stress of physical force
-- [ ] propose
-- [ ] accord by verdict
-- [ ] manifest or show
-- [ ] offer in good faith
-- [ ] submit for consideration, judgment, or use
-- [ ] guide or direct, as by behavior of persuasion
-- [ ] allow to have or take
-- [ ] inflict as a punishment
-- [ ] occur
-- [ ] consent to engage in sexual intercourse with a man
-- [ ] proffer (a body part)
-----------------
-What is the meaning of **"deduct"** in the following sentence?
-
-Some agencies **deduct** it every month , others want it all up front , so shop around .
-
-Your answer (choose one of the following): 
-- [ ] make a subtraction
-- [ ] retain and refrain from disbursing; of payments
-- [ ] reason by deduction; establish by deduction
-----------------
-What is the meaning of **"build"** in the following sentence?
-
-After 16 minutes Graham Roberts was injured by a tackle for which Perry Groves was booked ( Steve Clarke took over as sweeper , and is likely to have several weeks in which to **build** on a promising display ) .
-
-Your answer (choose one of the following): 
-- [ ] make by combining materials and parts
-- [ ] form or accumulate steadily
-- [ ] build or establish something abstract
-- [ ] improve the cleansing action of
-- [ ] order, supervise, or finance the construction of
-- [ ] give form to, according to a plan
-- [ ] be engaged in building
-- [ ] found or ground
-- [ ] bolster or strengthen
-- [ ] develop and grow
-----------------
-What is the meaning of **"defined"** in the following sentence?
-
-Although there are two offences , murder and manslaughter , the latter includes two distinct varieties : ‘ voluntary ’ manslaughter ( killings which would be murder but for the existence of **defined** extenuating circumstances ) ; and ‘ involuntary ’ manslaughter ( killings for which there is no need to prove any awareness of the risk of death being caused , but for which there is thought to be sufficient fault to justify criminal liability ) .
-
-Your answer (choose one of the following): 
-- [ ] determine the essential quality of
-- [ ] give a definition for the meaning of a word
-- [ ] determine the nature of
-- [ ] show the form or outline of
-- [ ] decide upon or fix definitely
-----------------
-What is the meaning of **"intrude"** in the following sentence?
-
-Sorry to **intrude** on your on your privacy .
-
-Your answer (choose one of the following): 
-- [ ] enter uninvited
-- [ ] enter unlawfully on someone's property
-- [ ] search or inquire in a meddlesome way
-- [ ] thrust oneself in as if by force
-----------------
-What is the meaning of **"taken"** in the following sentence?
-
-And well lots of people go and have blood pressure **taken** , they find it 's high , and they
-
-Your answer (choose one of the following): 
-- [ ] carry out
-- [ ] require (time or space)
-- [ ] take somebody somewhere
-- [ ] get into one's hands, take physically
-- [ ] take on a certain form, attribute, or aspect
-- [ ] interpret something in a certain way; convey a particular meaning or impression
-- [ ] take something or somebody with oneself somewhere
-- [ ] take into one's possession
-- [ ] travel or go by means of a certain kind of transportation, or a certain route
-- [ ] pick out, select, or choose from a number of alternatives
-- [ ] receive willingly something given or offered
-- [ ] assume, as of positions or roles
-- [ ] take into consideration for exemplifying purposes
-- [ ] require as useful, just, or proper
-- [ ] experience or feel or submit to
-- [ ] make a film or photograph of something
-- [ ] remove something concrete, as by lifting, pushing, or taking off, or remove something abstract
-- [ ] serve oneself to, or consume regularly
-- [ ] accept or undergo, often unwillingly
-- [ ] make use of or accept for some purpose
-- [ ] take by force
-- [ ] occupy or take on
-- [ ] admit into a group or community
-- [ ] ascertain or determine by measuring, computing or take a reading from a dial
-- [ ] be a student of a certain subject
-- [ ] take as an undesirable consequence of some event or state of affairs
-- [ ] head into a specified direction
-- [ ] point or cause to go (blows, weapons, or objects such as photographic equipment) towards
-- [ ] be seized or affected in a specified way
-- [ ] have with oneself; have on one's person
-- [ ] engage for service under a term of contract
-- [ ] receive or obtain regularly
-- [ ] buy, select
-- [ ] to get into a position of having, e.g., safety, comfort
-- [ ] have sex with; archaic use
-- [ ] lay claim to; as of an idea
-- [ ] be designed to hold or take
-- [ ] be capable of holding or containing
-- [ ] develop a habit
-- [ ] proceed along in a vehicle
-- [ ] obtain by winning
-- [ ] be stricken by an illness, fall victim to an illness
-----------------
-What is the meaning of **"rose"** in the following sentence?
-
-The sexless voices **rose** in the cold .
-
-Your answer (choose one of the following): 
-- [ ] move upward
-- [ ] increase in value or to a higher point
-- [ ] rise to one's feet
-- [ ] rise up
-- [ ] come to the surface
-- [ ] come into existence; take on form or shape
-- [ ] move to a better position in life or to a better job; "She ascended from a life of poverty to one of great
-- [ ] go up or advance
-- [ ] become more extreme
-- [ ] get up and out of bed
-- [ ] rise in rank or status
-- [ ] become heartened or elated
-- [ ] exert oneself to meet a challenge
-- [ ] take part in a rebellion; renounce a former allegiance
-- [ ] increase in volume
-- [ ] come up, of celestial bodies
-- [ ] return from the dead
-----------------
-What is the meaning of **"having"** in the following sentence?
-
-**having** it done today .
-
-Your answer (choose one of the following): 
-- [ ] have or possess, either in a concrete or an abstract sense
-- [ ] have as a feature
-- [ ] go through (mental or physical states or experiences)
-- [ ] have ownership or possession of
-- [ ] cause to move; cause to be in a certain position or condition
-- [ ] serve oneself to, or consume regularly
-- [ ] have a personal or business relationship with someone
-- [ ] organize or be responsible for
-- [ ] have left
-- [ ] be confronted with
-- [ ] undergo
-- [ ] suffer from; be ill with
-- [ ] cause to do; cause to act in a specified manner
-- [ ] receive willingly something given or offered
-- [ ] get something; come into possession of
-- [ ] undergo (as of injuries and illnesses)
-- [ ] achieve a point or goal
-- [ ] cause to be born
-- [ ] have sex with; archaic use
-----------------
-What is the meaning of **"contained"** in the following sentence?
-
-The aim of this article is to challenge the assertion **contained** in the White Paper Crime , Justice and Protecting the Public ( Home Office , 1990a ) that probation practice can be conceived of as a form of punishment in the community .
-
-Your answer (choose one of the following): 
-- [ ] include or contain; have as a component
-- [ ] contain or hold; have within
-- [ ] lessen the intensity of; temper; hold in restraint; hold or keep within limits
-- [ ] be divisible by
-- [ ] be capable of holding or containing
-- [ ] hold back, as of a danger or an enemy; check the expansion or influence of
-----------------
-What is the meaning of **"fill"** in the following sentence?
-
-If I give you a bit of paper and the lot , yeah well you know what to do and go to school and **fill** them in !
-
-Your answer (choose one of the following): 
-- [ ] make full, also in a metaphorical sense
-- [ ] become full
-- [ ] occupy the whole of
-- [ ] assume, as of positions or roles
-- [ ] fill or meet a want or need
-- [ ] appoint someone to (a position or a job)
-- [ ] eat until one is sated
-- [ ] fill to satisfaction
-- [ ] plug with a substance
-----------------
-What is the meaning of **"handle"** in the following sentence?
-
-You 'd better go to St Stephen 's for tests : they 're properly equipped to **handle** this sort of thing . ’
-
-Your answer (choose one of the following): 
-- [ ] be in charge of, act on, or dispose of
-- [ ] interact in a certain way
-- [ ] act on verbally or in some form of artistic expression
-- [ ] touch, lift, or hold with the hands
-- [ ] handle effectively
-- [ ] show and train
-----------------
-What is the meaning of **"got"** in the following sentence?
-
-Why , what you **got** on ?
-
-Your answer (choose one of the following): 
-- [ ] come into the possession of something concrete or abstract
-- [ ] enter or assume a certain state or condition
-- [ ] cause to move; cause to be in a certain position or condition
-- [ ] receive a specified treatment (abstract)
-- [ ] reach a destination; arrive by movement or progress
-- [ ] go or come after and bring or take back
-- [ ] go through (mental or physical states or experiences)
-- [ ] take vengeance on or get even
-- [ ] achieve a point or goal
-- [ ] cause to do; cause to act in a specified manner
-- [ ] succeed in catching or seizing, especially after a chase
-- [ ] come to have or undergo a change of (physical features and attributes)
-- [ ] be stricken by an illness, fall victim to an illness
-- [ ] communicate with a place or person; establish communication with, as if by telephone
-- [ ] give certain properties to something
-- [ ] move into a desired direction of discourse
-- [ ] grasp with the mind or develop an understanding of
-- [ ] attract and fix
-- [ ] reach with a blow or hit in a particular spot
-- [ ] reach by calculation
-- [ ] acquire as a result of some effort or action
-- [ ] purchase
-- [ ] perceive by hearing
-- [ ] suffer from the receipt of
-- [ ] receive as a retribution or punishment
-- [ ] leave immediately; used usually in the imperative form
-- [ ] reach and board
-- [ ] irritate
-- [ ] evoke an emotional response
-- [ ] apprehend and reproduce accurately
-- [ ] earn or achieve a base by being walked by the pitcher
-- [ ] overcome or destroy
-- [ ] be a mystery or bewildering to
-- [ ] take the first step or steps in carrying out an action
-- [ ] undergo (as of injuries and illnesses)
-- [ ] make children
-----------------
-What is the meaning of **"apprehending"** in the following sentence?
-
-To name an object is to suppress three-quarters of the enjoyment of the poem , which is created by the gradual pleasure of **apprehending** it .
-
-Your answer (choose one of the following): 
-- [ ] get the meaning of something
-- [ ] take into custody
-- [ ] anticipate with dread or anxiety
-----------------
-What is the meaning of **"spend"** in the following sentence?
-
-I do n't want to **spend** my time travelling
-
-Your answer (choose one of the following): 
-- [ ] pass time in a specific way
-- [ ] pay out
-- [ ] spend completely
-----------------
-What is the meaning of **"considering"** in the following sentence?
-
-Odd , he thought , **considering** that Van Gogh himself had died mad and despairing in such surroundings .
-
-Your answer (choose one of the following): 
-- [ ] deem to be
-- [ ] give careful consideration to
-- [ ] take into consideration for exemplifying purposes
-- [ ] show consideration for; take into account
-- [ ] think about carefully; weigh
-- [ ] judge or regard; look upon; judge
-- [ ] look at attentively
-- [ ] look at carefully; study mentally
-- [ ] regard or treat with consideration, respect, and esteem
-----------------
-What is the meaning of **"refer"** in the following sentence?
-
-Risking the dismay of circuit engineers some theoreticians do , in fact , **refer** to eqn ( 3.35 ) as Ohm 's law .
-
-Your answer (choose one of the following): 
-- [ ] make reference to
-- [ ] be relevant to
-- [ ] think of, regard, or classify under a subsuming principle or with a general group or in relation to another
-- [ ] send or direct for treatment, information, or a decision
-- [ ] seek information from
-- [ ] have as a meaning
-- [ ] use a name to designate
-----------------
-What is the meaning of **"uphold"** in the following sentence?
-
-The counter-arguments , which would **uphold** the principle of correspondence , are that breach of that principle is unnecessary when the amplitude of the crime of manslaughter lies beneath murder , and also that the definition of grievous bodily harm includes a number of injuries which are most unlikely to put the victim 's life at risk .
-
-Your answer (choose one of the following): 
-- [ ] keep or maintain in unaltered condition; cause to remain or last
-- [ ] stand up for; stick up for; of causes, principles, or ideals
-- [ ] support against an opponent
-----------------
-What is the meaning of **"modelling"** in the following sentence?
-
-However , this is offset by the demands that are made on spatial analysis and **modelling** methodology .
-
-Your answer (choose one of the following): 
-- [ ] plan or create according to a model or models
-- [ ] form in clay, wax, etc
-- [ ] assume a posture as for artistic purposes
-- [ ] display (clothes) as a mannequin
-- [ ] create a representation or model of
-- [ ] construct a model of
-----------------
-What is the meaning of **"follow"** in the following sentence?
-
-In his characteristic phrase , yinhao I am their leader , I must follow them yinhao — but he determined to **follow** them from the front .
-
-Your answer (choose one of the following): 
-- [ ] to travel behind, go after, come after
-- [ ] be later in time
-- [ ] come as a logical consequence; follow logically
-- [ ] travel along a certain course
-- [ ] act in accordance with someone's rules, commands, or wishes
-- [ ] come after in time, as a result
-- [ ] behave in accordance or in agreement with
-- [ ] be next
-- [ ] choose and follow; as of theories, ideas, policies, strategies or plans
-- [ ] to bring something about at a later time than
-- [ ] imitate in behavior; take as a model
-- [ ] follow, discover, or ascertain the course of development of something
-- [ ] follow with the eyes or the mind
-- [ ] be the successor (of)
-- [ ] perform an accompaniment to
-- [ ] keep informed
-- [ ] to be the product or result
-- [ ] accept and follow the leadership or command or guidance of
-- [ ] adhere to or practice
-- [ ] work in a specific place, with a specific subject, or in a specific function
-- [ ] keep under surveillance
-- [ ] follow in or as if in pursuit
-- [ ] grasp the meaning
-- [ ] keep to
-----------------
-What is the meaning of **"call"** in the following sentence?
-
-Shares in Avon Rubber have fallen sharply this year as a result of the weak demand for winter tyres and rights issue **call** to finance the move into US motor components .
-
-Your answer (choose one of the following): 
-- [ ] assign a specified (usually proper) proper name to
-- [ ] ascribe a quality to or give a name of a common noun that reflects a quality
-- [ ] get or try to get into communication (with someone) by telephone
-- [ ] utter a sudden loud cry
-- [ ] order, request, or command to come
-- [ ] pay a brief visit
-- [ ] call a meeting; invite or command to meet
-- [ ] read aloud to check for omissions or absentees
-- [ ] send a message or attempt to reach someone by radio, phone, etc.; make a signal to in order to transmit a message
-- [ ] utter a characteristic note or cry
-- [ ] stop or postpone because of adverse conditions, such as bad weather
-- [ ] greet, as with a prescribed form, title, or name
-- [ ] make a stop in a harbour
-- [ ] demand payment of (a loan)
-- [ ] make a demand, as for a card or a suit or a show of hands
-- [ ] give the calls (to the dancers) for a square dance
-- [ ] indicate a decision in regard to
-- [ ] make a prediction about; tell in advance
-- [ ] require the presentation of for redemption before maturation
-- [ ] challenge (somebody) to make good on a statement; charge with or censure for an offense
-- [ ] declare in the capacity of an umpire or referee
-- [ ] lure by imitating the characteristic call of an animal
-- [ ] order or request or give a command for
-- [ ] order, summon, or request for a specific duty or activity, work, role
-- [ ] utter in a loud voice or announce
-- [ ] challenge the sincerity or truthfulness of
-- [ ] consider or regard as being
-- [ ] rouse somebody from sleep with a call
-----------------
-What is the meaning of **"Go"** in the following sentence?
-
-Mind I saw them in tt they were the same price in erm You Ca n't **Go** Wrong and tt the place opposite Woolworths in Caerphilly
-
-Your answer (choose one of the following): 
-- [ ] change location; move, travel, or proceed, also metaphorically
-- [ ] follow a procedure or take a course
-- [ ] move away from a place into another direction
-- [ ] enter or assume a certain state or condition
-- [ ] be awarded; be allotted
-- [ ] have a particular form
-- [ ] stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point
-- [ ] follow a certain course
-- [ ] be abolished or discarded
-- [ ] be or continue to be in a certain condition
-- [ ] make a certain noise or sound
-- [ ] perform as expected when applied
-- [ ] to be spent or finished
-- [ ] progress by being changed
-- [ ] continue to live through hardship or adversity
-- [ ] pass, fare, or elapse; of a certain state of affairs or action
-- [ ] pass from physical life and lose all bodily attributes and functions necessary to sustain life
-- [ ] be in the right place or situation
-- [ ] be ranked or compare
-- [ ] begin or set in motion
-- [ ] have a turn; make one's move in a game
-- [ ] be contained in
-- [ ] be sounded, played, or expressed
-- [ ] blend or harmonize
-- [ ] lead, extend, or afford access
-- [ ] be the right size or shape; fit correctly or as desired
-- [ ] go through in search of something; search through someone's belongings in an unauthorized way
-- [ ] be spent
-- [ ] give support (to) or make a choice (of) one out of a group or number
-- [ ] stop operating or functioning
-----------------
-What is the meaning of **"set"** in the following sentence?
-
-No general election was fought by the organization **set** up after 1911 , but there is little doubt that there was a massive improvement ; criticisms that were commonplace in 1910 were not to be heard by 1913 .
-
-Your answer (choose one of the following): 
-- [ ] put into a certain place or abstract location
-- [ ] fix conclusively or authoritatively
-- [ ] decide upon or fix definitely
-- [ ] establish as the highest level or best performance
-- [ ] put into a certain state; cause to be in a certain state
-- [ ] fix in a border
-- [ ] make ready or suitable or equip in advance for a particular purpose or for some use, event, etc
-- [ ] set to a certain position or cause to operate correctly
-- [ ] locate
-- [ ] disappear beyond the horizon
-- [ ] adapt for performance in a different way
-- [ ] put or set (seeds, seedlings, or plants) into the ground
-- [ ] apply or start
-- [ ] become gelatinous
-- [ ] set in type
-- [ ] put into a position that will restore a normal state
-- [ ] insert (a nail or screw below the surface, as into a countersink)
-- [ ] give a fine, sharp edge to a knife or razor
-- [ ] urge to attack someone
-- [ ] estimate
-- [ ] equip with sails or masts
-- [ ] get ready for a particular purpose or event
-- [ ] alter or regulate so as to achieve accuracy or conform to a standard
-- [ ] bear fruit
-- [ ] arrange attractively
-----------------
-What is the meaning of **"mixing"** in the following sentence?
-
-They are **mixing** Islamic art from the Middle East with Indian and South-East Asian .
-
-Your answer (choose one of the following): 
-- [ ] mix together different elements
-- [ ] open (a place) to members of all races and ethnic groups
-- [ ] combine (electronic signals)
-- [ ] add as an additional element or part
-- [ ] to bring or combine together or with something else
-- [ ] mix so as to make a random order or arrangement
+- [ ] make less severe or harsh or extreme
+- [ ] add a modifier to a constituent
+- [ ] cause to change; make different; cause a transformation
 ----------------
 What is the meaning of **"mean"** in the following sentence?
 
@@ -1537,179 +771,359 @@ Your answer (choose one of the following):
 - [ ] intend to refer to
 - [ ] destine or designate for a certain purpose
 ----------------
-What is the meaning of **"let"** in the following sentence?
+What is the meaning of **"released"** in the following sentence?
 
-She **let** go of the cabinet , coughing in the dust of ages that appeared to be lurking behind it , and smiled back at him as the February sun shone through the small window behind her , throwing into sharp relief the patches on the wall where her predecessor had hung posters , and the ingrained dirt on the flaking paintwork round the mean , narrow , metal window .
+In the USA the Environmental Protection Agency produces an Acute Hazards Events Database while the Department of Transportation has a database recording details of 25 000 releases of toxic materials ; such details include locational information , type and amount of material **released** , mode of release and resulting injuries or deaths ( Cutter and Solecki 1989 ) .
 
 Your answer (choose one of the following): 
-- [ ] make it possible through a specific action or lack of action for something to happen
-- [ ] actively cause something to happen
-- [ ] consent to, give permission
-- [ ] cause to move; cause to be in a certain position or condition
-- [ ] leave unchanged
-- [ ] grant use or occupation of under a term of contract
+- [ ] release, as from one's grip
+- [ ] grant freedom to; free from confinement
+- [ ] let (something) fall or spill from a container
+- [ ] prepare and issue for public distribution or sale
+- [ ] eliminate (a substance)
+- [ ] generate and separate from cells or bodily fluids
+- [ ] make (information) available for publication
+- [ ] part with a possession or right
+- [ ] release (gas or energy) as a result of a chemical reaction or physical decomposition
+- [ ] make (assets) available
 ----------------
-What is the meaning of **"taken"** in the following sentence?
+What is the meaning of **"tried"** in the following sentence?
 
-A party meeting was to be held on the following Monday and the Whips were making preparation for a vote to be **taken** .
+In the churchyard in his last parish a family in the English 1870s had **tried** to name a son Walter Cornelius Brittain and had buried three , aged five , aged two , aged one month , interspersed by variegated dead daughters , a Jennet , a Marian , an Eva .
 
 Your answer (choose one of the following): 
-- [ ] carry out
-- [ ] require (time or space)
-- [ ] take somebody somewhere
-- [ ] get into one's hands, take physically
-- [ ] take on a certain form, attribute, or aspect
-- [ ] interpret something in a certain way; convey a particular meaning or impression
-- [ ] take something or somebody with oneself somewhere
-- [ ] take into one's possession
-- [ ] travel or go by means of a certain kind of transportation, or a certain route
-- [ ] pick out, select, or choose from a number of alternatives
-- [ ] receive willingly something given or offered
-- [ ] assume, as of positions or roles
-- [ ] take into consideration for exemplifying purposes
-- [ ] require as useful, just, or proper
-- [ ] experience or feel or submit to
-- [ ] make a film or photograph of something
-- [ ] remove something concrete, as by lifting, pushing, or taking off, or remove something abstract
-- [ ] serve oneself to, or consume regularly
-- [ ] accept or undergo, often unwillingly
-- [ ] make use of or accept for some purpose
-- [ ] take by force
-- [ ] occupy or take on
-- [ ] admit into a group or community
-- [ ] ascertain or determine by measuring, computing or take a reading from a dial
-- [ ] be a student of a certain subject
-- [ ] take as an undesirable consequence of some event or state of affairs
-- [ ] head into a specified direction
-- [ ] point or cause to go (blows, weapons, or objects such as photographic equipment) towards
-- [ ] be seized or affected in a specified way
-- [ ] have with oneself; have on one's person
-- [ ] engage for service under a term of contract
-- [ ] receive or obtain regularly
-- [ ] buy, select
-- [ ] to get into a position of having, e.g., safety, comfort
-- [ ] have sex with; archaic use
-- [ ] lay claim to; as of an idea
-- [ ] be designed to hold or take
-- [ ] be capable of holding or containing
-- [ ] develop a habit
-- [ ] proceed along in a vehicle
-- [ ] obtain by winning
-- [ ] be stricken by an illness, fall victim to an illness
+- [ ] make an effort or attempt
+- [ ] put to the test, as for its quality, or give experimental use to
+- [ ] put on trial or hear a case and sit as the judge at the trial of
+- [ ] take a sample of
+- [ ] examine or hear (evidence or a case) by judicial process
+- [ ] give pain or trouble to
+- [ ] test the limits of
+- [ ] melt (fat or lard) in order to separate out impurities
+- [ ] put on a garment in order to see whether it fits and looks nice
 ----------------
-What is the meaning of **"found"** in the following sentence?
+What is the meaning of **"obtain"** in the following sentence?
 
-No such restriction should apply to our large-eyed species ; it should be **found** with all other different kinds of trilobite assemblages without preference .
+However , if cancers are of interest it is more appropriate to **obtain** data from regional cancer registries ; these data are morbidity rather than mortality data and are therefore more valuable .
 
 Your answer (choose one of the following): 
-- [ ] set up or found
-- [ ] set up or lay the groundwork for
-- [ ] use as a basis for; found on
-- [ ] come upon, as if by accident; meet with
-- [ ] discover or determine the existence, presence, or fact of
-- [ ] come upon after searching; find the location of something that was missed or lost
-- [ ] establish after a calculation, investigation, experiment, survey, or study
-- [ ] come to believe on the basis of emotion, intuitions, or indefinite grounds
-- [ ] perceive or be contemporaneous with
-- [ ] get something or somebody for a specific purpose
-- [ ] make a discovery, make a new finding
-- [ ] make a discovery
-- [ ] obtain through effort or management
-- [ ] decide on and make a declaration about
+- [ ] come into possession of
 - [ ] receive a specified treatment (abstract)
-- [ ] perceive oneself to be in a certain condition or place
-- [ ] get or find back; recover the use of
-- [ ] succeed in reaching; arrive at
-- [ ] accept and make use of one's personality, abilities, and situation
+- [ ] be valid, applicable, or true
 ----------------
-What is the meaning of **"given"** in the following sentence?
+What is the meaning of **"attacked"** in the following sentence?
 
-Mrs Henry refused the drug treatment **given** to reduce the chances of a relapse , but there are many who would remain well without it , Dr Slevin said .
+He fearlessly **attacked** convention , which caused problems when he pitched into established reputations .
 
 Your answer (choose one of the following): 
-- [ ] cause to have, in the abstract sense or physical sense
-- [ ] be the cause or source of
-- [ ] transfer possession of something concrete or abstract to somebody
-- [ ] convey or reveal information
-- [ ] convey, as of a compliment, regards, attention, etc.; bestow
-- [ ] organize or be responsible for
-- [ ] convey or communicate; of a smile, a look, a physical gesture
-- [ ] give as a present; make a gift of
-- [ ] cause to happen or be responsible for
-- [ ] dedicate
-- [ ] give or supply
-- [ ] transmit (knowledge or skills)
-- [ ] bring about
-- [ ] leave with; give temporarily
-- [ ] emit or utter
-- [ ] endure the loss of
-- [ ] place into the hands or custody of
-- [ ] give entirely to a specific person, activity, or cause
-- [ ] give (as medicine)
+- [ ] launch an attack or assault on; begin hostilities or start warfare with
+- [ ] attack in speech or writing
+- [ ] take the initiative and go on the offensive
+- [ ] attack someone physically or emotionally
+- [ ] set to work upon; turn one's energies vigorously to a task
+- [ ] begin to injure
+----------------
+What is the meaning of **"told"** in the following sentence?
+
+As instructional material it is indirect in that the reader is not necessarily **told** what to do , as in a routine .
+
+Your answer (choose one of the following): 
+- [ ] express in words
+- [ ] let something be known
+- [ ] narrate or give a detailed account of
+- [ ] give instructions to or direct somebody to do something with authority
+- [ ] discern or comprehend
+- [ ] inform positively and with certainty and confidence
+- [ ] give evidence
+- [ ] mark as different
+----------------
+What is the meaning of **"hoping"** in the following sentence?
+
+It plans to issue a protective writ but is **hoping** to achieve a settlement .
+
+Your answer (choose one of the following): 
+- [ ] expect and wish
+- [ ] be optimistic; be full of hope; have hopes
+- [ ] intend with some possibility of fulfilment
+- [ ] jump lightly
+- [ ] move quickly from one place to another
+- [ ] travel by means of an aircraft, bus, etc.
+- [ ] traverse as if by a short airplane trip
+- [ ] jump across
+- [ ] make a jump forward or upward
+----------------
+What is the meaning of **"savoured"** in the following sentence?
+
+Instead I lay back in the heather and **savoured** the trickle of the burn and the crisp smell of peat-laden ground .
+
+Your answer (choose one of the following): 
+- [ ] have flavor; taste of something
+- [ ] give taste to
+- [ ] taste appreciatively
+- [ ] derive or receive pleasure from; get enjoyment from; take pleasure in
+----------------
+What is the meaning of **"includes"** in the following sentence?
+
+It must be shown that the defendant intended ( which , again , **includes** both purpose and awareness of practical certainty ) to cause really serious injury to someone .
+
+Your answer (choose one of the following): 
+- [ ] have as a part, be made up out of
+- [ ] consider as part of something
+- [ ] add as part of something else; put in as part of a set, group, or category
+- [ ] allow participation in or the right to be part of; permit to exercise the rights, functions, and responsibilities of
+----------------
+What is the meaning of **"asking"** in the following sentence?
+
+I wrote back **asking** the reasons for this , pointing out that , if any large modern power station deserved to be listed , it was Bankside .
+
+Your answer (choose one of the following): 
+- [ ] inquire about
+- [ ] make a request or demand for something to somebody
+- [ ] direct or put; seek an answer to
+- [ ] consider obligatory; request and expect
+- [ ] address a question to and expect an answer from
+- [ ] require as useful, just, or proper
+- [ ] require or ask for as a price or condition
+----------------
+What is the meaning of **"tease"** in the following sentence?
+
+You 're still a young man … well , youngish. ’ she said , trying to **tease** him out of his apparent lethargy and depression .
+
+Your answer (choose one of the following): 
+- [ ] annoy persistently
+- [ ] harass with persistent criticism or carping
+- [ ] to arouse hope, desire, or curiosity without satisfying them
+- [ ] tear into pieces
+- [ ] raise the nap of (fabrics)
+- [ ] disentangle and raise the fibers of
+- [ ] separate the fibers of
+- [ ] mock or make fun of playfully
+- [ ] ruffle (one's hair) by combing the ends towards the scalp, for a full effect
+----------------
+What is the meaning of **"add"** in the following sentence?
+
+Yeah **add** three .
+
+Your answer (choose one of the following): 
+- [ ] make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of
+- [ ] state or say further
+- [ ] bestow a quality on
+- [ ] make an addition by combining numbers
+- [ ] determine the sum of
+- [ ] constitute an addition
+----------------
+What is the meaning of **"revealing"** in the following sentence?
+
+John of Salisbury 's comment that not only the towns but also the fortresses of Gaul feared Henry I of England was **revealing** of the new situation .
+
+Your answer (choose one of the following): 
+- [ ] make visible
+- [ ] make known to the public information that was previously known only to a few people or that was meant to be kept a secret
+- [ ] disclose directly or through prophets
+----------------
+What is the meaning of **"identify"** in the following sentence?
+
+The law must resort to some kind of moral and social evaluation of conduct if it is to **identify** and separate out the most heinous killings .
+
+Your answer (choose one of the following): 
+- [ ] recognize as being; establish the identity of someone or something
+- [ ] give the name or identifying characteristics of; refer to by name or some other identifying characteristic property
+- [ ] consider (oneself) as similar to somebody else
+- [ ] conceive of as united or associated
+- [ ] identify as in botany or biology, for example
+- [ ] consider to be equal or the same
+----------------
+What is the meaning of **"slumped"** in the following sentence?
+
+As they set up the now empty suit with its back to the door , half **slumped** over a control panel , he settled down behind the curtained entrance of the showers .
+
+Your answer (choose one of the following): 
+- [ ] assume a drooping posture or carriage
+- [ ] fall or sink heavily
+- [ ] fall heavily or suddenly; decline markedly
+- [ ] go down in value
+----------------
+What is the meaning of **"determined"** in the following sentence?
+
+In cases where life imprisonment was thought to be the appropriate sentence , the trial judge would still specify — in open court — the number of years to be spent in prison , taking the gravity of the offence into account , and release would be **determined** by a judicial tribunal .
+
+Your answer (choose one of the following): 
+- [ ] establish after a calculation, investigation, experiment, survey, or study
+- [ ] shape or influence; give direction to
+- [ ] fix conclusively or authoritatively
+- [ ] decide upon or fix definitely
+- [ ] reach, make, or come to a decision about something
+- [ ] fix in scope; fix the boundaries of
+- [ ] settle conclusively; come to terms
+- [ ] find out, learn, or determine with certainty, usually by making an inquiry or other effort
+----------------
+What is the meaning of **"tightening"** in the following sentence?
+
+The valley of the White Kielder Burn steepened again as I trudged north , its curves **tightening** .
+
+Your answer (choose one of the following): 
+- [ ] make tight or tighter
+- [ ] become tight or tighter
+- [ ] restrict
+- [ ] narrow or limit
+----------------
+What is the meaning of **"applies"** in the following sentence?
+
+The problem arises in connection with section 99 which adapts or **applies** the provisions to cases where an individual rather than the local authority wishes to make the complaint .
+
+Your answer (choose one of the following): 
+- [ ] put into service; make work or employ for a particular purpose or for its inherent or natural purpose
+- [ ] be pertinent or relevant or applicable
+- [ ] ask (for something)
+- [ ] apply to a surface
+- [ ] be applicable to; as to an analysis
 - [ ] give or convey physically
-- [ ] bestow
-- [ ] bestow, especially officially
-- [ ] move in order to make room for someone for something
-- [ ] give food to
-- [ ] contribute to some cause
-- [ ] break down, literally or metaphorically
-- [ ] estimate the duration or outcome of something
-- [ ] execute and deliver
-- [ ] deliver in exchange or recompense
-- [ ] afford access to
-- [ ] present to view
-- [ ] perform for an audience
-- [ ] be flexible under stress of physical force
-- [ ] propose
-- [ ] accord by verdict
-- [ ] manifest or show
-- [ ] offer in good faith
-- [ ] submit for consideration, judgment, or use
-- [ ] guide or direct, as by behavior of persuasion
-- [ ] allow to have or take
-- [ ] inflict as a punishment
-- [ ] occur
-- [ ] consent to engage in sexual intercourse with a man
-- [ ] proffer (a body part)
+- [ ] avail oneself to
+- [ ] ensure observance of laws and rules
+- [ ] refer (a word or name) to a person or thing
+- [ ] apply oneself to
 ----------------
-What is the meaning of **"bought"** in the following sentence?
+What is the meaning of **"troubled"** in the following sentence?
 
-‘ So they **bought** immunity .
+In the inert 1950s the western represented a **troubled** , adventurous American past .
 
 Your answer (choose one of the following): 
-- [ ] obtain by purchase; acquire by means of a financial transaction
-- [ ] make illegal payments to in exchange for favors or influence
-- [ ] be worth or be capable of buying
-- [ ] acquire by trade or sacrifice or exchange
-- [ ] accept as true
+- [ ] move deeply
+- [ ] to cause inconvenience or discomfort to
+- [ ] disturb in mind or make uneasy or cause to be worried or alarmed
+- [ ] take the trouble to do something; concern oneself
+- [ ] cause bodily suffering to and make sick or indisposed
 ----------------
-What is the meaning of **"spur"** in the following sentence?
+What is the meaning of **"ritual"** in the following sentence?
 
-The farm stands on a **spur** of moorland on the northern edge of the forest , and within 10 minutes I had turned my back on the corduroy battalions of trees and was striding under a still , cloudy sky over tussocks of rush and coarse grass , with my face to the long , bare shoulders of open hillside that flank the winding shallows of the East Kielder Burn .
+Because there would be no colour , no **ritual** , no time and place , no glorious variety .
 
 Your answer (choose one of the following): 
-- [ ] incite or stimulate
-- [ ] give heart or courage to
-- [ ] strike with a spur
-- [ ] goad with spurs
-- [ ] equip with spurs
+- [ ] any customary observance or practice
+- [ ] the prescribed procedure for conducting religious ceremonies
+- [ ] stereotyped behavior
 ----------------
-What is the meaning of **"denounces"** in the following sentence?
+What is the meaning of **"contacts"** in the following sentence?
 
-This is often linked with a supposed denunciatory effect — the idea that the mandatory life sentence **denounces** murder as emphatically as possible — and with a supposed general deterrent effect , in declaring that there is no mitigation of sentence available for this crime .
+The other side of press management , depending on informal **contacts** , is less easy to assess .
 
 Your answer (choose one of the following): 
-- [ ] speak out against
-- [ ] to accuse or condemn or openly or formally or brand as disgraceful
-- [ ] announce the termination of, as of treaties
-- [ ] give away information about somebody
+- [ ] close interaction
+- [ ] the act of touching physically
+- [ ] the state or condition of touching or of being in immediate proximity
+- [ ] the physical coming together of two or more things
+- [ ] a person who is in a position to give you special assistance
+- [ ] a channel for communication between groups
+- [ ] (electronics) a junction where things (as two electrical conductors) touch or are in physical contact
+- [ ] a communicative interaction
+- [ ] a thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication
 ----------------
-What is the meaning of **"mobility"** in the following sentence?
+What is the meaning of **"sacrifice"** in the following sentence?
 
-A high level of **mobility** in the structure allows for continuous interchange of roles and ideas , and retains for the Unified National Command the closeness to grass roots that is required to make it truly reflect people 's wishes and sentiments .
+Hale 's eyes stare knowingly at the viewer , a human **sacrifice** to an alienated and consumerist culture .
 
 Your answer (choose one of the following): 
-- [ ] the quality of moving freely
+- [ ] the act of losing or surrendering something as a penalty for a mistake or fault or failure to perform etc.
+- [ ] personnel that are sacrificed (e.g., surrendered or lost in order to gain an objective)
+- [ ] a loss entailed by giving up or selling something at less than its value
+- [ ] the act of killing (an animal or person) in order to propitiate a deity
+- [ ] (baseball) an out that advances the base runners
+----------------
+What is the meaning of **"context"** in the following sentence?
+
+This article challenges the conceptual and practical appropriateness of applying the notion of punishment to the probation **context** .
+
+Your answer (choose one of the following): 
+- [ ] discourse that surrounds a language unit and helps to determine its interpretation
+- [ ] the set of facts or circumstances that surround a situation or event
+----------------
+What is the meaning of **"aid"** in the following sentence?
+
+You might expect them to rush to La Mama 's **aid** .
+
+Your answer (choose one of the following): 
+- [ ] a resource
+- [ ] the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose
+- [ ] money to support a worthy person or cause
+- [ ] the work of providing treatment for or attending to someone or something
+----------------
+What is the meaning of **"change"** in the following sentence?
+
+Daniel did not **change** .
+
+Your answer (choose one of the following): 
+- [ ] an event that occurs when something passes from one state or phase to another
+- [ ] a relational difference between states; especially between states before and after some event
+- [ ] the action of changing something
+- [ ] the result of alteration or modification
+- [ ] the balance of money received when the amount you tender is greater than the amount due
+- [ ] a thing that is different
+- [ ] a different or fresh set of clothes
+- [ ] coins of small denomination regarded collectively
+- [ ] money received in return for its equivalent in a larger denomination or a different currency
+- [ ] a difference that is usually pleasant
+----------------
+What is the meaning of **"Protagonists"** in the following sentence?
+
+**Protagonists** of the warm-blooded theory will show some of the horned dinosaurs charging over the Cretaceous plains like furious reptilian rhinoceroses !
+
+Your answer (choose one of the following): 
+- [ ] a person who backs a politician or a team etc.
+- [ ] the principal character in a work of fiction
+----------------
+What is the meaning of **"pains"** in the following sentence?
+
+The wave-like pattern of the Intifada , its **pains** and sufferings , are all reminiscent of the process of birth .
+
+Your answer (choose one of the following): 
+- [ ] an effortful attempt to attain a goal
+- [ ] a symptom of some physical hurt or disorder
+- [ ] emotional distress; a fundamental feeling that people try to avoid
+- [ ] a somatic sensation of acute discomfort
+- [ ] a bothersome annoying person
+- [ ] something or someone that causes trouble; a source of unhappiness
+----------------
+What is the meaning of **"murder"** in the following sentence?
+
+One of the most bizarre aspects of government policy has been the effective **murder** of the voluntary sector , and its appropriation , by subterfuge , into the Tory version of the corporate state .
+
+Your answer (choose one of the following): 
+- [ ] unlawful premeditated killing of a human being by a human being
+----------------
+What is the meaning of **"peaks"** in the following sentence?
+
+Some **peaks** of demand can be dealt with by using consultants , but they tend to be expensive and do not always fit well with ill-defined but important factors such as the favoured style of the organisation .
+
+Your answer (choose one of the following): 
+- [ ] the most extreme possible amount or value
+- [ ] the period of greatest prosperity or productivity
+- [ ] the highest level or degree attainable; the highest stage of development
+- [ ] the top or extreme point of something (usually a mountain or hill)
+- [ ] a V shape
+- [ ] the highest point (of something)
+- [ ] a brim that projects to the front to shade the eyes
+----------------
+What is the meaning of **"arrangement"** in the following sentence?
+
+About this holiday you know this **arrangement**
+
+Your answer (choose one of the following): 
+- [ ] the thing arranged or agreed to
+- [ ] an orderly grouping (of things or persons) considered as a unit; the result of arranging
+- [ ] an organized structure for arranging or classifying
+- [ ] the spatial property of the way in which something is placed
+- [ ] a piece of music that has been adapted for performance by a particular set of voices or instruments
+- [ ] the act of arranging and adapting a piece of music
+----------------
+What is the meaning of **"drama"** in the following sentence?
+
+The Arts : Courtroom **drama** in the case of the bogus Picassos
+
+Your answer (choose one of the following): 
+- [ ] a dramatic work intended for performance by actors on a stage
+- [ ] an episode that is turbulent or highly emotional
+- [ ] the literary genre of works intended for the theater
+- [ ] the quality of being arresting or highly emotional
 ----------------
 What is the meaning of **"image"** in the following sentence?
 
@@ -1726,754 +1140,361 @@ Your answer (choose one of the following):
 - [ ] the general impression that something (a person or organization or product) presents to the public
 - [ ] a representation of a person (especially in the form of sculpture)
 ----------------
-What is the meaning of **"way"** in the following sentence?
+What is the meaning of **"lot"** in the following sentence?
 
-Well there 's two different wholes are n't there ? chop toast you can chop either that way or that **way**
+You 're going to an awful **lot** of trouble for me love .
 
 Your answer (choose one of the following): 
-- [ ] how something is done or how it happens
-- [ ] how a result is obtained or an end is achieved
-- [ ] a line leading to a place or point
-- [ ] the condition of things generally
-- [ ] a course of conduct
-- [ ] any artifact consisting of a road or path affording passage from one place to another
-- [ ] a journey or passage
-- [ ] space for movement
-- [ ] the property of distance in general
-- [ ] doing as one pleases or chooses
-- [ ] a general category of things; used in the expression `in the way of'
-- [ ] a portion of something divided into shares
+- [ ] (often followed by `of') a large number or amount or extent
+- [ ] a parcel of land having fixed boundaries
+- [ ] an unofficial association of people or groups
+- [ ] your overall circumstances or condition in life (including everything that happens to you)
+- [ ] anything (straws or pebbles etc.) taken or chosen at random
+- [ ] any collection in its entirety
+- [ ] (Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction
 ----------------
-What is the meaning of **"spiral"** in the following sentence?
+What is the meaning of **"power"** in the following sentence?
 
-In an earlier than expected Commercial Court judgment , Mr Justice Saville found that the members had not produced enough evidence of irregularities in the ‘ LMX **spiral** ’ , which sends catastrophe risks swirling round the market to stop the usual process of calling on cash deposits to make good syndicate losses .
-
-Your answer (choose one of the following): 
-- [ ] a plane curve traced by a point circling about the center but at increasing distances from the center
-- [ ] a curve that lies on the surface of a cylinder or cone and cuts the element at a constant angle
-- [ ] a continuously accelerating change in the economy
-- [ ] ornament consisting of a curve on a plane that winds around a center with an increasing distance from the center
-- [ ] a structure consisting of something wound in a continuous series of loops
-- [ ] flying downward in a helical path with a large radius
-----------------
-What is the meaning of **"Claims"** in the following sentence?
-
-**Claims** to be .
+‘ I 'd like to substitute Paul Littlejohn for myself in the **power** of attorney that I hold on your behalf , Elinor .
 
 Your answer (choose one of the following): 
-- [ ] an assertion of a right (as to money or property)
-- [ ] an assertion that something is true or factual
-- [ ] demand for something as rightful or due
-- [ ] an informal right to something
-- [ ] an established or recognized right
-- [ ] a demand especially in the phrase
-----------------
-What is the meaning of **"plans"** in the following sentence?
-
-‘ I wanted to say , you see , that I know you thought Frannie should n't have gone , and that it 's ruined your holiday **plans** , and , on behalf of us all , I 'm sorry .
-
-Your answer (choose one of the following): 
-- [ ] a series of steps to be carried out or goals to be accomplished
-- [ ] an arrangement scheme
-- [ ] scale drawing of a structure
-----------------
-What is the meaning of **"field"** in the following sentence?
-
-But the effect of the magnetic **field** upon the motion of the electrons is nearly always negligible ( one exception causing the pinch effect is mentioned in the previous section ) .
-
-Your answer (choose one of the following): 
-- [ ] a piece of land cleared of trees and usually enclosed
-- [ ] a region where a battle is being (or has been) fought
-- [ ] somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected
-- [ ] a branch of knowledge
-- [ ] the space around a radiating body within which its electromagnetic oscillations can exert force on another similar body not in contact with it
-- [ ] a particular kind of commercial enterprise
-- [ ] a particular environment or walk of life
-- [ ] a piece of land prepared for playing a game
-- [ ] extensive tract of level open land
-- [ ] (mathematics) a set of elements such that addition and multiplication are commutative and associative and multiplication is distributive over addition and there are two elements 0 and 1
-- [ ] a region in which active military operations are in progress
-- [ ] all of the horses in a particular horse race
-- [ ] all the competitors in a particular contest or sporting event
-- [ ] a geographic region (land or sea) under which something valuable is found
-- [ ] (computer science) a set of one or more adjacent characters comprising a unit of information
-- [ ] the area that is visible (as through an optical instrument)
-- [ ] a place where planes take off and land
-----------------
-What is the meaning of **"number"** in the following sentence?
-
-Nevertheless , during the 1980–1 events and their aftermath the political context was discussed from a **number** of perspectives .
-
-Your answer (choose one of the following): 
-- [ ] the property possessed by a sum or total or indefinite quantity of units or individuals
-- [ ] a concept of quantity involving zero and units
-- [ ] a short theatrical performance that is part of a longer program
-- [ ] the number is used in calling a particular telephone
-- [ ] a symbol used to represent a number
-- [ ] one of a series published periodically
-- [ ] a select company of people
-- [ ] a numeral or string of numerals that is used for identification
-- [ ] a clothing measurement
-- [ ] the grammatical category for the forms of nouns and pronouns and verbs that are used depending on the number of entities involved (singular or dual or plural)
-- [ ] an item of merchandise offered for sale
-----------------
-What is the meaning of **"canvas"** in the following sentence?
-
-The usual tactic was to march troops across the enemy 's territory , plundering and looting ; to take fortified places if the task was easy ; to obtain allies among the lords of the locality ; and to retreat without fighting a battle if at all possible — in effect an application to a wider **canvas** of the some technique of warfare which had earlier made castellans formidable in the immediate environs of their castles .
-
-Your answer (choose one of the following): 
-- [ ] a heavy, closely woven fabric (used for clothing or chairs or sails or tents)
-- [ ] an oil painting on canvas fabric
-- [ ] the setting for a narrative or fictional or dramatic account
-- [ ] a tent made of canvas fabric
-- [ ] a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel
-- [ ] the mat that forms the floor of the ring in which boxers or professional wrestlers compete
-----------------
-What is the meaning of **"area"** in the following sentence?
-
-Another way in which there needs to be a rapprochement between statistical methods and GIS is in the **area** of spatial sampling and estimation from spatial samples .
-
-Your answer (choose one of the following): 
-- [ ] a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography)
-- [ ] a subject of study
-- [ ] a part of an animal that has a special function or is supplied by a given artery or nerve
-- [ ] a particular environment or walk of life
-- [ ] a part of a structure having some specific characteristic or function
-- [ ] the extent of a 2-dimensional surface enclosed within a boundary
-----------------
-What is the meaning of **"Home"** in the following sentence?
-
-In 1983 the **Home** Secretary imposed restrictions on the release of persons serving life for murders of police- and prison-officers , terrorist killings , murder during robbery , and the sadistic or sexual murder of young children , fixing a minimum of twenty years ' imprisonment for these offenders .
-
-Your answer (choose one of the following): 
-- [ ] where you live at a particular time
-- [ ] housing that someone is living in
-- [ ] the country or state or city where you live
-- [ ] (baseball) base consisting of a rubber slab where the batter stands; it must be touched by a base runner in order to score
-- [ ] the place where you are stationed and from which missions start and end
-- [ ] place where something began and flourished
-- [ ] an environment offering affection and security
-- [ ] a social unit living together
-- [ ] an institution where people are cared for
-----------------
-What is the meaning of **"team"** in the following sentence?
-
-All was linked to the sense of a new departure , a yinhao new style yinhao , a yinhao new regime in politics yinhao and a new **team** at the helm : as well as a new leader , the party had by the middle of 1912 a new Chief Whip , Party Chairman , party treasurer , principal agent , press adviser , and an almost entirely new team of Whips and organizers .
-
-Your answer (choose one of the following): 
-- [ ] a cooperative unit (especially in sports)
-- [ ] two or more draft animals that work together to pull something
-----------------
-What is the meaning of **"Reggae"** in the following sentence?
-
-An interesting mixture of the various images was provided by a story in the Daily Telegraph under the headline : ‘ Broadwater Farm : Like the Divis Flats with **Reggae** ’ ( 8 October 1985 ) .
-
-Your answer (choose one of the following): 
-- [ ] popular music originating in the West Indies; repetitive bass riffs and regular chords played on the off beat by a guitar
-----------------
-What is the meaning of **"centre"** in the following sentence?
-
-Mr Cook also countered the argument that PR would build in a pull towards the **centre** ground , preventing Labour from implementing a radical programme .
-
-Your answer (choose one of the following): 
-- [ ] a low-lying region in central France
-- [ ] an area that is approximately central within some larger region
-- [ ] a point equidistant from the ends of a line or the extremities of a figure
-- [ ] a place where some particular activity is concentrated
-- [ ] the sweet central portion of a piece of candy that is enclosed in chocolate or some other covering
-- [ ] the choicest or most essential or most vital part of some idea or experience
-- [ ] the object upon which interest and attention focuses
-- [ ] a cluster of nerve cells governing a specific bodily process
-- [ ] a building dedicated to a particular activity
-----------------
-What is the meaning of **"intervals"** in the following sentence?
-
-They also return more miles to the gallon than their petrol equivalents , although service **intervals** are shorter .
-
-Your answer (choose one of the following): 
-- [ ] a definite length of time marked off by two instants
-- [ ] a set containing all points (or all real numbers) between two given endpoints
-- [ ] the distance between things
-- [ ] the difference in pitch between two notes
-----------------
-What is the meaning of **"drives"** in the following sentence?
-
-I know it **drives** you mad , the music but er
-
-Your answer (choose one of the following): 
-- [ ] the act of applying force to propel something
-- [ ] a mechanism by which force or power is transmitted in a machine
-- [ ] a series of actions advancing a principle or tending toward a particular end
-- [ ] a road leading up to a private house
-- [ ] the trait of being highly motivated
-- [ ] hitting a golf ball off of a tee with a driver
-- [ ] the act of driving a herd of animals overland
-- [ ] a journey in a vehicle (usually an automobile)
-- [ ] a physiological state corresponding to a strong need or desire
-- [ ] (computer science) a device that writes data onto or reads data from a storage medium
-- [ ] a wide scenic road planted with trees
-- [ ] (sports) a hard straight return (as in tennis or squash)
-----------------
-What is the meaning of **"prayer"** in the following sentence?
-
-A **prayer** for the brick cathedral facing St Paul 's : Bankside Power Station is a masterpiece worth , preserving , Gavin Stamp argues
-
-Your answer (choose one of the following): 
-- [ ] the act of communicating with a deity (especially as a petition or in adoration or contrition or thanksgiving)
-- [ ] reverent petition to a deity
-- [ ] earnest or urgent request
-- [ ] a fixed text used in praying
-- [ ] someone who prays to God
-----------------
-What is the meaning of **"charge"** in the following sentence?
-
-In contrast to our previous example we shall now investigate a cylindrical beam consisting of two kinds of **charge** carriers : negative electrons and some positive particles , which I do not wish to be more precise about at the moment .
-
-Your answer (choose one of the following): 
-- [ ] an impetuous rush toward someone or something
-- [ ] (criminal law) a pleading describing some wrong or offense
-- [ ] the price charged for some article or service
-- [ ] the quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons
-- [ ] attention and management implying responsibility for safety
-- [ ] a special assignment that is given to a person or group
-- [ ] a person committed to your care
-- [ ] financial liabilities (such as a tax)
-- [ ] (psychoanalysis) the libidinal energy invested in some idea or person or object
-- [ ] the swift release of a store of affective force
-- [ ] request for payment of a debt
-- [ ] a formal statement of a command or injunction to do something
-- [ ] an assertion that someone is guilty of a fault or offence
-- [ ] heraldry consisting of a design or image depicted on a shield
-- [ ] a quantity of explosive to be set off at one time
-----------------
-What is the meaning of **"support"** in the following sentence?
-
-Finally Forster glanced at Lawton for **support** , and drawled laconically .
-
-Your answer (choose one of the following): 
-- [ ] the activity of providing for or maintaining by supplying with money or necessities
-- [ ] aiding the cause or policy or interests of
-- [ ] something providing immaterial assistance to a person or cause or interest
-- [ ] a military operation (often involving new supplies of men and materiel) to strengthen a military force or aid in the performance of its mission
-- [ ] documentary validation
-- [ ] the financial means whereby one lives
-- [ ] supporting structure that holds up or provides a foundation
-- [ ] the act of bearing the weight of or strengthening
-- [ ] a musical part (vocal or instrumental) that supports or provides background for other musical parts
-- [ ] any device that bears the weight of another thing
-- [ ] financial resources provided to make some project possible
-----------------
-What is the meaning of **"point"** in the following sentence?
-
-Adam did not want at this **point** to speculate , it made hi– feel sick .
-
-Your answer (choose one of the following): 
-- [ ] a geometric element that has position but no extension
-- [ ] the precise location of something; a spatially limited location
-- [ ] a brief version of the essential meaning of something
-- [ ] an isolated fact that is considered separately from the whole
-- [ ] a specific identifiable position in a continuum or series or especially in a process
-- [ ] an instant of time
-- [ ] the object of an activity
-- [ ] a V shape
-- [ ] a very small circular shape
-- [ ] the unit of counting in scoring a game or contest
-- [ ] a promontory extending out into a large body of water
-- [ ] a distinct part that can be specified separately in a group of things that could be enumerated on a list
-- [ ] a style in speech or writing that arrests attention and has a penetrating or convincing quality or effect
-- [ ] an outstanding characteristic
-- [ ] sharp end
-- [ ] any of 32 horizontal directions indicated on the card of a compass
-- [ ] a linear unit used to measure the size of type; approximately 1/72 inch
-- [ ] one percent of the total principal of a loan; it is paid at the time the loan is made and is independent of the interest on the loan
-- [ ] a punctuation mark (.) placed at the end of a declarative sentence to indicate a full stop or after abbreviations
-- [ ] a V-shaped mark at one end of an arrow pointer
-- [ ] the dot at the left of a decimal fraction
-- [ ] the property of a shape that tapers to a sharp tip
-- [ ] a distinguishing or individuating characteristic
-- [ ] the gun muzzle's direction
-- [ ] a wall socket
-- [ ] a contact in the distributor; as the rotor turns its projecting arm contacts them and current flows to the spark plugs
-----------------
-What is the meaning of **"use"** in the following sentence?
-
-Many developers **use** business analysts to ensure that the development team maintain a proper focus on business requirements .
-
-Your answer (choose one of the following): 
-- [ ] the act of using
-- [ ] what something is used for
-- [ ] a particular service
-- [ ] (economics) the utilization of economic goods to satisfy needs or in manufacturing
-- [ ] (psychology) an automatic pattern of behavior in reaction to a specific situation; may be inherited or acquired through frequent repetition
-- [ ] exerting shrewd or devious influence especially for one's own advantage
-- [ ] (law) the exercise of the legal right to enjoy the benefits of owning property
-----------------
-What is the meaning of **"recovery"** in the following sentence?
-
-Few contemporaries would have expected Balfour 's retirement to lead to a Unionist **recovery** .
-
-Your answer (choose one of the following): 
-- [ ] return to an original state
-- [ ] gradual healing (through rest) after sickness or injury
-- [ ] the act of regaining or saving something lost (or in danger of becoming lost)
-----------------
-What is the meaning of **"centre"** in the following sentence?
-
-At a time when the Home Secretary is inviting the Probation Service to ‘ move **centre** stage in the Criminal Justice System ’ ( NACRO , 1990 , p. 17 ) it may seem misguided and unnecessarily pedantic to take issue with the White Paper 's notion of punishment .
-
-Your answer (choose one of the following): 
-- [ ] a low-lying region in central France
-- [ ] an area that is approximately central within some larger region
-- [ ] a point equidistant from the ends of a line or the extremities of a figure
-- [ ] a place where some particular activity is concentrated
-- [ ] the sweet central portion of a piece of candy that is enclosed in chocolate or some other covering
-- [ ] the choicest or most essential or most vital part of some idea or experience
-- [ ] the object upon which interest and attention focuses
-- [ ] a cluster of nerve cells governing a specific bodily process
-- [ ] a building dedicated to a particular activity
-----------------
-What is the meaning of **"works"** in the following sentence?
-
-No one ever gave me anything and my business **works** .
-
-Your answer (choose one of the following): 
-- [ ] buildings for carrying on industrial labor
-- [ ] everything available; usually preceded by `the'
-- [ ] performance of moral or religious acts
-- [ ] the internal mechanism of a device
-- [ ] activity directed toward making or doing something
-- [ ] a product produced or accomplished through the effort or activity or agency of a person or thing
-- [ ] the occupation for which you are paid
-- [ ] applying the mind to learning and understanding a subject (especially by reading)
-- [ ] (physics) a manifestation of energy; the transfer of energy from one physical system to another expressed as the product of a force and the distance through which it moves a body in the direction of that force
-- [ ] a place where work is done
-- [ ] the total output of a writer or artist (or a substantial part of it)
-----------------
-What is the meaning of **"performance"** in the following sentence?
-
-The reader is required to follow a series of steps which might , for example , introduce a change in the **performance** of a complex system .
-
-Your answer (choose one of the following): 
-- [ ] a dramatic or musical entertainment
-- [ ] the act of presenting a play or a piece of music or other entertainment
-- [ ] the act of performing; of doing something successfully; using knowledge as distinguished from merely possessing it
-- [ ] any recognized accomplishment
-- [ ] process or manner of functioning or operating
-----------------
-What is the meaning of **"team"** in the following sentence?
-
-Leinster have named a **team** that looks strong on paper , including eight internationals , yet they recently lost to both Munster and Ulster in the Inter-Provincial Championship .
-
-Your answer (choose one of the following): 
-- [ ] a cooperative unit (especially in sports)
-- [ ] two or more draft animals that work together to pull something
-----------------
-What is the meaning of **"channels"** in the following sentence?
-
-His strategy was rather to canalize the enthusiasm of the diehards into party **channels** , to articulate their views , and to create unity from the sense of movement .
-
-Your answer (choose one of the following): 
-- [ ] official routes of communication
-- [ ] a path over which electrical signals can pass
-- [ ] a passage for water (or other fluids) to flow through
-- [ ] a long narrow furrow cut either by a natural process (such as erosion) or by a tool (as e.g. a groove in a phonograph record)
-- [ ] a deep and relatively narrow body of water (as in a river or a harbor or a strait linking two larger bodies) that allows the best passage for vessels
-- [ ] (often plural) a means of communication or access
-- [ ] a bodily passage or tube lined with epithelial cells and conveying a secretion or other substance
-- [ ] a television station and its programs
-- [ ] a way of selling a company's product either directly or via distributors
-----------------
-What is the meaning of **"stories"** in the following sentence?
-
-Well , yeah , but I mean the stories they tell about fishing so they 're different **stories**
-
-Your answer (choose one of the following): 
-- [ ] a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program
-- [ ] a piece of fiction that narrates a chain of related events
-- [ ] a structure consisting of a room or set of rooms at a single position along a vertical scale
-- [ ] a record or narrative description of past events
-- [ ] a short account of the news
-- [ ] a trivial lie
-----------------
-What is the meaning of **"flowers"** in the following sentence?
-
-Frederica informed him from the catalogue that the vegetation was supposed to be a jocular portrait by Gauguin of Madeleine , the pears her breasts , the dense **flowers** her hair .
-
-Your answer (choose one of the following): 
-- [ ] a plant cultivated for its blooms or blossoms
-- [ ] reproductive organ of angiosperm plants especially one having showy or colorful parts
-- [ ] the period of greatest prosperity or productivity
-----------------
-What is the meaning of **"body"** in the following sentence?
-
-‘ They come and go , so it pays to deal with a member of a professional **body** , such as the NAEA , the Royal Institute of Chartered Surveyors or the Incorporated Society of Valuers and Auctioneers .
-
-Your answer (choose one of the following): 
-- [ ] the entire structure of an organism (an animal, plant, or human being)
-- [ ] a group of persons associated by some common tie or occupation and regarded as an entity
-- [ ] a natural object consisting of a dead animal or person
-- [ ] an individual 3-dimensional object that has mass and that is distinguishable from other objects
-- [ ] the body excluding the head and neck and limbs
-- [ ] a collection of particulars considered as a system
-- [ ] the property of holding together and retaining its shape
-- [ ] the central message of a communication
-- [ ] the main mass of a thing
-- [ ] a resonating chamber in a musical instrument (as the body of a violin)
-- [ ] the external structure of a vehicle
-----------------
-What is the meaning of **"attack"** in the following sentence?
-
-Which equation should we use in a practical case , the equation for the vector potential , Ampère 's law , Biot-Savart 's law , or **attack** directly Maxwell 's equations ?
-
-Your answer (choose one of the following): 
-- [ ] (military) an offensive against an enemy (using weapons)
-- [ ] an offensive move in a sport or game
-- [ ] intense adverse criticism
-- [ ] ideas or actions intended to deal with a problem or situation
-- [ ] the act of attacking
-- [ ] a decisive manner of beginning a musical tone or phrase
-- [ ] a sudden occurrence of an uncontrollable condition
-- [ ] the onset of a corrosive or destructive process (as by a chemical agent)
-- [ ] strong criticism
-----------------
-What is the meaning of **"system"** in the following sentence?
-
-For a formal , universal information **system** , covering local and specialist resources .
-
-Your answer (choose one of the following): 
-- [ ] instrumentality that combines interrelated interacting artifacts designed to work as a coherent entity
-- [ ] a group of independent but interrelated elements comprising a unified whole
-- [ ] (physical chemistry) a sample of matter in which substances in different phases are in equilibrium
-- [ ] a complex of methods or rules governing behavior
-- [ ] an organized structure for arranging or classifying
-- [ ] a group of physiologically or anatomically related organs or parts
-- [ ] a procedure or process for obtaining an objective
-- [ ] the living body considered as made up of interdependent components forming a unified whole
-- [ ] an ordered manner; orderliness by virtue of being methodical and well organized
-----------------
-What is the meaning of **"grid"** in the following sentence?
-
-It should be pointed out , however , that the National Radiological Protection Board currently uses 1 km **grid** square resolution population data from the 1971 Census in its radiological protection studies ( Hallam et al. 1981 ) .
-
-Your answer (choose one of the following): 
-- [ ] a pattern of regularly spaced horizontal and vertical lines
-- [ ] a system of high tension cables by which electrical power is distributed throughout a region
-- [ ] a perforated or corrugated metal plate used in a storage battery as a conductor and support for the active material
-- [ ] an electrode placed between the cathode and anode of a vacuum tube to control the flow of electrons through the tube
-- [ ] a cooking utensil of parallel metal bars; used to grill fish or meat
-----------------
-What is the meaning of **"story"** in the following sentence?
-
-End of **story** .
-
-Your answer (choose one of the following): 
-- [ ] a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program
-- [ ] a piece of fiction that narrates a chain of related events
-- [ ] a structure consisting of a room or set of rooms at a single position along a vertical scale
-- [ ] a record or narrative description of past events
-- [ ] a short account of the news
-- [ ] a trivial lie
-----------------
-What is the meaning of **"points"** in the following sentence?
-
-Oh full **points** !
-
-Your answer (choose one of the following): 
-- [ ] a geometric element that has position but no extension
-- [ ] the precise location of something; a spatially limited location
-- [ ] a brief version of the essential meaning of something
-- [ ] an isolated fact that is considered separately from the whole
-- [ ] a specific identifiable position in a continuum or series or especially in a process
-- [ ] an instant of time
-- [ ] the object of an activity
-- [ ] a V shape
-- [ ] a very small circular shape
-- [ ] the unit of counting in scoring a game or contest
-- [ ] a promontory extending out into a large body of water
-- [ ] a distinct part that can be specified separately in a group of things that could be enumerated on a list
-- [ ] a style in speech or writing that arrests attention and has a penetrating or convincing quality or effect
-- [ ] an outstanding characteristic
-- [ ] sharp end
-- [ ] any of 32 horizontal directions indicated on the card of a compass
-- [ ] a linear unit used to measure the size of type; approximately 1/72 inch
-- [ ] one percent of the total principal of a loan; it is paid at the time the loan is made and is independent of the interest on the loan
-- [ ] a punctuation mark (.) placed at the end of a declarative sentence to indicate a full stop or after abbreviations
-- [ ] a V-shaped mark at one end of an arrow pointer
-- [ ] the dot at the left of a decimal fraction
-- [ ] the property of a shape that tapers to a sharp tip
-- [ ] a distinguishing or individuating characteristic
-- [ ] the gun muzzle's direction
-- [ ] a wall socket
-- [ ] a contact in the distributor; as the rotor turns its projecting arm contacts them and current flows to the spark plugs
-----------------
-What is the meaning of **"point"** in the following sentence?
-
-He took Adam on to Sudbury for him to catch a train there and at that **point** they parted .
-
-Your answer (choose one of the following): 
-- [ ] a geometric element that has position but no extension
-- [ ] the precise location of something; a spatially limited location
-- [ ] a brief version of the essential meaning of something
-- [ ] an isolated fact that is considered separately from the whole
-- [ ] a specific identifiable position in a continuum or series or especially in a process
-- [ ] an instant of time
-- [ ] the object of an activity
-- [ ] a V shape
-- [ ] a very small circular shape
-- [ ] the unit of counting in scoring a game or contest
-- [ ] a promontory extending out into a large body of water
-- [ ] a distinct part that can be specified separately in a group of things that could be enumerated on a list
-- [ ] a style in speech or writing that arrests attention and has a penetrating or convincing quality or effect
-- [ ] an outstanding characteristic
-- [ ] sharp end
-- [ ] any of 32 horizontal directions indicated on the card of a compass
-- [ ] a linear unit used to measure the size of type; approximately 1/72 inch
-- [ ] one percent of the total principal of a loan; it is paid at the time the loan is made and is independent of the interest on the loan
-- [ ] a punctuation mark (.) placed at the end of a declarative sentence to indicate a full stop or after abbreviations
-- [ ] a V-shaped mark at one end of an arrow pointer
-- [ ] the dot at the left of a decimal fraction
-- [ ] the property of a shape that tapers to a sharp tip
-- [ ] a distinguishing or individuating characteristic
-- [ ] the gun muzzle's direction
-- [ ] a wall socket
-- [ ] a contact in the distributor; as the rotor turns its projecting arm contacts them and current flows to the spark plugs
-----------------
-What is the meaning of **"studio"** in the following sentence?
-
-A **studio** .
-
-Your answer (choose one of the following): 
-- [ ] workplace for the teaching or practice of an art
-- [ ] an apartment with a living space and a bathroom and a small kitchen
-- [ ] workplace consisting of a room or building where movies or television shows or radio programs are produced and recorded
-----------------
-What is the meaning of **"resources"** in the following sentence?
-
-For a formal , universal information system , covering local and specialist **resources** .
-
-Your answer (choose one of the following): 
-- [ ] available source of wealth; a new or reserve supply that can be drawn upon when needed
-- [ ] a source of aid or support that may be drawn upon when needed
-- [ ] the ability to deal resourcefully with unusual problems
-----------------
-What is the meaning of **"shift"** in the following sentence?
-
-That proposal , if implemented , would **shift** almost all the decision-making in homicide cases from the trial to the sentencing stage : the only issue of any consequence in most cases would be the sentence to be imposed , and all the distinctions now drawn at the stage of criminal liability would be reflected in the sentence alone .
-
-Your answer (choose one of the following): 
-- [ ] an event in which something is displaced without rotation
-- [ ] a qualitative change
-- [ ] the time period during which you are at work
-- [ ] the act of changing one thing or position for another
-- [ ] the act of moving from one place to another
-- [ ] (geology) a crack in the earth's crust resulting from the displacement of one side with respect to the other
-- [ ] a crew of workers who work for a specific period of time
-- [ ] the key on the typewriter keyboard that shifts from lower-case letters to upper-case letters
-- [ ] a woman's sleeveless undergarment
-- [ ] a loose-fitting dress hanging straight from the shoulders without a waist
-----------------
-What is the meaning of **"Flow"** in the following sentence?
-
-**Flow** patterns and Ohm 's law ( J , E , D )
-
-Your answer (choose one of the following): 
-- [ ] the motion characteristic of fluids (liquids or gases)
-- [ ] the amount of fluid that flows in a given time
-- [ ] the act of flowing or streaming; continuous progression
-- [ ] any uninterrupted stream or discharge
-- [ ] something that resembles a flowing stream in moving continuously
-- [ ] dominant course (suggestive of running water) of successive events or ideas
-- [ ] the monthly discharge of blood from the uterus of nonpregnant women from puberty to menopause; ; --Hippocrates; --Aristotle
-----------------
-What is the meaning of **"extent"** in the following sentence?
-
-Given the **extent** to which geographic information management is applications driven , it is important to consider in some depth the characteristics of some potential application fields .
-
-Your answer (choose one of the following): 
-- [ ] the point or degree to which something extends
-- [ ] the distance or area or volume over which something extends
-----------------
-What is the meaning of **"shades"** in the following sentence?
-
-Many American jurisdictions have three degrees of murder — first-degree murder , requiring premeditation , and second- and third-degree murder , covering lesser **shades** of culpability .
-
-Your answer (choose one of the following): 
-- [ ] spectacles that are darkened or polarized to protect the eyes from the glare of the sun
-- [ ] relative darkness caused by light rays being intercepted by an opaque body
-- [ ] a quality of a given color that differs slightly from another color
-- [ ] protective covering that protects something from direct sunlight
-- [ ] a subtle difference in meaning or opinion or attitude
-- [ ] a position of relative inferiority
-- [ ] a slight amount or degree of difference
-- [ ] a mental representation of some haunting experience
-- [ ] a representation of the effect of shadows in a picture or drawing (as by shading or darker pigment)
-----------------
-What is the meaning of **"place"** in the following sentence?
-
-Discussion of services to individual children also took **place** .
-
-Your answer (choose one of the following): 
-- [ ] a point located with respect to surface features of some region
-- [ ] any area set aside for a particular purpose
-- [ ] an abstract mental location
-- [ ] a general vicinity
-- [ ] the post or function properly or customarily occupied or served by another
-- [ ] a particular situation
-- [ ] where you live at a particular time
-- [ ] a job in an organization
-- [ ] the particular portion of space occupied by something
-- [ ] proper or designated social situation
-- [ ] a space reserved for sitting (as in a theater or on a train or airplane)
-- [ ] the passage that is being read
-- [ ] proper or appropriate position or location
-- [ ] a public square with room for pedestrians
-- [ ] an item on a list or in a sequence
-- [ ] a blank area
-----------------
-What is the meaning of **"legacy"** in the following sentence?
-
-The ‘ year and a day ’ rule is a **legacy** of times when medical science was so rudimentary that , if there was a substantial lapse of time between injury and death , it was unsafe to pronounce on whether the defendant 's conduct or some other event caused the death .
-
-Your answer (choose one of the following): 
-- [ ] (law) a gift of personal property by will
-----------------
-What is the meaning of **"shots"** in the following sentence?
-
-‘ There 'll be a direct link between Detroit and the line managers in each country , with Detroit calling the **shots** . ’
-
-Your answer (choose one of the following): 
-- [ ] the act of firing a projectile
-- [ ] a solid missile discharged from a firearm
-- [ ] (sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand
-- [ ] a chance to do something
-- [ ] a person who shoots (usually with respect to their ability to shoot)
-- [ ] a consecutive series of pictures that constitutes a unit of action in a film
-- [ ] the act of putting a liquid into the body by means of a syringe
-- [ ] a small drink of liquor
-- [ ] an aggressive remark directed at a person like a missile and intended to have a telling effect
-- [ ] an estimate based on little or no information
-- [ ] an informal photograph; usually made with a small hand-held camera
-- [ ] sports equipment consisting of a heavy metal ball used in the shot put
-- [ ] an explosive charge used in blasting
-- [ ] a blow hard enough to cause injury
-- [ ] an attempt to score in a game
-- [ ] informal words for any attempt or effort
-- [ ] the launching of a missile or spacecraft to a specified destination
-----------------
-What is the meaning of **"pump"** in the following sentence?
-
-As for the private sector , while BT may be happy to provide **pump** priming for five telecottages in the north of Scotland , it is not about to bankroll a nationwide network .
-
-Your answer (choose one of the following): 
-- [ ] a mechanical device that moves fluid or gas by pressure or suction
-- [ ] the hollow muscular organ located behind the sternum and between the lungs; its rhythmic contractions move the blood through the body
-- [ ] a low-cut shoe without fastenings
-----------------
-What is the meaning of **"force"** in the following sentence?
-
-The vectorial product v X B gives an inward **force** in the radial direction .
-
-Your answer (choose one of the following): 
-- [ ] a powerful effect or influence
-- [ ] (physics) the influence that produces a change in a physical quantity
-- [ ] physical energy or intensity
-- [ ] group of people willing to obey orders
-- [ ] a unit that is part of some military service
-- [ ] an act of aggression (as one against a person who resists)
+- [ ] possession of controlling influence
+- [ ] (physics) the rate of doing work; measured in watts (= joules/second)
+- [ ] possession of the qualities (especially mental qualities) required to do something or get something done
+- [ ] (of a government or government official) holding an office means being in power
 - [ ] one possessing or exercising power or influence or authority
-- [ ] a group of people having the power of effective action
-- [ ] (of a law) having legal validity
-- [ ] a putout of a base runner who is required to run; the putout is accomplished by holding the ball while touching the base to which the runner must advance before the runner reaches that base
+- [ ] a mathematical notation indicating the number of times a quantity is multiplied by itself
+- [ ] physical strength
+- [ ] a state powerful enough to influence events throughout the world
+- [ ] a very wealthy or powerful businessman
+----------------
+What is the meaning of **"venerability"** in the following sentence?
+
+In an old garden , there may be a fruit tree , or a good bulwark of evergreen laurel or box that , tidied up , could add a dash of **venerability** to the new garden that will emerge around it .
+
+Your answer (choose one of the following): 
+- [ ] the quality of deserving veneration
+----------------
+What is the meaning of **"victim"** in the following sentence?
+
+Once she knew you were on your way to Norfolk you were a predestined **victim** .
+
+Your answer (choose one of the following): 
+- [ ] an unfortunate person who suffers from some adverse circumstance
+- [ ] a person who is tricked or swindled
+----------------
+What is the meaning of **"scale"** in the following sentence?
+
+OPCS , of course , is a major data repository for medical statistics and their various Monitor Series are of use , though only at the **scale** of district health authority and above ( see Gatrell and Lovett 1988 for an example ) .
+
+Your answer (choose one of the following): 
+- [ ] an ordered reference standard
+- [ ] relative magnitude
+- [ ] the ratio between the size of something and a representation of it
+- [ ] a specialized leaf or bract that protects a bud or catkin
+- [ ] a thin flake of dead epidermis shed from the surface of the skin
+- [ ] (music) a series of notes differing in pitch according to a specific scheme (usually within an octave)
+- [ ] a measuring instrument for weighing; shows amount of mass
+- [ ] an indicator having a graduated sequence of marks
+- [ ] a metal sheathing of uniform thickness (such as the shield attached to an artillery piece to protect the gunners)
+- [ ] a flattened rigid plate forming part of the body covering of many animals
+----------------
+What is the meaning of **"essentials"** in the following sentence?
+
+Again Law succeeded by unorthodoxy ; he was quick to grasp the **essentials** of an opponent 's argument and quite prepared to be rude or direct if the situation demanded it .
+
+Your answer (choose one of the following): 
+- [ ] anything indispensable
+----------------
+What is the meaning of **"pokes"** in the following sentence?
+
+IWOULD agree that male and female stereotypes portrayed in cartoons are equally abhorrent , were it not for the fact that , whilst one **pokes** fun at a powerful group in society ( men ) , the other perpetuates the oppression of a powerless group ( women ) .
+
+Your answer (choose one of the following): 
+- [ ] tall coarse perennial American herb having small white flowers followed by blackish-red berries on long drooping racemes; young fleshy stems are edible; berries and root are poisonous
+- [ ] someone who takes more time than necessary; someone who lags behind
+- [ ] a bag made of paper or plastic for holding customer's purchases
+- [ ] a sharp hand gesture (resembling a blow)
+- [ ] (boxing) a blow with the fist
+----------------
+What is the meaning of **"suspension"** in the following sentence?
+
+Twenty years ago the Advisory Council on the Penal System observed that notions of punitiveness do not accord with ‘ the British concept of probation as an alternative to , rather than a **suspension** of , punishment ’ ( quoted in Bochel , 1976 , p. 238 ) .
+
+Your answer (choose one of the following): 
+- [ ] a mixture in which fine particles are suspended in a fluid where they are supported by buoyancy
+- [ ] a time interval during which there is a temporary cessation of something
+- [ ] temporary cessation or suspension
+- [ ] an interruption in the intensity or amount of something
+- [ ] a mechanical system of springs or shock absorbers connecting the wheels and axles to the chassis of a wheeled vehicle
+- [ ] the act of suspending something (hanging it from above so it moves freely)
+- [ ] a temporary debarment (from a privilege or position etc)
+----------------
+What is the meaning of **"formula"** in the following sentence?
+
+It helped us to derive Biot-Savart 's law , it will come handy later in solving certain radiation problems , and it often leads to nice formulae , e.g. for the magnetic flux crossing a surface , defined as **formula** that may be rewritten in terms of the vector potential as follows : formula where C is the curve enclosing the surface .
+
+Your answer (choose one of the following): 
+- [ ] a group of symbols that make a mathematical statement
+- [ ] directions for making something
+- [ ] a conventionalized statement expressing some fundamental principle
+- [ ] a representation of a substance using symbols for its constituent elements
+- [ ] something regarded as a normative example
+- [ ] a liquid food for infants
+- [ ] (mathematics) a standard procedure for solving a class of mathematical problems
+----------------
+What is the meaning of **"barrier"** in the following sentence?
+
+Dolphins swimming near the **barrier** altered their behaviour to avoid it , the result , the scientists believe , of them detecting sonar echoes from the reflectors .
+
+Your answer (choose one of the following): 
+- [ ] a structure or object that impedes free movement
+- [ ] any condition that makes it difficult to make progress or to achieve an objective
+- [ ] anything serving to maintain separation by obstructing vision or access
+----------------
+What is the meaning of **"steel"** in the following sentence?
+
+Was it even now shadowing them , moving soundlessly from cover to cover , like a tiger in the **steel** jungle ?
+
+Your answer (choose one of the following): 
+- [ ] an alloy of iron with small amounts of carbon; widely used in construction; mechanical properties can be varied over a wide range
+- [ ] a cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard
+- [ ] knife sharpener consisting of a ridged steel rod
+----------------
+What is the meaning of **"flexibility"** in the following sentence?
+
+Heseltine 's vision was of ‘ partnerships which recognise that there are some things that only governments can pay for , but also that the ingenuity and **flexibility** of the private sector is indispensable ’ ( p. 156 ) .
+
+Your answer (choose one of the following): 
+- [ ] the property of being flexible; easily bent or shaped
+- [ ] the quality of being adaptable or variable
+- [ ] the trait of being easily persuaded
 ----------------
 What is the meaning of **"pillbox"** in the following sentence?
 
-To his right the ground rose gently towards the southern cliffs and he could see the dark mouth of a concrete **pillbox** , undemolished since the war , and as seemingly indestructible as the great hulks of wave-battered concrete , remnants of the old fortifications which lay half-submerged in the sand along part of the beach .
+And now he was passing a second and more dilapidated **pillbox** and it struck him that the whole headland had the desolate look of an old battlefield , the corpses long since carted away but the air vibrating still with the gunfire of long-lost battles , while the power station loomed over it like a grandiose modern monument to the unknown dead .
 
 Your answer (choose one of the following): 
 - [ ] a small round woman's hat
 - [ ] a small case for holding pills
 - [ ] a small enclosed gun emplacement (usually of fortified concrete)
 ----------------
-What is the meaning of **"stroke"** in the following sentence?
+What is the meaning of **"exit"** in the following sentence?
 
-After an intensive rehabilitation programme of physiotherapy and speech therapy , Elinor appeared to have completely recovered from her **stroke** , although she could no longer think of three things at once , which Buzz said was a mercy for the people who had to live with her .
-
-Your answer (choose one of the following): 
-- [ ] (sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand
-- [ ] the maximum movement available to a pivoted or reciprocating piece by a cam
-- [ ] a sudden loss of consciousness resulting when the rupture or occlusion of a blood vessel leads to oxygen lack in the brain
-- [ ] a light touch
-- [ ] a light touch with the hands
-- [ ] (golf) the unit of scoring in golf is the act of hitting the ball with a club
-- [ ] the oarsman nearest the stern of the shell who sets the pace for the rest of the crew
-- [ ] anything that happens suddenly or by chance without an apparent cause
-- [ ] a punctuation mark (/) used to separate related items of information
-- [ ] a mark made on a surface by a pen, pencil, or paintbrush
-- [ ] any one of the repeated movements of the limbs and body used for locomotion in swimming or rowing
-- [ ] a single complete movement
-----------------
-What is the meaning of **"vision"** in the following sentence?
-
-Pope rejects Runcie 's **vision** of church leadership
+Bobby Robson was there to assess World Cup candidates , but nothing positive emerged from 90 minutes of scuffling that made one almost yearn for the more measured boredom of Rangers ' European Cup **exit** in Munich three days earlier .
 
 Your answer (choose one of the following): 
-- [ ] a vivid mental image
-- [ ] the ability to see; the visual faculty
-- [ ] the perceptual experience of seeing
-- [ ] the formation of a mental image of something that is not perceived as real and is not present to the senses
-- [ ] a religious or mystical experience of a supernatural appearance
+- [ ] an opening that permits escape or release
+- [ ] euphemistic expressions for death
+- [ ] the act of going out
 ----------------
-What is the meaning of **"density"** in the following sentence?
+What is the meaning of **"nature"** in the following sentence?
 
-First we shall assume that the current **density** is confined to a thin wire in which case the integration variable may be changed to formula , where S is a vector normal to the cross-section , formula is the area of the cross-section , and dI is an elementary vector along the tangent of the wire .
+The time-consuming **nature** of Janet 's part in the process , combined with a bad back which prevents her spending more than a couple of hours at the drawing board every day , means she can not keep up with her husband 's prolific output .
 
 Your answer (choose one of the following): 
-- [ ] the amount per unit size
-- [ ] the spatial property of being crowded together
+- [ ] the essential qualities or characteristics by which something is recognized
+- [ ] a causal agent creating and controlling things in the universe
+- [ ] the natural physical world including plants and animals and landscapes etc.
+- [ ] the complex of emotional and intellectual attributes that determine a person's characteristic actions and reactions
+- [ ] a particular type of thing
 ----------------
-What is the meaning of **"case"** in the following sentence?
+What is the meaning of **"source"** in the following sentence?
 
-It 's right that the Guildford Four have told their stories now to Grant McKee and Ros Franey and First Tuesday , the programme and the producers who dug away , and did much to keep the **case** alive .
+The age distribution of a work force is always an interesting and important **source** of information .
 
 Your answer (choose one of the following): 
-- [ ] an occurrence of something
-- [ ] a special set of circumstances
-- [ ] a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy
-- [ ] the actual state of things
-- [ ] a portable container for carrying several objects
-- [ ] a person requiring professional services
-- [ ] a person who is subjected to experimental or other observational procedures; someone who is an object of investigation
-- [ ] a problem requiring investigation
-- [ ] a statement of facts and reasons used to support an argument
-- [ ] the quantity contained in a case
-- [ ] nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence
-- [ ] a specific state of mind that is temporary
-- [ ] a person of a specified kind (usually with many eccentricities)
-- [ ] a specific size and style of type within a type family
-- [ ] an enveloping structure or covering enclosing an animal or plant organ or part
-- [ ] the housing or outer covering of something
-- [ ] the enclosing frame around a door or window opening
-- [ ] (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers
-- [ ] bed linen consisting of a cover for a pillow
-- [ ] a glass container used to store and display items in a shop or museum or home
+- [ ] the place where something begins, where it springs into being
+- [ ] a document (or organization) from which information is obtained
+- [ ] anything that provides inspiration for later work
+- [ ] a facility where something is available
+- [ ] a person who supplies information
+- [ ] someone who originates or causes or initiates something
+- [ ] (technology) a process by which energy or a substance enters a system
+- [ ] anything (a person or animal or plant or substance) in which an infectious agent normally lives and multiplies
+- [ ] a publication (or a passage from a publication) that is referred to
 ----------------
-What is the meaning of **"world"** in the following sentence?
+What is the meaning of **"response"** in the following sentence?
 
-He was a skilful lover : tender and gentle in the beginning , then powerful , persistent , rough almost — until , his passion rising in harmony with hers , the climax came like the bursting of a thousand stars , like the beginning and ending of the **world** .
+Mr Dobbs sighs : ‘ This is a typically British bureaucratic **response** .
 
 Your answer (choose one of the following): 
-- [ ] everything that exists anywhere
-- [ ] people in general; especially a distinctive group of people with some shared interest
-- [ ] all of your experiences that determine how things appear to you
-- [ ] the 3rd planet from the sun; the planet we live on
-- [ ] people in general considered as a whole
-- [ ] a part of the earth that can be considered separately
-- [ ] the concerns of this life as distinguished from heaven and the afterlife
-- [ ] all of the living human inhabitants of the earth
+- [ ] a result
+- [ ] a bodily process occurring due to the effect of some antecedent stimulus or agent
+- [ ] a statement (either spoken or written) that is made to reply to a question or request or criticism or accusation
+- [ ] the manner in which something is greeted
+- [ ] a phrase recited or sung by the congregation following a versicle by the priest or minister
+- [ ] the speech act of continuing a conversational exchange
+- [ ] the manner in which an electrical or mechanical device responds to an input signal or a range of input signals
 ----------------
-What is the meaning of **"member"** in the following sentence?
+What is the meaning of **"Space"** in the following sentence?
 
-‘ A letter dropped through the post from the President of the Socialist Republic of Montenegro , inviting me to the funeral , ’ said John Kennedy , a Conservative Party **member** who lives in Barking and is a distant relative of Nicholas .
+Figures of fun Open **Space** ..
+
+Your answer (choose one of the following): 
+- [ ] the unlimited expanse in which everything is located
+- [ ] an empty area (usually bounded in some way between things)
+- [ ] an area reserved for some particular purpose
+- [ ] any location outside the Earth's atmosphere
+- [ ] a blank character used to separate successive words in writing or printing
+- [ ] the interval between two times
+- [ ] a blank area
+- [ ] one of the areas between or below or above the lines of a musical staff
+- [ ] (printing) a block of type without a raised letter; used for spacing between words or sentences
+----------------
+What is the meaning of **"curtains"** in the following sentence?
+
+‘ I have a horrible feeling that UM is about to reorganise world-wide planning operations and , if that happens , it 's **curtains** for the European organisation and for me . ’
+
+Your answer (choose one of the following): 
+- [ ] hanging cloth used as a blind (especially for a window)
+- [ ] any barrier to communication or vision
+----------------
+What is the meaning of **"view"** in the following sentence?
+
+I told Northcliffe that if his people would make enquiries at our Central Office , he would find that our nightly regiment of speakers was at least as well worth reporting as the Radical contingent , but that I realized that from the Press point of **view** , no doubt , our speakers did not play up to the reporters by> handing them their speeches in advance , and by other tricks of the kind to which the Radical orators have recourse .
+
+Your answer (choose one of the following): 
+- [ ] a way of regarding situations or topics etc.
+- [ ] the visual percept of a region
+- [ ] the act of looking or seeing or observing
+- [ ] the range of the eye
+- [ ] a personal belief or judgment that is not founded on proof or certainty
+- [ ] a message expressing a belief about something; the expression of a belief that is held with confidence but not substantiated by positive knowledge or proof
+- [ ] purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of'
+- [ ] graphic art consisting of the graphic or photographic representation of a visual percept
+- [ ] the range of interest or activity that can be anticipated
+- [ ] outward appearance
+----------------
+What is the meaning of **"contact"** in the following sentence?
+
+Because of their early **contact** with parents they often had considerable influence in steering parents towards specialist provision .
+
+Your answer (choose one of the following): 
+- [ ] close interaction
+- [ ] the act of touching physically
+- [ ] the state or condition of touching or of being in immediate proximity
+- [ ] the physical coming together of two or more things
+- [ ] a person who is in a position to give you special assistance
+- [ ] a channel for communication between groups
+- [ ] (electronics) a junction where things (as two electrical conductors) touch or are in physical contact
+- [ ] a communicative interaction
+- [ ] a thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication
+----------------
+What is the meaning of **"lot"** in the following sentence?
+
+If I give you a bit of paper and the **lot** , yeah well you know what to do and go to school and fill them in !
+
+Your answer (choose one of the following): 
+- [ ] (often followed by `of') a large number or amount or extent
+- [ ] a parcel of land having fixed boundaries
+- [ ] an unofficial association of people or groups
+- [ ] your overall circumstances or condition in life (including everything that happens to you)
+- [ ] anything (straws or pebbles etc.) taken or chosen at random
+- [ ] any collection in its entirety
+- [ ] (Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction
+----------------
+What is the meaning of **"course"** in the following sentence?
+
+In the second half of the session , **course** leaders sponsor participants to an evening at the pub for the purpose of practising drinking skills and purchasing non-alcoholic drinks .
+
+Your answer (choose one of the following): 
+- [ ] education imparted in a series of lessons or meetings
+- [ ] a connected series of events or actions or developments
+- [ ] general line of orientation
+- [ ] a mode of action
+- [ ] a line or route along which something travels or moves
+- [ ] a body of students who are taught together
+- [ ] part of a meal served at one time
+- [ ] (construction) a layer of masonry
+- [ ] facility consisting of a circumscribed area of land or water laid out for a sport
+----------------
+What is the meaning of **"values"** in the following sentence?
+
+Nature has been banished , technology and its concomitant **values** reign over a harshly masculine world .
+
+Your answer (choose one of the following): 
+- [ ] beliefs of a person or social group in which they have an emotional investment (either for or against something)
+- [ ] a numerical quantity measured or assigned or computed
+- [ ] the quality (positive or negative) that renders something desirable or valuable
+- [ ] the amount (of money or goods or services) that is considered to be a fair equivalent for something else
+- [ ] relative darkness or lightness of a color; -Joe Hing Lowe
+- [ ] (music) the relative duration of a musical note
+- [ ] an ideal accepted by some individual or group
+----------------
+What is the meaning of **"attitudes"** in the following sentence?
+
+He was President of FISA ( Federation Internationale des Societes d'Aviron ) , the world governing body , for 30 years ; and most of this body 's **attitudes** and practices reflect the force of his strict , but genial personality .
+
+Your answer (choose one of the following): 
+- [ ] a complex mental state involving beliefs and feelings and values and dispositions to act in certain ways
+- [ ] the arrangement of the body and its limbs
+- [ ] a theatrical pose created for effect
+- [ ] position of aircraft or spacecraft relative to a frame of reference (the horizon or direction of motion)
+----------------
+What is the meaning of **"facets"** in the following sentence?
+
+While Elle , Vogue and subsequently The Independent ( Fig. 5 ) , stressed different **facets** of Kahlo 's public persona , they all shared the emphasis on ‘ her ’ , as an encapsulisation of stereotypical images of Mexico , rather than her work .
+
+Your answer (choose one of the following): 
+- [ ] a distinct feature or element in a problem
+- [ ] a smooth surface (as of a bone or cut gemstone)
+----------------
+What is the meaning of **"element"** in the following sentence?
+
+The fault **element** for many serious offences is intent or recklessness : why should this not suffice for murder ?
+
+Your answer (choose one of the following): 
+- [ ] an abstract part of something
+- [ ] an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system
+- [ ] any of the more than 100 known substances (of which 92 occur naturally) that cannot be separated into simpler substances and that singly or in combination constitute all matter
+- [ ] the most favorable environment for a plant or animal
+- [ ] one of four substances thought in ancient and medieval cosmology to constitute the physical universe
+- [ ] the situation in which you are happiest and most effective
+- [ ] a straight line that generates a cylinder or cone
+----------------
+What is the meaning of **"class"** in the following sentence?
+
+Michael Thomas , several years younger , is not quite in the same **class** yet but may have to play in Chorzow .
+
+Your answer (choose one of the following): 
+- [ ] a collection of things sharing a common attribute
+- [ ] a body of students who are taught together
+- [ ] people having the same social, economic, or educational status
+- [ ] education imparted in a series of lessons or meetings
+- [ ] a league ranked by quality
+- [ ] a body of students who graduate together
+- [ ] (biology) a taxonomic group containing one or more orders
+- [ ] elegance in dress or behavior
+----------------
+What is the meaning of **"situation"** in the following sentence?
+
+There will be the reality of the economic **situation** which we inherit , which will not be our fault , but it will be our responsibility .
+
+Your answer (choose one of the following): 
+- [ ] the general state of things; the combination of circumstances at a given time; ; ; - Franklin D.Roosevelt
+- [ ] a condition or position in which you find yourself
+- [ ] a complex or critical or unusual difficulty
+- [ ] physical position in relation to the surroundings
+- [ ] a job in an organization
+----------------
+What is the meaning of **"cat"** in the following sentence?
+
+Even so , no room to swing a **cat** .
+
+Your answer (choose one of the following): 
+- [ ] feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats
+- [ ] an informal term for a youth or man
+- [ ] a spiteful woman gossip
+- [ ] the leaves of the shrub Catha edulis which are chewed like tobacco or used to make tea; has the effect of a euphoric stimulant
+- [ ] a whip with nine knotted cords
+- [ ] a large tracked vehicle that is propelled by two endless metal belts; frequently used for moving earth in construction and farm work
+- [ ] any of several large cats typically able to roar and living in the wild
+- [ ] a method of examining body organs by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis
+----------------
+What is the meaning of **"members"** in the following sentence?
+
+MORE than 800 Lloyd 's of London **members** on syndicates managed by the loss-making Gooda Walker agency have failed in their legal attempt to prevent Lloyd 's and members ' agents from drawing down their funds .
 
 Your answer (choose one of the following): 
 - [ ] one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)
@@ -2481,17 +1502,6 @@ Your answer (choose one of the following):
 - [ ] an external body part that projects from the body
 - [ ] an organization that is a member of another organization (especially a state that belongs to a group of nations)
 - [ ] the male organ of copulation (`member' is a euphemism)
-----------------
-What is the meaning of **"target"** in the following sentence?
-
-THE NEW Health Secretary , Mrs Virginia Bottomley , set herself an ambitious **target** yesterday — to ‘ take the politics ’ out of the National Health Service .
-
-Your answer (choose one of the following): 
-- [ ] a reference point to shoot at
-- [ ] a person who is the aim of an attack (especially a victim of ridicule or exploitation) by some hostile person or influence
-- [ ] the location of the target that is to be hit
-- [ ] sports equipment consisting of an object set up for a marksman or archer to aim at
-- [ ] the goal intended to be attained (and which is believed to be attainable)
 ----------------
 What is the meaning of **"groups"** in the following sentence?
 
@@ -2502,208 +1512,258 @@ Your answer (choose one of the following):
 - [ ] (chemistry) two or more atoms bound together as a single unit and forming part of a molecule
 - [ ] a set that is closed, associative, has an identity element and every element has an inverse
 ----------------
-What is the meaning of **"deal"** in the following sentence?
+What is the meaning of **"rollers"** in the following sentence?
 
-He 's got to go and **deal** with the children , take them to and from work , then run a business .
+PUB ROCK / Pint-sized rock ‘ n ’ **rollers** : Jim White selects the best of the London pub venues and gigs in the weeks ahead
 
 Your answer (choose one of the following): 
-- [ ] a particular instance of buying or selling
-- [ ] an agreement between parties (usually arrived at after discussion) fixing obligations of each
+- [ ] a grounder that rolls along the infield
+- [ ] a long heavy sea wave as it advances towards the shore
+- [ ] a small wheel without spokes (as on a roller skate)
+- [ ] a cylinder that revolves
+- [ ] a mechanical device consisting of a cylindrical tube around which the hair is wound to curl it
+- [ ] Old World bird that tumbles or rolls in flight; related to kingfishers
+- [ ] pigeon that executes backward somersaults in flight or on the ground
+----------------
+What is the meaning of **"Forum"** in the following sentence?
+
+Frederica Potter , Radio 3 Critics ' **Forum** .
+
+Your answer (choose one of the following): 
+- [ ] a public meeting or assembly for open discussion
+- [ ] a public facility to meet for open discussion
+----------------
+What is the meaning of **"framework"** in the following sentence?
+
+In Southend , where 3,000 of the 50,000 adult males are reckoned to be Masons , it went into the case of what you might call Preferential Allocation of Council Property , and the battle of one councillor , Christopher Hudson , to break the grip of the men on the Square : ‘ We ca n't have a secret society operating within the **framework** of a democracy , ’ he said .
+
+Your answer (choose one of the following): 
+- [ ] a hypothetical description of a complex entity or process
+- [ ] the underlying structure
+- [ ] a structure supporting or containing something
+----------------
+What is the meaning of **"stage"** in the following sentence?
+
+At a time when the Home Secretary is inviting the Probation Service to ‘ move centre **stage** in the Criminal Justice System ’ ( NACRO , 1990 , p. 17 ) it may seem misguided and unnecessarily pedantic to take issue with the White Paper 's notion of punishment .
+
+Your answer (choose one of the following): 
+- [ ] any distinct time period in a sequence of events
+- [ ] a specific identifiable position in a continuum or series or especially in a process
+- [ ] a large platform on which people can stand and can be seen by an audience
+- [ ] the theater as a profession (usually `the stage')
+- [ ] a large coach-and-four formerly used to carry passengers and mail on regular routes between towns
+- [ ] a section or portion of a journey or course
+- [ ] any scene regarded as a setting for exhibiting or doing something; --Shakespeare
+- [ ] a small platform on a microscope where the specimen is mounted for examination
+----------------
+What is the meaning of **"speed"** in the following sentence?
+
+I 'm up to **speed** with Huerter , of course , but is your planning application in Leicester all right ? ’
+
+Your answer (choose one of the following): 
+- [ ] distance travelled per unit time
+- [ ] a rate (usually rapid) at which something happens
+- [ ] changing location rapidly
+- [ ] the ratio of the focal length to the diameter of a (camera) lens system
+- [ ] a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression
+----------------
+What is the meaning of **"asset"** in the following sentence?
+
+One is to acquire a human **asset** multiplier for each level of staff .
+
+Your answer (choose one of the following): 
+- [ ] a useful or valuable quality
+----------------
+What is the meaning of **"sheets"** in the following sentence?
+
+The speech came over the wires so late and the **sheets** were so confused by the Post Office — which is usual in these cases — that without the precis we could not possibly have got the leader through in time for the first edition .
+
+Your answer (choose one of the following): 
+- [ ] any broad thin expanse or surface
+- [ ] paper used for writing or printing
+- [ ] bed linen consisting of a large rectangular piece of cotton or linen cloth; used in pairs
+- [ ] (mathematics) an unbounded two-dimensional shape
+- [ ] newspaper with half-size pages
+- [ ] a flat artifact that is thin relative to its length and width
+- [ ] (nautical) a line (rope or chain) that regulates the angle at which a sail is set in relation to the wind
+- [ ] a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel
+----------------
+What is the meaning of **"fodder"** in the following sentence?
+
+Annabel was determined to get a grip on herself and do as Scott advised : remember 1965 as the year she stopped having to go to auditions and 1966 as the year in which she blossomed into a successful young New York hostess as she met Andy Warhol , Lenny Bernstein , Baby Jane Holzer , and all the other gossip-columnist **fodder** .
+
+Your answer (choose one of the following): 
+- [ ] soldiers who are regarded as expendable in the face of artillery fire
+- [ ] coarse food (especially for livestock) composed of entire plants or the leaves and stalks of a cereal crop
+----------------
+What is the meaning of **"adoption"** in the following sentence?
+
+In their formal language , Kahlo 's works are exemplary of certain feminist arguments ; the **adoption** of the decorative , the intimate and non-fine art mediums reveals the restrictive nature of traditional definitions of ‘ high art ’ .
+
+Your answer (choose one of the following): 
+- [ ] the act of accepting with approval; favorable reception
+- [ ] a legal proceeding that creates a parent-child relation between persons not related by blood; the adopted child is entitled to all privileges belonging to a natural child of the adoptive parents (including the right to inherit)
+- [ ] the appropriation (of ideas or words etc) from another source
+----------------
+What is the meaning of **"core"** in the following sentence?
+
+It necessitated the rapid mobilization of auxiliaries to join a **core** of highly-trained troops kept constantly , at the ready — the princes ' military households , which became the linch pin of the system .
+
+Your answer (choose one of the following): 
+- [ ] a small group of indispensable persons or things
+- [ ] the center of an object
+- [ ] the central part of the Earth
+- [ ] the choicest or most essential or most vital part of some idea or experience
+- [ ] a cylindrical sample of soil or rock obtained with a hollow drill
+- [ ] an organization founded by James Leonard Farmer in 1942 to work for racial equality
+- [ ] the central meaning or theme of a speech or literary work
+- [ ] (computer science) a tiny ferrite toroid formerly used in a random access memory to store one bit of data; now superseded by semiconductor memories
+- [ ] the chamber of a nuclear reactor containing the fissile material where the reaction takes place
+- [ ] a bar of magnetic material (as soft iron) that passes through a coil and serves to increase the inductance of the coil
+----------------
+What is the meaning of **"Guide"** in the following sentence?
+
+An old woman , armed with a Sound **Guide** , became quite excited and pulled at the arm of another .
+
+Your answer (choose one of the following): 
+- [ ] someone employed to conduct others
+- [ ] someone who shows the way by leading or advising
+- [ ] something that offers basic information or instruction
+- [ ] a model or standard for making comparisons
+- [ ] someone who can find paths through unexplored territory
+- [ ] a structure or marking that serves to direct the motion or positioning of something
+----------------
+What is the meaning of **"power"** in the following sentence?
+
+The bloody man 's **power** drunk already . ’
+
+Your answer (choose one of the following): 
+- [ ] possession of controlling influence
+- [ ] (physics) the rate of doing work; measured in watts (= joules/second)
+- [ ] possession of the qualities (especially mental qualities) required to do something or get something done
+- [ ] (of a government or government official) holding an office means being in power
+- [ ] one possessing or exercising power or influence or authority
+- [ ] a mathematical notation indicating the number of times a quantity is multiplied by itself
+- [ ] physical strength
+- [ ] a state powerful enough to influence events throughout the world
+- [ ] a very wealthy or powerful businessman
+----------------
+What is the meaning of **"infusion"** in the following sentence?
+
+Relief surged through her like a physical **infusion** of new blood .
+
+Your answer (choose one of the following): 
+- [ ] a solution obtained by steeping or soaking a substance (usually in water)
+- [ ] the process of extracting certain active properties (as a drug from a plant) by steeping or soaking (usually in water)
+- [ ] (medicine) the passive introduction of a substance (a fluid or drug or electrolyte) into a vein or between tissues (as by gravitational force)
+- [ ] the act of infusing or introducing a certain modifying element or quality
+----------------
+What is the meaning of **"lots"** in the following sentence?
+
+And well **lots** of people go and have blood pressure taken , they find it 's high , and they
+
+Your answer (choose one of the following): 
+- [ ] a large number or amount
 - [ ] (often followed by `of') a large number or amount or extent
-- [ ] a plank of softwood (fir or pine board)
-- [ ] wood that is easy to saw (from conifers such as pine or fir)
-- [ ] the cards held in a card game by a given player at any given time
-- [ ] the type of treatment received (especially as the result of an agreement)
-- [ ] the act of distributing playing cards
-- [ ] the act of apportioning or distributing something
+- [ ] a parcel of land having fixed boundaries
+- [ ] an unofficial association of people or groups
+- [ ] your overall circumstances or condition in life (including everything that happens to you)
+- [ ] anything (straws or pebbles etc.) taken or chosen at random
+- [ ] any collection in its entirety
+- [ ] (Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction
 ----------------
-What is the meaning of **"order"** in the following sentence?
+What is the meaning of **"BACKGROUND"** in the following sentence?
 
-We will tackle putting our economy in **order** so that we can achieve that social ambition , so that the strong economy is used to finance and develop the fair society . ’
+**BACKGROUND** : UNDER-FIVES SERVICES IN ISLINGTON , 1983
 
 Your answer (choose one of the following): 
-- [ ] (often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed
-- [ ] a degree in a continuum of size or quantity
-- [ ] established customary state (especially of society)
-- [ ] logical or comprehensible arrangement of separate elements
-- [ ] a condition of regular or proper arrangement
-- [ ] a legally binding command or decision entered on the court record (as if issued by a court or judge)
-- [ ] a commercial document used to request someone to supply something in return for payment and providing specifications and quantities
-- [ ] a formal association of people with similar interests
-- [ ] a body of rules followed by an assembly
-- [ ] (usually plural) the status or rank or office of a Christian clergyman in an ecclesiastical hierarchy
-- [ ] a group of person living under a religious rule
-- [ ] (biology) taxonomic group containing one or more families
-- [ ] a request for something to be made, supplied, or served
-- [ ] (architecture) one of original three styles of Greek architecture distinguished by the type of column and entablature used or a style developed from the original three by the Romans
-- [ ] the act of putting things in a sequential arrangement
+- [ ] a person's social heritage: previous experience or training
+- [ ] the part of a scene (or picture) that lies behind objects in the foreground
+- [ ] information that is essential to understanding a situation or problem
+- [ ] extraneous signals that can be confused with the phenomenon to be observed or measured
+- [ ] relatively unimportant or inconspicuous accompanying situation
+- [ ] the state of the environment in which a situation exists
+- [ ] (computer science) the area of the screen in graphical user interfaces against which icons and windows appear
+- [ ] scenery hung at back of stage
 ----------------
-What is the meaning of **"rules"** in the following sentence?
+What is the meaning of **"variety"** in the following sentence?
 
-There 's no guarantee that what we 're hunting is going to follow the **rules** . ’
+Yet , the irony of the early 1980s — as a deteriorating , but perennial , urban problem rapidly became the most acute aspect of the crisis of mass unemployment — was that a Tory government , willy-nilly , found itself presiding over an increase in state intervention through a **variety** of agencies .
 
 Your answer (choose one of the following): 
-- [ ] a principle or condition that customarily governs behavior
-- [ ] something regarded as a normative example
-- [ ] prescribed guide for conduct or action
-- [ ] (linguistics) a rule describing (or prescribing) a linguistic practice
-- [ ] a basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct
-- [ ] the duration of a monarch's or government's power
-- [ ] dominance or power through legal authority
-- [ ] directions that define the way a game or sport is to be conducted
-- [ ] any one of a systematic body of regulations defining the way of life of members of a religious order
-- [ ] a rule or law concerning a natural phenomenon or the function of a complex system
-- [ ] (mathematics) a standard procedure for solving a class of mathematical problems
-- [ ] measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths
+- [ ] a collection containing a variety of sorts of things
+- [ ] noticeable heterogeneity
+- [ ] (biology) a taxonomic category consisting of members of a species that differ from others of the same species in minor but heritable characteristics
+- [ ] a show consisting of a series of short unrelated performances
+- [ ] a category of things distinguished by some common characteristic or quality
+- [ ] a difference that is usually pleasant
 ----------------
-What is the meaning of **"area"** in the following sentence?
+What is the meaning of **"doctor"** in the following sentence?
 
-A new canvass system was introduced in 1911 so that all county constituencies would operate the same system and so that duplicate records could be kept at **area** level .
+An effective analyst provides the same service to the business as the **doctor** provides to the patient .
 
 Your answer (choose one of the following): 
-- [ ] a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography)
-- [ ] a subject of study
-- [ ] a part of an animal that has a special function or is supplied by a given artery or nerve
-- [ ] a particular environment or walk of life
-- [ ] a part of a structure having some specific characteristic or function
-- [ ] the extent of a 2-dimensional surface enclosed within a boundary
+- [ ] a licensed medical practitioner
+- [ ] (Roman Catholic Church) a title conferred on 33 saints who distinguished themselves through the orthodoxy of their theological teaching
+- [ ] children take the roles of physician or patient or nurse and pretend they are at the physician's office
+- [ ] a person who holds Ph.D. degree (or the equivalent) from an academic institution
 ----------------
-What is the meaning of **"solicitors"** in the following sentence?
+What is the meaning of **"somersaults"** in the following sentence?
 
-Or does that sound like a firm of country **solicitors** ?
+The Paul Jones and the emotional **somersaults** when the music stopped and they came face to face for the very first time .
 
 Your answer (choose one of the following): 
-- [ ] a petitioner who solicits contributions or trade or votes
-- [ ] a British lawyer who gives legal advice and prepares legal documents
+- [ ] an acrobatic feat in which the feet roll over the head (either forward or backward) and return
 ----------------
-What is the meaning of **"separation"** in the following sentence?
+What is the meaning of **"load"** in the following sentence?
 
-New York and Detroit will come up with an attractive **separation** package , you can be sure of that .
+Like chicken Kiev without a **load** of sloppy butter .
 
 Your answer (choose one of the following): 
-- [ ] the state of lacking unity
-- [ ] coming apart
-- [ ] the distance between things
-- [ ] sorting one thing from others
-- [ ] the social act of separating or parting company
-- [ ] the space where a division or parting occurs
-- [ ] the termination of employment (by resignation or dismissal)
-- [ ] (law) the cessation of cohabitation of man and wife (either by mutual agreement or under a court order)
-- [ ] the act of dividing or disconnecting
+- [ ] weight to be borne or conveyed
+- [ ] a quantity that can be processed or transported at one time
+- [ ] goods carried by a large vehicle
+- [ ] an amount of alcohol sufficient to intoxicate
+- [ ] the power output of a generator or power plant
+- [ ] an onerous or difficult concern
+- [ ] a deposit of valuable ore occurring within definite boundaries separating it from surrounding rocks
+- [ ] the front part of a guided missile or rocket or torpedo that carries the nuclear or explosive charge or the chemical or biological agents
+- [ ] electrical device to which electrical power is delivered
 ----------------
-What is the meaning of **"attitudes"** in the following sentence?
+What is the meaning of **"mess"** in the following sentence?
 
-To instil or reinforce responsible drinking **attitudes** and behaviour .
+Chamberlain provided the way out by suggesting to Balcarres that both he and Long should withdraw and so allow Law to be elected unanimously ; he also turned down Balcarres 's remarkable advice that he should allow Long to be elected since Long would make such a **mess** of things that Chamberlain would be bound to succeed within the year .
 
 Your answer (choose one of the following): 
-- [ ] a complex mental state involving beliefs and feelings and values and dispositions to act in certain ways
-- [ ] the arrangement of the body and its limbs
-- [ ] a theatrical pose created for effect
-- [ ] position of aircraft or spacecraft relative to a frame of reference (the horizon or direction of motion)
+- [ ] a state of confusion and disorderliness
+- [ ] informal terms for a difficult situation
+- [ ] soft semiliquid food
+- [ ] a meal eaten in a mess hall by service personnel
+- [ ] a (large) military dining room where service personnel eat or relax
+- [ ] (often followed by `of') a large number or amount or extent
 ----------------
-What is the meaning of **"Crap"** in the following sentence?
+What is the meaning of **"viewpoint"** in the following sentence?
 
-**Crap** !
+Second , family health service authorities ( FHSAs ) , are also required to take on these roles , but from the **viewpoint** of primary health care services .
 
 Your answer (choose one of the following): 
-- [ ] obscene terms for feces
-- [ ] obscene words for unacceptable behavior
+- [ ] a mental position from which things are viewed
+- [ ] a place from which something can be viewed
 ----------------
-What is the meaning of **"links"** in the following sentence?
+What is the meaning of **"gold"** in the following sentence?
 
-Yet given what we have learned about **links** between the security services and the Loyalist paramilitaries in Northern Ireland , and the deep suspicion about surrogate murders , you ca n't shrug off the shiver Conlon 's words bring .
+Alexander considered the decorative **gold** body , itself a repetition of a body on the Parthenon frieze .
 
 Your answer (choose one of the following): 
-- [ ] a golf course that is built on sandy ground near a shore
-- [ ] the means of connection between things linked in series
-- [ ] a fastener that serves to join or connect
-- [ ] the state of being connected
-- [ ] a connecting shape
-- [ ] a unit of length equal to 1/100 of a chain
-- [ ] (computing) an instruction that connects one part of a program or an element on a list to another program or list
-- [ ] a channel for communication between groups
-- [ ] a two-way radio communication system (usually microwave); part of a more extensive telecommunication network
-- [ ] an interconnecting circuit between two or more locations for the purpose of transmitting and receiving data
-----------------
-What is the meaning of **"interests"** in the following sentence?
-
-It would also be necessary ‘ to smash the decrepit , effete constitution that allows a minority to capture power , and then use it ruthlessly in the **interests** of the privileged few ’ .
-
-Your answer (choose one of the following): 
-- [ ] a sense of concern with and curiosity about someone or something
-- [ ] a reason for wanting something done
-- [ ] the power of attracting or holding one's attention (because it is unusual or exciting etc.)
-- [ ] a fixed charge for borrowing money; usually a percentage of the amount borrowed
-- [ ] (law) a right or legal share of something; a financial involvement with something
-- [ ] (usually plural) a social group whose members control some field of activity and who have common aims
-- [ ] a diversion that occupies one's time and thoughts (usually pleasantly)
-----------------
-What is the meaning of **"claims"** in the following sentence?
-
-Bristol and West **claims** these auctions will help to bring some action to an otherwise slow market , and says it was overwhelmed by the response from people wanting to sell in this way .
-
-Your answer (choose one of the following): 
-- [ ] an assertion of a right (as to money or property)
-- [ ] an assertion that something is true or factual
-- [ ] demand for something as rightful or due
-- [ ] an informal right to something
-- [ ] an established or recognized right
-- [ ] a demand especially in the phrase
-----------------
-What is the meaning of **"habit"** in the following sentence?
-
-She still retained her English **habit** of noting each day 's weather , always expecting changes , marvelling at the hot sunny days which followed one after the other , almost with monotony .
-
-Your answer (choose one of the following): 
-- [ ] an established custom
-- [ ] (psychology) an automatic pattern of behavior in reaction to a specific situation; may be inherited or acquired through frequent repetition
-- [ ] a distinctive attire worn by a member of a religious order
-- [ ] the general form or mode of growth (especially of a plant or crystal)
-- [ ] attire that is typically worn by a horseback rider (especially a woman's attire)
-- [ ] excessive use of drugs
-----------------
-What is the meaning of **"pill"** in the following sentence?
-
-The offer from the Anglo-Swedish consortium formed by Tiphook and Stena AB is the subject of an appeal in the Bermudan courts which is aimed at overturning an earlier ruling allowing SeaCo to proceed with its ‘ poison **pill** ’ defence .
-
-Your answer (choose one of the following): 
-- [ ] something that resembles a tablet of medicine in shape or size
-- [ ] a dose of medicine in the form of a small pellet
-- [ ] a unpleasant or tiresome person
-- [ ] something unpleasant or offensive that must be tolerated or endured
-- [ ] a contraceptive in the form of a pill containing estrogen and progestin to inhibit ovulation and so prevent conception
-----------------
-What is the meaning of **"situations"** in the following sentence?
-
-The use of role play , incorporating previously discussed difficulties ( i.e. homework assignment session 4 ) in ‘ real ’ or set up **situations** provides an opportunity for testing these skills .
-
-Your answer (choose one of the following): 
-- [ ] the general state of things; the combination of circumstances at a given time; ; ; - Franklin D.Roosevelt
-- [ ] a condition or position in which you find yourself
-- [ ] a complex or critical or unusual difficulty
-- [ ] physical position in relation to the surroundings
-- [ ] a job in an organization
-----------------
-What is the meaning of **"bodies"** in the following sentence?
-
-The coordination of competing party **bodies** was carried out with surprising ease .
-
-Your answer (choose one of the following): 
-- [ ] the entire structure of an organism (an animal, plant, or human being)
-- [ ] a group of persons associated by some common tie or occupation and regarded as an entity
-- [ ] a natural object consisting of a dead animal or person
-- [ ] an individual 3-dimensional object that has mass and that is distinguishable from other objects
-- [ ] the body excluding the head and neck and limbs
-- [ ] a collection of particulars considered as a system
-- [ ] the property of holding together and retaining its shape
-- [ ] the central message of a communication
-- [ ] the main mass of a thing
-- [ ] a resonating chamber in a musical instrument (as the body of a violin)
-- [ ] the external structure of a vehicle
+- [ ] coins made of gold
+- [ ] a deep yellow color
+- [ ] a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia
+- [ ] great wealth; --Ben Jonson
+- [ ] something likened to the metal in brightness or preciousness or superiority etc.
 ----------------
 What is the meaning of **"approach"** in the following sentence?
 
-He thought with warmth of her certain **approach** .
+But after 10 years of Tory rule , he had had enough of that **approach** to politics .
 
 Your answer (choose one of the following): 
 - [ ] ideas or actions intended to deal with a problem or situation
@@ -2716,36 +1776,69 @@ Your answer (choose one of the following):
 - [ ] a close approximation
 - [ ] a relatively short golf shot intended to put the ball onto the putting green
 ----------------
-What is the meaning of **"images"** in the following sentence?
+What is the meaning of **"flowers"** in the following sentence?
 
-There are many continuities between 1980–1 and 1985 in relation to the common-sense **images** used in the press and television to cover the events .
+Frederica informed him from the catalogue that the vegetation was supposed to be a jocular portrait by Gauguin of Madeleine , the pears her breasts , the dense **flowers** her hair .
 
 Your answer (choose one of the following): 
-- [ ] an iconic mental representation
-- [ ] (Jungian psychology) a personal facade that one presents to the world
-- [ ] a visual representation (of an object or scene or person or abstraction) produced on a surface
-- [ ] a standard or typical example
-- [ ] language used in a figurative or nonliteral sense
-- [ ] someone who closely resembles a famous person (especially an actor)
-- [ ] (mathematics) the set of values of the dependent variable for which a function is defined
-- [ ] the general impression that something (a person or organization or product) presents to the public
-- [ ] a representation of a person (especially in the form of sculpture)
+- [ ] a plant cultivated for its blooms or blossoms
+- [ ] reproductive organ of angiosperm plants especially one having showy or colorful parts
+- [ ] the period of greatest prosperity or productivity
 ----------------
-What is the meaning of **"part"** in the following sentence?
+What is the meaning of **"window"** in the following sentence?
 
-The poor thing is **part** of this madness .
+In seconds , poor old George would be spread around the room like an explosion in Harrod 's **window** , and the thing would be away .
 
 Your answer (choose one of the following): 
-- [ ] something determined in relation to something that includes it
-- [ ] something less than the whole of a human artifact
-- [ ] a portion of a natural object
-- [ ] that which concerns a person with regard to a particular role or situation
-- [ ] the extended spatial location of something
-- [ ] the actions and activities assigned to or required or expected of a person or group
-- [ ] an actor's portrayal of someone in a play
-- [ ] assets belonging to or due to or contributed by an individual person or group
-- [ ] one of the portions into which something is regarded as divided and which together constitute a whole
-- [ ] a line of scalp that can be seen when sections of hair are combed in opposite directions
-- [ ] the melody carried by a particular voice or instrument in polyphonic music
-- [ ] the part played by a person in bringing about a result
+- [ ] a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air
+- [ ] a transparent opening in a vehicle that allow vision out of the sides or back; usually is capable of being opened
+- [ ] a transparent panel (as of an envelope) inserted in an otherwise opaque material
+- [ ] an opening that resembles a window in appearance or function
+- [ ] the time period that is considered best for starting or finishing something
+- [ ] a pane of glass in a window
+- [ ] an opening in a wall or screen that admits light and air and through which customers can be served
+- [ ] (computer science) a rectangular part of a computer screen that contains a display different from the rest of the screen
+----------------
+What is the meaning of **"drama"** in the following sentence?
+
+On the other hand , sometimes the **drama** of the auction and the competition between bidders can have the opposite effect .
+
+Your answer (choose one of the following): 
+- [ ] a dramatic work intended for performance by actors on a stage
+- [ ] an episode that is turbulent or highly emotional
+- [ ] the literary genre of works intended for the theater
+- [ ] the quality of being arresting or highly emotional
+----------------
+What is the meaning of **"remedy"** in the following sentence?
+
+It is the doctor that provides the **remedy** .
+
+Your answer (choose one of the following): 
+- [ ] act of correcting an error or a fault or an evil
+- [ ] a medicine or therapy that cures disease or relieve pain
+----------------
+What is the meaning of **"formula"** in the following sentence?
+
+The magnetic field may be obtained from Ampère 's law ( eqn ( 3.21 ) ) as follows **formula** , where the line integral is taken over the circle of radius a ( Fig. 3.2 ) , I is the total current of the beam and formula is the azimuthal component of the magnetic field in the cylindrical coordinate system specified by formula] .
+
+Your answer (choose one of the following): 
+- [ ] a group of symbols that make a mathematical statement
+- [ ] directions for making something
+- [ ] a conventionalized statement expressing some fundamental principle
+- [ ] a representation of a substance using symbols for its constituent elements
+- [ ] something regarded as a normative example
+- [ ] a liquid food for infants
+- [ ] (mathematics) a standard procedure for solving a class of mathematical problems
+----------------
+What is the meaning of **"hopes"** in the following sentence?
+
+Labour **hopes** to transform the situation by increasing the number of A-levels to five for the brighter youngsters and providing grants for four-year training courses ( two years in a Further Education college followed by two with an employer ) for the rest .
+
+Your answer (choose one of the following): 
+- [ ] a specific instance of feeling hopeful
+- [ ] the general feeling that some desire will be fulfilled
+- [ ] grounds for feeling hopeful about the future
+- [ ] someone (or something) on which expectations are centered
+- [ ] United States comedian (born in England) who appeared in films with Bing Crosby (1903-2003)
+- [ ] one of the three Christian virtues
 ----------------

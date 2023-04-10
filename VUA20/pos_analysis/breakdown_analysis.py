@@ -6,6 +6,10 @@ from lyc.utils import DeepLTranslator
 from nltk.corpus import wordnet as wn
 from nltk import WordNetLemmatizer
 from random import choice
+import openai
+import os
+
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 class Task:
 
@@ -139,7 +143,7 @@ class TranslationTask(Task):
         def input_format(x):
             pos = x['pos']
             target = x['target']
-            sentence = x['sentence']
+            sentence = x['vanilla_sentence']
             return sentence.replace(f'[{target}]', target)
         
         sentences_to_translate = instances.apply(input_format, axis=1)
@@ -170,10 +174,11 @@ class TranslationTask(Task):
 
 class WSDTask(Task):
 
-    def __init__(self, task, pos_dfs, save_path, num_instances = 160, save_table = True, pos_included = ['VERB', 'NOUN']):
+    def __init__(self, task, pos_dfs, save_path, num_instances = 160, max_num_senses = 10, save_table = True, pos_included = ['VERB', 'NOUN']):
         super().__init__(task, save_path, num_instances, pos_included, pos_dfs)
         
         self.save_table = save_table
+        self.max_num_senses = max_num_senses
 
         self._make_question_and_answer()
         self._realise_to_textual_format()
@@ -192,6 +197,8 @@ class WSDTask(Task):
             if len(synsets) == 0:
                 return None
             glosses = [synset.definition() for synset in synsets]
+            if len(glosses) > self.max_num_senses:
+                return None
             return glosses
         
         instances = self._get_instances(new_col_name='sense_glosses', process_func=get_sense_glosses)
@@ -218,10 +225,11 @@ class WSDTask(Task):
 
 class NLIQuestion(Task):
 
-    def __init__(self, task, pos_dfs, save_path, num_instances = 160, save_table = True, pos_included = ['ADV', 'ADJ', 'VERB', 'NOUN']):
+    def __init__(self, task, pos_dfs, save_path, num_instances = 200, max_lemma_substitues = 12, save_table = True, pos_included = ['ADV', 'ADJ', 'VERB', 'NOUN']):
         super().__init__(task, save_path, num_instances, pos_included, pos_dfs)
         
         self.save_table = save_table
+        self.max_lemma_substitues = max_lemma_substitues
 
         self._prepare_resources()
         self._make_question_and_answer()
@@ -245,14 +253,37 @@ class NLIQuestion(Task):
 
             substitues = set([ lemma.name() for synset in synsets for lemma in synset.lemmas()])
             substitues.discard(target_lemma)
+            substitues.discard(target)
 
-            if len(substitues) == 0:
+            if len(substitues) == 0 or len(substitues) > self.max_lemma_substitues:
                 return None
 
-            sub = choice(list(substitues))
-            return sub
+            return substitues
         
-        instances = self._get_instances(new_col_name='substitue', process_func=get_substitues)
+        def choose_substitues(x, random = False):
+            sentence = x['sentence']
+            substitues = x['substitues']
+
+            # option 1: Randomly choose one substitue
+            if random:
+                return choice(list(substitues))
+
+            # option 2: use ChatGPT to choose one substitue
+            prompt = f"Choose a word from the given word list that can fit in the place of the bolded word marked with ** in the sentence, return only the chosen word and nothing else:\n - The sentence -: {sentence}\n - word candidates -: {list(substitues)}\n\n"
+            try:
+                response = openai.ChatCompletion.create(
+                    model = 'gpt-3.5-turbo',
+                    messages = [
+                        {"role": "user", "content": prompt}
+                    ]
+                )
+                sub = response['choices'][0]['message']['content']
+                return sub
+            except:
+                return choice(list(substitues))        
+        # instances = self._get_instances(new_col_name='substitues', process_func=get_substitues)
+        instances = self._get_instances(new_col_name='substitues', process_func=get_substitues)
+        instances['substitue'] = instances.apply(choose_substitues, axis=1)
         
         self.instances = instances
         return instances
@@ -263,6 +294,8 @@ class NLIQuestion(Task):
             target = x['target']
             sentence = x['sentence']
             substitue = x['substitue']
+            # substitues = x['substitues']
+            # return f"{sentence}\n {str(substitues)}\n\n"
             return f"Does the following sentence pair semantically equivalent?\n\n1. {sentence} \n2. {sentence.replace(target, substitue)}\n\nYour answer [Correct: 1, Wrong: 0]: \n\n----------------\n"
         
         self.instances['textual_format'] = self.instances.apply(realise_to_textual_format, axis=1)
@@ -335,15 +368,15 @@ class DownstreamQuestion:
         self.write_questions(self.non_meta_dfs, save_path = 'VUA20/non_meta_tasks_questions')
 
     def write_questions(self, pos_dfs, save_path):
-        SentimentTask('sentiment', pos_dfs, save_path, save_table=False)
-        RelationOfPrep('prep', pos_dfs, save_path)
+        # SentimentTask('sentiment', pos_dfs, save_path, save_table=False)
+        # RelationOfPrep('prep', pos_dfs, save_path)
         NLIQuestion('nli', pos_dfs, save_path)
-        WSDTask('wsd', pos_dfs, save_path)
-        TranslationTask('translation', pos_dfs, save_path, save_table=False)
+        # WSDTask('wsd', pos_dfs, save_path)
+        # TranslationTask('translation', pos_dfs, save_path, save_table=False)
 
         print("All tasks saved to ", save_path)
 
-    def _prepare_dfs(self, meta = True, split = 'train'):
+    def _prepare_dfs(self, meta = True, split = 'test'):
 
         sorted_by_pos = {}
         flag = 1 if meta else 0
@@ -363,19 +396,22 @@ class DownstreamQuestion:
         for pos, df in pos_dfs.items():
             if not len(df.index): continue
             target = df.apply(DownstreamQuestion.target_word, axis=1)
+            vanilla_sents = df.apply(DownstreamQuestion.sentencer, axis=1, args=(False,))
             sents = df.apply(DownstreamQuestion.sentencer, axis=1)
             df = df.drop(['tokens', 'sent_id'], axis=1)
             df['target'] = target
             df['sentence'] = sents
+            df['vanilla_sentence'] = vanilla_sents
             pos_dfs[pos] = df
         
         return pos_dfs
     
     @staticmethod
-    def sentencer(x):
+    def sentencer(x, bold_target=True):
         tokens = x['tokens']
         target = tokens[x['word_index']]
-        tokens[x['word_index']] = f"**{target}**"
+        if bold_target:
+            tokens[x['word_index']] = f"**{target}**"
         return ' '.join(tokens)
 
     @staticmethod
