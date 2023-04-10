@@ -177,13 +177,15 @@ if __name__ == '__main__':
     model = SenseEmbedding(model_path, add_prefix_space = True, pool = pool, max_length=max_length, output_hidden_states = True)
     word2sentence = word2sentence(source, tokenizer, index_path=index_path)
 
-    if source == 'semcor':
+    if source == 'semcor' or source == 'ufsac':
         words = word2sentence.word2lemmas.moh_word2lemmas
         lemma2gloss = lambda lemma: wn.lemma_from_key(lemma).synset().definition()
     elif source == 'senseval3':
         words = word2sentence.word2lemmas.senseval3_word2lemmas
         glosses = {s.lemma : s.gloss for word, senses in words.items() for s in senses }
         lemma2gloss = glosses.get
+
+        # it seems senseval have two sense inventories, so we need some merging.
         sense_merging_mapping = word2sentence.word2lemmas.senseval3_sense_merging
 
     # model = get_model(simcse, model_path, pool = pool, output_hidden_states = True)
@@ -200,7 +202,8 @@ if __name__ == '__main__':
     corpus_output_file.write('word\tlemma\tgloss\tlabel\toverlap_score\tcontext\ttarget_index\n')
     for word in words:
         contexts = word2sentence(word, minimum = 1, max_length = max_length)
-        contexts = sense_merge(contexts, sense_merging_mapping)
+        if source == 'senseval3':
+            contexts = sense_merge(contexts, sense_merging_mapping)
         # contexts = contexts[:100]
         if source == 'senseval3':
             contexts = [sent for sent in contexts if not ';' in sent.tokens[sent.index].sense]
