@@ -202,15 +202,17 @@ if __name__ == '__main__':
     corpus_output_file.write('word\tlemma\tgloss\tlabel\toverlap_score\tcontext\ttarget_index\n')
     for word in words:
         contexts = word2sentence(word, minimum = 1, max_length = max_length)
-        if source == 'senseval3':
-            contexts = sense_merge(contexts, sense_merging_mapping)
         # contexts = contexts[:100]
         if source == 'senseval3':
+            contexts = sense_merge(contexts, sense_merging_mapping)
             contexts = [sent for sent in contexts if not ';' in sent.tokens[sent.index].sense]
         if not contexts:
             print(f'{word} do not have enough contexts!')
             continue
-        lemmas = [ cont.tokens[cont.index].sense for cont in contexts]
+        if source == 'ufsac':
+            contexts = [ cont.sense_list[0] for cont in contexts]
+        else:
+            lemmas = [ cont.tokens[cont.index].sense for cont in contexts]
         lemma_counter = Counter(lemmas)
         lemmas = np.array(lemmas)
         metaphorical_senses = [ sense.lemma for sense in words[word] if sense.label == 'metaphorical']
