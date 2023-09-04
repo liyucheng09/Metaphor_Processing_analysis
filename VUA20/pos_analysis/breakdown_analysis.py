@@ -9,7 +9,7 @@ from random import choice
 import openai
 import os
 
-openai.api_key = os.environ['OPENAI_API_KEY']
+# openai.api_key = os.environ['OPENAI_API_KEY']
 
 class Task:
 
@@ -361,16 +361,16 @@ class DownstreamQuestion:
         script = get_hf_ds_scripts_path('vua20')
         self.vua = load_dataset(script, data_dir='VUA20')
 
-        self.meta_dfs = self._prepare_dfs(meta=True)
-        self.non_meta_dfs = self._prepare_dfs(meta=False)
+        self.meta_dfs = self._prepare_dfs(meta=True, split='train')
+        self.non_meta_dfs = self._prepare_dfs(meta=False, split='train')
 
         self.write_questions(self.meta_dfs, save_path = 'VUA20/meta_tasks_questions')
         self.write_questions(self.non_meta_dfs, save_path = 'VUA20/non_meta_tasks_questions')
 
     def write_questions(self, pos_dfs, save_path):
         # SentimentTask('sentiment', pos_dfs, save_path, save_table=False)
-        # RelationOfPrep('prep', pos_dfs, save_path)
-        NLIQuestion('nli', pos_dfs, save_path)
+        RelationOfPrep('prep', pos_dfs, save_path)
+        # NLIQuestion('nli', pos_dfs, save_path)
         # WSDTask('wsd', pos_dfs, save_path)
         # TranslationTask('translation', pos_dfs, save_path, save_table=False)
 
