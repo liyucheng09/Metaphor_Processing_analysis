@@ -150,7 +150,7 @@ def instance_level_metaphor_corpus(corpus_file, word, lemma, overlap, contexts, 
             )
             if most_ambiguous is not None:
                 ambiguous_sent = contexts[most_ambiguous]
-                noise_lemma = ambiguous_sent.tokens[ambiguous_sent.index].sense
+                noise_lemma = ambiguous_sent.tokens[ambiguous_sent.index].sense_list[0]
                 corpus_file.write(
                     f"{word}\t{noise_lemma}\t{lemma2gloss(noise_lemma)}\tliteral\t_\t{repr(ambiguous_sent)}\t{ambiguous_sent.index}\n"
                 )
@@ -210,7 +210,7 @@ if __name__ == '__main__':
             print(f'{word} do not have enough contexts!')
             continue
         if source == 'ufsac':
-            contexts = [ cont.sense_list[0] for cont in contexts]
+            lemmas = [ cont.sense_list[0] for cont in contexts]
         else:
             lemmas = [ cont.tokens[cont.index].sense for cont in contexts]
         lemma_counter = Counter(lemmas)

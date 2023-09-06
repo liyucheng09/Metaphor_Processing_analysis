@@ -28,7 +28,7 @@ class SenseEmbedding(BertWhitening):
 
         for cont in contexts:
             idx = cont.index
-            target_sense = cont.tokens[idx].sense
+            target_sense = cont.sense_list[0]
             sent = [t.word for t in cont.tokens]
             
             sents.append(sent)
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     
     # words = [ 'adhere','attack', 'emerge', 'flow', 'preserve', 'reach', 'sit', ]
     # words = [ 'bank.n', 'activate.v', 'lose.v', 'play.v', 'image.n', 'hot.a']
-    words = [ 'act']
+    words = [ 'flow']
     pool = 'idx-last'
     # pool = 'idx-last-four-average'
     plot_types = ['PCA']

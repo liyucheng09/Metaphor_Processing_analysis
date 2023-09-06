@@ -26,13 +26,16 @@ class sense:
 @dataclass
 class Token:
     word: str
+
+    # lemma is the lemmatised form of word
     lemma: str
     pos: str
 
-    # the primary sense
-    sense: str
+    # the primary sense: the lemma.key in wordnet
+    sense: str = None
 
-    # all possible senses
+    # all possible senses: sometime annotation might
+    # assign multiple word sense for a word, so we use list here
     sense_list: List[str] = None
 
 @dataclass
@@ -422,7 +425,12 @@ class lemma2sentences:
             if len(encoding['input_ids']) > max_length or (no_ambiguous_sentence and len(sent['sense_keys'])>1):
                 continue
             glosses = [ wn.lemma_from_key(sense).synset().definition() for sense in sent['sense_keys']]
-            context = Context(tokens = sent['tokens'], index = sent['target_idx'], glosses=glosses, sense_list=sent['sense_keys'], encoding=encoding)
+            tokens = [Token(word = token , lemma = lemma, pos = pos) for token, lemma, pos in zip(sent['tokens'], sent['lemmas'], sent['pos_tags'])]
+            tokens[sent['target_idx']].sense_list = sent['sense_keys']
+
+            # save primary sense
+            tokens[sent['target_idx']].sense = sent['sense_keys'][0]
+            context = Context(tokens = tokens, index = sent['target_idx'], glosses=glosses, sense_list=sent['sense_keys'], encoding=encoding)
             contexts.append(context)
         
         return contexts
@@ -438,7 +446,7 @@ class lemma2sentences:
             return self.get_ufsac_results(sense, max_length, no_ambiguous_sentence)
 
 class word2sentence:
-    valid_sources = ['semcor', 'senseval3', 'wordnet', 'ufsac']
+    valid_sources = ['semcor', 'senseval3', 'wordnet', 'ufsac',]
 
     def __init__(self, source, tokenizer = None, index_path = 'embeddings/index'):
         self._check_source(source)
