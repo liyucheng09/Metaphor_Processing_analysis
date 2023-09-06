@@ -26,7 +26,7 @@ def main(task):
 
     critical_metaphors = unmask_df[label!=preds]
     critical_metaphors = critical_metaphors[critical_metaphors['vua_label']>0]
-    critical_metaphors.to_csv(save_file_path, sep='\t')
+    critical_metaphors.to_csv(save_file_path, sep='\t', index=False)
 
     metric = datasets.load_metric('glue', task)
     print(f'Finished writing to {save_file_path}')
